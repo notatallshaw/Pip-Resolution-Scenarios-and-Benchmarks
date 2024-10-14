@@ -1,0 +1,452 @@
+{
+    "input": {
+        "pip_version": "notatallshaw#pip@c4157d8dfb2823fc967549ccca08c150ab3df98b",
+        "python_version": "3.11",
+        "datetime": "2024-10-07T14:00:00",
+        "platform_system": "Linux",
+        "requirements": [
+            "great-expectations"
+        ]
+    },
+    "result": {
+        "success": true,
+        "failure_reason": null,
+        "install_urls": [
+            "https://files.pythonhosted.org/packages/00/c0/8f5d070730d7836adc9c9b6408dec68c6ced86b304a9b26a14df072a6e8c/traitlets-5.14.3-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/03/98/eb27cc78ad3af8e302c9d8ff4977f5026676e130d28dd7578132a457170c/toolz-1.0.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/05/f8/beb300ec886bc4e7ff1fe50272b49f37dda9d21747be13b55893062ae1f7/great_expectations-1.1.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/08/aa/cc0199a5f0ad350994d660967a8efb233fe0416e4639146c089643407ce6/packaging-24.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/11/c3/005fcca25ce078d2cc29fd559379817424e94885510568bc1bc53d7d5846/pytz-2024.2-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/12/90/3c9ff0512038035f59d279fddeb79f5f1eccd8859f06d6163c58798b9487/certifi-2024.8.30-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/13/a3/a812df4e2dd5696d1f351d58b8fe16a405b234ad2886a0dab9183fb78109/pycparser-2.22-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/18/62/47452306e84d4d2e67f9c559380aeb230f5e6ca84fafb428dd36b96a99ba/altair-4.2.2-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/20/9f/bc63f0f0737ad7a60800bfd472a4836661adae21f9c2535f3957b1e54ceb/jedi-0.19.1-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/21/02/88b65cc394961a60c43c70517066b6b679738caf78506a5da7b88ffcb643/widgetsnbextension-4.0.13-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/22/2d/9c0b76f2f9cc0ebede1b9371b6f317243028ed60b90705863d493bae622e/ipywidgets-8.1.5-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/22/a6/858897256d0deac81a172289110f31629fc4cee19b6f01283303e18c8db3/ptyprocess-0.7.0-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/26/9f/ad63fc0248c5379346306f8668cda6e2e2e9c95e01216d2b8ffd9ff037d0/typing_extensions-4.12.2-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/31/80/3a54838c3fb461f6fec263ebf3a3a41771bd05190238de3486aae8540c36/jinja2-3.1.4-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/35/a8/365059bbcd4572cbc41de17fd5b682be5868b218c3c5479071865cab9078/entrypoints-0.4-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/3a/d0/edc009c27b406c4f9cbc79274d6e46d634d139075492ad055e3d68445925/numpy-1.26.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/3c/78/c1de55eb3311f2c200a8b91724414b8d6f5ae78891c15d9d936ea43c3dba/marshmallow-3.22.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/40/26/f35951c45070edc957ba40a5b1db3cf60a9dbb1b350c2d5bef03e01e61de/charset_normalizer-3.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/44/31/a3899b5ce02c4316865e390107f145089876dff7e1dfc770a231d836aed8/pydantic_core-2.23.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/45/86/4736ac618d82a20d87d2f92ae19441ebc7ac9e7a581d7e58bbe79233b24a/asttokens-2.4.1-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/48/5d/acf5905c36149bbaec41ccf7f2b68814647347b72075ac0b1fe3022fdc73/tqdm-4.66.5-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/69/4a/4f9dbeb84e8850557c02365a0eee0649abe5eb1d84af92a25731c6c0f922/jsonschema-4.23.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/6a/21/5b6702a7f963e95456c0de2d495f67bf5fd62840ac655dc451586d23d39a/attrs-24.2.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/73/67/8ece580cc363331d9a53055130f86b096bf16e38156e33b1d3014fffda6b/ruamel.yaml-0.18.6-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/76/c6/c88e154df9c4e1a2a66ccf0005a88dfb2650c1dffb6f5ce603dfbd452ce3/idna-3.10-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/78/b6/6307fbef88d9b5ee7421e68d78a9f162e0da4900bc5f5793f6d3d0e34fb8/annotated_types-0.7.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/83/e8/3acf15477d7f1b434435305749afd3fcf783e28160f751c242de2eadff62/posthog-2.5.0-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/89/a1/3e145759e776c8866488a71270c399bf7c4e554551ac2e247aa0a18a0596/makefun-1.15.6-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/8e/37/efad0257dc6e593a18957422533ff0f87ede7c9c6ea010a2177d738fb82f/pure_eval-0.2.3-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/8f/8e/9ad090d3553c280a8060fbf6e24dc1c0c29704ee7d1c372f0c174aa59285/matplotlib_inline-0.1.7-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/93/6b/701776d4bd6bdd9b629c387b5140f006185bd8ddea16788a44434376b98f/scipy-1.14.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/97/18/c30da5e7a0e7f4603abfc6780574131221d9148f323752c2755d48abad30/MarkupSafe-2.1.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/97/3f/c4c51c55ff8487f2e6d0e618dba917e3c3ee2caae6cf0fbb59c9b1876f2e/tzlocal-5.2-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/9a/67/7e8406a29b6c45be7af7740456f7f37025f0506ae2e05fb9009a53946860/monotonic-1.6-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/9e/c3/059298687310d527a58bb01f3b1965787ee3b40dce76752eda8b44e9a2c5/pexpect-4.9.0-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/a4/f7/22d6b620ed895a05d40802d8281eff924dc6190f682d933d4efff60db3b5/ruamel.yaml.clib-0.2.8-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl",
+            "https://files.pythonhosted.org/packages/a6/ab/7e5f53c3b9d14972843a647d8d7a853969a58aecc7559cb3267302c94774/tzdata-2024.2-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/a7/e8/85835077b782555d6b3416874b702ea6ebd7db1f145283c9252968670dd5/rpds_py-0.20.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/a9/6a/fd08d94654f7e67c52ca30523a178b3f8ccc4237fce4be90d39c938a831a/prompt_toolkit-3.0.48-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/a9/93/858e87edc634d628e5d752ba944c2833133a28fa87bb093e6832ced36a3e/jupyterlab_widgets-3.0.13-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/ac/7e/ebda4dd4ae098a0990753efbb4b50954f1d03003846b943ea85070782da7/cryptography-43.0.1-cp39-abi3-manylinux_2_28_x86_64.whl",
+            "https://files.pythonhosted.org/packages/b5/fd/afcd0496feca3276f509df3dbd5dae726fcc756f1a08d9e25abe1733f962/executing-2.1.0-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/b7/59/2056f61236782a2c86b33906c025d4f4a0b17be0161b63b70fd9e8775d36/referencing-0.35.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/c6/ac/dac4a63f978e4dcb3c6d3a78c4d8e0192a113d288502a1216950c41b1027/parso-0.8.4-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/ce/d9/5f4c13cecde62396b0d3fe530a50ccea91e7dfc1ccf0e09c228841bb5ba8/urllib3-2.2.3-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/d5/50/83c593b07763e1161326b3b8c6686f0f4b0f24d5526546bee538c89837d6/decorator-5.1.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/df/73/b6e24bd22e6720ca8ee9a85a0c4a2971af8497d8f3193fa05390cbd46e09/backoff-2.2.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/df/e4/ba44652d562cbf0bf320e0f3810206149c8a4e99cdbf66da82e97ab53a15/pydantic-2.9.2-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/e5/0c/0e3c05b1c87bb6a1c76d281b0f35e78d2d80ac91b5f8f524cebf77f51049/pyparsing-3.1.4-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/e6/75/49e5bfe642f71f272236b5b2d2691cf915a7283cc0ceda56357b61daa538/comm-0.2.2-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/ee/07/44bd408781594c4d0a027666ef27fab1e441b109dc3b76b4f836f8fd04fe/jsonschema_specifications-2023.12.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/f0/74/c95adcdf032956d9ef6c89a9b8a5152bf73915f8c633f3e3d88d06bd699c/mistune-3.0.2-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/f1/7b/ce1eafaf1a76852e2ec9b22edecf1daa58175c090266e9f6c64afcd81d91/stack_data-0.6.3-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/f4/3a/5d8680279ada9571de8469220069d27024ee47624af534e537c9ff49a450/ipython-8.28.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/f7/3f/01c8b82017c199075f8f788d0d906b9ffbbc5a47dc9918a945e13d5a2bda/pygments-2.18.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/f8/8c/9ad173c5cd2c7178c84075c02ec37b5d1d53fb1d015f51ea3e623ea9c31c/pandas-2.1.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/f9/9b/335f9764261e915ed497fcdeb11df5dfd6f7bf257d4a6a2a686d80da4d54/requests-2.32.3-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/fd/84/fd2ba7aafacbad3c4201d395674fc6348826569da3c0937e75505ead3528/wcwidth-0.2.13-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/ff/6b/d45873c5e0242196f042d555526f92aa9e0c32355a1be1ff8c27f077fd37/cffi-1.17.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+        ]
+    },
+    "resolution": [
+        {
+            "requirement": "great-expectations",
+            "packages": [
+                "great_expectations-1.1.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "altair<5.0.0,>=4.2.1 (from great-expectations)",
+            "packages": [
+                "altair-4.2.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "cryptography>=3.2 (from great-expectations)",
+            "packages": [
+                "cryptography-43.0.1-cp39-abi3-manylinux_2_28_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "Ipython>=7.16.3 (from great-expectations)",
+            "packages": [
+                "ipython-8.28.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "ipywidgets>=7.5.1 (from great-expectations)",
+            "packages": [
+                "ipywidgets-8.1.5-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "jinja2>=2.10 (from great-expectations)",
+            "packages": [
+                "jinja2-3.1.4-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "jsonschema>=2.5.1 (from great-expectations)",
+            "packages": [
+                "jsonschema-4.23.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "makefun<2,>=1.7.0 (from great-expectations)",
+            "packages": [
+                "makefun-1.15.6-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "marshmallow<4.0.0,>=3.7.1 (from great-expectations)",
+            "packages": [
+                "marshmallow-3.22.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "mistune>=0.8.4 (from great-expectations)",
+            "packages": [
+                "mistune-3.0.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "packaging (from great-expectations)",
+            "packages": [
+                "packaging-24.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "posthog<3,>=2.1.0 (from great-expectations)",
+            "packages": [
+                "posthog-2.5.0-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "pydantic>=1.10.7 (from great-expectations)",
+            "packages": [
+                "pydantic-2.9.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "pyparsing>=2.4 (from great-expectations)",
+            "packages": [
+                "pyparsing-3.1.4-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "python-dateutil>=2.8.1 (from great-expectations)",
+            "packages": [
+                "python_dateutil-2.9.0.post0-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "pytz>=2021.3 (from great-expectations)",
+            "packages": [
+                "pytz-2024.2-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "requests>=2.20 (from great-expectations)",
+            "packages": [
+                "requests-2.32.3-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "ruamel.yaml>=0.16 (from great-expectations)",
+            "packages": [
+                "ruamel.yaml-0.18.6-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "scipy>=1.6.0 (from great-expectations)",
+            "packages": [
+                "scipy-1.14.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "tqdm>=4.59.0 (from great-expectations)",
+            "packages": [
+                "tqdm-4.66.5-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "typing-extensions>=4.1.0 (from great-expectations)",
+            "packages": [
+                "typing_extensions-4.12.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "tzlocal>=1.2 (from great-expectations)",
+            "packages": [
+                "tzlocal-5.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "urllib3>=1.26 (from great-expectations)",
+            "packages": [
+                "urllib3-2.2.3-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "numpy>=1.22.4 (from great-expectations)",
+            "packages": [
+                "numpy-2.1.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "pandas<2.2,>=1.3.0 (from great-expectations)",
+            "packages": [
+                "pandas-2.1.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "entrypoints (from altair<5.0.0,>=4.2.1->great-expectations)",
+            "packages": [
+                "entrypoints-0.4-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "toolz (from altair<5.0.0,>=4.2.1->great-expectations)",
+            "packages": [
+                "toolz-1.0.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "numpy>=1.22.4 (from great-expectations)",
+            "packages": [
+                "numpy-1.26.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "tzdata>=2022.1 (from pandas<2.2,>=1.3.0->great-expectations)",
+            "packages": [
+                "tzdata-2024.2-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "six>=1.5 (from posthog<3,>=2.1.0->great-expectations)",
+            "packages": [
+                "six-1.16.0-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "monotonic>=1.5 (from posthog<3,>=2.1.0->great-expectations)",
+            "packages": [
+                "monotonic-1.6-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "backoff>=1.10.0 (from posthog<3,>=2.1.0->great-expectations)",
+            "packages": [
+                "backoff-2.2.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "charset-normalizer<4,>=2 (from requests>=2.20->great-expectations)",
+            "packages": [
+                "charset_normalizer-3.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "idna<4,>=2.5 (from requests>=2.20->great-expectations)",
+            "packages": [
+                "idna-3.10-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "certifi>=2017.4.17 (from requests>=2.20->great-expectations)",
+            "packages": [
+                "certifi-2024.8.30-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "cffi>=1.12 (from cryptography>=3.2->great-expectations)",
+            "packages": [
+                "cffi-1.17.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "decorator (from Ipython>=7.16.3->great-expectations)",
+            "packages": [
+                "decorator-5.1.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "jedi>=0.16 (from Ipython>=7.16.3->great-expectations)",
+            "packages": [
+                "jedi-0.19.1-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "matplotlib-inline (from Ipython>=7.16.3->great-expectations)",
+            "packages": [
+                "matplotlib_inline-0.1.7-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "prompt-toolkit<3.1.0,>=3.0.41 (from Ipython>=7.16.3->great-expectations)",
+            "packages": [
+                "prompt_toolkit-3.0.48-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "pygments>=2.4.0 (from Ipython>=7.16.3->great-expectations)",
+            "packages": [
+                "pygments-2.18.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "stack-data (from Ipython>=7.16.3->great-expectations)",
+            "packages": [
+                "stack_data-0.6.3-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "traitlets>=5.13.0 (from Ipython>=7.16.3->great-expectations)",
+            "packages": [
+                "traitlets-5.14.3-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "pexpect>4.3 (from Ipython>=7.16.3->great-expectations)",
+            "packages": [
+                "pexpect-4.9.0-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "wcwidth (from prompt-toolkit<3.1.0,>=3.0.41->Ipython>=7.16.3->great-expectations)",
+            "packages": [
+                "wcwidth-0.2.13-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "comm>=0.1.3 (from ipywidgets>=7.5.1->great-expectations)",
+            "packages": [
+                "comm-0.2.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "widgetsnbextension~=4.0.12 (from ipywidgets>=7.5.1->great-expectations)",
+            "packages": [
+                "widgetsnbextension-4.0.13-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "jupyterlab-widgets~=3.0.12 (from ipywidgets>=7.5.1->great-expectations)",
+            "packages": [
+                "jupyterlab_widgets-3.0.13-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "MarkupSafe>=2.0 (from jinja2>=2.10->great-expectations)",
+            "packages": [
+                "MarkupSafe-2.1.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "attrs>=22.2.0 (from jsonschema>=2.5.1->great-expectations)",
+            "packages": [
+                "attrs-24.2.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "jsonschema-specifications>=2023.03.6 (from jsonschema>=2.5.1->great-expectations)",
+            "packages": [
+                "jsonschema_specifications-2023.12.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "referencing>=0.28.4 (from jsonschema>=2.5.1->great-expectations)",
+            "packages": [
+                "referencing-0.35.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "rpds-py>=0.7.1 (from jsonschema>=2.5.1->great-expectations)",
+            "packages": [
+                "rpds_py-0.20.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "annotated-types>=0.6.0 (from pydantic>=1.10.7->great-expectations)",
+            "packages": [
+                "annotated_types-0.7.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "pydantic-core==2.23.4 (from pydantic>=1.10.7->great-expectations)",
+            "packages": [
+                "pydantic_core-2.23.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "ruamel.yaml.clib>=0.2.7 (from ruamel.yaml>=0.16->great-expectations)",
+            "packages": [
+                "ruamel.yaml.clib-0.2.8-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "pycparser (from cffi>=1.12->cryptography>=3.2->great-expectations)",
+            "packages": [
+                "pycparser-2.22-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "parso<0.9.0,>=0.8.3 (from jedi>=0.16->Ipython>=7.16.3->great-expectations)",
+            "packages": [
+                "parso-0.8.4-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "ptyprocess>=0.5 (from pexpect>4.3->Ipython>=7.16.3->great-expectations)",
+            "packages": [
+                "ptyprocess-0.7.0-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "executing>=1.2.0 (from stack-data->Ipython>=7.16.3->great-expectations)",
+            "packages": [
+                "executing-2.1.0-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "asttokens>=2.1.0 (from stack-data->Ipython>=7.16.3->great-expectations)",
+            "packages": [
+                "asttokens-2.4.1-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "pure-eval (from stack-data->Ipython>=7.16.3->great-expectations)",
+            "packages": [
+                "pure_eval-0.2.3-py3-none-any.whl"
+            ]
+        }
+    ]
+}

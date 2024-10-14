@@ -1,0 +1,40 @@
+{
+    "input": {
+        "pip_version": "notatallshaw#pip@c4157d8dfb2823fc967549ccca08c150ab3df98b",
+        "python_version": "3.11",
+        "datetime": "2024-10-07T14:00:00",
+        "platform_system": "Linux",
+        "requirements": [
+            "cryptography"
+        ]
+    },
+    "result": {
+        "success": true,
+        "failure_reason": null,
+        "install_urls": [
+            "https://files.pythonhosted.org/packages/13/a3/a812df4e2dd5696d1f351d58b8fe16a405b234ad2886a0dab9183fb78109/pycparser-2.22-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/ac/7e/ebda4dd4ae098a0990753efbb4b50954f1d03003846b943ea85070782da7/cryptography-43.0.1-cp39-abi3-manylinux_2_28_x86_64.whl",
+            "https://files.pythonhosted.org/packages/ff/6b/d45873c5e0242196f042d555526f92aa9e0c32355a1be1ff8c27f077fd37/cffi-1.17.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+        ]
+    },
+    "resolution": [
+        {
+            "requirement": "cryptography",
+            "packages": [
+                "cryptography-43.0.1-cp39-abi3-manylinux_2_28_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "cffi>=1.12 (from cryptography)",
+            "packages": [
+                "cffi-1.17.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "pycparser (from cffi>=1.12->cryptography)",
+            "packages": [
+                "pycparser-2.22-py3-none-any.whl"
+            ]
+        }
+    ]
+}

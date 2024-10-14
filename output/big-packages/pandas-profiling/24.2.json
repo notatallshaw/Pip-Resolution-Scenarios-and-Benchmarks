@@ -1,0 +1,306 @@
+{
+    "input": {
+        "pip_version": "24.2",
+        "python_version": "3.11",
+        "datetime": "2024-10-07T14:00:00",
+        "platform_system": "Linux",
+        "requirements": [
+            "pandas-profiling"
+        ]
+    },
+    "result": {
+        "success": true,
+        "failure_reason": null,
+        "install_urls": [
+            "https://files.pythonhosted.org/packages/01/75/6c7ce560e95714a10fcbb3367d1304975a1a3e620f72af28921b796403f3/matplotlib-3.9.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/03/33/003065374f38894cdf1040cef474ad0546368eea7e3a51d48b8a423961f8/contourpy-1.3.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/08/aa/cc0199a5f0ad350994d660967a8efb233fe0416e4639146c089643407ce6/packaging-24.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/11/c3/005fcca25ce078d2cc29fd559379817424e94885510568bc1bc53d7d5846/pytz-2024.2-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/12/90/3c9ff0512038035f59d279fddeb79f5f1eccd8859f06d6163c58798b9487/certifi-2024.8.30-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/23/69/538317f0d925095537745f12aced33be1570bbdc4acde49b33748669af96/numpy-2.1.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/26/9f/ad63fc0248c5379346306f8668cda6e2e2e9c95e01216d2b8ffd9ff037d0/typing_extensions-4.12.2-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/2d/b4/19a746a986c6e38595fa5947c028b1b8e287773dcad766e648897ad2a4cf/ImageHash-4.3.1-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/31/80/3a54838c3fb461f6fec263ebf3a3a41771bd05190238de3486aae8540c36/jinja2-3.1.4-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/38/e9/5f72929373e1a0e8d142a130f3f97e6ff920070f87f91c4e13e40e0fba5a/networkx-3.3-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/3d/66/799d5cebe086c9f1f02cbdf8a72128aaf4c5b413f3a618a023f91a5e6cfc/phik-0.12.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/40/26/f35951c45070edc957ba40a5b1db3cf60a9dbb1b350c2d5bef03e01e61de/charset_normalizer-3.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/44/31/a3899b5ce02c4316865e390107f145089876dff7e1dfc770a231d836aed8/pydantic_core-2.23.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/45/e9/3a047a49a6fd0917ba3e436ff93825f8cecc3cb55720d798bc71433a5433/pywavelets-1.7.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/48/5d/acf5905c36149bbaec41ccf7f2b68814647347b72075ac0b1fe3022fdc73/tqdm-4.66.5-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/57/b7/e13216265ae3135ecda13e966aad9ce04b7e7b3e2d87d056b032fc9f457c/pandas_profiling-3.2.0-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/66/00/166b2beb8046f06b77a2bf2c1dafeb52eff608f7dd420c767d5f3ce36ef5/visions-0.7.4-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/6a/21/5b6702a7f963e95456c0de2d495f67bf5fd62840ac655dc451586d23d39a/attrs-24.2.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/75/e4/2c27590dfc9992f73aabbeb9241ae20220bd9452df27483b6e56d3975cc5/PyYAML-6.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/76/c6/c88e154df9c4e1a2a66ccf0005a88dfb2650c1dffb6f5ce603dfbd452ce3/idna-3.10-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/78/b6/6307fbef88d9b5ee7421e68d78a9f162e0da4900bc5f5793f6d3d0e34fb8/annotated_types-0.7.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/7c/91/d3ba0401e62d7e42816bc7d97b82d19c95c164b3e149a87c0a1c026a735e/joblib-1.1.1-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/83/11/00d3c3dfc25ad54e731d91449895a79e4bf2384dc3ac01809010ba88f6d5/seaborn-0.13.2-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/87/22/cd5cf999af21c2f97486622c551ac3d07361ced8125121e907f588ff5f24/missingno-0.5.2-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/93/6b/701776d4bd6bdd9b629c387b5140f006185bd8ddea16788a44434376b98f/scipy-1.14.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/96/13/748b7f7239893ff0796de11074b0ad8aa4c3da2d9f4d79a128b0b16147f3/fonttools-4.54.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/97/18/c30da5e7a0e7f4603abfc6780574131221d9148f323752c2755d48abad30/MarkupSafe-2.1.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/a6/ab/7e5f53c3b9d14972843a647d8d7a853969a58aecc7559cb3267302c94774/tzdata-2024.2-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/a7/4b/2db7af3ed3af7c35f388d5f53c28e155cd402a55432d800c543dc6deb731/kiwisolver-1.4.7-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/af/98/cff14d53a2f2f67d7fe8a4e235a383ee71aba6a1da12aeea24b325d0c72a/multimethod-1.12-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/b3/e7/fcd59e12169de19f0131ff2812077f964c6b960e7c09804d30a7bf2ab461/htmlmin-0.1.12.tar.gz",
+            "https://files.pythonhosted.org/packages/ba/e5/8c68ff608a4203085158cff5cc2a3c534ec384536d9438c405ed6370d080/pillow-10.4.0-cp311-cp311-manylinux_2_28_x86_64.whl",
+            "https://files.pythonhosted.org/packages/cd/5f/4dba1d39bb9c38d574a9a22548c540177f78ea47b32f99c0ff2ec499fac5/pandas-2.2.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/ce/d9/5f4c13cecde62396b0d3fe530a50ccea91e7dfc1ccf0e09c228841bb5ba8/urllib3-2.2.3-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/dd/60/3651960b74aead282ec1ad819e70bdccf3ee73322d13d4339a6e3f5b7ed3/tangled_up_in_unicode-0.2.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/df/e4/ba44652d562cbf0bf320e0f3810206149c8a4e99cdbf66da82e97ab53a15/pydantic-2.9.2-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/e5/0c/0e3c05b1c87bb6a1c76d281b0f35e78d2d80ac91b5f8f524cebf77f51049/pyparsing-3.1.4-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/e7/05/c19819d5e3d95294a6f5947fb9b9629efb316b96de511b418c53d245aae6/cycler-0.12.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/f9/9b/335f9764261e915ed497fcdeb11df5dfd6f7bf257d4a6a2a686d80da4d54/requests-2.32.3-py3-none-any.whl"
+        ]
+    },
+    "resolution": [
+        {
+            "requirement": "pandas-profiling",
+            "packages": [
+                "pandas_profiling-3.2.0-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "joblib~=1.1.0 (from pandas-profiling)",
+            "packages": [
+                "joblib-1.1.1-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "scipy>=1.4.1 (from pandas-profiling)",
+            "packages": [
+                "scipy-1.14.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "pandas!=1.0.0,!=1.0.1,!=1.0.2,!=1.1.0,>=0.25.3 (from pandas-profiling)",
+            "packages": [
+                "pandas-2.2.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "matplotlib>=3.2.0 (from pandas-profiling)",
+            "packages": [
+                "matplotlib-3.9.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "pydantic>=1.8.1 (from pandas-profiling)",
+            "packages": [
+                "pydantic-2.9.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "PyYAML>=5.0.0 (from pandas-profiling)",
+            "packages": [
+                "PyYAML-6.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "jinja2>=2.11.1 (from pandas-profiling)",
+            "packages": [
+                "jinja2-3.1.4-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "markupsafe~=2.1.1 (from pandas-profiling)",
+            "packages": [
+                "MarkupSafe-2.1.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "visions==0.7.4 (from visions[type_image_path]==0.7.4->pandas-profiling)",
+            "packages": [
+                "visions-0.7.4-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "numpy>=1.16.0 (from pandas-profiling)",
+            "packages": [
+                "numpy-2.1.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "htmlmin>=0.1.12 (from pandas-profiling)",
+            "packages": [
+                "htmlmin-0.1.12.tar.gz"
+            ]
+        },
+        {
+            "requirement": "missingno>=0.4.2 (from pandas-profiling)",
+            "packages": [
+                "missingno-0.5.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "phik>=0.11.1 (from pandas-profiling)",
+            "packages": [
+                "phik-0.12.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "tangled-up-in-unicode==0.2.0 (from pandas-profiling)",
+            "packages": [
+                "tangled_up_in_unicode-0.2.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "requests>=2.24.0 (from pandas-profiling)",
+            "packages": [
+                "requests-2.32.3-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "tqdm>=4.48.2 (from pandas-profiling)",
+            "packages": [
+                "tqdm-4.66.5-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "seaborn>=0.10.1 (from pandas-profiling)",
+            "packages": [
+                "seaborn-0.13.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "multimethod>=1.4 (from pandas-profiling)",
+            "packages": [
+                "multimethod-1.12-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "attrs>=19.3.0 (from visions==0.7.4->visions[type_image_path]==0.7.4->pandas-profiling)",
+            "packages": [
+                "attrs-24.2.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "networkx>=2.4 (from visions==0.7.4->visions[type_image_path]==0.7.4->pandas-profiling)",
+            "packages": [
+                "networkx-3.3-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "imagehash (from visions[type_image_path]==0.7.4->pandas-profiling)",
+            "packages": [
+                "ImageHash-4.3.1-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "Pillow (from visions[type_image_path]==0.7.4->pandas-profiling)",
+            "packages": [
+                "pillow-10.4.0-cp311-cp311-manylinux_2_28_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "contourpy>=1.0.1 (from matplotlib>=3.2.0->pandas-profiling)",
+            "packages": [
+                "contourpy-1.3.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "cycler>=0.10 (from matplotlib>=3.2.0->pandas-profiling)",
+            "packages": [
+                "cycler-0.12.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "fonttools>=4.22.0 (from matplotlib>=3.2.0->pandas-profiling)",
+            "packages": [
+                "fonttools-4.54.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "kiwisolver>=1.3.1 (from matplotlib>=3.2.0->pandas-profiling)",
+            "packages": [
+                "kiwisolver-1.4.7-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "packaging>=20.0 (from matplotlib>=3.2.0->pandas-profiling)",
+            "packages": [
+                "packaging-24.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "pyparsing>=2.3.1 (from matplotlib>=3.2.0->pandas-profiling)",
+            "packages": [
+                "pyparsing-3.1.4-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "python-dateutil>=2.7 (from matplotlib>=3.2.0->pandas-profiling)",
+            "packages": [
+                "python_dateutil-2.9.0.post0-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "pytz>=2020.1 (from pandas!=1.0.0,!=1.0.1,!=1.0.2,!=1.1.0,>=0.25.3->pandas-profiling)",
+            "packages": [
+                "pytz-2024.2-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "tzdata>=2022.7 (from pandas!=1.0.0,!=1.0.1,!=1.0.2,!=1.1.0,>=0.25.3->pandas-profiling)",
+            "packages": [
+                "tzdata-2024.2-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "annotated-types>=0.6.0 (from pydantic>=1.8.1->pandas-profiling)",
+            "packages": [
+                "annotated_types-0.7.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "pydantic-core==2.23.4 (from pydantic>=1.8.1->pandas-profiling)",
+            "packages": [
+                "pydantic_core-2.23.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "typing-extensions>=4.6.1 (from pydantic>=1.8.1->pandas-profiling)",
+            "packages": [
+                "typing_extensions-4.12.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "charset-normalizer<4,>=2 (from requests>=2.24.0->pandas-profiling)",
+            "packages": [
+                "charset_normalizer-3.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "idna<4,>=2.5 (from requests>=2.24.0->pandas-profiling)",
+            "packages": [
+                "idna-3.10-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "urllib3<3,>=1.21.1 (from requests>=2.24.0->pandas-profiling)",
+            "packages": [
+                "urllib3-2.2.3-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "certifi>=2017.4.17 (from requests>=2.24.0->pandas-profiling)",
+            "packages": [
+                "certifi-2024.8.30-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "six>=1.5 (from python-dateutil>=2.7->matplotlib>=3.2.0->pandas-profiling)",
+            "packages": [
+                "six-1.16.0-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "PyWavelets (from imagehash->visions[type_image_path]==0.7.4->pandas-profiling)",
+            "packages": [
+                "pywavelets-1.7.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "input": {
+        "pip_version": "24.2",
+        "python_version": "3.11",
+        "datetime": "2024-10-07T14:00:00",
+        "platform_system": "Linux",
+        "requirements": [
+            "apscheduler"
+        ]
+    },
+    "result": {
+        "success": true,
+        "failure_reason": null,
+        "install_urls": [
+            "https://files.pythonhosted.org/packages/11/c3/005fcca25ce078d2cc29fd559379817424e94885510568bc1bc53d7d5846/pytz-2024.2-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/13/b5/7af0cb920a476dccd612fbc9a21a3745fb29b1fcd74636078db8f7ba294c/APScheduler-3.10.4-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/97/3f/c4c51c55ff8487f2e6d0e618dba917e3c3ee2caae6cf0fbb59c9b1876f2e/tzlocal-5.2-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl"
+        ]
+    },
+    "resolution": [
+        {
+            "requirement": "apscheduler",
+            "packages": [
+                "APScheduler-3.10.4-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "six>=1.4.0 (from apscheduler)",
+            "packages": [
+                "six-1.16.0-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "pytz (from apscheduler)",
+            "packages": [
+                "pytz-2024.2-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "tzlocal!=3.*,>=2.0 (from apscheduler)",
+            "packages": [
+                "tzlocal-5.2-py3-none-any.whl"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "input": {
+        "pip_version": "24.2",
+        "python_version": "3.13",
+        "datetime": "2024-10-07T14:00:00",
+        "platform_system": "Linux",
+        "requirements": [
+            "charset-normalizer"
+        ]
+    },
+    "result": {
+        "success": true,
+        "failure_reason": null,
+        "install_urls": [
+            "https://files.pythonhosted.org/packages/28/76/e6222113b83e3622caa4bb41032d0b1bf785250607392e1b778aca0b8a7d/charset_normalizer-3.3.2-py3-none-any.whl"
+        ]
+    },
+    "resolution": [
+        {
+            "requirement": "charset-normalizer",
+            "packages": [
+                "charset_normalizer-3.3.2-py3-none-any.whl"
+            ]
+        }
+    ]
+}

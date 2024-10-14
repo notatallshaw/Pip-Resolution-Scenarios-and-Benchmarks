@@ -1,0 +1,639 @@
+{
+    "input": {
+        "pip_version": "notatallshaw#pip@c4157d8dfb2823fc967549ccca08c150ab3df98b",
+        "python_version": "3.11",
+        "datetime": "2024-10-07T14:00:00",
+        "platform_system": "Linux",
+        "requirements": [
+            "transformers[torch, tf]"
+        ]
+    },
+    "result": {
+        "success": true,
+        "failure_reason": null,
+        "install_urls": [
+            "https://files.pythonhosted.org/packages/08/aa/cc0199a5f0ad350994d660967a8efb233fe0416e4639146c089643407ce6/packaging-24.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/12/90/3c9ff0512038035f59d279fddeb79f5f1eccd8859f06d6163c58798b9487/certifi-2024.8.30-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/13/2f/ab5e22377da5737d56891a0ee729940ddc52656c9d1111d23d091fcd3bb3/keras_nlp-0.12.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/17/f2/f01ea29c8eff8e749d96525a17c2d3ec02656cec9a80c20fb3e74dba4b04/transformers-4.45.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/19/74/f59e7e0d392bc1070e9a70e2f9190d652487ac115bb16e2eff6b22ad1d24/psutil-6.0.0-cp36-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/1a/8e/22a28dfbd218033e4eeaf3a0533b2b54852b6530da0c0fe934f0cc494b29/google_auth_oauthlib-1.2.1-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/1b/d1/9babe2ccaecff775992753d8686970b1e2755d21c8a63be73aba7a4e7d77/wheel-0.44.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/1d/a0/6aaea0c2fbea2f89bfd5db25fb1e3481896a423002ebe4e55288907a97a3/fsspec-2024.9.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/1d/fc/716c1e62e512ef1c160e7984a73a5fc7df45166f2ff3f254e71c58076f7c/libclang-18.1.1-py2.py3-none-manylinux2010_x86_64.whl",
+            "https://files.pythonhosted.org/packages/20/a0/bdbf2a11141f1c93e572364d13c42537cfe811b747a0bbb58fdd904f3960/tensorflow_text-2.15.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/23/cd/066e86230ae37ed0be70aae89aabf03ca8d9f39c8aea0dec8029455b5540/opt_einsum-3.4.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/26/9f/ad63fc0248c5379346306f8668cda6e2e2e9c95e01216d2b8ffd9ff037d0/typing_extensions-4.12.2-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/27/1f/3a72917afcb0d5cd842cbccb81bf7a8a7b45b4c66d8dc4556ccb3b016bfc/google_auth-2.35.0-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/2b/03/13dde6512ad7b4557eb792fbcf0c653af6076b81e5941d36ec61f7ce6028/astunparse-1.6.3-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/31/80/3a54838c3fb461f6fec263ebf3a3a41771bd05190238de3486aae8540c36/jinja2-3.1.4-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/33/3e/a2f59384587eff6aeb7d37b6780de7fedd2214935e27520430ca9f5b7975/triton-3.0.0-1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+            "https://files.pythonhosted.org/packages/35/90/a4f76c14230da281d51ef9eb30eb3ff2df129b83a4a98906756c063578c1/grpcio-1.66.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/37/12/f6e9b9dcc310263cbd3948274e286538bd6800fd0c268850788f14a0c6d0/tensorboard-2.15.2-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/37/6d/121efd7382d5b0284239f4ab1fc1590d86d34ed4a4a2fdb13b30ca8e5740/nvidia_cublas_cu12-12.1.3.1-py3-none-manylinux1_x86_64.whl",
+            "https://files.pythonhosted.org/packages/38/e9/5f72929373e1a0e8d142a130f3f97e6ff920070f87f91c4e13e40e0fba5a/networkx-3.3-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/3a/d0/edc009c27b406c4f9cbc79274d6e46d634d139075492ad055e3d68445925/numpy-1.26.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/3b/5d/63d4ae3b9daea098d5d6f5da83984853c1bbacd5dc826764b249fe119d24/requests_oauthlib-2.0.0-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/3f/08/83871f3c50fc983b88547c196d11cf8c3340e37c32d2e9d6152abe2c61f7/Markdown-3.7-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/3f/48/826db3d02645d84e7ee5d5ce8407f771057d40fe224d9c3e89536674ccef/tf2onnx-1.16.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/40/26/f35951c45070edc957ba40a5b1db3cf60a9dbb1b350c2d5bef03e01e61de/charset_normalizer-3.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/41/f0/7e988a019bc54b2dbd0ad4182ef2d53488bb02e58694cd79d61369e85900/flatbuffers-24.3.25-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/42/d7/1ec15b46af6af88f19b8e5ffea08fa375d433c998b8a7639e76935c14f1f/markdown_it_py-3.0.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/43/e3/7d92a15f894aa0c9c4b49b8ee9ac9850d6e63b03c9c32c0367a13ae62209/mpmath-1.3.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/44/31/4890b1c9abc496303412947fc7dcea3d14861720642b49e8ceed89636705/nvidia_curand_cu12-10.3.2.106-py3-none-manylinux1_x86_64.whl",
+            "https://files.pythonhosted.org/packages/48/5d/acf5905c36149bbaec41ccf7f2b68814647347b72075ac0b1fe3022fdc73/tqdm-4.66.5-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/49/97/fa78e3d2f65c02c8e1268b9aba606569fe97f6c8f7c2d74394553347c145/rsa-4.9-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/4a/27/c5e3580a952a07e5a1428ae952874796870dc8db789f3d774e886160a9f4/dm_tree-0.1.8-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/4b/2a/0a131f572aa09f741c30ccd45a8e56316e8be8dfc7bc19bf0ab7cfef7b19/nvidia_nccl_cu12-2.20.5-py3-none-manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/4b/84/997bbf7c2bf2dc3f09565c6d0b4959fefe5355c18c4096cfd26d83e0785b/werkzeug-3.0.4-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/51/a4/4439174c879c33557eab08e4dd480c1e096bc26c487c85a62e4c0d8f78ff/onnxconverter_common-1.13.0-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/5f/f1/15dc793cb109a801346f910a6b350530f2a763a6e83b221725a0bcc1e297/huggingface_hub-0.25.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/65/5b/cfaeebf25cd9fdec14338ccb16f6b2c4c7fa9163aefcf057d86b9cc248bb/nvidia_cusparse_cu12-12.1.0.106-py3-none-manylinux1_x86_64.whl",
+            "https://files.pythonhosted.org/packages/66/7f/e36ae148c2f03d61ca1bff24bc13a0fef6d6825c966abef73fc6f880a23b/tensorflow_io_gcs_filesystem-0.37.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/67/91/5474b84e505a6ccc295b2d322d90ff6aa0746745717839ee0c5fb4fdcceb/rich-13.9.2-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/6f/23/6fd9aab5b7ef9e5614b94edce48d92db9d38d2bd2d00ef2c7a6f82a00588/tf_keras-2.15.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/73/59/7854fbfb59f8ae35483ce93493708be5942ebb6328cd85b3a609df629736/namex-0.0.8-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/73/c6/825dab04195756cf8ff2e12698f22513b3db2f64925bdd41671bfb33aaa5/tensorboard_data_server-0.7.2-py3-none-manylinux_2_31_x86_64.whl",
+            "https://files.pythonhosted.org/packages/75/e4/2c27590dfc9992f73aabbeb9241ae20220bd9452df27483b6e56d3975cc5/PyYAML-6.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/76/c6/c88e154df9c4e1a2a66ccf0005a88dfb2650c1dffb6f5ce603dfbd452ce3/idna-3.10-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/77/89/bc88a6711935ba795a679ea6ebee07e128050d6382eaa35a0a47c8032bdc/pyasn1_modules-0.4.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/77/a0/d4ee9e3aca5b9101c590b58555820618e8201c2ccb7004eabb417ec046ac/ml_dtypes-0.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/7e/00/6b218edd739ecfc60524e585ba8e6b00554dd908de2c9c66c1af3e44e18d/nvidia_cuda_cupti_cu12-12.1.105-py3-none-manylinux1_x86_64.whl",
+            "https://files.pythonhosted.org/packages/7e/80/cab10959dc1faead58dc8384a781dfbf93cb4d33d50988f7a69f1b7c9bbe/oauthlib-3.2.2-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/7f/1b/e0439eec0db6520968c751bc7e12480bb80bb8d939190e0e55ed762f3c7a/wrapt-1.14.1-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/7f/be/df630c387a0a054815d60be6a97eb4e8f17385d5d6fe660e1c02750062b4/termcolor-2.5.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/86/94/eb540db023ce1d162e7bea9f8f5aa781d57c65aed513c33ee9a5123ead4d/nvidia_cufft_cu12-11.0.2.54-py3-none-manylinux1_x86_64.whl",
+            "https://files.pythonhosted.org/packages/8d/14/619e24a4c70df2901e1f4dbc50a6291eb63a759172558df326347dce1f0d/protobuf-3.20.3-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/95/f7/b8dcff937ea64f822f0d3fe8c6010793406b82d14467cd0e9eecea458a40/keras_core-0.1.7-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/97/18/c30da5e7a0e7f4603abfc6780574131221d9148f323752c2755d48abad30/MarkupSafe-2.1.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/97/b6/0310a57b5b65961d6e58d2bbb7977193c8e01022d808494092ce132d3962/kagglehub-0.3.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/99/ff/c87e0622b1dadea79d2fb0b25ade9ed98954c9033722eb707053d310d4f3/sympy-1.13.3-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/9f/fd/713452cd72343f682b1c7b9321e23829f00b842ceaedcda96e742ea0b0b3/nvidia_cudnn_cu12-9.1.0.70-py3-none-manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/a2/ad/e0d3c824784ff121c03cc031f944bc7e139a8f1870ffd2845cc2dd76f6c4/absl_py-2.1.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/a3/61/8001b38461d751cd1a0c3a6ae84346796a5758123f3ed97a1b121dfbf4f3/gast-0.6.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/a3/de/c648ef6835192e6e2cc03f40b19eeda4382c49b5bafb43d88b931c4c74ac/google_pasta-0.2.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/a4/07/14f8ad37f2d12a5ce41206c21820d8cb6561b728e51fad4530dff0552a67/cachetools-5.5.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/a5/0e/e4421e6b8c8b3ae093bef22faa28c50d7dbd654f661edc5f5880a93dbf10/tokenizers-0.20.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/b0/5e/80cee674cdbe529ef008721d7eebb50ae5def4314211d82123aa23e828f8/accelerate-0.34.2-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/b1/2f/91092557ed478e323a2b4471e2081fdf88d1dd52ae988ceaf7db4e4506ff/onnx-1.17.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/b3/38/89ba8ad64ae25be8de66a6d463314cf1eb366222074cfda9ee839c56a4b4/mdurl-0.1.2-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/b6/9f/c64c03f49d6fbc56196664d05dba14e3a561038a81a638eeb47f4d4cfd48/nvidia_cuda_nvrtc_cu12-12.1.105-py3-none-manylinux1_x86_64.whl",
+            "https://files.pythonhosted.org/packages/b6/c8/2f823c8958d5342eafc6dd3e922f0cc4fcf8c2e0460284cc462dae3b60a0/tensorflow_estimator-2.15.0-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/b9/f8/feced7779d755758a52d1f6635d990b8d98dc0a29fa568bbe0625f18fdf3/filelock-3.16.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/bc/1d/8de1e5c67099015c834315e333911273a8c6aaba78923dd1d1e25fc5f217/nvidia_cusolver_cu12-11.4.5.107-py3-none-manylinux1_x86_64.whl",
+            "https://files.pythonhosted.org/packages/c1/2d/636471492d93b6c1bf5375b81be7105a313a8c91a07c37e43625b00ca5c3/tensorflow-2.15.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/c8/f1/d6a797abb14f6283c0ddff96bbdd46937f64122b8c925cab503dd37f8214/pyasn1-0.6.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/ce/d9/5f4c13cecde62396b0d3fe530a50ccea91e7dfc1ccf0e09c228841bb5ba8/urllib3-2.2.3-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/da/d3/8057f0587683ed2fcd4dbfbdfdfa807b9160b809976099d36b8f60d08f03/nvidia_nvtx_cu12-12.1.105-py3-none-manylinux1_x86_64.whl",
+            "https://files.pythonhosted.org/packages/e1/89/118c3255d6ff2db33b062ec996a762d99ae50c21f54a8a6047ae8eda1b9f/h5py-3.12.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/e5/50/00dba77925bf2a0a1e45d7bcf8a69a1d2534fb4bb277d9010bd148d2235e/tensorflow_hub-0.16.1-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/e6/ee/69e498a892f208bd1da4104d4b9be887f8611bf4942144718b6738482250/safetensors-0.4.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/e9/5c/8b385afbfacb853730682c57be56225f9fe275c5bf02ac1fc88edbff316d/regex-2024.9.11-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/ea/ea/4ab009e953bca6ff35ad75b8ab58c0923308636c182c145dc63084f7d136/torch-2.4.1-cp311-cp311-manylinux1_x86_64.whl",
+            "https://files.pythonhosted.org/packages/eb/d5/c68b1d2cdfcc59e72e8a5949a37ddb22ae6cade80cd4a57a84d4c8b55472/nvidia_cuda_runtime_cu12-12.1.105-py3-none-manylinux1_x86_64.whl",
+            "https://files.pythonhosted.org/packages/f7/3f/01c8b82017c199075f8f788d0d906b9ffbbc5a47dc9918a945e13d5a2bda/pygments-2.18.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/f9/9b/335f9764261e915ed497fcdeb11df5dfd6f7bf257d4a6a2a686d80da4d54/requests-2.32.3-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/fc/a7/0d4490de967a67f68a538cc9cdb259bff971c4b5787f7765dc7c8f118f71/keras-2.15.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/fe/e4/486de766851d58699bcfeb3ba6a3beb4d89c3809f75b9d423b9508a8760f/nvidia_nvjitlink_cu12-12.6.77-py3-none-manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/ff/ae/f19306b5a221f6a436d8f2238d5b80925004093fa3edea59835b514d9057/setuptools-75.1.0-py3-none-any.whl"
+        ]
+    },
+    "resolution": [
+        {
+            "requirement": "transformers[tf,torch]",
+            "packages": [
+                "transformers-4.45.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "filelock (from transformers[tf,torch])",
+            "packages": [
+                "filelock-3.16.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "huggingface-hub<1.0,>=0.23.2 (from transformers[tf,torch])",
+            "packages": [
+                "huggingface_hub-0.25.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "numpy>=1.17 (from transformers[tf,torch])",
+            "packages": [
+                "numpy-2.1.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "packaging>=20.0 (from transformers[tf,torch])",
+            "packages": [
+                "packaging-24.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "pyyaml>=5.1 (from transformers[tf,torch])",
+            "packages": [
+                "PyYAML-6.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "regex!=2019.12.17 (from transformers[tf,torch])",
+            "packages": [
+                "regex-2024.9.11-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "requests (from transformers[tf,torch])",
+            "packages": [
+                "requests-2.32.3-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "safetensors>=0.4.1 (from transformers[tf,torch])",
+            "packages": [
+                "safetensors-0.4.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "tokenizers<0.21,>=0.20 (from transformers[tf,torch])",
+            "packages": [
+                "tokenizers-0.20.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "tqdm>=4.27 (from transformers[tf,torch])",
+            "packages": [
+                "tqdm-4.66.5-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "keras-nlp<0.14.0,>=0.3.1 (from transformers[tf,torch])",
+            "packages": [
+                "keras_nlp-0.12.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "onnxconverter-common (from transformers[tf,torch])",
+            "packages": [
+                "onnxconverter_common-1.14.0-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "tensorflow-text<2.16 (from transformers[tf,torch])",
+            "packages": [
+                "tensorflow_text-2.15.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "tensorflow<2.16,>2.9 (from transformers[tf,torch])",
+            "packages": [
+                "tensorflow-2.15.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "tf2onnx (from transformers[tf,torch])",
+            "packages": [
+                "tf2onnx-1.16.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "accelerate>=0.26.0 (from transformers[tf,torch])",
+            "packages": [
+                "accelerate-0.34.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "torch (from transformers[tf,torch])",
+            "packages": [
+                "torch-2.4.1-cp311-cp311-manylinux1_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "fsspec>=2023.5.0 (from huggingface-hub<1.0,>=0.23.2->transformers[tf,torch])",
+            "packages": [
+                "fsspec-2024.9.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "typing-extensions>=3.7.4.3 (from huggingface-hub<1.0,>=0.23.2->transformers[tf,torch])",
+            "packages": [
+                "typing_extensions-4.12.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "keras-core (from keras-nlp<0.14.0,>=0.3.1->transformers[tf,torch])",
+            "packages": [
+                "keras_core-0.1.7-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "absl-py (from keras-nlp<0.14.0,>=0.3.1->transformers[tf,torch])",
+            "packages": [
+                "absl_py-2.1.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "rich (from keras-nlp<0.14.0,>=0.3.1->transformers[tf,torch])",
+            "packages": [
+                "rich-13.9.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "dm-tree (from keras-nlp<0.14.0,>=0.3.1->transformers[tf,torch])",
+            "packages": [
+                "dm_tree-0.1.8-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "kagglehub (from keras-nlp<0.14.0,>=0.3.1->transformers[tf,torch])",
+            "packages": [
+                "kagglehub-0.3.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "astunparse>=1.6.0 (from tensorflow<2.16,>2.9->transformers[tf,torch])",
+            "packages": [
+                "astunparse-1.6.3-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "flatbuffers>=23.5.26 (from tensorflow<2.16,>2.9->transformers[tf,torch])",
+            "packages": [
+                "flatbuffers-24.3.25-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "gast!=0.5.0,!=0.5.1,!=0.5.2,>=0.2.1 (from tensorflow<2.16,>2.9->transformers[tf,torch])",
+            "packages": [
+                "gast-0.6.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "google-pasta>=0.1.1 (from tensorflow<2.16,>2.9->transformers[tf,torch])",
+            "packages": [
+                "google_pasta-0.2.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "h5py>=2.9.0 (from tensorflow<2.16,>2.9->transformers[tf,torch])",
+            "packages": [
+                "h5py-3.12.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "libclang>=13.0.0 (from tensorflow<2.16,>2.9->transformers[tf,torch])",
+            "packages": [
+                "libclang-18.1.1-py2.py3-none-manylinux2010_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "ml-dtypes~=0.3.1 (from tensorflow<2.16,>2.9->transformers[tf,torch])",
+            "packages": [
+                "ml_dtypes-0.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "numpy>=1.17 (from transformers[tf,torch])",
+            "packages": [
+                "numpy-1.26.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "opt-einsum>=2.3.2 (from tensorflow<2.16,>2.9->transformers[tf,torch])",
+            "packages": [
+                "opt_einsum-3.4.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "protobuf!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5,<5.0.0dev,>=3.20.3 (from tensorflow<2.16,>2.9->transformers[tf,torch])",
+            "packages": [
+                "protobuf-4.25.5-cp37-abi3-manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "setuptools (from tensorflow<2.16,>2.9->transformers[tf,torch])",
+            "packages": [
+                "setuptools-75.1.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "six>=1.12.0 (from tensorflow<2.16,>2.9->transformers[tf,torch])",
+            "packages": [
+                "six-1.16.0-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "termcolor>=1.1.0 (from tensorflow<2.16,>2.9->transformers[tf,torch])",
+            "packages": [
+                "termcolor-2.5.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "wrapt<1.15,>=1.11.0 (from tensorflow<2.16,>2.9->transformers[tf,torch])",
+            "packages": [
+                "wrapt-1.14.1-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "tensorflow-io-gcs-filesystem>=0.23.1 (from tensorflow<2.16,>2.9->transformers[tf,torch])",
+            "packages": [
+                "tensorflow_io_gcs_filesystem-0.37.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "grpcio<2.0,>=1.24.3 (from tensorflow<2.16,>2.9->transformers[tf,torch])",
+            "packages": [
+                "grpcio-1.66.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "tensorboard<2.16,>=2.15 (from tensorflow<2.16,>2.9->transformers[tf,torch])",
+            "packages": [
+                "tensorboard-2.15.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "tensorflow-estimator<2.16,>=2.15.0 (from tensorflow<2.16,>2.9->transformers[tf,torch])",
+            "packages": [
+                "tensorflow_estimator-2.15.0-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "keras<2.16,>=2.15.0 (from tensorflow<2.16,>2.9->transformers[tf,torch])",
+            "packages": [
+                "keras-2.15.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "tensorflow-hub>=0.13.0 (from tensorflow-text<2.16->transformers[tf,torch])",
+            "packages": [
+                "tensorflow_hub-0.16.1-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "google-auth<3,>=1.6.3 (from tensorboard<2.16,>=2.15->tensorflow<2.16,>2.9->transformers[tf,torch])",
+            "packages": [
+                "google_auth-2.35.0-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "google-auth-oauthlib<2,>=0.5 (from tensorboard<2.16,>=2.15->tensorflow<2.16,>2.9->transformers[tf,torch])",
+            "packages": [
+                "google_auth_oauthlib-1.2.1-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "markdown>=2.6.8 (from tensorboard<2.16,>=2.15->tensorflow<2.16,>2.9->transformers[tf,torch])",
+            "packages": [
+                "Markdown-3.7-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "tensorboard-data-server<0.8.0,>=0.7.0 (from tensorboard<2.16,>=2.15->tensorflow<2.16,>2.9->transformers[tf,torch])",
+            "packages": [
+                "tensorboard_data_server-0.7.2-py3-none-manylinux_2_31_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "werkzeug>=1.0.1 (from tensorboard<2.16,>=2.15->tensorflow<2.16,>2.9->transformers[tf,torch])",
+            "packages": [
+                "werkzeug-3.0.4-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "charset-normalizer<4,>=2 (from requests->transformers[tf,torch])",
+            "packages": [
+                "charset_normalizer-3.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "idna<4,>=2.5 (from requests->transformers[tf,torch])",
+            "packages": [
+                "idna-3.10-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "urllib3<3,>=1.21.1 (from requests->transformers[tf,torch])",
+            "packages": [
+                "urllib3-2.2.3-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "certifi>=2017.4.17 (from requests->transformers[tf,torch])",
+            "packages": [
+                "certifi-2024.8.30-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "cachetools<6.0,>=2.0.0 (from google-auth<3,>=1.6.3->tensorboard<2.16,>=2.15->tensorflow<2.16,>2.9->transformers[tf,torch])",
+            "packages": [
+                "cachetools-5.5.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "pyasn1-modules>=0.2.1 (from google-auth<3,>=1.6.3->tensorboard<2.16,>=2.15->tensorflow<2.16,>2.9->transformers[tf,torch])",
+            "packages": [
+                "pyasn1_modules-0.4.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "rsa<5,>=3.1.4 (from google-auth<3,>=1.6.3->tensorboard<2.16,>=2.15->tensorflow<2.16,>2.9->transformers[tf,torch])",
+            "packages": [
+                "rsa-4.9-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "requests-oauthlib>=0.7.0 (from google-auth-oauthlib<2,>=0.5->tensorboard<2.16,>=2.15->tensorflow<2.16,>2.9->transformers[tf,torch])",
+            "packages": [
+                "requests_oauthlib-2.0.0-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "pyasn1>=0.1.3 (from rsa<5,>=3.1.4->google-auth<3,>=1.6.3->tensorboard<2.16,>=2.15->tensorflow<2.16,>2.9->transformers[tf,torch])",
+            "packages": [
+                "pyasn1-0.6.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "psutil (from accelerate>=0.26.0->transformers[tf,torch])",
+            "packages": [
+                "psutil-6.0.0-cp36-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "sympy (from torch->transformers[tf,torch])",
+            "packages": [
+                "sympy-1.13.3-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "networkx (from torch->transformers[tf,torch])",
+            "packages": [
+                "networkx-3.3-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "jinja2 (from torch->transformers[tf,torch])",
+            "packages": [
+                "jinja2-3.1.4-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "nvidia-cuda-nvrtc-cu12==12.1.105 (from torch->transformers[tf,torch])",
+            "packages": [
+                "nvidia_cuda_nvrtc_cu12-12.1.105-py3-none-manylinux1_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "nvidia-cuda-runtime-cu12==12.1.105 (from torch->transformers[tf,torch])",
+            "packages": [
+                "nvidia_cuda_runtime_cu12-12.1.105-py3-none-manylinux1_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "nvidia-cuda-cupti-cu12==12.1.105 (from torch->transformers[tf,torch])",
+            "packages": [
+                "nvidia_cuda_cupti_cu12-12.1.105-py3-none-manylinux1_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "nvidia-cudnn-cu12==9.1.0.70 (from torch->transformers[tf,torch])",
+            "packages": [
+                "nvidia_cudnn_cu12-9.1.0.70-py3-none-manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "nvidia-cublas-cu12==12.1.3.1 (from torch->transformers[tf,torch])",
+            "packages": [
+                "nvidia_cublas_cu12-12.1.3.1-py3-none-manylinux1_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "nvidia-cufft-cu12==11.0.2.54 (from torch->transformers[tf,torch])",
+            "packages": [
+                "nvidia_cufft_cu12-11.0.2.54-py3-none-manylinux1_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "nvidia-curand-cu12==10.3.2.106 (from torch->transformers[tf,torch])",
+            "packages": [
+                "nvidia_curand_cu12-10.3.2.106-py3-none-manylinux1_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "nvidia-cusolver-cu12==11.4.5.107 (from torch->transformers[tf,torch])",
+            "packages": [
+                "nvidia_cusolver_cu12-11.4.5.107-py3-none-manylinux1_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "nvidia-cusparse-cu12==12.1.0.106 (from torch->transformers[tf,torch])",
+            "packages": [
+                "nvidia_cusparse_cu12-12.1.0.106-py3-none-manylinux1_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "nvidia-nccl-cu12==2.20.5 (from torch->transformers[tf,torch])",
+            "packages": [
+                "nvidia_nccl_cu12-2.20.5-py3-none-manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "nvidia-nvtx-cu12==12.1.105 (from torch->transformers[tf,torch])",
+            "packages": [
+                "nvidia_nvtx_cu12-12.1.105-py3-none-manylinux1_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "triton==3.0.0 (from torch->transformers[tf,torch])",
+            "packages": [
+                "triton-3.0.0-1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "nvidia-nvjitlink-cu12 (from nvidia-cusolver-cu12==11.4.5.107->torch->transformers[tf,torch])",
+            "packages": [
+                "nvidia_nvjitlink_cu12-12.6.77-py3-none-manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "onnx (from onnxconverter-common->transformers[tf,torch])",
+            "packages": [
+                "onnx-1.17.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "onnxconverter-common (from transformers[tf,torch])",
+            "packages": [
+                "onnxconverter_common-1.13.0-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "protobuf!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5,<5.0.0dev,>=3.20.3 (from tensorflow<2.16,>2.9->transformers[tf,torch])",
+            "packages": [
+                "protobuf-3.20.3-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "wheel<1.0,>=0.23.0 (from astunparse>=1.6.0->tensorflow<2.16,>2.9->transformers[tf,torch])",
+            "packages": [
+                "wheel-0.44.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "tf-keras>=2.14.1 (from tensorflow-hub>=0.13.0->tensorflow-text<2.16->transformers[tf,torch])",
+            "packages": [
+                "tf_keras-2.17.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "MarkupSafe>=2.0 (from jinja2->torch->transformers[tf,torch])",
+            "packages": [
+                "MarkupSafe-2.1.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "namex (from keras-core->keras-nlp<0.14.0,>=0.3.1->transformers[tf,torch])",
+            "packages": [
+                "namex-0.0.8-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "markdown-it-py>=2.2.0 (from rich->keras-nlp<0.14.0,>=0.3.1->transformers[tf,torch])",
+            "packages": [
+                "markdown_it_py-3.0.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "pygments<3.0.0,>=2.13.0 (from rich->keras-nlp<0.14.0,>=0.3.1->transformers[tf,torch])",
+            "packages": [
+                "pygments-2.18.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "mpmath<1.4,>=1.1.0 (from sympy->torch->transformers[tf,torch])",
+            "packages": [
+                "mpmath-1.3.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "mdurl~=0.1 (from markdown-it-py>=2.2.0->rich->keras-nlp<0.14.0,>=0.3.1->transformers[tf,torch])",
+            "packages": [
+                "mdurl-0.1.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "tf-keras>=2.14.1 (from tensorflow-hub>=0.13.0->tensorflow-text<2.16->transformers[tf,torch])",
+            "packages": [
+                "tf_keras-2.16.0-py3-none-any.whl",
+                "tf_keras-2.15.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "oauthlib>=3.0.0 (from requests-oauthlib>=0.7.0->google-auth-oauthlib<2,>=0.5->tensorboard<2.16,>=2.15->tensorflow<2.16,>2.9->transformers[tf,torch])",
+            "packages": [
+                "oauthlib-3.2.2-py3-none-any.whl"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,341 @@
+{
+    "input": {
+        "pip_version": "24.2",
+        "python_version": "3.11",
+        "datetime": "2024-10-07T14:00:00",
+        "platform_system": "Linux",
+        "requirements": [
+            "zipline-reloaded"
+        ]
+    },
+    "result": {
+        "success": true,
+        "failure_reason": null,
+        "install_urls": [
+            "https://files.pythonhosted.org/packages/00/2e/d53fa4befbf2cfa713304affc7ca780ce4fc1fd8710527771b58311a3229/click-8.1.7-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/03/62/70f5a0c2dd208f9f3f2f9afd103aec42ee4d9ad2401d78342f75e9b8da36/Mako-1.3.5-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/03/98/eb27cc78ad3af8e302c9d8ff4977f5026676e130d28dd7578132a457170c/toolz-1.0.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/08/aa/cc0199a5f0ad350994d660967a8efb233fe0416e4639146c089643407ce6/packaging-24.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/08/d0/bf18725b8d47f37858ff801f8e4d40c6982730a899725bdb6ded62199954/iso3166-2.1.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/11/c3/005fcca25ce078d2cc29fd559379817424e94885510568bc1bc53d7d5846/pytz-2024.2-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/12/90/3c9ff0512038035f59d279fddeb79f5f1eccd8859f06d6163c58798b9487/certifi-2024.8.30-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/21/92/4690daefc2602f7c3429ecf54572d37a9e3c372d370344d2185daa4d5ecc/lru_dict-1.3.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/23/69/538317f0d925095537745f12aced33be1570bbdc4acde49b33748669af96/numpy-2.1.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/26/9f/ad63fc0248c5379346306f8668cda6e2e2e9c95e01216d2b8ffd9ff037d0/typing_extensions-4.12.2-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/2f/b3/55ac60a4003fcc6013ef87a3c97fd7811c5662cb1c19ea438c03601c3d8f/numexpr-2.10.1-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+            "https://files.pythonhosted.org/packages/32/46/9cb0e58b2deb7f82b84065f37f3bffeb12413f947f9388e4cac22c4621ce/sortedcontainers-2.4.0-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/38/e9/5f72929373e1a0e8d142a130f3f97e6ff920070f87f91c4e13e40e0fba5a/networkx-3.3-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/3e/00/21f408b3257fff4e5166dbd666ee2739f088e139dc90743b09952ee0ebd8/blosc2-2.7.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/40/26/f35951c45070edc957ba40a5b1db3cf60a9dbb1b350c2d5bef03e01e61de/charset_normalizer-3.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/43/f3/1d311a09c34f14f5973bb0bb0dc3a6e007e1eda90b5492d082689936ca51/patsy-0.5.6-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/4e/5c/3f21d1135bf60af99ac79a17bbffd333d69763df2197ba04f47dd30bbd4e/tables-3.10.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/4f/83/2e585d06d49e0320050b3d7d8ae0dfbd1459e976ff9f4b4d8bcca983d474/pyluach-2.2.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/50/fb/396d568039d21344639db96d940d40eb62befe704ef849b27949ded5c3bb/intervaltree-3.1.0.tar.gz",
+            "https://files.pythonhosted.org/packages/51/2d/bfc284ecc9b24acb916f5d04a69357ae56e0b6073286eaa71cf54bf0b136/ndindex-1.9.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/51/c0/00c9809d8b9346eb238a6bbd5f83e846a4ce4503da94a4c08cb7284c325b/multipledispatch-1.0.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/54/1e/8b0ec42691579f0b06e392b21d2ca167226aaa6a1af9f29b248bd374f276/bcolz_zipline-1.2.12-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/76/c6/c88e154df9c4e1a2a66ccf0005a88dfb2650c1dffb6f5ce603dfbd452ce3/idna-3.10-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/79/18/f882807a95d4efd7ca57b28b5bf01d34584e2accc47540516ec96ad0b046/empyrical_reloaded-0.5.11-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/7a/b1/2331e6b1fc8c61686dd9276f34142265462640eb0dd431246e30c4461065/peewee-3.17.3.tar.gz",
+            "https://files.pythonhosted.org/packages/7e/8f/f3303c61b8e925ded53f37b3bb3365e349449ef40b687e39cd7b59f87d14/exchange_calendars-4.5.6-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/8c/d6/97bdc8d714fb21762f2092511f380f18cdb2d985d516071fa925bb433a90/SQLAlchemy-2.0.35-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/8e/ad/ced5b8cb5a746c2a5e91db7d58f4af17765a82599b7a960ed5976ec5139a/zipline_reloaded-3.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/93/6b/701776d4bd6bdd9b629c387b5140f006185bd8ddea16788a44434376b98f/scipy-1.14.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/97/18/c30da5e7a0e7f4603abfc6780574131221d9148f323752c2755d48abad30/MarkupSafe-2.1.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/9c/96/30f3fe51b336bb6da4714f4fdad7bbdce8f13af79af2eb75e22908f3f9f4/korean_lunar_calendar-0.3.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/9d/4f/a96e682f82b675e4a6f3de8ad990587d8b1fde500a630a2aabcaabee11d8/statsmodels-0.14.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/a5/47/2048a6d640157edca20f064696bf4bb700f7db3a653df566eca04a05d578/Bottleneck-1.4.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/a6/ab/7e5f53c3b9d14972843a647d8d7a853969a58aecc7559cb3267302c94774/tzdata-2024.2-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/a8/a1/ad7b84b91ab5a324e707f4c9761633e357820b011a01e34ce658c1dda7cc/msgpack-1.1.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/c2/12/58f4f11385fddafef5d6f7bfaaf2f42899c8da6b4f95c04b7c3b744851a8/alembic-1.13.3-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/cc/60/3c1ca81892263a384bf3aac83fcce7245e3fd078f81741357cc025bdc17f/iso4217-1.12.20240625-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/cd/5f/4dba1d39bb9c38d574a9a22548c540177f78ea47b32f99c0ff2ec499fac5/pandas-2.2.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/ce/d9/5f4c13cecde62396b0d3fe530a50ccea91e7dfc1ccf0e09c228841bb5ba8/urllib3-2.2.3-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/e0/a9/023730ba63db1e494a271cb018dcd361bd2c917ba7004c3e49d5daf795a2/py_cpuinfo-9.0.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/e1/89/118c3255d6ff2db33b062ec996a762d99ae50c21f54a8a6047ae8eda1b9f/h5py-3.12.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/f7/4b/1c9695aa24f808e156c8f4813f685d975ca73c000c2a5056c514c64980f6/greenlet-3.1.1-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl",
+            "https://files.pythonhosted.org/packages/f9/9b/335f9764261e915ed497fcdeb11df5dfd6f7bf257d4a6a2a686d80da4d54/requests-2.32.3-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/fc/e9/092908ad6587b2537ab19fd68cea2eae520321530f23c4b82af71a38b8a1/python-interface-1.6.1.tar.gz"
+        ]
+    },
+    "resolution": [
+        {
+            "requirement": "zipline-reloaded",
+            "packages": [
+                "zipline_reloaded-3.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "pandas<3.0,>=1.3.0 (from zipline-reloaded)",
+            "packages": [
+                "pandas-2.2.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "alembic>=0.7.7 (from zipline-reloaded)",
+            "packages": [
+                "alembic-1.13.3-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "bcolz-zipline>=1.2.6 (from zipline-reloaded)",
+            "packages": [
+                "bcolz_zipline-1.2.12-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "bottleneck>=1.0.0 (from zipline-reloaded)",
+            "packages": [
+                "Bottleneck-1.4.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "click>=4.0.0 (from zipline-reloaded)",
+            "packages": [
+                "click-8.1.7-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "empyrical-reloaded>=0.5.7 (from zipline-reloaded)",
+            "packages": [
+                "empyrical_reloaded-0.5.11-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "h5py>=2.7.1 (from zipline-reloaded)",
+            "packages": [
+                "h5py-3.12.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "intervaltree>=2.1.0 (from zipline-reloaded)",
+            "packages": [
+                "intervaltree-3.1.0.tar.gz"
+            ]
+        },
+        {
+            "requirement": "iso3166>=2.1.1 (from zipline-reloaded)",
+            "packages": [
+                "iso3166-2.1.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "iso4217>=1.6.20180829 (from zipline-reloaded)",
+            "packages": [
+                "iso4217-1.12.20240625-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "lru-dict>=1.1.4 (from zipline-reloaded)",
+            "packages": [
+                "lru_dict-1.3.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "multipledispatch>=0.6.0 (from zipline-reloaded)",
+            "packages": [
+                "multipledispatch-1.0.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "networkx>=2.0 (from zipline-reloaded)",
+            "packages": [
+                "networkx-3.3-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "numexpr>=2.6.1 (from zipline-reloaded)",
+            "packages": [
+                "numexpr-2.10.1-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "patsy>=0.4.0 (from zipline-reloaded)",
+            "packages": [
+                "patsy-0.5.6-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "python-dateutil>=2.4.2 (from zipline-reloaded)",
+            "packages": [
+                "python_dateutil-2.9.0.post0-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "python-interface>=1.5.3 (from zipline-reloaded)",
+            "packages": [
+                "python-interface-1.6.1.tar.gz"
+            ]
+        },
+        {
+            "requirement": "pytz>=2018.5 (from zipline-reloaded)",
+            "packages": [
+                "pytz-2024.2-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "requests>=2.9.1 (from zipline-reloaded)",
+            "packages": [
+                "requests-2.32.3-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "scipy>=0.17.1 (from zipline-reloaded)",
+            "packages": [
+                "scipy-1.14.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "six>=1.10.0 (from zipline-reloaded)",
+            "packages": [
+                "six-1.16.0-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "sqlalchemy>=2 (from zipline-reloaded)",
+            "packages": [
+                "SQLAlchemy-2.0.35-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "statsmodels>=0.6.1 (from zipline-reloaded)",
+            "packages": [
+                "statsmodels-0.14.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "tables>=3.4.3 (from zipline-reloaded)",
+            "packages": [
+                "tables-3.10.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "toolz>=0.8.2 (from zipline-reloaded)",
+            "packages": [
+                "toolz-1.0.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "exchange-calendars>=4.2.4 (from zipline-reloaded)",
+            "packages": [
+                "exchange_calendars-4.5.6-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "numpy>=1.23.5 (from zipline-reloaded)",
+            "packages": [
+                "numpy-2.1.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "Mako (from alembic>=0.7.7->zipline-reloaded)",
+            "packages": [
+                "Mako-1.3.5-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "typing-extensions>=4 (from alembic>=0.7.7->zipline-reloaded)",
+            "packages": [
+                "typing_extensions-4.12.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "packaging (from bcolz-zipline>=1.2.6->zipline-reloaded)",
+            "packages": [
+                "packaging-24.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "peewee<3.17.4 (from empyrical-reloaded>=0.5.7->zipline-reloaded)",
+            "packages": [
+                "peewee-3.17.3.tar.gz"
+            ]
+        },
+        {
+            "requirement": "pyluach (from exchange-calendars>=4.2.4->zipline-reloaded)",
+            "packages": [
+                "pyluach-2.2.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "tzdata (from exchange-calendars>=4.2.4->zipline-reloaded)",
+            "packages": [
+                "tzdata-2024.2-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "korean-lunar-calendar (from exchange-calendars>=4.2.4->zipline-reloaded)",
+            "packages": [
+                "korean_lunar_calendar-0.3.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "sortedcontainers<3.0,>=2.0 (from intervaltree>=2.1.0->zipline-reloaded)",
+            "packages": [
+                "sortedcontainers-2.4.0-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "charset-normalizer<4,>=2 (from requests>=2.9.1->zipline-reloaded)",
+            "packages": [
+                "charset_normalizer-3.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "idna<4,>=2.5 (from requests>=2.9.1->zipline-reloaded)",
+            "packages": [
+                "idna-3.10-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "urllib3<3,>=1.21.1 (from requests>=2.9.1->zipline-reloaded)",
+            "packages": [
+                "urllib3-2.2.3-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "certifi>=2017.4.17 (from requests>=2.9.1->zipline-reloaded)",
+            "packages": [
+                "certifi-2024.8.30-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "greenlet!=0.4.17 (from sqlalchemy>=2->zipline-reloaded)",
+            "packages": [
+                "greenlet-3.1.1-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "py-cpuinfo (from tables>=3.4.3->zipline-reloaded)",
+            "packages": [
+                "py_cpuinfo-9.0.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "blosc2>=2.3.0 (from tables>=3.4.3->zipline-reloaded)",
+            "packages": [
+                "blosc2-2.7.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "ndindex>=1.4 (from blosc2>=2.3.0->tables>=3.4.3->zipline-reloaded)",
+            "packages": [
+                "ndindex-1.9.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "msgpack (from blosc2>=2.3.0->tables>=3.4.3->zipline-reloaded)",
+            "packages": [
+                "msgpack-1.1.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "MarkupSafe>=0.9.2 (from Mako->alembic>=0.7.7->zipline-reloaded)",
+            "packages": [
+                "MarkupSafe-2.1.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        }
+    ]
+}

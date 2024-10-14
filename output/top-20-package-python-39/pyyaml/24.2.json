@@ -1,0 +1,26 @@
+{
+    "input": {
+        "pip_version": "24.2",
+        "python_version": "3.9",
+        "datetime": "2024-10-07T14:00:00",
+        "platform_system": "Linux",
+        "requirements": [
+            "pyyaml"
+        ]
+    },
+    "result": {
+        "success": true,
+        "failure_reason": null,
+        "install_urls": [
+            "https://files.pythonhosted.org/packages/3d/32/e7bd8535d22ea2874cef6a81021ba019474ace0d13a4819c2a4bce79bd6a/PyYAML-6.0.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+        ]
+    },
+    "resolution": [
+        {
+            "requirement": "pyyaml",
+            "packages": [
+                "PyYAML-6.0.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        }
+    ]
+}

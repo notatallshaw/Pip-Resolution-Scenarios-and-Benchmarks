@@ -1,0 +1,26 @@
+{
+    "input": {
+        "pip_version": "notatallshaw#pip@c4157d8dfb2823fc967549ccca08c150ab3df98b",
+        "python_version": "3.11",
+        "datetime": "2024-10-07T14:00:00",
+        "platform_system": "Linux",
+        "requirements": [
+            "numpy"
+        ]
+    },
+    "result": {
+        "success": true,
+        "failure_reason": null,
+        "install_urls": [
+            "https://files.pythonhosted.org/packages/23/69/538317f0d925095537745f12aced33be1570bbdc4acde49b33748669af96/numpy-2.1.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+        ]
+    },
+    "resolution": [
+        {
+            "requirement": "numpy",
+            "packages": [
+                "numpy-2.1.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,493 @@
+{
+    "input": {
+        "pip_version": "24.2",
+        "python_version": "3.11",
+        "datetime": "2024-10-07T14:00:00",
+        "platform_system": "Linux",
+        "requirements": [
+            "dagster",
+            "dagster-webserver"
+        ]
+    },
+    "result": {
+        "success": true,
+        "failure_reason": null,
+        "install_urls": [
+            "https://files.pythonhosted.org/packages/00/2e/d53fa4befbf2cfa713304affc7ca780ce4fc1fd8710527771b58311a3229/click-8.1.7-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/03/62/70f5a0c2dd208f9f3f2f9afd103aec42ee4d9ad2401d78342f75e9b8da36/Mako-1.3.5-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/05/12/206aca5442524d16be7702d08b453d7c274c86fd759266b1f709d4ef43ba/uvicorn-0.31.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/05/a6/094a2640be576d760baa34c902dcb8199d89bce9ed7dd7a6af74dcbbd62d/protobuf-4.25.5-cp37-abi3-manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/08/aa/cc0199a5f0ad350994d660967a8efb233fe0416e4639146c089643407ce6/packaging-24.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/11/c3/005fcca25ce078d2cc29fd559379817424e94885510568bc1bc53d7d5846/pytz-2024.2-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/12/90/3c9ff0512038035f59d279fddeb79f5f1eccd8859f06d6163c58798b9487/certifi-2024.8.30-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/1c/fc/6e64d978494b0a298b8e5ea7600cecd8c126fc5fa4c1e9f662396b767c75/dagster_pipes-1.8.10-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/1d/a0/6aaea0c2fbea2f89bfd5db25fb1e3481896a423002ebe4e55288907a97a3/fsspec-2024.9.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/24/70/96f6027cdfc9bb89fc07627b615cb43fb1c443c93498412beaeaf157e9f1/graphene-3.3-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/26/9f/ad63fc0248c5379346306f8668cda6e2e2e9c95e01216d2b8ffd9ff037d0/typing_extensions-4.12.2-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/31/80/3a54838c3fb461f6fec263ebf3a3a41771bd05190238de3486aae8540c36/jinja2-3.1.4-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/35/90/a4f76c14230da281d51ef9eb30eb3ff2df129b83a4a98906756c063578c1/grpcio-1.66.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/3f/51/d4db610ef29373b879047326cbf6fa98b6c1969d6f6dc423279de2b1be2c/requests_toolbelt-1.0.0-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/40/26/f35951c45070edc957ba40a5b1db3cf60a9dbb1b350c2d5bef03e01e61de/charset_normalizer-3.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/40/44/4a5f08c96eb108af5cb50b41f76142f0afa346dfa99d5296fe7202a11854/tabulate-0.9.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/40/4c/ee3173906196b741ac6ba55a9788ba9ebf2cd05f91715a49b6c3bfbb9d73/grpcio_health_checking-1.62.3-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/40/85/712d246cbdfde4a21f9edaf552a469eee606f89dfa0465e778cfb8c65280/dagster_webserver-1.8.10-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/42/d7/1ec15b46af6af88f19b8e5ffea08fa375d433c998b8a7639e76935c14f1f/markdown_it_py-3.0.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/44/31/a3899b5ce02c4316865e390107f145089876dff7e1dfc770a231d836aed8/pydantic_core-2.23.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/44/93/99d6591165aa29ae455ddeb691d70eb0df08df192596b10f53127b9d4c5a/dagster-1.8.10-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/46/6d/4caab3a36199ba52b98d519feccfcf48921d7a6649daf14a93c7e77497e9/uvloop-0.20.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/48/5d/acf5905c36149bbaec41ccf7f2b68814647347b72075ac0b1fe3022fdc73/tqdm-4.66.5-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/56/ae/650d6f92c8cb60dc2e847d8aa67b4cb219ade4a1528550721b8386085378/dagster_graphql-1.8.10-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/59/23/047a89e66045232fb82c50ae57699e40f70e073ae5ccd53f54e532fbd2a2/httptools-0.6.1-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/5c/2f/12747be360d6dea432e7b5dfae3419132cb008535cfe614af73b9ce2643b/coloredlogs-14.0-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/60/f0/04547f776c8845be46df4bdd1f11159c088bd39e916f35d7da1b9f6eb3ef/starlette-0.39.2-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/67/91/5474b84e505a6ccc295b2d322d90ff6aa0746745717839ee0c5fb4fdcceb/rich-13.9.2-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/6a/3e/b68c118422ec867fa7ab88444e1274aa40681c606d59ac27de5a5588f082/python_dotenv-1.0.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/70/eb/82f089c4f44b3171ad87a1b433abb4696f18eb67292909630d886e073abe/watchfiles-0.24.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/74/16/a4cf06adbc711bd364a73ce043b0b08d8fa5aae3df11b6ee4248bcdad2e0/graphql_relay-3.2.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/74/fb/01a200e1c31b79690427c8e983014e4220d2652b4372a46fe4598e1d7a8e/gql-3.5.0-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/75/e4/2c27590dfc9992f73aabbeb9241ae20220bd9452df27483b6e56d3975cc5/PyYAML-6.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/76/c6/c88e154df9c4e1a2a66ccf0005a88dfb2650c1dffb6f5ce603dfbd452ce3/idna-3.10-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/78/b6/6307fbef88d9b5ee7421e68d78a9f162e0da4900bc5f5793f6d3d0e34fb8/annotated_types-0.7.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/8c/d6/97bdc8d714fb21762f2092511f380f18cdb2d985d516071fa925bb433a90/SQLAlchemy-2.0.35-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/93/6a/f2f68e0f9cf702b6d055ab53cab0d8c100f04e86228ca500a8ca9de94b58/croniter-3.0.3-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/95/04/ff642e65ad6b90db43e668d70ffb6736436c7ce41fcc549f4e9472234127/h11-0.14.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/95/d9/289d308f889aac33639703a60906e3a0f3ec97419b7ca5bedaddc77648fd/universal_pathlib-0.2.5-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/97/18/c30da5e7a0e7f4603abfc6780574131221d9148f323752c2755d48abad30/MarkupSafe-2.1.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/9e/ef/7a4f225581a0d7886ea28359179cb861d7fbcdefad29663fc1167b86f69f/anyio-4.6.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/a0/58/edec25190b6403caf4426dd418234f2358a106634b7d6aa4aec6939b104f/watchdog-5.0.3-py3-none-manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/af/9b/8c06d425a1d5a74fd764dd793edd02be18cf6fc3b1ccd1f29244ba132dc0/websockets-13.1-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/b3/38/89ba8ad64ae25be8de66a6d463314cf1eb366222074cfda9ee839c56a4b4/mdurl-0.1.2-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/b9/f8/feced7779d755758a52d1f6635d990b8d98dc0a29fa568bbe0625f18fdf3/filelock-3.16.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/ba/af/73d13b918071ff9b2205fcf773d316e0f8fefb4ec65354bbcf0b10908cc6/multidict-6.1.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/bf/65/813fc133609ebcb1299be6a42e5aea99d6344afb35ccb43f67e7daaa3b92/structlog-24.4.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/c2/12/58f4f11385fddafef5d6f7bfaaf2f42899c8da6b4f95c04b7c3b744851a8/alembic-1.13.3-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/c4/09/5e47823e3abb26ddda447b500be28137971d246b0c771a02f855dd06b30b/yarl-1.13.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/ce/d9/5f4c13cecde62396b0d3fe530a50ccea91e7dfc1ccf0e09c228841bb5ba8/urllib3-2.2.3-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/cf/db/ce8eda256fa131af12e0a76d481711abe4681b6923c27efb9a255c9e4594/tomli-2.0.2-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/d1/33/cc72c4c658c6316f188a60bc4e5a91cd4ceaaa8c3e7e691ac9297e4e72c7/graphql_core-3.2.4-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/d5/7c/e9fcff7623954d86bdc17782036cbf715ecab1bec4847c008557affe1ca8/docstring_parser-0.16-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/df/73/b6e24bd22e6720ca8ee9a85a0c4a2971af8497d8f3193fa05390cbd46e09/backoff-2.2.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/df/e4/ba44652d562cbf0bf320e0f3810206149c8a4e99cdbf66da82e97ab53a15/pydantic-2.9.2-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/e3/04/e97c12dc034791d7b504860acfcdd2963fa21ae61eaca1c9d31245f812c3/aniso8601-9.0.1-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/e9/44/75a9c9421471a6c4805dbf2356f7c181a29c1879239abab1ea2cc8f38b40/sniffio-1.3.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/f0/0f/310fb31e39e2d734ccaa2c0fb981ee41f7bd5056ce9bc29b2248bd569169/humanfriendly-10.0-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/f6/17/57b444fd314d5e1593350b9a31d000e7411ba8e17ce12dc7ad54ca76b810/toposort-1.10-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/f7/3f/01c8b82017c199075f8f788d0d906b9ffbbc5a47dc9918a945e13d5a2bda/pygments-2.18.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/f7/4b/1c9695aa24f808e156c8f4813f685d975ca73c000c2a5056c514c64980f6/greenlet-3.1.1-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl",
+            "https://files.pythonhosted.org/packages/f9/9b/335f9764261e915ed497fcdeb11df5dfd6f7bf257d4a6a2a686d80da4d54/requests-2.32.3-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/ff/ae/f19306b5a221f6a436d8f2238d5b80925004093fa3edea59835b514d9057/setuptools-75.1.0-py3-none-any.whl"
+        ]
+    },
+    "resolution": [
+        {
+            "requirement": "dagster",
+            "packages": [
+                "dagster-1.8.10-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "dagster-webserver",
+            "packages": [
+                "dagster_webserver-1.8.10-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "click>=5.0 (from dagster)",
+            "packages": [
+                "click-8.1.7-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "coloredlogs<=14.0,>=6.1 (from dagster)",
+            "packages": [
+                "coloredlogs-14.0-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "Jinja2 (from dagster)",
+            "packages": [
+                "jinja2-3.1.4-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "PyYAML>=5.1 (from dagster)",
+            "packages": [
+                "PyYAML-6.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "alembic!=1.11.0,!=1.6.3,!=1.7.0,>=1.2.1 (from dagster)",
+            "packages": [
+                "alembic-1.13.3-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "croniter>=0.3.34 (from dagster)",
+            "packages": [
+                "croniter-3.0.3-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "grpcio>=1.44.0 (from dagster)",
+            "packages": [
+                "grpcio-1.66.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "grpcio-health-checking>=1.44.0 (from dagster)",
+            "packages": [
+                "grpcio_health_checking-1.66.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "packaging>=20.9 (from dagster)",
+            "packages": [
+                "packaging-24.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "python-dotenv (from dagster)",
+            "packages": [
+                "python_dotenv-1.0.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "pytz (from dagster)",
+            "packages": [
+                "pytz-2024.2-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "requests (from dagster)",
+            "packages": [
+                "requests-2.32.3-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "setuptools (from dagster)",
+            "packages": [
+                "setuptools-75.1.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "tabulate (from dagster)",
+            "packages": [
+                "tabulate-0.9.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "tomli<3 (from dagster)",
+            "packages": [
+                "tomli-2.0.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "tqdm<5 (from dagster)",
+            "packages": [
+                "tqdm-4.66.5-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "typing-extensions<5,>=4.4.0 (from dagster)",
+            "packages": [
+                "typing_extensions-4.12.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "structlog (from dagster)",
+            "packages": [
+                "structlog-24.4.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "sqlalchemy<3,>=1.0 (from dagster)",
+            "packages": [
+                "SQLAlchemy-2.0.35-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "toposort>=1.0 (from dagster)",
+            "packages": [
+                "toposort-1.10-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "watchdog<6,>=0.8.3 (from dagster)",
+            "packages": [
+                "watchdog-5.0.3-py3-none-manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "docstring-parser (from dagster)",
+            "packages": [
+                "docstring_parser-0.16-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "pydantic!=1.10.7,<2.10,>1.10.0 (from dagster)",
+            "packages": [
+                "pydantic-2.9.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "rich (from dagster)",
+            "packages": [
+                "rich-13.9.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "filelock (from dagster)",
+            "packages": [
+                "filelock-3.16.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "dagster-pipes==1.8.10 (from dagster)",
+            "packages": [
+                "dagster_pipes-1.8.10-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "universal-pathlib (from dagster)",
+            "packages": [
+                "universal_pathlib-0.2.5-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "protobuf<5,>=4 (from dagster)",
+            "packages": [
+                "protobuf-4.25.5-cp37-abi3-manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "dagster-graphql==1.8.10 (from dagster-webserver)",
+            "packages": [
+                "dagster_graphql-1.8.10-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "starlette!=0.36.0 (from dagster-webserver)",
+            "packages": [
+                "starlette-0.39.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "uvicorn[standard] (from dagster-webserver)",
+            "packages": [
+                "uvicorn-0.31.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "graphene<4,>=3 (from dagster-graphql==1.8.10->dagster-webserver)",
+            "packages": [
+                "graphene-3.3-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "gql<4,>=3 (from gql[requests]<4,>=3->dagster-graphql==1.8.10->dagster-webserver)",
+            "packages": [
+                "gql-3.5.0-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "Mako (from alembic!=1.11.0,!=1.6.3,!=1.7.0,>=1.2.1->dagster)",
+            "packages": [
+                "Mako-1.3.5-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "humanfriendly>=7.1 (from coloredlogs<=14.0,>=6.1->dagster)",
+            "packages": [
+                "humanfriendly-10.0-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "python-dateutil (from croniter>=0.3.34->dagster)",
+            "packages": [
+                "python_dateutil-2.9.0.post0-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "grpcio-health-checking>=1.44.0 (from dagster)",
+            "packages": [
+                "grpcio_health_checking-1.66.1-py3-none-any.whl",
+                "grpcio_health_checking-1.66.0-py3-none-any.whl",
+                "grpcio_health_checking-1.65.5-py3-none-any.whl",
+                "grpcio_health_checking-1.65.4-py3-none-any.whl",
+                "grpcio_health_checking-1.65.2-py3-none-any.whl",
+                "grpcio_health_checking-1.65.1-py3-none-any.whl",
+                "grpcio_health_checking-1.65.0-py3-none-any.whl",
+                "grpcio_health_checking-1.64.3-py3-none-any.whl",
+                "grpcio_health_checking-1.64.1-py3-none-any.whl",
+                "grpcio_health_checking-1.64.0-py3-none-any.whl",
+                "grpcio_health_checking-1.63.2-py3-none-any.whl",
+                "grpcio_health_checking-1.63.0-py3-none-any.whl",
+                "grpcio_health_checking-1.62.3-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "annotated-types>=0.6.0 (from pydantic!=1.10.7,<2.10,>1.10.0->dagster)",
+            "packages": [
+                "annotated_types-0.7.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "pydantic-core==2.23.4 (from pydantic!=1.10.7,<2.10,>1.10.0->dagster)",
+            "packages": [
+                "pydantic_core-2.23.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "greenlet!=0.4.17 (from sqlalchemy<3,>=1.0->dagster)",
+            "packages": [
+                "greenlet-3.1.1-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "anyio<5,>=3.4.0 (from starlette!=0.36.0->dagster-webserver)",
+            "packages": [
+                "anyio-4.6.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "MarkupSafe>=2.0 (from Jinja2->dagster)",
+            "packages": [
+                "MarkupSafe-2.1.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "charset-normalizer<4,>=2 (from requests->dagster)",
+            "packages": [
+                "charset_normalizer-3.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "idna<4,>=2.5 (from requests->dagster)",
+            "packages": [
+                "idna-3.10-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "urllib3<3,>=1.21.1 (from requests->dagster)",
+            "packages": [
+                "urllib3-2.2.3-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "certifi>=2017.4.17 (from requests->dagster)",
+            "packages": [
+                "certifi-2024.8.30-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "markdown-it-py>=2.2.0 (from rich->dagster)",
+            "packages": [
+                "markdown_it_py-3.0.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "pygments<3.0.0,>=2.13.0 (from rich->dagster)",
+            "packages": [
+                "pygments-2.18.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "fsspec!=2024.3.1,>=2022.1.0 (from universal-pathlib->dagster)",
+            "packages": [
+                "fsspec-2024.9.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "h11>=0.8 (from uvicorn[standard]->dagster-webserver)",
+            "packages": [
+                "h11-0.14.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "httptools>=0.5.0 (from uvicorn[standard]->dagster-webserver)",
+            "packages": [
+                "httptools-0.6.1-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "uvloop!=0.15.0,!=0.15.1,>=0.14.0 (from uvicorn[standard]->dagster-webserver)",
+            "packages": [
+                "uvloop-0.20.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "watchfiles>=0.13 (from uvicorn[standard]->dagster-webserver)",
+            "packages": [
+                "watchfiles-0.24.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "websockets>=10.4 (from uvicorn[standard]->dagster-webserver)",
+            "packages": [
+                "websockets-13.1-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "sniffio>=1.1 (from anyio<5,>=3.4.0->starlette!=0.36.0->dagster-webserver)",
+            "packages": [
+                "sniffio-1.3.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "graphql-core<3.3,>=3.2 (from gql<4,>=3->gql[requests]<4,>=3->dagster-graphql==1.8.10->dagster-webserver)",
+            "packages": [
+                "graphql_core-3.2.4-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "yarl<2.0,>=1.6 (from gql<4,>=3->gql[requests]<4,>=3->dagster-graphql==1.8.10->dagster-webserver)",
+            "packages": [
+                "yarl-1.13.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "backoff<3.0,>=1.11.1 (from gql<4,>=3->gql[requests]<4,>=3->dagster-graphql==1.8.10->dagster-webserver)",
+            "packages": [
+                "backoff-2.2.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "requests-toolbelt<2,>=1.0.0 (from gql[requests]<4,>=3->dagster-graphql==1.8.10->dagster-webserver)",
+            "packages": [
+                "requests_toolbelt-1.0.0-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "graphql-relay<3.3,>=3.1 (from graphene<4,>=3->dagster-graphql==1.8.10->dagster-webserver)",
+            "packages": [
+                "graphql_relay-3.2.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "aniso8601<10,>=8 (from graphene<4,>=3->dagster-graphql==1.8.10->dagster-webserver)",
+            "packages": [
+                "aniso8601-9.0.1-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "mdurl~=0.1 (from markdown-it-py>=2.2.0->rich->dagster)",
+            "packages": [
+                "mdurl-0.1.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "six>=1.5 (from python-dateutil->croniter>=0.3.34->dagster)",
+            "packages": [
+                "six-1.16.0-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "multidict>=4.0 (from yarl<2.0,>=1.6->gql<4,>=3->gql[requests]<4,>=3->dagster-graphql==1.8.10->dagster-webserver)",
+            "packages": [
+                "multidict-6.1.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        }
+    ]
+}

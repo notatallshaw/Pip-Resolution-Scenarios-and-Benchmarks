@@ -1,0 +1,5176 @@
+{
+    "input": {
+        "pip_version": "notatallshaw#pip@c4157d8dfb2823fc967549ccca08c150ab3df98b",
+        "python_version": "3.9",
+        "datetime": "2023-10-01T14:00:00",
+        "platform_system": "Linux",
+        "requirements": [
+            "click >= 7.0",
+            "click-loglevel ~= 0.2",
+            "dandi >= 0.24.0",
+            "psutil ~= 5.9",
+            "pyyaml",
+            "selenium"
+        ]
+    },
+    "result": {
+        "success": true,
+        "failure_reason": null,
+        "install_urls": [
+            "https://files.pythonhosted.org/packages/00/2e/d53fa4befbf2cfa713304affc7ca780ce4fc1fd8710527771b58311a3229/click-8.1.7-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/00/e5/f12a80907d0884e6dff9c16d0c0114d81b8cd07dc3ae54c5e962cc83037e/tqdm-4.66.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/03/83/69170060cd1cd53de4633d15a375a885dd981151a4a479056b06490cc006/bidsschematools-0.7.2-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/0c/e8/b5506904bcbbc6e1ac00870ea992ece127b540f69cea4dc232e73385882e/nwbinspector-0.4.30-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/0e/8f/5772801169cf62e8232721034f91f81e33b0cfa6e51d3bf6ff65c503af2a/keyring-24.2.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/0f/bf/a84bc75f069f4f156e1c0d9892fb7325945106c6ecaad9f29d24360872af/jsonschema-4.19.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/10/40/d551139c85db202f1f384ba8bcf96aca2f329440a844f924c8a0040b6d02/joblib-1.3.2-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/11/3d/785761e64dc90fda6feb9bd0459dc55ebe282a7d4564642a4a8ee277e0c0/yarl-1.9.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/12/f6/0232cc0c617e195f06f810534d00b74d2f348fe71b2118009ad8ad31f878/jsonpointer-2.4-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/13/c3/8ac768b389d5b6dda1c3ce7992b3acd2b46401f9b71439123858b17b1a2c/ci_info-0.3.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/18/57/11b1e218908aae98d7df4364accc5e5a69db0a9396c011f494c69947e1b9/pydantic-1.10.13-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/1c/24/83349ac2189cc2435e84da3f69ba3c97314d3c0622628e55171c6798ed80/jsonschema_specifications-2023.7.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/1c/77/3423557ad21949fd395f569535ede73bffe152306b6be31025fc9b6b4288/numcodecs-0.11.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/1c/92/d61b33ca7ba0d14ed6b9ff0cfca40e1ed43b2f98514669caa2ade2d0dc40/hdmf-3.9.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/1c/af/5af2e2a02bc464c1c7818c260606343020b96c0d5b64f637d9e91aee24fe/types_python_dateutil-2.8.19.14-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/1d/48/6c1118ac9168fcb49900a6a1aefb6d70f44da1da689c498293d133a5f5f1/botocore-1.31.57-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/23/23/3f3d042c96ff7bece5b126365593b1f9c8e3ae62ce80d44e9da39c5e8a73/pycryptodomex-3.19.0-cp35-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/24/21/7d397a4b7934ff4028987914ac1044d3b7d52712f30e2ac7a2ae5bc86dd0/typing_extensions-4.8.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/25/c1/4b35b22d1bcca62d279142333abd8a608a4df8628f9822696a91f840bbcd/click_loglevel-0.4.0.post1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/2c/d6/085267158007121a243f80bd2a5581371d8149ad6cdc9f4b84f0651f5b3f/dandischema-0.8.4-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/2d/6a/885bc91484e1aa8f618f6f0228d76d0e67000b0fdd6090673b777e311913/asciitree-0.3.3.tar.gz",
+            "https://files.pythonhosted.org/packages/31/b4/b9b800c45527aadd64d5b442f9b932b00648617eb5d63d2c7a6587b7cafc/jmespath-1.0.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/32/46/9cb0e58b2deb7f82b84065f37f3bffeb12413f947f9388e4cac22c4621ce/sortedcontainers-2.4.0-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/32/4d/aaf7eff5deb402fd9a24a1449a8119f00d74ae9c2efa79f8ef9994261fc2/pytz-2023.3.post1-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/35/a8/365059bbcd4572cbc41de17fd5b682be5868b218c3c5479071865cab9078/entrypoints-0.4-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/35/bc/a1f58a339ffe891d92492f47b1dfa90b0957ccf8ad11f35f653a1a6b8c4e/ruamel.yaml.clib-0.2.7-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl",
+            "https://files.pythonhosted.org/packages/36/7a/87837f39d0296e723bb9b62bbb257d0355c7f6128853c78955f57342a56d/python_dateutil-2.8.2-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/3b/00/2344469e2084fb287c2e0b57b72910309874c3245463acd6cf5e3db69324/appdirs-1.4.4-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/40/b4/7ffbe4e816f52f7303049f871f52d2f1204d1d7e32c3b04c8a9b69a37c83/dandi-0.56.2-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/45/29/061265cf2fdcead209b62779be813d2af935e0c47e6339ac9ee53c023312/ruamel.yaml-0.17.33-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/48/be/a9ae5f50cad5b6f85bd2574c2c923730098530096e170c1ce7452394d7aa/trio_websocket-0.11.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/4a/52/cccfc7a0d3bcf52cca6f6e1792786075df979346d638bf4cf5bc8bf2be3c/humanize-4.8.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/4c/dd/2234eab22353ffc7d94e8d13177aaa050113286e93e7b40eae01fbf7c3d9/certifi-2023.7.22-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/4f/79/8e6e05bc4954ebdb8b9c587f780a11f28790585798bd15a8e4870cfc02bc/h5py-3.9.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/54/24/b4293291fa1dd830f353d2cb163295742fa87f179fcc8a20a306a81978b7/SecretStorage-3.3.3-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/55/56/faf2aa238a0a8fbb7d5c11345a0f5e96358b7a3e144ba17b8b1c64f0b19a/selenium-4.13.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/58/19/a9ce39f89cf58cf1e7ce01c8bb76ab7e2c7aadbc5a2136c3e192097344f5/wcwidth-0.2.8-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/5a/4b/fec9ce18f8874a96c5061422625ba86c3ee1e6587ccd92ff9f5bf7bd91b2/s3transfer-0.7.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/5a/cb/6dce742ea14e47d6f565589e859ad225f2a5de576d7696e0623b784e226b/more_itertools-10.1.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/5b/8d/821fcb268cfc056964a75da3823896b17eabaa4968a2414121bc93b0c501/aiohttp-3.8.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/61/bf/fd60001b3abc5222d8eaa4a204cd8c0ae78e75adc688f33ce4bf25b7fafa/fasteners-0.19-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/62/d5/5f610ebe421e85889f2e55e33b7f9a6795bd982198517d912eb1c76e1a53/pycparser-2.21-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/65/d4/f7407c3d15d5ac779c3dd34fbbc6ea2090f77bd7dd12f207ccf881551208/rfc3987-1.3.8-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/69/48/2750fd3ace4d778b4e1f7110db3ad637906de3496abc9c450ce726b97337/multidict-6.0.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/6a/23/8146aad7d88f4fcb3a6218f41a60f6c2d4e3a72de72da1825dc7c8f7877c/semantic_version-2.10.0-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/70/8e/0e2d847013cb52cd35b38c009bb167a1a26b2ce6cd6965bf26b47bc0bf44/requests-2.31.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/75/cd/7ae0f2cd3fc68aea6cfb2b7e523842e1fa953adb38efabc110d27ba6e423/numpy-1.26.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/76/98/584f211c3a4bb38f2871fa937ee0cc83c130de50c955d6c7e2334dbf4acb/blessed-1.20.0-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/76/ac/a7305707cb852b7e16ff80eaf5692309bde30e2b1100a1fcacdc8f731d97/aiosignal-1.3.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/78/58/e860788190eba3bcce367f74d29c4675466ce8dddfba85f7827588416f01/wsproto-1.2.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/7b/44/4e421b96b67b2daff264473f7465db72fbdf36a07e05494f50300cc7b0c6/rfc3339_validator-0.1.4-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/7b/55/e5326141505c5d5e34c5e0935d2908a74e4561eca44108fbfb9c13d2911a/isoduration-20.11.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/7d/39/472f2554a0f1e825bd7c5afc11c817cd7a2f3657460f7159f691fbb37c51/PyYAML-6.0.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/82/29/8fc73714f40f83cc995d590f04ae46b152663a9e7f3f94ddee3765125870/rpds_py-0.10.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/88/8c/9d1f74196c296046af1f20e6d3fc7fbb27387282315e1643f450bba14329/scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/8b/1b/a13fd41742cf2ed2498e90e5cdb27239e1115a788114aed0625dbf16737c/etelemetry-0.3.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/8d/59/b4572118e098ac8e46e399a1dd0f2d85403ce8bbaad9ec79373ed6badaf9/PySocks-1.7.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/8f/9a/e57e226afca5867f9e4a2a99081241b35a8ad8e4a759a55c955c42483d7b/pyout-0.7.3-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/91/a9/c6eea6c80c57d8957eaba3cc1122339a1adbdce60532cbf94046c312bcd3/boto3-1.28.57-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/94/52/5b51779f64d6171a99cbe04ad9f84fa7334da5b273e31bb31bf52ae2b1d1/zarr_checksum-0.2.9-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/95/04/ff642e65ad6b90db43e668d70ffb6736436c7ce41fcc549f4e9472234127/h11-0.14.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/9e/45/824835a9c165eae015eb7b4a875a581918b9fc96439f8d9a5ca0868f0b7d/charset_normalizer-3.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/a3/dd/b61fa61b186d3267ef3903048fbee29132963ae762fb70b08d4a3cd6f7aa/trio-0.22.2-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/a7/fa/e01228c2938de91d47b307831c62ab9e4001e747789d0b05baf779a6488c/async_timeout-4.0.3-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/ad/36/4599267417fc78b587b1588e0647a468c60b36c02bb723d450d050738fa8/click_didyoumean-0.3.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/ad/83/b71e58666f156a39fb29417e4c8ca4bc7400c0dd4ed9e8842ab54dc8c344/exceptiongroup-1.1.3-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/ae/72/2a1e2290f1ab1e06f71f3d0f1646c9e4634e70e1d37491535e19266e8dc9/jeepney-0.8.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/af/20/046671abb06ec38e37fbf1d5e068456d1ba215a1913337723b22f7df803e/keyrings.alt-5.0.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/af/4d/389441079ecef400e2551a3933224885a7bde6b8a4810091d628cdd75afe/psutil-5.9.5-cp36-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/b3/f1/1645adf5a12df4889bebc77701f2b44ba37409e7db92be9eef7dded2d04c/email_validator-2.0.0.post2-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/b5/03/7dec2e257bd173b5ca1f74477863b97d322149f6f0284d7decead8c5ceeb/frozenlist-1.4.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/b6/85/7882d311924cbcfc70b1890780763e36ff0b140c7e51c110fc59a532f087/isodate-0.6.1-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/b8/e4/b8fc59248399d2482b39340ec9be4bb2493846ac23641b43115a7e5cd675/s3fs-0.4.2-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/ba/55/0f5ec28561a1698ac5c11edc5724f8c6d48d01baecf740ffd62107d95e7f/zarr-2.16.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/bb/26/7945080113158354380a12ce26873dd6c1ebd88d47f5bc24e2c5bb38c16a/setuptools-68.2.2-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/bc/7e/a9e11bd272e3135108892b6230a115568f477864276181eada3a35d03237/pandas-2.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/be/8e/56d6f1e2d591f4d6cbcba446cac4a1b0dc4f584537e2071d9bcee8eeab6b/referencing-0.30.2-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/c3/a0/5dba8ed157b0136607c7f2151db695885606968d1fae123dc3391e0cfdbf/sniffio-1.3.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/c5/05/c214b32d21c0b465506f95c4f28ccbcba15022e000b043b72b3df7728471/urllib3-1.26.16-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/c7/6b/1bc8fa93ea85146e08f0e0883bc579b7c7328364ed7df90b1628dcb36e10/jaraco.classes-3.3.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/cc/37/db7ba97e676af155f5fcb1a35466f446eadc9104e25b83366e8088c9c926/importlib_metadata-6.8.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/ce/3c/f2e265900fa86aadd5c111382149543c112e12c8caa4361de55db90dda37/pynwb-2.5.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/cf/58/8acf1b3e91c58313ce5cb67df61001fc9dcd21be4fadb76c1a2d540e09ed/fqdn-1.5.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/d5/e1/3e9013159b4cbb71df9bd7611cbf90dc2c621c8aeeb677fc41dad72f2261/webcolors-1.13-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/d5/fb/a79efcab32b8a1f1ddca7f35109a50e4a80d42ac1c9187ab46522b2407d7/tzdata-2023.3-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/d9/66/48866fc6b158c81cc2bfecc04c480f105c6040e8b077bc54c634b4a67926/zipp-3.17.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/e7/00/3fca040d7cf8a32776d3d81a00c8ee7457e00f80c649f1e4a863c8321ae9/uri_template-1.3.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/e9/4f/2f2d3f65d851852712b4de3fd0cfdcec9c5e9a9c347430e004ba770ef4db/outcome-1.2.0-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/ea/ac/e9e77bc385729035143e54cc8c4785bd480eaca9df17565963556b0b7a93/cffi-1.16.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/eb/4b/f86cc66c632cf0948ca1712aadd255f624deef1cd371ea3bfd30851e188d/cryptography-41.0.4-cp37-abi3-manylinux_2_28_x86_64.whl",
+            "https://files.pythonhosted.org/packages/ec/1a/610693ac4ee14fcdf2d9bf3c493370e4f2ef7ae2e19217d7a237ff42367d/packaging-23.2-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/ef/82/7a9d0550484a62c6da82858ee9419f3dd1ccc9aa1c26a1e43da3ecd20b0d/natsort-8.4.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/f0/eb/fcb708c7bf5056045e9e98f62b93bd7467eb718b0202e7698eb11d66416c/attrs-23.1.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/f1/29/0f64e53f11c854533e6ad7f4924ea0f19d3d58e445217d2a86aaa6c3c86b/fscacher-0.4.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/f4/f1/990741d5bb2487d529d20a433210ffa136a367751e454214013b441c4575/tenacity-8.2.3-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/f6/b4/0a9bee52c50f226a3cbfb54263d02bb421c7f2adc136520729c2c689c1e5/dnspython-2.4.2-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/f8/ed/e97229a566617f2ae958a6b13e7cc0f585470eac730a73e9e82c32a3cdd2/arrow-1.3.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/f8/ff/0d393596b592e911e57f9970faa799c54d70eed3b92c2064f4a19c94445f/interleave-0.2.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/fc/34/3030de6f1370931b9dbb4dad48f6ab1015ab1d32447850b9fc94e60097be/idna-3.4-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/fe/d3/e1aa96437d944fbb9cc95d0316e25583886e9cd9e6adc07baad943524eda/fsspec-2023.9.2-py3-none-any.whl"
+        ]
+    },
+    "resolution": [
+        {
+            "requirement": "click>=7.0",
+            "packages": [
+                "click-8.1.7-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "click-loglevel~=0.2",
+            "packages": [
+                "click_loglevel-0.4.0.post1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "dandi>=0.24.0",
+            "packages": [
+                "dandi-0.56.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "psutil~=5.9",
+            "packages": [
+                "psutil-5.9.5-cp36-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "pyyaml",
+            "packages": [
+                "PyYAML-6.0.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "selenium",
+            "packages": [
+                "selenium-4.13.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "appdirs (from dandi>=0.24.0)",
+            "packages": [
+                "appdirs-1.4.4-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "bidsschematools~=0.7.0 (from dandi>=0.24.0)",
+            "packages": [
+                "bidsschematools-0.7.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "click-didyoumean (from dandi>=0.24.0)",
+            "packages": [
+                "click_didyoumean-0.3.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "dandischema~=0.8.0 (from dandi>=0.24.0)",
+            "packages": [
+                "dandischema-0.8.4-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "etelemetry>=0.2.2 (from dandi>=0.24.0)",
+            "packages": [
+                "etelemetry-0.3.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "fasteners (from dandi>=0.24.0)",
+            "packages": [
+                "fasteners-0.19-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "fscacher>=0.3.0 (from dandi>=0.24.0)",
+            "packages": [
+                "fscacher-0.4.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "hdmf!=3.5.0 (from dandi>=0.24.0)",
+            "packages": [
+                "hdmf-3.9.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "humanize (from dandi>=0.24.0)",
+            "packages": [
+                "humanize-4.8.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "interleave~=0.1 (from dandi>=0.24.0)",
+            "packages": [
+                "interleave-0.2.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "joblib (from dandi>=0.24.0)",
+            "packages": [
+                "joblib-1.3.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "keyring!=23.9.0 (from dandi>=0.24.0)",
+            "packages": [
+                "keyring-24.2.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "keyrings.alt (from dandi>=0.24.0)",
+            "packages": [
+                "keyrings.alt-5.0.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "packaging (from dandi>=0.24.0)",
+            "packages": [
+                "packaging-23.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "pycryptodomex (from dandi>=0.24.0)",
+            "packages": [
+                "pycryptodomex-3.19.0-cp35-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "pydantic>=1.9.0 (from dandi>=0.24.0)",
+            "packages": [
+                "pydantic-2.4.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "pynwb!=1.1.0,!=2.3.0,>=1.0.3 (from dandi>=0.24.0)",
+            "packages": [
+                "pynwb-2.5.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "nwbinspector>=0.4.28 (from dandi>=0.24.0)",
+            "packages": [
+                "nwbinspector-0.4.30-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "pyout!=0.6.0,>=0.5 (from dandi>=0.24.0)",
+            "packages": [
+                "pyout-0.7.3-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "python-dateutil (from dandi>=0.24.0)",
+            "packages": [
+                "python_dateutil-2.8.2-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "requests~=2.20 (from dandi>=0.24.0)",
+            "packages": [
+                "requests-2.31.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "ruamel.yaml<1,>=0.15 (from dandi>=0.24.0)",
+            "packages": [
+                "ruamel.yaml-0.17.33-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "semantic-version (from dandi>=0.24.0)",
+            "packages": [
+                "semantic_version-2.10.0-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "tenacity (from dandi>=0.24.0)",
+            "packages": [
+                "tenacity-8.2.3-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "zarr~=2.10 (from dandi>=0.24.0)",
+            "packages": [
+                "zarr-2.16.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "zarr-checksum (from dandi>=0.24.0)",
+            "packages": [
+                "zarr_checksum-0.2.9-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "jsonschema[format] (from dandischema~=0.8.0->dandi>=0.24.0)",
+            "packages": [
+                "jsonschema-4.19.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "pydantic>=1.9.0 (from dandi>=0.24.0)",
+            "packages": [
+                "pydantic-1.10.13-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "typing-extensions>=4.2.0 (from pydantic>=1.9.0->dandi>=0.24.0)",
+            "packages": [
+                "typing_extensions-4.8.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "charset-normalizer<4,>=2 (from requests~=2.20->dandi>=0.24.0)",
+            "packages": [
+                "charset_normalizer-3.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "idna<4,>=2.5 (from requests~=2.20->dandi>=0.24.0)",
+            "packages": [
+                "idna-3.4-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "urllib3<3,>=1.21.1 (from requests~=2.20->dandi>=0.24.0)",
+            "packages": [
+                "urllib3-2.0.5-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "certifi>=2017.4.17 (from requests~=2.20->dandi>=0.24.0)",
+            "packages": [
+                "certifi-2023.7.22-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "ruamel.yaml.clib>=0.2.7 (from ruamel.yaml<1,>=0.15->dandi>=0.24.0)",
+            "packages": [
+                "ruamel.yaml.clib-0.2.7-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "asciitree (from zarr~=2.10->dandi>=0.24.0)",
+            "packages": [
+                "asciitree-0.3.3.tar.gz"
+            ]
+        },
+        {
+            "requirement": "numpy!=1.21.0,>=1.20 (from zarr~=2.10->dandi>=0.24.0)",
+            "packages": [
+                "numpy-1.26.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "numcodecs>=0.10.0 (from zarr~=2.10->dandi>=0.24.0)",
+            "packages": [
+                "numcodecs-0.11.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "email-validator>=1.0.3 (from pydantic[email]<2.0,>=1.8.1->dandischema~=0.8.0->dandi>=0.24.0)",
+            "packages": [
+                "email_validator-2.0.0.post2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "trio~=0.17 (from selenium)",
+            "packages": [
+                "trio-0.22.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "trio-websocket~=0.9 (from selenium)",
+            "packages": [
+                "trio_websocket-0.11.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "attrs>=20.1.0 (from trio~=0.17->selenium)",
+            "packages": [
+                "attrs-23.1.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "sortedcontainers (from trio~=0.17->selenium)",
+            "packages": [
+                "sortedcontainers-2.4.0-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "outcome (from trio~=0.17->selenium)",
+            "packages": [
+                "outcome-1.2.0-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "sniffio (from trio~=0.17->selenium)",
+            "packages": [
+                "sniffio-1.3.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "exceptiongroup>=1.0.0rc9 (from trio~=0.17->selenium)",
+            "packages": [
+                "exceptiongroup-1.1.3-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "wsproto>=0.14 (from trio-websocket~=0.9->selenium)",
+            "packages": [
+                "wsproto-1.2.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "pysocks!=1.5.7,<2.0,>=1.5.6 (from urllib3[socks]<3,>=1.26->selenium)",
+            "packages": [
+                "PySocks-1.7.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "ci-info>=0.2 (from etelemetry>=0.2.2->dandi>=0.24.0)",
+            "packages": [
+                "ci_info-0.3.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "h5py>=2.10 (from hdmf!=3.5.0->dandi>=0.24.0)",
+            "packages": [
+                "h5py-3.9.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "pandas>=1.0.5 (from hdmf!=3.5.0->dandi>=0.24.0)",
+            "packages": [
+                "pandas-2.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "scipy>=1.4 (from hdmf!=3.5.0->dandi>=0.24.0)",
+            "packages": [
+                "scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "jaraco.classes (from keyring!=23.9.0->dandi>=0.24.0)",
+            "packages": [
+                "jaraco.classes-3.3.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "importlib-metadata>=4.11.4 (from keyring!=23.9.0->dandi>=0.24.0)",
+            "packages": [
+                "importlib_metadata-6.8.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "SecretStorage>=3.2 (from keyring!=23.9.0->dandi>=0.24.0)",
+            "packages": [
+                "SecretStorage-3.3.3-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "jeepney>=0.4.2 (from keyring!=23.9.0->dandi>=0.24.0)",
+            "packages": [
+                "jeepney-0.8.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "fsspec (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "fsspec-2023.9.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "s3fs (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "s3fs-2023.9.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "aiohttp (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "aiohttp-3.8.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "natsort (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "natsort-8.4.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "tqdm (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "tqdm-4.66.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "isodate (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "isodate-0.6.1-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "setuptools (from pynwb!=1.1.0,!=2.3.0,>=1.0.3->dandi>=0.24.0)",
+            "packages": [
+                "setuptools-68.2.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "blessed (from pyout!=0.6.0,>=0.5->dandi>=0.24.0)",
+            "packages": [
+                "blessed-1.20.0-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "six>=1.5 (from python-dateutil->dandi>=0.24.0)",
+            "packages": [
+                "six-1.16.0-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.28.57-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.32.0,>=1.31.57 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.31.57-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "jmespath<2.0.0,>=0.7.1 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "jmespath-1.0.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "s3transfer<0.8.0,>=0.7.0 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "s3transfer-0.7.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.28.56-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.32.0,>=1.31.56 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.31.56-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.28.55-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.32.0,>=1.31.55 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.31.55-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.28.54-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "s3transfer<0.7.0,>=0.6.0 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "s3transfer-0.6.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.32.0,>=1.31.54 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.31.54-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.28.53-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.32.0,>=1.31.53 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.31.53-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.28.52-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.32.0,>=1.31.52 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.31.52-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.28.51-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.32.0,>=1.31.51 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.31.51-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.28.50-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.32.0,>=1.31.50 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.31.50-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.28.49-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.32.0,>=1.31.49 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.31.49-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.28.48-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.32.0,>=1.31.48 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.31.48-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.28.47-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.32.0,>=1.31.47 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.31.47-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.28.46-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.32.0,>=1.31.46 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.31.46-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.28.45-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.32.0,>=1.31.45 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.31.45-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.28.44-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.32.0,>=1.31.44 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.31.44-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.28.43-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.32.0,>=1.31.43 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.31.43-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.28.42-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.32.0,>=1.31.42 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.31.42-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.28.41-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.32.0,>=1.31.41 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.31.41-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.28.40-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.32.0,>=1.31.40 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.31.40-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.28.39-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.32.0,>=1.31.39 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.31.39-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.28.38-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.32.0,>=1.31.38 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.31.38-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.28.37-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.32.0,>=1.31.37 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.31.37-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.28.36-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.32.0,>=1.31.36 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.31.36-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.28.35-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.32.0,>=1.31.35 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.31.35-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.28.34-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.32.0,>=1.31.34 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.31.34-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.28.33-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.32.0,>=1.31.33 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.31.33-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.28.32-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.32.0,>=1.31.32 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.31.32-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.28.31-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.32.0,>=1.31.31 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.31.31-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.28.30-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.32.0,>=1.31.30 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.31.30-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.28.29-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.32.0,>=1.31.29 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.31.29-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.28.28-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.32.0,>=1.31.28 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.31.28-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.28.27-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.32.0,>=1.31.27 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.31.27-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.28.26-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.32.0,>=1.31.26 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.31.26-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.28.25-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.32.0,>=1.31.25 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.31.25-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.28.24-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.32.0,>=1.31.24 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.31.24-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.28.23-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.32.0,>=1.31.23 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.31.23-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.28.22-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.32.0,>=1.31.22 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.31.22-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.28.21-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.32.0,>=1.31.21 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.31.21-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.28.20-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.32.0,>=1.31.20 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.31.20-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.28.19-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.32.0,>=1.31.19 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.31.19-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.28.18-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.32.0,>=1.31.18 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.31.18-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.28.17-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.32.0,>=1.31.17 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.31.17-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.28.16-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.32.0,>=1.31.16 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.31.16-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.28.15-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.32.0,>=1.31.15 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.31.15-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.28.14-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.32.0,>=1.31.14 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.31.14-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.28.13-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.32.0,>=1.31.13 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.31.13-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.28.12-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.32.0,>=1.31.12 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.31.12-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.28.11-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.32.0,>=1.31.11 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.31.11-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.28.10-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.32.0,>=1.31.10 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.31.10-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.28.9-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.32.0,>=1.31.9 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.31.9-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.28.8-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.32.0,>=1.31.8 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.31.8-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.28.7-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.32.0,>=1.31.7 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.31.7-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.28.6-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.32.0,>=1.31.6 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.31.6-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.28.5-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.32.0,>=1.31.5 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.31.5-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.28.4-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.32.0,>=1.31.4 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.31.4-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.28.3-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.32.0,>=1.31.3 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.31.3-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.28.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.32.0,>=1.31.2 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.31.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.28.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.32.0,>=1.31.1 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.31.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.28.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.32.0,>=1.31.0 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.31.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.27.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.31.0,>=1.30.1 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.30.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.27.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.31.0,>=1.30.0 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.30.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.165-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.165 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.165-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.164-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.164 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.164-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.163-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.163 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.163-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.162-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.162 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.162-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.161-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.161 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.161-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.160-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.160 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.160-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.159-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.159 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.159-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.158-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.158 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.158-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.157-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.157 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.157-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.156-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.156 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.156-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.155-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.155 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.155-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.154-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.154 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.154-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.153-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.153 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.153-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.152-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.152 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.152-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.151-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.151 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.151-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.150-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.150 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.150-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.149-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.149 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.149-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.148-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.148 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.148-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.147-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.147 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.147-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.146-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.146 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.146-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.145-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.145 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.145-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.144-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.144 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.144-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.143-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.143 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.143-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.142-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.142 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.142-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.141-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.141 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.141-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.140-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.140 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.140-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.139-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.139 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.139-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.138-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.138 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.138-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.137-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.137 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.137-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.136-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.136 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.136-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.135-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.135 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.135-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.134-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.134 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.134-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.133-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.133 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.133-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.132-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.132 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.132-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.131-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.131 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.131-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.130-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.130 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.130-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.129-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.129 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.129-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.128-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.128 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.128-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.127-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.127 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.127-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.126-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.126 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.126-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.125-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.125 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.125-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.124-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.124 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.124-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.123-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.123 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.123-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.122-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.122 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.122-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.121-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.121 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.121-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.120-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.120 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.120-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.119-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.119 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.119-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.118-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.118 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.118-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.117-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.117 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.117-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.116-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.116 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.116-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.115-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.115 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.115-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.114-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.114 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.114-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.113-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.113 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.113-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.112-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.112 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.112-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.111-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.111 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.111-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.110-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.110 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.110-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.109-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.109 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.109-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.108-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.108 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.108-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.107-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.107 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.107-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.106-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.106 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.106-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.105-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.105 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.105-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.104-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.104 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.104-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.103-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.103 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.103-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.102-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.102 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.102-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.101-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.101 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.101-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.100-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.100 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.100-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.99-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.99 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.99-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.98-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.98 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.98-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.97-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.97 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.97-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.96-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.96 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.96-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.95-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.95 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.95-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.94-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.94 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.94-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.93-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.93 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.93-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.92-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.92 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.92-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.91-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.91 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.91-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.90-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.90 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.90-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.89-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.89 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.89-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.88-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.88 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.88-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.87-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.87 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.87-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.86-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.86 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.86-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.85-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.85 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.85-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.84-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.84 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.84-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.83-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.83 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.83-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.82-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.82 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.82-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.81-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.81 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.81-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.80-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.80 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.80-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.79-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.79 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.79-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.78-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.78 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.78-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.77-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.77 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.77-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.76-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.76 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.76-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.75-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.75 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.75-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.74-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.74 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.74-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.73-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.73 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.73-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.72-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.72 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.72-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.71-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.71 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.71-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.70-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.70 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.70-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.69-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.69 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.69-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.68-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.68 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.68-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.67-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.67 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.67-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.66-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.66 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.66-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.65-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.65 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.65-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.64-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.64 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.64-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.63-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.63 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.63-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.62-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.62 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.62-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.61-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.61 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.61-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.60-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.60 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.60-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.59-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.59 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.59-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.58-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.58 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.58-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.57-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.57 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.57-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.56-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.56 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.56-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.55-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.55 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.55-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.54-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.54 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.54-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.53-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.53 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.53-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.52-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.52 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.52-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.51-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.51 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.51-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.50-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.50 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.50-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.49-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.49 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.49-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.48-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.48 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.48-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.47-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.47 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.47-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.46-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.46 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.46-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.45-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.45 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.45-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.44-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.44 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.44-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.43-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.43 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.43-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.42-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.42 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.42-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.41-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.41 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.41-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.40-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.40 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.40-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.39-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.39 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.39-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.38-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.38 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.38-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.37-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.37 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.37-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.36-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.36 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.36-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.35-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.35 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.35-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.34-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.34 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.34-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.33-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.33 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.33-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.32-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.32 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.32-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.31-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.31 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.31-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.30-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.30 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.30-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.29-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.29 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.29-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.28-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.28 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.28-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.27-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.27 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.27-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.26-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.26 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.26-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.25-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.25 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.25-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.24-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.24 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.24-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.23-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.23 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.23-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.22-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.22 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.22-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.21-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.21 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.21-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.20-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.20 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.20-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.19-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.19 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.19-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.18-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.18 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.18-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.17-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.17 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.17-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.16-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.16 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.16-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.15-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.15 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.15-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.14-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.14 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.14-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.13-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.13 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.13-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.12-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.12 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.12-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.11-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.11 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.11-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.10-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.10 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.10-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.9-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.9 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.9-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.8-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.8 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.8-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.7-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.7 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.7-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.6-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.6 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.6-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.5-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.5 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.5-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.4-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.4 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.4-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.3-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.3 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.3-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.2 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.1 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.26.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.30.0,>=1.29.0 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.29.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.25.5-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.29.0,>=1.28.5 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.28.5-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.25.4-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.29.0,>=1.28.4 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.28.4-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.25.3-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.29.0,>=1.28.3 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.28.3-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.25.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.29.0,>=1.28.2 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.28.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.25.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.29.0,>=1.28.1 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.28.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.25.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.29.0,>=1.28.0 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.28.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.96-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.96 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.96-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.95-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.95 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.95-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.94-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.94 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.94-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.93-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.93 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.93-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.92-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.92 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.92-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.91-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.91 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.91-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.90-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.90 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.90-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.89-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.89 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.89-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.88-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.88 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.88-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.87-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.87 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.87-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.86-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.86 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.86-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.85-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.85 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.85-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.84-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.84 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.84-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.83-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.83 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.83-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.82-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.82 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.82-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.81-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.81 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.81-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.80-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.80 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.80-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.79-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.79 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.79-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.78-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.78 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.78-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.77-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.77 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.77-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.76-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.76 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.76-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.75-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.75 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.75-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.74-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.74 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.74-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.73-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.73 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.73-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.72-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.72 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.72-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.71-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.71 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.71-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.70-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.70 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.70-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.69-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.69 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.69-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.68-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.68 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.68-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.67-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.67 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.67-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.66-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.66 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.66-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.65-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.65 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.65-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.64-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.64 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.64-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.63-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.63 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.63-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.62-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.62 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.62-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.61-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.61 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.61-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.60-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.60 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.60-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.59-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.59 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.59-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.58-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.58 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.58-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.57-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.57 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.57-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.56-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.56 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.56-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.55-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.55 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.55-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.54-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.54 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.54-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.53-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.53 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.53-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.52-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.52 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.52-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.51-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.51 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.51-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.50-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.50 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.50-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.49-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.49 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.49-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.48-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.48 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.48-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.47-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.47 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.47-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.46-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.46 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.46-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.45-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.45 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.45-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.44-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.44 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.44-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.43-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.43 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.43-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.42-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.42 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.42-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.41-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.41 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.41-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.40-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.40 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.40-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.39-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.39 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.39-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.38-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.38 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.38-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.37-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.37 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.37-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.36-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.36 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.36-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.35-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.35 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.35-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.34-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.34 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.34-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.33-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.33 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.33-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.32-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.32 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.32-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.31-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.31 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.31-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.30-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.30 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.30-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.29-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.29 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.29-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.28-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.28 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.28-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.27-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.27 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.27-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.26-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.26 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.26-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.25-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.25 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.25-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.24-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.24 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.24-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.23-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.23 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.23-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.22-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.22 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.22-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.21-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.21 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.21-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.20-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.20 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.20-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.19-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.19 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.19-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.18-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.18 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.18-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.17-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.17 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.17-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.16-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.16 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.16-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.15-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.15 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.15-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.14-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.14 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.14-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.13-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.13 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.13-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.12-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.12 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.12-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.11-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.11 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.11-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.10-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.10 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.10-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.9-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.9 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.9-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.8-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.8 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.8-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.7-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.7 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.7-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.6-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.6 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.6-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.5-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.5 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.5-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.4-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.4 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.4-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.3-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.3 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.3-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.2 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.1 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2.0,>=1.24 (from zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "boto3-1.24.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.28.0,>=1.27.0 (from boto3<2.0,>=1.24->zarr-checksum->dandi>=0.24.0)",
+            "packages": [
+                "botocore-1.27.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "nwbinspector>=0.4.28 (from dandi>=0.24.0)",
+            "packages": [
+                "nwbinspector-0.4.29-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "etelemetry>=0.2.2 (from dandi>=0.24.0)",
+            "packages": [
+                "etelemetry-0.2.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "urllib3[socks]<3,>=1.26 (from selenium)",
+            "packages": [
+                "urllib3-2.0.4-py3-none-any.whl",
+                "urllib3-2.0.3-py3-none-any.whl",
+                "urllib3-2.0.2-py3-none-any.whl",
+                "urllib3-2.0.1-py3-none-any.whl",
+                "urllib3-2.0.0-py3-none-any.whl",
+                "urllib3-1.26.16-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "zipp>=0.5 (from importlib-metadata>=4.11.4->keyring!=23.9.0->dandi>=0.24.0)",
+            "packages": [
+                "zipp-3.17.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "jsonschema-specifications>=2023.03.6 (from jsonschema[format]->dandischema~=0.8.0->dandi>=0.24.0)",
+            "packages": [
+                "jsonschema_specifications-2023.7.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "referencing>=0.28.4 (from jsonschema[format]->dandischema~=0.8.0->dandi>=0.24.0)",
+            "packages": [
+                "referencing-0.30.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "rpds-py>=0.7.1 (from jsonschema[format]->dandischema~=0.8.0->dandi>=0.24.0)",
+            "packages": [
+                "rpds_py-0.10.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "entrypoints (from numcodecs>=0.10.0->zarr~=2.10->dandi>=0.24.0)",
+            "packages": [
+                "entrypoints-0.4-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "pytz>=2020.1 (from pandas>=1.0.5->hdmf!=3.5.0->dandi>=0.24.0)",
+            "packages": [
+                "pytz-2023.3.post1-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "tzdata>=2022.1 (from pandas>=1.0.5->hdmf!=3.5.0->dandi>=0.24.0)",
+            "packages": [
+                "tzdata-2023.3-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "cryptography>=2.0 (from SecretStorage>=3.2->keyring!=23.9.0->dandi>=0.24.0)",
+            "packages": [
+                "cryptography-41.0.4-cp37-abi3-manylinux_2_28_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "h11<1,>=0.9.0 (from wsproto>=0.14->trio-websocket~=0.9->selenium)",
+            "packages": [
+                "h11-0.14.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "multidict<7.0,>=4.5 (from aiohttp->nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "multidict-6.0.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "async-timeout<5.0,>=4.0.0a3 (from aiohttp->nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "async_timeout-4.0.3-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "yarl<2.0,>=1.0 (from aiohttp->nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "yarl-1.9.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "frozenlist>=1.1.1 (from aiohttp->nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "frozenlist-1.4.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "aiosignal>=1.1.2 (from aiohttp->nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "aiosignal-1.3.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "wcwidth>=0.1.4 (from blessed->pyout!=0.6.0,>=0.5->dandi>=0.24.0)",
+            "packages": [
+                "wcwidth-0.2.8-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "more-itertools (from jaraco.classes->keyring!=23.9.0->dandi>=0.24.0)",
+            "packages": [
+                "more_itertools-10.1.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "fqdn (from jsonschema[format]->dandischema~=0.8.0->dandi>=0.24.0)",
+            "packages": [
+                "fqdn-1.5.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "isoduration (from jsonschema[format]->dandischema~=0.8.0->dandi>=0.24.0)",
+            "packages": [
+                "isoduration-20.11.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "jsonpointer>1.13 (from jsonschema[format]->dandischema~=0.8.0->dandi>=0.24.0)",
+            "packages": [
+                "jsonpointer-2.4-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "rfc3339-validator (from jsonschema[format]->dandischema~=0.8.0->dandi>=0.24.0)",
+            "packages": [
+                "rfc3339_validator-0.1.4-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "rfc3987 (from jsonschema[format]->dandischema~=0.8.0->dandi>=0.24.0)",
+            "packages": [
+                "rfc3987-1.3.8-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "uri-template (from jsonschema[format]->dandischema~=0.8.0->dandi>=0.24.0)",
+            "packages": [
+                "uri_template-1.3.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "webcolors>=1.11 (from jsonschema[format]->dandischema~=0.8.0->dandi>=0.24.0)",
+            "packages": [
+                "webcolors-1.13-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "aiobotocore~=2.5.4 (from s3fs->nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "aiobotocore-2.5.4-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "s3fs (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "s3fs-2023.9.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "fsspec (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "fsspec-2023.9.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "s3fs (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "s3fs-2023.9.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "fsspec (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "fsspec-2023.9.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "s3fs (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "s3fs-2023.6.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "fsspec (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "fsspec-2023.6.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "aiobotocore~=2.5.0 (from s3fs->nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "aiobotocore-2.5.3-py3-none-any.whl",
+                "aiobotocore-2.5.2-py3-none-any.whl",
+                "aiobotocore-2.5.1-py3-none-any.whl",
+                "aiobotocore-2.5.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "s3fs (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "s3fs-2023.5.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "fsspec (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "fsspec-2023.5.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "s3fs (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "s3fs-2023.4.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "fsspec (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "fsspec-2023.4.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "s3fs (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "s3fs-2023.3.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "aiobotocore~=2.4.2 (from s3fs->nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "aiobotocore-2.4.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "fsspec (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "fsspec-2023.3.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "s3fs (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "s3fs-2023.1.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "fsspec (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "fsspec-2023.1.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "s3fs (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "s3fs-2022.11.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "fsspec (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "fsspec-2022.11.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "aiobotocore~=2.4.0 (from s3fs->nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "aiobotocore-2.4.1-py3-none-any.whl",
+                "aiobotocore-2.4.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "s3fs (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "s3fs-2022.10.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "fsspec (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "fsspec-2022.10.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "s3fs (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "s3fs-2022.8.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "fsspec (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "fsspec-2022.8.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "s3fs (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "s3fs-2022.8.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "fsspec (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "fsspec-2022.8.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "s3fs (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "s3fs-2022.8.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "fsspec (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "fsspec-2022.8.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "s3fs (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "s3fs-2022.7.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "aiobotocore~=2.3.4 (from s3fs->nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "aiobotocore-2.3.4-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "fsspec (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "fsspec-2022.7.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "s3fs (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "s3fs-2022.7.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "fsspec (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "fsspec-2022.7.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "s3fs (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "s3fs-2022.5.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "fsspec (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "fsspec-2022.5.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "aiobotocore~=2.3.0 (from s3fs->nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "aiobotocore-2.3.3.tar.gz",
+                "aiobotocore-2.3.2.tar.gz",
+                "aiobotocore-2.3.1.tar.gz",
+                "aiobotocore-2.3.0.tar.gz"
+            ]
+        },
+        {
+            "requirement": "s3fs (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "s3fs-2022.3.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "aiobotocore~=2.2.0 (from s3fs->nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "aiobotocore-2.2.0.tar.gz"
+            ]
+        },
+        {
+            "requirement": "fsspec (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "fsspec-2022.3.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "s3fs (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "s3fs-2022.2.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "aiobotocore~=2.1.0 (from s3fs->nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "aiobotocore-2.1.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "fsspec (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "fsspec-2022.2.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "aiobotocore~=2.1.0 (from s3fs->nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "aiobotocore-2.1.1.tar.gz",
+                "aiobotocore-2.1.0.tar.gz"
+            ]
+        },
+        {
+            "requirement": "s3fs (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "s3fs-2022.1.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "fsspec (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "fsspec-2022.1.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "s3fs (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "s3fs-2021.11.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "aiobotocore~=2.0.1 (from s3fs->nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "aiobotocore-2.0.1.tar.gz"
+            ]
+        },
+        {
+            "requirement": "fsspec (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "fsspec-2021.11.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "s3fs (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "s3fs-2021.11.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "aiobotocore~=1.4.1 (from s3fs->nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "aiobotocore-1.4.2.tar.gz"
+            ]
+        },
+        {
+            "requirement": "fsspec (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "fsspec-2021.11.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "aiobotocore~=1.4.1 (from s3fs->nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "aiobotocore-1.4.1.tar.gz"
+            ]
+        },
+        {
+            "requirement": "s3fs (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "s3fs-2021.10.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "fsspec (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "fsspec-2021.10.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "s3fs (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "s3fs-2021.10.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "fsspec (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "fsspec-2021.10.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "s3fs (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "s3fs-2021.9.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "fsspec (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "fsspec-2021.9.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "s3fs (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "s3fs-2021.8.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "fsspec (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "fsspec-2021.8.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "aiobotocore~=1.4.0 (from s3fs->nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "aiobotocore-1.4.0.tar.gz"
+            ]
+        },
+        {
+            "requirement": "s3fs (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "s3fs-2021.8.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "fsspec (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "fsspec-2021.7.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "s3fs (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "s3fs-2021.7.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "aiobotocore>=1.0.1 (from s3fs->nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "aiobotocore-2.6.0-py3-none-any.whl",
+                "aiobotocore-2.0.0.tar.gz",
+                "aiobotocore-1.3.3.tar.gz",
+                "aiobotocore-1.3.2.tar.gz",
+                "aiobotocore-1.3.1.tar.gz",
+                "aiobotocore-1.3.0.tar.gz",
+                "aiobotocore-1.2.2.tar.gz",
+                "aiobotocore-1.2.1.tar.gz",
+                "aiobotocore-1.2.0.tar.gz",
+                "aiobotocore-1.1.2-py3-none-any.whl",
+                "aiobotocore-1.1.1-py3-none-any.whl",
+                "aiobotocore-1.1.0-py3-none-any.whl",
+                "aiobotocore-1.0.7-py3-none-any.whl",
+                "aiobotocore-1.0.6-py3-none-any.whl",
+                "aiobotocore-1.0.5-py3-none-any.whl",
+                "aiobotocore-1.0.4-py3-none-any.whl",
+                "aiobotocore-1.0.3-py3-none-any.whl",
+                "aiobotocore-1.0.2-py3-none-any.whl",
+                "aiobotocore-1.0.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "s3fs (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "s3fs-2021.6.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "fsspec (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "fsspec-2021.6.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "s3fs (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "s3fs-2021.6.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "fsspec (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "fsspec-2021.6.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "s3fs (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "s3fs-2021.5.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "fsspec (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "fsspec-2021.5.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "s3fs (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "s3fs-2021.4.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "fsspec (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "fsspec-2021.4.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "s3fs (from nwbinspector>=0.4.28->dandi>=0.24.0)",
+            "packages": [
+                "s3fs-0.6.0-py3-none-any.whl",
+                "s3fs-0.5.2-py3-none-any.whl",
+                "s3fs-0.5.1-py3-none-any.whl",
+                "s3fs-0.5.0-py3-none-any.whl",
+                "s3fs-0.4.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "cffi>=1.12 (from cryptography>=2.0->SecretStorage>=3.2->keyring!=23.9.0->dandi>=0.24.0)",
+            "packages": [
+                "cffi-1.16.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "dnspython>=2.0.0 (from email-validator>=1.0.3->pydantic[email]<2.0,>=1.8.1->dandischema~=0.8.0->dandi>=0.24.0)",
+            "packages": [
+                "dnspython-2.4.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "arrow>=0.15.0 (from isoduration->jsonschema[format]->dandischema~=0.8.0->dandi>=0.24.0)",
+            "packages": [
+                "arrow-1.3.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "types-python-dateutil>=2.8.10 (from arrow>=0.15.0->isoduration->jsonschema[format]->dandischema~=0.8.0->dandi>=0.24.0)",
+            "packages": [
+                "types_python_dateutil-2.8.19.14-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "pycparser (from cffi>=1.12->cryptography>=2.0->SecretStorage>=3.2->keyring!=23.9.0->dandi>=0.24.0)",
+            "packages": [
+                "pycparser-2.21-py2.py3-none-any.whl"
+            ]
+        }
+    ]
+}

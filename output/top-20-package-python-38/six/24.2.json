@@ -1,0 +1,26 @@
+{
+    "input": {
+        "pip_version": "24.2",
+        "python_version": "3.8",
+        "datetime": "2024-10-07T14:00:00",
+        "platform_system": "Linux",
+        "requirements": [
+            "six"
+        ]
+    },
+    "result": {
+        "success": true,
+        "failure_reason": null,
+        "install_urls": [
+            "https://files.pythonhosted.org/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl"
+        ]
+    },
+    "resolution": [
+        {
+            "requirement": "six",
+            "packages": [
+                "six-1.16.0-py2.py3-none-any.whl"
+            ]
+        }
+    ]
+}

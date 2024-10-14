@@ -1,0 +1,264 @@
+{
+    "input": {
+        "pip_version": "notatallshaw#pip@c4157d8dfb2823fc967549ccca08c150ab3df98b",
+        "python_version": "3.11",
+        "datetime": "2024-10-07T14:00:00",
+        "platform_system": "Linux",
+        "requirements": [
+            "holoviews"
+        ]
+    },
+    "result": {
+        "success": true,
+        "failure_reason": null,
+        "install_urls": [
+            "https://files.pythonhosted.org/packages/03/33/003065374f38894cdf1040cef474ad0546368eea7e3a51d48b8a423961f8/contourpy-1.3.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/04/1e/b832de447dee8b582cac175871d2f6c3d5077cc56d5575cadba1fd1cccfa/linkify_it_py-2.0.3-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/08/aa/cc0199a5f0ad350994d660967a8efb233fe0416e4639146c089643407ce6/packaging-24.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/11/c3/005fcca25ce078d2cc29fd559379817424e94885510568bc1bc53d7d5846/pytz-2024.2-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/12/90/3c9ff0512038035f59d279fddeb79f5f1eccd8859f06d6163c58798b9487/certifi-2024.8.30-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/13/6b/b480a184ccf7a9cb5e12e59cd325becf6522c1025840ad7102f7d610b1c1/panel-1.5.2-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/22/d4/54f9d12668b58336bd30defe0307e6c61589a3e687b05c366f804b7faaf0/tornado-6.4.1-cp38-abi3-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/23/69/538317f0d925095537745f12aced33be1570bbdc4acde49b33748669af96/numpy-2.1.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/26/9f/ad63fc0248c5379346306f8668cda6e2e2e9c95e01216d2b8ffd9ff037d0/typing_extensions-4.12.2-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/31/80/3a54838c3fb461f6fec263ebf3a3a41771bd05190238de3486aae8540c36/jinja2-3.1.4-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/37/87/1f677586e8ac487e29672e4b17455758fce261de06a0d086167bb760361a/uc_micro_py-1.0.3-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/3f/08/83871f3c50fc983b88547c196d11cf8c3340e37c32d2e9d6152abe2c61f7/Markdown-3.7-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/40/26/f35951c45070edc957ba40a5b1db3cf60a9dbb1b350c2d5bef03e01e61de/charset_normalizer-3.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/42/d7/1ec15b46af6af88f19b8e5ffea08fa375d433c998b8a7639e76935c14f1f/markdown_it_py-3.0.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/48/5d/acf5905c36149bbaec41ccf7f2b68814647347b72075ac0b1fe3022fdc73/tqdm-4.66.5-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/4c/d3/e07ce413d16ef64e885bea37551eac4c5ca3ddd440933f9c94594273d0d9/xyzservices-2024.9.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/6c/db/5fa8025ff1819f46d50a1284cf3b79774f68d69f6472b53a73716753d083/bokeh-3.6.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/75/e4/2c27590dfc9992f73aabbeb9241ae20220bd9452df27483b6e56d3975cc5/PyYAML-6.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/76/c6/c88e154df9c4e1a2a66ccf0005a88dfb2650c1dffb6f5ce603dfbd452ce3/idna-3.10-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/81/3e/5a36494314e4780362b15a7e190095eec68366a0d512b5b532607c213a26/pyviz_comms-3.0.3-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/97/18/c30da5e7a0e7f4603abfc6780574131221d9148f323752c2755d48abad30/MarkupSafe-2.1.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/a6/ab/7e5f53c3b9d14972843a647d8d7a853969a58aecc7559cb3267302c94774/tzdata-2024.2-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/a7/f7/7782a043553ee469c1ff49cfa1cdace2d6bf99a1f333cf38676b3ddf30da/mdit_py_plugins-0.4.2-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/b3/38/89ba8ad64ae25be8de66a6d463314cf1eb366222074cfda9ee839c56a4b4/mdurl-0.1.2-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/b4/df/306e214441965532578b1eb58f5c2efe4b162a9b4819c70aa0a6413ab5c1/holoviews-1.19.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/ba/e5/8c68ff608a4203085158cff5cc2a3c534ec384536d9438c405ed6370d080/pillow-10.4.0-cp311-cp311-manylinux_2_28_x86_64.whl",
+            "https://files.pythonhosted.org/packages/c5/7b/5593a40fcd0981bda85274bb3e622ac433a94ae1e11ef8639de362cfa7de/param-2.1.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/c6/c6/9963d588cc3d75d766c819e0377a168ef83cf3316a92769971527a1ad1de/colorcet-3.1.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/cd/5f/4dba1d39bb9c38d574a9a22548c540177f78ea47b32f99c0ff2ec499fac5/pandas-2.2.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/ce/d9/5f4c13cecde62396b0d3fe530a50ccea91e7dfc1ccf0e09c228841bb5ba8/urllib3-2.2.3-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/ea/63/da7237f805089ecc28a3f36bca6a21c31fcbc2eb380f3b8f1be3312abd14/bleach-6.1.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/f4/24/2a3e3df732393fed8b3ebf2ec078f05546de641fe1b667ee316ec1dcf3b7/webencodings-0.5.1-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/f9/9b/335f9764261e915ed497fcdeb11df5dfd6f7bf257d4a6a2a686d80da4d54/requests-2.32.3-py3-none-any.whl"
+        ]
+    },
+    "resolution": [
+        {
+            "requirement": "holoviews",
+            "packages": [
+                "holoviews-1.19.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "bokeh>=3.1 (from holoviews)",
+            "packages": [
+                "bokeh-3.6.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "colorcet (from holoviews)",
+            "packages": [
+                "colorcet-3.1.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "numpy>=1.21 (from holoviews)",
+            "packages": [
+                "numpy-2.1.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "packaging (from holoviews)",
+            "packages": [
+                "packaging-24.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "pandas>=1.3 (from holoviews)",
+            "packages": [
+                "pandas-2.2.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "panel>=1.0 (from holoviews)",
+            "packages": [
+                "panel-1.5.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "param<3.0,>=2.0 (from holoviews)",
+            "packages": [
+                "param-2.1.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "pyviz-comms>=2.1 (from holoviews)",
+            "packages": [
+                "pyviz_comms-3.0.3-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "Jinja2>=2.9 (from bokeh>=3.1->holoviews)",
+            "packages": [
+                "jinja2-3.1.4-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "contourpy>=1.2 (from bokeh>=3.1->holoviews)",
+            "packages": [
+                "contourpy-1.3.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "pillow>=7.1.0 (from bokeh>=3.1->holoviews)",
+            "packages": [
+                "pillow-10.4.0-cp311-cp311-manylinux_2_28_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "PyYAML>=3.10 (from bokeh>=3.1->holoviews)",
+            "packages": [
+                "PyYAML-6.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "tornado>=6.2 (from bokeh>=3.1->holoviews)",
+            "packages": [
+                "tornado-6.4.1-cp38-abi3-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "xyzservices>=2021.09.1 (from bokeh>=3.1->holoviews)",
+            "packages": [
+                "xyzservices-2024.9.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "python-dateutil>=2.8.2 (from pandas>=1.3->holoviews)",
+            "packages": [
+                "python_dateutil-2.9.0.post0-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "pytz>=2020.1 (from pandas>=1.3->holoviews)",
+            "packages": [
+                "pytz-2024.2-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "tzdata>=2022.7 (from pandas>=1.3->holoviews)",
+            "packages": [
+                "tzdata-2024.2-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "bleach (from panel>=1.0->holoviews)",
+            "packages": [
+                "bleach-6.1.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "linkify-it-py (from panel>=1.0->holoviews)",
+            "packages": [
+                "linkify_it_py-2.0.3-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "markdown (from panel>=1.0->holoviews)",
+            "packages": [
+                "Markdown-3.7-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "markdown-it-py (from panel>=1.0->holoviews)",
+            "packages": [
+                "markdown_it_py-3.0.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "mdit-py-plugins (from panel>=1.0->holoviews)",
+            "packages": [
+                "mdit_py_plugins-0.4.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "requests (from panel>=1.0->holoviews)",
+            "packages": [
+                "requests-2.32.3-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "tqdm (from panel>=1.0->holoviews)",
+            "packages": [
+                "tqdm-4.66.5-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "typing-extensions (from panel>=1.0->holoviews)",
+            "packages": [
+                "typing_extensions-4.12.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "MarkupSafe>=2.0 (from Jinja2>=2.9->bokeh>=3.1->holoviews)",
+            "packages": [
+                "MarkupSafe-2.1.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "six>=1.5 (from python-dateutil>=2.8.2->pandas>=1.3->holoviews)",
+            "packages": [
+                "six-1.16.0-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "webencodings (from bleach->panel>=1.0->holoviews)",
+            "packages": [
+                "webencodings-0.5.1-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "uc-micro-py (from linkify-it-py->panel>=1.0->holoviews)",
+            "packages": [
+                "uc_micro_py-1.0.3-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "mdurl~=0.1 (from markdown-it-py->panel>=1.0->holoviews)",
+            "packages": [
+                "mdurl-0.1.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "charset-normalizer<4,>=2 (from requests->panel>=1.0->holoviews)",
+            "packages": [
+                "charset_normalizer-3.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "idna<4,>=2.5 (from requests->panel>=1.0->holoviews)",
+            "packages": [
+                "idna-3.10-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "urllib3<3,>=1.21.1 (from requests->panel>=1.0->holoviews)",
+            "packages": [
+                "urllib3-2.2.3-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "certifi>=2017.4.17 (from requests->panel>=1.0->holoviews)",
+            "packages": [
+                "certifi-2024.8.30-py3-none-any.whl"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "input": {
+        "pip_version": "24.2",
+        "python_version": "3.11",
+        "datetime": "2024-10-07T14:00:00",
+        "platform_system": "Linux",
+        "requirements": [
+            "botocore"
+        ]
+    },
+    "result": {
+        "success": true,
+        "failure_reason": null,
+        "install_urls": [
+            "https://files.pythonhosted.org/packages/31/b4/b9b800c45527aadd64d5b442f9b932b00648617eb5d63d2c7a6587b7cafc/jmespath-1.0.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/ce/d9/5f4c13cecde62396b0d3fe530a50ccea91e7dfc1ccf0e09c228841bb5ba8/urllib3-2.2.3-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/f1/6e/3e817d7e8803c4e49199ab4cdb5d3857ee5933d63de54cd9578a3e6e038f/botocore-1.35.34-py3-none-any.whl"
+        ]
+    },
+    "resolution": [
+        {
+            "requirement": "botocore",
+            "packages": [
+                "botocore-1.35.34-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "jmespath<2.0.0,>=0.7.1 (from botocore)",
+            "packages": [
+                "jmespath-1.0.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "python-dateutil<3.0.0,>=2.1 (from botocore)",
+            "packages": [
+                "python_dateutil-2.9.0.post0-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "urllib3!=2.2.0,<3,>=1.25.4 (from botocore)",
+            "packages": [
+                "urllib3-2.2.3-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "six>=1.5 (from python-dateutil<3.0.0,>=2.1->botocore)",
+            "packages": [
+                "six-1.16.0-py2.py3-none-any.whl"
+            ]
+        }
+    ]
+}
