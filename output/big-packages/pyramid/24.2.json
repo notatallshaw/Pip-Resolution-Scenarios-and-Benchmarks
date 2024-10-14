@@ -1,0 +1,96 @@
+{
+    "input": {
+        "pip_version": "24.2",
+        "python_version": "3.11",
+        "datetime": "2024-10-07T14:00:00",
+        "platform_system": "Linux",
+        "requirements": [
+            "pyramid"
+        ]
+    },
+    "result": {
+        "success": true,
+        "failure_reason": null,
+        "install_urls": [
+            "https://files.pythonhosted.org/packages/2c/c2/39964ef5fed7ac1523bab2d1bba244290965da6f720164b603ec07adf0a7/zope.interface-7.0.3-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/2c/d7/36860f68eb977ad685d0f0fda733eca913dbda1bb29bbc5f1c5ba460201a/venusian-3.1.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/3b/98/36187601a15e3d37e9bfcf0e0e1055532b39d044353b06861c3a519737a9/translationstring-1.4-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/85/30/cdddd9a88969683a59222a6d61cd6dce923977f2e9f9ffba38e1324149cd/PasteDeploy-3.1.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/86/7d/3888833e4f5ea56af4a9935066ec09a83228e533d7b8877f65889d706ee4/hupper-1.12.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/bd/30/2d4cf89035c22a89bf0e34dbc50fdc07c42c9bdc90fd972d495257ad2b6e/plaster_pastedeploy-1.0.1-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/c3/c2/fbc206db211c11ac85f2b440670ff6f43d44d7601f61b95628f56d271c21/WebOb-1.8.8-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/c8/7d/24a23d4d6d93744babfb99266eeb97a25ceae58c0f841a872b51c45ee214/zope.deprecation-5.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/db/41/a2114b8dd2187ae007e022a2baabdc7937cc78211cefc0c01fc5452193af/pyramid-2.0.2-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/e7/8b/3f98db1448e3b4d2d142716874a7e02f6101685fdaa0f55a8668e9ffa048/plaster-1.1.2-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/ff/ae/f19306b5a221f6a436d8f2238d5b80925004093fa3edea59835b514d9057/setuptools-75.1.0-py3-none-any.whl"
+        ]
+    },
+    "resolution": [
+        {
+            "requirement": "pyramid",
+            "packages": [
+                "pyramid-2.0.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "hupper>=1.5 (from pyramid)",
+            "packages": [
+                "hupper-1.12.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "plaster (from pyramid)",
+            "packages": [
+                "plaster-1.1.2-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "plaster-pastedeploy (from pyramid)",
+            "packages": [
+                "plaster_pastedeploy-1.0.1-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "setuptools (from pyramid)",
+            "packages": [
+                "setuptools-75.1.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "translationstring>=0.4 (from pyramid)",
+            "packages": [
+                "translationstring-1.4-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "venusian>=1.0 (from pyramid)",
+            "packages": [
+                "venusian-3.1.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "webob>=1.8.3 (from pyramid)",
+            "packages": [
+                "WebOb-1.8.8-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "zope.deprecation>=3.5.0 (from pyramid)",
+            "packages": [
+                "zope.deprecation-5.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "zope.interface>=3.8.0 (from pyramid)",
+            "packages": [
+                "zope.interface-7.0.3-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "PasteDeploy>=2.0 (from plaster-pastedeploy->pyramid)",
+            "packages": [
+                "PasteDeploy-3.1.0-py3-none-any.whl"
+            ]
+        }
+    ]
+}

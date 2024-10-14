@@ -1,0 +1,620 @@
+{
+    "input": {
+        "pip_version": "24.2",
+        "python_version": "3.11",
+        "datetime": "2024-10-07T14:00:00",
+        "platform_system": "Linux",
+        "requirements": [
+            "flair"
+        ]
+    },
+    "result": {
+        "success": true,
+        "failure_reason": null,
+        "install_urls": [
+            "https://files.pythonhosted.org/packages/01/75/6c7ce560e95714a10fcbb3367d1304975a1a3e620f72af28921b796403f3/matplotlib-3.9.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/01/cd/f4f2b79d20a10563d071c38b6ad14bf9c5d75a0edef877d2bed60c024247/pptree-3.1.tar.gz",
+            "https://files.pythonhosted.org/packages/03/33/003065374f38894cdf1040cef474ad0546368eea7e3a51d48b8a423961f8/contourpy-1.3.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/08/aa/cc0199a5f0ad350994d660967a8efb233fe0416e4639146c089643407ce6/packaging-24.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/0e/72/a3add0e4eec4eb9e2569554f7c70f4a3c27712f40e3284d483e88094cc0e/langdetect-1.0.9.tar.gz",
+            "https://files.pythonhosted.org/packages/12/90/3c9ff0512038035f59d279fddeb79f5f1eccd8859f06d6163c58798b9487/certifi-2024.8.30-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/12/9a/7620d1e9dcb02839ed6d4b14064e609cdd7a8ae1e47289aa0456796dd9ca/sqlitedict-2.1.0.tar.gz",
+            "https://files.pythonhosted.org/packages/17/f2/f01ea29c8eff8e749d96525a17c2d3ec02656cec9a80c20fb3e74dba4b04/transformers-4.45.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/19/74/f59e7e0d392bc1070e9a70e2f9190d652487ac115bb16e2eff6b22ad1d24/psutil-6.0.0-cp36-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/1d/a0/6aaea0c2fbea2f89bfd5db25fb1e3481896a423002ebe4e55288907a97a3/fsspec-2024.9.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/20/8d/778b7d51b981a96554f29136cd59ca7880bf58094338085bcf2a979a0e6a/Deprecated-1.2.14-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/23/08/a1ce0415a115c2b703bfa798f06f0e43ca91dbe29d6180bf86a9287b15e2/protobuf-5.28.2-cp38-abi3-manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/26/9f/ad63fc0248c5379346306f8668cda6e2e2e9c95e01216d2b8ffd9ff037d0/typing_extensions-4.12.2-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/31/80/3a54838c3fb461f6fec263ebf3a3a41771bd05190238de3486aae8540c36/jinja2-3.1.4-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/31/b4/b9b800c45527aadd64d5b442f9b932b00648617eb5d63d2c7a6587b7cafc/jmespath-1.0.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/32/46/9cb0e58b2deb7f82b84065f37f3bffeb12413f947f9388e4cac22c4621ce/sortedcontainers-2.4.0-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/33/3e/a2f59384587eff6aeb7d37b6780de7fedd2214935e27520430ca9f5b7975/triton-3.0.0-1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl",
+            "https://files.pythonhosted.org/packages/37/6d/121efd7382d5b0284239f4ab1fc1590d86d34ed4a4a2fdb13b30ca8e5740/nvidia_cublas_cu12-12.1.3.1-py3-none-manylinux1_x86_64.whl",
+            "https://files.pythonhosted.org/packages/38/e9/5f72929373e1a0e8d142a130f3f97e6ff920070f87f91c4e13e40e0fba5a/networkx-3.3-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/3a/d0/edc009c27b406c4f9cbc79274d6e46d634d139075492ad055e3d68445925/numpy-1.26.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/3c/4a/b221409913760d26cf4498b7b1741d510c82d3ad38381984a3ddc135ec66/s3transfer-0.10.2-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/40/26/f35951c45070edc957ba40a5b1db3cf60a9dbb1b350c2d5bef03e01e61de/charset_normalizer-3.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/40/44/4a5f08c96eb108af5cb50b41f76142f0afa346dfa99d5296fe7202a11854/tabulate-0.9.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/42/07/b29571a58a3a80681722ea8ed0ba569211d9bb8531ad49b5cacf6d409185/lxml-5.3.0-cp311-cp311-manylinux_2_28_x86_64.whl",
+            "https://files.pythonhosted.org/packages/43/e3/7d92a15f894aa0c9c4b49b8ee9ac9850d6e63b03c9c32c0367a13ae62209/mpmath-1.3.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/44/31/4890b1c9abc496303412947fc7dcea3d14861720642b49e8ceed89636705/nvidia_curand_cu12-10.3.2.106-py3-none-manylinux1_x86_64.whl",
+            "https://files.pythonhosted.org/packages/48/5d/acf5905c36149bbaec41ccf7f2b68814647347b72075ac0b1fe3022fdc73/tqdm-4.66.5-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/48/7e/3a64597054a70f7c86eb0a7d4fc315b8c1ab932f64883a297bdffeb5f967/more_itertools-10.5.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/49/21/3723de321531c9745e40f1badafd821e029d346155b6c79704e0b7197552/scikit_learn-1.5.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/4b/05/ae6dcab59673e2d498c645903ded6c5d76f7d44920386285feb96c517b3a/bioc-2.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/4b/2a/0a131f572aa09f741c30ccd45a8e56316e8be8dfc7bc19bf0ab7cfef7b19/nvidia_nccl_cu12-2.20.5-py3-none-manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/4b/2c/ffbf7a134b9ab11a67b0cf0726453cedd9c5043a4fe7a35d1cefa9a1bcfb/threadpoolctl-3.5.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/50/fb/396d568039d21344639db96d940d40eb62befe704ef849b27949ded5c3bb/intervaltree-3.1.0.tar.gz",
+            "https://files.pythonhosted.org/packages/54/70/e07c381e6488a77094f04c85c9caf1c8008cdc30778f7019bc52e5285ef0/gdown-5.2.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/55/c8/6a02e88256dc48faf3eae5732a94035f4ea0edd91d8224333693111921ba/transformer_smaller_training_vocab-0.4.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/5c/0b/0b30778c03279b6e35dbc68892d1e0e42f7dec33b7f03c80747e60be565d/wikipedia_api-0.7.1.tar.gz",
+            "https://files.pythonhosted.org/packages/5f/f1/15dc793cb109a801346f910a6b350530f2a763a6e83b221725a0bcc1e297/huggingface_hub-0.25.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/65/5b/cfaeebf25cd9fdec14338ccb16f6b2c4c7fa9163aefcf057d86b9cc248bb/nvidia_cusparse_cu12-12.1.0.106-py3-none-manylinux1_x86_64.whl",
+            "https://files.pythonhosted.org/packages/65/f2/29a37585be8e824157d17c6196947b86a7312b0184a5d84f6792082130f5/flair-0.14.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/6a/21/5b6702a7f963e95456c0de2d495f67bf5fd62840ac655dc451586d23d39a/attrs-24.2.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/6e/52/2da48b35193e39ac53cfb141467d9f259851522d0e8c87153f0ba4205fb1/wrapt-1.16.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/75/e4/2c27590dfc9992f73aabbeb9241ae20220bd9452df27483b6e56d3975cc5/PyYAML-6.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/76/c6/c88e154df9c4e1a2a66ccf0005a88dfb2650c1dffb6f5ce603dfbd452ce3/idna-3.10-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/7e/00/6b218edd739ecfc60524e585ba8e6b00554dd908de2c9c66c1af3e44e18d/nvidia_cuda_cupti_cu12-12.1.105-py3-none-manylinux1_x86_64.whl",
+            "https://files.pythonhosted.org/packages/7f/12/8f95419e2d6ebe98b8dd10da64a3544a6ba6d42967cf26fe64ed29fa0558/boto3-1.35.34-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/86/94/eb540db023ce1d162e7bea9f8f5aa781d57c65aed513c33ee9a5123ead4d/nvidia_cufft_cu12-11.0.2.54-py3-none-manylinux1_x86_64.whl",
+            "https://files.pythonhosted.org/packages/8d/59/b4572118e098ac8e46e399a1dd0f2d85403ce8bbaad9ec79373ed6badaf9/PySocks-1.7.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/91/29/df4b9b42f2be0b623cbd5e2140cafcaa2bef0759a00b7b70104dcfe2fb51/joblib-1.4.2-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/93/6b/701776d4bd6bdd9b629c387b5140f006185bd8ddea16788a44434376b98f/scipy-1.14.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/95/6a/e3691bcc47485f38b09853207c928130571821d187cf174eed5418d45e82/mpld3-0.5.10-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/96/13/748b7f7239893ff0796de11074b0ad8aa4c3da2d9f4d79a128b0b16147f3/fonttools-4.54.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/97/18/c30da5e7a0e7f4603abfc6780574131221d9148f323752c2755d48abad30/MarkupSafe-2.1.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/99/ff/c87e0622b1dadea79d2fb0b25ade9ed98954c9033722eb707053d310d4f3/sympy-1.13.3-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/9a/77/0cc7a8a3bc7e53d07e8f47f147b92b0960e902b8254859f4aee5c4d7866b/semver-3.0.2-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/9f/fd/713452cd72343f682b1c7b9321e23829f00b842ceaedcda96e742ea0b0b3/nvidia_cudnn_cu12-9.1.0.70-py3-none-manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/a2/55/8f8cab2afd404cf578136ef2cc5dfb50baa1761b68c9da1fb1e4eed343c9/docopt-0.6.2.tar.gz",
+            "https://files.pythonhosted.org/packages/a5/0e/e4421e6b8c8b3ae093bef22faa28c50d7dbd654f661edc5f5880a93dbf10/tokenizers-0.20.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/a7/4b/2db7af3ed3af7c35f388d5f53c28e155cd402a55432d800c543dc6deb731/kiwisolver-1.4.7-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/b0/5e/80cee674cdbe529ef008721d7eebb50ae5def4314211d82123aa23e828f8/accelerate-0.34.2-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/b1/fe/e8c672695b37eecc5cbf43e1d0638d88d66ba3a44c4d321c796f4e59167f/beautifulsoup4-4.12.3-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/b6/9f/c64c03f49d6fbc56196664d05dba14e3a561038a81a638eeb47f4d4cfd48/nvidia_cuda_nvrtc_cu12-12.1.105-py3-none-manylinux1_x86_64.whl",
+            "https://files.pythonhosted.org/packages/b9/f8/feced7779d755758a52d1f6635d990b8d98dc0a29fa568bbe0625f18fdf3/filelock-3.16.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/ba/e5/8c68ff608a4203085158cff5cc2a3c534ec384536d9438c405ed6370d080/pillow-10.4.0-cp311-cp311-manylinux_2_28_x86_64.whl",
+            "https://files.pythonhosted.org/packages/bc/1d/8de1e5c67099015c834315e333911273a8c6aaba78923dd1d1e25fc5f217/nvidia_cusolver_cu12-11.4.5.107-py3-none-manylinux1_x86_64.whl",
+            "https://files.pythonhosted.org/packages/ce/3f/70a1dc5bc536755ec082b806594598a10cfffaf0de978f51d4e0e4fdfa47/conllu-4.5.3-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/ce/d9/5f4c13cecde62396b0d3fe530a50ccea91e7dfc1ccf0e09c228841bb5ba8/urllib3-2.2.3-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/d1/c2/fe97d779f3ef3b15f05c94a2f1e3d21732574ed441687474db9d342a7315/soupsieve-2.6-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/da/d3/8057f0587683ed2fcd4dbfbdfdfa807b9160b809976099d36b8f60d08f03/nvidia_nvtx_cu12-12.1.105-py3-none-manylinux1_x86_64.whl",
+            "https://files.pythonhosted.org/packages/dd/60/d384dbae5d4756e33f1750fa3472303de2c827011907a64e213e114d0556/segtok-1.5.11-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/e5/0c/0e3c05b1c87bb6a1c76d281b0f35e78d2d80ac91b5f8f524cebf77f51049/pyparsing-3.1.4-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/e6/ee/69e498a892f208bd1da4104d4b9be887f8611bf4942144718b6738482250/safetensors-0.4.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/e7/05/c19819d5e3d95294a6f5947fb9b9629efb316b96de511b418c53d245aae6/cycler-0.12.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/e9/5c/8b385afbfacb853730682c57be56225f9fe275c5bf02ac1fc88edbff316d/regex-2024.9.11-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/ea/ea/4ab009e953bca6ff35ad75b8ab58c0923308636c182c145dc63084f7d136/torch-2.4.1-cp311-cp311-manylinux1_x86_64.whl",
+            "https://files.pythonhosted.org/packages/eb/d5/c68b1d2cdfcc59e72e8a5949a37ddb22ae6cade80cd4a57a84d4c8b55472/nvidia_cuda_runtime_cu12-12.1.105-py3-none-manylinux1_x86_64.whl",
+            "https://files.pythonhosted.org/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/ec/e9/10b11b186b99c40213dca68cf6c38051b6704a74e1056d3f3ca4c12f14b9/pytorch_revgrad-0.2.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/ed/46/14d230ad057048aea7ccd2f96a80905830866d281ea90a6662a825490659/ftfy-6.2.3-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/f1/6e/3e817d7e8803c4e49199ab4cdb5d3857ee5933d63de54cd9578a3e6e038f/botocore-1.35.34-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/f8/62/d9ba6323b9202dd2fe166beab8a86d29465c41a0288cbe229fac60c1ab8d/jsonlines-4.0.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/f9/9b/335f9764261e915ed497fcdeb11df5dfd6f7bf257d4a6a2a686d80da4d54/requests-2.32.3-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/fb/12/2f5c8d4764b00033cf1c935b702d3bb878d10be9f0b87f0253495832d85f/sentencepiece-0.2.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/fd/84/fd2ba7aafacbad3c4201d395674fc6348826569da3c0937e75505ead3528/wcwidth-0.2.13-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/fe/e4/486de766851d58699bcfeb3ba6a3beb4d89c3809f75b9d423b9508a8760f/nvidia_nvjitlink_cu12-12.6.77-py3-none-manylinux2014_x86_64.whl"
+        ]
+    },
+    "resolution": [
+        {
+            "requirement": "flair",
+            "packages": [
+                "flair-0.14.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3>=1.20.27 (from flair)",
+            "packages": [
+                "boto3-1.35.34-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "conllu<5.0.0,>=4.0 (from flair)",
+            "packages": [
+                "conllu-4.5.3-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "deprecated>=1.2.13 (from flair)",
+            "packages": [
+                "Deprecated-1.2.14-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "ftfy>=6.1.0 (from flair)",
+            "packages": [
+                "ftfy-6.2.3-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "gdown>=4.4.0 (from flair)",
+            "packages": [
+                "gdown-5.2.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "huggingface-hub>=0.10.0 (from flair)",
+            "packages": [
+                "huggingface_hub-0.25.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "langdetect>=1.0.9 (from flair)",
+            "packages": [
+                "langdetect-1.0.9.tar.gz"
+            ]
+        },
+        {
+            "requirement": "lxml>=4.8.0 (from flair)",
+            "packages": [
+                "lxml-5.3.0-cp311-cp311-manylinux_2_28_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "matplotlib>=2.2.3 (from flair)",
+            "packages": [
+                "matplotlib-3.9.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "more-itertools>=8.13.0 (from flair)",
+            "packages": [
+                "more_itertools-10.5.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "mpld3>=0.3 (from flair)",
+            "packages": [
+                "mpld3-0.5.10-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "pptree>=3.1 (from flair)",
+            "packages": [
+                "pptree-3.1.tar.gz"
+            ]
+        },
+        {
+            "requirement": "python-dateutil>=2.8.2 (from flair)",
+            "packages": [
+                "python_dateutil-2.9.0.post0-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "pytorch-revgrad>=0.2.0 (from flair)",
+            "packages": [
+                "pytorch_revgrad-0.2.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "regex>=2022.1.18 (from flair)",
+            "packages": [
+                "regex-2024.9.11-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "scikit-learn>=1.0.2 (from flair)",
+            "packages": [
+                "scikit_learn-1.5.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "segtok>=1.5.11 (from flair)",
+            "packages": [
+                "segtok-1.5.11-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "sqlitedict>=2.0.0 (from flair)",
+            "packages": [
+                "sqlitedict-2.1.0.tar.gz"
+            ]
+        },
+        {
+            "requirement": "tabulate>=0.8.10 (from flair)",
+            "packages": [
+                "tabulate-0.9.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "torch!=1.8,>=1.5.0 (from flair)",
+            "packages": [
+                "torch-2.4.1-cp311-cp311-manylinux1_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "tqdm>=4.63.0 (from flair)",
+            "packages": [
+                "tqdm-4.66.5-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "transformer-smaller-training-vocab>=0.2.3 (from flair)",
+            "packages": [
+                "transformer_smaller_training_vocab-0.4.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "transformers<5.0.0,>=4.18.0 (from transformers[sentencepiece]<5.0.0,>=4.18.0->flair)",
+            "packages": [
+                "transformers-4.45.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "wikipedia-api>=0.5.7 (from flair)",
+            "packages": [
+                "wikipedia_api-0.7.1.tar.gz"
+            ]
+        },
+        {
+            "requirement": "semver<4.0.0,>=3.0.0 (from flair)",
+            "packages": [
+                "semver-3.0.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "bioc<3.0.0,>=2.0.0 (from flair)",
+            "packages": [
+                "bioc-2.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "jsonlines>=1.2.0 (from bioc<3.0.0,>=2.0.0->flair)",
+            "packages": [
+                "jsonlines-4.0.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "intervaltree (from bioc<3.0.0,>=2.0.0->flair)",
+            "packages": [
+                "intervaltree-3.1.0.tar.gz"
+            ]
+        },
+        {
+            "requirement": "docopt (from bioc<3.0.0,>=2.0.0->flair)",
+            "packages": [
+                "docopt-0.6.2-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.36.0,>=1.35.34 (from boto3>=1.20.27->flair)",
+            "packages": [
+                "botocore-1.35.34-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "jmespath<2.0.0,>=0.7.1 (from boto3>=1.20.27->flair)",
+            "packages": [
+                "jmespath-1.0.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "s3transfer<0.11.0,>=0.10.0 (from boto3>=1.20.27->flair)",
+            "packages": [
+                "s3transfer-0.10.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "wrapt<2,>=1.10 (from deprecated>=1.2.13->flair)",
+            "packages": [
+                "wrapt-1.16.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "wcwidth<0.3.0,>=0.2.12 (from ftfy>=6.1.0->flair)",
+            "packages": [
+                "wcwidth-0.2.13-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "beautifulsoup4 (from gdown>=4.4.0->flair)",
+            "packages": [
+                "beautifulsoup4-4.12.3-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "filelock (from gdown>=4.4.0->flair)",
+            "packages": [
+                "filelock-3.16.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "requests[socks] (from gdown>=4.4.0->flair)",
+            "packages": [
+                "requests-2.32.3-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "fsspec>=2023.5.0 (from huggingface-hub>=0.10.0->flair)",
+            "packages": [
+                "fsspec-2024.9.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "packaging>=20.9 (from huggingface-hub>=0.10.0->flair)",
+            "packages": [
+                "packaging-24.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "pyyaml>=5.1 (from huggingface-hub>=0.10.0->flair)",
+            "packages": [
+                "PyYAML-6.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "typing-extensions>=3.7.4.3 (from huggingface-hub>=0.10.0->flair)",
+            "packages": [
+                "typing_extensions-4.12.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "six (from langdetect>=1.0.9->flair)",
+            "packages": [
+                "six-1.16.0-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "contourpy>=1.0.1 (from matplotlib>=2.2.3->flair)",
+            "packages": [
+                "contourpy-1.3.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "cycler>=0.10 (from matplotlib>=2.2.3->flair)",
+            "packages": [
+                "cycler-0.12.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "fonttools>=4.22.0 (from matplotlib>=2.2.3->flair)",
+            "packages": [
+                "fonttools-4.54.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "kiwisolver>=1.3.1 (from matplotlib>=2.2.3->flair)",
+            "packages": [
+                "kiwisolver-1.4.7-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "numpy>=1.23 (from matplotlib>=2.2.3->flair)",
+            "packages": [
+                "numpy-2.1.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "pillow>=8 (from matplotlib>=2.2.3->flair)",
+            "packages": [
+                "pillow-10.4.0-cp311-cp311-manylinux_2_28_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "pyparsing>=2.3.1 (from matplotlib>=2.2.3->flair)",
+            "packages": [
+                "pyparsing-3.1.4-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "jinja2 (from mpld3>=0.3->flair)",
+            "packages": [
+                "jinja2-3.1.4-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "scipy>=1.6.0 (from scikit-learn>=1.0.2->flair)",
+            "packages": [
+                "scipy-1.14.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "joblib>=1.2.0 (from scikit-learn>=1.0.2->flair)",
+            "packages": [
+                "joblib-1.4.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "threadpoolctl>=3.1.0 (from scikit-learn>=1.0.2->flair)",
+            "packages": [
+                "threadpoolctl-3.5.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "sympy (from torch!=1.8,>=1.5.0->flair)",
+            "packages": [
+                "sympy-1.13.3-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "networkx (from torch!=1.8,>=1.5.0->flair)",
+            "packages": [
+                "networkx-3.3-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "nvidia-cuda-nvrtc-cu12==12.1.105 (from torch!=1.8,>=1.5.0->flair)",
+            "packages": [
+                "nvidia_cuda_nvrtc_cu12-12.1.105-py3-none-manylinux1_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "nvidia-cuda-runtime-cu12==12.1.105 (from torch!=1.8,>=1.5.0->flair)",
+            "packages": [
+                "nvidia_cuda_runtime_cu12-12.1.105-py3-none-manylinux1_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "nvidia-cuda-cupti-cu12==12.1.105 (from torch!=1.8,>=1.5.0->flair)",
+            "packages": [
+                "nvidia_cuda_cupti_cu12-12.1.105-py3-none-manylinux1_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "nvidia-cudnn-cu12==9.1.0.70 (from torch!=1.8,>=1.5.0->flair)",
+            "packages": [
+                "nvidia_cudnn_cu12-9.1.0.70-py3-none-manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "nvidia-cublas-cu12==12.1.3.1 (from torch!=1.8,>=1.5.0->flair)",
+            "packages": [
+                "nvidia_cublas_cu12-12.1.3.1-py3-none-manylinux1_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "nvidia-cufft-cu12==11.0.2.54 (from torch!=1.8,>=1.5.0->flair)",
+            "packages": [
+                "nvidia_cufft_cu12-11.0.2.54-py3-none-manylinux1_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "nvidia-curand-cu12==10.3.2.106 (from torch!=1.8,>=1.5.0->flair)",
+            "packages": [
+                "nvidia_curand_cu12-10.3.2.106-py3-none-manylinux1_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "nvidia-cusolver-cu12==11.4.5.107 (from torch!=1.8,>=1.5.0->flair)",
+            "packages": [
+                "nvidia_cusolver_cu12-11.4.5.107-py3-none-manylinux1_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "nvidia-cusparse-cu12==12.1.0.106 (from torch!=1.8,>=1.5.0->flair)",
+            "packages": [
+                "nvidia_cusparse_cu12-12.1.0.106-py3-none-manylinux1_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "nvidia-nccl-cu12==2.20.5 (from torch!=1.8,>=1.5.0->flair)",
+            "packages": [
+                "nvidia_nccl_cu12-2.20.5-py3-none-manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "nvidia-nvtx-cu12==12.1.105 (from torch!=1.8,>=1.5.0->flair)",
+            "packages": [
+                "nvidia_nvtx_cu12-12.1.105-py3-none-manylinux1_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "triton==3.0.0 (from torch!=1.8,>=1.5.0->flair)",
+            "packages": [
+                "triton-3.0.0-1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "nvidia-nvjitlink-cu12 (from nvidia-cusolver-cu12==11.4.5.107->torch!=1.8,>=1.5.0->flair)",
+            "packages": [
+                "nvidia_nvjitlink_cu12-12.6.77-py3-none-manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "numpy>=1.23 (from matplotlib>=2.2.3->flair)",
+            "packages": [
+                "numpy-1.26.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "safetensors>=0.4.1 (from transformers<5.0.0,>=4.18.0->transformers[sentencepiece]<5.0.0,>=4.18.0->flair)",
+            "packages": [
+                "safetensors-0.4.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "tokenizers<0.21,>=0.20 (from transformers<5.0.0,>=4.18.0->transformers[sentencepiece]<5.0.0,>=4.18.0->flair)",
+            "packages": [
+                "tokenizers-0.20.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "protobuf (from transformers[sentencepiece]<5.0.0,>=4.18.0->flair)",
+            "packages": [
+                "protobuf-5.28.2-cp38-abi3-manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "sentencepiece!=0.1.92,>=0.1.91 (from transformers[sentencepiece]<5.0.0,>=4.18.0->flair)",
+            "packages": [
+                "sentencepiece-0.2.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "urllib3!=2.2.0,<3,>=1.25.4 (from botocore<1.36.0,>=1.35.34->boto3>=1.20.27->flair)",
+            "packages": [
+                "urllib3-2.2.3-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "attrs>=19.2.0 (from jsonlines>=1.2.0->bioc<3.0.0,>=2.0.0->flair)",
+            "packages": [
+                "attrs-24.2.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "accelerate>=0.26.0 (from transformers[sentencepiece,torch]<5.0,>=4.1->transformer-smaller-training-vocab>=0.2.3->flair)",
+            "packages": [
+                "accelerate-0.34.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "soupsieve>1.2 (from beautifulsoup4->gdown>=4.4.0->flair)",
+            "packages": [
+                "soupsieve-2.6-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "sortedcontainers<3.0,>=2.0 (from intervaltree->bioc<3.0.0,>=2.0.0->flair)",
+            "packages": [
+                "sortedcontainers-2.4.0-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "MarkupSafe>=2.0 (from jinja2->mpld3>=0.3->flair)",
+            "packages": [
+                "MarkupSafe-2.1.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "charset-normalizer<4,>=2 (from requests[socks]->gdown>=4.4.0->flair)",
+            "packages": [
+                "charset_normalizer-3.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "idna<4,>=2.5 (from requests[socks]->gdown>=4.4.0->flair)",
+            "packages": [
+                "idna-3.10-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "certifi>=2017.4.17 (from requests[socks]->gdown>=4.4.0->flair)",
+            "packages": [
+                "certifi-2024.8.30-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "PySocks!=1.5.7,>=1.5.6 (from requests[socks]->gdown>=4.4.0->flair)",
+            "packages": [
+                "PySocks-1.7.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "mpmath<1.4,>=1.1.0 (from sympy->torch!=1.8,>=1.5.0->flair)",
+            "packages": [
+                "mpmath-1.3.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "psutil (from accelerate>=0.26.0->transformers[sentencepiece,torch]<5.0,>=4.1->transformer-smaller-training-vocab>=0.2.3->flair)",
+            "packages": [
+                "psutil-6.0.0-cp36-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        }
+    ]
+}

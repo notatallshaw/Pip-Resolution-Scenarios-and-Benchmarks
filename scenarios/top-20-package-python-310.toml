@@ -1,0 +1,146 @@
+[boto3]
+python_version = "3.10"
+platform_system = "Linux"
+datetime = "2024-10-07T14:00:00"
+requirements = ["boto3"]
+
+[urllib3]
+python_version = "3.10"
+platform_system = "Linux"
+datetime = "2024-10-07T14:00:00"
+requirements = ["urllib3"]
+
+[botocore]
+python_version = "3.10"
+platform_system = "Linux"
+datetime = "2024-10-07T14:00:00"
+requirements = ["botocore"]
+
+[requests]
+python_version = "3.10"
+platform_system = "Linux"
+datetime = "2024-10-07T14:00:00"
+requirements = ["requests"]
+
+[setuptools]
+python_version = "3.10"
+platform_system = "Linux"
+datetime = "2024-10-07T14:00:00"
+requirements = ["setuptools"]
+
+[certifi]
+python_version = "3.10"
+platform_system = "Linux"
+datetime = "2024-10-07T14:00:00"
+requirements = ["certifi"]
+
+[idna]
+python_version = "3.10"
+platform_system = "Linux"
+datetime = "2024-10-07T14:00:00"
+requirements = ["idna"]
+
+[charset-normalizer]
+python_version = "3.10"
+platform_system = "Linux"
+datetime = "2024-10-07T14:00:00"
+requirements = ["charset-normalizer"]
+
+[typing-extensions]
+python_version = "3.10"
+platform_system = "Linux"
+datetime = "2024-10-07T14:00:00"
+requirements = ["typing-extensions"]
+
+[packaging]
+python_version = "3.10"
+platform_system = "Linux"
+datetime = "2024-10-07T14:00:00"
+requirements = ["packaging"]
+
+[aiobotocore]
+python_version = "3.10"
+platform_system = "Linux"
+datetime = "2024-10-07T14:00:00"
+requirements = ["aiobotocore"]
+
+[python-dateutil]
+python_version = "3.10"
+platform_system = "Linux"
+datetime = "2024-10-07T14:00:00"
+requirements = ["python-dateutil"]
+
+[s3transfer]
+python_version = "3.10"
+platform_system = "Linux"
+datetime = "2024-10-07T14:00:00"
+requirements = ["s3transfer"]
+
+[six]
+python_version = "3.10"
+platform_system = "Linux"
+datetime = "2024-10-07T14:00:00"
+requirements = ["six"]
+
+[grpcio-status]
+python_version = "3.10"
+platform_system = "Linux"
+datetime = "2024-10-07T14:00:00"
+requirements = ["grpcio-status"]
+
+[fsspec]
+python_version = "3.10"
+platform_system = "Linux"
+datetime = "2024-10-07T14:00:00"
+requirements = ["fsspec"]
+
+[pyyaml]
+python_version = "3.10"
+platform_system = "Linux"
+datetime = "2024-10-07T14:00:00"
+requirements = ["pyyaml"]
+
+[s3fs]
+python_version = "3.10"
+platform_system = "Linux"
+datetime = "2024-10-07T14:00:00"
+requirements = ["s3fs"]
+
+[numpy]
+python_version = "3.10"
+platform_system = "Linux"
+datetime = "2024-10-07T14:00:00"
+requirements = ["numpy"]
+
+[cryptography]
+python_version = "3.10"
+platform_system = "Linux"
+datetime = "2024-10-07T14:00:00"
+requirements = ["cryptography"]
+
+[all-top-20]
+python_version = "3.10"
+platform_system = "Linux"
+datetime = "2024-10-07T14:00:00"
+requirements = [
+    "boto3",
+    "urllib3",
+    "botocore",
+    "requests",
+    "setuptools",
+    "certifi",
+    "idna",
+    "charset-normalizer",
+    "typing-extensions",
+    "packaging",
+    "aiobotocore",
+    "python-dateutil",
+    "s3transfer",
+    "six",
+    "grpcio-status",
+    "fsspec",
+    "pyyaml",
+    "s3fs",
+    "numpy",
+    "cryptography"
+]

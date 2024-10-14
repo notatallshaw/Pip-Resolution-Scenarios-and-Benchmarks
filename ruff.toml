@@ -1,0 +1,5 @@
+line-length = 90
+target-version = "py312"
+
+[lint]
+extend-select = ["I"]

@@ -1,0 +1,145 @@
+{
+    "input": {
+        "pip_version": "24.2",
+        "python_version": "3.8",
+        "datetime": "2024-10-07T14:00:00",
+        "platform_system": "Linux",
+        "requirements": [
+            "aiobotocore"
+        ]
+    },
+    "result": {
+        "success": true,
+        "failure_reason": null,
+        "install_urls": [
+            "https://files.pythonhosted.org/packages/26/9f/ad63fc0248c5379346306f8668cda6e2e2e9c95e01216d2b8ffd9ff037d0/typing_extensions-4.12.2-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/2c/f4/2bf11990a2914e4918d8bad40396e132aed2e263a1126a46d2de89ef1a82/aiohttp-3.10.9-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/2e/a9/83692e37d8152f104333132105b67100aabfb2e96a87f6bed67f566035a7/multidict-6.1.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/31/b4/b9b800c45527aadd64d5b442f9b932b00648617eb5d63d2c7a6587b7cafc/jmespath-1.0.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/33/cf/8435d5a7159e2a9c83a95896ed596f68cf798005fe107cc655b5c5c14704/urllib3-1.26.20-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/45/4d/175b16d42daae8013bb1872f6d0870abd87da93e0a36706da4c9ba655d19/frozenlist-1.4.1-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/46/64/dc67ac9779df916e52246a29f82f1f848063e76c41ad9904bda99d8cd00f/yarl-1.13.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/6a/21/5b6702a7f963e95456c0de2d495f67bf5fd62840ac655dc451586d23d39a/attrs-24.2.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/76/ac/a7305707cb852b7e16ff80eaf5692309bde30e2b1100a1fcacdc8f731d97/aiosignal-1.3.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/76/c6/c88e154df9c4e1a2a66ccf0005a88dfb2650c1dffb6f5ce603dfbd452ce3/idna-3.10-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/85/13/58b70a580de00893223d61de8fea167877a3aed97d4a5e1405c9159ef925/aioitertools-0.12.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/a7/fa/e01228c2938de91d47b307831c62ab9e4001e747789d0b05baf779a6488c/async_timeout-4.0.3-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/df/b8/a0fc9cf540d15f4962448c7ec097e99196b4ddd2a988d98b3d4236cbc89e/aiobotocore-2.15.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/ef/c6/56e718e2c58a4078518c14d97e531ef1e9e8a5c1ddafdc0d264a92be1a1a/wrapt-1.16.0-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/f7/d8/120cd0fe3e8530df0539e71ba9683eade12cae103dd7543e50d15f737917/aiohappyeyeballs-2.4.3-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/f8/81/90e1b82697d849e4a5e7e6dcf21ef7ba9fa902b98324849bd2956e6efac3/botocore-1.35.23-py3-none-any.whl"
+        ]
+    },
+    "resolution": [
+        {
+            "requirement": "aiobotocore",
+            "packages": [
+                "aiobotocore-2.15.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.35.24,>=1.35.16 (from aiobotocore)",
+            "packages": [
+                "botocore-1.35.23-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "aiohttp<4.0.0,>=3.9.2 (from aiobotocore)",
+            "packages": [
+                "aiohttp-3.10.9-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "wrapt<2.0.0,>=1.10.10 (from aiobotocore)",
+            "packages": [
+                "wrapt-1.16.0-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "aioitertools<1.0.0,>=0.5.1 (from aiobotocore)",
+            "packages": [
+                "aioitertools-0.12.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "aiohappyeyeballs>=2.3.0 (from aiohttp<4.0.0,>=3.9.2->aiobotocore)",
+            "packages": [
+                "aiohappyeyeballs-2.4.3-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "aiosignal>=1.1.2 (from aiohttp<4.0.0,>=3.9.2->aiobotocore)",
+            "packages": [
+                "aiosignal-1.3.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "attrs>=17.3.0 (from aiohttp<4.0.0,>=3.9.2->aiobotocore)",
+            "packages": [
+                "attrs-24.2.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "frozenlist>=1.1.1 (from aiohttp<4.0.0,>=3.9.2->aiobotocore)",
+            "packages": [
+                "frozenlist-1.4.1-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "multidict<7.0,>=4.5 (from aiohttp<4.0.0,>=3.9.2->aiobotocore)",
+            "packages": [
+                "multidict-6.1.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "yarl<2.0,>=1.12.0 (from aiohttp<4.0.0,>=3.9.2->aiobotocore)",
+            "packages": [
+                "yarl-1.13.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "async-timeout<5.0,>=4.0 (from aiohttp<4.0.0,>=3.9.2->aiobotocore)",
+            "packages": [
+                "async_timeout-4.0.3-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "typing_extensions>=4.0 (from aioitertools<1.0.0,>=0.5.1->aiobotocore)",
+            "packages": [
+                "typing_extensions-4.12.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "jmespath<2.0.0,>=0.7.1 (from botocore<1.35.24,>=1.35.16->aiobotocore)",
+            "packages": [
+                "jmespath-1.0.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "python-dateutil<3.0.0,>=2.1 (from botocore<1.35.24,>=1.35.16->aiobotocore)",
+            "packages": [
+                "python_dateutil-2.9.0.post0-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "urllib3<1.27,>=1.25.4 (from botocore<1.35.24,>=1.35.16->aiobotocore)",
+            "packages": [
+                "urllib3-1.26.20-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "six>=1.5 (from python-dateutil<3.0.0,>=2.1->botocore<1.35.24,>=1.35.16->aiobotocore)",
+            "packages": [
+                "six-1.16.0-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "idna>=2.0 (from yarl<2.0,>=1.12.0->aiohttp<4.0.0,>=3.9.2->aiobotocore)",
+            "packages": [
+                "idna-3.10-py3-none-any.whl"
+            ]
+        }
+    ]
+}

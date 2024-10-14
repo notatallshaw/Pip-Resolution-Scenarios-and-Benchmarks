@@ -1,0 +1,47 @@
+{
+    "input": {
+        "pip_version": "24.2",
+        "python_version": "3.13",
+        "datetime": "2024-10-07T14:00:00",
+        "platform_system": "Linux",
+        "requirements": [
+            "grpcio-status"
+        ]
+    },
+    "result": {
+        "success": true,
+        "failure_reason": null,
+        "install_urls": [
+            "https://files.pythonhosted.org/packages/23/08/a1ce0415a115c2b703bfa798f06f0e43ca91dbe29d6180bf86a9287b15e2/protobuf-5.28.2-cp38-abi3-manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/2f/86/a86742f3deaa22385c3bff984c5947fc62d47d3fab26c508730037d027e5/grpcio-1.66.2-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/bb/9b/3f1da79e94515e6e875aa291aea965ed10d3aa06ec54d81226f07c70df9c/grpcio_status-1.66.2-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/ec/08/49bfe7cf737952cc1a9c43e80cc258ed45dad7f183c5b8276fc94cb3862d/googleapis_common_protos-1.65.0-py2.py3-none-any.whl"
+        ]
+    },
+    "resolution": [
+        {
+            "requirement": "grpcio-status",
+            "packages": [
+                "grpcio_status-1.66.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "protobuf<6.0dev,>=5.26.1 (from grpcio-status)",
+            "packages": [
+                "protobuf-5.28.2-cp38-abi3-manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "grpcio>=1.66.2 (from grpcio-status)",
+            "packages": [
+                "grpcio-1.66.2-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "googleapis-common-protos>=1.5.5 (from grpcio-status)",
+            "packages": [
+                "googleapis_common_protos-1.65.0-py2.py3-none-any.whl"
+            ]
+        }
+    ]
+}

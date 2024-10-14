@@ -1,0 +1,201 @@
+{
+    "input": {
+        "pip_version": "24.2",
+        "python_version": "3.11",
+        "datetime": "2024-10-07T14:00:00",
+        "platform_system": "Linux",
+        "requirements": [
+            "databricks-connect"
+        ]
+    },
+    "result": {
+        "success": true,
+        "failure_reason": null,
+        "install_urls": [
+            "https://files.pythonhosted.org/packages/08/aa/cc0199a5f0ad350994d660967a8efb233fe0416e4639146c089643407ce6/packaging-24.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/10/30/a58b32568f1623aaad7db22aa9eafc4c6c194b429ff35bdc55ca2726da47/py4j-0.10.9.7-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/11/c3/005fcca25ce078d2cc29fd559379817424e94885510568bc1bc53d7d5846/pytz-2024.2-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/12/90/3c9ff0512038035f59d279fddeb79f5f1eccd8859f06d6163c58798b9487/certifi-2024.8.30-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/23/08/a1ce0415a115c2b703bfa798f06f0e43ca91dbe29d6180bf86a9287b15e2/protobuf-5.28.2-cp38-abi3-manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/27/1f/3a72917afcb0d5cd842cbccb81bf7a8a7b45b4c66d8dc4556ccb3b016bfc/google_auth-2.35.0-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/35/90/a4f76c14230da281d51ef9eb30eb3ff2df129b83a4a98906756c063578c1/grpcio-1.66.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/3a/d0/edc009c27b406c4f9cbc79274d6e46d634d139075492ad055e3d68445925/numpy-1.26.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/40/26/f35951c45070edc957ba40a5b1db3cf60a9dbb1b350c2d5bef03e01e61de/charset_normalizer-3.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/49/97/fa78e3d2f65c02c8e1268b9aba606569fe97f6c8f7c2d74394553347c145/rsa-4.9-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/4c/21/9ca93b84b92ef927814cb7ba37f0774a484c849d58f0b692b16af8eebcfb/pyarrow-17.0.0-cp311-cp311-manylinux_2_28_x86_64.whl",
+            "https://files.pythonhosted.org/packages/56/ff/b2995d76e53def408ec102699e07fde01282ac85bf1cbd44c6d1e9c8bc80/databricks_sdk-0.33.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/76/c6/c88e154df9c4e1a2a66ccf0005a88dfb2650c1dffb6f5ce603dfbd452ce3/idna-3.10-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/77/89/bc88a6711935ba795a679ea6ebee07e128050d6382eaa35a0a47c8032bdc/pyasn1_modules-0.4.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/a4/07/14f8ad37f2d12a5ce41206c21820d8cb6561b728e51fad4530dff0552a67/cachetools-5.5.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/a4/8c/fa0a5845f684efc423d3e0bfe9da4415f29b1b852c015f0614fdc36ff74a/databricks_connect-15.4.2-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/a6/ab/7e5f53c3b9d14972843a647d8d7a853969a58aecc7559cb3267302c94774/tzdata-2024.2-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/bb/9b/3f1da79e94515e6e875aa291aea965ed10d3aa06ec54d81226f07c70df9c/grpcio_status-1.66.2-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/c8/f1/d6a797abb14f6283c0ddff96bbdd46937f64122b8c925cab503dd37f8214/pyasn1-0.6.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/cd/5f/4dba1d39bb9c38d574a9a22548c540177f78ea47b32f99c0ff2ec499fac5/pandas-2.2.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/ce/d9/5f4c13cecde62396b0d3fe530a50ccea91e7dfc1ccf0e09c228841bb5ba8/urllib3-2.2.3-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/ec/08/49bfe7cf737952cc1a9c43e80cc258ed45dad7f183c5b8276fc94cb3862d/googleapis_common_protos-1.65.0-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/f9/9b/335f9764261e915ed497fcdeb11df5dfd6f7bf257d4a6a2a686d80da4d54/requests-2.32.3-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/ff/ae/f19306b5a221f6a436d8f2238d5b80925004093fa3edea59835b514d9057/setuptools-75.1.0-py3-none-any.whl"
+        ]
+    },
+    "resolution": [
+        {
+            "requirement": "databricks-connect",
+            "packages": [
+                "databricks_connect-15.4.2-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "databricks-sdk>=0.29.0 (from databricks-connect)",
+            "packages": [
+                "databricks_sdk-0.33.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "googleapis-common-protos>=1.56.4 (from databricks-connect)",
+            "packages": [
+                "googleapis_common_protos-1.65.0-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "grpcio-status>=1.59.3 (from databricks-connect)",
+            "packages": [
+                "grpcio_status-1.66.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "grpcio>=1.59.3 (from databricks-connect)",
+            "packages": [
+                "grpcio-1.66.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "numpy<2,>=1.15 (from databricks-connect)",
+            "packages": [
+                "numpy-1.26.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "packaging>=23.2 (from databricks-connect)",
+            "packages": [
+                "packaging-24.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "pandas>=1.0.5 (from databricks-connect)",
+            "packages": [
+                "pandas-2.2.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "py4j==0.10.9.7 (from databricks-connect)",
+            "packages": [
+                "py4j-0.10.9.7-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "pyarrow>=4.0.0 (from databricks-connect)",
+            "packages": [
+                "pyarrow-17.0.0-cp311-cp311-manylinux_2_28_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "setuptools>=68.0.0 (from databricks-connect)",
+            "packages": [
+                "setuptools-75.1.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "six (from databricks-connect)",
+            "packages": [
+                "six-1.16.0-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "requests<3,>=2.28.1 (from databricks-sdk>=0.29.0->databricks-connect)",
+            "packages": [
+                "requests-2.32.3-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "google-auth~=2.0 (from databricks-sdk>=0.29.0->databricks-connect)",
+            "packages": [
+                "google_auth-2.35.0-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "protobuf!=3.20.0,!=3.20.1,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5,<6.0.0.dev0,>=3.20.2 (from googleapis-common-protos>=1.56.4->databricks-connect)",
+            "packages": [
+                "protobuf-5.28.2-cp38-abi3-manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "python-dateutil>=2.8.2 (from pandas>=1.0.5->databricks-connect)",
+            "packages": [
+                "python_dateutil-2.9.0.post0-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "pytz>=2020.1 (from pandas>=1.0.5->databricks-connect)",
+            "packages": [
+                "pytz-2024.2-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "tzdata>=2022.7 (from pandas>=1.0.5->databricks-connect)",
+            "packages": [
+                "tzdata-2024.2-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "cachetools<6.0,>=2.0.0 (from google-auth~=2.0->databricks-sdk>=0.29.0->databricks-connect)",
+            "packages": [
+                "cachetools-5.5.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "pyasn1-modules>=0.2.1 (from google-auth~=2.0->databricks-sdk>=0.29.0->databricks-connect)",
+            "packages": [
+                "pyasn1_modules-0.4.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "rsa<5,>=3.1.4 (from google-auth~=2.0->databricks-sdk>=0.29.0->databricks-connect)",
+            "packages": [
+                "rsa-4.9-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "charset-normalizer<4,>=2 (from requests<3,>=2.28.1->databricks-sdk>=0.29.0->databricks-connect)",
+            "packages": [
+                "charset_normalizer-3.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "idna<4,>=2.5 (from requests<3,>=2.28.1->databricks-sdk>=0.29.0->databricks-connect)",
+            "packages": [
+                "idna-3.10-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "urllib3<3,>=1.21.1 (from requests<3,>=2.28.1->databricks-sdk>=0.29.0->databricks-connect)",
+            "packages": [
+                "urllib3-2.2.3-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "certifi>=2017.4.17 (from requests<3,>=2.28.1->databricks-sdk>=0.29.0->databricks-connect)",
+            "packages": [
+                "certifi-2024.8.30-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "pyasn1<0.7.0,>=0.4.6 (from pyasn1-modules>=0.2.1->google-auth~=2.0->databricks-sdk>=0.29.0->databricks-connect)",
+            "packages": [
+                "pyasn1-0.6.1-py3-none-any.whl"
+            ]
+        }
+    ]
+}

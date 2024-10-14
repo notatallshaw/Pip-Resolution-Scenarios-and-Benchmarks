@@ -1,0 +1,765 @@
+{
+    "input": {
+        "pip_version": "24.2",
+        "python_version": "3.11",
+        "datetime": "2024-10-07T14:00:00",
+        "platform_system": "Linux",
+        "requirements": [
+            "apache-beam[gcp, aws, azure]"
+        ]
+    },
+    "result": {
+        "success": true,
+        "failure_reason": null,
+        "install_urls": [
+            "https://files.pythonhosted.org/packages/01/8e/fcb6a77d3029d2a7356f38dbc77cf7daa113b81ddab76b5593d23321e44c/azure_core-1.31.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/03/8b/f0cd7f3b16fe8ab0f449868b5d62868d7c03cd10326acd3472476305c2e3/google_cloud_pubsublite-1.11.1-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/05/a6/094a2640be576d760baa34c902dcb8199d89bce9ed7dd7a6af74dcbbd62d/protobuf-4.25.5-cp37-abi3-manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/08/aa/cc0199a5f0ad350994d660967a8efb233fe0416e4639146c089643407ce6/packaging-24.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/0c/44/1189e7954c5cdf7156e1702d2e021f2abbb6ec6ca29a7e59d942f4d997c4/google_cloud_pubsub-2.25.2-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/0c/8f/99e7cb894e83e2a36368bb9b1a86afe9eaf43d166dcb121852fba764fb3a/google_cloud_bigquery_storage-2.26.0-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/11/c3/005fcca25ce078d2cc29fd559379817424e94885510568bc1bc53d7d5846/pytz-2024.2-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/12/90/3c9ff0512038035f59d279fddeb79f5f1eccd8859f06d6163c58798b9487/certifi-2024.8.30-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/13/a3/a812df4e2dd5696d1f351d58b8fe16a405b234ad2886a0dab9183fb78109/pycparser-2.22-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/15/80/44286939ca215e88fa827b2aeb6fa3fd2b4a7af322485c7170d6f9fd96e0/cloudpickle-2.2.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/15/ac/8d53f230a7443401ce81791ec50a3b0e54924bf615ad287654fa4a2f5cdc/grpc_interceptor-0.15.4-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/15/f1/feeeaaaac0f589bcbc12c02da357cf635ee383c9128b77230a1e99118885/redis-5.1.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/19/da/aefc4cf4c168b5d875344cd9dddc77e3a2d11986b630251af5ce47dd2843/google-apitools-0.5.31.tar.gz",
+            "https://files.pythonhosted.org/packages/20/8d/778b7d51b981a96554f29136cd59ca7880bf58094338085bcf2a979a0e6a/Deprecated-1.2.14-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/25/aa/53f145e5a610a49af9ac49f2f1be1ec8659ebd5c393d66ac94e57c83b00e/shapely-2.0.6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/26/9f/ad63fc0248c5379346306f8668cda6e2e2e9c95e01216d2b8ffd9ff037d0/typing_extensions-4.12.2-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/27/1f/3a72917afcb0d5cd842cbccb81bf7a8a7b45b4c66d8dc4556ccb3b016bfc/google_auth-2.35.0-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/29/c7/1be559eb10cb7cac0d26373f18656c8037553619ddd4098e50b04ea8b4ab/hdfs-2.7.3.tar.gz",
+            "https://files.pythonhosted.org/packages/2a/91/e1c80ae2924efc047ca156662d6b0458d9a9ce99204ae7e719ff9a66123d/google_cloud_bigquery-3.26.0-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/2c/69/314d887a01599669fb330da14e5c6ff5f138609e322812a942a74ef9b765/msal_extensions-1.2.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/2c/ab/fc8290c6a4c722e5514d80f62b2dc4c4df1a68a41d1364e625c35990fcf3/overrides-7.7.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/31/b4/b9b800c45527aadd64d5b442f9b932b00648617eb5d63d2c7a6587b7cafc/jmespath-1.0.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/35/90/a4f76c14230da281d51ef9eb30eb3ff2df129b83a4a98906756c063578c1/grpcio-1.66.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/37/84/0b3529db0442e6c94eef38c79fb1376cbf4f974eaa46d67cd1902613ebb0/google_cloud_bigtable-2.26.0-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/3a/d0/edc009c27b406c4f9cbc79274d6e46d634d139075492ad055e3d68445925/numpy-1.26.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/3c/4a/b221409913760d26cf4498b7b1741d510c82d3ad38381984a3ddc135ec66/s3transfer-0.10.2-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/40/26/f35951c45070edc957ba40a5b1db3cf60a9dbb1b350c2d5bef03e01e61de/charset_normalizer-3.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/44/31/a3899b5ce02c4316865e390107f145089876dff7e1dfc770a231d836aed8/pydantic_core-2.23.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/48/ef/c72abcfa2c6accd03e7c89c400790fc3d908c5804d50a7c4e9ceabd74d23/pyjsparser-2.7.1.tar.gz",
+            "https://files.pythonhosted.org/packages/49/97/fa78e3d2f65c02c8e1268b9aba606569fe97f6c8f7c2d74394553347c145/rsa-4.9-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/5d/a5/b2860373aa8de1e626b2bdfdd6df4355f0565b47e51f7d0c54fe70faf8fe/sqlparse-0.5.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/5e/0f/2e2061e3fbcb9d535d5da3f58cc8de4947df1786fe6a1355960feb05a681/google_cloud_core-2.4.1-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/61/bf/fd60001b3abc5222d8eaa4a204cd8c0ae78e75adc688f33ce4bf25b7fafa/fasteners-0.19-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/62/8b/5ba542fa83c90e09eac972fc9baca7a88e7e7ca4b221a89251954019308b/zipp-3.20.2-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/67/1e/4870896fc81ec77b1b5ebae7fdd680d5a4d40e19a4b6d724032f996ca77a/google_crc32c-1.6.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/68/1b/e0a87d256e40e8c888847551b20a017a6b98139178505dc7ffb96f04e954/dnspython-2.7.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/68/2b/0015355fb7dbf31dee0f3e69e6fa1ff43967500a8b1abb81de5a15f24b16/fastavro-1.9.7-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/69/4a/4f9dbeb84e8850557c02365a0eee0649abe5eb1d84af92a25731c6c0f922/jsonschema-4.23.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/6a/21/5b6702a7f963e95456c0de2d495f67bf5fd62840ac655dc451586d23d39a/attrs-24.2.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/6a/ab/63ab13fb060714b9d1708ca32e0ee41f9ffe42a62e524e7429cde45cfe61/google_cloud_resource_manager-1.12.5-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/6b/b0/e595ce2a2527e169c3bcd6c33d2473c1918e0b7f6826a043ca1245dd4e5b/crcmod-1.7.tar.gz",
+            "https://files.pythonhosted.org/packages/6e/52/2da48b35193e39ac53cfb141467d9f259851522d0e8c87153f0ba4205fb1/wrapt-1.16.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/71/1f/224e27180204282c1ea378b86944585616c1978544b9f5277cf907fdb26c/jsonpickle-3.3.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/74/10/dad9950e5ee6e7821bed298f6f76e1f02e631b9070f7732bcf9a1a91c9bf/google_cloud_dlp-3.23.0-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/76/3f/dbafccf19cfeca25bbabf6f2dd81796b7218f768ec400f043edc767015a6/zstandard-0.23.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/76/c6/c88e154df9c4e1a2a66ccf0005a88dfb2650c1dffb6f5ce603dfbd452ce3/idna-3.10-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/77/89/bc88a6711935ba795a679ea6ebee07e128050d6382eaa35a0a47c8032bdc/pyasn1_modules-0.4.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/78/b6/6307fbef88d9b5ee7421e68d78a9f162e0da4900bc5f5793f6d3d0e34fb8/annotated_types-0.7.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/79/84/0fdf9b18ba31d69877bd39c9cd6052b47f3761e9910c15de788e519f079f/PyJWT-2.9.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/7c/6f/db31f0711c0402aa477257205ce7d29e86a75cb52cd19f7afb585f75cda0/proto_plus-1.24.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/7f/12/8f95419e2d6ebe98b8dd10da64a3544a6ba6d42967cf26fe64ed29fa0558/boto3-1.35.34-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/82/35/b8d3baf8c46695858cb9d8835a53baa1eeb9906ddaf2f728a5f5b640fd1e/google_resumable_media-2.7.2-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/86/eb/655c7a473996edc1dfdf8adbbd24de5ea1d4522d7a3256ea16a3dff44c19/apache_beam-2.59.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/88/58/2feb430d47c9f18f331494b429697342722b51f28dad8ad92a511c0f6fc8/Js2Py-0.74-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/90/40/972271de05f9315c0d69f9f7ebbcadd83bc85322f538637d11bb8c67803d/grpcio_status-1.62.3-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/91/2a/c4e18f4e86bf439d2881537cf8bf164322d1fe29f616c47c906685103cf4/google_cloud_recommendations_ai-0.10.12-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/95/10/8b8d3ae926efcef46c6df68a0c7e5fa94dd39a2510457deeb2ac4d3fadf8/google_cloud_vision-3.7.4-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/95/a9/4f25a14d23f0786b64875b91784607c2277eff25d48f915e39ff0cff505a/oauth2client-4.1.3-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/97/3f/c4c51c55ff8487f2e6d0e618dba917e3c3ee2caae6cf0fbb59c9b1876f2e/tzlocal-5.2-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/98/26/00ba2cd7d79935ecefa384020828f3a96c3c9c9b66faf9d93aa16eb75985/objsize-0.7.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/9a/16/dbffca9d4ad66f2a325c280f1177912fa23235987f7b9033e283da889b7a/pymongo-4.10.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/9b/fb/a70a4214956182e0d7a9099ab17d50bfcba1056188e9b14f35b9e2b62a0d/portalocker-2.10.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/a1/3f/0ef9bb11b5075b0abad3f3d501205d352d90148f39a8e01cda95ac0a6d11/google_cloud_datastore-2.20.1-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/a2/55/8f8cab2afd404cf578136ef2cc5dfb50baa1761b68c9da1fb1e4eed343c9/docopt-0.6.2.tar.gz",
+            "https://files.pythonhosted.org/packages/a4/07/14f8ad37f2d12a5ce41206c21820d8cb6561b728e51fad4530dff0552a67/cachetools-5.5.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/a4/72/e2afc1d972bf61600d4b8574d944fcda29b996766cd4faea45f120984c95/google_cloud_spanner-3.49.1-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/a7/19/abc713cebd3eb4f2ae50c01ca34700a4c624106c86394955c2d464235812/google_cloud_language-2.14.0-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/a7/e8/85835077b782555d6b3416874b702ea6ebd7db1f145283c9252968670dd5/rpds_py-0.20.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/a7/fa/e01228c2938de91d47b307831c62ab9e4001e747789d0b05baf779a6488c/async_timeout-4.0.3-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/a8/6c/d2fbdaaa5959339d53ba38e94c123e4e84b8fbc4b84beb0e70d7c1608486/httplib2-0.22.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/a8/7d/da3875b7728bc700eeb28b513754ce237c04ac7cbf8559d76b0464ee01cb/grpc_google_iam_v1-0.13.1-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/ac/7e/ebda4dd4ae098a0990753efbb4b50954f1d03003846b943ea85070782da7/cryptography-43.0.1-cp39-abi3-manylinux_2_28_x86_64.whl",
+            "https://files.pythonhosted.org/packages/b0/71/1d1bb387b6acaa5daa3e703c70dde3d54823ccd229bd6730de6e724f296e/azure_identity-1.18.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/b6/85/7882d311924cbcfc70b1890780763e36ff0b140c7e51c110fc59a532f087/isodate-0.6.1-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/b7/59/2056f61236782a2c86b33906c025d4f4a0b17be0161b63b70fd9e8775d36/referencing-0.35.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/b7/7a/4f0063dbb0b6c971568291a8bc19a4ca70d3c185db2d956230dd67429dfc/opentelemetry_semantic_conventions-0.48b0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/be/8a/fe34d2f3f9470a27b01c9e76226965863f153d5fbe276f83608562e49c04/google_auth_httplib2-0.2.0-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/c0/14/362d31bf1076b21e1bcdcb0dc61944822ff263937b804a79231df2774d28/importlib_metadata-8.4.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/c1/bd/a6602e71e315055d63b2ff07172bd2d012b4cba2d4e00735d74ba42fc4d6/opentelemetry_sdk-1.27.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/c5/98/40fb94fcdcc2bd1c2bac6042409586f7d56dcb061467aaf071d957ab99d8/google_cloud_videointelligence-2.13.5-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/c7/11/345f3173809cea7f1a193bfbf02403fff250a3360e0e118a1630985e547d/dill-0.3.1.1.tar.gz",
+            "https://files.pythonhosted.org/packages/c8/dc/6143f67acf5f30717c9e1b1c48fc04c0f59b869be046e6639d3f171640ae/google_api_core-2.20.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/c8/f1/d6a797abb14f6283c0ddff96bbdd46937f64122b8c925cab503dd37f8214/pyasn1-0.6.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/cd/40/0a5d743484e1ad00493bdffa8d10d7dbc6a51fec95290ad396e47e79fa43/msal-1.31.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/ce/d9/5f4c13cecde62396b0d3fe530a50ccea91e7dfc1ccf0e09c228841bb5ba8/urllib3-2.2.3-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/d3/cb/55205f3f1ee6ba80c0a9a18ca07423003ca8de99192b18be30f1f31b4cdd/orjson-3.10.7-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/d5/7c/e9fcff7623954d86bdc17782036cbf715ecab1bec4847c008557affe1ca8/docstring_parser-0.16-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/df/bf/f19dd2261dd6193aa53375fcd58929d613e45d14bcdb778567d1fd5e2d6e/azure_storage_blob-12.23.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/df/e4/ba44652d562cbf0bf320e0f3810206149c8a4e99cdbf66da82e97ab53a15/pydantic-2.9.2-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/e4/f4/9ec2222f5f5f8ea04f66f184caafd991a39c8782e31f5b0266f101cb68ca/pyarrow_hotfix-0.6-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/e5/0c/0e3c05b1c87bb6a1c76d281b0f35e78d2d80ac91b5f8f524cebf77f51049/pyparsing-3.1.4-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/e9/5c/8b385afbfacb853730682c57be56225f9fe275c5bf02ac1fc88edbff316d/regex-2024.9.11-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+            "https://files.pythonhosted.org/packages/ea/15/260229c9cd3b1bd386cd69a0dc39eeaf6cda08948d2707a4204966c71269/google_cloud_aiplatform-1.69.0-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/ea/76/75b1bb82e9bad3e3d656556eaa353d8cd17c4254393b08ec9786ac8ed273/pydot-1.4.2-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/ec/08/49bfe7cf737952cc1a9c43e80cc258ed45dad7f183c5b8276fc94cb3862d/googleapis_common_protos-1.65.0-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/ee/07/44bd408781594c4d0a027666ef27fab1e441b109dc3b76b4f836f8fd04fe/jsonschema_specifications-2023.12.1-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/f1/6e/3e817d7e8803c4e49199ab4cdb5d3857ee5933d63de54cd9578a3e6e038f/botocore-1.35.34-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/f9/9b/335f9764261e915ed497fcdeb11df5dfd6f7bf257d4a6a2a686d80da4d54/requests-2.32.3-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/fa/15/48a68b30542a0231a75c26d8661bc5c9bbc07b42c5b219e929adba814ba7/pyarrow-16.1.0-cp311-cp311-manylinux_2_28_x86_64.whl",
+            "https://files.pythonhosted.org/packages/fb/1f/737dcdbc9fea2fa96c1b392ae47275165a7c641663fbb08a8d252968eed2/opentelemetry_api-1.27.0-py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/fc/da/95db7bd4f0bd1644378ac1702c565c0210b004754d925a74f526a710c087/google_cloud_storage-2.18.2-py2.py3-none-any.whl",
+            "https://files.pythonhosted.org/packages/ff/6b/d45873c5e0242196f042d555526f92aa9e0c32355a1be1ff8c27f077fd37/cffi-1.17.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+        ]
+    },
+    "resolution": [
+        {
+            "requirement": "apache-beam[aws,azure,gcp]",
+            "packages": [
+                "apache_beam-2.59.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "crcmod<2.0,>=1.7 (from apache-beam[aws,azure,gcp])",
+            "packages": [
+                "crcmod-1.7.tar.gz"
+            ]
+        },
+        {
+            "requirement": "orjson<4,>=3.9.7 (from apache-beam[aws,azure,gcp])",
+            "packages": [
+                "orjson-3.10.7-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "dill<0.3.2,>=0.3.1.1 (from apache-beam[aws,azure,gcp])",
+            "packages": [
+                "dill-0.3.1.1.tar.gz"
+            ]
+        },
+        {
+            "requirement": "cloudpickle~=2.2.1 (from apache-beam[aws,azure,gcp])",
+            "packages": [
+                "cloudpickle-2.2.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "fastavro<2,>=0.23.6 (from apache-beam[aws,azure,gcp])",
+            "packages": [
+                "fastavro-1.9.7-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "fasteners<1.0,>=0.3 (from apache-beam[aws,azure,gcp])",
+            "packages": [
+                "fasteners-0.19-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "grpcio!=1.48.0,!=1.59.*,!=1.60.*,!=1.61.*,!=1.62.0,!=1.62.1,<2,>=1.33.1 (from apache-beam[aws,azure,gcp])",
+            "packages": [
+                "grpcio-1.66.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "hdfs<3.0.0,>=2.1.0 (from apache-beam[aws,azure,gcp])",
+            "packages": [
+                "hdfs-2.7.3.tar.gz"
+            ]
+        },
+        {
+            "requirement": "httplib2<0.23.0,>=0.8 (from apache-beam[aws,azure,gcp])",
+            "packages": [
+                "httplib2-0.22.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "jsonschema<5.0.0,>=4.0.0 (from apache-beam[aws,azure,gcp])",
+            "packages": [
+                "jsonschema-4.23.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "jsonpickle<4.0.0,>=3.0.0 (from apache-beam[aws,azure,gcp])",
+            "packages": [
+                "jsonpickle-3.3.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "numpy<1.27.0,>=1.14.3 (from apache-beam[aws,azure,gcp])",
+            "packages": [
+                "numpy-1.26.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "objsize<0.8.0,>=0.6.1 (from apache-beam[aws,azure,gcp])",
+            "packages": [
+                "objsize-0.7.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "packaging>=22.0 (from apache-beam[aws,azure,gcp])",
+            "packages": [
+                "packaging-24.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "pymongo<5.0.0,>=3.8.0 (from apache-beam[aws,azure,gcp])",
+            "packages": [
+                "pymongo-4.10.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "proto-plus<2,>=1.7.1 (from apache-beam[aws,azure,gcp])",
+            "packages": [
+                "proto_plus-1.24.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "protobuf!=4.0.*,!=4.21.*,!=4.22.0,!=4.23.*,!=4.24.*,<4.26.0,>=3.20.3 (from apache-beam[aws,azure,gcp])",
+            "packages": [
+                "protobuf-4.25.5-cp37-abi3-manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "pydot<2,>=1.2.0 (from apache-beam[aws,azure,gcp])",
+            "packages": [
+                "pydot-1.4.2-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "python-dateutil<3,>=2.8.0 (from apache-beam[aws,azure,gcp])",
+            "packages": [
+                "python_dateutil-2.9.0.post0-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "pytz>=2018.3 (from apache-beam[aws,azure,gcp])",
+            "packages": [
+                "pytz-2024.2-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "redis<6,>=5.0.0 (from apache-beam[aws,azure,gcp])",
+            "packages": [
+                "redis-5.1.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "regex>=2020.6.8 (from apache-beam[aws,azure,gcp])",
+            "packages": [
+                "regex-2024.9.11-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "requests<3.0.0,>=2.24.0 (from apache-beam[aws,azure,gcp])",
+            "packages": [
+                "requests-2.32.3-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "typing-extensions>=3.7.0 (from apache-beam[aws,azure,gcp])",
+            "packages": [
+                "typing_extensions-4.12.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "zstandard<1,>=0.18.0 (from apache-beam[aws,azure,gcp])",
+            "packages": [
+                "zstandard-0.23.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "pyarrow<17.0.0,>=3.0.0 (from apache-beam[aws,azure,gcp])",
+            "packages": [
+                "pyarrow-16.1.0-cp311-cp311-manylinux_2_28_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "pyarrow-hotfix<1 (from apache-beam[aws,azure,gcp])",
+            "packages": [
+                "pyarrow_hotfix-0.6-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "js2py<1,>=0.74 (from apache-beam[aws,azure,gcp])",
+            "packages": [
+                "Js2Py-0.74-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "boto3<2,>=1.9 (from apache-beam[aws,azure,gcp])",
+            "packages": [
+                "boto3-1.35.34-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "azure-storage-blob<13,>=12.3.2 (from apache-beam[aws,azure,gcp])",
+            "packages": [
+                "azure_storage_blob-12.23.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "azure-core<2,>=1.7.0 (from apache-beam[aws,azure,gcp])",
+            "packages": [
+                "azure_core-1.31.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "azure-identity<2,>=1.12.0 (from apache-beam[aws,azure,gcp])",
+            "packages": [
+                "azure_identity-1.18.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "cachetools<6,>=3.1.0 (from apache-beam[aws,azure,gcp])",
+            "packages": [
+                "cachetools-5.5.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "google-api-core<3,>=2.0.0 (from apache-beam[aws,azure,gcp])",
+            "packages": [
+                "google_api_core-2.20.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "google-apitools<0.5.32,>=0.5.31 (from apache-beam[aws,azure,gcp])",
+            "packages": [
+                "google-apitools-0.5.31.tar.gz"
+            ]
+        },
+        {
+            "requirement": "google-auth<3,>=1.18.0 (from apache-beam[aws,azure,gcp])",
+            "packages": [
+                "google_auth-2.35.0-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "google-auth-httplib2<0.3.0,>=0.1.0 (from apache-beam[aws,azure,gcp])",
+            "packages": [
+                "google_auth_httplib2-0.2.0-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "google-cloud-datastore<3,>=2.0.0 (from apache-beam[aws,azure,gcp])",
+            "packages": [
+                "google_cloud_datastore-2.20.1-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "google-cloud-pubsub<3,>=2.1.0 (from apache-beam[aws,azure,gcp])",
+            "packages": [
+                "google_cloud_pubsub-2.25.2-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "google-cloud-pubsublite<2,>=1.2.0 (from apache-beam[aws,azure,gcp])",
+            "packages": [
+                "google_cloud_pubsublite-1.11.1-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "google-cloud-storage<3,>=2.18.2 (from apache-beam[aws,azure,gcp])",
+            "packages": [
+                "google_cloud_storage-2.18.2-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "google-cloud-bigquery<4,>=2.0.0 (from apache-beam[aws,azure,gcp])",
+            "packages": [
+                "google_cloud_bigquery-3.26.0-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "google-cloud-bigquery-storage<3,>=2.6.3 (from apache-beam[aws,azure,gcp])",
+            "packages": [
+                "google_cloud_bigquery_storage-2.26.0-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "google-cloud-core<3,>=2.0.0 (from apache-beam[aws,azure,gcp])",
+            "packages": [
+                "google_cloud_core-2.4.1-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "google-cloud-bigtable<3,>=2.19.0 (from apache-beam[aws,azure,gcp])",
+            "packages": [
+                "google_cloud_bigtable-2.26.0-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "google-cloud-spanner<4,>=3.0.0 (from apache-beam[aws,azure,gcp])",
+            "packages": [
+                "google_cloud_spanner-3.49.1-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "google-cloud-dlp<4,>=3.0.0 (from apache-beam[aws,azure,gcp])",
+            "packages": [
+                "google_cloud_dlp-3.23.0-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "google-cloud-language<3,>=2.0 (from apache-beam[aws,azure,gcp])",
+            "packages": [
+                "google_cloud_language-2.14.0-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "google-cloud-videointelligence<3,>=2.0 (from apache-beam[aws,azure,gcp])",
+            "packages": [
+                "google_cloud_videointelligence-2.13.5-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "google-cloud-vision<4,>=2 (from apache-beam[aws,azure,gcp])",
+            "packages": [
+                "google_cloud_vision-3.7.4-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "google-cloud-recommendations-ai<0.11.0,>=0.1.0 (from apache-beam[aws,azure,gcp])",
+            "packages": [
+                "google_cloud_recommendations_ai-0.10.12-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "google-cloud-aiplatform<2.0,>=1.26.0 (from apache-beam[aws,azure,gcp])",
+            "packages": [
+                "google_cloud_aiplatform-1.69.0-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "six>=1.11.0 (from azure-core<2,>=1.7.0->apache-beam[aws,azure,gcp])",
+            "packages": [
+                "six-1.16.0-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "cryptography>=2.5 (from azure-identity<2,>=1.12.0->apache-beam[aws,azure,gcp])",
+            "packages": [
+                "cryptography-43.0.1-cp39-abi3-manylinux_2_28_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "msal>=1.30.0 (from azure-identity<2,>=1.12.0->apache-beam[aws,azure,gcp])",
+            "packages": [
+                "msal-1.31.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "msal-extensions>=1.2.0 (from azure-identity<2,>=1.12.0->apache-beam[aws,azure,gcp])",
+            "packages": [
+                "msal_extensions-1.2.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "isodate>=0.6.1 (from azure-storage-blob<13,>=12.3.2->apache-beam[aws,azure,gcp])",
+            "packages": [
+                "isodate-0.6.1-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "botocore<1.36.0,>=1.35.34 (from boto3<2,>=1.9->apache-beam[aws,azure,gcp])",
+            "packages": [
+                "botocore-1.35.34-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "jmespath<2.0.0,>=0.7.1 (from boto3<2,>=1.9->apache-beam[aws,azure,gcp])",
+            "packages": [
+                "jmespath-1.0.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "s3transfer<0.11.0,>=0.10.0 (from boto3<2,>=1.9->apache-beam[aws,azure,gcp])",
+            "packages": [
+                "s3transfer-0.10.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "googleapis-common-protos<2.0.dev0,>=1.56.2 (from google-api-core<3,>=2.0.0->apache-beam[aws,azure,gcp])",
+            "packages": [
+                "googleapis_common_protos-1.65.0-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "oauth2client>=1.4.12 (from google-apitools<0.5.32,>=0.5.31->apache-beam[aws,azure,gcp])",
+            "packages": [
+                "oauth2client-4.1.3-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "pyasn1-modules>=0.2.1 (from google-auth<3,>=1.18.0->apache-beam[aws,azure,gcp])",
+            "packages": [
+                "pyasn1_modules-0.4.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "rsa<5,>=3.1.4 (from google-auth<3,>=1.18.0->apache-beam[aws,azure,gcp])",
+            "packages": [
+                "rsa-4.9-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "google-cloud-resource-manager<3.0.0dev,>=1.3.3 (from google-cloud-aiplatform<2.0,>=1.26.0->apache-beam[aws,azure,gcp])",
+            "packages": [
+                "google_cloud_resource_manager-1.12.5-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "shapely<3.0.0dev (from google-cloud-aiplatform<2.0,>=1.26.0->apache-beam[aws,azure,gcp])",
+            "packages": [
+                "shapely-2.0.6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "pydantic<3 (from google-cloud-aiplatform<2.0,>=1.26.0->apache-beam[aws,azure,gcp])",
+            "packages": [
+                "pydantic-2.9.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "docstring-parser<1 (from google-cloud-aiplatform<2.0,>=1.26.0->apache-beam[aws,azure,gcp])",
+            "packages": [
+                "docstring_parser-0.16-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "google-resumable-media<3.0dev,>=2.0.0 (from google-cloud-bigquery<4,>=2.0.0->apache-beam[aws,azure,gcp])",
+            "packages": [
+                "google_resumable_media-2.7.2-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "grpc-google-iam-v1<1.0.0dev,>=0.12.4 (from google-cloud-bigtable<3,>=2.19.0->apache-beam[aws,azure,gcp])",
+            "packages": [
+                "grpc_google_iam_v1-0.13.1-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "grpcio-status>=1.33.2 (from google-cloud-pubsub<3,>=2.1.0->apache-beam[aws,azure,gcp])",
+            "packages": [
+                "grpcio_status-1.66.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "opentelemetry-api>=1.27.0 (from google-cloud-pubsub<3,>=2.1.0->apache-beam[aws,azure,gcp])",
+            "packages": [
+                "opentelemetry_api-1.27.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "opentelemetry-sdk>=1.27.0 (from google-cloud-pubsub<3,>=2.1.0->apache-beam[aws,azure,gcp])",
+            "packages": [
+                "opentelemetry_sdk-1.27.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "overrides<8.0.0,>=6.0.1 (from google-cloud-pubsublite<2,>=1.2.0->apache-beam[aws,azure,gcp])",
+            "packages": [
+                "overrides-7.7.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "sqlparse>=0.4.4 (from google-cloud-spanner<4,>=3.0.0->apache-beam[aws,azure,gcp])",
+            "packages": [
+                "sqlparse-0.5.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "grpc-interceptor>=0.15.4 (from google-cloud-spanner<4,>=3.0.0->apache-beam[aws,azure,gcp])",
+            "packages": [
+                "grpc_interceptor-0.15.4-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "google-crc32c<2.0dev,>=1.0 (from google-cloud-storage<3,>=2.18.2->apache-beam[aws,azure,gcp])",
+            "packages": [
+                "google_crc32c-1.6.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "docopt (from hdfs<3.0.0,>=2.1.0->apache-beam[aws,azure,gcp])",
+            "packages": [
+                "docopt-0.6.2-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "pyparsing!=3.0.0,!=3.0.1,!=3.0.2,!=3.0.3,<4,>=2.4.2 (from httplib2<0.23.0,>=0.8->apache-beam[aws,azure,gcp])",
+            "packages": [
+                "pyparsing-3.1.4-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "tzlocal>=1.2 (from js2py<1,>=0.74->apache-beam[aws,azure,gcp])",
+            "packages": [
+                "tzlocal-5.2-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "pyjsparser>=2.5.1 (from js2py<1,>=0.74->apache-beam[aws,azure,gcp])",
+            "packages": [
+                "pyjsparser-2.7.1.tar.gz"
+            ]
+        },
+        {
+            "requirement": "attrs>=22.2.0 (from jsonschema<5.0.0,>=4.0.0->apache-beam[aws,azure,gcp])",
+            "packages": [
+                "attrs-24.2.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "jsonschema-specifications>=2023.03.6 (from jsonschema<5.0.0,>=4.0.0->apache-beam[aws,azure,gcp])",
+            "packages": [
+                "jsonschema_specifications-2023.12.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "referencing>=0.28.4 (from jsonschema<5.0.0,>=4.0.0->apache-beam[aws,azure,gcp])",
+            "packages": [
+                "referencing-0.35.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "rpds-py>=0.7.1 (from jsonschema<5.0.0,>=4.0.0->apache-beam[aws,azure,gcp])",
+            "packages": [
+                "rpds_py-0.20.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "dnspython<3.0.0,>=1.16.0 (from pymongo<5.0.0,>=3.8.0->apache-beam[aws,azure,gcp])",
+            "packages": [
+                "dnspython-2.7.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "async-timeout>=4.0.3 (from redis<6,>=5.0.0->apache-beam[aws,azure,gcp])",
+            "packages": [
+                "async_timeout-4.0.3-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "charset-normalizer<4,>=2 (from requests<3.0.0,>=2.24.0->apache-beam[aws,azure,gcp])",
+            "packages": [
+                "charset_normalizer-3.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "idna<4,>=2.5 (from requests<3.0.0,>=2.24.0->apache-beam[aws,azure,gcp])",
+            "packages": [
+                "idna-3.10-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "urllib3<3,>=1.21.1 (from requests<3.0.0,>=2.24.0->apache-beam[aws,azure,gcp])",
+            "packages": [
+                "urllib3-2.2.3-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "certifi>=2017.4.17 (from requests<3.0.0,>=2.24.0->apache-beam[aws,azure,gcp])",
+            "packages": [
+                "certifi-2024.8.30-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "cffi>=1.12 (from cryptography>=2.5->azure-identity<2,>=1.12.0->apache-beam[aws,azure,gcp])",
+            "packages": [
+                "cffi-1.17.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "grpcio-status>=1.33.2 (from google-cloud-pubsub<3,>=2.1.0->apache-beam[aws,azure,gcp])",
+            "packages": [
+                "grpcio_status-1.66.1-py3-none-any.whl",
+                "grpcio_status-1.66.0-py3-none-any.whl",
+                "grpcio_status-1.65.5-py3-none-any.whl",
+                "grpcio_status-1.65.4-py3-none-any.whl",
+                "grpcio_status-1.65.2-py3-none-any.whl",
+                "grpcio_status-1.65.1-py3-none-any.whl",
+                "grpcio_status-1.65.0-py3-none-any.whl",
+                "grpcio_status-1.64.3-py3-none-any.whl",
+                "grpcio_status-1.64.1-py3-none-any.whl",
+                "grpcio_status-1.64.0-py3-none-any.whl",
+                "grpcio_status-1.63.2-py3-none-any.whl",
+                "grpcio_status-1.63.0-py3-none-any.whl",
+                "grpcio_status-1.62.3-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "PyJWT<3,>=1.0.0 (from PyJWT[crypto]<3,>=1.0.0->msal>=1.30.0->azure-identity<2,>=1.12.0->apache-beam[aws,azure,gcp])",
+            "packages": [
+                "PyJWT-2.9.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "portalocker<3,>=1.4 (from msal-extensions>=1.2.0->azure-identity<2,>=1.12.0->apache-beam[aws,azure,gcp])",
+            "packages": [
+                "portalocker-2.10.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "pyasn1>=0.1.7 (from oauth2client>=1.4.12->google-apitools<0.5.32,>=0.5.31->apache-beam[aws,azure,gcp])",
+            "packages": [
+                "pyasn1-0.6.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "deprecated>=1.2.6 (from opentelemetry-api>=1.27.0->google-cloud-pubsub<3,>=2.1.0->apache-beam[aws,azure,gcp])",
+            "packages": [
+                "Deprecated-1.2.14-py2.py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "importlib-metadata<=8.4.0,>=6.0 (from opentelemetry-api>=1.27.0->google-cloud-pubsub<3,>=2.1.0->apache-beam[aws,azure,gcp])",
+            "packages": [
+                "importlib_metadata-8.4.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "opentelemetry-semantic-conventions==0.48b0 (from opentelemetry-sdk>=1.27.0->google-cloud-pubsub<3,>=2.1.0->apache-beam[aws,azure,gcp])",
+            "packages": [
+                "opentelemetry_semantic_conventions-0.48b0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "annotated-types>=0.6.0 (from pydantic<3->google-cloud-aiplatform<2.0,>=1.26.0->apache-beam[aws,azure,gcp])",
+            "packages": [
+                "annotated_types-0.7.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "pydantic-core==2.23.4 (from pydantic<3->google-cloud-aiplatform<2.0,>=1.26.0->apache-beam[aws,azure,gcp])",
+            "packages": [
+                "pydantic_core-2.23.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "pycparser (from cffi>=1.12->cryptography>=2.5->azure-identity<2,>=1.12.0->apache-beam[aws,azure,gcp])",
+            "packages": [
+                "pycparser-2.22-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "wrapt<2,>=1.10 (from deprecated>=1.2.6->opentelemetry-api>=1.27.0->google-cloud-pubsub<3,>=2.1.0->apache-beam[aws,azure,gcp])",
+            "packages": [
+                "wrapt-1.16.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+            ]
+        },
+        {
+            "requirement": "zipp>=0.5 (from importlib-metadata<=8.4.0,>=6.0->opentelemetry-api>=1.27.0->google-cloud-pubsub<3,>=2.1.0->apache-beam[aws,azure,gcp])",
+            "packages": [
+                "zipp-3.20.2-py3-none-any.whl"
+            ]
+        }
+    ]
+}
