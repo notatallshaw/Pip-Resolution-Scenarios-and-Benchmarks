@@ -2,6 +2,7 @@
 # requires-python = ">=3.12"
 # dependencies = [
 #   "typer",
+#   "uv",
 # ]
 # ///
 
@@ -11,14 +12,23 @@ import platform
 import signal
 import socket
 import subprocess
+import sys
 import tempfile
+import time
 import tomllib
 from contextlib import contextmanager
 from pathlib import Path
+from urllib.parse import unquote, urlparse
 
 import typer
 
 SCENARIOS_DIR = "scenarios"
+
+
+def extract_filename(url: str) -> str:
+    parsed_url = urlparse(url)
+    path = unquote(parsed_url.path)
+    return Path(path).name
 
 
 def get_open_port() -> int:
@@ -33,7 +43,11 @@ def get_open_port() -> int:
 @contextmanager
 def pypi_timemachine(date: str, port: str):
     cmd = [
-        "uvx",
+        sys.executable,
+        "-m",
+        "uv",
+        "tool",
+        "run",
         "-p",
         "3.12",
         "--with",
@@ -45,12 +59,14 @@ def pypi_timemachine(date: str, port: str):
     ]
     process = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     try:
+        time.sleep(0.5)
         yield process
     finally:
         if platform.system() == "Windows":
             process.terminate()
         else:
             process.send_signal(signal.SIGTERM)
+        time.sleep(0.5)
 
 
 def process_scenario(
@@ -84,6 +100,8 @@ def process_scenario(
 
         # Install the version of pip you are testing
         install_pip_cmd = [
+            sys.executable,
+            "-m",
             "uv",
             "pip",
             "install",
@@ -102,6 +120,8 @@ def process_scenario(
         # Install the requirements
         command_install = [
             str(venv_python),
+            "-W",
+            "ignore",
             "-m",
             "pip",
             "install",
@@ -160,11 +180,17 @@ def process_scenario(
         resolution_steps.append(resolution_step)
 
     # Grab install information from report
-    install_urls = []
+    install_info: list[dict[str, str]] = []
     if report_lines:
         report_json = json.loads("\n".join(report_lines))
-        for install_info in report_json["install"]:
-            install_urls.append(install_info["download_info"]["url"])
+        for report_install in report_json["install"]:
+            download_info = report_install["download_info"]
+            install_info.append(
+                {
+                    "file_name": extract_filename(download_info["url"]),
+                    "hash": extract_filename(download_info["archive_info"]["hash"]),
+                }
+            )
 
     # Check success or failure reason
     success = True
@@ -191,7 +217,9 @@ def process_scenario(
         "result": {
             "success": success,
             "failure_reason": failure_reason,
-            "install_urls": sorted(install_urls),
+            "install_info": sorted(
+                install_info, key=lambda x: (x["file_name"], x["hash"])
+            ),
         },
         "resolution": resolution_steps,
     }
