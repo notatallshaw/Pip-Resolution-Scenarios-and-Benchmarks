@@ -195,13 +195,15 @@ def process_scenario(
     # Check success or failure reason
     success = True
     failure_reason = None
-    if result_install.stderr:
+    stderr = "\n".join([line for line in result_install.stderr.splitlines() if line.strip() and not line.startswith("WARNING:")])
+    if stderr:
         success = False
-        stderr = result_install.stderr
         if "subprocess-exited-with-error" in stderr:
             failure_reason = "Build Failure"
         elif "ResolutionTooDeep" in stderr:
             failure_reason = "Resolution Too Deep"
+        elif "ResolutionImpossible" in stderr:
+            failure_reason = "Resolution Impossible"
         else:
             failure_reason = stderr
 
