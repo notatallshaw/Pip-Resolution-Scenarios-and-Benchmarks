@@ -5,8 +5,8 @@ test changes to pip's resolution algorithm.
 
 # Prerequisites
 
-These scripts rely on uv so that any python version can be downloaded to
-run any particular version of Python. First you will need to install uv:
+These scripts rely on uv so that any python version can be used, you will
+need to install uv:
 https://github.com/astral-sh/uv?tab=readme-ov-file#installation
 
 # Running the scripts
