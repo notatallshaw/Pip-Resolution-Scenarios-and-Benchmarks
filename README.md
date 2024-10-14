@@ -3,12 +3,6 @@
 This is a series of scripts that represents what I often do manually to
 test changes to pip's resolution algorithm.
 
-# Prerequisites
-
-These scripts rely on uv so that any python version can be used, you will
-need to install uv:
-https://github.com/astral-sh/uv?tab=readme-ov-file#installation
-
 # Running the scripts
 
 The script is PEP 723 compliant, so you can use any tool that can run
