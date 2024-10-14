@@ -3,6 +3,9 @@
 # * Excessive backtracking causing slow resolution
 # * Excessive backtracking causing build failure
 # * Excessive backtracking causing ResolutionTooDeep
+#
+# Scenarios may be taken from other installers as even if pip doesn't
+# currently file the resolution problematic it might one day regress
 
 [autogluon]
 # https://github.com/pypa/pip/issues/12990
@@ -64,4 +67,76 @@ requirements = [
     "psutil ~= 5.9",
     "pyyaml",
     "selenium",
+]
+
+[numpy-numba]
+# https://github.com/astral-sh/uv/issues/6281#issuecomment-2316240724
+python_version = "3.11"
+platform_system = "Linux"
+datetime = "2024-07-20T14:00:00"
+requirements = [
+    "numpy>=2.1,<2.2",
+    "numba<=0.60,>0.1"
+]
+
+[starlette-fastapi]
+# https://github.com/astral-sh/uv/issues/1575
+python_version = "3.11"
+platform_system = "Linux"
+datetime = "2024-02-17T14:00:00"
+requirements = [
+    "starlette<=0.36.0",
+    "fastapi<=0.115.2",
+]
+
+[sentry-rapid-json]
+# https://github.com/astral-sh/uv/issues/8157
+python_version = "3.11"
+platform_system = "Linux"
+datetime = "2024-10-10T14:00:00"
+requirements = [
+    "python-rapidjson<=1.20,>=1.4",
+    "sentry-kafka-schemas<=0.1.113,>=0.1.50",
+]
+
+[apache-airflow-bream]
+# https://github.com/astral-sh/uv/issues/3078#issuecomment-2062907457
+python_version = "3.11"
+platform_system = "Linux"
+datetime = "2024-04-17T14:00:00"
+requirements = [
+    "apache-airflow[apache-beam]==2.8.4",
+]
+
+[airflow-bream-dill]
+# https://github.com/astral-sh/uv/issues/3078#issuecomment-2062907457
+python_version = "3.11"
+platform_system = "Linux"
+datetime = "2024-04-17T14:00:00"
+requirements = [
+    "dill>=0.2.2",
+    "apache-beam<=2.49.0",
+]
+
+[kedro-test]
+# https://github.com/pradyunsg/pip-resolver-benchmarks/discussions/8#discussioncomment-7807758
+python_version = "3.11"
+platform_system = "Linux"
+datetime = "2023-12-09T14:00:00"
+requirements = [
+    "kedro[test]==0.18.13",
+]
+
+[sphinx]
+# https://github.com/pypa/pip/issues/12430
+python_version = "3.11"
+platform_system = "Linux"
+datetime = "2023-12-09T14:00:00"
+requirements = [
+    "sphinx",
+    "sphinx-rtd-theme",
+    "sphinx-toolbox",
+    "myst-parser",
+    "sphinxcontrib-bibtex",
+    "nbsphinx",
 ]
