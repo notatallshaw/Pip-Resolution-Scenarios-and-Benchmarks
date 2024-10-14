@@ -114,7 +114,7 @@ def process_toml_file(toml_file: Path, pip_name_1: str, pip_name_2: str) -> None
                     )
 
                 num_packages_1 = sum(len(x) for x in resolution_1.values())
-                num_packages_2 = sum(len(x) for x in resolution_1.values())
+                num_packages_2 = sum(len(x) for x in resolution_2.values())
                 if num_packages_1 != num_packages_2:
                     difference_messages.append(
                         f"Number of packages processed: {num_packages_1} -> {num_packages_2}"

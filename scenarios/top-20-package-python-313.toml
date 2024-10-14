@@ -117,30 +117,3 @@ python_version = "3.13"
 platform_system = "Linux"
 datetime = "2024-10-07T14:00:00"
 requirements = ["cryptography"]
-
-[all-top-20]
-python_version = "3.13"
-platform_system = "Linux"
-datetime = "2024-10-07T14:00:00"
-requirements = [
-    "boto3",
-    "urllib3",
-    "botocore",
-    "requests",
-    "setuptools",
-    "certifi",
-    "idna",
-    "charset-normalizer",
-    "typing-extensions",
-    "packaging",
-    "aiobotocore",
-    "python-dateutil",
-    "s3transfer",
-    "six",
-    "grpcio-status",
-    "fsspec",
-    "pyyaml",
-    "s3fs",
-    "numpy",
-    "cryptography"
-]
