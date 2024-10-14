@@ -11,8 +11,11 @@
     "result": {
         "success": true,
         "failure_reason": null,
-        "install_urls": [
-            "https://files.pythonhosted.org/packages/ee/fb/14d30eb4956408ee3ae09ad34299131fb383c47df355ddb428a7331cfa1e/charset_normalizer-3.3.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+        "install_info": [
+            {
+                "file_name": "charset_normalizer-3.3.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                "hash": "sha256=90d558489962fd4918143277a773316e56c72da56ec7aa3dc3dbbe20fdfed15b"
+            }
         ]
     },
     "resolution": [

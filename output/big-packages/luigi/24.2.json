@@ -11,17 +11,47 @@
     "result": {
         "success": true,
         "failure_reason": null,
-        "install_urls": [
-            "https://files.pythonhosted.org/packages/08/aa/cc0199a5f0ad350994d660967a8efb233fe0416e4639146c089643407ce6/packaging-24.1-py3-none-any.whl",
-            "https://files.pythonhosted.org/packages/22/d4/54f9d12668b58336bd30defe0307e6c61589a3e687b05c366f804b7faaf0/tornado-6.4.1-cp38-abi3-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
-            "https://files.pythonhosted.org/packages/47/bf/40a9ea8860a0d6387fe974d10d93b539fb5e477fc590e5d7673d2322b42d/luigi-3.5.2.tar.gz",
-            "https://files.pythonhosted.org/packages/8f/d7/9322c609343d929e75e7e5e6255e614fcc67572cfd083959cdef3b7aad79/docutils-0.21.2-py3-none-any.whl",
-            "https://files.pythonhosted.org/packages/c8/22/9460e311f340cb62d26a38c419b1381b8593b0bb6b5d1f056938b086d362/lockfile-0.12.2-py2.py3-none-any.whl",
-            "https://files.pythonhosted.org/packages/d2/3f/8ba87d9e287b9d385a02a7114ddcef61b26f86411e121c9003eb509a1773/tenacity-8.5.0-py3-none-any.whl",
-            "https://files.pythonhosted.org/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl",
-            "https://files.pythonhosted.org/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
-            "https://files.pythonhosted.org/packages/f8/18/19d6921d04ee045d6732140ce17cda66271f2835d0e8c947b91f1ad5ceaf/python_daemon-3.0.2-py3-none-any.whl",
-            "https://files.pythonhosted.org/packages/ff/ae/f19306b5a221f6a436d8f2238d5b80925004093fa3edea59835b514d9057/setuptools-75.1.0-py3-none-any.whl"
+        "install_info": [
+            {
+                "file_name": "docutils-0.21.2-py3-none-any.whl",
+                "hash": "sha256=dafca5b9e384f0e419294eb4d2ff9fa826435bf15f15b7bd45723e8ad76811b2"
+            },
+            {
+                "file_name": "lockfile-0.12.2-py2.py3-none-any.whl",
+                "hash": "sha256=6c3cb24f344923d30b2785d5ad75182c8ea7ac1b6171b08657258ec7429d50fa"
+            },
+            {
+                "file_name": "luigi-3.5.2.tar.gz",
+                "hash": "sha256=d000fe6a6ea77c9376674fe87a045ac00c3fcf7ebe8414655a06630aa9db5111"
+            },
+            {
+                "file_name": "packaging-24.1-py3-none-any.whl",
+                "hash": "sha256=5b8f2217dbdbd2f7f384c41c628544e6d52f2d0f53c6d0c3ea61aa5d1d7ff124"
+            },
+            {
+                "file_name": "python_daemon-3.0.2-py3-none-any.whl",
+                "hash": "sha256=8b19c37aff5d9231e91fd67f6b5a647bd2a3e0b267b5af7acb9f0b7e7d0bca37"
+            },
+            {
+                "file_name": "python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
+                "hash": "sha256=a8b2bc7bffae282281c8140a97d3aa9c14da0b136dfe83f850eea9a5f7470427"
+            },
+            {
+                "file_name": "setuptools-75.1.0-py3-none-any.whl",
+                "hash": "sha256=35ab7fd3bcd95e6b7fd704e4a1539513edad446c097797f2985e0e4b960772f2"
+            },
+            {
+                "file_name": "six-1.16.0-py2.py3-none-any.whl",
+                "hash": "sha256=8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"
+            },
+            {
+                "file_name": "tenacity-8.5.0-py3-none-any.whl",
+                "hash": "sha256=b594c2a5945830c267ce6b79a166228323ed52718f30302c1359836112346687"
+            },
+            {
+                "file_name": "tornado-6.4.1-cp38-abi3-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                "hash": "sha256=613bf4ddf5c7a95509218b149b555621497a6cc0d46ac341b30bd9ec19eac7f3"
+            }
         ]
     },
     "resolution": [

@@ -11,8 +11,11 @@
     "result": {
         "success": true,
         "failure_reason": null,
-        "install_urls": [
-            "https://files.pythonhosted.org/packages/23/69/538317f0d925095537745f12aced33be1570bbdc4acde49b33748669af96/numpy-2.1.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+        "install_info": [
+            {
+                "file_name": "numpy-2.1.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                "hash": "sha256=e2b49c3c0804e8ecb05d59af8386ec2f74877f7ca8fd9c1e00be2672e4d399b1"
+            }
         ]
     },
     "resolution": [

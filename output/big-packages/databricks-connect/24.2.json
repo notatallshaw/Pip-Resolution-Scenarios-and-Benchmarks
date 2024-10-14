@@ -11,33 +11,111 @@
     "result": {
         "success": true,
         "failure_reason": null,
-        "install_urls": [
-            "https://files.pythonhosted.org/packages/08/aa/cc0199a5f0ad350994d660967a8efb233fe0416e4639146c089643407ce6/packaging-24.1-py3-none-any.whl",
-            "https://files.pythonhosted.org/packages/10/30/a58b32568f1623aaad7db22aa9eafc4c6c194b429ff35bdc55ca2726da47/py4j-0.10.9.7-py2.py3-none-any.whl",
-            "https://files.pythonhosted.org/packages/11/c3/005fcca25ce078d2cc29fd559379817424e94885510568bc1bc53d7d5846/pytz-2024.2-py2.py3-none-any.whl",
-            "https://files.pythonhosted.org/packages/12/90/3c9ff0512038035f59d279fddeb79f5f1eccd8859f06d6163c58798b9487/certifi-2024.8.30-py3-none-any.whl",
-            "https://files.pythonhosted.org/packages/23/08/a1ce0415a115c2b703bfa798f06f0e43ca91dbe29d6180bf86a9287b15e2/protobuf-5.28.2-cp38-abi3-manylinux2014_x86_64.whl",
-            "https://files.pythonhosted.org/packages/27/1f/3a72917afcb0d5cd842cbccb81bf7a8a7b45b4c66d8dc4556ccb3b016bfc/google_auth-2.35.0-py2.py3-none-any.whl",
-            "https://files.pythonhosted.org/packages/35/90/a4f76c14230da281d51ef9eb30eb3ff2df129b83a4a98906756c063578c1/grpcio-1.66.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
-            "https://files.pythonhosted.org/packages/3a/d0/edc009c27b406c4f9cbc79274d6e46d634d139075492ad055e3d68445925/numpy-1.26.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
-            "https://files.pythonhosted.org/packages/40/26/f35951c45070edc957ba40a5b1db3cf60a9dbb1b350c2d5bef03e01e61de/charset_normalizer-3.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
-            "https://files.pythonhosted.org/packages/49/97/fa78e3d2f65c02c8e1268b9aba606569fe97f6c8f7c2d74394553347c145/rsa-4.9-py3-none-any.whl",
-            "https://files.pythonhosted.org/packages/4c/21/9ca93b84b92ef927814cb7ba37f0774a484c849d58f0b692b16af8eebcfb/pyarrow-17.0.0-cp311-cp311-manylinux_2_28_x86_64.whl",
-            "https://files.pythonhosted.org/packages/56/ff/b2995d76e53def408ec102699e07fde01282ac85bf1cbd44c6d1e9c8bc80/databricks_sdk-0.33.0-py3-none-any.whl",
-            "https://files.pythonhosted.org/packages/76/c6/c88e154df9c4e1a2a66ccf0005a88dfb2650c1dffb6f5ce603dfbd452ce3/idna-3.10-py3-none-any.whl",
-            "https://files.pythonhosted.org/packages/77/89/bc88a6711935ba795a679ea6ebee07e128050d6382eaa35a0a47c8032bdc/pyasn1_modules-0.4.1-py3-none-any.whl",
-            "https://files.pythonhosted.org/packages/a4/07/14f8ad37f2d12a5ce41206c21820d8cb6561b728e51fad4530dff0552a67/cachetools-5.5.0-py3-none-any.whl",
-            "https://files.pythonhosted.org/packages/a4/8c/fa0a5845f684efc423d3e0bfe9da4415f29b1b852c015f0614fdc36ff74a/databricks_connect-15.4.2-py2.py3-none-any.whl",
-            "https://files.pythonhosted.org/packages/a6/ab/7e5f53c3b9d14972843a647d8d7a853969a58aecc7559cb3267302c94774/tzdata-2024.2-py2.py3-none-any.whl",
-            "https://files.pythonhosted.org/packages/bb/9b/3f1da79e94515e6e875aa291aea965ed10d3aa06ec54d81226f07c70df9c/grpcio_status-1.66.2-py3-none-any.whl",
-            "https://files.pythonhosted.org/packages/c8/f1/d6a797abb14f6283c0ddff96bbdd46937f64122b8c925cab503dd37f8214/pyasn1-0.6.1-py3-none-any.whl",
-            "https://files.pythonhosted.org/packages/cd/5f/4dba1d39bb9c38d574a9a22548c540177f78ea47b32f99c0ff2ec499fac5/pandas-2.2.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
-            "https://files.pythonhosted.org/packages/ce/d9/5f4c13cecde62396b0d3fe530a50ccea91e7dfc1ccf0e09c228841bb5ba8/urllib3-2.2.3-py3-none-any.whl",
-            "https://files.pythonhosted.org/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl",
-            "https://files.pythonhosted.org/packages/ec/08/49bfe7cf737952cc1a9c43e80cc258ed45dad7f183c5b8276fc94cb3862d/googleapis_common_protos-1.65.0-py2.py3-none-any.whl",
-            "https://files.pythonhosted.org/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
-            "https://files.pythonhosted.org/packages/f9/9b/335f9764261e915ed497fcdeb11df5dfd6f7bf257d4a6a2a686d80da4d54/requests-2.32.3-py3-none-any.whl",
-            "https://files.pythonhosted.org/packages/ff/ae/f19306b5a221f6a436d8f2238d5b80925004093fa3edea59835b514d9057/setuptools-75.1.0-py3-none-any.whl"
+        "install_info": [
+            {
+                "file_name": "cachetools-5.5.0-py3-none-any.whl",
+                "hash": "sha256=02134e8439cdc2ffb62023ce1debca2944c3f289d66bb17ead3ab3dede74b292"
+            },
+            {
+                "file_name": "certifi-2024.8.30-py3-none-any.whl",
+                "hash": "sha256=922820b53db7a7257ffbda3f597266d435245903d80737e34f8a45ff3e3230d8"
+            },
+            {
+                "file_name": "charset_normalizer-3.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                "hash": "sha256=753f10e867343b4511128c6ed8c82f7bec3bd026875576dfd88483c5c73b2fd8"
+            },
+            {
+                "file_name": "databricks_connect-15.4.2-py2.py3-none-any.whl",
+                "hash": "sha256=6ee3c549ca188003da835e48a933a58c6ae0609f3b7e61218ee09940f2f65432"
+            },
+            {
+                "file_name": "databricks_sdk-0.33.0-py3-none-any.whl",
+                "hash": "sha256=2fa1dfaacefbc6d6a5bb2b169a790c89b4d298a45670ce3cd06cbb330cf1647e"
+            },
+            {
+                "file_name": "google_auth-2.35.0-py2.py3-none-any.whl",
+                "hash": "sha256=25df55f327ef021de8be50bad0dfd4a916ad0de96da86cd05661c9297723ad3f"
+            },
+            {
+                "file_name": "googleapis_common_protos-1.65.0-py2.py3-none-any.whl",
+                "hash": "sha256=2972e6c496f435b92590fd54045060867f3fe9be2c82ab148fc8885035479a63"
+            },
+            {
+                "file_name": "grpcio-1.66.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                "hash": "sha256=d25a14af966438cddf498b2e338f88d1c9706f3493b1d73b93f695c99c5f0e2a"
+            },
+            {
+                "file_name": "grpcio_status-1.66.2-py3-none-any.whl",
+                "hash": "sha256=e5fe189f6897d12aa9cd74408a17ca41e44fad30871cf84f5cbd17bd713d2455"
+            },
+            {
+                "file_name": "idna-3.10-py3-none-any.whl",
+                "hash": "sha256=946d195a0d259cbba61165e88e65941f16e9b36ea6ddb97f00452bae8b1287d3"
+            },
+            {
+                "file_name": "numpy-1.26.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                "hash": "sha256=666dbfb6ec68962c033a450943ded891bed2d54e6755e35e5835d63f4f6931d5"
+            },
+            {
+                "file_name": "packaging-24.1-py3-none-any.whl",
+                "hash": "sha256=5b8f2217dbdbd2f7f384c41c628544e6d52f2d0f53c6d0c3ea61aa5d1d7ff124"
+            },
+            {
+                "file_name": "pandas-2.2.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                "hash": "sha256=c124333816c3a9b03fbeef3a9f230ba9a737e9e5bb4060aa2107a86cc0a497fc"
+            },
+            {
+                "file_name": "protobuf-5.28.2-cp38-abi3-manylinux2014_x86_64.whl",
+                "hash": "sha256=5e8a95246d581eef20471b5d5ba010d55f66740942b95ba9b872d918c459452f"
+            },
+            {
+                "file_name": "py4j-0.10.9.7-py2.py3-none-any.whl",
+                "hash": "sha256=85defdfd2b2376eb3abf5ca6474b51ab7e0de341c75a02f46dc9b5976f5a5c1b"
+            },
+            {
+                "file_name": "pyarrow-17.0.0-cp311-cp311-manylinux_2_28_x86_64.whl",
+                "hash": "sha256=e3343cb1e88bc2ea605986d4b94948716edc7a8d14afd4e2c097232f729758b4"
+            },
+            {
+                "file_name": "pyasn1-0.6.1-py3-none-any.whl",
+                "hash": "sha256=0d632f46f2ba09143da3a8afe9e33fb6f92fa2320ab7e886e2d0f7672af84629"
+            },
+            {
+                "file_name": "pyasn1_modules-0.4.1-py3-none-any.whl",
+                "hash": "sha256=49bfa96b45a292b711e986f222502c1c9a5e1f4e568fc30e2574a6c7d07838fd"
+            },
+            {
+                "file_name": "python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
+                "hash": "sha256=a8b2bc7bffae282281c8140a97d3aa9c14da0b136dfe83f850eea9a5f7470427"
+            },
+            {
+                "file_name": "pytz-2024.2-py2.py3-none-any.whl",
+                "hash": "sha256=31c7c1817eb7fae7ca4b8c7ee50c72f93aa2dd863de768e1ef4245d426aa0725"
+            },
+            {
+                "file_name": "requests-2.32.3-py3-none-any.whl",
+                "hash": "sha256=70761cfe03c773ceb22aa2f671b4757976145175cdfca038c02654d061d6dcc6"
+            },
+            {
+                "file_name": "rsa-4.9-py3-none-any.whl",
+                "hash": "sha256=90260d9058e514786967344d0ef75fa8727eed8a7d2e43ce9f4bcf1b536174f7"
+            },
+            {
+                "file_name": "setuptools-75.1.0-py3-none-any.whl",
+                "hash": "sha256=35ab7fd3bcd95e6b7fd704e4a1539513edad446c097797f2985e0e4b960772f2"
+            },
+            {
+                "file_name": "six-1.16.0-py2.py3-none-any.whl",
+                "hash": "sha256=8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"
+            },
+            {
+                "file_name": "tzdata-2024.2-py2.py3-none-any.whl",
+                "hash": "sha256=a48093786cdcde33cad18c2555e8532f34422074448fbc874186f0abd79565cd"
+            },
+            {
+                "file_name": "urllib3-2.2.3-py3-none-any.whl",
+                "hash": "sha256=ca899ca043dcb1bafa3e262d73aa25c465bfb49e0bd9dd5d59f1d0acba2f8fac"
+            }
         ]
     },
     "resolution": [

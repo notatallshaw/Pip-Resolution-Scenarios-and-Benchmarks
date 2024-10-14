@@ -11,7 +11,7 @@
     "result": {
         "success": false,
         "failure_reason": "Build Failure",
-        "install_urls": []
+        "install_info": []
     },
     "resolution": [
         {

@@ -11,8 +11,11 @@
     "result": {
         "success": true,
         "failure_reason": null,
-        "install_urls": [
-            "https://files.pythonhosted.org/packages/28/76/e6222113b83e3622caa4bb41032d0b1bf785250607392e1b778aca0b8a7d/charset_normalizer-3.3.2-py3-none-any.whl"
+        "install_info": [
+            {
+                "file_name": "charset_normalizer-3.3.2-py3-none-any.whl",
+                "hash": "sha256=3e4d1f6587322d2788836a99c69062fbb091331ec940e02d12d179c1d53e25fc"
+            }
         ]
     },
     "resolution": [

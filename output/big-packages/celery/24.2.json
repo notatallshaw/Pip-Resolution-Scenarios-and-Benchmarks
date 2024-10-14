@@ -11,28 +11,91 @@
     "result": {
         "success": true,
         "failure_reason": null,
-        "install_urls": [
-            "https://files.pythonhosted.org/packages/00/2e/d53fa4befbf2cfa713304affc7ca780ce4fc1fd8710527771b58311a3229/click-8.1.7-py3-none-any.whl",
-            "https://files.pythonhosted.org/packages/03/ff/7c0c86c43b3cbb927e0ccc0255cb4057ceba4799cd44ae95174ce8e8b5b2/vine-5.1.0-py3-none-any.whl",
-            "https://files.pythonhosted.org/packages/15/f1/feeeaaaac0f589bcbc12c02da357cf635ee383c9128b77230a1e99118885/redis-5.1.1-py3-none-any.whl",
-            "https://files.pythonhosted.org/packages/1b/5b/974430b5ffdb7a4f1941d13d83c64a0395114503cc357c6b9ae4ce5047ed/click_didyoumean-0.3.1-py3-none-any.whl",
-            "https://files.pythonhosted.org/packages/30/da/43b15f28fe5f9e027b41c539abc5469052e9d48fd75f8ff094ba2a0ae767/billiard-4.2.1-py3-none-any.whl",
-            "https://files.pythonhosted.org/packages/31/b4/b9b800c45527aadd64d5b442f9b932b00648617eb5d63d2c7a6587b7cafc/jmespath-1.0.1-py3-none-any.whl",
-            "https://files.pythonhosted.org/packages/3c/4a/b221409913760d26cf4498b7b1741d510c82d3ad38381984a3ddc135ec66/s3transfer-0.10.2-py3-none-any.whl",
-            "https://files.pythonhosted.org/packages/52/40/9d857001228658f0d59e97ebd4c346fe73e138c6de1bce61dc568a57c7f8/click_repl-0.3.0-py3-none-any.whl",
-            "https://files.pythonhosted.org/packages/7f/12/8f95419e2d6ebe98b8dd10da64a3544a6ba6d42967cf26fe64ed29fa0558/boto3-1.35.34-py3-none-any.whl",
-            "https://files.pythonhosted.org/packages/87/ec/7811a3cf9fdfee3ee88e54d08fcbc3fabe7c1b6e4059826c59d7b795651c/kombu-5.4.2-py3-none-any.whl",
-            "https://files.pythonhosted.org/packages/90/c4/6a4d3772e5407622feb93dd25c86ce3c0fee746fa822a777a627d56b4f2a/celery-5.4.0-py3-none-any.whl",
-            "https://files.pythonhosted.org/packages/a6/ab/7e5f53c3b9d14972843a647d8d7a853969a58aecc7559cb3267302c94774/tzdata-2024.2-py2.py3-none-any.whl",
-            "https://files.pythonhosted.org/packages/a7/fa/e01228c2938de91d47b307831c62ab9e4001e747789d0b05baf779a6488c/async_timeout-4.0.3-py3-none-any.whl",
-            "https://files.pythonhosted.org/packages/a9/6a/fd08d94654f7e67c52ca30523a178b3f8ccc4237fce4be90d39c938a831a/prompt_toolkit-3.0.48-py3-none-any.whl",
-            "https://files.pythonhosted.org/packages/b3/f0/8e5be5d5e0653d9e1d02b1144efa33ff7d2963dfad07049e02c0fa9b2e8d/amqp-5.2.0-py3-none-any.whl",
-            "https://files.pythonhosted.org/packages/ce/d9/5f4c13cecde62396b0d3fe530a50ccea91e7dfc1ccf0e09c228841bb5ba8/urllib3-2.2.3-py3-none-any.whl",
-            "https://files.pythonhosted.org/packages/d9/5a/e7c31adbe875f2abbb91bd84cf2dc52d792b5a01506781dbcf25c91daf11/six-1.16.0-py2.py3-none-any.whl",
-            "https://files.pythonhosted.org/packages/e9/da/824b92d9942f4e472702488857914bdd50f73021efea15b4cad9aca8ecef/click_plugins-1.1.1-py2.py3-none-any.whl",
-            "https://files.pythonhosted.org/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
-            "https://files.pythonhosted.org/packages/f1/6e/3e817d7e8803c4e49199ab4cdb5d3857ee5933d63de54cd9578a3e6e038f/botocore-1.35.34-py3-none-any.whl",
-            "https://files.pythonhosted.org/packages/fd/84/fd2ba7aafacbad3c4201d395674fc6348826569da3c0937e75505ead3528/wcwidth-0.2.13-py2.py3-none-any.whl"
+        "install_info": [
+            {
+                "file_name": "amqp-5.2.0-py3-none-any.whl",
+                "hash": "sha256=827cb12fb0baa892aad844fd95258143bce4027fdac4fccddbc43330fd281637"
+            },
+            {
+                "file_name": "async_timeout-4.0.3-py3-none-any.whl",
+                "hash": "sha256=7405140ff1230c310e51dc27b3145b9092d659ce68ff733fb0cefe3ee42be028"
+            },
+            {
+                "file_name": "billiard-4.2.1-py3-none-any.whl",
+                "hash": "sha256=40b59a4ac8806ba2c2369ea98d876bc6108b051c227baffd928c644d15d8f3cb"
+            },
+            {
+                "file_name": "boto3-1.35.34-py3-none-any.whl",
+                "hash": "sha256=291e7b97a34967ed93297e6171f1bebb8529e64633dd48426760e3fdef1cdea8"
+            },
+            {
+                "file_name": "botocore-1.35.34-py3-none-any.whl",
+                "hash": "sha256=ccb0fe397b11b81c9abc0c87029d17298e17bf658d8db5c0c5a551a12a207e7a"
+            },
+            {
+                "file_name": "celery-5.4.0-py3-none-any.whl",
+                "hash": "sha256=369631eb580cf8c51a82721ec538684994f8277637edde2dfc0dacd73ed97f64"
+            },
+            {
+                "file_name": "click-8.1.7-py3-none-any.whl",
+                "hash": "sha256=ae74fb96c20a0277a1d615f1e4d73c8414f5a98db8b799a7931d1582f3390c28"
+            },
+            {
+                "file_name": "click_didyoumean-0.3.1-py3-none-any.whl",
+                "hash": "sha256=5c4bb6007cfea5f2fd6583a2fb6701a22a41eb98957e63d0fac41c10e7c3117c"
+            },
+            {
+                "file_name": "click_plugins-1.1.1-py2.py3-none-any.whl",
+                "hash": "sha256=5d262006d3222f5057fd81e1623d4443e41dcda5dc815c06b442aa3c02889fc8"
+            },
+            {
+                "file_name": "click_repl-0.3.0-py3-none-any.whl",
+                "hash": "sha256=fb7e06deb8da8de86180a33a9da97ac316751c094c6899382da7feeeeb51b812"
+            },
+            {
+                "file_name": "jmespath-1.0.1-py3-none-any.whl",
+                "hash": "sha256=02e2e4cc71b5bcab88332eebf907519190dd9e6e82107fa7f83b1003a6252980"
+            },
+            {
+                "file_name": "kombu-5.4.2-py3-none-any.whl",
+                "hash": "sha256=14212f5ccf022fc0a70453bb025a1dcc32782a588c49ea866884047d66e14763"
+            },
+            {
+                "file_name": "prompt_toolkit-3.0.48-py3-none-any.whl",
+                "hash": "sha256=f49a827f90062e411f1ce1f854f2aedb3c23353244f8108b89283587397ac10e"
+            },
+            {
+                "file_name": "python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
+                "hash": "sha256=a8b2bc7bffae282281c8140a97d3aa9c14da0b136dfe83f850eea9a5f7470427"
+            },
+            {
+                "file_name": "redis-5.1.1-py3-none-any.whl",
+                "hash": "sha256=f8ea06b7482a668c6475ae202ed8d9bcaa409f6e87fb77ed1043d912afd62e24"
+            },
+            {
+                "file_name": "s3transfer-0.10.2-py3-none-any.whl",
+                "hash": "sha256=eca1c20de70a39daee580aef4986996620f365c4e0fda6a86100231d62f1bf69"
+            },
+            {
+                "file_name": "six-1.16.0-py2.py3-none-any.whl",
+                "hash": "sha256=8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"
+            },
+            {
+                "file_name": "tzdata-2024.2-py2.py3-none-any.whl",
+                "hash": "sha256=a48093786cdcde33cad18c2555e8532f34422074448fbc874186f0abd79565cd"
+            },
+            {
+                "file_name": "urllib3-2.2.3-py3-none-any.whl",
+                "hash": "sha256=ca899ca043dcb1bafa3e262d73aa25c465bfb49e0bd9dd5d59f1d0acba2f8fac"
+            },
+            {
+                "file_name": "vine-5.1.0-py3-none-any.whl",
+                "hash": "sha256=40fdf3c48b2cfe1c38a49e9ae2da6fda88e4794c810050a728bd7413811fb1dc"
+            },
+            {
+                "file_name": "wcwidth-0.2.13-py2.py3-none-any.whl",
+                "hash": "sha256=3da69048e4540d84af32131829ff948f1e022c1c6bdb8d6102117aac784f6859"
+            }
         ]
     },
     "resolution": [
