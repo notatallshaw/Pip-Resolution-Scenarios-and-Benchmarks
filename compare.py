@@ -75,8 +75,8 @@ def process_toml_file(toml_file: Path, pip_name_1: str, pip_name_2: str) -> None
         success_2 = json_2["result"]["success"]
         failure_reason_1 = json_1["result"]["failure_reason"]
         failure_reason_2 = json_2["result"]["failure_reason"]
-        install_urls_1 = json_1["result"]["install_urls"]
-        install_urls_2 = json_2["result"]["install_urls"]
+        install_info_1 = {install['file_name']: install["hash"] for install in json_1["result"]["install_info"]}
+        install_info_2 = {install['file_name']: install["hash"] for install in json_2["result"]["install_info"]}
 
         resolution_1 = defaultdict(list)
         for resolution_step in json_1["resolution"]:
@@ -97,12 +97,12 @@ def process_toml_file(toml_file: Path, pip_name_1: str, pip_name_2: str) -> None
                 difference_messages.append(
                     f"Failure Reason: {failure_reason_1} -> {failure_reason_2}."
                 )
-        else:
+        elif success_1:
             if failure_reason_1 != failure_reason_2:
                 difference_messages.append(
                     f"Failure Reason: {failure_reason_1} -> {failure_reason_2}."
                 )
-            if install_urls_1 != install_urls_2:
+            if install_info_1 != install_info_2:
                 difference_messages.append("Not the same install files.")
 
             if resolution_1 != resolution_2:
@@ -123,6 +123,7 @@ def process_toml_file(toml_file: Path, pip_name_1: str, pip_name_2: str) -> None
         if difference_messages:
             print(f"Difference for scenario {toml_file} - {scenario_name}:")
             print("\n".join(f"\t{d}" for d in difference_messages))
+            print()
 
 
 def main(
