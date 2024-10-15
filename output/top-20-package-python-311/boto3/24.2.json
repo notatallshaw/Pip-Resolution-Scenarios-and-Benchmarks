@@ -9,8 +9,8 @@
         ]
     },
     "result": {
-        "success": false,
-        "failure_reason": "WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<pip._vendor.urllib3.connection.HTTPConnection object at 0x7f2128b07310>: Failed to establish a new connection: [Errno 111] Connection refused')': /boto3/\nWARNING: Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<pip._vendor.urllib3.connection.HTTPConnection object at 0x7f2128af81d0>: Failed to establish a new connection: [Errno 111] Connection refused')': /boto3/\nWARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<pip._vendor.urllib3.connection.HTTPConnection object at 0x7f2128af9050>: Failed to establish a new connection: [Errno 111] Connection refused')': /boto3/\n",
+        "success": true,
+        "failure_reason": null,
         "install_info": [
             {
                 "file_name": "boto3-1.35.34-py3-none-any.whl",
