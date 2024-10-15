@@ -251,21 +251,26 @@ def process_toml_file(toml_file: Path, pip_name: str, pip_requirement: str) -> N
             / f"{pip_name}.json"
         )
         if json_path.exists():
-            existing_json = json.load(json_path.open())
-            existing_input = existing_json["input"]
-            if existing_input == (
-                {
-                    "pip_version": pip_name,
-                    "python_version": python_version,
-                    "datetime": datetime,
-                    "platform_system": platform_system,
-                    "requirements": requirements,
-                }
-            ):
-                print(
-                    f"Skipping previously completed (Pip Version: {pip_name}, Python: {python_version}, Date: {datetime})"
-                )
-                continue
+            try:
+                existing_json = json.load(json_path.open())
+            except json.JSONDecodeError:
+                os.remove(json_path)
+                json_path.touch()
+            else:
+                existing_input = existing_json["input"]
+                if existing_input == (
+                    {
+                        "pip_version": pip_name,
+                        "python_version": python_version,
+                        "datetime": datetime,
+                        "platform_system": platform_system,
+                        "requirements": requirements,
+                    }
+                ):
+                    print(
+                        f"Skipping previously completed (Pip Version: {pip_name}, Python: {python_version}, Date: {datetime})"
+                    )
+                    continue
         else:
             json_path.parent.mkdir(exist_ok=True, parents=True)
             json_path.touch()
