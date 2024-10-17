@@ -66,7 +66,13 @@ def pypi_timemachine(date: str, port: str):
             process.terminate()
         else:
             process.send_signal(signal.SIGTERM)
-        time.sleep(0.5)
+        
+        try:
+            process.wait(timeout=3)
+        except subprocess.TimeoutExpired:
+            process.kill()
+            process.wait()
+
 
 
 def process_scenario(
