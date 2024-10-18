@@ -2,7 +2,7 @@
     "input": {
         "pip_version": "24.2",
         "python_version": "3.11",
-        "datetime": "2024-10-07T14:00:00",
+        "datetime": "2024-10-07 14:00:00",
         "platform_system": "Linux",
         "requirements": [
             "tensorflow"
@@ -170,229 +170,229 @@
         {
             "requirement": "tensorflow",
             "packages": [
-                "tensorflow-2.17.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "tensorflow-2.17.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "absl-py>=1.0.0 (from tensorflow)",
             "packages": [
-                "absl_py-2.1.0-py3-none-any.whl"
+                "absl_py-2.1.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "astunparse>=1.6.0 (from tensorflow)",
             "packages": [
-                "astunparse-1.6.3-py2.py3-none-any.whl"
+                "astunparse-1.6.3-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "flatbuffers>=24.3.25 (from tensorflow)",
             "packages": [
-                "flatbuffers-24.3.25-py2.py3-none-any.whl"
+                "flatbuffers-24.3.25-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "gast!=0.5.0,!=0.5.1,!=0.5.2,>=0.2.1 (from tensorflow)",
             "packages": [
-                "gast-0.6.0-py3-none-any.whl"
+                "gast-0.6.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "google-pasta>=0.1.1 (from tensorflow)",
             "packages": [
-                "google_pasta-0.2.0-py3-none-any.whl"
+                "google_pasta-0.2.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "h5py>=3.10.0 (from tensorflow)",
             "packages": [
-                "h5py-3.12.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "h5py-3.12.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "libclang>=13.0.0 (from tensorflow)",
             "packages": [
-                "libclang-18.1.1-py2.py3-none-manylinux2010_x86_64.whl"
+                "libclang-18.1.1-py2.py3-none-manylinux2010_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "ml-dtypes<0.5.0,>=0.3.1 (from tensorflow)",
             "packages": [
-                "ml_dtypes-0.4.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "ml_dtypes-0.4.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "opt-einsum>=2.3.2 (from tensorflow)",
             "packages": [
-                "opt_einsum-3.4.0-py3-none-any.whl"
+                "opt_einsum-3.4.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "packaging (from tensorflow)",
             "packages": [
-                "packaging-24.1-py3-none-any.whl"
+                "packaging-24.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "protobuf!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5,<5.0.0dev,>=3.20.3 (from tensorflow)",
             "packages": [
-                "protobuf-4.25.5-cp37-abi3-manylinux2014_x86_64.whl"
+                "protobuf-4.25.5-cp37-abi3-manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "requests<3,>=2.21.0 (from tensorflow)",
             "packages": [
-                "requests-2.32.3-py3-none-any.whl"
+                "requests-2.32.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "setuptools (from tensorflow)",
             "packages": [
-                "setuptools-75.1.0-py3-none-any.whl"
+                "setuptools-75.1.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "six>=1.12.0 (from tensorflow)",
             "packages": [
-                "six-1.16.0-py2.py3-none-any.whl"
+                "six-1.16.0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "termcolor>=1.1.0 (from tensorflow)",
             "packages": [
-                "termcolor-2.5.0-py3-none-any.whl"
+                "termcolor-2.5.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "typing-extensions>=3.6.6 (from tensorflow)",
             "packages": [
-                "typing_extensions-4.12.2-py3-none-any.whl"
+                "typing_extensions-4.12.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "wrapt>=1.11.0 (from tensorflow)",
             "packages": [
-                "wrapt-1.16.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "wrapt-1.16.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "grpcio<2.0,>=1.24.3 (from tensorflow)",
             "packages": [
-                "grpcio-1.66.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "grpcio-1.66.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "tensorboard<2.18,>=2.17 (from tensorflow)",
             "packages": [
-                "tensorboard-2.17.1-py3-none-any.whl"
+                "tensorboard-2.17.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "keras>=3.2.0 (from tensorflow)",
             "packages": [
-                "keras-3.6.0-py3-none-any.whl"
+                "keras-3.6.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "tensorflow-io-gcs-filesystem>=0.23.1 (from tensorflow)",
             "packages": [
-                "tensorflow_io_gcs_filesystem-0.37.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "tensorflow_io_gcs_filesystem-0.37.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "numpy<2.0.0,>=1.23.5 (from tensorflow)",
             "packages": [
-                "numpy-1.26.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "numpy-1.26.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "wheel<1.0,>=0.23.0 (from astunparse>=1.6.0->tensorflow)",
             "packages": [
-                "wheel-0.44.0-py3-none-any.whl"
+                "wheel-0.44.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "rich (from keras>=3.2.0->tensorflow)",
             "packages": [
-                "rich-13.9.2-py3-none-any.whl"
+                "rich-13.9.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "namex (from keras>=3.2.0->tensorflow)",
             "packages": [
-                "namex-0.0.8-py3-none-any.whl"
+                "namex-0.0.8-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "optree (from keras>=3.2.0->tensorflow)",
             "packages": [
-                "optree-0.13.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "optree-0.13.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "charset-normalizer<4,>=2 (from requests<3,>=2.21.0->tensorflow)",
             "packages": [
-                "charset_normalizer-3.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "charset_normalizer-3.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "idna<4,>=2.5 (from requests<3,>=2.21.0->tensorflow)",
             "packages": [
-                "idna-3.10-py3-none-any.whl"
+                "idna-3.10-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "urllib3<3,>=1.21.1 (from requests<3,>=2.21.0->tensorflow)",
             "packages": [
-                "urllib3-2.2.3-py3-none-any.whl"
+                "urllib3-2.2.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "certifi>=2017.4.17 (from requests<3,>=2.21.0->tensorflow)",
             "packages": [
-                "certifi-2024.8.30-py3-none-any.whl"
+                "certifi-2024.8.30-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "markdown>=2.6.8 (from tensorboard<2.18,>=2.17->tensorflow)",
             "packages": [
-                "Markdown-3.7-py3-none-any.whl"
+                "Markdown-3.7-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "tensorboard-data-server<0.8.0,>=0.7.0 (from tensorboard<2.18,>=2.17->tensorflow)",
             "packages": [
-                "tensorboard_data_server-0.7.2-py3-none-manylinux_2_31_x86_64.whl"
+                "tensorboard_data_server-0.7.2-py3-none-manylinux_2_31_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "werkzeug>=1.0.1 (from tensorboard<2.18,>=2.17->tensorflow)",
             "packages": [
-                "werkzeug-3.0.4-py3-none-any.whl"
+                "werkzeug-3.0.4-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "MarkupSafe>=2.1.1 (from werkzeug>=1.0.1->tensorboard<2.18,>=2.17->tensorflow)",
             "packages": [
-                "MarkupSafe-2.1.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "MarkupSafe-2.1.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "markdown-it-py>=2.2.0 (from rich->keras>=3.2.0->tensorflow)",
             "packages": [
-                "markdown_it_py-3.0.0-py3-none-any.whl"
+                "markdown_it_py-3.0.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pygments<3.0.0,>=2.13.0 (from rich->keras>=3.2.0->tensorflow)",
             "packages": [
-                "pygments-2.18.0-py3-none-any.whl"
+                "pygments-2.18.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "mdurl~=0.1 (from markdown-it-py>=2.2.0->rich->keras>=3.2.0->tensorflow)",
             "packages": [
-                "mdurl-0.1.2-py3-none-any.whl"
+                "mdurl-0.1.2-py3-none-any.whl.metadata"
             ]
         }
     ]

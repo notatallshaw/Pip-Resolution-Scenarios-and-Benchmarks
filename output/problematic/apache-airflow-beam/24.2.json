@@ -2,7 +2,7 @@
     "input": {
         "pip_version": "24.2",
         "python_version": "3.11",
-        "datetime": "2024-04-17T14:00:00",
+        "datetime": "2024-04-17 14:00:00",
         "platform_system": "Linux",
         "requirements": [
             "apache-airflow[apache-beam]==2.8.4"
@@ -650,271 +650,271 @@
         {
             "requirement": "apache-airflow==2.8.4 (from apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "apache_airflow-2.8.4-py3-none-any.whl"
+                "apache_airflow-2.8.4-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "alembic<2.0,>=1.13.1 (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "alembic-1.13.1-py3-none-any.whl"
+                "alembic-1.13.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "argcomplete>=1.10 (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "argcomplete-3.3.0-py3-none-any.whl"
+                "argcomplete-3.3.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "asgiref (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "asgiref-3.8.1-py3-none-any.whl"
+                "asgiref-3.8.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "attrs>=22.1.0 (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "attrs-23.2.0-py3-none-any.whl"
+                "attrs-23.2.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "blinker (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "blinker-1.7.0-py3-none-any.whl"
+                "blinker-1.7.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "colorlog<5.0,>=4.0.2 (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "colorlog-4.8.0-py2.py3-none-any.whl"
+                "colorlog-4.8.0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "configupdater>=3.1.1 (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "ConfigUpdater-3.2-py2.py3-none-any.whl"
+                "ConfigUpdater-3.2-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "connexion<3.0,>=2.10.0 (from connexion[flask]<3.0,>=2.10.0->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "connexion-2.14.2-py2.py3-none-any.whl"
+                "connexion-2.14.2-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "cron-descriptor>=1.2.24 (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "cron_descriptor-1.4.3-py3-none-any.whl"
+                "cron_descriptor-1.4.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "croniter>=2.0.2 (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "croniter-2.0.3-py2.py3-none-any.whl"
+                "croniter-2.0.3-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "cryptography>=0.9.3 (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "cryptography-42.0.5-cp39-abi3-manylinux_2_28_x86_64.whl"
+                "cryptography-42.0.5-cp39-abi3-manylinux_2_28_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "deprecated>=1.2.13 (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "Deprecated-1.2.14-py2.py3-none-any.whl"
+                "Deprecated-1.2.14-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "dill>=0.2.2 (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "dill-0.3.8-py3-none-any.whl"
+                "dill-0.3.8-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "flask-appbuilder==4.3.11 (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "Flask_AppBuilder-4.3.11-py3-none-any.whl"
+                "Flask_AppBuilder-4.3.11-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "flask-caching>=1.5.0 (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "Flask_Caching-2.1.0-py3-none-any.whl"
+                "Flask_Caching-2.1.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "flask-login>=0.6.2 (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "Flask_Login-0.6.3-py3-none-any.whl"
+                "Flask_Login-0.6.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "flask-session<0.6,>=0.4.0 (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "flask_session-0.5.0-py3-none-any.whl"
+                "flask_session-0.5.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "flask-wtf>=0.15 (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "flask_wtf-1.2.1-py3-none-any.whl"
+                "flask_wtf-1.2.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "flask<2.3,>=2.2 (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "Flask-2.2.5-py3-none-any.whl"
+                "Flask-2.2.5-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "fsspec>=2023.10.0 (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "fsspec-2024.3.1-py3-none-any.whl"
+                "fsspec-2024.3.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "google-re2>=1.0 (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "google_re2-1.1-6-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl"
+                "google_re2-1.1-6-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "gunicorn>=20.1.0 (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "gunicorn-22.0.0-py3-none-any.whl"
+                "gunicorn-22.0.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "httpx (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "httpx-0.27.0-py3-none-any.whl"
+                "httpx-0.27.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "itsdangerous>=2.0 (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "itsdangerous-2.2.0-py3-none-any.whl"
+                "itsdangerous-2.2.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "jinja2>=3.0.0 (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "Jinja2-3.1.3-py3-none-any.whl"
+                "Jinja2-3.1.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "jsonschema>=4.18.0 (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "jsonschema-4.21.1-py3-none-any.whl"
+                "jsonschema-4.21.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "lazy-object-proxy (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "lazy_object_proxy-1.10.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "lazy_object_proxy-1.10.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "linkify-it-py>=2.0.0 (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "linkify_it_py-2.0.3-py3-none-any.whl"
+                "linkify_it_py-2.0.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "lockfile>=0.12.2 (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "lockfile-0.12.2-py2.py3-none-any.whl"
+                "lockfile-0.12.2-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "markdown-it-py>=2.1.0 (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "markdown_it_py-3.0.0-py3-none-any.whl"
+                "markdown_it_py-3.0.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "markupsafe>=1.1.1 (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "MarkupSafe-2.1.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "MarkupSafe-2.1.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "marshmallow-oneofschema>=2.0.1 (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "marshmallow_oneofschema-3.1.1-py3-none-any.whl"
+                "marshmallow_oneofschema-3.1.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "mdit-py-plugins>=0.3.0 (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "mdit_py_plugins-0.4.0-py3-none-any.whl"
+                "mdit_py_plugins-0.4.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "opentelemetry-api>=1.15.0 (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "opentelemetry_api-1.24.0-py3-none-any.whl"
+                "opentelemetry_api-1.24.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "opentelemetry-exporter-otlp (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "opentelemetry_exporter_otlp-1.24.0-py3-none-any.whl"
+                "opentelemetry_exporter_otlp-1.24.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "packaging>=14.0 (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "packaging-24.0-py3-none-any.whl"
+                "packaging-24.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pathspec>=0.9.0 (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "pathspec-0.12.1-py3-none-any.whl"
+                "pathspec-0.12.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pendulum<4.0,>=2.1.2 (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "pendulum-3.0.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "pendulum-3.0.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "pluggy>=1.0 (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "pluggy-1.4.0-py3-none-any.whl"
+                "pluggy-1.4.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "psutil>=4.2.0 (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "psutil-5.9.8-cp36-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "psutil-5.9.8-cp36-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "pygments>=2.0.1 (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "pygments-2.17.2-py3-none-any.whl"
+                "pygments-2.17.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pyjwt>=2.0.0 (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "PyJWT-2.8.0-py3-none-any.whl"
+                "PyJWT-2.8.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "python-daemon>=3.0.0 (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "python_daemon-3.0.1-py3-none-any.whl"
+                "python_daemon-3.0.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "python-dateutil>=2.3 (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "python_dateutil-2.9.0.post0-py2.py3-none-any.whl"
+                "python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
@@ -926,67 +926,67 @@
         {
             "requirement": "python-slugify>=5.0 (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "python_slugify-8.0.4-py2.py3-none-any.whl"
+                "python_slugify-8.0.4-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "requests<3,>=2.27.0 (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "requests-2.31.0-py3-none-any.whl"
+                "requests-2.31.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "rfc3339-validator>=0.1.4 (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "rfc3339_validator-0.1.4-py2.py3-none-any.whl"
+                "rfc3339_validator-0.1.4-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "rich-argparse>=1.0.0 (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "rich_argparse-1.4.0-py3-none-any.whl"
+                "rich_argparse-1.4.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "rich>=12.4.4 (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "rich-13.7.1-py3-none-any.whl"
+                "rich-13.7.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "setproctitle>=1.1.8 (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "setproctitle-1.3.3-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "setproctitle-1.3.3-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "sqlalchemy-jsonfield>=1.0 (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "SQLAlchemy_JSONField-1.0.2-py3-none-any.whl"
+                "SQLAlchemy_JSONField-1.0.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "sqlalchemy<2.0,>=1.4.28 (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "SQLAlchemy-1.4.52-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "SQLAlchemy-1.4.52-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "tabulate>=0.7.5 (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "tabulate-0.9.0-py3-none-any.whl"
+                "tabulate-0.9.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "tenacity!=8.2.0,>=6.2.0 (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "tenacity-8.2.3-py3-none-any.whl"
+                "tenacity-8.2.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "termcolor>=1.1.0 (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "termcolor-2.4.0-py3-none-any.whl"
+                "termcolor-2.4.0-py3-none-any.whl.metadata"
             ]
         },
         {
@@ -998,433 +998,433 @@
         {
             "requirement": "universal-pathlib<0.2.0,>=0.1.4 (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "universal_pathlib-0.1.4-py3-none-any.whl"
+                "universal_pathlib-0.1.4-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "werkzeug<3,>=2.0 (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "werkzeug-2.3.8-py3-none-any.whl"
+                "werkzeug-2.3.8-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "apache-airflow-providers-common-io (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "apache_airflow_providers_common_io-1.3.1-py3-none-any.whl"
+                "apache_airflow_providers_common_io-1.3.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "apache-airflow-providers-common-sql (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "apache_airflow_providers_common_sql-1.12.0-py3-none-any.whl"
+                "apache_airflow_providers_common_sql-1.12.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "apache-airflow-providers-ftp (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "apache_airflow_providers_ftp-3.8.0-py3-none-any.whl"
+                "apache_airflow_providers_ftp-3.8.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "apache-airflow-providers-http (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "apache_airflow_providers_http-4.10.1-py3-none-any.whl"
+                "apache_airflow_providers_http-4.10.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "apache-airflow-providers-imap (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "apache_airflow_providers_imap-3.5.0-py3-none-any.whl"
+                "apache_airflow_providers_imap-3.5.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "apache-airflow-providers-smtp (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "apache_airflow_providers_smtp-1.6.1-py3-none-any.whl"
+                "apache_airflow_providers_smtp-1.6.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "apache-airflow-providers-sqlite (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "apache_airflow_providers_sqlite-3.7.1-py3-none-any.whl"
+                "apache_airflow_providers_sqlite-3.7.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "apache-airflow-providers-apache-beam (from apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "apache_airflow_providers_apache_beam-5.6.3-py3-none-any.whl"
+                "apache_airflow_providers_apache_beam-5.6.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "apispec<7,>=6.0.0 (from apispec[yaml]<7,>=6.0.0->flask-appbuilder==4.3.11->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "apispec-6.6.0-py3-none-any.whl"
+                "apispec-6.6.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "colorama<1,>=0.3.9 (from flask-appbuilder==4.3.11->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "colorama-0.4.6-py2.py3-none-any.whl"
+                "colorama-0.4.6-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "click<9,>=8 (from flask-appbuilder==4.3.11->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "click-8.1.7-py3-none-any.whl"
+                "click-8.1.7-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "email-validator<2,>=1.0.5 (from flask-appbuilder==4.3.11->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "email_validator-1.3.1-py2.py3-none-any.whl"
+                "email_validator-1.3.1-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "Flask-Babel<3,>=1 (from flask-appbuilder==4.3.11->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "Flask_Babel-2.0.0-py3-none-any.whl"
+                "Flask_Babel-2.0.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "Flask-Limiter<4,>3 (from flask-appbuilder==4.3.11->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "Flask_Limiter-3.5.1-py3-none-any.whl"
+                "Flask_Limiter-3.5.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "Flask-SQLAlchemy<3,>=2.4 (from flask-appbuilder==4.3.11->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "Flask_SQLAlchemy-2.5.1-py2.py3-none-any.whl"
+                "Flask_SQLAlchemy-2.5.1-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "Flask-JWT-Extended<5.0.0,>=4.0.0 (from flask-appbuilder==4.3.11->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "Flask_JWT_Extended-4.6.0-py2.py3-none-any.whl"
+                "Flask_JWT_Extended-4.6.0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "marshmallow<4,>=3.18.0 (from flask-appbuilder==4.3.11->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "marshmallow-3.21.1-py3-none-any.whl"
+                "marshmallow-3.21.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "marshmallow-sqlalchemy<0.27.0,>=0.22.0 (from flask-appbuilder==4.3.11->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "marshmallow_sqlalchemy-0.26.1-py2.py3-none-any.whl"
+                "marshmallow_sqlalchemy-0.26.1-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "prison<1.0.0,>=0.2.1 (from flask-appbuilder==4.3.11->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "prison-0.2.1-py2.py3-none-any.whl"
+                "prison-0.2.1-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "sqlalchemy-utils<1,>=0.32.21 (from flask-appbuilder==4.3.11->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "SQLAlchemy_Utils-0.41.2-py3-none-any.whl"
+                "SQLAlchemy_Utils-0.41.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "WTForms<4 (from flask-appbuilder==4.3.11->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "wtforms-3.1.2-py3-none-any.whl"
+                "wtforms-3.1.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "Mako (from alembic<2.0,>=1.13.1->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "Mako-1.3.3-py3-none-any.whl"
+                "Mako-1.3.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "typing-extensions>=4 (from alembic<2.0,>=1.13.1->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "typing_extensions-4.11.0-py3-none-any.whl"
+                "typing_extensions-4.11.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "clickclick<21,>=1.2 (from connexion<3.0,>=2.10.0->connexion[flask]<3.0,>=2.10.0->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "clickclick-20.10.2-py2.py3-none-any.whl"
+                "clickclick-20.10.2-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "PyYAML<7,>=5.1 (from connexion<3.0,>=2.10.0->connexion[flask]<3.0,>=2.10.0->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "PyYAML-6.0.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "PyYAML-6.0.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "inflection<0.6,>=0.3.1 (from connexion<3.0,>=2.10.0->connexion[flask]<3.0,>=2.10.0->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "inflection-0.5.1-py2.py3-none-any.whl"
+                "inflection-0.5.1-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "werkzeug<3,>=2.0 (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "Werkzeug-2.2.3-py3-none-any.whl"
+                "Werkzeug-2.2.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pytz>2021.1 (from croniter>=2.0.2->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "pytz-2024.1-py2.py3-none-any.whl"
+                "pytz-2024.1-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "cffi>=1.12 (from cryptography>=0.9.3->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "cffi-1.16.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "cffi-1.16.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "wrapt<2,>=1.10 (from deprecated>=1.2.13->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "wrapt-1.16.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "wrapt-1.16.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "cachelib<0.10.0,>=0.9.0 (from flask-caching>=1.5.0->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "cachelib-0.9.0-py3-none-any.whl"
+                "cachelib-0.9.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "jsonschema-specifications>=2023.03.6 (from jsonschema>=4.18.0->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "jsonschema_specifications-2023.12.1-py3-none-any.whl"
+                "jsonschema_specifications-2023.12.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "referencing>=0.28.4 (from jsonschema>=4.18.0->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "referencing-0.34.0-py3-none-any.whl"
+                "referencing-0.34.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "rpds-py>=0.7.1 (from jsonschema>=4.18.0->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "rpds_py-0.18.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "rpds_py-0.18.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "uc-micro-py (from linkify-it-py>=2.0.0->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "uc_micro_py-1.0.3-py3-none-any.whl"
+                "uc_micro_py-1.0.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "mdurl~=0.1 (from markdown-it-py>=2.1.0->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "mdurl-0.1.2-py3-none-any.whl"
+                "mdurl-0.1.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "importlib-metadata<=7.0,>=6.0 (from opentelemetry-api>=1.15.0->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "importlib_metadata-7.0.0-py3-none-any.whl"
+                "importlib_metadata-7.0.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "tzdata>=2020.1 (from pendulum<4.0,>=2.1.2->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "tzdata-2024.1-py2.py3-none-any.whl"
+                "tzdata-2024.1-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "time-machine>=2.6.0 (from pendulum<4.0,>=2.1.2->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "time_machine-2.14.1-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "time_machine-2.14.1-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "docutils (from python-daemon>=3.0.0->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "docutils-0.21.1-py3-none-any.whl"
+                "docutils-0.21.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "setuptools>=62.4.0 (from python-daemon>=3.0.0->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "setuptools-69.5.1-py3-none-any.whl"
+                "setuptools-69.5.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "six>=1.5 (from python-dateutil>=2.3->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "six-1.16.0-py2.py3-none-any.whl"
+                "six-1.16.0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "text-unidecode>=1.3 (from python-slugify>=5.0->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "text_unidecode-1.3-py2.py3-none-any.whl"
+                "text_unidecode-1.3-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "charset-normalizer<4,>=2 (from requests<3,>=2.27.0->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "charset_normalizer-3.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "charset_normalizer-3.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "idna<4,>=2.5 (from requests<3,>=2.27.0->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "idna-3.7-py3-none-any.whl"
+                "idna-3.7-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "urllib3<3,>=1.21.1 (from requests<3,>=2.27.0->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "urllib3-2.2.1-py3-none-any.whl"
+                "urllib3-2.2.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "certifi>=2017.4.17 (from requests<3,>=2.27.0->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "certifi-2024.2.2-py3-none-any.whl"
+                "certifi-2024.2.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "greenlet!=0.4.17 (from sqlalchemy<2.0,>=1.4.28->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "greenlet-3.0.3-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl"
+                "greenlet-3.0.3-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "apache-beam>=2.53.0 (from apache-airflow-providers-apache-beam->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "apache_beam-2.55.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "apache_beam-2.55.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "pyarrow>=14.0.1 (from apache-airflow-providers-apache-beam->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "pyarrow-15.0.2-cp311-cp311-manylinux_2_28_x86_64.whl"
+                "pyarrow-15.0.2-cp311-cp311-manylinux_2_28_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "more-itertools>=9.0.0 (from apache-airflow-providers-common-sql->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "more_itertools-10.2.0-py3-none-any.whl"
+                "more_itertools-10.2.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "sqlparse>=0.4.2 (from apache-airflow-providers-common-sql->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "sqlparse-0.5.0-py3-none-any.whl"
+                "sqlparse-0.5.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "aiohttp>=3.9.2 (from apache-airflow-providers-http->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "aiohttp-3.9.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "aiohttp-3.9.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "requests_toolbelt (from apache-airflow-providers-http->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "requests_toolbelt-1.0.0-py2.py3-none-any.whl"
+                "requests_toolbelt-1.0.0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "anyio (from httpx->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "anyio-4.3.0-py3-none-any.whl"
+                "anyio-4.3.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "httpcore==1.* (from httpx->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "httpcore-1.0.5-py3-none-any.whl"
+                "httpcore-1.0.5-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "sniffio (from httpx->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "sniffio-1.3.1-py3-none-any.whl"
+                "sniffio-1.3.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "h11<0.15,>=0.13 (from httpcore==1.*->httpx->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "h11-0.14.0-py3-none-any.whl"
+                "h11-0.14.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "opentelemetry-exporter-otlp-proto-grpc==1.24.0 (from opentelemetry-exporter-otlp->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "opentelemetry_exporter_otlp_proto_grpc-1.24.0-py3-none-any.whl"
+                "opentelemetry_exporter_otlp_proto_grpc-1.24.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "opentelemetry-exporter-otlp-proto-http==1.24.0 (from opentelemetry-exporter-otlp->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "opentelemetry_exporter_otlp_proto_http-1.24.0-py3-none-any.whl"
+                "opentelemetry_exporter_otlp_proto_http-1.24.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "googleapis-common-protos~=1.52 (from opentelemetry-exporter-otlp-proto-grpc==1.24.0->opentelemetry-exporter-otlp->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "googleapis_common_protos-1.63.0-py2.py3-none-any.whl"
+                "googleapis_common_protos-1.63.0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "grpcio<2.0.0,>=1.0.0 (from opentelemetry-exporter-otlp-proto-grpc==1.24.0->opentelemetry-exporter-otlp->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "grpcio-1.62.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "grpcio-1.62.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "opentelemetry-exporter-otlp-proto-common==1.24.0 (from opentelemetry-exporter-otlp-proto-grpc==1.24.0->opentelemetry-exporter-otlp->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "opentelemetry_exporter_otlp_proto_common-1.24.0-py3-none-any.whl"
+                "opentelemetry_exporter_otlp_proto_common-1.24.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "opentelemetry-proto==1.24.0 (from opentelemetry-exporter-otlp-proto-grpc==1.24.0->opentelemetry-exporter-otlp->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "opentelemetry_proto-1.24.0-py3-none-any.whl"
+                "opentelemetry_proto-1.24.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "opentelemetry-sdk~=1.24.0 (from opentelemetry-exporter-otlp-proto-grpc==1.24.0->opentelemetry-exporter-otlp->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "opentelemetry_sdk-1.24.0-py3-none-any.whl"
+                "opentelemetry_sdk-1.24.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "protobuf<5.0,>=3.19 (from opentelemetry-proto==1.24.0->opentelemetry-exporter-otlp-proto-grpc==1.24.0->opentelemetry-exporter-otlp->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "protobuf-4.25.3-cp37-abi3-manylinux2014_x86_64.whl"
+                "protobuf-4.25.3-cp37-abi3-manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "aiosignal>=1.1.2 (from aiohttp>=3.9.2->apache-airflow-providers-http->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "aiosignal-1.3.1-py3-none-any.whl"
+                "aiosignal-1.3.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "frozenlist>=1.1.1 (from aiohttp>=3.9.2->apache-airflow-providers-http->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "frozenlist-1.4.1-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "frozenlist-1.4.1-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "multidict<7.0,>=4.5 (from aiohttp>=3.9.2->apache-airflow-providers-http->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "multidict-6.0.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "multidict-6.0.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "yarl<2.0,>=1.0 (from aiohttp>=3.9.2->apache-airflow-providers-http->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "yarl-1.9.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "yarl-1.9.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
@@ -1436,7 +1436,7 @@
         {
             "requirement": "orjson<4,>=3.9.7 (from apache-beam>=2.53.0->apache-airflow-providers-apache-beam->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "orjson-3.10.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "orjson-3.10.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
@@ -1448,19 +1448,19 @@
         {
             "requirement": "cloudpickle~=2.2.1 (from apache-beam>=2.53.0->apache-airflow-providers-apache-beam->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "cloudpickle-2.2.1-py3-none-any.whl"
+                "cloudpickle-2.2.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "fastavro<2,>=0.23.6 (from apache-beam>=2.53.0->apache-airflow-providers-apache-beam->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "fastavro-1.9.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "fastavro-1.9.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "fasteners<1.0,>=0.3 (from apache-beam>=2.53.0->apache-airflow-providers-apache-beam->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "fasteners-0.19-py3-none-any.whl"
+                "fasteners-0.19-py3-none-any.whl.metadata"
             ]
         },
         {
@@ -1472,127 +1472,127 @@
         {
             "requirement": "httplib2<0.23.0,>=0.8 (from apache-beam>=2.53.0->apache-airflow-providers-apache-beam->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "httplib2-0.22.0-py3-none-any.whl"
+                "httplib2-0.22.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "js2py<1,>=0.74 (from apache-beam>=2.53.0->apache-airflow-providers-apache-beam->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "Js2Py-0.74-py3-none-any.whl"
+                "Js2Py-0.74-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "jsonpickle<4.0.0,>=3.0.0 (from apache-beam>=2.53.0->apache-airflow-providers-apache-beam->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "jsonpickle-3.0.4-py3-none-any.whl"
+                "jsonpickle-3.0.4-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "numpy<1.27.0,>=1.14.3 (from apache-beam>=2.53.0->apache-airflow-providers-apache-beam->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "numpy-1.26.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "numpy-1.26.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "objsize<0.8.0,>=0.6.1 (from apache-beam>=2.53.0->apache-airflow-providers-apache-beam->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "objsize-0.7.0-py3-none-any.whl"
+                "objsize-0.7.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pymongo<5.0.0,>=3.8.0 (from apache-beam>=2.53.0->apache-airflow-providers-apache-beam->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "pymongo-4.6.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "pymongo-4.6.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "proto-plus<2,>=1.7.1 (from apache-beam>=2.53.0->apache-airflow-providers-apache-beam->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "proto_plus-1.23.0-py3-none-any.whl"
+                "proto_plus-1.23.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pydot<2,>=1.2.0 (from apache-beam>=2.53.0->apache-airflow-providers-apache-beam->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "pydot-1.4.2-py2.py3-none-any.whl"
+                "pydot-1.4.2-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "regex>=2020.6.8 (from apache-beam>=2.53.0->apache-airflow-providers-apache-beam->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "regex-2024.4.16-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "regex-2024.4.16-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "zstandard<1,>=0.18.0 (from apache-beam>=2.53.0->apache-airflow-providers-apache-beam->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "zstandard-0.22.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "zstandard-0.22.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "pyarrow>=14.0.1 (from apache-airflow-providers-apache-beam->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "pyarrow-14.0.2-cp311-cp311-manylinux_2_28_x86_64.whl"
+                "pyarrow-14.0.2-cp311-cp311-manylinux_2_28_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "pyarrow-hotfix<1 (from apache-beam>=2.53.0->apache-airflow-providers-apache-beam->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "pyarrow_hotfix-0.6-py3-none-any.whl"
+                "pyarrow_hotfix-0.6-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pycparser (from cffi>=1.12->cryptography>=0.9.3->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "pycparser-2.22-py3-none-any.whl"
+                "pycparser-2.22-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "dnspython>=1.15.0 (from email-validator<2,>=1.0.5->flask-appbuilder==4.3.11->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "dnspython-2.6.1-py3-none-any.whl"
+                "dnspython-2.6.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "Babel>=2.3 (from Flask-Babel<3,>=1->flask-appbuilder==4.3.11->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "Babel-2.14.0-py3-none-any.whl"
+                "Babel-2.14.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "limits>=2.8 (from Flask-Limiter<4,>3->flask-appbuilder==4.3.11->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "limits-3.10.1-py3-none-any.whl"
+                "limits-3.10.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "ordered-set<5,>4 (from Flask-Limiter<4,>3->flask-appbuilder==4.3.11->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "ordered_set-4.1.0-py3-none-any.whl"
+                "ordered_set-4.1.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "zipp>=0.5 (from importlib-metadata<=7.0,>=6.0->opentelemetry-api>=1.15.0->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "zipp-3.18.1-py3-none-any.whl"
+                "zipp-3.18.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "docopt (from hdfs<3.0.0,>=2.1.0->apache-beam>=2.53.0->apache-airflow-providers-apache-beam->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "docopt-0.6.2-py2.py3-none-any.whl"
+                "docopt-0.6.2.tar.gz"
             ]
         },
         {
             "requirement": "pyparsing!=3.0.0,!=3.0.1,!=3.0.2,!=3.0.3,<4,>=2.4.2 (from httplib2<0.23.0,>=0.8->apache-beam>=2.53.0->apache-airflow-providers-apache-beam->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "pyparsing-3.1.2-py3-none-any.whl"
+                "pyparsing-3.1.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "tzlocal>=1.2 (from js2py<1,>=0.74->apache-beam>=2.53.0->apache-airflow-providers-apache-beam->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "tzlocal-5.2-py3-none-any.whl"
+                "tzlocal-5.2-py3-none-any.whl.metadata"
             ]
         },
         {
@@ -1604,13 +1604,13 @@
         {
             "requirement": "importlib-resources>=1.3 (from limits>=2.8->Flask-Limiter<4,>3->flask-appbuilder==4.3.11->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "importlib_resources-6.4.0-py3-none-any.whl"
+                "importlib_resources-6.4.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "opentelemetry-semantic-conventions==0.45b0 (from opentelemetry-sdk~=1.24.0->opentelemetry-exporter-otlp-proto-grpc==1.24.0->opentelemetry-exporter-otlp->apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "opentelemetry_semantic_conventions-0.45b0-py3-none-any.whl"
+                "opentelemetry_semantic_conventions-0.45b0-py3-none-any.whl.metadata"
             ]
         }
     ]

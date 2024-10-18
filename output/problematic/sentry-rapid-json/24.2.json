@@ -2,7 +2,7 @@
     "input": {
         "pip_version": "24.2",
         "python_version": "3.11",
-        "datetime": "2024-10-10T14:00:00",
+        "datetime": "2024-10-10 14:00:00",
         "platform_system": "Linux",
         "requirements": [
             "python-rapidjson<=1.20,>=1.4",
@@ -43,13 +43,13 @@
         {
             "requirement": "python-rapidjson<=1.20,>=1.4",
             "packages": [
-                "python_rapidjson-1.20-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "python_rapidjson-1.20-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "sentry-kafka-schemas<=0.1.113,>=0.1.50",
             "packages": [
-                "sentry_kafka_schemas-0.1.113-py2.py3-none-any.whl"
+                "sentry_kafka_schemas-0.1.113-py2.py3-none-any.whl.metadata"
             ]
         },
         {
@@ -61,25 +61,25 @@
         {
             "requirement": "PyYAML<7.0,>=5.4 (from sentry-kafka-schemas<=0.1.113,>=0.1.50)",
             "packages": [
-                "PyYAML-6.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "PyYAML-6.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "typing-extensions>=4.0.0 (from sentry-kafka-schemas<=0.1.113,>=0.1.50)",
             "packages": [
-                "typing_extensions-4.12.2-py3-none-any.whl"
+                "typing_extensions-4.12.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "fastjsonschema>=2.16.2 (from sentry-kafka-schemas<=0.1.113,>=0.1.50)",
             "packages": [
-                "fastjsonschema-2.20.0-py3-none-any.whl"
+                "fastjsonschema-2.20.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "msgpack>=1.0.4 (from sentry-kafka-schemas<=0.1.113,>=0.1.50)",
             "packages": [
-                "msgpack-1.1.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "msgpack-1.1.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         }
     ]

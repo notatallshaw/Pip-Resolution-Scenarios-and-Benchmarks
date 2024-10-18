@@ -2,7 +2,7 @@
     "input": {
         "pip_version": "24.2",
         "python_version": "3.11",
-        "datetime": "2024-10-07T14:00:00",
+        "datetime": "2024-10-07 14:00:00",
         "platform_system": "Linux",
         "requirements": [
             "apache-beam[gcp, aws, azure]"
@@ -434,7 +434,7 @@
         {
             "requirement": "apache-beam[aws,azure,gcp]",
             "packages": [
-                "apache_beam-2.59.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "apache_beam-2.59.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
@@ -446,7 +446,7 @@
         {
             "requirement": "orjson<4,>=3.9.7 (from apache-beam[aws,azure,gcp])",
             "packages": [
-                "orjson-3.10.7-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "orjson-3.10.7-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
@@ -458,25 +458,25 @@
         {
             "requirement": "cloudpickle~=2.2.1 (from apache-beam[aws,azure,gcp])",
             "packages": [
-                "cloudpickle-2.2.1-py3-none-any.whl"
+                "cloudpickle-2.2.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "fastavro<2,>=0.23.6 (from apache-beam[aws,azure,gcp])",
             "packages": [
-                "fastavro-1.9.7-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "fastavro-1.9.7-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "fasteners<1.0,>=0.3 (from apache-beam[aws,azure,gcp])",
             "packages": [
-                "fasteners-0.19-py3-none-any.whl"
+                "fasteners-0.19-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "grpcio!=1.48.0,!=1.59.*,!=1.60.*,!=1.61.*,!=1.62.0,!=1.62.1,<2,>=1.33.1 (from apache-beam[aws,azure,gcp])",
             "packages": [
-                "grpcio-1.66.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "grpcio-1.66.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
@@ -488,157 +488,157 @@
         {
             "requirement": "httplib2<0.23.0,>=0.8 (from apache-beam[aws,azure,gcp])",
             "packages": [
-                "httplib2-0.22.0-py3-none-any.whl"
+                "httplib2-0.22.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "jsonschema<5.0.0,>=4.0.0 (from apache-beam[aws,azure,gcp])",
             "packages": [
-                "jsonschema-4.23.0-py3-none-any.whl"
+                "jsonschema-4.23.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "jsonpickle<4.0.0,>=3.0.0 (from apache-beam[aws,azure,gcp])",
             "packages": [
-                "jsonpickle-3.3.0-py3-none-any.whl"
+                "jsonpickle-3.3.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "numpy<1.27.0,>=1.14.3 (from apache-beam[aws,azure,gcp])",
             "packages": [
-                "numpy-1.26.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "numpy-1.26.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "objsize<0.8.0,>=0.6.1 (from apache-beam[aws,azure,gcp])",
             "packages": [
-                "objsize-0.7.0-py3-none-any.whl"
+                "objsize-0.7.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "packaging>=22.0 (from apache-beam[aws,azure,gcp])",
             "packages": [
-                "packaging-24.1-py3-none-any.whl"
+                "packaging-24.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pymongo<5.0.0,>=3.8.0 (from apache-beam[aws,azure,gcp])",
             "packages": [
-                "pymongo-4.10.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "pymongo-4.10.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "proto-plus<2,>=1.7.1 (from apache-beam[aws,azure,gcp])",
             "packages": [
-                "proto_plus-1.24.0-py3-none-any.whl"
+                "proto_plus-1.24.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "protobuf!=4.0.*,!=4.21.*,!=4.22.0,!=4.23.*,!=4.24.*,<4.26.0,>=3.20.3 (from apache-beam[aws,azure,gcp])",
             "packages": [
-                "protobuf-4.25.5-cp37-abi3-manylinux2014_x86_64.whl"
+                "protobuf-4.25.5-cp37-abi3-manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "pydot<2,>=1.2.0 (from apache-beam[aws,azure,gcp])",
             "packages": [
-                "pydot-1.4.2-py2.py3-none-any.whl"
+                "pydot-1.4.2-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "python-dateutil<3,>=2.8.0 (from apache-beam[aws,azure,gcp])",
             "packages": [
-                "python_dateutil-2.9.0.post0-py2.py3-none-any.whl"
+                "python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pytz>=2018.3 (from apache-beam[aws,azure,gcp])",
             "packages": [
-                "pytz-2024.2-py2.py3-none-any.whl"
+                "pytz-2024.2-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "redis<6,>=5.0.0 (from apache-beam[aws,azure,gcp])",
             "packages": [
-                "redis-5.1.1-py3-none-any.whl"
+                "redis-5.1.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "regex>=2020.6.8 (from apache-beam[aws,azure,gcp])",
             "packages": [
-                "regex-2024.9.11-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "regex-2024.9.11-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "requests<3.0.0,>=2.24.0 (from apache-beam[aws,azure,gcp])",
             "packages": [
-                "requests-2.32.3-py3-none-any.whl"
+                "requests-2.32.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "typing-extensions>=3.7.0 (from apache-beam[aws,azure,gcp])",
             "packages": [
-                "typing_extensions-4.12.2-py3-none-any.whl"
+                "typing_extensions-4.12.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "zstandard<1,>=0.18.0 (from apache-beam[aws,azure,gcp])",
             "packages": [
-                "zstandard-0.23.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "zstandard-0.23.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "pyarrow<17.0.0,>=3.0.0 (from apache-beam[aws,azure,gcp])",
             "packages": [
-                "pyarrow-16.1.0-cp311-cp311-manylinux_2_28_x86_64.whl"
+                "pyarrow-16.1.0-cp311-cp311-manylinux_2_28_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "pyarrow-hotfix<1 (from apache-beam[aws,azure,gcp])",
             "packages": [
-                "pyarrow_hotfix-0.6-py3-none-any.whl"
+                "pyarrow_hotfix-0.6-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "js2py<1,>=0.74 (from apache-beam[aws,azure,gcp])",
             "packages": [
-                "Js2Py-0.74-py3-none-any.whl"
+                "Js2Py-0.74-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "boto3<2,>=1.9 (from apache-beam[aws,azure,gcp])",
             "packages": [
-                "boto3-1.35.34-py3-none-any.whl"
+                "boto3-1.35.34-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "azure-storage-blob<13,>=12.3.2 (from apache-beam[aws,azure,gcp])",
             "packages": [
-                "azure_storage_blob-12.23.1-py3-none-any.whl"
+                "azure_storage_blob-12.23.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "azure-core<2,>=1.7.0 (from apache-beam[aws,azure,gcp])",
             "packages": [
-                "azure_core-1.31.0-py3-none-any.whl"
+                "azure_core-1.31.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "azure-identity<2,>=1.12.0 (from apache-beam[aws,azure,gcp])",
             "packages": [
-                "azure_identity-1.18.0-py3-none-any.whl"
+                "azure_identity-1.18.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "cachetools<6,>=3.1.0 (from apache-beam[aws,azure,gcp])",
             "packages": [
-                "cachetools-5.5.0-py3-none-any.whl"
+                "cachetools-5.5.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "google-api-core<3,>=2.0.0 (from apache-beam[aws,azure,gcp])",
             "packages": [
-                "google_api_core-2.20.0-py3-none-any.whl"
+                "google_api_core-2.20.0-py3-none-any.whl.metadata"
             ]
         },
         {
@@ -650,271 +650,271 @@
         {
             "requirement": "google-auth<3,>=1.18.0 (from apache-beam[aws,azure,gcp])",
             "packages": [
-                "google_auth-2.35.0-py2.py3-none-any.whl"
+                "google_auth-2.35.0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "google-auth-httplib2<0.3.0,>=0.1.0 (from apache-beam[aws,azure,gcp])",
             "packages": [
-                "google_auth_httplib2-0.2.0-py2.py3-none-any.whl"
+                "google_auth_httplib2-0.2.0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "google-cloud-datastore<3,>=2.0.0 (from apache-beam[aws,azure,gcp])",
             "packages": [
-                "google_cloud_datastore-2.20.1-py2.py3-none-any.whl"
+                "google_cloud_datastore-2.20.1-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "google-cloud-pubsub<3,>=2.1.0 (from apache-beam[aws,azure,gcp])",
             "packages": [
-                "google_cloud_pubsub-2.25.2-py2.py3-none-any.whl"
+                "google_cloud_pubsub-2.25.2-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "google-cloud-pubsublite<2,>=1.2.0 (from apache-beam[aws,azure,gcp])",
             "packages": [
-                "google_cloud_pubsublite-1.11.1-py2.py3-none-any.whl"
+                "google_cloud_pubsublite-1.11.1-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "google-cloud-storage<3,>=2.18.2 (from apache-beam[aws,azure,gcp])",
             "packages": [
-                "google_cloud_storage-2.18.2-py2.py3-none-any.whl"
+                "google_cloud_storage-2.18.2-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "google-cloud-bigquery<4,>=2.0.0 (from apache-beam[aws,azure,gcp])",
             "packages": [
-                "google_cloud_bigquery-3.26.0-py2.py3-none-any.whl"
+                "google_cloud_bigquery-3.26.0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "google-cloud-bigquery-storage<3,>=2.6.3 (from apache-beam[aws,azure,gcp])",
             "packages": [
-                "google_cloud_bigquery_storage-2.26.0-py2.py3-none-any.whl"
+                "google_cloud_bigquery_storage-2.26.0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "google-cloud-core<3,>=2.0.0 (from apache-beam[aws,azure,gcp])",
             "packages": [
-                "google_cloud_core-2.4.1-py2.py3-none-any.whl"
+                "google_cloud_core-2.4.1-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "google-cloud-bigtable<3,>=2.19.0 (from apache-beam[aws,azure,gcp])",
             "packages": [
-                "google_cloud_bigtable-2.26.0-py2.py3-none-any.whl"
+                "google_cloud_bigtable-2.26.0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "google-cloud-spanner<4,>=3.0.0 (from apache-beam[aws,azure,gcp])",
             "packages": [
-                "google_cloud_spanner-3.49.1-py2.py3-none-any.whl"
+                "google_cloud_spanner-3.49.1-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "google-cloud-dlp<4,>=3.0.0 (from apache-beam[aws,azure,gcp])",
             "packages": [
-                "google_cloud_dlp-3.23.0-py2.py3-none-any.whl"
+                "google_cloud_dlp-3.23.0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "google-cloud-language<3,>=2.0 (from apache-beam[aws,azure,gcp])",
             "packages": [
-                "google_cloud_language-2.14.0-py2.py3-none-any.whl"
+                "google_cloud_language-2.14.0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "google-cloud-videointelligence<3,>=2.0 (from apache-beam[aws,azure,gcp])",
             "packages": [
-                "google_cloud_videointelligence-2.13.5-py2.py3-none-any.whl"
+                "google_cloud_videointelligence-2.13.5-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "google-cloud-vision<4,>=2 (from apache-beam[aws,azure,gcp])",
             "packages": [
-                "google_cloud_vision-3.7.4-py2.py3-none-any.whl"
+                "google_cloud_vision-3.7.4-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "google-cloud-recommendations-ai<0.11.0,>=0.1.0 (from apache-beam[aws,azure,gcp])",
             "packages": [
-                "google_cloud_recommendations_ai-0.10.12-py2.py3-none-any.whl"
+                "google_cloud_recommendations_ai-0.10.12-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "google-cloud-aiplatform<2.0,>=1.26.0 (from apache-beam[aws,azure,gcp])",
             "packages": [
-                "google_cloud_aiplatform-1.69.0-py2.py3-none-any.whl"
+                "google_cloud_aiplatform-1.69.0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "six>=1.11.0 (from azure-core<2,>=1.7.0->apache-beam[aws,azure,gcp])",
             "packages": [
-                "six-1.16.0-py2.py3-none-any.whl"
+                "six-1.16.0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "cryptography>=2.5 (from azure-identity<2,>=1.12.0->apache-beam[aws,azure,gcp])",
             "packages": [
-                "cryptography-43.0.1-cp39-abi3-manylinux_2_28_x86_64.whl"
+                "cryptography-43.0.1-cp39-abi3-manylinux_2_28_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "msal>=1.30.0 (from azure-identity<2,>=1.12.0->apache-beam[aws,azure,gcp])",
             "packages": [
-                "msal-1.31.0-py3-none-any.whl"
+                "msal-1.31.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "msal-extensions>=1.2.0 (from azure-identity<2,>=1.12.0->apache-beam[aws,azure,gcp])",
             "packages": [
-                "msal_extensions-1.2.0-py3-none-any.whl"
+                "msal_extensions-1.2.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "isodate>=0.6.1 (from azure-storage-blob<13,>=12.3.2->apache-beam[aws,azure,gcp])",
             "packages": [
-                "isodate-0.6.1-py2.py3-none-any.whl"
+                "isodate-0.6.1-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "botocore<1.36.0,>=1.35.34 (from boto3<2,>=1.9->apache-beam[aws,azure,gcp])",
             "packages": [
-                "botocore-1.35.34-py3-none-any.whl"
+                "botocore-1.35.34-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "jmespath<2.0.0,>=0.7.1 (from boto3<2,>=1.9->apache-beam[aws,azure,gcp])",
             "packages": [
-                "jmespath-1.0.1-py3-none-any.whl"
+                "jmespath-1.0.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "s3transfer<0.11.0,>=0.10.0 (from boto3<2,>=1.9->apache-beam[aws,azure,gcp])",
             "packages": [
-                "s3transfer-0.10.2-py3-none-any.whl"
+                "s3transfer-0.10.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "googleapis-common-protos<2.0.dev0,>=1.56.2 (from google-api-core<3,>=2.0.0->apache-beam[aws,azure,gcp])",
             "packages": [
-                "googleapis_common_protos-1.65.0-py2.py3-none-any.whl"
+                "googleapis_common_protos-1.65.0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "oauth2client>=1.4.12 (from google-apitools<0.5.32,>=0.5.31->apache-beam[aws,azure,gcp])",
             "packages": [
-                "oauth2client-4.1.3-py2.py3-none-any.whl"
+                "oauth2client-4.1.3-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pyasn1-modules>=0.2.1 (from google-auth<3,>=1.18.0->apache-beam[aws,azure,gcp])",
             "packages": [
-                "pyasn1_modules-0.4.1-py3-none-any.whl"
+                "pyasn1_modules-0.4.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "rsa<5,>=3.1.4 (from google-auth<3,>=1.18.0->apache-beam[aws,azure,gcp])",
             "packages": [
-                "rsa-4.9-py3-none-any.whl"
+                "rsa-4.9-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "google-cloud-resource-manager<3.0.0dev,>=1.3.3 (from google-cloud-aiplatform<2.0,>=1.26.0->apache-beam[aws,azure,gcp])",
             "packages": [
-                "google_cloud_resource_manager-1.12.5-py2.py3-none-any.whl"
+                "google_cloud_resource_manager-1.12.5-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "shapely<3.0.0dev (from google-cloud-aiplatform<2.0,>=1.26.0->apache-beam[aws,azure,gcp])",
             "packages": [
-                "shapely-2.0.6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "shapely-2.0.6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "pydantic<3 (from google-cloud-aiplatform<2.0,>=1.26.0->apache-beam[aws,azure,gcp])",
             "packages": [
-                "pydantic-2.9.2-py3-none-any.whl"
+                "pydantic-2.9.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "docstring-parser<1 (from google-cloud-aiplatform<2.0,>=1.26.0->apache-beam[aws,azure,gcp])",
             "packages": [
-                "docstring_parser-0.16-py3-none-any.whl"
+                "docstring_parser-0.16-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "google-resumable-media<3.0dev,>=2.0.0 (from google-cloud-bigquery<4,>=2.0.0->apache-beam[aws,azure,gcp])",
             "packages": [
-                "google_resumable_media-2.7.2-py2.py3-none-any.whl"
+                "google_resumable_media-2.7.2-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "grpc-google-iam-v1<1.0.0dev,>=0.12.4 (from google-cloud-bigtable<3,>=2.19.0->apache-beam[aws,azure,gcp])",
             "packages": [
-                "grpc_google_iam_v1-0.13.1-py2.py3-none-any.whl"
+                "grpc_google_iam_v1-0.13.1-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "grpcio-status>=1.33.2 (from google-cloud-pubsub<3,>=2.1.0->apache-beam[aws,azure,gcp])",
             "packages": [
-                "grpcio_status-1.66.2-py3-none-any.whl"
+                "grpcio_status-1.66.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "opentelemetry-api>=1.27.0 (from google-cloud-pubsub<3,>=2.1.0->apache-beam[aws,azure,gcp])",
             "packages": [
-                "opentelemetry_api-1.27.0-py3-none-any.whl"
+                "opentelemetry_api-1.27.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "opentelemetry-sdk>=1.27.0 (from google-cloud-pubsub<3,>=2.1.0->apache-beam[aws,azure,gcp])",
             "packages": [
-                "opentelemetry_sdk-1.27.0-py3-none-any.whl"
+                "opentelemetry_sdk-1.27.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "overrides<8.0.0,>=6.0.1 (from google-cloud-pubsublite<2,>=1.2.0->apache-beam[aws,azure,gcp])",
             "packages": [
-                "overrides-7.7.0-py3-none-any.whl"
+                "overrides-7.7.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "sqlparse>=0.4.4 (from google-cloud-spanner<4,>=3.0.0->apache-beam[aws,azure,gcp])",
             "packages": [
-                "sqlparse-0.5.1-py3-none-any.whl"
+                "sqlparse-0.5.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "grpc-interceptor>=0.15.4 (from google-cloud-spanner<4,>=3.0.0->apache-beam[aws,azure,gcp])",
             "packages": [
-                "grpc_interceptor-0.15.4-py3-none-any.whl"
+                "grpc_interceptor-0.15.4-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "google-crc32c<2.0dev,>=1.0 (from google-cloud-storage<3,>=2.18.2->apache-beam[aws,azure,gcp])",
             "packages": [
-                "google_crc32c-1.6.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "google_crc32c-1.6.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "docopt (from hdfs<3.0.0,>=2.1.0->apache-beam[aws,azure,gcp])",
             "packages": [
-                "docopt-0.6.2-py2.py3-none-any.whl"
+                "docopt-0.6.2.tar.gz"
             ]
         },
         {
             "requirement": "pyparsing!=3.0.0,!=3.0.1,!=3.0.2,!=3.0.3,<4,>=2.4.2 (from httplib2<0.23.0,>=0.8->apache-beam[aws,azure,gcp])",
             "packages": [
-                "pyparsing-3.1.4-py3-none-any.whl"
+                "pyparsing-3.1.4-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "tzlocal>=1.2 (from js2py<1,>=0.74->apache-beam[aws,azure,gcp])",
             "packages": [
-                "tzlocal-5.2-py3-none-any.whl"
+                "tzlocal-5.2-py3-none-any.whl.metadata"
             ]
         },
         {
@@ -926,151 +926,150 @@
         {
             "requirement": "attrs>=22.2.0 (from jsonschema<5.0.0,>=4.0.0->apache-beam[aws,azure,gcp])",
             "packages": [
-                "attrs-24.2.0-py3-none-any.whl"
+                "attrs-24.2.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "jsonschema-specifications>=2023.03.6 (from jsonschema<5.0.0,>=4.0.0->apache-beam[aws,azure,gcp])",
             "packages": [
-                "jsonschema_specifications-2023.12.1-py3-none-any.whl"
+                "jsonschema_specifications-2023.12.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "referencing>=0.28.4 (from jsonschema<5.0.0,>=4.0.0->apache-beam[aws,azure,gcp])",
             "packages": [
-                "referencing-0.35.1-py3-none-any.whl"
+                "referencing-0.35.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "rpds-py>=0.7.1 (from jsonschema<5.0.0,>=4.0.0->apache-beam[aws,azure,gcp])",
             "packages": [
-                "rpds_py-0.20.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "rpds_py-0.20.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "dnspython<3.0.0,>=1.16.0 (from pymongo<5.0.0,>=3.8.0->apache-beam[aws,azure,gcp])",
             "packages": [
-                "dnspython-2.7.0-py3-none-any.whl"
+                "dnspython-2.7.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "async-timeout>=4.0.3 (from redis<6,>=5.0.0->apache-beam[aws,azure,gcp])",
             "packages": [
-                "async_timeout-4.0.3-py3-none-any.whl"
+                "async_timeout-4.0.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "charset-normalizer<4,>=2 (from requests<3.0.0,>=2.24.0->apache-beam[aws,azure,gcp])",
             "packages": [
-                "charset_normalizer-3.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "charset_normalizer-3.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "idna<4,>=2.5 (from requests<3.0.0,>=2.24.0->apache-beam[aws,azure,gcp])",
             "packages": [
-                "idna-3.10-py3-none-any.whl"
+                "idna-3.10-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "urllib3<3,>=1.21.1 (from requests<3.0.0,>=2.24.0->apache-beam[aws,azure,gcp])",
             "packages": [
-                "urllib3-2.2.3-py3-none-any.whl"
+                "urllib3-2.2.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "certifi>=2017.4.17 (from requests<3.0.0,>=2.24.0->apache-beam[aws,azure,gcp])",
             "packages": [
-                "certifi-2024.8.30-py3-none-any.whl"
+                "certifi-2024.8.30-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "cffi>=1.12 (from cryptography>=2.5->azure-identity<2,>=1.12.0->apache-beam[aws,azure,gcp])",
             "packages": [
-                "cffi-1.17.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "cffi-1.17.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "grpcio-status>=1.33.2 (from google-cloud-pubsub<3,>=2.1.0->apache-beam[aws,azure,gcp])",
             "packages": [
-                "grpcio_status-1.66.1-py3-none-any.whl",
-                "grpcio_status-1.66.0-py3-none-any.whl",
-                "grpcio_status-1.65.5-py3-none-any.whl",
-                "grpcio_status-1.65.4-py3-none-any.whl",
-                "grpcio_status-1.65.2-py3-none-any.whl",
-                "grpcio_status-1.65.1-py3-none-any.whl",
-                "grpcio_status-1.65.0-py3-none-any.whl",
-                "grpcio_status-1.64.3-py3-none-any.whl",
-                "grpcio_status-1.64.1-py3-none-any.whl",
-                "grpcio_status-1.64.0-py3-none-any.whl",
-                "grpcio_status-1.63.2-py3-none-any.whl",
-                "grpcio_status-1.63.0-py3-none-any.whl",
-                "grpcio_status-1.62.3-py3-none-any.whl"
+                "grpcio_status-1.66.1-py3-none-any.whl.metadata",
+                "grpcio_status-1.66.0-py3-none-any.whl.metadata",
+                "grpcio_status-1.65.5-py3-none-any.whl.metadata",
+                "grpcio_status-1.65.4-py3-none-any.whl.metadata",
+                "grpcio_status-1.65.2-py3-none-any.whl.metadata",
+                "grpcio_status-1.65.1-py3-none-any.whl.metadata",
+                "grpcio_status-1.64.3-py3-none-any.whl.metadata",
+                "grpcio_status-1.64.1-py3-none-any.whl.metadata",
+                "grpcio_status-1.64.0-py3-none-any.whl.metadata",
+                "grpcio_status-1.63.2-py3-none-any.whl.metadata",
+                "grpcio_status-1.63.0-py3-none-any.whl.metadata",
+                "grpcio_status-1.62.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "PyJWT<3,>=1.0.0 (from PyJWT[crypto]<3,>=1.0.0->msal>=1.30.0->azure-identity<2,>=1.12.0->apache-beam[aws,azure,gcp])",
             "packages": [
-                "PyJWT-2.9.0-py3-none-any.whl"
+                "PyJWT-2.9.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "portalocker<3,>=1.4 (from msal-extensions>=1.2.0->azure-identity<2,>=1.12.0->apache-beam[aws,azure,gcp])",
             "packages": [
-                "portalocker-2.10.1-py3-none-any.whl"
+                "portalocker-2.10.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pyasn1>=0.1.7 (from oauth2client>=1.4.12->google-apitools<0.5.32,>=0.5.31->apache-beam[aws,azure,gcp])",
             "packages": [
-                "pyasn1-0.6.1-py3-none-any.whl"
+                "pyasn1-0.6.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "deprecated>=1.2.6 (from opentelemetry-api>=1.27.0->google-cloud-pubsub<3,>=2.1.0->apache-beam[aws,azure,gcp])",
             "packages": [
-                "Deprecated-1.2.14-py2.py3-none-any.whl"
+                "Deprecated-1.2.14-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "importlib-metadata<=8.4.0,>=6.0 (from opentelemetry-api>=1.27.0->google-cloud-pubsub<3,>=2.1.0->apache-beam[aws,azure,gcp])",
             "packages": [
-                "importlib_metadata-8.4.0-py3-none-any.whl"
+                "importlib_metadata-8.4.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "opentelemetry-semantic-conventions==0.48b0 (from opentelemetry-sdk>=1.27.0->google-cloud-pubsub<3,>=2.1.0->apache-beam[aws,azure,gcp])",
             "packages": [
-                "opentelemetry_semantic_conventions-0.48b0-py3-none-any.whl"
+                "opentelemetry_semantic_conventions-0.48b0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "annotated-types>=0.6.0 (from pydantic<3->google-cloud-aiplatform<2.0,>=1.26.0->apache-beam[aws,azure,gcp])",
             "packages": [
-                "annotated_types-0.7.0-py3-none-any.whl"
+                "annotated_types-0.7.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pydantic-core==2.23.4 (from pydantic<3->google-cloud-aiplatform<2.0,>=1.26.0->apache-beam[aws,azure,gcp])",
             "packages": [
-                "pydantic_core-2.23.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "pydantic_core-2.23.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "pycparser (from cffi>=1.12->cryptography>=2.5->azure-identity<2,>=1.12.0->apache-beam[aws,azure,gcp])",
             "packages": [
-                "pycparser-2.22-py3-none-any.whl"
+                "pycparser-2.22-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "wrapt<2,>=1.10 (from deprecated>=1.2.6->opentelemetry-api>=1.27.0->google-cloud-pubsub<3,>=2.1.0->apache-beam[aws,azure,gcp])",
             "packages": [
-                "wrapt-1.16.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "wrapt-1.16.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "zipp>=0.5 (from importlib-metadata<=8.4.0,>=6.0->opentelemetry-api>=1.27.0->google-cloud-pubsub<3,>=2.1.0->apache-beam[aws,azure,gcp])",
             "packages": [
-                "zipp-3.20.2-py3-none-any.whl"
+                "zipp-3.20.2-py3-none-any.whl.metadata"
             ]
         }
     ]

@@ -2,7 +2,7 @@
     "input": {
         "pip_version": "24.2",
         "python_version": "3.11",
-        "datetime": "2024-10-07T14:00:00",
+        "datetime": "2024-10-07 14:00:00",
         "platform_system": "Linux",
         "requirements": [
             "pyramid"
@@ -62,67 +62,67 @@
         {
             "requirement": "pyramid",
             "packages": [
-                "pyramid-2.0.2-py3-none-any.whl"
+                "pyramid-2.0.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "hupper>=1.5 (from pyramid)",
             "packages": [
-                "hupper-1.12.1-py3-none-any.whl"
+                "hupper-1.12.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "plaster (from pyramid)",
             "packages": [
-                "plaster-1.1.2-py2.py3-none-any.whl"
+                "plaster-1.1.2-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "plaster-pastedeploy (from pyramid)",
             "packages": [
-                "plaster_pastedeploy-1.0.1-py2.py3-none-any.whl"
+                "plaster_pastedeploy-1.0.1-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "setuptools (from pyramid)",
             "packages": [
-                "setuptools-75.1.0-py3-none-any.whl"
+                "setuptools-75.1.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "translationstring>=0.4 (from pyramid)",
             "packages": [
-                "translationstring-1.4-py2.py3-none-any.whl"
+                "translationstring-1.4-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "venusian>=1.0 (from pyramid)",
             "packages": [
-                "venusian-3.1.0-py3-none-any.whl"
+                "venusian-3.1.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "webob>=1.8.3 (from pyramid)",
             "packages": [
-                "WebOb-1.8.8-py2.py3-none-any.whl"
+                "WebOb-1.8.8-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "zope.deprecation>=3.5.0 (from pyramid)",
             "packages": [
-                "zope.deprecation-5.0-py3-none-any.whl"
+                "zope.deprecation-5.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "zope.interface>=3.8.0 (from pyramid)",
             "packages": [
-                "zope.interface-7.0.3-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "zope.interface-7.0.3-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "PasteDeploy>=2.0 (from plaster-pastedeploy->pyramid)",
             "packages": [
-                "PasteDeploy-3.1.0-py3-none-any.whl"
+                "PasteDeploy-3.1.0-py3-none-any.whl.metadata"
             ]
         }
     ]

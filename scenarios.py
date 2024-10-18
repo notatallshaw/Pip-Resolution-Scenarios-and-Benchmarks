@@ -41,7 +41,7 @@ def get_open_port() -> int:
 
 
 @contextmanager
-def pypi_timemachine(date: str, port: str):
+def pip_timemachine(date: str, port: str):
     cmd = [
         sys.executable,
         "-m",
@@ -50,9 +50,7 @@ def pypi_timemachine(date: str, port: str):
         "run",
         "-p",
         "3.12",
-        "--with",
-        "setuptools",
-        "pypi-timemachine",
+        "pip-timemachine",
         date,
         "--port",
         port,
@@ -66,13 +64,12 @@ def pypi_timemachine(date: str, port: str):
             process.terminate()
         else:
             process.send_signal(signal.SIGTERM)
-        
+
         try:
             process.wait(timeout=3)
         except subprocess.TimeoutExpired:
             process.kill()
             process.wait()
-
 
 
 def process_scenario(
@@ -85,7 +82,7 @@ def process_scenario(
     json_path: Path,
 ):
     port = str(get_open_port())
-    with pypi_timemachine(datetime, port), tempfile.TemporaryDirectory() as temp_dir:
+    with pip_timemachine(datetime, port), tempfile.TemporaryDirectory() as temp_dir:
         # Create a virtual environment
         venv_dir = Path(temp_dir) / ".venv"
         create_venv_cmd = ["uv", "venv", "--python", python_version, str(venv_dir)]
@@ -148,6 +145,7 @@ def process_scenario(
     resolution_step = None
     report_lines = []
     report_output = False
+
     for line in result_install.stdout.splitlines():
         # Capture install report
         if line == "{":
@@ -185,6 +183,16 @@ def process_scenario(
     if resolution_step:
         resolution_steps.append(resolution_step)
 
+    # Clean last resolution step
+    if resolution_steps:
+        resolution_step = resolution_steps[-1]
+        if resolution_step["packages"]:
+            packages = resolution_step["packages"]
+            if len(packages) > 1 and any(p.endswith(".metadata") for p in packages):
+                resolution_steps[-1]["packages"] = [
+                    p for p in packages if not p.endswith(".whl")
+                ]
+
     # Grab install information from report
     install_info: list[dict[str, str]] = []
     if report_lines:
@@ -201,7 +209,13 @@ def process_scenario(
     # Check success or failure reason
     success = True
     failure_reason = None
-    stderr = "\n".join([line for line in result_install.stderr.splitlines() if line.strip() and not line.startswith("WARNING:")])
+    stderr = "\n".join(
+        [
+            line
+            for line in result_install.stderr.splitlines()
+            if line.strip() and not line.startswith("WARNING:")
+        ]
+    )
     if stderr:
         success = False
         if "subprocess-exited-with-error" in stderr:

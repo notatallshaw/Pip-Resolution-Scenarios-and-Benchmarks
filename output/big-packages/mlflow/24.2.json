@@ -2,7 +2,7 @@
     "input": {
         "pip_version": "24.2",
         "python_version": "3.11",
-        "datetime": "2024-10-07T14:00:00",
+        "datetime": "2024-10-07 14:00:00",
         "platform_system": "Linux",
         "requirements": [
             "mlflow[extras]"
@@ -674,127 +674,127 @@
         {
             "requirement": "mlflow[extras]",
             "packages": [
-                "mlflow-2.16.2-py3-none-any.whl"
+                "mlflow-2.16.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "mlflow-skinny==2.16.2 (from mlflow[extras])",
             "packages": [
-                "mlflow_skinny-2.16.2-py3-none-any.whl"
+                "mlflow_skinny-2.16.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "Flask<4 (from mlflow[extras])",
             "packages": [
-                "flask-3.0.3-py3-none-any.whl"
+                "flask-3.0.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "alembic!=1.10.0,<2 (from mlflow[extras])",
             "packages": [
-                "alembic-1.13.3-py3-none-any.whl"
+                "alembic-1.13.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "docker<8,>=4.0.0 (from mlflow[extras])",
             "packages": [
-                "docker-7.1.0-py3-none-any.whl"
+                "docker-7.1.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "graphene<4 (from mlflow[extras])",
             "packages": [
-                "graphene-3.3-py2.py3-none-any.whl"
+                "graphene-3.3-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "markdown<4,>=3.3 (from mlflow[extras])",
             "packages": [
-                "Markdown-3.7-py3-none-any.whl"
+                "Markdown-3.7-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "matplotlib<4 (from mlflow[extras])",
             "packages": [
-                "matplotlib-3.9.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "matplotlib-3.9.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "numpy<3 (from mlflow[extras])",
             "packages": [
-                "numpy-2.1.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "numpy-2.1.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "pandas<3 (from mlflow[extras])",
             "packages": [
-                "pandas-2.2.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "pandas-2.2.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "pyarrow<18,>=4.0.0 (from mlflow[extras])",
             "packages": [
-                "pyarrow-17.0.0-cp311-cp311-manylinux_2_28_x86_64.whl"
+                "pyarrow-17.0.0-cp311-cp311-manylinux_2_28_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "scikit-learn<2 (from mlflow[extras])",
             "packages": [
-                "scikit_learn-1.5.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "scikit_learn-1.5.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "scipy<2 (from mlflow[extras])",
             "packages": [
-                "scipy-1.14.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "scipy-1.14.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "sqlalchemy<3,>=1.4.0 (from mlflow[extras])",
             "packages": [
-                "SQLAlchemy-2.0.35-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "SQLAlchemy-2.0.35-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "Jinja2<4,>=2.11 (from mlflow[extras])",
             "packages": [
-                "jinja2-3.1.4-py3-none-any.whl"
+                "jinja2-3.1.4-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "gunicorn<24 (from mlflow[extras])",
             "packages": [
-                "gunicorn-23.0.0-py3-none-any.whl"
+                "gunicorn-23.0.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "requests-auth-aws-sigv4 (from mlflow[extras])",
             "packages": [
-                "requests_auth_aws_sigv4-0.7-py3-none-any.whl"
+                "requests_auth_aws_sigv4-0.7-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "boto3 (from mlflow[extras])",
             "packages": [
-                "boto3-1.35.34-py3-none-any.whl"
+                "boto3-1.35.34-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "botocore (from mlflow[extras])",
             "packages": [
-                "botocore-1.35.34-py3-none-any.whl"
+                "botocore-1.35.34-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "google-cloud-storage>=1.30.0 (from mlflow[extras])",
             "packages": [
-                "google_cloud_storage-2.18.2-py2.py3-none-any.whl"
+                "google_cloud_storage-2.18.2-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "azureml-core>=1.2.0 (from mlflow[extras])",
             "packages": [
-                "azureml_core-1.57.0.post3-py3-none-any.whl"
+                "azureml_core-1.57.0.post3-py3-none-any.whl.metadata"
             ]
         },
         {
@@ -806,876 +806,876 @@
         {
             "requirement": "kubernetes (from mlflow[extras])",
             "packages": [
-                "kubernetes-31.0.0-py2.py3-none-any.whl"
+                "kubernetes-31.0.0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "mlserver!=1.3.1,<1.4.0,>=1.2.0 (from mlflow[extras])",
             "packages": [
-                "mlserver-1.3.5-py3-none-any.whl"
+                "mlserver-1.3.5-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "mlserver-mlflow!=1.3.1,<1.4.0,>=1.2.0 (from mlflow[extras])",
             "packages": [
-                "mlserver_mlflow-1.3.5-py3-none-any.whl"
+                "mlserver_mlflow-1.3.5-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "virtualenv (from mlflow[extras])",
             "packages": [
-                "virtualenv-20.26.6-py3-none-any.whl"
+                "virtualenv-20.26.6-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "prometheus-flask-exporter (from mlflow[extras])",
             "packages": [
-                "prometheus_flask_exporter-0.23.1-py3-none-any.whl"
+                "prometheus_flask_exporter-0.23.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "cachetools<6,>=5.0.0 (from mlflow-skinny==2.16.2->mlflow[extras])",
             "packages": [
-                "cachetools-5.5.0-py3-none-any.whl"
+                "cachetools-5.5.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "click<9,>=7.0 (from mlflow-skinny==2.16.2->mlflow[extras])",
             "packages": [
-                "click-8.1.7-py3-none-any.whl"
+                "click-8.1.7-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "cloudpickle<4 (from mlflow-skinny==2.16.2->mlflow[extras])",
             "packages": [
-                "cloudpickle-3.0.0-py3-none-any.whl"
+                "cloudpickle-3.0.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "databricks-sdk<1,>=0.20.0 (from mlflow-skinny==2.16.2->mlflow[extras])",
             "packages": [
-                "databricks_sdk-0.33.0-py3-none-any.whl"
+                "databricks_sdk-0.33.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "gitpython<4,>=3.1.9 (from mlflow-skinny==2.16.2->mlflow[extras])",
             "packages": [
-                "GitPython-3.1.43-py3-none-any.whl"
+                "GitPython-3.1.43-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "importlib-metadata!=4.7.0,<9,>=3.7.0 (from mlflow-skinny==2.16.2->mlflow[extras])",
             "packages": [
-                "importlib_metadata-8.5.0-py3-none-any.whl"
+                "importlib_metadata-8.5.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "opentelemetry-api<3,>=1.9.0 (from mlflow-skinny==2.16.2->mlflow[extras])",
             "packages": [
-                "opentelemetry_api-1.27.0-py3-none-any.whl"
+                "opentelemetry_api-1.27.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "opentelemetry-sdk<3,>=1.9.0 (from mlflow-skinny==2.16.2->mlflow[extras])",
             "packages": [
-                "opentelemetry_sdk-1.27.0-py3-none-any.whl"
+                "opentelemetry_sdk-1.27.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "packaging<25 (from mlflow-skinny==2.16.2->mlflow[extras])",
             "packages": [
-                "packaging-24.1-py3-none-any.whl"
+                "packaging-24.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "protobuf<6,>=3.12.0 (from mlflow-skinny==2.16.2->mlflow[extras])",
             "packages": [
-                "protobuf-5.28.2-cp38-abi3-manylinux2014_x86_64.whl"
+                "protobuf-5.28.2-cp38-abi3-manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "pyyaml<7,>=5.1 (from mlflow-skinny==2.16.2->mlflow[extras])",
             "packages": [
-                "PyYAML-6.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "PyYAML-6.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "requests<3,>=2.17.3 (from mlflow-skinny==2.16.2->mlflow[extras])",
             "packages": [
-                "requests-2.32.3-py3-none-any.whl"
+                "requests-2.32.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "sqlparse<1,>=0.4.0 (from mlflow-skinny==2.16.2->mlflow[extras])",
             "packages": [
-                "sqlparse-0.5.1-py3-none-any.whl"
+                "sqlparse-0.5.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "Mako (from alembic!=1.10.0,<2->mlflow[extras])",
             "packages": [
-                "Mako-1.3.5-py3-none-any.whl"
+                "Mako-1.3.5-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "typing-extensions>=4 (from alembic!=1.10.0,<2->mlflow[extras])",
             "packages": [
-                "typing_extensions-4.12.2-py3-none-any.whl"
+                "typing_extensions-4.12.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pytz (from azureml-core>=1.2.0->mlflow[extras])",
             "packages": [
-                "pytz-2024.2-py2.py3-none-any.whl"
+                "pytz-2024.2-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "backports.tempfile (from azureml-core>=1.2.0->mlflow[extras])",
             "packages": [
-                "backports.tempfile-1.0-py2.py3-none-any.whl"
+                "backports.tempfile-1.0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pathspec<1.0.0 (from azureml-core>=1.2.0->mlflow[extras])",
             "packages": [
-                "pathspec-0.12.1-py3-none-any.whl"
+                "pathspec-0.12.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "msal<2.0.0,>=1.15.0 (from azureml-core>=1.2.0->mlflow[extras])",
             "packages": [
-                "msal-1.31.0-py3-none-any.whl"
+                "msal-1.31.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "msal-extensions<=2.0.0,>=0.3.0 (from azureml-core>=1.2.0->mlflow[extras])",
             "packages": [
-                "msal_extensions-1.2.0-py3-none-any.whl"
+                "msal_extensions-1.2.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "knack<0.12.0 (from azureml-core>=1.2.0->mlflow[extras])",
             "packages": [
-                "knack-0.11.0-py3-none-any.whl"
+                "knack-0.11.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "azure-core<2.0.0 (from azureml-core>=1.2.0->mlflow[extras])",
             "packages": [
-                "azure_core-1.31.0-py3-none-any.whl"
+                "azure_core-1.31.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pkginfo (from azureml-core>=1.2.0->mlflow[extras])",
             "packages": [
-                "pkginfo-1.11.1-py3-none-any.whl"
+                "pkginfo-1.11.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "argcomplete<4 (from azureml-core>=1.2.0->mlflow[extras])",
             "packages": [
-                "argcomplete-3.5.1-py3-none-any.whl"
+                "argcomplete-3.5.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "humanfriendly<11.0,>=4.7 (from azureml-core>=1.2.0->mlflow[extras])",
             "packages": [
-                "humanfriendly-10.0-py2.py3-none-any.whl"
+                "humanfriendly-10.0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "paramiko<4.0.0,>=2.0.8 (from azureml-core>=1.2.0->mlflow[extras])",
             "packages": [
-                "paramiko-3.5.0-py3-none-any.whl"
+                "paramiko-3.5.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "azure-mgmt-resource<=24.0.0,>=15.0.0 (from azureml-core>=1.2.0->mlflow[extras])",
             "packages": [
-                "azure_mgmt_resource-23.1.1-py3-none-any.whl"
+                "azure_mgmt_resource-23.1.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "azure-mgmt-containerregistry<11,>=8.2.0 (from azureml-core>=1.2.0->mlflow[extras])",
             "packages": [
-                "azure_mgmt_containerregistry-10.3.0-py3-none-any.whl"
+                "azure_mgmt_containerregistry-10.3.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "azure-mgmt-storage<=22.0.0,>=16.0.0 (from azureml-core>=1.2.0->mlflow[extras])",
             "packages": [
-                "azure_mgmt_storage-21.2.1-py3-none-any.whl"
+                "azure_mgmt_storage-21.2.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "azure-mgmt-keyvault<11.0.0,>=0.40.0 (from azureml-core>=1.2.0->mlflow[extras])",
             "packages": [
-                "azure_mgmt_keyvault-10.3.1-py3-none-any.whl"
+                "azure_mgmt_keyvault-10.3.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "azure-mgmt-authorization<5,>=0.40.0 (from azureml-core>=1.2.0->mlflow[extras])",
             "packages": [
-                "azure_mgmt_authorization-4.0.0-py3-none-any.whl"
+                "azure_mgmt_authorization-4.0.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "azure-mgmt-network<=26.0.0 (from azureml-core>=1.2.0->mlflow[extras])",
             "packages": [
-                "azure_mgmt_network-26.0.0-py3-none-any.whl"
+                "azure_mgmt_network-26.0.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "azure-graphrbac<1.0.0,>=0.40.0 (from azureml-core>=1.2.0->mlflow[extras])",
             "packages": [
-                "azure_graphrbac-0.61.1-py2.py3-none-any.whl"
+                "azure_graphrbac-0.61.1-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "azure-common<2.0.0,>=1.1.12 (from azureml-core>=1.2.0->mlflow[extras])",
             "packages": [
-                "azure_common-1.1.28-py2.py3-none-any.whl"
+                "azure_common-1.1.28-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "msrest<=0.7.1,>=0.5.1 (from azureml-core>=1.2.0->mlflow[extras])",
             "packages": [
-                "msrest-0.7.1-py3-none-any.whl"
+                "msrest-0.7.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "msrestazure<=0.7,>=0.4.33 (from azureml-core>=1.2.0->mlflow[extras])",
             "packages": [
-                "msrestazure-0.6.4.post1-py2.py3-none-any.whl"
+                "msrestazure-0.6.4.post1-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "urllib3<3.0.0,>1.26.17 (from azureml-core>=1.2.0->mlflow[extras])",
             "packages": [
-                "urllib3-2.2.3-py3-none-any.whl"
+                "urllib3-2.2.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "python-dateutil<3.0.0,>=2.7.3 (from azureml-core>=1.2.0->mlflow[extras])",
             "packages": [
-                "python_dateutil-2.9.0.post0-py2.py3-none-any.whl"
+                "python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "ndg-httpsclient<=0.5.1 (from azureml-core>=1.2.0->mlflow[extras])",
             "packages": [
-                "ndg_httpsclient-0.5.1-py3-none-any.whl"
+                "ndg_httpsclient-0.5.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "SecretStorage<4.0.0 (from azureml-core>=1.2.0->mlflow[extras])",
             "packages": [
-                "SecretStorage-3.3.3-py3-none-any.whl"
+                "SecretStorage-3.3.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "jsonpickle<4.0.0 (from azureml-core>=1.2.0->mlflow[extras])",
             "packages": [
-                "jsonpickle-3.3.0-py3-none-any.whl"
+                "jsonpickle-3.3.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "contextlib2<22.0.0 (from azureml-core>=1.2.0->mlflow[extras])",
             "packages": [
-                "contextlib2-21.6.0-py2.py3-none-any.whl"
+                "contextlib2-21.6.0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "PyJWT<3.0.0 (from azureml-core>=1.2.0->mlflow[extras])",
             "packages": [
-                "PyJWT-2.9.0-py3-none-any.whl"
+                "PyJWT-2.9.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "adal<=1.2.7,>=1.2.0 (from azureml-core>=1.2.0->mlflow[extras])",
             "packages": [
-                "adal-1.2.7-py2.py3-none-any.whl"
+                "adal-1.2.7-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pyopenssl<25.0.0 (from azureml-core>=1.2.0->mlflow[extras])",
             "packages": [
-                "pyOpenSSL-24.2.1-py3-none-any.whl"
+                "pyOpenSSL-24.2.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "jmespath<2.0.0 (from azureml-core>=1.2.0->mlflow[extras])",
             "packages": [
-                "jmespath-1.0.1-py3-none-any.whl"
+                "jmespath-1.0.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "Werkzeug>=3.0.0 (from Flask<4->mlflow[extras])",
             "packages": [
-                "werkzeug-3.0.4-py3-none-any.whl"
+                "werkzeug-3.0.4-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "itsdangerous>=2.1.2 (from Flask<4->mlflow[extras])",
             "packages": [
-                "itsdangerous-2.2.0-py3-none-any.whl"
+                "itsdangerous-2.2.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "blinker>=1.6.2 (from Flask<4->mlflow[extras])",
             "packages": [
-                "blinker-1.8.2-py3-none-any.whl"
+                "blinker-1.8.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "google-auth<3.0dev,>=2.26.1 (from google-cloud-storage>=1.30.0->mlflow[extras])",
             "packages": [
-                "google_auth-2.35.0-py2.py3-none-any.whl"
+                "google_auth-2.35.0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "google-api-core<3.0.0dev,>=2.15.0 (from google-cloud-storage>=1.30.0->mlflow[extras])",
             "packages": [
-                "google_api_core-2.20.0-py3-none-any.whl"
+                "google_api_core-2.20.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "google-cloud-core<3.0dev,>=2.3.0 (from google-cloud-storage>=1.30.0->mlflow[extras])",
             "packages": [
-                "google_cloud_core-2.4.1-py2.py3-none-any.whl"
+                "google_cloud_core-2.4.1-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "google-resumable-media>=2.7.2 (from google-cloud-storage>=1.30.0->mlflow[extras])",
             "packages": [
-                "google_resumable_media-2.7.2-py2.py3-none-any.whl"
+                "google_resumable_media-2.7.2-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "google-crc32c<2.0dev,>=1.0 (from google-cloud-storage>=1.30.0->mlflow[extras])",
             "packages": [
-                "google_crc32c-1.6.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "google_crc32c-1.6.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "graphql-core<3.3,>=3.1 (from graphene<4->mlflow[extras])",
             "packages": [
-                "graphql_core-3.2.4-py3-none-any.whl"
+                "graphql_core-3.2.4-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "graphql-relay<3.3,>=3.1 (from graphene<4->mlflow[extras])",
             "packages": [
-                "graphql_relay-3.2.0-py3-none-any.whl"
+                "graphql_relay-3.2.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "aniso8601<10,>=8 (from graphene<4->mlflow[extras])",
             "packages": [
-                "aniso8601-9.0.1-py2.py3-none-any.whl"
+                "aniso8601-9.0.1-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "MarkupSafe>=2.0 (from Jinja2<4,>=2.11->mlflow[extras])",
             "packages": [
-                "MarkupSafe-2.1.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "MarkupSafe-2.1.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "contourpy>=1.0.1 (from matplotlib<4->mlflow[extras])",
             "packages": [
-                "contourpy-1.3.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "contourpy-1.3.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "cycler>=0.10 (from matplotlib<4->mlflow[extras])",
             "packages": [
-                "cycler-0.12.1-py3-none-any.whl"
+                "cycler-0.12.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "fonttools>=4.22.0 (from matplotlib<4->mlflow[extras])",
             "packages": [
-                "fonttools-4.54.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "fonttools-4.54.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "kiwisolver>=1.3.1 (from matplotlib<4->mlflow[extras])",
             "packages": [
-                "kiwisolver-1.4.7-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "kiwisolver-1.4.7-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "pillow>=8 (from matplotlib<4->mlflow[extras])",
             "packages": [
-                "pillow-10.4.0-cp311-cp311-manylinux_2_28_x86_64.whl"
+                "pillow-10.4.0-cp311-cp311-manylinux_2_28_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "pyparsing>=2.3.1 (from matplotlib<4->mlflow[extras])",
             "packages": [
-                "pyparsing-3.1.4-py3-none-any.whl"
+                "pyparsing-3.1.4-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "fastapi!=0.89.0,<=0.89.1,>=0.88.0 (from mlserver!=1.3.1,<1.4.0,>=1.2.0->mlflow[extras])",
             "packages": [
-                "fastapi-0.89.1-py3-none-any.whl"
+                "fastapi-0.89.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "python-dotenv (from mlserver!=1.3.1,<1.4.0,>=1.2.0->mlflow[extras])",
             "packages": [
-                "python_dotenv-1.0.1-py3-none-any.whl"
+                "python_dotenv-1.0.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "grpcio (from mlserver!=1.3.1,<1.4.0,>=1.2.0->mlflow[extras])",
             "packages": [
-                "grpcio-1.66.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "grpcio-1.66.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "importlib-resources (from mlserver!=1.3.1,<1.4.0,>=1.2.0->mlflow[extras])",
             "packages": [
-                "importlib_resources-6.4.5-py3-none-any.whl"
+                "importlib_resources-6.4.5-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "uvicorn (from mlserver!=1.3.1,<1.4.0,>=1.2.0->mlflow[extras])",
             "packages": [
-                "uvicorn-0.31.0-py3-none-any.whl"
+                "uvicorn-0.31.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "starlette-exporter (from mlserver!=1.3.1,<1.4.0,>=1.2.0->mlflow[extras])",
             "packages": [
-                "starlette_exporter-0.23.0-py3-none-any.whl"
+                "starlette_exporter-0.23.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "py-grpc-prometheus (from mlserver!=1.3.1,<1.4.0,>=1.2.0->mlflow[extras])",
             "packages": [
-                "py_grpc_prometheus-0.8.0-py3-none-any.whl"
+                "py_grpc_prometheus-0.8.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "aiokafka (from mlserver!=1.3.1,<1.4.0,>=1.2.0->mlflow[extras])",
             "packages": [
-                "aiokafka-0.11.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "aiokafka-0.11.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "tritonclient>=2.24 (from tritonclient[http]>=2.24->mlserver!=1.3.1,<1.4.0,>=1.2.0->mlflow[extras])",
             "packages": [
-                "tritonclient-2.50.0-py3-none-manylinux1_x86_64.whl"
+                "tritonclient-2.50.0-py3-none-manylinux1_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "aiofiles (from mlserver!=1.3.1,<1.4.0,>=1.2.0->mlflow[extras])",
             "packages": [
-                "aiofiles-24.1.0-py3-none-any.whl"
+                "aiofiles-24.1.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "orjson (from mlserver!=1.3.1,<1.4.0,>=1.2.0->mlflow[extras])",
             "packages": [
-                "orjson-3.10.7-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "orjson-3.10.7-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "uvloop (from mlserver!=1.3.1,<1.4.0,>=1.2.0->mlflow[extras])",
             "packages": [
-                "uvloop-0.20.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "uvloop-0.20.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "tzdata>=2022.7 (from pandas<3->mlflow[extras])",
             "packages": [
-                "tzdata-2024.2-py2.py3-none-any.whl"
+                "tzdata-2024.2-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "joblib>=1.2.0 (from scikit-learn<2->mlflow[extras])",
             "packages": [
-                "joblib-1.4.2-py3-none-any.whl"
+                "joblib-1.4.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "threadpoolctl>=3.1.0 (from scikit-learn<2->mlflow[extras])",
             "packages": [
-                "threadpoolctl-3.5.0-py3-none-any.whl"
+                "threadpoolctl-3.5.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "greenlet!=0.4.17 (from sqlalchemy<3,>=1.4.0->mlflow[extras])",
             "packages": [
-                "greenlet-3.1.1-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl"
+                "greenlet-3.1.1-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "s3transfer<0.11.0,>=0.10.0 (from boto3->mlflow[extras])",
             "packages": [
-                "s3transfer-0.10.2-py3-none-any.whl"
+                "s3transfer-0.10.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "certifi>=14.05.14 (from kubernetes->mlflow[extras])",
             "packages": [
-                "certifi-2024.8.30-py3-none-any.whl"
+                "certifi-2024.8.30-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "six>=1.9.0 (from kubernetes->mlflow[extras])",
             "packages": [
-                "six-1.16.0-py2.py3-none-any.whl"
+                "six-1.16.0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "websocket-client!=0.40.0,!=0.41.*,!=0.42.*,>=0.32.0 (from kubernetes->mlflow[extras])",
             "packages": [
-                "websocket_client-1.8.0-py3-none-any.whl"
+                "websocket_client-1.8.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "requests-oauthlib (from kubernetes->mlflow[extras])",
             "packages": [
-                "requests_oauthlib-2.0.0-py2.py3-none-any.whl"
+                "requests_oauthlib-2.0.0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "oauthlib>=3.2.2 (from kubernetes->mlflow[extras])",
             "packages": [
-                "oauthlib-3.2.2-py3-none-any.whl"
+                "oauthlib-3.2.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "durationpy>=0.7 (from kubernetes->mlflow[extras])",
             "packages": [
-                "durationpy-0.9-py3-none-any.whl"
+                "durationpy-0.9-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "prometheus-client (from prometheus-flask-exporter->mlflow[extras])",
             "packages": [
-                "prometheus_client-0.21.0-py3-none-any.whl"
+                "prometheus_client-0.21.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "distlib<1,>=0.3.7 (from virtualenv->mlflow[extras])",
             "packages": [
-                "distlib-0.3.8-py2.py3-none-any.whl"
+                "distlib-0.3.8-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "filelock<4,>=3.12.2 (from virtualenv->mlflow[extras])",
             "packages": [
-                "filelock-3.16.1-py3-none-any.whl"
+                "filelock-3.16.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "platformdirs<5,>=3.9.1 (from virtualenv->mlflow[extras])",
             "packages": [
-                "platformdirs-4.3.6-py3-none-any.whl"
+                "platformdirs-4.3.6-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "cryptography>=1.1.0 (from adal<=1.2.7,>=1.2.0->azureml-core>=1.2.0->mlflow[extras])",
             "packages": [
-                "cryptography-43.0.1-cp39-abi3-manylinux_2_28_x86_64.whl"
+                "cryptography-43.0.1-cp39-abi3-manylinux_2_28_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "isodate<1.0.0,>=0.6.1 (from azure-mgmt-authorization<5,>=0.40.0->azureml-core>=1.2.0->mlflow[extras])",
             "packages": [
-                "isodate-0.6.1-py2.py3-none-any.whl"
+                "isodate-0.6.1-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "azure-mgmt-core<2.0.0,>=1.3.2 (from azure-mgmt-authorization<5,>=0.40.0->azureml-core>=1.2.0->mlflow[extras])",
             "packages": [
-                "azure_mgmt_core-1.4.0-py3-none-any.whl"
+                "azure_mgmt_core-1.4.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pydantic!=1.7,!=1.7.1,!=1.7.2,!=1.7.3,!=1.8,!=1.8.1,<2.0.0,>=1.6.2 (from fastapi!=0.89.0,<=0.89.1,>=0.88.0->mlserver!=1.3.1,<1.4.0,>=1.2.0->mlflow[extras])",
             "packages": [
-                "pydantic-1.10.18-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "pydantic-1.10.18-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "starlette==0.22.0 (from fastapi!=0.89.0,<=0.89.1,>=0.88.0->mlserver!=1.3.1,<1.4.0,>=1.2.0->mlflow[extras])",
             "packages": [
-                "starlette-0.22.0-py3-none-any.whl"
+                "starlette-0.22.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "anyio<5,>=3.4.0 (from starlette==0.22.0->fastapi!=0.89.0,<=0.89.1,>=0.88.0->mlserver!=1.3.1,<1.4.0,>=1.2.0->mlflow[extras])",
             "packages": [
-                "anyio-4.6.0-py3-none-any.whl"
+                "anyio-4.6.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "gitdb<5,>=4.0.1 (from gitpython<4,>=3.1.9->mlflow-skinny==2.16.2->mlflow[extras])",
             "packages": [
-                "gitdb-4.0.11-py3-none-any.whl"
+                "gitdb-4.0.11-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "googleapis-common-protos<2.0.dev0,>=1.56.2 (from google-api-core<3.0.0dev,>=2.15.0->google-cloud-storage>=1.30.0->mlflow[extras])",
             "packages": [
-                "googleapis_common_protos-1.65.0-py2.py3-none-any.whl"
+                "googleapis_common_protos-1.65.0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "proto-plus<2.0.0dev,>=1.22.3 (from google-api-core<3.0.0dev,>=2.15.0->google-cloud-storage>=1.30.0->mlflow[extras])",
             "packages": [
-                "proto_plus-1.24.0-py3-none-any.whl"
+                "proto_plus-1.24.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pyasn1-modules>=0.2.1 (from google-auth<3.0dev,>=2.26.1->google-cloud-storage>=1.30.0->mlflow[extras])",
             "packages": [
-                "pyasn1_modules-0.4.1-py3-none-any.whl"
+                "pyasn1_modules-0.4.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "rsa<5,>=3.1.4 (from google-auth<3.0dev,>=2.26.1->google-cloud-storage>=1.30.0->mlflow[extras])",
             "packages": [
-                "rsa-4.9-py3-none-any.whl"
+                "rsa-4.9-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "zipp>=3.20 (from importlib-metadata!=4.7.0,<9,>=3.7.0->mlflow-skinny==2.16.2->mlflow[extras])",
             "packages": [
-                "zipp-3.20.2-py3-none-any.whl"
+                "zipp-3.20.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pygments (from knack<0.12.0->azureml-core>=1.2.0->mlflow[extras])",
             "packages": [
-                "pygments-2.18.0-py3-none-any.whl"
+                "pygments-2.18.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "tabulate (from knack<0.12.0->azureml-core>=1.2.0->mlflow[extras])",
             "packages": [
-                "tabulate-0.9.0-py3-none-any.whl"
+                "tabulate-0.9.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "portalocker<3,>=1.4 (from msal-extensions<=2.0.0,>=0.3.0->azureml-core>=1.2.0->mlflow[extras])",
             "packages": [
-                "portalocker-2.10.1-py3-none-any.whl"
+                "portalocker-2.10.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pyasn1>=0.1.1 (from ndg-httpsclient<=0.5.1->azureml-core>=1.2.0->mlflow[extras])",
             "packages": [
-                "pyasn1-0.6.1-py3-none-any.whl"
+                "pyasn1-0.6.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "deprecated>=1.2.6 (from opentelemetry-api<3,>=1.9.0->mlflow-skinny==2.16.2->mlflow[extras])",
             "packages": [
-                "Deprecated-1.2.14-py2.py3-none-any.whl"
+                "Deprecated-1.2.14-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "importlib-metadata!=4.7.0,<9,>=3.7.0 (from mlflow-skinny==2.16.2->mlflow[extras])",
             "packages": [
-                "importlib_metadata-8.4.0-py3-none-any.whl"
+                "importlib_metadata-8.4.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "opentelemetry-semantic-conventions==0.48b0 (from opentelemetry-sdk<3,>=1.9.0->mlflow-skinny==2.16.2->mlflow[extras])",
             "packages": [
-                "opentelemetry_semantic_conventions-0.48b0-py3-none-any.whl"
+                "opentelemetry_semantic_conventions-0.48b0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "bcrypt>=3.2 (from paramiko<4.0.0,>=2.0.8->azureml-core>=1.2.0->mlflow[extras])",
             "packages": [
-                "bcrypt-4.2.0-cp39-abi3-manylinux_2_28_x86_64.whl"
+                "bcrypt-4.2.0-cp39-abi3-manylinux_2_28_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "pynacl>=1.5 (from paramiko<4.0.0,>=2.0.8->azureml-core>=1.2.0->mlflow[extras])",
             "packages": [
-                "PyNaCl-1.5.0-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl"
+                "PyNaCl-1.5.0-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "charset-normalizer<4,>=2 (from requests<3,>=2.17.3->mlflow-skinny==2.16.2->mlflow[extras])",
             "packages": [
-                "charset_normalizer-3.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "charset_normalizer-3.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "idna<4,>=2.5 (from requests<3,>=2.17.3->mlflow-skinny==2.16.2->mlflow[extras])",
             "packages": [
-                "idna-3.10-py3-none-any.whl"
+                "idna-3.10-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "PySocks!=1.5.7,>=1.5.6 (from requests[socks]<3.0.0,>=2.19.1->azureml-core>=1.2.0->mlflow[extras])",
             "packages": [
-                "PySocks-1.7.1-py3-none-any.whl"
+                "PySocks-1.7.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "jeepney>=0.6 (from SecretStorage<4.0.0->azureml-core>=1.2.0->mlflow[extras])",
             "packages": [
-                "jeepney-0.8.0-py3-none-any.whl"
+                "jeepney-0.8.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "numpy<3 (from mlflow[extras])",
             "packages": [
-                "numpy-1.26.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "numpy-1.26.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "python-rapidjson>=0.9.1 (from tritonclient>=2.24->tritonclient[http]>=2.24->mlserver!=1.3.1,<1.4.0,>=1.2.0->mlflow[extras])",
             "packages": [
-                "python_rapidjson-1.20-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "python_rapidjson-1.20-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "aiohttp<4.0.0,>=3.8.1 (from tritonclient[http]>=2.24->mlserver!=1.3.1,<1.4.0,>=1.2.0->mlflow[extras])",
             "packages": [
-                "aiohttp-3.10.9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "aiohttp-3.10.9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "geventhttpclient<=2.0.2,>=1.4.4 (from tritonclient[http]>=2.24->mlserver!=1.3.1,<1.4.0,>=1.2.0->mlflow[extras])",
             "packages": [
-                "geventhttpclient-2.0.2-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "geventhttpclient-2.0.2-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "async-timeout (from aiokafka->mlserver!=1.3.1,<1.4.0,>=1.2.0->mlflow[extras])",
             "packages": [
-                "async_timeout-4.0.3-py3-none-any.whl"
+                "async_timeout-4.0.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "backports.weakref (from backports.tempfile->azureml-core>=1.2.0->mlflow[extras])",
             "packages": [
-                "backports.weakref-1.0.post1-py2.py3-none-any.whl"
+                "backports.weakref-1.0.post1-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "setuptools>=39.0.1 (from py-grpc-prometheus->mlserver!=1.3.1,<1.4.0,>=1.2.0->mlflow[extras])",
             "packages": [
-                "setuptools-75.1.0-py3-none-any.whl"
+                "setuptools-75.1.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "starlette-exporter (from mlserver!=1.3.1,<1.4.0,>=1.2.0->mlflow[extras])",
             "packages": [
-                "starlette_exporter-0.22.0-py3-none-any.whl",
-                "starlette_exporter-0.21.0-py3-none-any.whl",
-                "starlette_exporter-0.20.0-py3-none-any.whl",
-                "starlette_exporter-0.19.0-py3-none-any.whl",
-                "starlette_exporter-0.18.0-py3-none-any.whl",
-                "starlette_exporter-0.17.1-py3-none-any.whl"
+                "starlette_exporter-0.22.0-py3-none-any.whl.metadata",
+                "starlette_exporter-0.21.0-py3-none-any.whl.metadata",
+                "starlette_exporter-0.20.0-py3-none-any.whl.metadata",
+                "starlette_exporter-0.19.0-py3-none-any.whl.metadata",
+                "starlette_exporter-0.18.0-py3-none-any.whl.metadata",
+                "starlette_exporter-0.17.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "h11>=0.8 (from uvicorn->mlserver!=1.3.1,<1.4.0,>=1.2.0->mlflow[extras])",
             "packages": [
-                "h11-0.14.0-py3-none-any.whl"
+                "h11-0.14.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "aiohappyeyeballs>=2.3.0 (from aiohttp<4.0.0,>=3.8.1->tritonclient[http]>=2.24->mlserver!=1.3.1,<1.4.0,>=1.2.0->mlflow[extras])",
             "packages": [
-                "aiohappyeyeballs-2.4.3-py3-none-any.whl"
+                "aiohappyeyeballs-2.4.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "aiosignal>=1.1.2 (from aiohttp<4.0.0,>=3.8.1->tritonclient[http]>=2.24->mlserver!=1.3.1,<1.4.0,>=1.2.0->mlflow[extras])",
             "packages": [
-                "aiosignal-1.3.1-py3-none-any.whl"
+                "aiosignal-1.3.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "attrs>=17.3.0 (from aiohttp<4.0.0,>=3.8.1->tritonclient[http]>=2.24->mlserver!=1.3.1,<1.4.0,>=1.2.0->mlflow[extras])",
             "packages": [
-                "attrs-24.2.0-py3-none-any.whl"
+                "attrs-24.2.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "frozenlist>=1.1.1 (from aiohttp<4.0.0,>=3.8.1->tritonclient[http]>=2.24->mlserver!=1.3.1,<1.4.0,>=1.2.0->mlflow[extras])",
             "packages": [
-                "frozenlist-1.4.1-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "frozenlist-1.4.1-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "multidict<7.0,>=4.5 (from aiohttp<4.0.0,>=3.8.1->tritonclient[http]>=2.24->mlserver!=1.3.1,<1.4.0,>=1.2.0->mlflow[extras])",
             "packages": [
-                "multidict-6.1.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "multidict-6.1.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "yarl<2.0,>=1.12.0 (from aiohttp<4.0.0,>=3.8.1->tritonclient[http]>=2.24->mlserver!=1.3.1,<1.4.0,>=1.2.0->mlflow[extras])",
             "packages": [
-                "yarl-1.13.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "yarl-1.13.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "cffi>=1.12 (from cryptography>=1.1.0->adal<=1.2.7,>=1.2.0->azureml-core>=1.2.0->mlflow[extras])",
             "packages": [
-                "cffi-1.17.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "cffi-1.17.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "wrapt<2,>=1.10 (from deprecated>=1.2.6->opentelemetry-api<3,>=1.9.0->mlflow-skinny==2.16.2->mlflow[extras])",
             "packages": [
-                "wrapt-1.16.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "wrapt-1.16.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "gevent>=0.13 (from geventhttpclient<=2.0.2,>=1.4.4->tritonclient[http]>=2.24->mlserver!=1.3.1,<1.4.0,>=1.2.0->mlflow[extras])",
             "packages": [
-                "gevent-24.2.1-cp311-cp311-manylinux_2_28_x86_64.whl"
+                "gevent-24.2.1-cp311-cp311-manylinux_2_28_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "brotli (from geventhttpclient<=2.0.2,>=1.4.4->tritonclient[http]>=2.24->mlserver!=1.3.1,<1.4.0,>=1.2.0->mlflow[extras])",
             "packages": [
-                "Brotli-1.1.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "Brotli-1.1.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "smmap<6,>=3.0.1 (from gitdb<5,>=4.0.1->gitpython<4,>=3.1.9->mlflow-skinny==2.16.2->mlflow[extras])",
             "packages": [
-                "smmap-5.0.1-py3-none-any.whl"
+                "smmap-5.0.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "sniffio>=1.1 (from anyio<5,>=3.4.0->starlette==0.22.0->fastapi!=0.89.0,<=0.89.1,>=0.88.0->mlserver!=1.3.1,<1.4.0,>=1.2.0->mlflow[extras])",
             "packages": [
-                "sniffio-1.3.1-py3-none-any.whl"
+                "sniffio-1.3.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pycparser (from cffi>=1.12->cryptography>=1.1.0->adal<=1.2.7,>=1.2.0->azureml-core>=1.2.0->mlflow[extras])",
             "packages": [
-                "pycparser-2.22-py3-none-any.whl"
+                "pycparser-2.22-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "zope.event (from gevent>=0.13->geventhttpclient<=2.0.2,>=1.4.4->tritonclient[http]>=2.24->mlserver!=1.3.1,<1.4.0,>=1.2.0->mlflow[extras])",
             "packages": [
-                "zope.event-5.0-py3-none-any.whl"
+                "zope.event-5.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "zope.interface (from gevent>=0.13->geventhttpclient<=2.0.2,>=1.4.4->tritonclient[http]>=2.24->mlserver!=1.3.1,<1.4.0,>=1.2.0->mlflow[extras])",
             "packages": [
-                "zope.interface-7.0.3-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "zope.interface-7.0.3-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         }
     ]

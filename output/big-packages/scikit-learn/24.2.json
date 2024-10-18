@@ -2,7 +2,7 @@
     "input": {
         "pip_version": "24.2",
         "python_version": "3.11",
-        "datetime": "2024-10-07T14:00:00",
+        "datetime": "2024-10-07 14:00:00",
         "platform_system": "Linux",
         "requirements": [
             "scikit-learn"
@@ -38,31 +38,31 @@
         {
             "requirement": "scikit-learn",
             "packages": [
-                "scikit_learn-1.5.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "scikit_learn-1.5.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "numpy>=1.19.5 (from scikit-learn)",
             "packages": [
-                "numpy-2.1.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "numpy-2.1.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "scipy>=1.6.0 (from scikit-learn)",
             "packages": [
-                "scipy-1.14.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "scipy-1.14.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "joblib>=1.2.0 (from scikit-learn)",
             "packages": [
-                "joblib-1.4.2-py3-none-any.whl"
+                "joblib-1.4.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "threadpoolctl>=3.1.0 (from scikit-learn)",
             "packages": [
-                "threadpoolctl-3.5.0-py3-none-any.whl"
+                "threadpoolctl-3.5.0-py3-none-any.whl.metadata"
             ]
         }
     ]

@@ -2,7 +2,7 @@
     "input": {
         "pip_version": "24.2",
         "python_version": "3.11",
-        "datetime": "2024-10-07T14:00:00",
+        "datetime": "2024-10-07 14:00:00",
         "platform_system": "Linux",
         "requirements": [
             "holoviews"
@@ -158,211 +158,211 @@
         {
             "requirement": "holoviews",
             "packages": [
-                "holoviews-1.19.1-py3-none-any.whl"
+                "holoviews-1.19.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "bokeh>=3.1 (from holoviews)",
             "packages": [
-                "bokeh-3.6.0-py3-none-any.whl"
+                "bokeh-3.6.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "colorcet (from holoviews)",
             "packages": [
-                "colorcet-3.1.0-py3-none-any.whl"
+                "colorcet-3.1.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "numpy>=1.21 (from holoviews)",
             "packages": [
-                "numpy-2.1.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "numpy-2.1.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "packaging (from holoviews)",
             "packages": [
-                "packaging-24.1-py3-none-any.whl"
+                "packaging-24.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pandas>=1.3 (from holoviews)",
             "packages": [
-                "pandas-2.2.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "pandas-2.2.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "panel>=1.0 (from holoviews)",
             "packages": [
-                "panel-1.5.2-py3-none-any.whl"
+                "panel-1.5.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "param<3.0,>=2.0 (from holoviews)",
             "packages": [
-                "param-2.1.1-py3-none-any.whl"
+                "param-2.1.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pyviz-comms>=2.1 (from holoviews)",
             "packages": [
-                "pyviz_comms-3.0.3-py3-none-any.whl"
+                "pyviz_comms-3.0.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "Jinja2>=2.9 (from bokeh>=3.1->holoviews)",
             "packages": [
-                "jinja2-3.1.4-py3-none-any.whl"
+                "jinja2-3.1.4-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "contourpy>=1.2 (from bokeh>=3.1->holoviews)",
             "packages": [
-                "contourpy-1.3.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "contourpy-1.3.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "pillow>=7.1.0 (from bokeh>=3.1->holoviews)",
             "packages": [
-                "pillow-10.4.0-cp311-cp311-manylinux_2_28_x86_64.whl"
+                "pillow-10.4.0-cp311-cp311-manylinux_2_28_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "PyYAML>=3.10 (from bokeh>=3.1->holoviews)",
             "packages": [
-                "PyYAML-6.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "PyYAML-6.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "tornado>=6.2 (from bokeh>=3.1->holoviews)",
             "packages": [
-                "tornado-6.4.1-cp38-abi3-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "tornado-6.4.1-cp38-abi3-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "xyzservices>=2021.09.1 (from bokeh>=3.1->holoviews)",
             "packages": [
-                "xyzservices-2024.9.0-py3-none-any.whl"
+                "xyzservices-2024.9.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "python-dateutil>=2.8.2 (from pandas>=1.3->holoviews)",
             "packages": [
-                "python_dateutil-2.9.0.post0-py2.py3-none-any.whl"
+                "python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pytz>=2020.1 (from pandas>=1.3->holoviews)",
             "packages": [
-                "pytz-2024.2-py2.py3-none-any.whl"
+                "pytz-2024.2-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "tzdata>=2022.7 (from pandas>=1.3->holoviews)",
             "packages": [
-                "tzdata-2024.2-py2.py3-none-any.whl"
+                "tzdata-2024.2-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "bleach (from panel>=1.0->holoviews)",
             "packages": [
-                "bleach-6.1.0-py3-none-any.whl"
+                "bleach-6.1.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "linkify-it-py (from panel>=1.0->holoviews)",
             "packages": [
-                "linkify_it_py-2.0.3-py3-none-any.whl"
+                "linkify_it_py-2.0.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "markdown (from panel>=1.0->holoviews)",
             "packages": [
-                "Markdown-3.7-py3-none-any.whl"
+                "Markdown-3.7-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "markdown-it-py (from panel>=1.0->holoviews)",
             "packages": [
-                "markdown_it_py-3.0.0-py3-none-any.whl"
+                "markdown_it_py-3.0.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "mdit-py-plugins (from panel>=1.0->holoviews)",
             "packages": [
-                "mdit_py_plugins-0.4.2-py3-none-any.whl"
+                "mdit_py_plugins-0.4.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "requests (from panel>=1.0->holoviews)",
             "packages": [
-                "requests-2.32.3-py3-none-any.whl"
+                "requests-2.32.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "tqdm (from panel>=1.0->holoviews)",
             "packages": [
-                "tqdm-4.66.5-py3-none-any.whl"
+                "tqdm-4.66.5-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "typing-extensions (from panel>=1.0->holoviews)",
             "packages": [
-                "typing_extensions-4.12.2-py3-none-any.whl"
+                "typing_extensions-4.12.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "MarkupSafe>=2.0 (from Jinja2>=2.9->bokeh>=3.1->holoviews)",
             "packages": [
-                "MarkupSafe-2.1.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "MarkupSafe-2.1.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "six>=1.5 (from python-dateutil>=2.8.2->pandas>=1.3->holoviews)",
             "packages": [
-                "six-1.16.0-py2.py3-none-any.whl"
+                "six-1.16.0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "webencodings (from bleach->panel>=1.0->holoviews)",
             "packages": [
-                "webencodings-0.5.1-py2.py3-none-any.whl"
+                "webencodings-0.5.1-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "uc-micro-py (from linkify-it-py->panel>=1.0->holoviews)",
             "packages": [
-                "uc_micro_py-1.0.3-py3-none-any.whl"
+                "uc_micro_py-1.0.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "mdurl~=0.1 (from markdown-it-py->panel>=1.0->holoviews)",
             "packages": [
-                "mdurl-0.1.2-py3-none-any.whl"
+                "mdurl-0.1.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "charset-normalizer<4,>=2 (from requests->panel>=1.0->holoviews)",
             "packages": [
-                "charset_normalizer-3.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "charset_normalizer-3.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "idna<4,>=2.5 (from requests->panel>=1.0->holoviews)",
             "packages": [
-                "idna-3.10-py3-none-any.whl"
+                "idna-3.10-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "urllib3<3,>=1.21.1 (from requests->panel>=1.0->holoviews)",
             "packages": [
-                "urllib3-2.2.3-py3-none-any.whl"
+                "urllib3-2.2.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "certifi>=2017.4.17 (from requests->panel>=1.0->holoviews)",
             "packages": [
-                "certifi-2024.8.30-py3-none-any.whl"
+                "certifi-2024.8.30-py3-none-any.whl.metadata"
             ]
         }
     ]

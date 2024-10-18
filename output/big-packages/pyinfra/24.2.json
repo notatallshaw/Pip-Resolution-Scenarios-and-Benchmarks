@@ -2,7 +2,7 @@
     "input": {
         "pip_version": "24.2",
         "python_version": "3.11",
-        "datetime": "2024-10-07T14:00:00",
+        "datetime": "2024-10-07 14:00:00",
         "platform_system": "Linux",
         "requirements": [
             "pyinfra"
@@ -142,187 +142,187 @@
         {
             "requirement": "pyinfra",
             "packages": [
-                "pyinfra-3.1.1-py2.py3-none-any.whl"
+                "pyinfra-3.1.1-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "gevent>=1.5 (from pyinfra)",
             "packages": [
-                "gevent-24.2.1-cp311-cp311-manylinux_2_28_x86_64.whl"
+                "gevent-24.2.1-cp311-cp311-manylinux_2_28_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "paramiko<4,>=2.7 (from pyinfra)",
             "packages": [
-                "paramiko-3.5.0-py3-none-any.whl"
+                "paramiko-3.5.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "click>2 (from pyinfra)",
             "packages": [
-                "click-8.1.7-py3-none-any.whl"
+                "click-8.1.7-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "jinja2<4,>2 (from pyinfra)",
             "packages": [
-                "jinja2-3.1.4-py3-none-any.whl"
+                "jinja2-3.1.4-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "python-dateutil<3,>2 (from pyinfra)",
             "packages": [
-                "python_dateutil-2.9.0.post0-py2.py3-none-any.whl"
+                "python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "setuptools (from pyinfra)",
             "packages": [
-                "setuptools-75.1.0-py3-none-any.whl"
+                "setuptools-75.1.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "configparser (from pyinfra)",
             "packages": [
-                "configparser-7.1.0-py3-none-any.whl"
+                "configparser-7.1.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pywinrm (from pyinfra)",
             "packages": [
-                "pywinrm-0.5.0-py3-none-any.whl"
+                "pywinrm-0.5.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "typeguard (from pyinfra)",
             "packages": [
-                "typeguard-4.3.0-py3-none-any.whl"
+                "typeguard-4.3.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "distro<2,>=1.6 (from pyinfra)",
             "packages": [
-                "distro-1.9.0-py3-none-any.whl"
+                "distro-1.9.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "packaging>=16.1 (from pyinfra)",
             "packages": [
-                "packaging-24.1-py3-none-any.whl"
+                "packaging-24.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "zope.event (from gevent>=1.5->pyinfra)",
             "packages": [
-                "zope.event-5.0-py3-none-any.whl"
+                "zope.event-5.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "zope.interface (from gevent>=1.5->pyinfra)",
             "packages": [
-                "zope.interface-7.0.3-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "zope.interface-7.0.3-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "greenlet>=3.0rc3 (from gevent>=1.5->pyinfra)",
             "packages": [
-                "greenlet-3.1.1-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl"
+                "greenlet-3.1.1-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "MarkupSafe>=2.0 (from jinja2<4,>2->pyinfra)",
             "packages": [
-                "MarkupSafe-2.1.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "MarkupSafe-2.1.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "bcrypt>=3.2 (from paramiko<4,>=2.7->pyinfra)",
             "packages": [
-                "bcrypt-4.2.0-cp39-abi3-manylinux_2_28_x86_64.whl"
+                "bcrypt-4.2.0-cp39-abi3-manylinux_2_28_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "cryptography>=3.3 (from paramiko<4,>=2.7->pyinfra)",
             "packages": [
-                "cryptography-43.0.1-cp39-abi3-manylinux_2_28_x86_64.whl"
+                "cryptography-43.0.1-cp39-abi3-manylinux_2_28_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "pynacl>=1.5 (from paramiko<4,>=2.7->pyinfra)",
             "packages": [
-                "PyNaCl-1.5.0-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl"
+                "PyNaCl-1.5.0-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "six>=1.5 (from python-dateutil<3,>2->pyinfra)",
             "packages": [
-                "six-1.16.0-py2.py3-none-any.whl"
+                "six-1.16.0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "requests>=2.9.1 (from pywinrm->pyinfra)",
             "packages": [
-                "requests-2.32.3-py3-none-any.whl"
+                "requests-2.32.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "requests-ntlm>=1.1.0 (from pywinrm->pyinfra)",
             "packages": [
-                "requests_ntlm-1.3.0-py3-none-any.whl"
+                "requests_ntlm-1.3.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "xmltodict (from pywinrm->pyinfra)",
             "packages": [
-                "xmltodict-0.13.0-py2.py3-none-any.whl"
+                "xmltodict-0.13.0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "typing-extensions>=4.10.0 (from typeguard->pyinfra)",
             "packages": [
-                "typing_extensions-4.12.2-py3-none-any.whl"
+                "typing_extensions-4.12.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "cffi>=1.12 (from cryptography>=3.3->paramiko<4,>=2.7->pyinfra)",
             "packages": [
-                "cffi-1.17.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "cffi-1.17.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "charset-normalizer<4,>=2 (from requests>=2.9.1->pywinrm->pyinfra)",
             "packages": [
-                "charset_normalizer-3.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "charset_normalizer-3.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "idna<4,>=2.5 (from requests>=2.9.1->pywinrm->pyinfra)",
             "packages": [
-                "idna-3.10-py3-none-any.whl"
+                "idna-3.10-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "urllib3<3,>=1.21.1 (from requests>=2.9.1->pywinrm->pyinfra)",
             "packages": [
-                "urllib3-2.2.3-py3-none-any.whl"
+                "urllib3-2.2.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "certifi>=2017.4.17 (from requests>=2.9.1->pywinrm->pyinfra)",
             "packages": [
-                "certifi-2024.8.30-py3-none-any.whl"
+                "certifi-2024.8.30-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pyspnego>=0.4.0 (from requests-ntlm>=1.1.0->pywinrm->pyinfra)",
             "packages": [
-                "pyspnego-0.11.1-py3-none-any.whl"
+                "pyspnego-0.11.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pycparser (from cffi>=1.12->cryptography>=3.3->paramiko<4,>=2.7->pyinfra)",
             "packages": [
-                "pycparser-2.22-py3-none-any.whl"
+                "pycparser-2.22-py3-none-any.whl.metadata"
             ]
         }
     ]

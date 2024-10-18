@@ -2,7 +2,7 @@
     "input": {
         "pip_version": "24.2",
         "python_version": "3.11",
-        "datetime": "2024-10-07T14:00:00",
+        "datetime": "2024-10-07 14:00:00",
         "platform_system": "Linux",
         "requirements": [
             "prefect"
@@ -378,547 +378,547 @@
         {
             "requirement": "prefect",
             "packages": [
-                "prefect-3.0.4-py3-none-any.whl"
+                "prefect-3.0.4-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "aiosqlite<1.0.0,>=0.17.0 (from prefect)",
             "packages": [
-                "aiosqlite-0.20.0-py3-none-any.whl"
+                "aiosqlite-0.20.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "alembic<2.0.0,>=1.7.5 (from prefect)",
             "packages": [
-                "alembic-1.13.3-py3-none-any.whl"
+                "alembic-1.13.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "apprise<2.0.0,>=1.1.0 (from prefect)",
             "packages": [
-                "apprise-1.9.0-py3-none-any.whl"
+                "apprise-1.9.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "asyncpg<1.0.0,>=0.23 (from prefect)",
             "packages": [
-                "asyncpg-0.29.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "asyncpg-0.29.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "click<8.2,>=8.0 (from prefect)",
             "packages": [
-                "click-8.1.7-py3-none-any.whl"
+                "click-8.1.7-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "cryptography>=36.0.1 (from prefect)",
             "packages": [
-                "cryptography-43.0.1-cp39-abi3-manylinux_2_28_x86_64.whl"
+                "cryptography-43.0.1-cp39-abi3-manylinux_2_28_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "dateparser<2.0.0,>=1.1.1 (from prefect)",
             "packages": [
-                "dateparser-1.2.0-py2.py3-none-any.whl"
+                "dateparser-1.2.0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "docker<8.0,>=4.0 (from prefect)",
             "packages": [
-                "docker-7.1.0-py3-none-any.whl"
+                "docker-7.1.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "graphviz>=0.20.1 (from prefect)",
             "packages": [
-                "graphviz-0.20.3-py3-none-any.whl"
+                "graphviz-0.20.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "jinja2<4.0.0,>=3.0.0 (from prefect)",
             "packages": [
-                "jinja2-3.1.4-py3-none-any.whl"
+                "jinja2-3.1.4-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "jinja2-humanize-extension>=0.4.0 (from prefect)",
             "packages": [
-                "jinja2_humanize_extension-0.4.0-py3-none-any.whl"
+                "jinja2_humanize_extension-0.4.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "humanize<5.0.0,>=4.9.0 (from prefect)",
             "packages": [
-                "humanize-4.11.0-py3-none-any.whl"
+                "humanize-4.11.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pytz<2025,>=2021.1 (from prefect)",
             "packages": [
-                "pytz-2024.2-py2.py3-none-any.whl"
+                "pytz-2024.2-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "readchar<5.0.0,>=4.0.0 (from prefect)",
             "packages": [
-                "readchar-4.2.0-py3-none-any.whl"
+                "readchar-4.2.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "sqlalchemy<3.0.0,>=2.0 (from sqlalchemy[asyncio]<3.0.0,>=2.0->prefect)",
             "packages": [
-                "SQLAlchemy-2.0.35-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "SQLAlchemy-2.0.35-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "typer!=0.12.2,<0.13.0,>=0.12.0 (from prefect)",
             "packages": [
-                "typer-0.12.5-py3-none-any.whl"
+                "typer-0.12.5-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "anyio<5.0.0,>=4.4.0 (from prefect)",
             "packages": [
-                "anyio-4.6.0-py3-none-any.whl"
+                "anyio-4.6.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "asgi-lifespan<3.0,>=1.0 (from prefect)",
             "packages": [
-                "asgi_lifespan-2.1.0-py3-none-any.whl"
+                "asgi_lifespan-2.1.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "cachetools<6.0,>=5.3 (from prefect)",
             "packages": [
-                "cachetools-5.5.0-py3-none-any.whl"
+                "cachetools-5.5.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "cloudpickle<4.0,>=2.0 (from prefect)",
             "packages": [
-                "cloudpickle-3.0.0-py3-none-any.whl"
+                "cloudpickle-3.0.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "coolname<3.0.0,>=1.0.4 (from prefect)",
             "packages": [
-                "coolname-2.2.0-py2.py3-none-any.whl"
+                "coolname-2.2.0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "croniter<4.0.0,>=1.0.12 (from prefect)",
             "packages": [
-                "croniter-3.0.3-py2.py3-none-any.whl"
+                "croniter-3.0.3-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "exceptiongroup>=1.0.0 (from prefect)",
             "packages": [
-                "exceptiongroup-1.2.2-py3-none-any.whl"
+                "exceptiongroup-1.2.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "fastapi<1.0.0,>=0.111.0 (from prefect)",
             "packages": [
-                "fastapi-0.115.0-py3-none-any.whl"
+                "fastapi-0.115.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "fsspec>=2022.5.0 (from prefect)",
             "packages": [
-                "fsspec-2024.9.0-py3-none-any.whl"
+                "fsspec-2024.9.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "griffe<2.0.0,>=0.49.0 (from prefect)",
             "packages": [
-                "griffe-1.3.2-py3-none-any.whl"
+                "griffe-1.3.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "httpcore<2.0.0,>=1.0.5 (from prefect)",
             "packages": [
-                "httpcore-1.0.6-py3-none-any.whl"
+                "httpcore-1.0.6-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "httpx!=0.23.2,>=0.23 (from httpx[http2]!=0.23.2,>=0.23->prefect)",
             "packages": [
-                "httpx-0.27.2-py3-none-any.whl"
+                "httpx-0.27.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "jsonpatch<2.0,>=1.32 (from prefect)",
             "packages": [
-                "jsonpatch-1.33-py2.py3-none-any.whl"
+                "jsonpatch-1.33-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "jsonschema<5.0.0,>=4.0.0 (from prefect)",
             "packages": [
-                "jsonschema-4.23.0-py3-none-any.whl"
+                "jsonschema-4.23.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "orjson<4.0,>=3.7 (from prefect)",
             "packages": [
-                "orjson-3.10.7-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "orjson-3.10.7-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "packaging<24.3,>=21.3 (from prefect)",
             "packages": [
-                "packaging-24.1-py3-none-any.whl"
+                "packaging-24.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pathspec>=0.8.0 (from prefect)",
             "packages": [
-                "pathspec-0.12.1-py3-none-any.whl"
+                "pathspec-0.12.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pendulum<4,>=3.0.0 (from prefect)",
             "packages": [
-                "pendulum-3.0.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "pendulum-3.0.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "prometheus-client>=0.20.0 (from prefect)",
             "packages": [
-                "prometheus_client-0.21.0-py3-none-any.whl"
+                "prometheus_client-0.21.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pydantic<3.0.0,>=2.7 (from prefect)",
             "packages": [
-                "pydantic-2.9.2-py3-none-any.whl"
+                "pydantic-2.9.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pydantic-core<3.0.0,>=2.12.0 (from prefect)",
             "packages": [
-                "pydantic_core-2.24.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "pydantic_core-2.24.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "pydantic-extra-types<3.0.0,>=2.8.2 (from prefect)",
             "packages": [
-                "pydantic_extra_types-2.9.0-py3-none-any.whl"
+                "pydantic_extra_types-2.9.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pydantic-settings (from prefect)",
             "packages": [
-                "pydantic_settings-2.5.2-py3-none-any.whl"
+                "pydantic_settings-2.5.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "python-dateutil<3.0.0,>=2.8.2 (from prefect)",
             "packages": [
-                "python_dateutil-2.9.0.post0-py2.py3-none-any.whl"
+                "python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "python-slugify<9.0,>=5.0 (from prefect)",
             "packages": [
-                "python_slugify-8.0.4-py2.py3-none-any.whl"
+                "python_slugify-8.0.4-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pyyaml<7.0.0,>=5.4.1 (from prefect)",
             "packages": [
-                "PyYAML-6.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "PyYAML-6.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "rfc3339-validator<0.2.0,>=0.1.4 (from prefect)",
             "packages": [
-                "rfc3339_validator-0.1.4-py2.py3-none-any.whl"
+                "rfc3339_validator-0.1.4-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "rich<14.0,>=11.0 (from prefect)",
             "packages": [
-                "rich-13.9.2-py3-none-any.whl"
+                "rich-13.9.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "ruamel.yaml>=0.17.0 (from prefect)",
             "packages": [
-                "ruamel.yaml-0.18.6-py3-none-any.whl"
+                "ruamel.yaml-0.18.6-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "sniffio<2.0.0,>=1.3.0 (from prefect)",
             "packages": [
-                "sniffio-1.3.1-py3-none-any.whl"
+                "sniffio-1.3.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "toml>=0.10.0 (from prefect)",
             "packages": [
-                "toml-0.10.2-py2.py3-none-any.whl"
+                "toml-0.10.2-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "typing-extensions<5.0.0,>=4.5.0 (from prefect)",
             "packages": [
-                "typing_extensions-4.12.2-py3-none-any.whl"
+                "typing_extensions-4.12.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "ujson<6.0.0,>=5.8.0 (from prefect)",
             "packages": [
-                "ujson-5.10.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "ujson-5.10.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "uvicorn!=0.29.0,>=0.14.0 (from prefect)",
             "packages": [
-                "uvicorn-0.31.0-py3-none-any.whl"
+                "uvicorn-0.31.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "websockets<14.0,>=10.4 (from prefect)",
             "packages": [
-                "websockets-13.1-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "websockets-13.1-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "Mako (from alembic<2.0.0,>=1.7.5->prefect)",
             "packages": [
-                "Mako-1.3.5-py3-none-any.whl"
+                "Mako-1.3.5-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "idna>=2.8 (from anyio<5.0.0,>=4.4.0->prefect)",
             "packages": [
-                "idna-3.10-py3-none-any.whl"
+                "idna-3.10-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "certifi (from apprise<2.0.0,>=1.1.0->prefect)",
             "packages": [
-                "certifi-2024.8.30-py3-none-any.whl"
+                "certifi-2024.8.30-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "requests (from apprise<2.0.0,>=1.1.0->prefect)",
             "packages": [
-                "requests-2.32.3-py3-none-any.whl"
+                "requests-2.32.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "requests-oauthlib (from apprise<2.0.0,>=1.1.0->prefect)",
             "packages": [
-                "requests_oauthlib-2.0.0-py2.py3-none-any.whl"
+                "requests_oauthlib-2.0.0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "markdown (from apprise<2.0.0,>=1.1.0->prefect)",
             "packages": [
-                "Markdown-3.7-py3-none-any.whl"
+                "Markdown-3.7-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "async-timeout>=4.0.3 (from asyncpg<1.0.0,>=0.23->prefect)",
             "packages": [
-                "async_timeout-4.0.3-py3-none-any.whl"
+                "async_timeout-4.0.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "cffi>=1.12 (from cryptography>=36.0.1->prefect)",
             "packages": [
-                "cffi-1.17.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "cffi-1.17.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "regex!=2019.02.19,!=2021.8.27 (from dateparser<2.0.0,>=1.1.1->prefect)",
             "packages": [
-                "regex-2024.9.11-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "regex-2024.9.11-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "tzlocal (from dateparser<2.0.0,>=1.1.1->prefect)",
             "packages": [
-                "tzlocal-5.2-py3-none-any.whl"
+                "tzlocal-5.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "urllib3>=1.26.0 (from docker<8.0,>=4.0->prefect)",
             "packages": [
-                "urllib3-2.2.3-py3-none-any.whl"
+                "urllib3-2.2.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "starlette<0.39.0,>=0.37.2 (from fastapi<1.0.0,>=0.111.0->prefect)",
             "packages": [
-                "starlette-0.38.6-py3-none-any.whl"
+                "starlette-0.38.6-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "colorama>=0.4 (from griffe<2.0.0,>=0.49.0->prefect)",
             "packages": [
-                "colorama-0.4.6-py2.py3-none-any.whl"
+                "colorama-0.4.6-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "h11<0.15,>=0.13 (from httpcore<2.0.0,>=1.0.5->prefect)",
             "packages": [
-                "h11-0.14.0-py3-none-any.whl"
+                "h11-0.14.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "h2<5,>=3 (from httpx[http2]!=0.23.2,>=0.23->prefect)",
             "packages": [
-                "h2-4.1.0-py3-none-any.whl"
+                "h2-4.1.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "MarkupSafe>=2.0 (from jinja2<4.0.0,>=3.0.0->prefect)",
             "packages": [
-                "MarkupSafe-2.1.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "MarkupSafe-2.1.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "jsonpointer>=1.9 (from jsonpatch<2.0,>=1.32->prefect)",
             "packages": [
-                "jsonpointer-3.0.0-py2.py3-none-any.whl"
+                "jsonpointer-3.0.0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "attrs>=22.2.0 (from jsonschema<5.0.0,>=4.0.0->prefect)",
             "packages": [
-                "attrs-24.2.0-py3-none-any.whl"
+                "attrs-24.2.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "jsonschema-specifications>=2023.03.6 (from jsonschema<5.0.0,>=4.0.0->prefect)",
             "packages": [
-                "jsonschema_specifications-2023.12.1-py3-none-any.whl"
+                "jsonschema_specifications-2023.12.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "referencing>=0.28.4 (from jsonschema<5.0.0,>=4.0.0->prefect)",
             "packages": [
-                "referencing-0.35.1-py3-none-any.whl"
+                "referencing-0.35.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "rpds-py>=0.7.1 (from jsonschema<5.0.0,>=4.0.0->prefect)",
             "packages": [
-                "rpds_py-0.20.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "rpds_py-0.20.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "tzdata>=2020.1 (from pendulum<4,>=3.0.0->prefect)",
             "packages": [
-                "tzdata-2024.2-py2.py3-none-any.whl"
+                "tzdata-2024.2-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "time-machine>=2.6.0 (from pendulum<4,>=3.0.0->prefect)",
             "packages": [
-                "time_machine-2.15.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "time_machine-2.15.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "annotated-types>=0.6.0 (from pydantic<3.0.0,>=2.7->prefect)",
             "packages": [
-                "annotated_types-0.7.0-py3-none-any.whl"
+                "annotated_types-0.7.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pydantic-core<3.0.0,>=2.12.0 (from prefect)",
             "packages": [
-                "pydantic_core-2.23.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "pydantic_core-2.23.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "six>=1.5 (from python-dateutil<3.0.0,>=2.8.2->prefect)",
             "packages": [
-                "six-1.16.0-py2.py3-none-any.whl"
+                "six-1.16.0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "text-unidecode>=1.3 (from python-slugify<9.0,>=5.0->prefect)",
             "packages": [
-                "text_unidecode-1.3-py2.py3-none-any.whl"
+                "text_unidecode-1.3-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "markdown-it-py>=2.2.0 (from rich<14.0,>=11.0->prefect)",
             "packages": [
-                "markdown_it_py-3.0.0-py3-none-any.whl"
+                "markdown_it_py-3.0.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pygments<3.0.0,>=2.13.0 (from rich<14.0,>=11.0->prefect)",
             "packages": [
-                "pygments-2.18.0-py3-none-any.whl"
+                "pygments-2.18.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "ruamel.yaml.clib>=0.2.7 (from ruamel.yaml>=0.17.0->prefect)",
             "packages": [
-                "ruamel.yaml.clib-0.2.8-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl"
+                "ruamel.yaml.clib-0.2.8-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "greenlet!=0.4.17 (from sqlalchemy<3.0.0,>=2.0->sqlalchemy[asyncio]<3.0.0,>=2.0->prefect)",
             "packages": [
-                "greenlet-3.1.1-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl"
+                "greenlet-3.1.1-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "shellingham>=1.3.0 (from typer!=0.12.2,<0.13.0,>=0.12.0->prefect)",
             "packages": [
-                "shellingham-1.5.4-py2.py3-none-any.whl"
+                "shellingham-1.5.4-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "python-dotenv>=0.21.0 (from pydantic-settings->prefect)",
             "packages": [
-                "python_dotenv-1.0.1-py3-none-any.whl"
+                "python_dotenv-1.0.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pycparser (from cffi>=1.12->cryptography>=36.0.1->prefect)",
             "packages": [
-                "pycparser-2.22-py3-none-any.whl"
+                "pycparser-2.22-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "hyperframe<7,>=6.0 (from h2<5,>=3->httpx[http2]!=0.23.2,>=0.23->prefect)",
             "packages": [
-                "hyperframe-6.0.1-py3-none-any.whl"
+                "hyperframe-6.0.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "hpack<5,>=4.0 (from h2<5,>=3->httpx[http2]!=0.23.2,>=0.23->prefect)",
             "packages": [
-                "hpack-4.0.0-py3-none-any.whl"
+                "hpack-4.0.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "mdurl~=0.1 (from markdown-it-py>=2.2.0->rich<14.0,>=11.0->prefect)",
             "packages": [
-                "mdurl-0.1.2-py3-none-any.whl"
+                "mdurl-0.1.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "charset-normalizer<4,>=2 (from requests->apprise<2.0.0,>=1.1.0->prefect)",
             "packages": [
-                "charset_normalizer-3.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "charset_normalizer-3.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "oauthlib>=3.0.0 (from requests-oauthlib->apprise<2.0.0,>=1.1.0->prefect)",
             "packages": [
-                "oauthlib-3.2.2-py3-none-any.whl"
+                "oauthlib-3.2.2-py3-none-any.whl.metadata"
             ]
         }
     ]

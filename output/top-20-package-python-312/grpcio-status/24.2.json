@@ -2,7 +2,7 @@
     "input": {
         "pip_version": "24.2",
         "python_version": "3.12",
-        "datetime": "2024-10-07T14:00:00",
+        "datetime": "2024-10-07 14:00:00",
         "platform_system": "Linux",
         "requirements": [
             "grpcio-status"
@@ -34,25 +34,25 @@
         {
             "requirement": "grpcio-status",
             "packages": [
-                "grpcio_status-1.66.2-py3-none-any.whl"
+                "grpcio_status-1.66.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "protobuf<6.0dev,>=5.26.1 (from grpcio-status)",
             "packages": [
-                "protobuf-5.28.2-cp38-abi3-manylinux2014_x86_64.whl"
+                "protobuf-5.28.2-cp38-abi3-manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "grpcio>=1.66.2 (from grpcio-status)",
             "packages": [
-                "grpcio-1.66.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "grpcio-1.66.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "googleapis-common-protos>=1.5.5 (from grpcio-status)",
             "packages": [
-                "googleapis_common_protos-1.65.0-py2.py3-none-any.whl"
+                "googleapis_common_protos-1.65.0-py2.py3-none-any.whl.metadata"
             ]
         }
     ]

@@ -2,7 +2,7 @@
     "input": {
         "pip_version": "24.2",
         "python_version": "3.11",
-        "datetime": "2024-10-07T14:00:00",
+        "datetime": "2024-10-07 14:00:00",
         "platform_system": "Linux",
         "requirements": [
             "kedro"
@@ -222,193 +222,193 @@
         {
             "requirement": "kedro",
             "packages": [
-                "kedro-0.19.8-py3-none-any.whl"
+                "kedro-0.19.8-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "attrs>=21.3 (from kedro)",
             "packages": [
-                "attrs-24.2.0-py3-none-any.whl"
+                "attrs-24.2.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "build>=0.7.0 (from kedro)",
             "packages": [
-                "build-1.2.2.post1-py3-none-any.whl"
+                "build-1.2.2.post1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "cachetools>=4.1 (from kedro)",
             "packages": [
-                "cachetools-5.5.0-py3-none-any.whl"
+                "cachetools-5.5.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "click>=4.0 (from kedro)",
             "packages": [
-                "click-8.1.7-py3-none-any.whl"
+                "click-8.1.7-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "cookiecutter<3.0,>=2.1.1 (from kedro)",
             "packages": [
-                "cookiecutter-2.6.0-py3-none-any.whl"
+                "cookiecutter-2.6.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "dynaconf<4.0,>=3.1.2 (from kedro)",
             "packages": [
-                "dynaconf-3.2.6-py2.py3-none-any.whl"
+                "dynaconf-3.2.6-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "fsspec>=2021.4 (from kedro)",
             "packages": [
-                "fsspec-2024.9.0-py3-none-any.whl"
+                "fsspec-2024.9.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "gitpython>=3.0 (from kedro)",
             "packages": [
-                "GitPython-3.1.43-py3-none-any.whl"
+                "GitPython-3.1.43-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "importlib-metadata<9.0,>=3.6 (from kedro)",
             "packages": [
-                "importlib_metadata-8.5.0-py3-none-any.whl"
+                "importlib_metadata-8.5.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "importlib-resources<7.0,>=1.3 (from kedro)",
             "packages": [
-                "importlib_resources-6.4.5-py3-none-any.whl"
+                "importlib_resources-6.4.5-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "kedro-telemetry>=0.5.0 (from kedro)",
             "packages": [
-                "kedro_telemetry-0.6.1-py3-none-any.whl"
+                "kedro_telemetry-0.6.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "more-itertools>=8.14.0 (from kedro)",
             "packages": [
-                "more_itertools-10.5.0-py3-none-any.whl"
+                "more_itertools-10.5.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "omegaconf>=2.1.1 (from kedro)",
             "packages": [
-                "omegaconf-2.3.0-py3-none-any.whl"
+                "omegaconf-2.3.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "parse>=1.19.0 (from kedro)",
             "packages": [
-                "parse-1.20.2-py2.py3-none-any.whl"
+                "parse-1.20.2-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pluggy>=1.0 (from kedro)",
             "packages": [
-                "pluggy-1.5.0-py3-none-any.whl"
+                "pluggy-1.5.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pre-commit-hooks (from kedro)",
             "packages": [
-                "pre_commit_hooks-5.0.0-py2.py3-none-any.whl"
+                "pre_commit_hooks-5.0.0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "PyYAML<7.0,>=4.2 (from kedro)",
             "packages": [
-                "PyYAML-6.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "PyYAML-6.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "rich<14.0,>=12.0 (from kedro)",
             "packages": [
-                "rich-13.9.2-py3-none-any.whl"
+                "rich-13.9.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "rope<2.0,>=0.21 (from kedro)",
             "packages": [
-                "rope-1.13.0-py3-none-any.whl"
+                "rope-1.13.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "toml>=0.10.0 (from kedro)",
             "packages": [
-                "toml-0.10.2-py2.py3-none-any.whl"
+                "toml-0.10.2-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "typing-extensions>=4.0 (from kedro)",
             "packages": [
-                "typing_extensions-4.12.2-py3-none-any.whl"
+                "typing_extensions-4.12.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "packaging>=19.1 (from build>=0.7.0->kedro)",
             "packages": [
-                "packaging-24.1-py3-none-any.whl"
+                "packaging-24.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pyproject_hooks (from build>=0.7.0->kedro)",
             "packages": [
-                "pyproject_hooks-1.2.0-py3-none-any.whl"
+                "pyproject_hooks-1.2.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "binaryornot>=0.4.4 (from cookiecutter<3.0,>=2.1.1->kedro)",
             "packages": [
-                "binaryornot-0.4.4-py2.py3-none-any.whl"
+                "binaryornot-0.4.4-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "Jinja2<4.0.0,>=2.7 (from cookiecutter<3.0,>=2.1.1->kedro)",
             "packages": [
-                "jinja2-3.1.4-py3-none-any.whl"
+                "jinja2-3.1.4-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "python-slugify>=4.0.0 (from cookiecutter<3.0,>=2.1.1->kedro)",
             "packages": [
-                "python_slugify-8.0.4-py2.py3-none-any.whl"
+                "python_slugify-8.0.4-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "requests>=2.23.0 (from cookiecutter<3.0,>=2.1.1->kedro)",
             "packages": [
-                "requests-2.32.3-py3-none-any.whl"
+                "requests-2.32.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "arrow (from cookiecutter<3.0,>=2.1.1->kedro)",
             "packages": [
-                "arrow-1.3.0-py3-none-any.whl"
+                "arrow-1.3.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "gitdb<5,>=4.0.1 (from gitpython>=3.0->kedro)",
             "packages": [
-                "gitdb-4.0.11-py3-none-any.whl"
+                "gitdb-4.0.11-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "zipp>=3.20 (from importlib-metadata<9.0,>=3.6->kedro)",
             "packages": [
-                "zipp-3.20.2-py3-none-any.whl"
+                "zipp-3.20.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "appdirs>=1.4.4 (from kedro-telemetry>=0.5.0->kedro)",
             "packages": [
-                "appdirs-1.4.4-py2.py3-none-any.whl"
+                "appdirs-1.4.4-py2.py3-none-any.whl.metadata"
             ]
         },
         {
@@ -420,109 +420,109 @@
         {
             "requirement": "markdown-it-py>=2.2.0 (from rich<14.0,>=12.0->kedro)",
             "packages": [
-                "markdown_it_py-3.0.0-py3-none-any.whl"
+                "markdown_it_py-3.0.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pygments<3.0.0,>=2.13.0 (from rich<14.0,>=12.0->kedro)",
             "packages": [
-                "pygments-2.18.0-py3-none-any.whl"
+                "pygments-2.18.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pytoolconfig>=1.2.2 (from pytoolconfig[global]>=1.2.2->rope<2.0,>=0.21->kedro)",
             "packages": [
-                "pytoolconfig-1.3.1-py3-none-any.whl"
+                "pytoolconfig-1.3.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "ruamel.yaml>=0.15 (from pre-commit-hooks->kedro)",
             "packages": [
-                "ruamel.yaml-0.18.6-py3-none-any.whl"
+                "ruamel.yaml-0.18.6-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "chardet>=3.0.2 (from binaryornot>=0.4.4->cookiecutter<3.0,>=2.1.1->kedro)",
             "packages": [
-                "chardet-5.2.0-py3-none-any.whl"
+                "chardet-5.2.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "smmap<6,>=3.0.1 (from gitdb<5,>=4.0.1->gitpython>=3.0->kedro)",
             "packages": [
-                "smmap-5.0.1-py3-none-any.whl"
+                "smmap-5.0.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "MarkupSafe>=2.0 (from Jinja2<4.0.0,>=2.7->cookiecutter<3.0,>=2.1.1->kedro)",
             "packages": [
-                "MarkupSafe-2.1.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "MarkupSafe-2.1.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "mdurl~=0.1 (from markdown-it-py>=2.2.0->rich<14.0,>=12.0->kedro)",
             "packages": [
-                "mdurl-0.1.2-py3-none-any.whl"
+                "mdurl-0.1.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "text-unidecode>=1.3 (from python-slugify>=4.0.0->cookiecutter<3.0,>=2.1.1->kedro)",
             "packages": [
-                "text_unidecode-1.3-py2.py3-none-any.whl"
+                "text_unidecode-1.3-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "platformdirs>=3.11.0 (from pytoolconfig[global]>=1.2.2->rope<2.0,>=0.21->kedro)",
             "packages": [
-                "platformdirs-4.3.6-py3-none-any.whl"
+                "platformdirs-4.3.6-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "charset-normalizer<4,>=2 (from requests>=2.23.0->cookiecutter<3.0,>=2.1.1->kedro)",
             "packages": [
-                "charset_normalizer-3.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "charset_normalizer-3.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "idna<4,>=2.5 (from requests>=2.23.0->cookiecutter<3.0,>=2.1.1->kedro)",
             "packages": [
-                "idna-3.10-py3-none-any.whl"
+                "idna-3.10-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "urllib3<3,>=1.21.1 (from requests>=2.23.0->cookiecutter<3.0,>=2.1.1->kedro)",
             "packages": [
-                "urllib3-2.2.3-py3-none-any.whl"
+                "urllib3-2.2.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "certifi>=2017.4.17 (from requests>=2.23.0->cookiecutter<3.0,>=2.1.1->kedro)",
             "packages": [
-                "certifi-2024.8.30-py3-none-any.whl"
+                "certifi-2024.8.30-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "ruamel.yaml.clib>=0.2.7 (from ruamel.yaml>=0.15->pre-commit-hooks->kedro)",
             "packages": [
-                "ruamel.yaml.clib-0.2.8-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl"
+                "ruamel.yaml.clib-0.2.8-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "python-dateutil>=2.7.0 (from arrow->cookiecutter<3.0,>=2.1.1->kedro)",
             "packages": [
-                "python_dateutil-2.9.0.post0-py2.py3-none-any.whl"
+                "python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "types-python-dateutil>=2.8.10 (from arrow->cookiecutter<3.0,>=2.1.1->kedro)",
             "packages": [
-                "types_python_dateutil-2.9.0.20241003-py3-none-any.whl"
+                "types_python_dateutil-2.9.0.20241003-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "six>=1.5 (from python-dateutil>=2.7.0->arrow->cookiecutter<3.0,>=2.1.1->kedro)",
             "packages": [
-                "six-1.16.0-py2.py3-none-any.whl"
+                "six-1.16.0-py2.py3-none-any.whl.metadata"
             ]
         }
     ]

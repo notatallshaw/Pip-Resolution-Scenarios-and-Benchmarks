@@ -2,7 +2,7 @@
     "input": {
         "pip_version": "24.2",
         "python_version": "3.11",
-        "datetime": "2024-10-07T14:00:00",
+        "datetime": "2024-10-07 14:00:00",
         "platform_system": "Linux",
         "requirements": [
             "celery[redis, s3]"
@@ -102,127 +102,127 @@
         {
             "requirement": "celery[redis,s3]",
             "packages": [
-                "celery-5.4.0-py3-none-any.whl"
+                "celery-5.4.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "billiard<5.0,>=4.2.0 (from celery[redis,s3])",
             "packages": [
-                "billiard-4.2.1-py3-none-any.whl"
+                "billiard-4.2.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "kombu<6.0,>=5.3.4 (from celery[redis,s3])",
             "packages": [
-                "kombu-5.4.2-py3-none-any.whl"
+                "kombu-5.4.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "vine<6.0,>=5.1.0 (from celery[redis,s3])",
             "packages": [
-                "vine-5.1.0-py3-none-any.whl"
+                "vine-5.1.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "click<9.0,>=8.1.2 (from celery[redis,s3])",
             "packages": [
-                "click-8.1.7-py3-none-any.whl"
+                "click-8.1.7-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "click-didyoumean>=0.3.0 (from celery[redis,s3])",
             "packages": [
-                "click_didyoumean-0.3.1-py3-none-any.whl"
+                "click_didyoumean-0.3.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "click-repl>=0.2.0 (from celery[redis,s3])",
             "packages": [
-                "click_repl-0.3.0-py3-none-any.whl"
+                "click_repl-0.3.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "click-plugins>=1.1.1 (from celery[redis,s3])",
             "packages": [
-                "click_plugins-1.1.1-py2.py3-none-any.whl"
+                "click_plugins-1.1.1-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "tzdata>=2022.7 (from celery[redis,s3])",
             "packages": [
-                "tzdata-2024.2-py2.py3-none-any.whl"
+                "tzdata-2024.2-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "python-dateutil>=2.8.2 (from celery[redis,s3])",
             "packages": [
-                "python_dateutil-2.9.0.post0-py2.py3-none-any.whl"
+                "python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "redis!=4.5.5,<6.0.0,>=4.5.2 (from celery[redis,s3])",
             "packages": [
-                "redis-5.1.1-py3-none-any.whl"
+                "redis-5.1.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "boto3>=1.26.143 (from celery[redis,s3])",
             "packages": [
-                "boto3-1.35.34-py3-none-any.whl"
+                "boto3-1.35.34-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "botocore<1.36.0,>=1.35.34 (from boto3>=1.26.143->celery[redis,s3])",
             "packages": [
-                "botocore-1.35.34-py3-none-any.whl"
+                "botocore-1.35.34-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "jmespath<2.0.0,>=0.7.1 (from boto3>=1.26.143->celery[redis,s3])",
             "packages": [
-                "jmespath-1.0.1-py3-none-any.whl"
+                "jmespath-1.0.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "s3transfer<0.11.0,>=0.10.0 (from boto3>=1.26.143->celery[redis,s3])",
             "packages": [
-                "s3transfer-0.10.2-py3-none-any.whl"
+                "s3transfer-0.10.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "prompt-toolkit>=3.0.36 (from click-repl>=0.2.0->celery[redis,s3])",
             "packages": [
-                "prompt_toolkit-3.0.48-py3-none-any.whl"
+                "prompt_toolkit-3.0.48-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "amqp<6.0.0,>=5.1.1 (from kombu<6.0,>=5.3.4->celery[redis,s3])",
             "packages": [
-                "amqp-5.2.0-py3-none-any.whl"
+                "amqp-5.2.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "six>=1.5 (from python-dateutil>=2.8.2->celery[redis,s3])",
             "packages": [
-                "six-1.16.0-py2.py3-none-any.whl"
+                "six-1.16.0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "async-timeout>=4.0.3 (from redis!=4.5.5,<6.0.0,>=4.5.2->celery[redis,s3])",
             "packages": [
-                "async_timeout-4.0.3-py3-none-any.whl"
+                "async_timeout-4.0.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "urllib3!=2.2.0,<3,>=1.25.4 (from botocore<1.36.0,>=1.35.34->boto3>=1.26.143->celery[redis,s3])",
             "packages": [
-                "urllib3-2.2.3-py3-none-any.whl"
+                "urllib3-2.2.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "wcwidth (from prompt-toolkit>=3.0.36->click-repl>=0.2.0->celery[redis,s3])",
             "packages": [
-                "wcwidth-0.2.13-py2.py3-none-any.whl"
+                "wcwidth-0.2.13-py2.py3-none-any.whl.metadata"
             ]
         }
     ]

@@ -2,7 +2,7 @@
     "input": {
         "pip_version": "24.2",
         "python_version": "3.11",
-        "datetime": "2024-10-07T14:00:00",
+        "datetime": "2024-10-07 14:00:00",
         "platform_system": "Linux",
         "requirements": [
             "fabric"
@@ -62,67 +62,67 @@
         {
             "requirement": "fabric",
             "packages": [
-                "fabric-3.2.2-py3-none-any.whl"
+                "fabric-3.2.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "invoke>=2.0 (from fabric)",
             "packages": [
-                "invoke-2.2.0-py3-none-any.whl"
+                "invoke-2.2.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "paramiko>=2.4 (from fabric)",
             "packages": [
-                "paramiko-3.5.0-py3-none-any.whl"
+                "paramiko-3.5.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "decorator>=5 (from fabric)",
             "packages": [
-                "decorator-5.1.1-py3-none-any.whl"
+                "decorator-5.1.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "deprecated>=1.2 (from fabric)",
             "packages": [
-                "Deprecated-1.2.14-py2.py3-none-any.whl"
+                "Deprecated-1.2.14-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "wrapt<2,>=1.10 (from deprecated>=1.2->fabric)",
             "packages": [
-                "wrapt-1.16.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "wrapt-1.16.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "bcrypt>=3.2 (from paramiko>=2.4->fabric)",
             "packages": [
-                "bcrypt-4.2.0-cp39-abi3-manylinux_2_28_x86_64.whl"
+                "bcrypt-4.2.0-cp39-abi3-manylinux_2_28_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "cryptography>=3.3 (from paramiko>=2.4->fabric)",
             "packages": [
-                "cryptography-43.0.1-cp39-abi3-manylinux_2_28_x86_64.whl"
+                "cryptography-43.0.1-cp39-abi3-manylinux_2_28_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "pynacl>=1.5 (from paramiko>=2.4->fabric)",
             "packages": [
-                "PyNaCl-1.5.0-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl"
+                "PyNaCl-1.5.0-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "cffi>=1.12 (from cryptography>=3.3->paramiko>=2.4->fabric)",
             "packages": [
-                "cffi-1.17.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "cffi-1.17.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "pycparser (from cffi>=1.12->cryptography>=3.3->paramiko>=2.4->fabric)",
             "packages": [
-                "pycparser-2.22-py3-none-any.whl"
+                "pycparser-2.22-py3-none-any.whl.metadata"
             ]
         }
     ]

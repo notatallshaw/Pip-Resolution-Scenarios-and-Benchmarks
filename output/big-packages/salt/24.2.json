@@ -2,7 +2,7 @@
     "input": {
         "pip_version": "24.2",
         "python_version": "3.11",
-        "datetime": "2024-10-07T14:00:00",
+        "datetime": "2024-10-07 14:00:00",
         "platform_system": "Linux",
         "requirements": [
             "salt"
@@ -232,73 +232,73 @@
         {
             "requirement": "Jinja2 (from salt)",
             "packages": [
-                "jinja2-3.1.4-py3-none-any.whl"
+                "jinja2-3.1.4-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "jmespath (from salt)",
             "packages": [
-                "jmespath-1.0.1-py3-none-any.whl"
+                "jmespath-1.0.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "msgpack>=1.0.0 (from salt)",
             "packages": [
-                "msgpack-1.1.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "msgpack-1.1.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "PyYAML (from salt)",
             "packages": [
-                "PyYAML-6.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "PyYAML-6.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "MarkupSafe (from salt)",
             "packages": [
-                "MarkupSafe-2.1.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "MarkupSafe-2.1.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "requests>=2.25.1 (from salt)",
             "packages": [
-                "requests-2.32.3-py3-none-any.whl"
+                "requests-2.32.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "distro>=1.0.1 (from salt)",
             "packages": [
-                "distro-1.9.0-py3-none-any.whl"
+                "distro-1.9.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "psutil>=5.0.0 (from salt)",
             "packages": [
-                "psutil-6.0.0-cp36-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "psutil-6.0.0-cp36-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "packaging>=21.3 (from salt)",
             "packages": [
-                "packaging-24.1-py3-none-any.whl"
+                "packaging-24.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "looseversion (from salt)",
             "packages": [
-                "looseversion-1.3.0-py2.py3-none-any.whl"
+                "looseversion-1.3.0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "tornado>=6.3.3 (from salt)",
             "packages": [
-                "tornado-6.4.1-cp38-abi3-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "tornado-6.4.1-cp38-abi3-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "aiohttp>=3.9.0 (from salt)",
             "packages": [
-                "aiohttp-3.10.9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "aiohttp-3.10.9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
@@ -310,7 +310,7 @@
         {
             "requirement": "setproctitle>=1.2.3 (from salt)",
             "packages": [
-                "setproctitle-1.3.3-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "setproctitle-1.3.3-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
@@ -322,49 +322,49 @@
         {
             "requirement": "pyopenssl>=24.0.0 (from salt)",
             "packages": [
-                "pyOpenSSL-24.2.1-py3-none-any.whl"
+                "pyOpenSSL-24.2.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "python-dateutil>=2.8.1 (from salt)",
             "packages": [
-                "python_dateutil-2.9.0.post0-py2.py3-none-any.whl"
+                "python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "python-gnupg>=0.4.7 (from salt)",
             "packages": [
-                "python_gnupg-0.5.3-py2.py3-none-any.whl"
+                "python_gnupg-0.5.3-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "cherrypy>=18.6.1 (from salt)",
             "packages": [
-                "CherryPy-18.10.0-py3-none-any.whl"
+                "CherryPy-18.10.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "importlib-metadata>=3.3.0 (from salt)",
             "packages": [
-                "importlib_metadata-8.5.0-py3-none-any.whl"
+                "importlib_metadata-8.5.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "cryptography>=42.0.0 (from salt)",
             "packages": [
-                "cryptography-43.0.1-cp39-abi3-manylinux_2_28_x86_64.whl"
+                "cryptography-43.0.1-cp39-abi3-manylinux_2_28_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "pyzmq>=25.1.2 (from salt)",
             "packages": [
-                "pyzmq-26.2.0-cp311-cp311-manylinux_2_28_x86_64.whl"
+                "pyzmq-26.2.0-cp311-cp311-manylinux_2_28_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "pycryptodomex>=3.9.8 (from salt)",
             "packages": [
-                "pycryptodomex-3.21.0-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "pycryptodomex-3.21.0-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
@@ -376,163 +376,163 @@
         {
             "requirement": "aiohappyeyeballs>=2.3.0 (from aiohttp>=3.9.0->salt)",
             "packages": [
-                "aiohappyeyeballs-2.4.3-py3-none-any.whl"
+                "aiohappyeyeballs-2.4.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "aiosignal>=1.1.2 (from aiohttp>=3.9.0->salt)",
             "packages": [
-                "aiosignal-1.3.1-py3-none-any.whl"
+                "aiosignal-1.3.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "attrs>=17.3.0 (from aiohttp>=3.9.0->salt)",
             "packages": [
-                "attrs-24.2.0-py3-none-any.whl"
+                "attrs-24.2.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "frozenlist>=1.1.1 (from aiohttp>=3.9.0->salt)",
             "packages": [
-                "frozenlist-1.4.1-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "frozenlist-1.4.1-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "multidict<7.0,>=4.5 (from aiohttp>=3.9.0->salt)",
             "packages": [
-                "multidict-6.1.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "multidict-6.1.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "yarl<2.0,>=1.12.0 (from aiohttp>=3.9.0->salt)",
             "packages": [
-                "yarl-1.13.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "yarl-1.13.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "cheroot>=8.2.1 (from cherrypy>=18.6.1->salt)",
             "packages": [
-                "cheroot-10.0.1-py3-none-any.whl"
+                "cheroot-10.0.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "portend>=2.1.1 (from cherrypy>=18.6.1->salt)",
             "packages": [
-                "portend-3.2.0-py3-none-any.whl"
+                "portend-3.2.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "more-itertools (from cherrypy>=18.6.1->salt)",
             "packages": [
-                "more_itertools-10.5.0-py3-none-any.whl"
+                "more_itertools-10.5.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "zc.lockfile (from cherrypy>=18.6.1->salt)",
             "packages": [
-                "zc.lockfile-3.0.post1-py3-none-any.whl"
+                "zc.lockfile-3.0.post1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "jaraco.collections (from cherrypy>=18.6.1->salt)",
             "packages": [
-                "jaraco.collections-5.1.0-py3-none-any.whl"
+                "jaraco.collections-5.1.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "cffi>=1.12 (from cryptography>=42.0.0->salt)",
             "packages": [
-                "cffi-1.17.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "cffi-1.17.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "zipp>=3.20 (from importlib-metadata>=3.3.0->salt)",
             "packages": [
-                "zipp-3.20.2-py3-none-any.whl"
+                "zipp-3.20.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "six>=1.5 (from python-dateutil>=2.8.1->salt)",
             "packages": [
-                "six-1.16.0-py2.py3-none-any.whl"
+                "six-1.16.0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "charset-normalizer<4,>=2 (from requests>=2.25.1->salt)",
             "packages": [
-                "charset_normalizer-3.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "charset_normalizer-3.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "idna<4,>=2.5 (from requests>=2.25.1->salt)",
             "packages": [
-                "idna-3.10-py3-none-any.whl"
+                "idna-3.10-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "urllib3<3,>=1.21.1 (from requests>=2.25.1->salt)",
             "packages": [
-                "urllib3-2.2.3-py3-none-any.whl"
+                "urllib3-2.2.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "certifi>=2017.4.17 (from requests>=2.25.1->salt)",
             "packages": [
-                "certifi-2024.8.30-py3-none-any.whl"
+                "certifi-2024.8.30-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "immutables>=0.9 (from contextvars->salt)",
             "packages": [
-                "immutables-0.20-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "immutables-0.20-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "pycparser (from cffi>=1.12->cryptography>=42.0.0->salt)",
             "packages": [
-                "pycparser-2.22-py3-none-any.whl"
+                "pycparser-2.22-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "jaraco.functools (from cheroot>=8.2.1->cherrypy>=18.6.1->salt)",
             "packages": [
-                "jaraco.functools-4.1.0-py3-none-any.whl"
+                "jaraco.functools-4.1.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "tempora>=1.8 (from portend>=2.1.1->cherrypy>=18.6.1->salt)",
             "packages": [
-                "tempora-5.7.0-py3-none-any.whl"
+                "tempora-5.7.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "jaraco.text (from jaraco.collections->cherrypy>=18.6.1->salt)",
             "packages": [
-                "jaraco.text-4.0.0-py3-none-any.whl"
+                "jaraco.text-4.0.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "setuptools (from zc.lockfile->cherrypy>=18.6.1->salt)",
             "packages": [
-                "setuptools-75.1.0-py3-none-any.whl"
+                "setuptools-75.1.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "jaraco.context>=4.1 (from jaraco.text->jaraco.collections->cherrypy>=18.6.1->salt)",
             "packages": [
-                "jaraco.context-6.0.1-py3-none-any.whl"
+                "jaraco.context-6.0.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "autocommand (from jaraco.text->jaraco.collections->cherrypy>=18.6.1->salt)",
             "packages": [
-                "autocommand-2.2.2-py3-none-any.whl"
+                "autocommand-2.2.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "backports.tarfile (from jaraco.context>=4.1->jaraco.text->jaraco.collections->cherrypy>=18.6.1->salt)",
             "packages": [
-                "backports.tarfile-1.2.0-py3-none-any.whl"
+                "backports.tarfile-1.2.0-py3-none-any.whl.metadata"
             ]
         }
     ]

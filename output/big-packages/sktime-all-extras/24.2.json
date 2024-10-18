@@ -2,7 +2,7 @@
     "input": {
         "pip_version": "24.2",
         "python_version": "3.9",
-        "datetime": "2024-10-07T14:00:00",
+        "datetime": "2024-10-07 14:00:00",
         "platform_system": "Linux",
         "requirements": [
             "sktime[all-extras]"
@@ -582,127 +582,127 @@
         {
             "requirement": "sktime[all-extras]",
             "packages": [
-                "sktime-0.33.1-py3-none-any.whl"
+                "sktime-0.33.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "joblib<1.5,>=1.2.0 (from sktime[all-extras])",
             "packages": [
-                "joblib-1.4.2-py3-none-any.whl"
+                "joblib-1.4.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "numpy<2.1,>=1.21 (from sktime[all-extras])",
             "packages": [
-                "numpy-2.0.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "numpy-2.0.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "packaging (from sktime[all-extras])",
             "packages": [
-                "packaging-24.1-py3-none-any.whl"
+                "packaging-24.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pandas<2.3.0,>=1.1 (from sktime[all-extras])",
             "packages": [
-                "pandas-2.2.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "pandas-2.2.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "scikit-base<0.9.0,>=0.6.1 (from sktime[all-extras])",
             "packages": [
-                "scikit_base-0.8.3-py3-none-any.whl"
+                "scikit_base-0.8.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "scikit-learn<1.6.0,>=0.24 (from sktime[all-extras])",
             "packages": [
-                "scikit_learn-1.5.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "scikit_learn-1.5.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "scipy<2.0.0,>=1.2 (from sktime[all-extras])",
             "packages": [
-                "scipy-1.13.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "scipy-1.13.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "arch<7.1.0,>=5.6 (from sktime[all-extras])",
             "packages": [
-                "arch-7.0.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "arch-7.0.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "autots<0.7,>=0.6.1 (from sktime[all-extras])",
             "packages": [
-                "autots-0.6.15-py3-none-any.whl"
+                "autots-0.6.15-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "cloudpickle (from sktime[all-extras])",
             "packages": [
-                "cloudpickle-3.0.0-py3-none-any.whl"
+                "cloudpickle-3.0.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "dash!=2.9.0 (from sktime[all-extras])",
             "packages": [
-                "dash-2.18.1-py3-none-any.whl"
+                "dash-2.18.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "dtaidistance<2.4 (from sktime[all-extras])",
             "packages": [
-                "dtaidistance-2.3.12-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "dtaidistance-2.3.12-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "dtw-python (from sktime[all-extras])",
             "packages": [
-                "dtw_python-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "dtw_python-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "gluonts>=0.9 (from sktime[all-extras])",
             "packages": [
-                "gluonts-0.15.1-py3-none-any.whl"
+                "gluonts-0.15.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "holidays (from sktime[all-extras])",
             "packages": [
-                "holidays-0.57-py3-none-any.whl"
+                "holidays-0.57-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "matplotlib!=3.9.1,>=3.3.2 (from sktime[all-extras])",
             "packages": [
-                "matplotlib-3.9.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "matplotlib-3.9.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "mne (from sktime[all-extras])",
             "packages": [
-                "mne-1.8.0-py3-none-any.whl"
+                "mne-1.8.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "numba<0.61,>=0.53 (from sktime[all-extras])",
             "packages": [
-                "numba-0.60.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"
+                "numba-0.60.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "optuna<4.1 (from sktime[all-extras])",
             "packages": [
-                "optuna-4.0.0-py3-none-any.whl"
+                "optuna-4.0.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "polars<2.0,>=0.20 (from polars[pandas]<2.0,>=0.20; extra == \"all-extras\"->sktime[all-extras])",
             "packages": [
-                "polars-1.9.0-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "polars-1.9.0-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
@@ -714,67 +714,67 @@
         {
             "requirement": "scikit-optimize (from sktime[all-extras])",
             "packages": [
-                "scikit_optimize-0.10.2-py2.py3-none-any.whl"
+                "scikit_optimize-0.10.2-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "scikit-posthocs>=0.6.5 (from sktime[all-extras])",
             "packages": [
-                "scikit_posthocs-0.9.0-py3-none-any.whl"
+                "scikit_posthocs-0.9.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "seaborn>=0.11 (from sktime[all-extras])",
             "packages": [
-                "seaborn-0.13.2-py3-none-any.whl"
+                "seaborn-0.13.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "seasonal (from sktime[all-extras])",
             "packages": [
-                "seasonal-0.3.1-py2.py3-none-any.whl"
+                "seasonal-0.3.1-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "skforecast<0.14,>=0.12.1 (from sktime[all-extras])",
             "packages": [
-                "skforecast-0.13.0-py3-none-any.whl"
+                "skforecast-0.13.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "skpro<2.6.0,>=2 (from sktime[all-extras])",
             "packages": [
-                "skpro-2.5.1-py3-none-any.whl"
+                "skpro-2.5.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "statsmodels>=0.12.1 (from sktime[all-extras])",
             "packages": [
-                "statsmodels-0.14.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "statsmodels-0.14.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "tbats>=1.1 (from sktime[all-extras])",
             "packages": [
-                "tbats-1.1.3-py3-none-any.whl"
+                "tbats-1.1.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "xarray (from sktime[all-extras])",
             "packages": [
-                "xarray-2024.7.0-py3-none-any.whl"
+                "xarray-2024.7.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "u8darts<0.31,>=0.29.0 (from sktime[all-extras])",
             "packages": [
-                "u8darts-0.30.0-py3-none-any.whl"
+                "u8darts-0.30.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "esig==0.9.7 (from sktime[all-extras])",
             "packages": [
-                "esig-0.9.7-cp39-cp39-manylinux2010_x86_64.whl"
+                "esig-0.9.7-cp39-cp39-manylinux2010_x86_64.whl.metadata"
             ]
         },
         {
@@ -786,7 +786,7 @@
         {
             "requirement": "hmmlearn>=0.2.7 (from sktime[all-extras])",
             "packages": [
-                "hmmlearn-0.3.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "hmmlearn-0.3.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
@@ -804,637 +804,637 @@
         {
             "requirement": "stumpy>=1.5.1 (from sktime[all-extras])",
             "packages": [
-                "stumpy-1.13.0-py3-none-any.whl"
+                "stumpy-1.13.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "tslearn!=0.6.0,<0.7.0,>=0.5.2 (from sktime[all-extras])",
             "packages": [
-                "tslearn-0.6.3-py3-none-any.whl"
+                "tslearn-0.6.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "h5py (from sktime[all-extras])",
             "packages": [
-                "h5py-3.12.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "h5py-3.12.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "pmdarima!=1.8.1,<3.0.0,>=1.8 (from sktime[all-extras])",
             "packages": [
-                "pmdarima-2.0.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_28_x86_64.whl"
+                "pmdarima-2.0.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_28_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "prophet>=1.1 (from sktime[all-extras])",
             "packages": [
-                "prophet-1.1.6-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "prophet-1.1.6-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "pyts<0.14.0 (from sktime[all-extras])",
             "packages": [
-                "pyts-0.13.0-py3-none-any.whl"
+                "pyts-0.13.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "statsforecast<1.8.0,>=1.0.0 (from sktime[all-extras])",
             "packages": [
-                "statsforecast-1.7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "statsforecast-1.7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "tensorflow<2.17,>=2 (from sktime[all-extras])",
             "packages": [
-                "tensorflow-2.16.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "tensorflow-2.16.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "tsfresh>=0.17 (from sktime[all-extras])",
             "packages": [
-                "tsfresh-0.20.3-py2.py3-none-any.whl"
+                "tsfresh-0.20.3-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "temporian!=0.8.0,<0.9.0,>=0.7.0 (from sktime[all-extras])",
             "packages": [
-                "temporian-0.8.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "temporian-0.8.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "Flask<3.1,>=1.0.4 (from dash!=2.9.0->sktime[all-extras])",
             "packages": [
-                "flask-3.0.3-py3-none-any.whl"
+                "flask-3.0.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "Werkzeug<3.1 (from dash!=2.9.0->sktime[all-extras])",
             "packages": [
-                "werkzeug-3.0.4-py3-none-any.whl"
+                "werkzeug-3.0.4-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "plotly>=5.0.0 (from dash!=2.9.0->sktime[all-extras])",
             "packages": [
-                "plotly-5.24.1-py3-none-any.whl"
+                "plotly-5.24.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "dash-html-components==2.0.0 (from dash!=2.9.0->sktime[all-extras])",
             "packages": [
-                "dash_html_components-2.0.0-py3-none-any.whl"
+                "dash_html_components-2.0.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "dash-core-components==2.0.0 (from dash!=2.9.0->sktime[all-extras])",
             "packages": [
-                "dash_core_components-2.0.0-py3-none-any.whl"
+                "dash_core_components-2.0.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "dash-table==5.0.0 (from dash!=2.9.0->sktime[all-extras])",
             "packages": [
-                "dash_table-5.0.0-py3-none-any.whl"
+                "dash_table-5.0.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "importlib-metadata (from dash!=2.9.0->sktime[all-extras])",
             "packages": [
-                "importlib_metadata-8.5.0-py3-none-any.whl"
+                "importlib_metadata-8.5.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "typing-extensions>=4.1.1 (from dash!=2.9.0->sktime[all-extras])",
             "packages": [
-                "typing_extensions-4.12.2-py3-none-any.whl"
+                "typing_extensions-4.12.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "requests (from dash!=2.9.0->sktime[all-extras])",
             "packages": [
-                "requests-2.32.3-py3-none-any.whl"
+                "requests-2.32.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "retrying (from dash!=2.9.0->sktime[all-extras])",
             "packages": [
-                "retrying-1.3.4-py3-none-any.whl"
+                "retrying-1.3.4-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "nest-asyncio (from dash!=2.9.0->sktime[all-extras])",
             "packages": [
-                "nest_asyncio-1.6.0-py3-none-any.whl"
+                "nest_asyncio-1.6.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "setuptools (from dash!=2.9.0->sktime[all-extras])",
             "packages": [
-                "setuptools-75.1.0-py3-none-any.whl"
+                "setuptools-75.1.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "numpy<2.1,>=1.21 (from sktime[all-extras])",
             "packages": [
-                "numpy-1.26.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "numpy-1.26.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "pydantic<3,>=1.7 (from gluonts>=0.9->sktime[all-extras])",
             "packages": [
-                "pydantic-2.9.2-py3-none-any.whl"
+                "pydantic-2.9.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "tqdm~=4.23 (from gluonts>=0.9->sktime[all-extras])",
             "packages": [
-                "tqdm-4.66.5-py3-none-any.whl"
+                "tqdm-4.66.5-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "toolz~=0.10 (from gluonts>=0.9->sktime[all-extras])",
             "packages": [
-                "toolz-0.12.1-py3-none-any.whl"
+                "toolz-0.12.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "contourpy>=1.0.1 (from matplotlib!=3.9.1,>=3.3.2->sktime[all-extras])",
             "packages": [
-                "contourpy-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "contourpy-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "cycler>=0.10 (from matplotlib!=3.9.1,>=3.3.2->sktime[all-extras])",
             "packages": [
-                "cycler-0.12.1-py3-none-any.whl"
+                "cycler-0.12.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "fonttools>=4.22.0 (from matplotlib!=3.9.1,>=3.3.2->sktime[all-extras])",
             "packages": [
-                "fonttools-4.54.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "fonttools-4.54.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "kiwisolver>=1.3.1 (from matplotlib!=3.9.1,>=3.3.2->sktime[all-extras])",
             "packages": [
-                "kiwisolver-1.4.7-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl"
+                "kiwisolver-1.4.7-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "pillow>=8 (from matplotlib!=3.9.1,>=3.3.2->sktime[all-extras])",
             "packages": [
-                "pillow-10.4.0-cp39-cp39-manylinux_2_28_x86_64.whl"
+                "pillow-10.4.0-cp39-cp39-manylinux_2_28_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "pyparsing>=2.3.1 (from matplotlib!=3.9.1,>=3.3.2->sktime[all-extras])",
             "packages": [
-                "pyparsing-3.1.4-py3-none-any.whl"
+                "pyparsing-3.1.4-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "python-dateutil>=2.7 (from matplotlib!=3.9.1,>=3.3.2->sktime[all-extras])",
             "packages": [
-                "python_dateutil-2.9.0.post0-py2.py3-none-any.whl"
+                "python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "importlib-resources>=3.2.0 (from matplotlib!=3.9.1,>=3.3.2->sktime[all-extras])",
             "packages": [
-                "importlib_resources-6.4.5-py3-none-any.whl"
+                "importlib_resources-6.4.5-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "llvmlite<0.44,>=0.43.0dev0 (from numba<0.61,>=0.53->sktime[all-extras])",
             "packages": [
-                "llvmlite-0.43.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "llvmlite-0.43.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "alembic>=1.5.0 (from optuna<4.1->sktime[all-extras])",
             "packages": [
-                "alembic-1.13.3-py3-none-any.whl"
+                "alembic-1.13.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "colorlog (from optuna<4.1->sktime[all-extras])",
             "packages": [
-                "colorlog-6.8.2-py3-none-any.whl"
+                "colorlog-6.8.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "sqlalchemy>=1.3.0 (from optuna<4.1->sktime[all-extras])",
             "packages": [
-                "SQLAlchemy-2.0.35-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "SQLAlchemy-2.0.35-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "PyYAML (from optuna<4.1->sktime[all-extras])",
             "packages": [
-                "PyYAML-6.0.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "PyYAML-6.0.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "pytz>=2020.1 (from pandas<2.3.0,>=1.1->sktime[all-extras])",
             "packages": [
-                "pytz-2024.2-py2.py3-none-any.whl"
+                "pytz-2024.2-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "tzdata>=2022.7 (from pandas<2.3.0,>=1.1->sktime[all-extras])",
             "packages": [
-                "tzdata-2024.2-py2.py3-none-any.whl"
+                "tzdata-2024.2-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "Cython!=0.29.18,!=0.29.31,>=0.29 (from pmdarima!=1.8.1,<3.0.0,>=1.8->sktime[all-extras])",
             "packages": [
-                "Cython-3.0.11-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "Cython-3.0.11-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "urllib3 (from pmdarima!=1.8.1,<3.0.0,>=1.8->sktime[all-extras])",
             "packages": [
-                "urllib3-2.2.3-py3-none-any.whl"
+                "urllib3-2.2.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "cmdstanpy>=1.0.4 (from prophet>=1.1->sktime[all-extras])",
             "packages": [
-                "cmdstanpy-1.2.4-py3-none-any.whl"
+                "cmdstanpy-1.2.4-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "threadpoolctl>=3.1.0 (from scikit-learn<1.6.0,>=0.24->sktime[all-extras])",
             "packages": [
-                "threadpoolctl-3.5.0-py3-none-any.whl"
+                "threadpoolctl-3.5.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "coreforecast>=0.0.12 (from statsforecast<1.8.0,>=1.0.0->sktime[all-extras])",
             "packages": [
-                "coreforecast-0.0.12-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "coreforecast-0.0.12-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "fugue>=0.8.1 (from statsforecast<1.8.0,>=1.0.0->sktime[all-extras])",
             "packages": [
-                "fugue-0.9.1-py3-none-any.whl"
+                "fugue-0.9.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "utilsforecast>=0.1.4 (from statsforecast<1.8.0,>=1.0.0->sktime[all-extras])",
             "packages": [
-                "utilsforecast-0.2.5-py3-none-any.whl"
+                "utilsforecast-0.2.5-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "patsy>=0.5.6 (from statsmodels>=0.12.1->sktime[all-extras])",
             "packages": [
-                "patsy-0.5.6-py2.py3-none-any.whl"
+                "patsy-0.5.6-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "absl-py<2.0.0,>=1.3.0 (from temporian!=0.8.0,<0.9.0,>=0.7.0->sktime[all-extras])",
             "packages": [
-                "absl_py-1.4.0-py3-none-any.whl"
+                "absl_py-1.4.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "protobuf>=3.20.3 (from temporian!=0.8.0,<0.9.0,>=0.7.0->sktime[all-extras])",
             "packages": [
-                "protobuf-5.28.2-cp38-abi3-manylinux2014_x86_64.whl"
+                "protobuf-5.28.2-cp38-abi3-manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "astunparse>=1.6.0 (from tensorflow<2.17,>=2->sktime[all-extras])",
             "packages": [
-                "astunparse-1.6.3-py2.py3-none-any.whl"
+                "astunparse-1.6.3-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "flatbuffers>=23.5.26 (from tensorflow<2.17,>=2->sktime[all-extras])",
             "packages": [
-                "flatbuffers-24.3.25-py2.py3-none-any.whl"
+                "flatbuffers-24.3.25-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "gast!=0.5.0,!=0.5.1,!=0.5.2,>=0.2.1 (from tensorflow<2.17,>=2->sktime[all-extras])",
             "packages": [
-                "gast-0.6.0-py3-none-any.whl"
+                "gast-0.6.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "google-pasta>=0.1.1 (from tensorflow<2.17,>=2->sktime[all-extras])",
             "packages": [
-                "google_pasta-0.2.0-py3-none-any.whl"
+                "google_pasta-0.2.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "libclang>=13.0.0 (from tensorflow<2.17,>=2->sktime[all-extras])",
             "packages": [
-                "libclang-18.1.1-py2.py3-none-manylinux2010_x86_64.whl"
+                "libclang-18.1.1-py2.py3-none-manylinux2010_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "ml-dtypes~=0.3.1 (from tensorflow<2.17,>=2->sktime[all-extras])",
             "packages": [
-                "ml_dtypes-0.3.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "ml_dtypes-0.3.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "opt-einsum>=2.3.2 (from tensorflow<2.17,>=2->sktime[all-extras])",
             "packages": [
-                "opt_einsum-3.4.0-py3-none-any.whl"
+                "opt_einsum-3.4.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "protobuf>=3.20.3 (from temporian!=0.8.0,<0.9.0,>=0.7.0->sktime[all-extras])",
             "packages": [
-                "protobuf-4.25.5-cp37-abi3-manylinux2014_x86_64.whl"
+                "protobuf-4.25.5-cp37-abi3-manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "six>=1.12.0 (from tensorflow<2.17,>=2->sktime[all-extras])",
             "packages": [
-                "six-1.16.0-py2.py3-none-any.whl"
+                "six-1.16.0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "termcolor>=1.1.0 (from tensorflow<2.17,>=2->sktime[all-extras])",
             "packages": [
-                "termcolor-2.5.0-py3-none-any.whl"
+                "termcolor-2.5.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "wrapt>=1.11.0 (from tensorflow<2.17,>=2->sktime[all-extras])",
             "packages": [
-                "wrapt-1.16.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "wrapt-1.16.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "grpcio<2.0,>=1.24.3 (from tensorflow<2.17,>=2->sktime[all-extras])",
             "packages": [
-                "grpcio-1.66.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "grpcio-1.66.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "tensorboard<2.17,>=2.16 (from tensorflow<2.17,>=2->sktime[all-extras])",
             "packages": [
-                "tensorboard-2.16.2-py3-none-any.whl"
+                "tensorboard-2.16.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "keras>=3.0.0 (from tensorflow<2.17,>=2->sktime[all-extras])",
             "packages": [
-                "keras-3.6.0-py3-none-any.whl"
+                "keras-3.6.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "tensorflow-io-gcs-filesystem>=0.23.1 (from tensorflow<2.17,>=2->sktime[all-extras])",
             "packages": [
-                "tensorflow_io_gcs_filesystem-0.37.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "tensorflow_io_gcs_filesystem-0.37.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "nfoursid>=1.0.0 (from u8darts<0.31,>=0.29.0->sktime[all-extras])",
             "packages": [
-                "nfoursid-1.0.1-py3-none-any.whl"
+                "nfoursid-1.0.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "shap>=0.40.0 (from u8darts<0.31,>=0.29.0->sktime[all-extras])",
             "packages": [
-                "shap-0.46.0-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "shap-0.46.0-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "xgboost>=1.6.0 (from u8darts<0.31,>=0.29.0->sktime[all-extras])",
             "packages": [
-                "xgboost-2.1.1-py3-none-manylinux_2_28_x86_64.whl"
+                "xgboost-2.1.1-py3-none-manylinux_2_28_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "decorator (from mne->sktime[all-extras])",
             "packages": [
-                "decorator-5.1.1-py3-none-any.whl"
+                "decorator-5.1.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "jinja2 (from mne->sktime[all-extras])",
             "packages": [
-                "jinja2-3.1.4-py3-none-any.whl"
+                "jinja2-3.1.4-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "lazy-loader>=0.3 (from mne->sktime[all-extras])",
             "packages": [
-                "lazy_loader-0.4-py3-none-any.whl"
+                "lazy_loader-0.4-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pooch>=1.5 (from mne->sktime[all-extras])",
             "packages": [
-                "pooch-1.8.2-py3-none-any.whl"
+                "pooch-1.8.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pyaml>=16.9 (from scikit-optimize->sktime[all-extras])",
             "packages": [
-                "pyaml-24.9.0-py3-none-any.whl"
+                "pyaml-24.9.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "Mako (from alembic>=1.5.0->optuna<4.1->sktime[all-extras])",
             "packages": [
-                "Mako-1.3.5-py3-none-any.whl"
+                "Mako-1.3.5-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "wheel<1.0,>=0.23.0 (from astunparse>=1.6.0->tensorflow<2.17,>=2->sktime[all-extras])",
             "packages": [
-                "wheel-0.44.0-py3-none-any.whl"
+                "wheel-0.44.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "stanio<2.0.0,>=0.4.0 (from cmdstanpy>=1.0.4->prophet>=1.1->sktime[all-extras])",
             "packages": [
-                "stanio-0.5.1-py3-none-any.whl"
+                "stanio-0.5.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "itsdangerous>=2.1.2 (from Flask<3.1,>=1.0.4->dash!=2.9.0->sktime[all-extras])",
             "packages": [
-                "itsdangerous-2.2.0-py3-none-any.whl"
+                "itsdangerous-2.2.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "click>=8.1.3 (from Flask<3.1,>=1.0.4->dash!=2.9.0->sktime[all-extras])",
             "packages": [
-                "click-8.1.7-py3-none-any.whl"
+                "click-8.1.7-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "blinker>=1.6.2 (from Flask<3.1,>=1.0.4->dash!=2.9.0->sktime[all-extras])",
             "packages": [
-                "blinker-1.8.2-py3-none-any.whl"
+                "blinker-1.8.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "triad>=0.9.7 (from fugue>=0.8.1->statsforecast<1.8.0,>=1.0.0->sktime[all-extras])",
             "packages": [
-                "triad-0.9.8-py3-none-any.whl"
+                "triad-0.9.8-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "adagio>=0.2.4 (from fugue>=0.8.1->statsforecast<1.8.0,>=1.0.0->sktime[all-extras])",
             "packages": [
-                "adagio-0.2.6-py3-none-any.whl"
+                "adagio-0.2.6-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "zipp>=3.20 (from importlib-metadata->dash!=2.9.0->sktime[all-extras])",
             "packages": [
-                "zipp-3.20.2-py3-none-any.whl"
+                "zipp-3.20.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "MarkupSafe>=2.0 (from jinja2->mne->sktime[all-extras])",
             "packages": [
-                "MarkupSafe-2.1.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "MarkupSafe-2.1.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "rich (from keras>=3.0.0->tensorflow<2.17,>=2->sktime[all-extras])",
             "packages": [
-                "rich-13.9.2-py3-none-any.whl"
+                "rich-13.9.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "namex (from keras>=3.0.0->tensorflow<2.17,>=2->sktime[all-extras])",
             "packages": [
-                "namex-0.0.8-py3-none-any.whl"
+                "namex-0.0.8-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "optree (from keras>=3.0.0->tensorflow<2.17,>=2->sktime[all-extras])",
             "packages": [
-                "optree-0.13.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "optree-0.13.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "tenacity>=6.2.0 (from plotly>=5.0.0->dash!=2.9.0->sktime[all-extras])",
             "packages": [
-                "tenacity-9.0.0-py3-none-any.whl"
+                "tenacity-9.0.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "platformdirs>=2.5.0 (from pooch>=1.5->mne->sktime[all-extras])",
             "packages": [
-                "platformdirs-4.3.6-py3-none-any.whl"
+                "platformdirs-4.3.6-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "annotated-types>=0.6.0 (from pydantic<3,>=1.7->gluonts>=0.9->sktime[all-extras])",
             "packages": [
-                "annotated_types-0.7.0-py3-none-any.whl"
+                "annotated_types-0.7.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pydantic-core==2.23.4 (from pydantic<3,>=1.7->gluonts>=0.9->sktime[all-extras])",
             "packages": [
-                "pydantic_core-2.23.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "pydantic_core-2.23.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "charset-normalizer<4,>=2 (from requests->dash!=2.9.0->sktime[all-extras])",
             "packages": [
-                "charset_normalizer-3.3.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "charset_normalizer-3.3.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "idna<4,>=2.5 (from requests->dash!=2.9.0->sktime[all-extras])",
             "packages": [
-                "idna-3.10-py3-none-any.whl"
+                "idna-3.10-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "certifi>=2017.4.17 (from requests->dash!=2.9.0->sktime[all-extras])",
             "packages": [
-                "certifi-2024.8.30-py3-none-any.whl"
+                "certifi-2024.8.30-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "slicer==0.0.8 (from shap>=0.40.0->u8darts<0.31,>=0.29.0->sktime[all-extras])",
             "packages": [
-                "slicer-0.0.8-py3-none-any.whl"
+                "slicer-0.0.8-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "greenlet!=0.4.17 (from sqlalchemy>=1.3.0->optuna<4.1->sktime[all-extras])",
             "packages": [
-                "greenlet-3.1.1-cp39-cp39-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl"
+                "greenlet-3.1.1-cp39-cp39-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "markdown>=2.6.8 (from tensorboard<2.17,>=2.16->tensorflow<2.17,>=2->sktime[all-extras])",
             "packages": [
-                "Markdown-3.7-py3-none-any.whl"
+                "Markdown-3.7-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "tensorboard-data-server<0.8.0,>=0.7.0 (from tensorboard<2.17,>=2.16->tensorflow<2.17,>=2->sktime[all-extras])",
             "packages": [
-                "tensorboard_data_server-0.7.2-py3-none-manylinux_2_31_x86_64.whl"
+                "tensorboard_data_server-0.7.2-py3-none-manylinux_2_31_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "nvidia-nccl-cu12 (from xgboost>=1.6.0->u8darts<0.31,>=0.29.0->sktime[all-extras])",
             "packages": [
-                "nvidia_nccl_cu12-2.23.4-py3-none-manylinux2014_x86_64.whl"
+                "nvidia_nccl_cu12-2.23.4-py3-none-manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "pyarrow>=7.0.0 (from polars<2.0,>=0.20->polars[pandas]<2.0,>=0.20; extra == \"all-extras\"->sktime[all-extras])",
             "packages": [
-                "pyarrow-17.0.0-cp39-cp39-manylinux_2_28_x86_64.whl"
+                "pyarrow-17.0.0-cp39-cp39-manylinux_2_28_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "fsspec>=2022.5.0 (from triad>=0.9.7->fugue>=0.8.1->statsforecast<1.8.0,>=1.0.0->sktime[all-extras])",
             "packages": [
-                "fsspec-2024.9.0-py3-none-any.whl"
+                "fsspec-2024.9.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "fs (from triad>=0.9.7->fugue>=0.8.1->statsforecast<1.8.0,>=1.0.0->sktime[all-extras])",
             "packages": [
-                "fs-2.4.16-py2.py3-none-any.whl"
+                "fs-2.4.16-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "markdown-it-py>=2.2.0 (from rich->keras>=3.0.0->tensorflow<2.17,>=2->sktime[all-extras])",
             "packages": [
-                "markdown_it_py-3.0.0-py3-none-any.whl"
+                "markdown_it_py-3.0.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pygments<3.0.0,>=2.13.0 (from rich->keras>=3.0.0->tensorflow<2.17,>=2->sktime[all-extras])",
             "packages": [
-                "pygments-2.18.0-py3-none-any.whl"
+                "pygments-2.18.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "mdurl~=0.1 (from markdown-it-py>=2.2.0->rich->keras>=3.0.0->tensorflow<2.17,>=2->sktime[all-extras])",
             "packages": [
-                "mdurl-0.1.2-py3-none-any.whl"
+                "mdurl-0.1.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "appdirs~=1.4.3 (from fs->triad>=0.9.7->fugue>=0.8.1->statsforecast<1.8.0,>=1.0.0->sktime[all-extras])",
             "packages": [
-                "appdirs-1.4.4-py2.py3-none-any.whl"
+                "appdirs-1.4.4-py2.py3-none-any.whl.metadata"
             ]
         }
     ]

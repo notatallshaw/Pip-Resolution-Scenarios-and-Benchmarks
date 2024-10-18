@@ -2,7 +2,7 @@
     "input": {
         "pip_version": "24.2",
         "python_version": "3.11",
-        "datetime": "2024-10-07T14:00:00",
+        "datetime": "2024-10-07 14:00:00",
         "platform_system": "Linux",
         "requirements": [
             "flask"
@@ -46,43 +46,43 @@
         {
             "requirement": "flask",
             "packages": [
-                "flask-3.0.3-py3-none-any.whl"
+                "flask-3.0.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "Werkzeug>=3.0.0 (from flask)",
             "packages": [
-                "werkzeug-3.0.4-py3-none-any.whl"
+                "werkzeug-3.0.4-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "Jinja2>=3.1.2 (from flask)",
             "packages": [
-                "jinja2-3.1.4-py3-none-any.whl"
+                "jinja2-3.1.4-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "itsdangerous>=2.1.2 (from flask)",
             "packages": [
-                "itsdangerous-2.2.0-py3-none-any.whl"
+                "itsdangerous-2.2.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "click>=8.1.3 (from flask)",
             "packages": [
-                "click-8.1.7-py3-none-any.whl"
+                "click-8.1.7-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "blinker>=1.6.2 (from flask)",
             "packages": [
-                "blinker-1.8.2-py3-none-any.whl"
+                "blinker-1.8.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "MarkupSafe>=2.0 (from Jinja2>=3.1.2->flask)",
             "packages": [
-                "MarkupSafe-2.1.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "MarkupSafe-2.1.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         }
     ]

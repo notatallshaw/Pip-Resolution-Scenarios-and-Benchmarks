@@ -75,8 +75,14 @@ def process_toml_file(toml_file: Path, pip_name_1: str, pip_name_2: str) -> None
         success_2 = json_2["result"]["success"]
         failure_reason_1 = json_1["result"]["failure_reason"]
         failure_reason_2 = json_2["result"]["failure_reason"]
-        install_info_1 = {install['file_name']: install["hash"] for install in json_1["result"]["install_info"]}
-        install_info_2 = {install['file_name']: install["hash"] for install in json_2["result"]["install_info"]}
+        install_info_1 = {
+            install["file_name"]: install["hash"]
+            for install in json_1["result"]["install_info"]
+        }
+        install_info_2 = {
+            install["file_name"]: install["hash"]
+            for install in json_2["result"]["install_info"]
+        }
 
         resolution_1 = defaultdict(list)
         for resolution_step in json_1["resolution"]:

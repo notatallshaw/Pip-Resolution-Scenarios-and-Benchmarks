@@ -2,7 +2,7 @@
     "input": {
         "pip_version": "24.2",
         "python_version": "3.11",
-        "datetime": "2024-10-07T14:00:00",
+        "datetime": "2024-10-07 14:00:00",
         "platform_system": "Linux",
         "requirements": [
             "deepchem"
@@ -78,91 +78,91 @@
         {
             "requirement": "deepchem",
             "packages": [
-                "deepchem-2.8.0-py3-none-any.whl"
+                "deepchem-2.8.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "joblib (from deepchem)",
             "packages": [
-                "joblib-1.4.2-py3-none-any.whl"
+                "joblib-1.4.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "numpy>=1.21 (from deepchem)",
             "packages": [
-                "numpy-2.1.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "numpy-2.1.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "pandas (from deepchem)",
             "packages": [
-                "pandas-2.2.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "pandas-2.2.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "scikit-learn (from deepchem)",
             "packages": [
-                "scikit_learn-1.5.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "scikit_learn-1.5.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "sympy (from deepchem)",
             "packages": [
-                "sympy-1.13.3-py3-none-any.whl"
+                "sympy-1.13.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "scipy>=1.10.1 (from deepchem)",
             "packages": [
-                "scipy-1.14.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "scipy-1.14.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "rdkit (from deepchem)",
             "packages": [
-                "rdkit-2024.3.5-cp311-cp311-manylinux_2_28_x86_64.whl"
+                "rdkit-2024.3.5-cp311-cp311-manylinux_2_28_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "python-dateutil>=2.8.2 (from pandas->deepchem)",
             "packages": [
-                "python_dateutil-2.9.0.post0-py2.py3-none-any.whl"
+                "python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pytz>=2020.1 (from pandas->deepchem)",
             "packages": [
-                "pytz-2024.2-py2.py3-none-any.whl"
+                "pytz-2024.2-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "tzdata>=2022.7 (from pandas->deepchem)",
             "packages": [
-                "tzdata-2024.2-py2.py3-none-any.whl"
+                "tzdata-2024.2-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "Pillow (from rdkit->deepchem)",
             "packages": [
-                "pillow-10.4.0-cp311-cp311-manylinux_2_28_x86_64.whl"
+                "pillow-10.4.0-cp311-cp311-manylinux_2_28_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "threadpoolctl>=3.1.0 (from scikit-learn->deepchem)",
             "packages": [
-                "threadpoolctl-3.5.0-py3-none-any.whl"
+                "threadpoolctl-3.5.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "mpmath<1.4,>=1.1.0 (from sympy->deepchem)",
             "packages": [
-                "mpmath-1.3.0-py3-none-any.whl"
+                "mpmath-1.3.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "six>=1.5 (from python-dateutil>=2.8.2->pandas->deepchem)",
             "packages": [
-                "six-1.16.0-py2.py3-none-any.whl"
+                "six-1.16.0-py2.py3-none-any.whl.metadata"
             ]
         }
     ]

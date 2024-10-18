@@ -2,7 +2,7 @@
     "input": {
         "pip_version": "24.2",
         "python_version": "3.11",
-        "datetime": "2024-10-07T14:00:00",
+        "datetime": "2024-10-07 14:00:00",
         "platform_system": "Linux",
         "requirements": [
             "great-expectations"
@@ -262,373 +262,373 @@
         {
             "requirement": "great-expectations",
             "packages": [
-                "great_expectations-1.1.0-py3-none-any.whl"
+                "great_expectations-1.1.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "altair<5.0.0,>=4.2.1 (from great-expectations)",
             "packages": [
-                "altair-4.2.2-py3-none-any.whl"
+                "altair-4.2.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "cryptography>=3.2 (from great-expectations)",
             "packages": [
-                "cryptography-43.0.1-cp39-abi3-manylinux_2_28_x86_64.whl"
+                "cryptography-43.0.1-cp39-abi3-manylinux_2_28_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "Ipython>=7.16.3 (from great-expectations)",
             "packages": [
-                "ipython-8.28.0-py3-none-any.whl"
+                "ipython-8.28.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "ipywidgets>=7.5.1 (from great-expectations)",
             "packages": [
-                "ipywidgets-8.1.5-py3-none-any.whl"
+                "ipywidgets-8.1.5-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "jinja2>=2.10 (from great-expectations)",
             "packages": [
-                "jinja2-3.1.4-py3-none-any.whl"
+                "jinja2-3.1.4-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "jsonschema>=2.5.1 (from great-expectations)",
             "packages": [
-                "jsonschema-4.23.0-py3-none-any.whl"
+                "jsonschema-4.23.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "makefun<2,>=1.7.0 (from great-expectations)",
             "packages": [
-                "makefun-1.15.6-py2.py3-none-any.whl"
+                "makefun-1.15.6-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "marshmallow<4.0.0,>=3.7.1 (from great-expectations)",
             "packages": [
-                "marshmallow-3.22.0-py3-none-any.whl"
+                "marshmallow-3.22.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "mistune>=0.8.4 (from great-expectations)",
             "packages": [
-                "mistune-3.0.2-py3-none-any.whl"
+                "mistune-3.0.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "packaging (from great-expectations)",
             "packages": [
-                "packaging-24.1-py3-none-any.whl"
+                "packaging-24.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "posthog<3,>=2.1.0 (from great-expectations)",
             "packages": [
-                "posthog-2.5.0-py2.py3-none-any.whl"
+                "posthog-2.5.0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pydantic>=1.10.7 (from great-expectations)",
             "packages": [
-                "pydantic-2.9.2-py3-none-any.whl"
+                "pydantic-2.9.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pyparsing>=2.4 (from great-expectations)",
             "packages": [
-                "pyparsing-3.1.4-py3-none-any.whl"
+                "pyparsing-3.1.4-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "python-dateutil>=2.8.1 (from great-expectations)",
             "packages": [
-                "python_dateutil-2.9.0.post0-py2.py3-none-any.whl"
+                "python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pytz>=2021.3 (from great-expectations)",
             "packages": [
-                "pytz-2024.2-py2.py3-none-any.whl"
+                "pytz-2024.2-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "requests>=2.20 (from great-expectations)",
             "packages": [
-                "requests-2.32.3-py3-none-any.whl"
+                "requests-2.32.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "ruamel.yaml>=0.16 (from great-expectations)",
             "packages": [
-                "ruamel.yaml-0.18.6-py3-none-any.whl"
+                "ruamel.yaml-0.18.6-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "scipy>=1.6.0 (from great-expectations)",
             "packages": [
-                "scipy-1.14.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "scipy-1.14.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "tqdm>=4.59.0 (from great-expectations)",
             "packages": [
-                "tqdm-4.66.5-py3-none-any.whl"
+                "tqdm-4.66.5-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "typing-extensions>=4.1.0 (from great-expectations)",
             "packages": [
-                "typing_extensions-4.12.2-py3-none-any.whl"
+                "typing_extensions-4.12.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "tzlocal>=1.2 (from great-expectations)",
             "packages": [
-                "tzlocal-5.2-py3-none-any.whl"
+                "tzlocal-5.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "urllib3>=1.26 (from great-expectations)",
             "packages": [
-                "urllib3-2.2.3-py3-none-any.whl"
+                "urllib3-2.2.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "numpy>=1.22.4 (from great-expectations)",
             "packages": [
-                "numpy-2.1.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "numpy-2.1.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "pandas<2.2,>=1.3.0 (from great-expectations)",
             "packages": [
-                "pandas-2.1.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "pandas-2.1.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "entrypoints (from altair<5.0.0,>=4.2.1->great-expectations)",
             "packages": [
-                "entrypoints-0.4-py3-none-any.whl"
+                "entrypoints-0.4-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "toolz (from altair<5.0.0,>=4.2.1->great-expectations)",
             "packages": [
-                "toolz-1.0.0-py3-none-any.whl"
+                "toolz-1.0.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "cffi>=1.12 (from cryptography>=3.2->great-expectations)",
             "packages": [
-                "cffi-1.17.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "cffi-1.17.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "decorator (from Ipython>=7.16.3->great-expectations)",
             "packages": [
-                "decorator-5.1.1-py3-none-any.whl"
+                "decorator-5.1.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "jedi>=0.16 (from Ipython>=7.16.3->great-expectations)",
             "packages": [
-                "jedi-0.19.1-py2.py3-none-any.whl"
+                "jedi-0.19.1-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "matplotlib-inline (from Ipython>=7.16.3->great-expectations)",
             "packages": [
-                "matplotlib_inline-0.1.7-py3-none-any.whl"
+                "matplotlib_inline-0.1.7-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "prompt-toolkit<3.1.0,>=3.0.41 (from Ipython>=7.16.3->great-expectations)",
             "packages": [
-                "prompt_toolkit-3.0.48-py3-none-any.whl"
+                "prompt_toolkit-3.0.48-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pygments>=2.4.0 (from Ipython>=7.16.3->great-expectations)",
             "packages": [
-                "pygments-2.18.0-py3-none-any.whl"
+                "pygments-2.18.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "stack-data (from Ipython>=7.16.3->great-expectations)",
             "packages": [
-                "stack_data-0.6.3-py3-none-any.whl"
+                "stack_data-0.6.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "traitlets>=5.13.0 (from Ipython>=7.16.3->great-expectations)",
             "packages": [
-                "traitlets-5.14.3-py3-none-any.whl"
+                "traitlets-5.14.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pexpect>4.3 (from Ipython>=7.16.3->great-expectations)",
             "packages": [
-                "pexpect-4.9.0-py2.py3-none-any.whl"
+                "pexpect-4.9.0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "comm>=0.1.3 (from ipywidgets>=7.5.1->great-expectations)",
             "packages": [
-                "comm-0.2.2-py3-none-any.whl"
+                "comm-0.2.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "widgetsnbextension~=4.0.12 (from ipywidgets>=7.5.1->great-expectations)",
             "packages": [
-                "widgetsnbextension-4.0.13-py3-none-any.whl"
+                "widgetsnbextension-4.0.13-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "jupyterlab-widgets~=3.0.12 (from ipywidgets>=7.5.1->great-expectations)",
             "packages": [
-                "jupyterlab_widgets-3.0.13-py3-none-any.whl"
+                "jupyterlab_widgets-3.0.13-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "MarkupSafe>=2.0 (from jinja2>=2.10->great-expectations)",
             "packages": [
-                "MarkupSafe-2.1.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "MarkupSafe-2.1.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "attrs>=22.2.0 (from jsonschema>=2.5.1->great-expectations)",
             "packages": [
-                "attrs-24.2.0-py3-none-any.whl"
+                "attrs-24.2.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "jsonschema-specifications>=2023.03.6 (from jsonschema>=2.5.1->great-expectations)",
             "packages": [
-                "jsonschema_specifications-2023.12.1-py3-none-any.whl"
+                "jsonschema_specifications-2023.12.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "referencing>=0.28.4 (from jsonschema>=2.5.1->great-expectations)",
             "packages": [
-                "referencing-0.35.1-py3-none-any.whl"
+                "referencing-0.35.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "rpds-py>=0.7.1 (from jsonschema>=2.5.1->great-expectations)",
             "packages": [
-                "rpds_py-0.20.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "rpds_py-0.20.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "numpy>=1.22.4 (from great-expectations)",
             "packages": [
-                "numpy-1.26.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "numpy-1.26.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "tzdata>=2022.1 (from pandas<2.2,>=1.3.0->great-expectations)",
             "packages": [
-                "tzdata-2024.2-py2.py3-none-any.whl"
+                "tzdata-2024.2-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "six>=1.5 (from posthog<3,>=2.1.0->great-expectations)",
             "packages": [
-                "six-1.16.0-py2.py3-none-any.whl"
+                "six-1.16.0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "monotonic>=1.5 (from posthog<3,>=2.1.0->great-expectations)",
             "packages": [
-                "monotonic-1.6-py2.py3-none-any.whl"
+                "monotonic-1.6-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "backoff>=1.10.0 (from posthog<3,>=2.1.0->great-expectations)",
             "packages": [
-                "backoff-2.2.1-py3-none-any.whl"
+                "backoff-2.2.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "annotated-types>=0.6.0 (from pydantic>=1.10.7->great-expectations)",
             "packages": [
-                "annotated_types-0.7.0-py3-none-any.whl"
+                "annotated_types-0.7.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pydantic-core==2.23.4 (from pydantic>=1.10.7->great-expectations)",
             "packages": [
-                "pydantic_core-2.23.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "pydantic_core-2.23.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "charset-normalizer<4,>=2 (from requests>=2.20->great-expectations)",
             "packages": [
-                "charset_normalizer-3.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "charset_normalizer-3.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "idna<4,>=2.5 (from requests>=2.20->great-expectations)",
             "packages": [
-                "idna-3.10-py3-none-any.whl"
+                "idna-3.10-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "certifi>=2017.4.17 (from requests>=2.20->great-expectations)",
             "packages": [
-                "certifi-2024.8.30-py3-none-any.whl"
+                "certifi-2024.8.30-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "ruamel.yaml.clib>=0.2.7 (from ruamel.yaml>=0.16->great-expectations)",
             "packages": [
-                "ruamel.yaml.clib-0.2.8-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl"
+                "ruamel.yaml.clib-0.2.8-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "pycparser (from cffi>=1.12->cryptography>=3.2->great-expectations)",
             "packages": [
-                "pycparser-2.22-py3-none-any.whl"
+                "pycparser-2.22-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "parso<0.9.0,>=0.8.3 (from jedi>=0.16->Ipython>=7.16.3->great-expectations)",
             "packages": [
-                "parso-0.8.4-py2.py3-none-any.whl"
+                "parso-0.8.4-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "ptyprocess>=0.5 (from pexpect>4.3->Ipython>=7.16.3->great-expectations)",
             "packages": [
-                "ptyprocess-0.7.0-py2.py3-none-any.whl"
+                "ptyprocess-0.7.0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "wcwidth (from prompt-toolkit<3.1.0,>=3.0.41->Ipython>=7.16.3->great-expectations)",
             "packages": [
-                "wcwidth-0.2.13-py2.py3-none-any.whl"
+                "wcwidth-0.2.13-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "executing>=1.2.0 (from stack-data->Ipython>=7.16.3->great-expectations)",
             "packages": [
-                "executing-2.1.0-py2.py3-none-any.whl"
+                "executing-2.1.0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "asttokens>=2.1.0 (from stack-data->Ipython>=7.16.3->great-expectations)",
             "packages": [
-                "asttokens-2.4.1-py2.py3-none-any.whl"
+                "asttokens-2.4.1-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pure-eval (from stack-data->Ipython>=7.16.3->great-expectations)",
             "packages": [
-                "pure_eval-0.2.3-py3-none-any.whl"
+                "pure_eval-0.2.3-py3-none-any.whl.metadata"
             ]
         }
     ]

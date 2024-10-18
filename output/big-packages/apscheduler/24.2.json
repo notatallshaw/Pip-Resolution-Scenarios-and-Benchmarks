@@ -2,7 +2,7 @@
     "input": {
         "pip_version": "24.2",
         "python_version": "3.11",
-        "datetime": "2024-10-07T14:00:00",
+        "datetime": "2024-10-07 14:00:00",
         "platform_system": "Linux",
         "requirements": [
             "apscheduler"
@@ -34,25 +34,25 @@
         {
             "requirement": "apscheduler",
             "packages": [
-                "APScheduler-3.10.4-py3-none-any.whl"
+                "APScheduler-3.10.4-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "six>=1.4.0 (from apscheduler)",
             "packages": [
-                "six-1.16.0-py2.py3-none-any.whl"
+                "six-1.16.0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pytz (from apscheduler)",
             "packages": [
-                "pytz-2024.2-py2.py3-none-any.whl"
+                "pytz-2024.2-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "tzlocal!=3.*,>=2.0 (from apscheduler)",
             "packages": [
-                "tzlocal-5.2-py3-none-any.whl"
+                "tzlocal-5.2-py3-none-any.whl.metadata"
             ]
         }
     ]

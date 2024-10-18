@@ -2,7 +2,7 @@
     "input": {
         "pip_version": "24.2",
         "python_version": "3.11",
-        "datetime": "2024-10-07T14:00:00",
+        "datetime": "2024-10-07 14:00:00",
         "platform_system": "Linux",
         "requirements": [
             "luigi"
@@ -25,12 +25,8 @@
                 "hash": "sha256=d000fe6a6ea77c9376674fe87a045ac00c3fcf7ebe8414655a06630aa9db5111"
             },
             {
-                "file_name": "packaging-24.1-py3-none-any.whl",
-                "hash": "sha256=5b8f2217dbdbd2f7f384c41c628544e6d52f2d0f53c6d0c3ea61aa5d1d7ff124"
-            },
-            {
-                "file_name": "python_daemon-3.0.2-py3-none-any.whl",
-                "hash": "sha256=8b19c37aff5d9231e91fd67f6b5a647bd2a3e0b267b5af7acb9f0b7e7d0bca37"
+                "file_name": "python_daemon-3.0.1-py3-none-any.whl",
+                "hash": "sha256=42bb848a3260a027fa71ad47ecd959e471327cb34da5965962edd5926229f341"
             },
             {
                 "file_name": "python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
@@ -64,55 +60,49 @@
         {
             "requirement": "python-dateutil<3,>=2.7.5 (from luigi)",
             "packages": [
-                "python_dateutil-2.9.0.post0-py2.py3-none-any.whl"
+                "python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "tenacity<9,>=8 (from luigi)",
             "packages": [
-                "tenacity-8.5.0-py3-none-any.whl"
+                "tenacity-8.5.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "python-daemon (from luigi)",
             "packages": [
-                "python_daemon-3.0.2-py3-none-any.whl"
+                "python_daemon-3.0.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "tornado<7,>=5.0 (from luigi)",
             "packages": [
-                "tornado-6.4.1-cp38-abi3-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "tornado-6.4.1-cp38-abi3-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "six>=1.5 (from python-dateutil<3,>=2.7.5->luigi)",
             "packages": [
-                "six-1.16.0-py2.py3-none-any.whl"
-            ]
-        },
-        {
-            "requirement": "setuptools>=62.4.0 (from python-daemon->luigi)",
-            "packages": [
-                "setuptools-75.1.0-py3-none-any.whl"
-            ]
-        },
-        {
-            "requirement": "packaging (from python-daemon->luigi)",
-            "packages": [
-                "packaging-24.1-py3-none-any.whl"
-            ]
-        },
-        {
-            "requirement": "lockfile>=0.10 (from python-daemon->luigi)",
-            "packages": [
-                "lockfile-0.12.2-py2.py3-none-any.whl"
+                "six-1.16.0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "docutils (from python-daemon->luigi)",
             "packages": [
-                "docutils-0.21.2-py3-none-any.whl"
+                "docutils-0.21.2-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "lockfile>=0.10 (from python-daemon->luigi)",
+            "packages": [
+                "lockfile-0.12.2-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "setuptools>=62.4.0 (from python-daemon->luigi)",
+            "packages": [
+                "setuptools-75.1.0-py3-none-any.whl.metadata"
             ]
         }
     ]

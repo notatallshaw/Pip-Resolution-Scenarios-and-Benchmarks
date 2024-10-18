@@ -2,7 +2,7 @@
     "input": {
         "pip_version": "24.2",
         "python_version": "3.9",
-        "datetime": "2024-10-07T14:00:00",
+        "datetime": "2024-10-07 14:00:00",
         "platform_system": "Linux",
         "requirements": [
             "boto3"
@@ -46,43 +46,43 @@
         {
             "requirement": "boto3",
             "packages": [
-                "boto3-1.35.34-py3-none-any.whl"
+                "boto3-1.35.34-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "botocore<1.36.0,>=1.35.34 (from boto3)",
             "packages": [
-                "botocore-1.35.34-py3-none-any.whl"
+                "botocore-1.35.34-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "jmespath<2.0.0,>=0.7.1 (from boto3)",
             "packages": [
-                "jmespath-1.0.1-py3-none-any.whl"
+                "jmespath-1.0.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "s3transfer<0.11.0,>=0.10.0 (from boto3)",
             "packages": [
-                "s3transfer-0.10.2-py3-none-any.whl"
+                "s3transfer-0.10.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "python-dateutil<3.0.0,>=2.1 (from botocore<1.36.0,>=1.35.34->boto3)",
             "packages": [
-                "python_dateutil-2.9.0.post0-py2.py3-none-any.whl"
+                "python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "urllib3<1.27,>=1.25.4 (from botocore<1.36.0,>=1.35.34->boto3)",
             "packages": [
-                "urllib3-1.26.20-py2.py3-none-any.whl"
+                "urllib3-1.26.20-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "six>=1.5 (from python-dateutil<3.0.0,>=2.1->botocore<1.36.0,>=1.35.34->boto3)",
             "packages": [
-                "six-1.16.0-py2.py3-none-any.whl"
+                "six-1.16.0-py2.py3-none-any.whl.metadata"
             ]
         }
     ]

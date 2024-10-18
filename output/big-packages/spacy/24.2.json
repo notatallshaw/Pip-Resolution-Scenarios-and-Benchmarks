@@ -2,7 +2,7 @@
     "input": {
         "pip_version": "24.2",
         "python_version": "3.11",
-        "datetime": "2024-10-07T14:00:00",
+        "datetime": "2024-10-07 14:00:00",
         "platform_system": "Linux",
         "requirements": [
             "spacy"
@@ -182,253 +182,253 @@
         {
             "requirement": "spacy",
             "packages": [
-                "spacy-3.8.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "spacy-3.8.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "spacy-legacy<3.1.0,>=3.0.11 (from spacy)",
             "packages": [
-                "spacy_legacy-3.0.12-py2.py3-none-any.whl"
+                "spacy_legacy-3.0.12-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "spacy-loggers<2.0.0,>=1.0.0 (from spacy)",
             "packages": [
-                "spacy_loggers-1.0.5-py3-none-any.whl"
+                "spacy_loggers-1.0.5-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "murmurhash<1.1.0,>=0.28.0 (from spacy)",
             "packages": [
-                "murmurhash-1.0.10-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "murmurhash-1.0.10-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "cymem<2.1.0,>=2.0.2 (from spacy)",
             "packages": [
-                "cymem-2.0.8-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "cymem-2.0.8-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "preshed<3.1.0,>=3.0.2 (from spacy)",
             "packages": [
-                "preshed-3.0.9-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "preshed-3.0.9-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "thinc<8.4.0,>=8.3.0 (from spacy)",
             "packages": [
-                "thinc-8.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "thinc-8.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "wasabi<1.2.0,>=0.9.1 (from spacy)",
             "packages": [
-                "wasabi-1.1.3-py3-none-any.whl"
+                "wasabi-1.1.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "srsly<3.0.0,>=2.4.3 (from spacy)",
             "packages": [
-                "srsly-2.4.8-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "srsly-2.4.8-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "catalogue<2.1.0,>=2.0.6 (from spacy)",
             "packages": [
-                "catalogue-2.0.10-py3-none-any.whl"
+                "catalogue-2.0.10-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "weasel<0.5.0,>=0.1.0 (from spacy)",
             "packages": [
-                "weasel-0.4.1-py3-none-any.whl"
+                "weasel-0.4.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "typer<1.0.0,>=0.3.0 (from spacy)",
             "packages": [
-                "typer-0.12.5-py3-none-any.whl"
+                "typer-0.12.5-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "tqdm<5.0.0,>=4.38.0 (from spacy)",
             "packages": [
-                "tqdm-4.66.5-py3-none-any.whl"
+                "tqdm-4.66.5-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "requests<3.0.0,>=2.13.0 (from spacy)",
             "packages": [
-                "requests-2.32.3-py3-none-any.whl"
+                "requests-2.32.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pydantic!=1.8,!=1.8.1,<3.0.0,>=1.7.4 (from spacy)",
             "packages": [
-                "pydantic-2.9.2-py3-none-any.whl"
+                "pydantic-2.9.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "jinja2 (from spacy)",
             "packages": [
-                "jinja2-3.1.4-py3-none-any.whl"
+                "jinja2-3.1.4-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "setuptools (from spacy)",
             "packages": [
-                "setuptools-75.1.0-py3-none-any.whl"
+                "setuptools-75.1.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "packaging>=20.0 (from spacy)",
             "packages": [
-                "packaging-24.1-py3-none-any.whl"
+                "packaging-24.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "langcodes<4.0.0,>=3.2.0 (from spacy)",
             "packages": [
-                "langcodes-3.4.1-py3-none-any.whl"
+                "langcodes-3.4.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "numpy>=1.19.0 (from spacy)",
             "packages": [
-                "numpy-2.1.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "numpy-2.1.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "language-data>=1.2 (from langcodes<4.0.0,>=3.2.0->spacy)",
             "packages": [
-                "language_data-1.2.0-py3-none-any.whl"
+                "language_data-1.2.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "annotated-types>=0.6.0 (from pydantic!=1.8,!=1.8.1,<3.0.0,>=1.7.4->spacy)",
             "packages": [
-                "annotated_types-0.7.0-py3-none-any.whl"
+                "annotated_types-0.7.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pydantic-core==2.23.4 (from pydantic!=1.8,!=1.8.1,<3.0.0,>=1.7.4->spacy)",
             "packages": [
-                "pydantic_core-2.23.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "pydantic_core-2.23.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "typing-extensions>=4.6.1 (from pydantic!=1.8,!=1.8.1,<3.0.0,>=1.7.4->spacy)",
             "packages": [
-                "typing_extensions-4.12.2-py3-none-any.whl"
+                "typing_extensions-4.12.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "charset-normalizer<4,>=2 (from requests<3.0.0,>=2.13.0->spacy)",
             "packages": [
-                "charset_normalizer-3.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "charset_normalizer-3.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "idna<4,>=2.5 (from requests<3.0.0,>=2.13.0->spacy)",
             "packages": [
-                "idna-3.10-py3-none-any.whl"
+                "idna-3.10-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "urllib3<3,>=1.21.1 (from requests<3.0.0,>=2.13.0->spacy)",
             "packages": [
-                "urllib3-2.2.3-py3-none-any.whl"
+                "urllib3-2.2.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "certifi>=2017.4.17 (from requests<3.0.0,>=2.13.0->spacy)",
             "packages": [
-                "certifi-2024.8.30-py3-none-any.whl"
+                "certifi-2024.8.30-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "blis<1.1.0,>=1.0.0 (from thinc<8.4.0,>=8.3.0->spacy)",
             "packages": [
-                "blis-1.0.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "blis-1.0.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "confection<1.0.0,>=0.0.1 (from thinc<8.4.0,>=8.3.0->spacy)",
             "packages": [
-                "confection-0.1.5-py3-none-any.whl"
+                "confection-0.1.5-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "numpy>=1.19.0 (from spacy)",
             "packages": [
-                "numpy-2.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "numpy-2.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "click>=8.0.0 (from typer<1.0.0,>=0.3.0->spacy)",
             "packages": [
-                "click-8.1.7-py3-none-any.whl"
+                "click-8.1.7-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "shellingham>=1.3.0 (from typer<1.0.0,>=0.3.0->spacy)",
             "packages": [
-                "shellingham-1.5.4-py2.py3-none-any.whl"
+                "shellingham-1.5.4-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "rich>=10.11.0 (from typer<1.0.0,>=0.3.0->spacy)",
             "packages": [
-                "rich-13.9.2-py3-none-any.whl"
+                "rich-13.9.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "cloudpathlib<1.0.0,>=0.7.0 (from weasel<0.5.0,>=0.1.0->spacy)",
             "packages": [
-                "cloudpathlib-0.19.0-py3-none-any.whl"
+                "cloudpathlib-0.19.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "smart-open<8.0.0,>=5.2.1 (from weasel<0.5.0,>=0.1.0->spacy)",
             "packages": [
-                "smart_open-7.0.5-py3-none-any.whl"
+                "smart_open-7.0.5-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "MarkupSafe>=2.0 (from jinja2->spacy)",
             "packages": [
-                "MarkupSafe-2.1.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "MarkupSafe-2.1.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "marisa-trie>=0.7.7 (from language-data>=1.2->langcodes<4.0.0,>=3.2.0->spacy)",
             "packages": [
-                "marisa_trie-1.2.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "marisa_trie-1.2.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "markdown-it-py>=2.2.0 (from rich>=10.11.0->typer<1.0.0,>=0.3.0->spacy)",
             "packages": [
-                "markdown_it_py-3.0.0-py3-none-any.whl"
+                "markdown_it_py-3.0.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pygments<3.0.0,>=2.13.0 (from rich>=10.11.0->typer<1.0.0,>=0.3.0->spacy)",
             "packages": [
-                "pygments-2.18.0-py3-none-any.whl"
+                "pygments-2.18.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "wrapt (from smart-open<8.0.0,>=5.2.1->weasel<0.5.0,>=0.1.0->spacy)",
             "packages": [
-                "wrapt-1.16.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "wrapt-1.16.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "mdurl~=0.1 (from markdown-it-py>=2.2.0->rich>=10.11.0->typer<1.0.0,>=0.3.0->spacy)",
             "packages": [
-                "mdurl-0.1.2-py3-none-any.whl"
+                "mdurl-0.1.2-py3-none-any.whl.metadata"
             ]
         }
     ]

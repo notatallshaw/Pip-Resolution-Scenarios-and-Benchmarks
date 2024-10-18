@@ -23,10 +23,8 @@ set of requirements.
 # What is it not measuring?
 
 The script it not measuring wall clock time. While it may be added in the
-future there are a number of problems to solve:
-
- * Replace `pypi-timemachine` with something faster that uses Simple API 1.1+
- * Only compare times from runs on the same machine
+future it is non-trivial, as it's only worth comparing runs on the same
+machine that were run when it is in similiar state.
 
 # Why not use `pip-resolver-benchmarks`?
 

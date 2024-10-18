@@ -2,7 +2,7 @@
     "input": {
         "pip_version": "24.2",
         "python_version": "3.11",
-        "datetime": "2024-10-07T14:00:00",
+        "datetime": "2024-10-07 14:00:00",
         "platform_system": "Linux",
         "requirements": [
             "ray[all]"
@@ -442,649 +442,649 @@
         {
             "requirement": "ray[all]",
             "packages": [
-                "ray-2.37.0-cp311-cp311-manylinux2014_x86_64.whl"
+                "ray-2.37.0-cp311-cp311-manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "click>=7.0 (from ray[all])",
             "packages": [
-                "click-8.1.7-py3-none-any.whl"
+                "click-8.1.7-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "filelock (from ray[all])",
             "packages": [
-                "filelock-3.16.1-py3-none-any.whl"
+                "filelock-3.16.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "jsonschema (from ray[all])",
             "packages": [
-                "jsonschema-4.23.0-py3-none-any.whl"
+                "jsonschema-4.23.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "msgpack<2.0.0,>=1.0.0 (from ray[all])",
             "packages": [
-                "msgpack-1.1.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "msgpack-1.1.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "packaging (from ray[all])",
             "packages": [
-                "packaging-24.1-py3-none-any.whl"
+                "packaging-24.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "protobuf!=3.19.5,>=3.15.3 (from ray[all])",
             "packages": [
-                "protobuf-5.28.2-cp38-abi3-manylinux2014_x86_64.whl"
+                "protobuf-5.28.2-cp38-abi3-manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "pyyaml (from ray[all])",
             "packages": [
-                "PyYAML-6.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "PyYAML-6.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "aiosignal (from ray[all])",
             "packages": [
-                "aiosignal-1.3.1-py3-none-any.whl"
+                "aiosignal-1.3.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "frozenlist (from ray[all])",
             "packages": [
-                "frozenlist-1.4.1-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "frozenlist-1.4.1-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "requests (from ray[all])",
             "packages": [
-                "requests-2.32.3-py3-none-any.whl"
+                "requests-2.32.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "prometheus-client>=0.7.1 (from ray[all])",
             "packages": [
-                "prometheus_client-0.21.0-py3-none-any.whl"
+                "prometheus_client-0.21.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "aiohttp>=3.7 (from ray[all])",
             "packages": [
-                "aiohttp-3.10.9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "aiohttp-3.10.9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "pandas (from ray[all])",
             "packages": [
-                "pandas-2.2.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "pandas-2.2.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "scikit-image (from ray[all])",
             "packages": [
-                "scikit_image-0.24.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "scikit_image-0.24.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "uvicorn[standard] (from ray[all])",
             "packages": [
-                "uvicorn-0.31.0-py3-none-any.whl"
+                "uvicorn-0.31.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "opencensus (from ray[all])",
             "packages": [
-                "opencensus-0.11.4-py2.py3-none-any.whl"
+                "opencensus-0.11.4-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "aiohttp-cors (from ray[all])",
             "packages": [
-                "aiohttp_cors-0.7.0-py3-none-any.whl"
+                "aiohttp_cors-0.7.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "tensorboardX>=1.9 (from ray[all])",
             "packages": [
-                "tensorboardX-2.6.2.2-py2.py3-none-any.whl"
+                "tensorboardX-2.6.2.2-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "typer (from ray[all])",
             "packages": [
-                "typer-0.12.5-py3-none-any.whl"
+                "typer-0.12.5-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pydantic!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.*,!=2.4.*,<3 (from ray[all])",
             "packages": [
-                "pydantic-2.9.2-py3-none-any.whl"
+                "pydantic-2.9.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "grpcio (from ray[all])",
             "packages": [
-                "grpcio-1.66.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "grpcio-1.66.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "opentelemetry-sdk (from ray[all])",
             "packages": [
-                "opentelemetry_sdk-1.27.0-py3-none-any.whl"
+                "opentelemetry_sdk-1.27.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "lz4 (from ray[all])",
             "packages": [
-                "lz4-4.3.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "lz4-4.3.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "numpy>=1.20 (from ray[all])",
             "packages": [
-                "numpy-2.1.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "numpy-2.1.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "dm-tree (from ray[all])",
             "packages": [
-                "dm_tree-0.1.8-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "dm_tree-0.1.8-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "scipy (from ray[all])",
             "packages": [
-                "scipy-1.14.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "scipy-1.14.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "pyarrow>=6.0.1 (from ray[all])",
             "packages": [
-                "pyarrow-17.0.0-cp311-cp311-manylinux_2_28_x86_64.whl"
+                "pyarrow-17.0.0-cp311-cp311-manylinux_2_28_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "smart-open (from ray[all])",
             "packages": [
-                "smart_open-7.0.5-py3-none-any.whl"
+                "smart_open-7.0.5-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "py-spy>=0.2.0 (from ray[all])",
             "packages": [
-                "py_spy-0.3.14-py2.py3-none-manylinux_2_5_x86_64.manylinux1_x86_64.whl"
+                "py_spy-0.3.14-py2.py3-none-manylinux_2_5_x86_64.manylinux1_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "opentelemetry-api (from ray[all])",
             "packages": [
-                "opentelemetry_api-1.27.0-py3-none-any.whl"
+                "opentelemetry_api-1.27.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "fastapi (from ray[all])",
             "packages": [
-                "fastapi-0.115.0-py3-none-any.whl"
+                "fastapi-0.115.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "colorful (from ray[all])",
             "packages": [
-                "colorful-0.5.6-py2.py3-none-any.whl"
+                "colorful-0.5.6-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "watchfiles (from ray[all])",
             "packages": [
-                "watchfiles-0.24.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "watchfiles-0.24.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "opentelemetry-exporter-otlp (from ray[all])",
             "packages": [
-                "opentelemetry_exporter_otlp-1.27.0-py3-none-any.whl"
+                "opentelemetry_exporter_otlp-1.27.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "gymnasium==0.28.1 (from ray[all])",
             "packages": [
-                "gymnasium-0.28.1-py3-none-any.whl"
+                "gymnasium-0.28.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "fsspec (from ray[all])",
             "packages": [
-                "fsspec-2024.9.0-py3-none-any.whl"
+                "fsspec-2024.9.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "rich (from ray[all])",
             "packages": [
-                "rich-13.9.2-py3-none-any.whl"
+                "rich-13.9.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "starlette (from ray[all])",
             "packages": [
-                "starlette-0.39.2-py3-none-any.whl"
+                "starlette-0.39.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "virtualenv!=20.21.1,>=20.0.24 (from ray[all])",
             "packages": [
-                "virtualenv-20.26.6-py3-none-any.whl"
+                "virtualenv-20.26.6-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "cupy-cuda12x (from ray[all])",
             "packages": [
-                "cupy_cuda12x-13.3.0-cp311-cp311-manylinux2014_x86_64.whl"
+                "cupy_cuda12x-13.3.0-cp311-cp311-manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "memray (from ray[all])",
             "packages": [
-                "memray-1.14.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "memray-1.14.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "jax-jumpy>=1.0.0 (from gymnasium==0.28.1->ray[all])",
             "packages": [
-                "jax_jumpy-1.0.0-py3-none-any.whl"
+                "jax_jumpy-1.0.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "cloudpickle>=1.2.0 (from gymnasium==0.28.1->ray[all])",
             "packages": [
-                "cloudpickle-3.0.0-py3-none-any.whl"
+                "cloudpickle-3.0.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "typing-extensions>=4.3.0 (from gymnasium==0.28.1->ray[all])",
             "packages": [
-                "typing_extensions-4.12.2-py3-none-any.whl"
+                "typing_extensions-4.12.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "farama-notifications>=0.0.1 (from gymnasium==0.28.1->ray[all])",
             "packages": [
-                "Farama_Notifications-0.0.4-py3-none-any.whl"
+                "Farama_Notifications-0.0.4-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "aiohappyeyeballs>=2.3.0 (from aiohttp>=3.7->ray[all])",
             "packages": [
-                "aiohappyeyeballs-2.4.3-py3-none-any.whl"
+                "aiohappyeyeballs-2.4.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "attrs>=17.3.0 (from aiohttp>=3.7->ray[all])",
             "packages": [
-                "attrs-24.2.0-py3-none-any.whl"
+                "attrs-24.2.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "multidict<7.0,>=4.5 (from aiohttp>=3.7->ray[all])",
             "packages": [
-                "multidict-6.1.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "multidict-6.1.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "yarl<2.0,>=1.12.0 (from aiohttp>=3.7->ray[all])",
             "packages": [
-                "yarl-1.13.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "yarl-1.13.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "python-dateutil>=2.8.2 (from pandas->ray[all])",
             "packages": [
-                "python_dateutil-2.9.0.post0-py2.py3-none-any.whl"
+                "python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pytz>=2020.1 (from pandas->ray[all])",
             "packages": [
-                "pytz-2024.2-py2.py3-none-any.whl"
+                "pytz-2024.2-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "tzdata>=2022.7 (from pandas->ray[all])",
             "packages": [
-                "tzdata-2024.2-py2.py3-none-any.whl"
+                "tzdata-2024.2-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "annotated-types>=0.6.0 (from pydantic!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.*,!=2.4.*,<3->ray[all])",
             "packages": [
-                "annotated_types-0.7.0-py3-none-any.whl"
+                "annotated_types-0.7.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pydantic-core==2.23.4 (from pydantic!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.*,!=2.4.*,<3->ray[all])",
             "packages": [
-                "pydantic_core-2.23.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "pydantic_core-2.23.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "distlib<1,>=0.3.7 (from virtualenv!=20.21.1,>=20.0.24->ray[all])",
             "packages": [
-                "distlib-0.3.8-py2.py3-none-any.whl"
+                "distlib-0.3.8-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "platformdirs<5,>=3.9.1 (from virtualenv!=20.21.1,>=20.0.24->ray[all])",
             "packages": [
-                "platformdirs-4.3.6-py3-none-any.whl"
+                "platformdirs-4.3.6-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "fastrlock>=0.5 (from cupy-cuda12x->ray[all])",
             "packages": [
-                "fastrlock-0.8.2-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_28_x86_64.whl"
+                "fastrlock-0.8.2-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_28_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "starlette (from ray[all])",
             "packages": [
-                "starlette-0.38.6-py3-none-any.whl"
+                "starlette-0.38.6-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "anyio<5,>=3.4.0 (from starlette->ray[all])",
             "packages": [
-                "anyio-4.6.0-py3-none-any.whl"
+                "anyio-4.6.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "jsonschema-specifications>=2023.03.6 (from jsonschema->ray[all])",
             "packages": [
-                "jsonschema_specifications-2023.12.1-py3-none-any.whl"
+                "jsonschema_specifications-2023.12.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "referencing>=0.28.4 (from jsonschema->ray[all])",
             "packages": [
-                "referencing-0.35.1-py3-none-any.whl"
+                "referencing-0.35.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "rpds-py>=0.7.1 (from jsonschema->ray[all])",
             "packages": [
-                "rpds_py-0.20.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "rpds_py-0.20.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "jinja2>=2.9 (from memray->ray[all])",
             "packages": [
-                "jinja2-3.1.4-py3-none-any.whl"
+                "jinja2-3.1.4-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "textual>=0.41.0 (from memray->ray[all])",
             "packages": [
-                "textual-0.82.0-py3-none-any.whl"
+                "textual-0.82.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "markdown-it-py>=2.2.0 (from rich->ray[all])",
             "packages": [
-                "markdown_it_py-3.0.0-py3-none-any.whl"
+                "markdown_it_py-3.0.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pygments<3.0.0,>=2.13.0 (from rich->ray[all])",
             "packages": [
-                "pygments-2.18.0-py3-none-any.whl"
+                "pygments-2.18.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "opencensus-context>=0.1.3 (from opencensus->ray[all])",
             "packages": [
-                "opencensus_context-0.1.3-py2.py3-none-any.whl"
+                "opencensus_context-0.1.3-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "six~=1.16 (from opencensus->ray[all])",
             "packages": [
-                "six-1.16.0-py2.py3-none-any.whl"
+                "six-1.16.0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "google-api-core<3.0.0,>=1.0.0 (from opencensus->ray[all])",
             "packages": [
-                "google_api_core-2.20.0-py3-none-any.whl"
+                "google_api_core-2.20.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "deprecated>=1.2.6 (from opentelemetry-api->ray[all])",
             "packages": [
-                "Deprecated-1.2.14-py2.py3-none-any.whl"
+                "Deprecated-1.2.14-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "importlib-metadata<=8.4.0,>=6.0 (from opentelemetry-api->ray[all])",
             "packages": [
-                "importlib_metadata-8.4.0-py3-none-any.whl"
+                "importlib_metadata-8.4.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "opentelemetry-exporter-otlp-proto-grpc==1.27.0 (from opentelemetry-exporter-otlp->ray[all])",
             "packages": [
-                "opentelemetry_exporter_otlp_proto_grpc-1.27.0-py3-none-any.whl"
+                "opentelemetry_exporter_otlp_proto_grpc-1.27.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "opentelemetry-exporter-otlp-proto-http==1.27.0 (from opentelemetry-exporter-otlp->ray[all])",
             "packages": [
-                "opentelemetry_exporter_otlp_proto_http-1.27.0-py3-none-any.whl"
+                "opentelemetry_exporter_otlp_proto_http-1.27.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "googleapis-common-protos~=1.52 (from opentelemetry-exporter-otlp-proto-grpc==1.27.0->opentelemetry-exporter-otlp->ray[all])",
             "packages": [
-                "googleapis_common_protos-1.65.0-py2.py3-none-any.whl"
+                "googleapis_common_protos-1.65.0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "opentelemetry-exporter-otlp-proto-common==1.27.0 (from opentelemetry-exporter-otlp-proto-grpc==1.27.0->opentelemetry-exporter-otlp->ray[all])",
             "packages": [
-                "opentelemetry_exporter_otlp_proto_common-1.27.0-py3-none-any.whl"
+                "opentelemetry_exporter_otlp_proto_common-1.27.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "opentelemetry-proto==1.27.0 (from opentelemetry-exporter-otlp-proto-grpc==1.27.0->opentelemetry-exporter-otlp->ray[all])",
             "packages": [
-                "opentelemetry_proto-1.27.0-py3-none-any.whl"
+                "opentelemetry_proto-1.27.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "protobuf!=3.19.5,>=3.15.3 (from ray[all])",
             "packages": [
-                "protobuf-4.25.5-cp37-abi3-manylinux2014_x86_64.whl"
+                "protobuf-4.25.5-cp37-abi3-manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "opentelemetry-semantic-conventions==0.48b0 (from opentelemetry-sdk->ray[all])",
             "packages": [
-                "opentelemetry_semantic_conventions-0.48b0-py3-none-any.whl"
+                "opentelemetry_semantic_conventions-0.48b0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "charset-normalizer<4,>=2 (from requests->ray[all])",
             "packages": [
-                "charset_normalizer-3.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "charset_normalizer-3.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "idna<4,>=2.5 (from requests->ray[all])",
             "packages": [
-                "idna-3.10-py3-none-any.whl"
+                "idna-3.10-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "urllib3<3,>=1.21.1 (from requests->ray[all])",
             "packages": [
-                "urllib3-2.2.3-py3-none-any.whl"
+                "urllib3-2.2.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "certifi>=2017.4.17 (from requests->ray[all])",
             "packages": [
-                "certifi-2024.8.30-py3-none-any.whl"
+                "certifi-2024.8.30-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "networkx>=2.8 (from scikit-image->ray[all])",
             "packages": [
-                "networkx-3.3-py3-none-any.whl"
+                "networkx-3.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pillow>=9.1 (from scikit-image->ray[all])",
             "packages": [
-                "pillow-10.4.0-cp311-cp311-manylinux_2_28_x86_64.whl"
+                "pillow-10.4.0-cp311-cp311-manylinux_2_28_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "imageio>=2.33 (from scikit-image->ray[all])",
             "packages": [
-                "imageio-2.35.1-py3-none-any.whl"
+                "imageio-2.35.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "tifffile>=2022.8.12 (from scikit-image->ray[all])",
             "packages": [
-                "tifffile-2024.9.20-py3-none-any.whl"
+                "tifffile-2024.9.20-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "lazy-loader>=0.4 (from scikit-image->ray[all])",
             "packages": [
-                "lazy_loader-0.4-py3-none-any.whl"
+                "lazy_loader-0.4-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "wrapt (from smart-open->ray[all])",
             "packages": [
-                "wrapt-1.16.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "wrapt-1.16.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "shellingham>=1.3.0 (from typer->ray[all])",
             "packages": [
-                "shellingham-1.5.4-py2.py3-none-any.whl"
+                "shellingham-1.5.4-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "h11>=0.8 (from uvicorn[standard]; extra == \"all\"->ray[all])",
             "packages": [
-                "h11-0.14.0-py3-none-any.whl"
+                "h11-0.14.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "httptools>=0.5.0 (from uvicorn[standard]; extra == \"all\"->ray[all])",
             "packages": [
-                "httptools-0.6.1-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "httptools-0.6.1-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "python-dotenv>=0.13 (from uvicorn[standard]; extra == \"all\"->ray[all])",
             "packages": [
-                "python_dotenv-1.0.1-py3-none-any.whl"
+                "python_dotenv-1.0.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "uvloop!=0.15.0,!=0.15.1,>=0.14.0 (from uvicorn[standard]; extra == \"all\"->ray[all])",
             "packages": [
-                "uvloop-0.20.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "uvloop-0.20.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "websockets>=10.4 (from uvicorn[standard]; extra == \"all\"->ray[all])",
             "packages": [
-                "websockets-13.1-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "websockets-13.1-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "sniffio>=1.1 (from anyio<5,>=3.4.0->starlette->ray[all])",
             "packages": [
-                "sniffio-1.3.1-py3-none-any.whl"
+                "sniffio-1.3.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "proto-plus<2.0.0dev,>=1.22.3 (from google-api-core<3.0.0,>=1.0.0->opencensus->ray[all])",
             "packages": [
-                "proto_plus-1.24.0-py3-none-any.whl"
+                "proto_plus-1.24.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "google-auth<3.0.dev0,>=2.14.1 (from google-api-core<3.0.0,>=1.0.0->opencensus->ray[all])",
             "packages": [
-                "google_auth-2.35.0-py2.py3-none-any.whl"
+                "google_auth-2.35.0-py2.py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "zipp>=0.5 (from importlib-metadata<=8.4.0,>=6.0->opentelemetry-api->ray[all])",
             "packages": [
-                "zipp-3.20.2-py3-none-any.whl"
+                "zipp-3.20.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "MarkupSafe>=2.0 (from jinja2>=2.9->memray->ray[all])",
             "packages": [
-                "MarkupSafe-2.1.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+                "MarkupSafe-2.1.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
             ]
         },
         {
             "requirement": "mdurl~=0.1 (from markdown-it-py>=2.2.0->rich->ray[all])",
             "packages": [
-                "mdurl-0.1.2-py3-none-any.whl"
+                "mdurl-0.1.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "cachetools<6.0,>=2.0.0 (from google-auth<3.0.dev0,>=2.14.1->google-api-core<3.0.0,>=1.0.0->opencensus->ray[all])",
             "packages": [
-                "cachetools-5.5.0-py3-none-any.whl"
+                "cachetools-5.5.0-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pyasn1-modules>=0.2.1 (from google-auth<3.0.dev0,>=2.14.1->google-api-core<3.0.0,>=1.0.0->opencensus->ray[all])",
             "packages": [
-                "pyasn1_modules-0.4.1-py3-none-any.whl"
+                "pyasn1_modules-0.4.1-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "rsa<5,>=3.1.4 (from google-auth<3.0.dev0,>=2.14.1->google-api-core<3.0.0,>=1.0.0->opencensus->ray[all])",
             "packages": [
-                "rsa-4.9-py3-none-any.whl"
+                "rsa-4.9-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "linkify-it-py<3,>=1 (from markdown-it-py[linkify,plugins]>=2.1.0->textual>=0.41.0->memray->ray[all])",
             "packages": [
-                "linkify_it_py-2.0.3-py3-none-any.whl"
+                "linkify_it_py-2.0.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "mdit-py-plugins (from markdown-it-py[linkify,plugins]>=2.1.0->textual>=0.41.0->memray->ray[all])",
             "packages": [
-                "mdit_py_plugins-0.4.2-py3-none-any.whl"
+                "mdit_py_plugins-0.4.2-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "uc-micro-py (from linkify-it-py<3,>=1->markdown-it-py[linkify,plugins]>=2.1.0->textual>=0.41.0->memray->ray[all])",
             "packages": [
-                "uc_micro_py-1.0.3-py3-none-any.whl"
+                "uc_micro_py-1.0.3-py3-none-any.whl.metadata"
             ]
         },
         {
             "requirement": "pyasn1<0.7.0,>=0.4.6 (from pyasn1-modules>=0.2.1->google-auth<3.0.dev0,>=2.14.1->google-api-core<3.0.0,>=1.0.0->opencensus->ray[all])",
             "packages": [
-                "pyasn1-0.6.1-py3-none-any.whl"
+                "pyasn1-0.6.1-py3-none-any.whl.metadata"
             ]
         }
     ]
