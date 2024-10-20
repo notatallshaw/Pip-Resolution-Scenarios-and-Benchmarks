@@ -1,0 +1,3649 @@
+{
+    "input": {
+        "pip_version": "24.2",
+        "python_version": "3.11",
+        "datetime": "2024-10-18T00:00:00",
+        "platform_system": "Linux",
+        "requirements": [
+            "acryl-datahub[all]"
+        ]
+    },
+    "result": {
+        "success": true,
+        "failure_reason": null,
+        "install_info": [
+            {
+                "file_name": "Authlib-1.3.2-py2.py3-none-any.whl",
+                "hash": "sha256=ede026a95e9f5cdc2d4364a52103f5405e75aa156357e831ef2bfd0bc5094dfc"
+            },
+            {
+                "file_name": "Deprecated-1.2.14-py2.py3-none-any.whl",
+                "hash": "sha256=6fac8b097794a90302bdbb17b9b815e732d3c4720583ff1b198499d78470466c"
+            },
+            {
+                "file_name": "GeoAlchemy2-0.15.2-py3-none-any.whl",
+                "hash": "sha256=546455dc39f5bcdfc5b871e57d3f7546c8a6f798eb364c474200f488ace6fd32"
+            },
+            {
+                "file_name": "GitPython-3.1.43-py3-none-any.whl",
+                "hash": "sha256=eec7ec56b92aad751f9912a73404bc02ba212a23adb2c7098ee668417051a1ff"
+            },
+            {
+                "file_name": "JPype1-1.5.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                "hash": "sha256=5ef976e0f3b2e9604469f449f30bb2031941a159a0637f4c16adb2c5076f3e81"
+            },
+            {
+                "file_name": "Mako-1.3.5-py3-none-any.whl",
+                "hash": "sha256=260f1dbc3a519453a9c856dedfe4beb4e50bd5a26d96386cb6c80856556bb91a"
+            },
+            {
+                "file_name": "MarkupSafe-3.0.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                "hash": "sha256=244dbe463d5fb6d7ce161301a03a6fe744dac9072328ba9fc82289238582697b"
+            },
+            {
+                "file_name": "PyJWT-2.9.0-py3-none-any.whl",
+                "hash": "sha256=3b02fb0f44517787776cf48f2ae25d8e14f300e6d7545a4315cee571a415e850"
+            },
+            {
+                "file_name": "PyMySQL-1.1.1-py3-none-any.whl",
+                "hash": "sha256=4de15da4c61dc132f4fb9ab763063e693d521a80fd0e87943b9a453dd4c19d6c"
+            },
+            {
+                "file_name": "PyYAML-6.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                "hash": "sha256=3ad2a3decf9aaba3d29c8f537ac4b243e36bef957511b4766cb0057d32b0be85"
+            },
+            {
+                "file_name": "SQLAlchemy-1.4.44-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                "hash": "sha256=4c56e6899fa6e767e4be5d106941804a4201c5cb9620a409c0b80448ec70b656"
+            },
+            {
+                "file_name": "Send2Trash-1.8.3-py3-none-any.whl",
+                "hash": "sha256=0c31227e0bd08961c7665474a3d1ef7193929fedda4233843689baa056be46c9"
+            },
+            {
+                "file_name": "acryl_PyHive-0.6.16-py3-none-any.whl",
+                "hash": "sha256=6e2664e55fc62476a5880a18a9fcb619e61e26ddd6113a9b4d84d98378f97415"
+            },
+            {
+                "file_name": "acryl_datahub-0.14.1.2-py3-none-any.whl",
+                "hash": "sha256=10f002c6ac9c4e9472d14e276a8eb8865a731a2c41f2e086dbac7eaf00f85b70"
+            },
+            {
+                "file_name": "acryl_datahub_classify-0.0.11-py3-none-any.whl",
+                "hash": "sha256=6cb0ec3a62bf926f3c65a287531aaa6ab291b993c55870f7411bac98f1169441"
+            },
+            {
+                "file_name": "acryl_sqlglot-25.20.2.dev6-py3-none-any.whl",
+                "hash": "sha256=32d9ed2dfc26c36db3dc5de5f400620f1dabe2c6cf1d262b6ea52cc701a55009"
+            },
+            {
+                "file_name": "aenum-3.1.15-py3-none-any.whl",
+                "hash": "sha256=e0dfaeea4c2bd362144b87377e2c61d91958c5ed0b4daf89cb6f45ae23af6288"
+            },
+            {
+                "file_name": "aiohappyeyeballs-2.4.3-py3-none-any.whl",
+                "hash": "sha256=8a7a83727b2756f394ab2895ea0765a0a8c475e3c71e98d43d76f22b4b435572"
+            },
+            {
+                "file_name": "aiohttp-3.10.10-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                "hash": "sha256=679abe5d3858b33c2cf74faec299fda60ea9de62916e8b67e625d65bf069a3b7"
+            },
+            {
+                "file_name": "aiosignal-1.3.1-py3-none-any.whl",
+                "hash": "sha256=f8376fb07dd1e86a584e4fcdec80b36b7f81aac666ebc724e2c090300dd83b17"
+            },
+            {
+                "file_name": "alembic-1.13.3-py3-none-any.whl",
+                "hash": "sha256=908e905976d15235fae59c9ac42c4c5b75cfcefe3d27c0fbf7ae15a37715d80e"
+            },
+            {
+                "file_name": "altair-4.2.0-py3-none-any.whl",
+                "hash": "sha256=0c724848ae53410c13fa28be2b3b9a9dcb7b5caa1a70f7f217bd663bb419935a"
+            },
+            {
+                "file_name": "anyio-3.7.1-py3-none-any.whl",
+                "hash": "sha256=91dee416e570e92c64041bd18b900d1d6fa78dff7048769ce5ac5ddad004fbb5"
+            },
+            {
+                "file_name": "argon2_cffi-23.1.0-py3-none-any.whl",
+                "hash": "sha256=c670642b78ba29641818ab2e68bd4e6a78ba53b7eff7b4c3815ae16abf91c7ea"
+            },
+            {
+                "file_name": "argon2_cffi_bindings-21.2.0-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                "hash": "sha256=b746dba803a79238e925d9046a63aa26bf86ab2a2fe74ce6b009a1c3f5c8f2ae"
+            },
+            {
+                "file_name": "asn1crypto-1.5.1-py2.py3-none-any.whl",
+                "hash": "sha256=db4e40728b728508912cbb3d44f19ce188f218e9eba635821bb4b68564f8fd67"
+            },
+            {
+                "file_name": "asttokens-2.4.1-py2.py3-none-any.whl",
+                "hash": "sha256=051ed49c3dcae8913ea7cd08e46a606dba30b79993209636c4875bc1d637bc24"
+            },
+            {
+                "file_name": "asynch-0.2.5-py3-none-any.whl",
+                "hash": "sha256=b14a4d4f49c3ed2f77a44722ce33a48b8049acb1ba24f425792ffdb3d1ef2829"
+            },
+            {
+                "file_name": "attrs-24.2.0-py3-none-any.whl",
+                "hash": "sha256=81921eb96de3191c8258c199618104dd27ac608d9366f5e35d011eae1867ede2"
+            },
+            {
+                "file_name": "avro-1.11.3.tar.gz",
+                "hash": "sha256=3393bb5139f9cf0791d205756ce1e39a5b58586af5b153d6a3b5a199610e9d17"
+            },
+            {
+                "file_name": "avro_gen3-0.7.16-py3-none-any.whl",
+                "hash": "sha256=9f26de26214a8730d5e7d86b4a2c4afe8bedfaac5b770beb122cd0fa5fea60f8"
+            },
+            {
+                "file_name": "azure_common-1.1.28-py2.py3-none-any.whl",
+                "hash": "sha256=5c12d3dcf4ec20599ca6b0d3e09e86e146353d443e7fcc050c9a19c1f9df20ad"
+            },
+            {
+                "file_name": "azure_core-1.29.4-py3-none-any.whl",
+                "hash": "sha256=b03261bcba22c0b9290faf9999cedd23e849ed2577feee90515694cea6bc74bf"
+            },
+            {
+                "file_name": "azure_identity-1.17.1-py3-none-any.whl",
+                "hash": "sha256=db8d59c183b680e763722bfe8ebc45930e6c57df510620985939f7f3191e0382"
+            },
+            {
+                "file_name": "azure_storage_blob-12.22.0-py3-none-any.whl",
+                "hash": "sha256=bb7d2d824ce3f11f14a27ee7d9281289f7e072ac8311c52e3652672455b7d5e8"
+            },
+            {
+                "file_name": "azure_storage_file_datalake-12.16.0-py3-none-any.whl",
+                "hash": "sha256=da57ec6cf5640b92bbd0ba61478f51e67c63b94843fa748b3b6599f1adba5837"
+            },
+            {
+                "file_name": "backoff-2.2.1-py3-none-any.whl",
+                "hash": "sha256=63579f9a0628e06278f7e47b7d7d5b6ce20dc65c5e96a6f3ca99a6adca0396e8"
+            },
+            {
+                "file_name": "beautifulsoup4-4.12.3-py3-none-any.whl",
+                "hash": "sha256=b80878c9f40111313e55da8ba20bdba06d8fa3969fc68304167741bbf9e082ed"
+            },
+            {
+                "file_name": "bleach-6.1.0-py3-none-any.whl",
+                "hash": "sha256=3225f354cfc436b9789c66c4ee030194bee0568fbf9cbdad3bc8b5c26c5f12b6"
+            },
+            {
+                "file_name": "blis-0.7.11-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                "hash": "sha256=0421d6e44cda202b113a34761f9a062b53f8c2ae8e4ec8325a76e709fca93b6e"
+            },
+            {
+                "file_name": "boto3-1.35.43-py3-none-any.whl",
+                "hash": "sha256=e6a50a0599f75b21de0de1a551a0564793d25b304fa623e4052e527b268de734"
+            },
+            {
+                "file_name": "botocore-1.35.43-py3-none-any.whl",
+                "hash": "sha256=7cfdee9117617da97daaf259dd8484bcdc259c59eb7d1ce7db9ecf8506b7d36c"
+            },
+            {
+                "file_name": "bracex-2.5.post1-py3-none-any.whl",
+                "hash": "sha256=13e5732fec27828d6af308628285ad358047cec36801598368cb28bc631dbaf6"
+            },
+            {
+                "file_name": "cached_property-1.5.2-py2.py3-none-any.whl",
+                "hash": "sha256=df4f613cf7ad9a588cc381aaf4a512d26265ecebd5eb9e1ba12f1319eb85a6a0"
+            },
+            {
+                "file_name": "cachetools-5.5.0-py3-none-any.whl",
+                "hash": "sha256=02134e8439cdc2ffb62023ce1debca2944c3f289d66bb17ead3ab3dede74b292"
+            },
+            {
+                "file_name": "catalogue-2.0.10-py3-none-any.whl",
+                "hash": "sha256=58c2de0020aa90f4a2da7dfad161bf7b3b054c86a5f09fcedc0b2b740c109a9f"
+            },
+            {
+                "file_name": "cattrs-24.1.2-py3-none-any.whl",
+                "hash": "sha256=67c7495b760168d931a10233f979b28dc04daf853b30752246f4f8471c6d68d0"
+            },
+            {
+                "file_name": "certifi-2024.8.30-py3-none-any.whl",
+                "hash": "sha256=922820b53db7a7257ffbda3f597266d435245903d80737e34f8a45ff3e3230d8"
+            },
+            {
+                "file_name": "cffi-1.17.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                "hash": "sha256=610faea79c43e44c71e1ec53a554553fa22321b65fae24889706c0a84d4ad86d"
+            },
+            {
+                "file_name": "chardet-5.2.0-py3-none-any.whl",
+                "hash": "sha256=e1cf59446890a00105fe7b7912492ea04b6e6f06d4b742b2c788469e34c82970"
+            },
+            {
+                "file_name": "charset_normalizer-3.4.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                "hash": "sha256=3710a9751938947e6327ea9f3ea6332a09bf0ba0c09cae9cb1f250bd1f1549bc"
+            },
+            {
+                "file_name": "ciso8601-2.3.1-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                "hash": "sha256=ef44cb4dc83f37019a356c7a72692cbe17072456f4879ca6bc0339f67eee5d00"
+            },
+            {
+                "file_name": "click-8.1.7-py3-none-any.whl",
+                "hash": "sha256=ae74fb96c20a0277a1d615f1e4d73c8414f5a98db8b799a7931d1582f3390c28"
+            },
+            {
+                "file_name": "click_default_group-1.2.4-py2.py3-none-any.whl",
+                "hash": "sha256=9b60486923720e7fc61731bdb32b617039aba820e22e1c88766b1125592eaa5f"
+            },
+            {
+                "file_name": "click_spinner-0.1.10-py2.py3-none-any.whl",
+                "hash": "sha256=d1ffcff1fdad9882396367f15fb957bcf7f5c64ab91927dee2127e0d2991ee84"
+            },
+            {
+                "file_name": "clickhouse-sqlalchemy-0.2.4.tar.gz",
+                "hash": "sha256=8254f7e77501fc938e4180967c4e836263b975fb4485291aa01b2d7db973ef07"
+            },
+            {
+                "file_name": "clickhouse_driver-0.2.9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                "hash": "sha256=433a650571a0d7766eb6f402e8f5930222997686c2ee01ded22f1d8fd46af9d4"
+            },
+            {
+                "file_name": "cloudpathlib-0.19.0-py3-none-any.whl",
+                "hash": "sha256=eb7758648812d5906af44f14cf9a6a64f687342a6f547a1c20deb7241d769dcb"
+            },
+            {
+                "file_name": "cloudpickle-3.1.0-py3-none-any.whl",
+                "hash": "sha256=fe11acda67f61aaaec473e3afe030feb131d78a43461b718185363384f1ba12e"
+            },
+            {
+                "file_name": "colorama-0.4.6-py2.py3-none-any.whl",
+                "hash": "sha256=4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6"
+            },
+            {
+                "file_name": "comm-0.2.2-py3-none-any.whl",
+                "hash": "sha256=e6fb86cb70ff661ee8c9c14e7d36d6de3b4066f1441be4063df9c5009f0a64d3"
+            },
+            {
+                "file_name": "confection-0.1.5-py3-none-any.whl",
+                "hash": "sha256=e29d3c3f8eac06b3f77eb9dfb4bf2fc6bcc9622a98ca00a698e3d019c6430b14"
+            },
+            {
+                "file_name": "confluent_kafka-2.6.0-cp311-cp311-manylinux_2_28_x86_64.whl",
+                "hash": "sha256=7a9a58472e23112043e9a36e048241bccc3fd211f066fba778c070f0eafa35c8"
+            },
+            {
+                "file_name": "cryptography-43.0.1-cp39-abi3-manylinux_2_28_x86_64.whl",
+                "hash": "sha256=511f4273808ab590912a93ddb4e3914dfd8a388fed883361b02dea3791f292e1"
+            },
+            {
+                "file_name": "cx_Oracle-8.3.0.tar.gz",
+                "hash": "sha256=3b2d215af4441463c97ea469b9cc307460739f89fdfa8ea222ea3518f1a424d9"
+            },
+            {
+                "file_name": "cymem-2.0.8-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                "hash": "sha256=42c993589d1811ec665d37437d5677b8757f53afadd927bf8516ac8ce2d3a50c"
+            },
+            {
+                "file_name": "databricks_dbapi-0.6.0-py2.py3-none-any.whl",
+                "hash": "sha256=b0bf0dc008c58aa0b60fa10f23b448388e4eebb54128e8a70c842fa7e8338053"
+            },
+            {
+                "file_name": "databricks_sdk-0.35.0-py3-none-any.whl",
+                "hash": "sha256=00cce49014dfa1d5912cb18e376d28b2de8829a8f645d87d4040bae048630578"
+            },
+            {
+                "file_name": "databricks_sql_connector-2.9.6-py3-none-any.whl",
+                "hash": "sha256=d830abf86e71d2eb83c6a7b7264d6c03926a8a83cec58541ddd6b83d693bde8f"
+            },
+            {
+                "file_name": "dataflows_tabulator-1.54.3-py2.py3-none-any.whl",
+                "hash": "sha256=3bdceeb06e128d5f794b4c2d48e5788a9c9b8a8c98cf918db6f47bfc29b08fd4"
+            },
+            {
+                "file_name": "db_dtypes-1.3.0-py2.py3-none-any.whl",
+                "hash": "sha256=7e65c59f849ccbe6f7bc4d0253edcc212a7907662906921caba3e4aadd0bc277"
+            },
+            {
+                "file_name": "debugpy-1.8.7-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                "hash": "sha256=cba1d078cf2e1e0b8402e6bda528bf8fda7ccd158c3dba6c012b7897747c41a0"
+            },
+            {
+                "file_name": "decorator-5.1.1-py3-none-any.whl",
+                "hash": "sha256=b8c3f85900b9dc423225913c5aace94729fe1fa9763b38939a95226f02d37186"
+            },
+            {
+                "file_name": "deepmerge-2.0-py3-none-any.whl",
+                "hash": "sha256=6de9ce507115cff0bed95ff0ce9ecc31088ef50cbdf09bc90a09349a318b3d00"
+            },
+            {
+                "file_name": "defusedxml-0.7.1-py2.py3-none-any.whl",
+                "hash": "sha256=a352e7e428770286cc899e2542b6cdaedb2b4953ff269a210103ec58f6198a61"
+            },
+            {
+                "file_name": "deltalake-0.20.2-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                "hash": "sha256=37e69797219b4e79f37e064c0282520d9dda35dd11a449f7c9080626deb91db3"
+            },
+            {
+                "file_name": "dnspython-2.7.0-py3-none-any.whl",
+                "hash": "sha256=b4c34b7d10b51bcc3a5071e7b8dee77939f1e878477eeecc965e9835f63c6c86"
+            },
+            {
+                "file_name": "docker-7.1.0-py3-none-any.whl",
+                "hash": "sha256=c96b93b7f0a746f9e77d325bcfb87422a3d8bd4f03136ae8a85b37f1898d5fc0"
+            },
+            {
+                "file_name": "ecdsa-0.19.0-py2.py3-none-any.whl",
+                "hash": "sha256=2cea9b88407fdac7bbeca0833b189e4c9c53f2ef1e1eaa29f6224dbc809b707a"
+            },
+            {
+                "file_name": "elasticsearch-7.13.4-py2.py3-none-any.whl",
+                "hash": "sha256=5920df0ab2630778680376d86bea349dc99860977eec9b6d2bd0860f337313f2"
+            },
+            {
+                "file_name": "entrypoints-0.4-py3-none-any.whl",
+                "hash": "sha256=f174b5ff827504fd3cd97cc3f8649f3693f51538c7e4bdf3ef002c8429d42f9f"
+            },
+            {
+                "file_name": "et_xmlfile-1.1.0-py3-none-any.whl",
+                "hash": "sha256=a2ba85d1d6a74ef63837eed693bcb89c3f752169b0e3e7ae5b16ca5e1b3deada"
+            },
+            {
+                "file_name": "executing-2.1.0-py2.py3-none-any.whl",
+                "hash": "sha256=8d63781349375b5ebccc3142f4b30350c0cd9c79f921cde38be2be4637e98eaf"
+            },
+            {
+                "file_name": "expandvars-0.12.0-py3-none-any.whl",
+                "hash": "sha256=7432c1c2ae50c671a8146583177d60020dd210ada7d940e52af91f1f84f753b2"
+            },
+            {
+                "file_name": "fastavro-1.9.7-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                "hash": "sha256=919f3549e07a8a8645a2146f23905955c35264ac809f6c2ac18142bc5b9b6022"
+            },
+            {
+                "file_name": "fastjsonschema-2.20.0-py3-none-any.whl",
+                "hash": "sha256=5875f0b0fa7a0043a91e93a9b8f793bcbbba9691e7fd83dca95c28ba26d21f0a"
+            },
+            {
+                "file_name": "filelock-3.16.1-py3-none-any.whl",
+                "hash": "sha256=2082e5703d51fbf98ea75855d9d5527e33d8ff23099bec374a134febee6946b0"
+            },
+            {
+                "file_name": "flatdict-4.0.1.tar.gz",
+                "hash": "sha256=cd32f08fd31ed21eb09ebc76f06b6bd12046a24f77beb1fd0281917e47f26742"
+            },
+            {
+                "file_name": "frozenlist-1.4.1-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                "hash": "sha256=4f9c515e7914626b2a2e1e311794b4c35720a0be87af52b79ff8e1429fc25f19"
+            },
+            {
+                "file_name": "fsspec-2023.12.2-py3-none-any.whl",
+                "hash": "sha256=d800d87f72189a745fa3d6b033b9dc4a34ad069f60ca60b943a63599f5501960"
+            },
+            {
+                "file_name": "future-1.0.0-py3-none-any.whl",
+                "hash": "sha256=929292d34f5872e70396626ef385ec22355a1fae8ad29e1a734c3e43f9fbc216"
+            },
+            {
+                "file_name": "gitdb-4.0.11-py3-none-any.whl",
+                "hash": "sha256=81a3407ddd2ee8df444cbacea00e2d038e40150acfa3001696fe0dcf1d3adfa4"
+            },
+            {
+                "file_name": "google_api_core-2.21.0-py3-none-any.whl",
+                "hash": "sha256=6869eacb2a37720380ba5898312af79a4d30b8bca1548fb4093e0697dc4bdf5d"
+            },
+            {
+                "file_name": "google_auth-2.35.0-py2.py3-none-any.whl",
+                "hash": "sha256=25df55f327ef021de8be50bad0dfd4a916ad0de96da86cd05661c9297723ad3f"
+            },
+            {
+                "file_name": "google_cloud_appengine_logging-1.4.5-py2.py3-none-any.whl",
+                "hash": "sha256=344e0244404049b42164e4d6dc718ca2c81b393d066956e7cb85fd9407ed9c48"
+            },
+            {
+                "file_name": "google_cloud_audit_log-0.3.0-py2.py3-none-any.whl",
+                "hash": "sha256=8340793120a1d5aa143605def8704ecdcead15106f754ef1381ae3bab533722f"
+            },
+            {
+                "file_name": "google_cloud_bigquery-3.26.0-py2.py3-none-any.whl",
+                "hash": "sha256=e0e9ad28afa67a18696e624cbccab284bf2c0a3f6eeb9eeb0426c69b943793a8"
+            },
+            {
+                "file_name": "google_cloud_core-2.4.1-py2.py3-none-any.whl",
+                "hash": "sha256=a9e6a4422b9ac5c29f79a0ede9485473338e2ce78d91f2370c01e730eab22e61"
+            },
+            {
+                "file_name": "google_cloud_datacatalog-3.20.1-py2.py3-none-any.whl",
+                "hash": "sha256=59eab13ef05fb6f0b92b3b1472dab66fc44c27710458b6bd26f4ca09acbe6130"
+            },
+            {
+                "file_name": "google_cloud_datacatalog_lineage-0.2.2-py3-none-any.whl",
+                "hash": "sha256=525e918b2c18f1b402cd7558cdda5f67f7b3abb4e4549971296a9fb5be5fba7d"
+            },
+            {
+                "file_name": "google_cloud_logging-3.5.0-py2.py3-none-any.whl",
+                "hash": "sha256=def71f6a7bb6652ce8fee18f0cad8c32157ac606fe1512802254a471bcdfe5e8"
+            },
+            {
+                "file_name": "google_cloud_resource_manager-1.12.5-py2.py3-none-any.whl",
+                "hash": "sha256=2708a718b45c79464b7b21559c701b5c92e6b0b1ab2146d0a256277a623dc175"
+            },
+            {
+                "file_name": "google_crc32c-1.6.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                "hash": "sha256=51c4f54dd8c6dfeb58d1df5e4f7f97df8abf17a36626a217f169893d1d7f3e9f"
+            },
+            {
+                "file_name": "google_resumable_media-2.7.2-py2.py3-none-any.whl",
+                "hash": "sha256=3ce7551e9fe6d99e9a126101d2536612bb73486721951e9562fee0f90c6ababa"
+            },
+            {
+                "file_name": "googleapis_common_protos-1.65.0-py2.py3-none-any.whl",
+                "hash": "sha256=2972e6c496f435b92590fd54045060867f3fe9be2c82ab148fc8885035479a63"
+            },
+            {
+                "file_name": "gql-3.5.0-py2.py3-none-any.whl",
+                "hash": "sha256=70dda5694a5b194a8441f077aa5fb70cc94e4ec08016117523f013680901ecb7"
+            },
+            {
+                "file_name": "graphql_core-3.2.5-py3-none-any.whl",
+                "hash": "sha256=2f150d5096448aa4f8ab26268567bbfeef823769893b39c1a2e1409590939c8a"
+            },
+            {
+                "file_name": "great_expectations-0.15.50-py3-none-any.whl",
+                "hash": "sha256=bda4c6bfe199dc0610273a1c160aab3876583266b1957a34a7edb72b055fd13d"
+            },
+            {
+                "file_name": "greenlet-3.1.1-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl",
+                "hash": "sha256=9e8f8c9cb53cdac7ba9793c276acd90168f416b9ce36799b9b885790f8ad6c0a"
+            },
+            {
+                "file_name": "grpc_google_iam_v1-0.13.1-py2.py3-none-any.whl",
+                "hash": "sha256=c3e86151a981811f30d5e7330f271cee53e73bb87755e88cc3b6f0c7b5fe374e"
+            },
+            {
+                "file_name": "grpcio-1.67.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                "hash": "sha256=a4e95e43447a02aa603abcc6b5e727d093d161a869c83b073f50b9390ecf0fa8"
+            },
+            {
+                "file_name": "grpcio_status-1.62.3-py3-none-any.whl",
+                "hash": "sha256=f9049b762ba8de6b1086789d8315846e094edac2c50beaf462338b301a8fd4b8"
+            },
+            {
+                "file_name": "grpcio_tools-1.62.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                "hash": "sha256=7f2483ea232bd72d98a6dc6d7aefd97e5bc80b15cd909b9e356d6f3e326b6e43"
+            },
+            {
+                "file_name": "gssapi-1.9.0.tar.gz",
+                "hash": "sha256=f468fac8f3f5fca8f4d1ca19e3cd4d2e10bd91074e7285464b22715d13548afe"
+            },
+            {
+                "file_name": "hdbcli-2.22.29-cp34-abi3-manylinux1_x86_64.whl",
+                "hash": "sha256=c70ae254bf1565137812943f8f68595e7142e0b4ea53d7d8b5b9c233fae935a0"
+            },
+            {
+                "file_name": "humanfriendly-10.0-py2.py3-none-any.whl",
+                "hash": "sha256=1697e1a8a8f550fd43c2865cd84542fc175a61dcb779b6fee18cf6b6ccba1477"
+            },
+            {
+                "file_name": "idna-3.10-py3-none-any.whl",
+                "hash": "sha256=946d195a0d259cbba61165e88e65941f16e9b36ea6ddb97f00452bae8b1287d3"
+            },
+            {
+                "file_name": "ijson-3.3.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                "hash": "sha256=c594c0abe69d9d6099f4ece17763d53072f65ba60b372d8ba6de8695ce6ee39e"
+            },
+            {
+                "file_name": "importlib_metadata-8.4.0-py3-none-any.whl",
+                "hash": "sha256=66f342cc6ac9818fc6ff340576acd24d65ba0b3efabb2b4ac08b598965a4a2f1"
+            },
+            {
+                "file_name": "importlib_resources-6.4.5-py3-none-any.whl",
+                "hash": "sha256=ac29d5f956f01d5e4bb63102a5a19957f1b9175e45649977264a1416783bb717"
+            },
+            {
+                "file_name": "ipaddress-1.0.23-py2.py3-none-any.whl",
+                "hash": "sha256=6e0f4a39e66cb5bb9a137b00276a2eff74f93b71dcbdad6f10ff7df9d3557fcc"
+            },
+            {
+                "file_name": "ipykernel-6.17.1-py3-none-any.whl",
+                "hash": "sha256=3a9a1b2ad6dbbd5879855aabb4557f08e63fa2208bffed897f03070e2bb436f6"
+            },
+            {
+                "file_name": "ipython-8.21.0-py3-none-any.whl",
+                "hash": "sha256=1050a3ab8473488d7eee163796b02e511d0735cf43a04ba2a8348bd0f2eaf8a5"
+            },
+            {
+                "file_name": "ipython_genutils-0.2.0-py2.py3-none-any.whl",
+                "hash": "sha256=72dd37233799e619666c9f639a9da83c34013a73e8bbc79a7a6348d93c61fab8"
+            },
+            {
+                "file_name": "ipywidgets-8.1.5-py3-none-any.whl",
+                "hash": "sha256=3290f526f87ae6e77655555baba4f36681c555b8bdbbff430b70e52c34c86245"
+            },
+            {
+                "file_name": "isodate-0.7.2-py3-none-any.whl",
+                "hash": "sha256=28009937d8031054830160fce6d409ed342816b543597cece116d966c6d99e15"
+            },
+            {
+                "file_name": "jedi-0.19.1-py2.py3-none-any.whl",
+                "hash": "sha256=e983c654fe5c02867aef4cdfce5a2fbb4a50adc0af145f70504238f18ef5e7e0"
+            },
+            {
+                "file_name": "jinja2-3.1.4-py3-none-any.whl",
+                "hash": "sha256=bc5dd2abb727a5319567b7a813e6a2e7318c39f4f487cfe6c89c6f9c7d25197d"
+            },
+            {
+                "file_name": "jmespath-1.0.1-py3-none-any.whl",
+                "hash": "sha256=02e2e4cc71b5bcab88332eebf907519190dd9e6e82107fa7f83b1003a6252980"
+            },
+            {
+                "file_name": "jsonlines-4.0.0-py3-none-any.whl",
+                "hash": "sha256=185b334ff2ca5a91362993f42e83588a360cf95ce4b71a73548502bda52a7c55"
+            },
+            {
+                "file_name": "jsonpatch-1.33-py2.py3-none-any.whl",
+                "hash": "sha256=0ae28c0cd062bbd8b8ecc26d7d164fbbea9652a1a3693f3b956c1eae5145dade"
+            },
+            {
+                "file_name": "jsonpointer-3.0.0-py2.py3-none-any.whl",
+                "hash": "sha256=13e088adc14fca8b6aa8177c044e12701e6ad4b28ff10e65f2267a90109c9942"
+            },
+            {
+                "file_name": "jsonref-1.1.0-py3-none-any.whl",
+                "hash": "sha256=590dc7773df6c21cbf948b5dac07a72a251db28b0238ceecce0a2abfa8ec30a9"
+            },
+            {
+                "file_name": "jsonschema-4.23.0-py3-none-any.whl",
+                "hash": "sha256=fbadb6f8b144a8f8cf9f0b89ba94501d143e50411a1278633f56a7acf7fd5566"
+            },
+            {
+                "file_name": "jsonschema_specifications-2024.10.1-py3-none-any.whl",
+                "hash": "sha256=a09a0680616357d9a0ecf05c12ad234479f549239d0f5b55f3deea67475da9bf"
+            },
+            {
+                "file_name": "jupyter_client-7.4.9-py3-none-any.whl",
+                "hash": "sha256=214668aaea208195f4c13d28eb272ba79f945fc0cf3f11c7092c20b2ca1980e7"
+            },
+            {
+                "file_name": "jupyter_core-4.12.0-py3-none-any.whl",
+                "hash": "sha256=a54672c539333258495579f6964144924e0aa7b07f7069947bef76d7ea5cb4c1"
+            },
+            {
+                "file_name": "jupyter_server-1.24.0-py3-none-any.whl",
+                "hash": "sha256=c88ddbe862966ea1aea8c3ccb89a5903abd8fbcfe5cd14090ef549d403332c37"
+            },
+            {
+                "file_name": "jupyterlab_pygments-0.3.0-py3-none-any.whl",
+                "hash": "sha256=841a89020971da1d8693f1a99997aefc5dc424bb1b251fd6322462a1b8842780"
+            },
+            {
+                "file_name": "jupyterlab_widgets-3.0.13-py3-none-any.whl",
+                "hash": "sha256=e3cda2c233ce144192f1e29914ad522b2f4c40e77214b0cc97377ca3d323db54"
+            },
+            {
+                "file_name": "langcodes-3.4.1-py3-none-any.whl",
+                "hash": "sha256=68f686fc3d358f222674ecf697ddcee3ace3c2fe325083ecad2543fd28a20e77"
+            },
+            {
+                "file_name": "language_data-1.2.0-py3-none-any.whl",
+                "hash": "sha256=77d5cab917f91ee0b2f1aa7018443e911cf8985ef734ca2ba3940770f6a3816b"
+            },
+            {
+                "file_name": "lark-1.1.4-py3-none-any.whl",
+                "hash": "sha256=a42f9f18bdc9d5571a371ae658548e81e78d1642c2145cc3b663e0bf2e9e7eae"
+            },
+            {
+                "file_name": "leb128-1.0.8-py3-none-any.whl",
+                "hash": "sha256=76cd271e75ea91aa2fbf7783d60cb7d667b62143d544bcee59159ff258bf4523"
+            },
+            {
+                "file_name": "linear-tsv-1.1.0.tar.gz",
+                "hash": "sha256=b504d78f4075615ae75de86a16e5680701a441fc84da2a2cf9f94351ab1ccbf5"
+            },
+            {
+                "file_name": "lkml-1.3.5-py2.py3-none-any.whl",
+                "hash": "sha256=71540f0b1f1741eb1e9cc46ec8c674f6f7496e37c9b05e62a84c4e1ff9f3b950"
+            },
+            {
+                "file_name": "looker_sdk-23.0.0-py3-none-any.whl",
+                "hash": "sha256=949a0fbc362bb57132f907bdab2a7e1ab97ac1f963b6a70f246f305bc4301eb0"
+            },
+            {
+                "file_name": "lxml-5.3.0-cp311-cp311-manylinux_2_28_x86_64.whl",
+                "hash": "sha256=eec1bb8cdbba2925bedc887bc0609a80e599c75b12d87ae42ac23fd199445654"
+            },
+            {
+                "file_name": "lz4-4.3.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                "hash": "sha256=0e9c410b11a31dbdc94c05ac3c480cb4b222460faf9231f12538d0074e56c563"
+            },
+            {
+                "file_name": "makefun-1.15.6-py2.py3-none-any.whl",
+                "hash": "sha256=e69b870f0bb60304765b1e3db576aaecf2f9b3e5105afe8cfeff8f2afe6ad067"
+            },
+            {
+                "file_name": "marisa_trie-1.2.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                "hash": "sha256=7cca7f96236ffdbf49be4b2e42c132e3df05968ac424544034767650913524de"
+            },
+            {
+                "file_name": "markdown_it_py-3.0.0-py3-none-any.whl",
+                "hash": "sha256=355216845c60bd96232cd8d8c40e8f9765cc86f46880e43a8fd22dc1a1a8cab1"
+            },
+            {
+                "file_name": "marshmallow-3.23.0-py3-none-any.whl",
+                "hash": "sha256=82f20a2397834fe6d9611b241f2f7e7b680ed89c49f84728a1ad937be6b4bdf4"
+            },
+            {
+                "file_name": "matplotlib_inline-0.1.7-py3-none-any.whl",
+                "hash": "sha256=df192d39a4ff8f21b1895d72e6a13f5fcc5099f00fa84384e0ea28c2cc0653ca"
+            },
+            {
+                "file_name": "mdurl-0.1.2-py3-none-any.whl",
+                "hash": "sha256=84008a41e51615a49fc9966191ff91509e3c40b939176e643fd50a5c2196b8f8"
+            },
+            {
+                "file_name": "mistune-3.0.2-py3-none-any.whl",
+                "hash": "sha256=71481854c30fdbc938963d3605b72501f5c10a9320ecd412c121c163a1c7d205"
+            },
+            {
+                "file_name": "mixpanel-4.10.1-py2.py3-none-any.whl",
+                "hash": "sha256=a7a338b7197327e36356dbc1903086e7626db6d88367ccdd732b3f3c60d3b3ed"
+            },
+            {
+                "file_name": "mlflow_skinny-2.17.0-py3-none-any.whl",
+                "hash": "sha256=9eff7160f7459e09c01cc5bc2a68fdba7b64adbce069ef6d1013569830569048"
+            },
+            {
+                "file_name": "mmhash3-3.0.1-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                "hash": "sha256=c0575050ac691475938df1ad03d8738c5bd1eadef62093e76157ebb7f2df0946"
+            },
+            {
+                "file_name": "more_itertools-10.5.0-py3-none-any.whl",
+                "hash": "sha256=037b0d3203ce90cca8ab1defbbdac29d5f993fc20131f3664dc8d6acfa872aef"
+            },
+            {
+                "file_name": "moto-4.2.14-py2.py3-none-any.whl",
+                "hash": "sha256=6d242dbbabe925bb385ddb6958449e5c827670b13b8e153ed63f91dbdb50372c"
+            },
+            {
+                "file_name": "msal-1.31.0-py3-none-any.whl",
+                "hash": "sha256=96bc37cff82ebe4b160d5fc0f1196f6ca8b50e274ecd0ec5bf69c438514086e7"
+            },
+            {
+                "file_name": "msal_extensions-1.2.0-py3-none-any.whl",
+                "hash": "sha256=cf5ba83a2113fa6dc011a254a72f1c223c88d7dfad74cc30617c4679a417704d"
+            },
+            {
+                "file_name": "multidict-6.1.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                "hash": "sha256=ec2abea24d98246b94913b76a125e855eb5c434f7c46546046372fe60f666351"
+            },
+            {
+                "file_name": "murmurhash-1.0.10-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                "hash": "sha256=18b9d200a09d48ef67f6840b77c14f151f2b6c48fd69661eb75c7276ebdb146c"
+            },
+            {
+                "file_name": "mypy_extensions-1.0.0-py3-none-any.whl",
+                "hash": "sha256=4392f6c0eb8a5668a69e23d168ffa70f0be9ccfd32b5cc2d26a34ae5b844552d"
+            },
+            {
+                "file_name": "nbclassic-1.1.0-py3-none-any.whl",
+                "hash": "sha256=8c0fd6e36e320a18657ff44ed96c3a400f17a903a3744fc322303a515778f2ba"
+            },
+            {
+                "file_name": "nbclient-0.6.3-py3-none-any.whl",
+                "hash": "sha256=2747ac9b385720d8a6c34f2f71e72cbe64aec6cadaadcc064a4df0b0e99c5874"
+            },
+            {
+                "file_name": "nbconvert-7.16.4-py3-none-any.whl",
+                "hash": "sha256=05873c620fe520b6322bf8a5ad562692343fe3452abda5765c7a34b7d1aa3eb3"
+            },
+            {
+                "file_name": "nbformat-5.10.3-py3-none-any.whl",
+                "hash": "sha256=d9476ca28676799af85385f409b49d95e199951477a159a576ef2a675151e5e8"
+            },
+            {
+                "file_name": "nest_asyncio-1.6.0-py3-none-any.whl",
+                "hash": "sha256=87af6efd6b5e897c81050477ef65c62e2b2f35d51703cae01aff2905b1852e1c"
+            },
+            {
+                "file_name": "networkx-3.4.1-py3-none-any.whl",
+                "hash": "sha256=e30a87b48c9a6a7cc220e732bffefaee585bdb166d13377734446ce1a0620eed"
+            },
+            {
+                "file_name": "notebook-6.5.7-py3-none-any.whl",
+                "hash": "sha256=a6afa9a4ff4d149a0771ff8b8c881a7a73b3835f9add0606696d6e9d98ac1cd0"
+            },
+            {
+                "file_name": "notebook_shim-0.2.4-py3-none-any.whl",
+                "hash": "sha256=411a5be4e9dc882a074ccbcae671eda64cceb068767e9a3419096986560e1cef"
+            },
+            {
+                "file_name": "numpy-1.26.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                "hash": "sha256=666dbfb6ec68962c033a450943ded891bed2d54e6755e35e5835d63f4f6931d5"
+            },
+            {
+                "file_name": "oauthlib-3.2.2-py3-none-any.whl",
+                "hash": "sha256=8139f29aac13e25d502680e9e19963e83f16838d48a0d71c287fe40e7067fbca"
+            },
+            {
+                "file_name": "okta-1.7.0-py2.py3-none-any.whl",
+                "hash": "sha256=32509e9d39a9891e8b36e1357710ca05ebad36b747fdc25ec11219eb03aa2f82"
+            },
+            {
+                "file_name": "openpyxl-3.1.5-py2.py3-none-any.whl",
+                "hash": "sha256=5282c12b107bffeef825f4617dc029afaf41d0ea60823bbb665ef3079dc79de2"
+            },
+            {
+                "file_name": "opentelemetry_api-1.27.0-py3-none-any.whl",
+                "hash": "sha256=953d5871815e7c30c81b56d910c707588000fff7a3ca1c73e6531911d53065e7"
+            },
+            {
+                "file_name": "opentelemetry_sdk-1.27.0-py3-none-any.whl",
+                "hash": "sha256=365f5e32f920faf0fd9e14fdfd92c086e317eaa5f860edba9cdc17a380d9197d"
+            },
+            {
+                "file_name": "opentelemetry_semantic_conventions-0.48b0-py3-none-any.whl",
+                "hash": "sha256=a0de9f45c413a8669788a38569c7e0a11ce6ce97861a628cca785deecdc32a1f"
+            },
+            {
+                "file_name": "packaging-24.1-py3-none-any.whl",
+                "hash": "sha256=5b8f2217dbdbd2f7f384c41c628544e6d52f2d0f53c6d0c3ea61aa5d1d7ff124"
+            },
+            {
+                "file_name": "pandas-2.1.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                "hash": "sha256=d797591b6846b9db79e65dc2d0d48e61f7db8d10b2a9480b4e3faaddc421a171"
+            },
+            {
+                "file_name": "pandocfilters-1.5.1-py2.py3-none-any.whl",
+                "hash": "sha256=93be382804a9cdb0a7267585f157e5d1731bbe5545a85b268d6f5fe6232de2bc"
+            },
+            {
+                "file_name": "parse-1.20.2-py2.py3-none-any.whl",
+                "hash": "sha256=967095588cb802add9177d0c0b6133b5ba33b1ea9007ca800e526f42a85af558"
+            },
+            {
+                "file_name": "parso-0.8.4-py2.py3-none-any.whl",
+                "hash": "sha256=a418670a20291dacd2dddc80c377c5c3791378ee1e8d12bffc35420643d43f18"
+            },
+            {
+                "file_name": "pexpect-4.9.0-py2.py3-none-any.whl",
+                "hash": "sha256=7236d1e080e4936be2dc3e326cec0af72acf9212a7e1d060210e70a47e253523"
+            },
+            {
+                "file_name": "phonenumbers-8.13.0-py2.py3-none-any.whl",
+                "hash": "sha256=dbaea9e4005a976bcf18fbe2bb87cb9cd0a3f119136f04188ac412d7741cebf0"
+            },
+            {
+                "file_name": "platformdirs-4.3.6-py3-none-any.whl",
+                "hash": "sha256=73e575e1408ab8103900836b97580d5307456908a03e92031bab39e4554cc3fb"
+            },
+            {
+                "file_name": "portalocker-2.10.1-py3-none-any.whl",
+                "hash": "sha256=53a5984ebc86a025552264b459b46a2086e269b21823cb572f8f28ee759e45bf"
+            },
+            {
+                "file_name": "preshed-3.0.9-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                "hash": "sha256=51d0192274aa061699b284f9fd08416065348edbafd64840c3889617ee1609de"
+            },
+            {
+                "file_name": "progressbar2-4.5.0-py3-none-any.whl",
+                "hash": "sha256=625c94a54e63915b3959355e6d4aacd63a00219e5f3e2b12181b76867bf6f628"
+            },
+            {
+                "file_name": "prometheus_client-0.21.0-py3-none-any.whl",
+                "hash": "sha256=4fa6b4dd0ac16d58bb587c04b1caae65b8c5043e85f778f42f5f632f6af2e166"
+            },
+            {
+                "file_name": "prompt_toolkit-3.0.48-py3-none-any.whl",
+                "hash": "sha256=f49a827f90062e411f1ce1f854f2aedb3c23353244f8108b89283587397ac10e"
+            },
+            {
+                "file_name": "propcache-0.2.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                "hash": "sha256=4c7dde9e533c0a49d802b4f3f218fa9ad0a1ce21f2c2eb80d5216565202acab4"
+            },
+            {
+                "file_name": "proto_plus-1.24.0-py3-none-any.whl",
+                "hash": "sha256=402576830425e5f6ce4c2a6702400ac79897dab0b4343821aa5188b0fab81a12"
+            },
+            {
+                "file_name": "protobuf-4.25.5-cp37-abi3-manylinux2014_x86_64.whl",
+                "hash": "sha256=fe14e16c22be926d3abfcb500e60cab068baf10b542b8c858fa27e098123e331"
+            },
+            {
+                "file_name": "psutil-6.1.0-cp36-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                "hash": "sha256=498c6979f9c6637ebc3a73b3f87f9eb1ec24e1ce53a7c5173b8508981614a90b"
+            },
+            {
+                "file_name": "psycopg2_binary-2.9.10-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                "hash": "sha256=512d29bb12608891e349af6a0cccedce51677725a921c07dba6342beaf576f9a"
+            },
+            {
+                "file_name": "ptyprocess-0.7.0-py2.py3-none-any.whl",
+                "hash": "sha256=4b41f3967fce3af57cc7e94b888626c18bf37a083e3651ca8feeb66d492fef35"
+            },
+            {
+                "file_name": "pure-sasl-0.6.2.tar.gz",
+                "hash": "sha256=53c1355f5da95e2b85b2cc9a6af435518edc20c81193faa0eea65fdc835138f4"
+            },
+            {
+                "file_name": "pure_eval-0.2.3-py3-none-any.whl",
+                "hash": "sha256=1db8e35b67b3d218d818ae653e27f06c3aa420901fa7b081ca98cbedc874e0d0"
+            },
+            {
+                "file_name": "py4j-0.10.9.5-py2.py3-none-any.whl",
+                "hash": "sha256=52d171a6a2b031d8a5d1de6efe451cf4f5baff1a2819aabc3741c8406539ba04"
+            },
+            {
+                "file_name": "pyOpenSSL-24.2.1-py3-none-any.whl",
+                "hash": "sha256=967d5719b12b243588573f39b0c677637145c7a1ffedcd495a487e58177fbb8d"
+            },
+            {
+                "file_name": "py_partiql_parser-0.5.0-py3-none-any.whl",
+                "hash": "sha256=dc454c27526adf62deca5177ea997bf41fac4fd109c5d4c8d81f984de738ba8f"
+            },
+            {
+                "file_name": "pyarrow-17.0.0-cp311-cp311-manylinux_2_28_x86_64.whl",
+                "hash": "sha256=e3343cb1e88bc2ea605986d4b94948716edc7a8d14afd4e2c097232f729758b4"
+            },
+            {
+                "file_name": "pyasn1-0.6.1-py3-none-any.whl",
+                "hash": "sha256=0d632f46f2ba09143da3a8afe9e33fb6f92fa2320ab7e886e2d0f7672af84629"
+            },
+            {
+                "file_name": "pyasn1_modules-0.4.1-py3-none-any.whl",
+                "hash": "sha256=49bfa96b45a292b711e986f222502c1c9a5e1f4e568fc30e2574a6c7d07838fd"
+            },
+            {
+                "file_name": "pyathena-2.25.2-py3-none-any.whl",
+                "hash": "sha256=df7855fec5cc675511431d7c72b814346ebd7e51ed32181ec95847154f79210b"
+            },
+            {
+                "file_name": "pycountry-24.6.1-py3-none-any.whl",
+                "hash": "sha256=f1a4fb391cd7214f8eefd39556d740adcc233c778a27f8942c8dca351d6ce06f"
+            },
+            {
+                "file_name": "pycparser-2.22-py3-none-any.whl",
+                "hash": "sha256=c3702b6d3dd8c7abc1afa565d7e63d53a1d0bd86cdc24edd75470f4de499cfcc"
+            },
+            {
+                "file_name": "pycryptodome-3.21.0-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                "hash": "sha256=0714206d467fc911042d01ea3a1847c847bc10884cf674c82e12915cfe1649f8"
+            },
+            {
+                "file_name": "pydantic-1.10.18-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                "hash": "sha256=a00e63104346145389b8e8f500bc6a241e729feaf0559b88b8aa513dd2065481"
+            },
+            {
+                "file_name": "pydash-8.0.3-py3-none-any.whl",
+                "hash": "sha256=c16871476822ee6b59b87e206dd27888240eff50a7b4cd72a4b80b43b6b994d7"
+            },
+            {
+                "file_name": "pydeequ-1.1.1-py3-none-any.whl",
+                "hash": "sha256=9e7364a7b30e6bf323ae09afd7e865e167771e6d6ce133f192f018c13afe087b"
+            },
+            {
+                "file_name": "pydruid-0.6.9.tar.gz",
+                "hash": "sha256=63c41b33ab47fbb71cc25d3f3316cad78f18bfe947fa108862dd841d1f44fe49"
+            },
+            {
+                "file_name": "pygments-2.18.0-py3-none-any.whl",
+                "hash": "sha256=b8e6aca0523f3ab76fee51799c488e38782ac06eafcf95e7ba832985c8e7b13a"
+            },
+            {
+                "file_name": "pyiceberg-0.4.0-py3-none-any.whl",
+                "hash": "sha256=a334060b7b15738a3b12e219a621b0011741b99f295a25cd1e910c1a0c2ab44c"
+            },
+            {
+                "file_name": "pymongo-4.10.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                "hash": "sha256=cec237c305fcbeef75c0bcbe9d223d1e22a6e3ba1b53b2f0b79d3d29c742b45b"
+            },
+            {
+                "file_name": "pyodata-1.11.1-py3-none-any.whl",
+                "hash": "sha256=9f8ee0522f30f412853a3d3605efd32e07847c63ce8038609597d65052f6474d"
+            },
+            {
+                "file_name": "pyparsing-3.0.9-py3-none-any.whl",
+                "hash": "sha256=5026bae9a10eeaefb61dab2f09052b9f4307d44aee4eda64b309723d8d206bbc"
+            },
+            {
+                "file_name": "pyspark-3.3.4.tar.gz",
+                "hash": "sha256=1f866be47130a522355240949ed50d9812a8f327bd7619f043ffe07fbcf7f7b6"
+            },
+            {
+                "file_name": "pyspnego-0.11.1-py3-none-any.whl",
+                "hash": "sha256=129a4294f2c4d681d5875240ef87accc6f1d921e8983737fb0b59642b397951e"
+            },
+            {
+                "file_name": "python-ldap-3.4.4.tar.gz",
+                "hash": "sha256=7edb0accec4e037797705f3a05cbf36a9fde50d08c8f67f2aef99a2628fab828"
+            },
+            {
+                "file_name": "python-tds-1.15.0.tar.gz",
+                "hash": "sha256=a2367310762331f7d2cc3220cea9a16a5a9893b49826a3e70a569a510244bae1"
+            },
+            {
+                "file_name": "python_dateutil-2.9.0.post0-py2.py3-none-any.whl",
+                "hash": "sha256=a8b2bc7bffae282281c8140a97d3aa9c14da0b136dfe83f850eea9a5f7470427"
+            },
+            {
+                "file_name": "python_jose-3.3.0-py2.py3-none-any.whl",
+                "hash": "sha256=9b1376b023f8b298536eedd47ae1089bcdb848f1535ab30555cd92002d78923a"
+            },
+            {
+                "file_name": "python_liquid-1.12.1-py3-none-any.whl",
+                "hash": "sha256=2224312944be16c1a44406398eb8a07c7e57398d5c0ef15ff950946dbefe7c33"
+            },
+            {
+                "file_name": "python_stdnum-1.20-py2.py3-none-any.whl",
+                "hash": "sha256=111008e10391d54fb2afad2a10df70d5cb0c6c0a7ec82fec6f022cb8712961d3"
+            },
+            {
+                "file_name": "python_utils-3.9.0-py2.py3-none-any.whl",
+                "hash": "sha256=a7719a5ef4bae7360d2a15c13b08c4e3c3e39b9df19bd16f119ff8d0cfeaafb7"
+            },
+            {
+                "file_name": "pytz-2024.2-py2.py3-none-any.whl",
+                "hash": "sha256=31c7c1817eb7fae7ca4b8c7ee50c72f93aa2dd863de768e1ef4245d426aa0725"
+            },
+            {
+                "file_name": "pyzmq-26.2.0-cp311-cp311-manylinux_2_28_x86_64.whl",
+                "hash": "sha256=689c5d781014956a4a6de61d74ba97b23547e431e9e7d64f27d4922ba96e9d6e"
+            },
+            {
+                "file_name": "redash_toolbelt-0.1.9-py3-none-any.whl",
+                "hash": "sha256=8d9110f191d5d3d28ff405e9d3d4e59469b657d5e4b980707e2c791be542ca43"
+            },
+            {
+                "file_name": "redshift_connector-2.1.3-py3-none-any.whl",
+                "hash": "sha256=be168c5294ed0bc626e2edb09230ff117ca752b9d0a85923d8356ba8fe5f208d"
+            },
+            {
+                "file_name": "referencing-0.35.1-py3-none-any.whl",
+                "hash": "sha256=eda6d3234d62814d1c64e305c1331c9a3a6132da475ab6382eaa997b21ee75de"
+            },
+            {
+                "file_name": "regex-2024.9.11-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                "hash": "sha256=6113c008a7780792efc80f9dfe10ba0cd043cbf8dc9a76ef757850f51b4edc50"
+            },
+            {
+                "file_name": "requests-2.32.3-py3-none-any.whl",
+                "hash": "sha256=70761cfe03c773ceb22aa2f671b4757976145175cdfca038c02654d061d6dcc6"
+            },
+            {
+                "file_name": "requests_file-2.1.0-py2.py3-none-any.whl",
+                "hash": "sha256=cf270de5a4c5874e84599fc5778303d496c10ae5e870bfa378818f35d21bda5c"
+            },
+            {
+                "file_name": "requests_gssapi-1.3.0-py3-none-any.whl",
+                "hash": "sha256=f36303cd989c54d54630c30f1ef73d7e23acdede2285c941631192e51b4da418"
+            },
+            {
+                "file_name": "requests_ntlm-1.3.0-py3-none-any.whl",
+                "hash": "sha256=4c7534a7d0e482bb0928531d621be4b2c74ace437e88c5a357ceb7452d25a510"
+            },
+            {
+                "file_name": "requests_toolbelt-1.0.0-py2.py3-none-any.whl",
+                "hash": "sha256=cccfdd665f0a24fcf4726e690f65639d272bb0637b9b92dfd91a5568ccf6bd06"
+            },
+            {
+                "file_name": "responses-0.25.3-py3-none-any.whl",
+                "hash": "sha256=521efcbc82081ab8daa588e08f7e8a64ce79b91c39f6e62199b19159bea7dbcb"
+            },
+            {
+                "file_name": "rfc3986-2.0.0-py2.py3-none-any.whl",
+                "hash": "sha256=50b1502b60e289cb37883f3dfd34532b8873c7de9f49bb546641ce9cbd256ebd"
+            },
+            {
+                "file_name": "rich-13.9.2-py3-none-any.whl",
+                "hash": "sha256=8c82a3d3f8dcfe9e734771313e606b39d8247bb6b826e196f4914b333b743cf1"
+            },
+            {
+                "file_name": "rpds_py-0.20.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                "hash": "sha256=5c1dc0f53856b9cc9a0ccca0a7cc61d3d20a7088201c0937f3f4048c1718a209"
+            },
+            {
+                "file_name": "rsa-4.9-py3-none-any.whl",
+                "hash": "sha256=90260d9058e514786967344d0ef75fa8727eed8a7d2e43ce9f4bcf1b536174f7"
+            },
+            {
+                "file_name": "rstr-3.2.2-py3-none-any.whl",
+                "hash": "sha256=f39195d38da1748331eeec52f1276e71eb6295e7949beea91a5e9af2340d7b3b"
+            },
+            {
+                "file_name": "ruamel.yaml-0.17.17-py3-none-any.whl",
+                "hash": "sha256=9af3ec5d7f8065582f3aa841305465025d0afd26c5fb54e15b964e11838fc74f"
+            },
+            {
+                "file_name": "s3transfer-0.10.3-py3-none-any.whl",
+                "hash": "sha256=263ed587a5803c6c708d3ce44dc4dfedaab4c1a32e8329bab818933d79ddcf5d"
+            },
+            {
+                "file_name": "schwifty-2024.6.1-py3-none-any.whl",
+                "hash": "sha256=d1fa1cd142e4b4c74c1578f098f4f41561e8513625a2a5a8486897441006d4ac"
+            },
+            {
+                "file_name": "scipy-1.14.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                "hash": "sha256=fef8c87f8abfb884dac04e97824b61299880c43f4ce675dd2cbeadd3c9b466d2"
+            },
+            {
+                "file_name": "scramp-1.4.5-py3-none-any.whl",
+                "hash": "sha256=50e37c464fc67f37994e35bee4151e3d8f9320e9c204fca83a5d313c121bbbe7"
+            },
+            {
+                "file_name": "sentry_sdk-2.17.0-py2.py3-none-any.whl",
+                "hash": "sha256=625955884b862cc58748920f9e21efdfb8e0d4f98cca4ab0d3918576d5b606ad"
+            },
+            {
+                "file_name": "setuptools-75.2.0-py3-none-any.whl",
+                "hash": "sha256=a7fcb66f68b4d9e8e66b42f9876150a3371558f98fa32222ffaa5bced76406f8"
+            },
+            {
+                "file_name": "shellingham-1.5.4-py2.py3-none-any.whl",
+                "hash": "sha256=7ecfff8f2fd72616f7481040475a65b2bf8af90a56c89140852d1120324e8686"
+            },
+            {
+                "file_name": "simple_salesforce-1.12.6-py2.py3-none-any.whl",
+                "hash": "sha256=66c74bee88d09ace46e4fc9c2f6b47c0d012817a764f70a5455d6dc2c7ed635c"
+            },
+            {
+                "file_name": "six-1.16.0-py2.py3-none-any.whl",
+                "hash": "sha256=8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"
+            },
+            {
+                "file_name": "slack_sdk-3.18.1-py2.py3-none-any.whl",
+                "hash": "sha256=63ce5e6253a31873d6c921c9feaa842a93a2f56e6e009cb7daf406f4bc4df798"
+            },
+            {
+                "file_name": "smart_open-7.0.5-py3-none-any.whl",
+                "hash": "sha256=8523ed805c12dff3eaa50e9c903a6cb0ae78800626631c5fe7ea073439847b89"
+            },
+            {
+                "file_name": "smmap-5.0.1-py3-none-any.whl",
+                "hash": "sha256=e6d8668fa5f93e706934a62d7b4db19c8d9eb8cf2adbb75ef1b675aa332b69da"
+            },
+            {
+                "file_name": "sniffio-1.3.1-py3-none-any.whl",
+                "hash": "sha256=2f6da418d1f1e0fddd844478f41680e794e6051915791a034ff65e5f100525a2"
+            },
+            {
+                "file_name": "snowflake_connector_python-3.12.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                "hash": "sha256=50c791ac63eb7022ce725ec81fc8b07a354803fa6ce4f112201909945ba1581d"
+            },
+            {
+                "file_name": "snowflake_sqlalchemy-1.6.1-py3-none-any.whl",
+                "hash": "sha256=06f5eac0f864f5634e7bcec4b87cdb77044723b9135c02bab426ba15382effee"
+            },
+            {
+                "file_name": "sortedcontainers-2.4.0-py2.py3-none-any.whl",
+                "hash": "sha256=a163dcaede0f1c021485e957a39245190e74249897e2ae4b2aa38595db237ee0"
+            },
+            {
+                "file_name": "soupsieve-2.6-py3-none-any.whl",
+                "hash": "sha256=e72c4ff06e4fb6e4b5a9f0f55fe6e81514581fca1515028625d0f299c602ccc9"
+            },
+            {
+                "file_name": "spacy-3.7.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                "hash": "sha256=3dad4853950a2fe6c7a0bdfd791a762d1f8cedd2915c4ae41b2e0ca3a850eefc"
+            },
+            {
+                "file_name": "spacy_legacy-3.0.12-py2.py3-none-any.whl",
+                "hash": "sha256=476e3bd0d05f8c339ed60f40986c07387c0a71479245d6d0f4298dbd52cda55f"
+            },
+            {
+                "file_name": "spacy_loggers-1.0.5-py3-none-any.whl",
+                "hash": "sha256=196284c9c446cc0cdb944005384270d775fdeaf4f494d8e269466cfa497ef645"
+            },
+            {
+                "file_name": "sql_metadata-2.13.0-py3-none-any.whl",
+                "hash": "sha256=7106ddbab9948ed57bcfdf5a63ea8bbcfc25ac1b6f47764295764cab40d2007e"
+            },
+            {
+                "file_name": "sqlalchemy_bigquery-1.12.0-py2.py3-none-any.whl",
+                "hash": "sha256=5b2b77bdaefe9c0663db213d9475a5abbae88fa46108c352d19fa6fc51a47a1a"
+            },
+            {
+                "file_name": "sqlalchemy_cockroachdb-1.4.4-py3-none-any.whl",
+                "hash": "sha256=84b23f452efba000e16c9157282ca6fb132dd04de9cda715902a4583a59461c7"
+            },
+            {
+                "file_name": "sqlalchemy_hana-2.8.0-py3-none-any.whl",
+                "hash": "sha256=5e9446b9a1d0d329f1dc2b9bcfbc87d5b1f062a3aea19eed8dbdb0c832950270"
+            },
+            {
+                "file_name": "sqlalchemy_pytds-0.3.5-py2.py3-none-any.whl",
+                "hash": "sha256=51e284f80b6f1e7efbb1829ba4c6d69dbecc61969a194b5f213878ad6dabe6c1"
+            },
+            {
+                "file_name": "sqlalchemy_redshift-0.8.14-py2.py3-none-any.whl",
+                "hash": "sha256=cfdfae2c8fb3043c181e2baedd4ee425c1ca7efed20f3c5ae274838d1015f919"
+            },
+            {
+                "file_name": "sqlglotrs-0.2.12-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                "hash": "sha256=c3d62905ce74a48714b7662ad95efe299fad62f193be4b482a327af060f98710"
+            },
+            {
+                "file_name": "sqllineage-1.3.8-py3-none-any.whl",
+                "hash": "sha256=dd1966606e13e95ecd26c9fae7e4451932e9af9253be704aedd6aa7285b2fe41"
+            },
+            {
+                "file_name": "sqlparse-0.4.4-py3-none-any.whl",
+                "hash": "sha256=5430a4fe2ac7d0f93e66f1efc6e1338a41884b7ddf2a350cedd20ccc4d9d28f3"
+            },
+            {
+                "file_name": "srsly-2.4.8-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                "hash": "sha256=ace7ed4a0c20fa54d90032be32f9c656b6d75445168da78d14fe9080a0c208ad"
+            },
+            {
+                "file_name": "stack_data-0.6.3-py3-none-any.whl",
+                "hash": "sha256=d5558e0c25a4cb0853cddad3d77da9891a08cb85dd9f9f91b9f8cd66e511e695"
+            },
+            {
+                "file_name": "strictyaml-1.7.3-py3-none-any.whl",
+                "hash": "sha256=fb5c8a4edb43bebb765959e420f9b3978d7f1af88c80606c03fb420888f5d1c7"
+            },
+            {
+                "file_name": "tableauserverclient-0.25-py3-none-any.whl",
+                "hash": "sha256=341cea1706c8fc4ce35d28e21f420e3874ec13812497e1629d37adb4dce4c74a"
+            },
+            {
+                "file_name": "tableschema-1.20.11-py2.py3-none-any.whl",
+                "hash": "sha256=6e041406c0ee95e9d4621e7548d41a9d6b75829dd8597b02cb07791f790992fe"
+            },
+            {
+                "file_name": "tabulate-0.9.0-py3-none-any.whl",
+                "hash": "sha256=024ca478df22e9340661486f85298cff5f6dcdba14f3813e8830015b9ed1948f"
+            },
+            {
+                "file_name": "tenacity-9.0.0-py3-none-any.whl",
+                "hash": "sha256=93de0c98785b27fcf659856aa9f54bfbd399e29969b0621bc7f762bd441b4539"
+            },
+            {
+                "file_name": "teradatasql-20.0.0.19-py3-none-any.whl",
+                "hash": "sha256=56e521d51fabba97f2b32a9e01713fc42e56da96247848eddc84f0970b7ace82"
+            },
+            {
+                "file_name": "teradatasqlalchemy-20.0.0.2-py3-none-any.whl",
+                "hash": "sha256=ce5260aa1881086c75c86b1fbbd900b151871638292b440d53d59d82719cabb7"
+            },
+            {
+                "file_name": "termcolor-2.5.0-py3-none-any.whl",
+                "hash": "sha256=37b17b5fc1e604945c2642c872a3764b5d547a48009871aea3edd3afa180afb8"
+            },
+            {
+                "file_name": "terminado-0.18.1-py3-none-any.whl",
+                "hash": "sha256=a4468e1b37bb318f8a86514f65814e1afc977cf29b3992a4500d9dd305dcceb0"
+            },
+            {
+                "file_name": "thinc-8.2.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                "hash": "sha256=8901b30db1071ea8d5e4437429c8632535bf5ed87938ce3bb5057bed9f15aed8"
+            },
+            {
+                "file_name": "thrift-0.16.0.tar.gz",
+                "hash": "sha256=2b5b6488fcded21f9d312aa23c9ff6a0195d0f6ae26ddbd5ad9e3e25dfc14408"
+            },
+            {
+                "file_name": "thrift_sasl-0.4.3-py2.py3-none-any.whl",
+                "hash": "sha256=d24b49140115e6e2a96d08335cff225a27a28ea71866fb1b2bdb30ca5afca64e"
+            },
+            {
+                "file_name": "tinycss2-1.3.0-py3-none-any.whl",
+                "hash": "sha256=54a8dbdffb334d536851be0226030e9505965bb2f30f21a4a82c55fb2a80fae7"
+            },
+            {
+                "file_name": "toml-0.10.2-py2.py3-none-any.whl",
+                "hash": "sha256=806143ae5bfb6a3c6e736a764057db0e6a0e05e338b5630894a5f779cabb4f9b"
+            },
+            {
+                "file_name": "tomlkit-0.13.2-py3-none-any.whl",
+                "hash": "sha256=7a974427f6e119197f670fbbbeae7bef749a6c14e793db934baefc1b5f03efde"
+            },
+            {
+                "file_name": "toolz-1.0.0-py3-none-any.whl",
+                "hash": "sha256=292c8f1c4e7516bf9086f8850935c799a874039c8bcf959d47b600e4c44a6236"
+            },
+            {
+                "file_name": "tornado-6.4.1-cp38-abi3-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                "hash": "sha256=613bf4ddf5c7a95509218b149b555621497a6cc0d46ac341b30bd9ec19eac7f3"
+            },
+            {
+                "file_name": "tqdm-4.66.5-py3-none-any.whl",
+                "hash": "sha256=90279a3770753eafc9194a0364852159802111925aa30eb3f9d85b0e805ac7cd"
+            },
+            {
+                "file_name": "traitlets-5.2.1.post0-py3-none-any.whl",
+                "hash": "sha256=f44b708d33d98b0addb40c29d148a761f44af740603a8fd0e2f8b5b27cf0f087"
+            },
+            {
+                "file_name": "trino-0.330.0-py3-none-any.whl",
+                "hash": "sha256=535f612d754338cfefa4b3fe86b63c8c000d21cb5ea476ae4ec4390d5cc37659"
+            },
+            {
+                "file_name": "typer-0.12.5-py3-none-any.whl",
+                "hash": "sha256=62fe4e471711b147e3365034133904df3e235698399bc4de2b36c8579298d52b"
+            },
+            {
+                "file_name": "typing_extensions-4.12.2-py3-none-any.whl",
+                "hash": "sha256=04e5ca0351e0f3f85c6853954072df659d0d13fac324d0072316b67d7794700d"
+            },
+            {
+                "file_name": "typing_inspect-0.9.0-py3-none-any.whl",
+                "hash": "sha256=9ee6fc59062311ef8547596ab6b955e1b8aa46242d854bfc78f4f6b0eff35f9f"
+            },
+            {
+                "file_name": "tzdata-2024.2-py2.py3-none-any.whl",
+                "hash": "sha256=a48093786cdcde33cad18c2555e8532f34422074448fbc874186f0abd79565cd"
+            },
+            {
+                "file_name": "tzlocal-5.2-py3-none-any.whl",
+                "hash": "sha256=49816ef2fe65ea8ac19d19aa7a1ae0551c834303d5014c6d5a62e4cbda8047b8"
+            },
+            {
+                "file_name": "ujson-5.10.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                "hash": "sha256=129e39af3a6d85b9c26d5577169c21d53821d8cf68e079060602e861c6e5da1b"
+            },
+            {
+                "file_name": "unicodecsv-0.14.1.tar.gz",
+                "hash": "sha256=018c08037d48649a0412063ff4eda26eaa81eff1546dbffa51fa5293276ff7fc"
+            },
+            {
+                "file_name": "urllib3-1.26.20-py2.py3-none-any.whl",
+                "hash": "sha256=0ed14ccfbf1c30a9072c7ca157e4319b70d65f623e91e7b32fadb2853431016e"
+            },
+            {
+                "file_name": "vertica_python-1.4.0-py3-none-any.whl",
+                "hash": "sha256=50fecd7687f4b0b9f6dee6e2b35c195af2a4f702ece01bd12e080b51756e000b"
+            },
+            {
+                "file_name": "vertica_sqlalchemy_dialect-0.0.8.2-py3-none-any.whl",
+                "hash": "sha256=f16b15ec34b0e20a6b16a1f8f386c32023307df48e9491dc2eb4d34b8793c44e"
+            },
+            {
+                "file_name": "vininfo-1.8.0-py3-none-any.whl",
+                "hash": "sha256=d52aaeac92a258cddf860eab4a73d70263b81b75fdeb897fd6e8fcbb57af251e"
+            },
+            {
+                "file_name": "wasabi-1.1.3-py3-none-any.whl",
+                "hash": "sha256=f76e16e8f7e79f8c4c8be49b4024ac725713ab10cd7f19350ad18a8e3f71728c"
+            },
+            {
+                "file_name": "wcmatch-10.0-py3-none-any.whl",
+                "hash": "sha256=0dd927072d03c0a6527a20d2e6ad5ba8d0380e60870c383bc533b71744df7b7a"
+            },
+            {
+                "file_name": "wcwidth-0.2.13-py2.py3-none-any.whl",
+                "hash": "sha256=3da69048e4540d84af32131829ff948f1e022c1c6bdb8d6102117aac784f6859"
+            },
+            {
+                "file_name": "weasel-0.4.1-py3-none-any.whl",
+                "hash": "sha256=24140a090ea1ac512a2b2f479cc64192fd1d527a7f3627671268d08ed5ac418c"
+            },
+            {
+                "file_name": "webencodings-0.5.1-py2.py3-none-any.whl",
+                "hash": "sha256=a0af1213f3c2226497a97e2b3aa01a7e4bee4f403f95be16fc9acd2947514a78"
+            },
+            {
+                "file_name": "websocket_client-1.8.0-py3-none-any.whl",
+                "hash": "sha256=17b44cc997f5c498e809b22cdf2d9c7a9e71c02c8cc2b6c56e7c2d1239bfa526"
+            },
+            {
+                "file_name": "werkzeug-3.0.4-py3-none-any.whl",
+                "hash": "sha256=02c9eb92b7d6c06f31a782811505d2157837cea66aaede3e217c7c27c039476c"
+            },
+            {
+                "file_name": "widgetsnbextension-4.0.13-py3-none-any.whl",
+                "hash": "sha256=74b2692e8500525cc38c2b877236ba51d34541e6385eeed5aec15a70f88a6c71"
+            },
+            {
+                "file_name": "wrapt-1.16.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                "hash": "sha256=72554a23c78a8e7aa02abbd699d129eead8b147a23c56e08d08dfc29cfdddca1"
+            },
+            {
+                "file_name": "xlrd-2.0.1-py2.py3-none-any.whl",
+                "hash": "sha256=6a33ee89877bd9abc1158129f6e94be74e2679636b8a205b43b85206c3f0bbdd"
+            },
+            {
+                "file_name": "xmltodict-0.14.2-py2.py3-none-any.whl",
+                "hash": "sha256=20cc7d723ed729276e808f26fb6b3599f786cbc37e06c65e192ba77c40f20aac"
+            },
+            {
+                "file_name": "yarl-1.15.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                "hash": "sha256=4a706db0c3b7e4578ff34ed2b1d2507b08fd491346ffc64468786fdf1151d938"
+            },
+            {
+                "file_name": "zeep-4.3.1-py3-none-any.whl",
+                "hash": "sha256=a637aa7eedb6330bb27e8c94c5233ddf23553904323adf9398f8cf5025acb216"
+            },
+            {
+                "file_name": "zipp-3.20.2-py3-none-any.whl",
+                "hash": "sha256=a817ac80d6cf4b23bf7f2828b7cabf326f15a001bea8b1f9b49631780ba28350"
+            },
+            {
+                "file_name": "zstd-1.5.5.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+                "hash": "sha256=97da6a842ba7e4acf8bba7c596057143ee39b3c4a467196c2096d460e44accd6"
+            }
+        ]
+    },
+    "resolution": [
+        {
+            "requirement": "acryl-datahub[all]",
+            "packages": [
+                "acryl_datahub-0.14.1.2-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "avro-gen3==0.7.16 (from acryl-datahub[all])",
+            "packages": [
+                "avro_gen3-0.7.16-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "expandvars>=0.6.5 (from acryl-datahub[all])",
+            "packages": [
+                "expandvars-0.12.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "termcolor>=1.0.0 (from acryl-datahub[all])",
+            "packages": [
+                "termcolor-2.5.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "cached-property (from acryl-datahub[all])",
+            "packages": [
+                "cached_property-1.5.2-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "psutil>=5.8.0 (from acryl-datahub[all])",
+            "packages": [
+                "psutil-6.1.0-cp36-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "ruamel.yaml (from acryl-datahub[all])",
+            "packages": [
+                "ruamel.yaml-0.18.6-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "tabulate (from acryl-datahub[all])",
+            "packages": [
+                "tabulate-0.9.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "python-dateutil>=2.8.0 (from acryl-datahub[all])",
+            "packages": [
+                "python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "toml>=0.10.0 (from acryl-datahub[all])",
+            "packages": [
+                "toml-0.10.2-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "Deprecated (from acryl-datahub[all])",
+            "packages": [
+                "Deprecated-1.2.14-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "click-default-group (from acryl-datahub[all])",
+            "packages": [
+                "click_default_group-1.2.4-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "humanfriendly (from acryl-datahub[all])",
+            "packages": [
+                "humanfriendly-10.0-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "progressbar2 (from acryl-datahub[all])",
+            "packages": [
+                "progressbar2-4.5.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "click-spinner (from acryl-datahub[all])",
+            "packages": [
+                "click_spinner-0.1.10-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "sentry-sdk (from acryl-datahub[all])",
+            "packages": [
+                "sentry_sdk-2.17.0-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "aiohttp<4 (from acryl-datahub[all])",
+            "packages": [
+                "aiohttp-3.10.10-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "click>=7.1.2 (from acryl-datahub[all])",
+            "packages": [
+                "click-8.1.7-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "jsonschema (from acryl-datahub[all])",
+            "packages": [
+                "jsonschema-4.23.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "PyYAML (from acryl-datahub[all])",
+            "packages": [
+                "PyYAML-6.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "requests-file (from acryl-datahub[all])",
+            "packages": [
+                "requests_file-2.1.0-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "ijson (from acryl-datahub[all])",
+            "packages": [
+                "ijson-3.3.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "typing-inspect (from acryl-datahub[all])",
+            "packages": [
+                "typing_inspect-0.9.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "jsonref (from acryl-datahub[all])",
+            "packages": [
+                "jsonref-1.1.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "packaging (from acryl-datahub[all])",
+            "packages": [
+                "packaging-24.1-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "mixpanel>=4.9.0 (from acryl-datahub[all])",
+            "packages": [
+                "mixpanel-4.10.1-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "pydantic!=1.10.3,>=1.10.0 (from acryl-datahub[all])",
+            "packages": [
+                "pydantic-2.9.2-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "typing-extensions>=3.7.4.3 (from acryl-datahub[all])",
+            "packages": [
+                "typing_extensions-4.12.2-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "avro<1.12,>=1.11.3 (from acryl-datahub[all])",
+            "packages": [
+                "avro-1.11.3.tar.gz"
+            ]
+        },
+        {
+            "requirement": "docker (from acryl-datahub[all])",
+            "packages": [
+                "docker-7.1.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "azure-storage-file-datalake>=12.14.0 (from acryl-datahub[all])",
+            "packages": [
+                "azure_storage_file_datalake-12.17.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "sql-metadata (from acryl-datahub[all])",
+            "packages": [
+                "sql_metadata-2.13.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "confluent-kafka>=1.9.0 (from acryl-datahub[all])",
+            "packages": [
+                "confluent_kafka-2.6.0-cp311-cp311-manylinux_2_28_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "deepmerge>=1.1.1 (from acryl-datahub[all])",
+            "packages": [
+                "deepmerge-2.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "slack-sdk==3.18.1 (from acryl-datahub[all])",
+            "packages": [
+                "slack_sdk-3.18.1-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "acryl-pyhive==0.6.16 (from acryl-pyhive[hive-pure-sasl]==0.6.16; extra == \"all\"->acryl-datahub[all])",
+            "packages": [
+                "acryl_PyHive-0.6.16-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "websocket-client (from acryl-datahub[all])",
+            "packages": [
+                "websocket_client-1.8.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "okta~=1.7.0 (from acryl-datahub[all])",
+            "packages": [
+                "okta-1.7.0-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "requests-ntlm (from acryl-datahub[all])",
+            "packages": [
+                "requests_ntlm-1.3.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "sqlalchemy-cockroachdb<2.0.0 (from acryl-datahub[all])",
+            "packages": [
+                "sqlalchemy_cockroachdb-1.4.4-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "tableauserverclient>=0.24.0 (from acryl-datahub[all])",
+            "packages": [
+                "tableauserverclient-0.33-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "snowflake-sqlalchemy>=1.4.3 (from acryl-datahub[all])",
+            "packages": [
+                "snowflake_sqlalchemy-1.6.1-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "google-cloud-datacatalog>=1.5.0 (from acryl-datahub[all])",
+            "packages": [
+                "google_cloud_datacatalog-3.20.1-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "trino>=0.308 (from trino[sqlalchemy]>=0.308; extra == \"all\"->acryl-datahub[all])",
+            "packages": [
+                "trino-0.330.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "more-itertools>=8.12.0 (from acryl-datahub[all])",
+            "packages": [
+                "more_itertools-10.5.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "smart-open>=5.2.1 (from smart-open[azure]>=5.2.1; extra == \"all\"->acryl-datahub[all])",
+            "packages": [
+                "smart_open-7.0.5-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "boto3 (from acryl-datahub[all])",
+            "packages": [
+                "boto3-1.35.43-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "msal>=1.22.0 (from acryl-datahub[all])",
+            "packages": [
+                "msal-1.31.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "pydantic!=1.10.3,>=1.10.0 (from acryl-datahub[all])",
+            "packages": [
+                "pydantic-1.10.18-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "acryl-sqlglot==25.20.2.dev6 (from acryl-sqlglot[rs]==25.20.2.dev6; extra == \"all\"->acryl-datahub[all])",
+            "packages": [
+                "acryl_sqlglot-25.20.2.dev6-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "databricks-sql-connector<3.0.0,>=2.8.0 (from acryl-datahub[all])",
+            "packages": [
+                "databricks_sql_connector-2.9.6-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "GitPython>2 (from acryl-datahub[all])",
+            "packages": [
+                "GitPython-3.1.43-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "requests (from acryl-datahub[all])",
+            "packages": [
+                "requests-2.32.3-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "psycopg2-binary (from acryl-datahub[all])",
+            "packages": [
+                "psycopg2_binary-2.9.10-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "tenacity!=8.4.0 (from acryl-datahub[all])",
+            "packages": [
+                "tenacity-9.0.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "ujson>=5.2.0 (from acryl-datahub[all])",
+            "packages": [
+                "ujson-5.10.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "pymongo>=3.11 (from pymongo[srv]>=3.11; extra == \"all\"->acryl-datahub[all])",
+            "packages": [
+                "pymongo-4.10.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "sqlalchemy-bigquery>=1.4.1 (from acryl-datahub[all])",
+            "packages": [
+                "sqlalchemy_bigquery-1.12.0-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "sqlparse (from acryl-datahub[all])",
+            "packages": [
+                "sqlparse-0.5.1-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "grpcio<2,>=1.44.0 (from acryl-datahub[all])",
+            "packages": [
+                "grpcio-1.67.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "elasticsearch==7.13.4 (from acryl-datahub[all])",
+            "packages": [
+                "elasticsearch-7.13.4-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "setuptools (from acryl-datahub[all])",
+            "packages": [
+                "setuptools-75.2.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "cachetools (from acryl-datahub[all])",
+            "packages": [
+                "cachetools-5.5.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "filelock (from acryl-datahub[all])",
+            "packages": [
+                "filelock-3.16.1-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "scipy>=1.7.2 (from acryl-datahub[all])",
+            "packages": [
+                "scipy-1.14.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "pydruid>=0.6.2 (from acryl-datahub[all])",
+            "packages": [
+                "pydruid-0.6.9.tar.gz"
+            ]
+        },
+        {
+            "requirement": "clickhouse-sqlalchemy<0.2.5,>=0.2.0 (from acryl-datahub[all])",
+            "packages": [
+                "clickhouse-sqlalchemy-0.2.4.tar.gz"
+            ]
+        },
+        {
+            "requirement": "sqllineage==1.3.8 (from acryl-datahub[all])",
+            "packages": [
+                "sqllineage-1.3.8-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "snowflake-connector-python>=3.4.0 (from acryl-datahub[all])",
+            "packages": [
+                "snowflake_connector_python-3.12.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "pyspark~=3.3.0 (from acryl-datahub[all])",
+            "packages": [
+                "pyspark-3.3.4.tar.gz"
+            ]
+        },
+        {
+            "requirement": "azure-storage-blob>=12.19.0 (from acryl-datahub[all])",
+            "packages": [
+                "azure_storage_blob-12.23.1-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "azure-core==1.29.4 (from acryl-datahub[all])",
+            "packages": [
+                "azure_core-1.29.4-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "sqlalchemy (from acryl-datahub[all])",
+            "packages": [
+                "SQLAlchemy-2.0.36-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "db-dtypes (from acryl-datahub[all])",
+            "packages": [
+                "db_dtypes-1.3.0-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "great-expectations<=0.15.50,>=0.15.12 (from acryl-datahub[all])",
+            "packages": [
+                "great_expectations-0.15.50-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "pyiceberg<0.7,>=0.4 (from acryl-datahub[all])",
+            "packages": [
+                "pyiceberg-0.6.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "lark==1.1.4 (from lark[regex]==1.1.4; extra == \"all\"->acryl-datahub[all])",
+            "packages": [
+                "lark-1.1.4-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "looker-sdk==23.0.0 (from acryl-datahub[all])",
+            "packages": [
+                "looker_sdk-23.0.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "sqlparse (from acryl-datahub[all])",
+            "packages": [
+                "sqlparse-0.4.4-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "requests-gssapi (from acryl-datahub[all])",
+            "packages": [
+                "requests_gssapi-1.3.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "simple-salesforce (from acryl-datahub[all])",
+            "packages": [
+                "simple_salesforce-1.12.6-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "numpy<2 (from acryl-datahub[all])",
+            "packages": [
+                "numpy-1.26.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "JPype1 (from acryl-datahub[all])",
+            "packages": [
+                "JPype1-1.5.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "google-cloud-datacatalog-lineage==0.2.2 (from acryl-datahub[all])",
+            "packages": [
+                "google_cloud_datacatalog_lineage-0.2.2-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "greenlet (from acryl-datahub[all])",
+            "packages": [
+                "greenlet-3.1.1-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "pyarrow>=6.0.1 (from acryl-datahub[all])",
+            "packages": [
+                "pyarrow-17.0.0-cp311-cp311-manylinux_2_28_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "GeoAlchemy2 (from acryl-datahub[all])",
+            "packages": [
+                "GeoAlchemy2-0.15.2-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "lkml>=1.3.4 (from acryl-datahub[all])",
+            "packages": [
+                "lkml-1.3.5-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "sqlalchemy-pytds>=0.3 (from acryl-datahub[all])",
+            "packages": [
+                "sqlalchemy_pytds-1.0.2-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "acryl-datahub-classify==0.0.11 (from acryl-datahub[all])",
+            "packages": [
+                "acryl_datahub_classify-0.0.11-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "google-cloud-bigquery (from acryl-datahub[all])",
+            "packages": [
+                "google_cloud_bigquery-3.26.0-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "botocore!=1.23.0 (from acryl-datahub[all])",
+            "packages": [
+                "botocore-1.35.43-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "python-ldap>=2.4 (from acryl-datahub[all])",
+            "packages": [
+                "python-ldap-3.4.4.tar.gz"
+            ]
+        },
+        {
+            "requirement": "pydeequ~=1.1.0 (from acryl-datahub[all])",
+            "packages": [
+                "pydeequ-1.1.1-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "grpcio-tools<2,>=1.44.0 (from acryl-datahub[all])",
+            "packages": [
+                "grpcio_tools-1.67.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "gql>=3.3.0 (from gql[requests]>=3.3.0; extra == \"all\"->acryl-datahub[all])",
+            "packages": [
+                "gql-3.5.0-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "databricks-dbapi (from acryl-datahub[all])",
+            "packages": [
+                "databricks_dbapi-0.6.0-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "python-liquid (from acryl-datahub[all])",
+            "packages": [
+                "python_liquid-1.12.1-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "azure-identity>=1.17.1 (from acryl-datahub[all])",
+            "packages": [
+                "azure_identity-1.19.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "pyOpenSSL (from acryl-datahub[all])",
+            "packages": [
+                "pyOpenSSL-24.2.1-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "cryptography (from acryl-datahub[all])",
+            "packages": [
+                "cryptography-43.0.1-cp39-abi3-manylinux_2_28_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "cx-Oracle (from acryl-datahub[all])",
+            "packages": [
+                "cx_Oracle-8.3.0.tar.gz"
+            ]
+        },
+        {
+            "requirement": "wcmatch (from acryl-datahub[all])",
+            "packages": [
+                "wcmatch-10.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "networkx>=2.6.2 (from acryl-datahub[all])",
+            "packages": [
+                "networkx-3.4.1-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "pandas (from acryl-datahub[all])",
+            "packages": [
+                "pandas-2.2.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "google-cloud-logging<=3.5.0 (from acryl-datahub[all])",
+            "packages": [
+                "google_cloud_logging-3.5.0-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "redash-toolbelt (from acryl-datahub[all])",
+            "packages": [
+                "redash_toolbelt-0.1.9-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "sqlalchemy-redshift>=0.8.3 (from acryl-datahub[all])",
+            "packages": [
+                "sqlalchemy_redshift-0.8.14-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "PyAthena<3.0.0,>=2.6.0 (from PyAthena[sqlalchemy]<3.0.0,>=2.6.0; extra == \"all\"->acryl-datahub[all])",
+            "packages": [
+                "pyathena-2.25.2-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "traitlets<5.2.2 (from acryl-datahub[all])",
+            "packages": [
+                "traitlets-5.2.1.post0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "moto<5.0.0 (from moto[s3]<5.0.0; extra == \"all\"->acryl-datahub[all])",
+            "packages": [
+                "moto-4.2.14-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "schwifty<2024.08.0 (from acryl-datahub[all])",
+            "packages": [
+                "schwifty-2024.6.1-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "pymysql>=1.0.2 (from acryl-datahub[all])",
+            "packages": [
+                "PyMySQL-1.1.1-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "parse>=1.19.0 (from acryl-datahub[all])",
+            "packages": [
+                "parse-1.20.2-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "databricks-sdk>=0.30.0 (from acryl-datahub[all])",
+            "packages": [
+                "databricks_sdk-0.35.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "sqlalchemy (from acryl-datahub[all])",
+            "packages": [
+                "SQLAlchemy-1.4.54-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "teradatasqlalchemy>=17.20.0.0 (from acryl-datahub[all])",
+            "packages": [
+                "teradatasqlalchemy-20.0.0.2-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "redshift-connector>=2.1.0 (from acryl-datahub[all])",
+            "packages": [
+                "redshift_connector-2.1.3-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "Authlib (from acryl-datahub[all])",
+            "packages": [
+                "Authlib-1.3.2-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "tableschema>=1.20.2 (from acryl-datahub[all])",
+            "packages": [
+                "tableschema-1.20.11-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "nest-asyncio (from acryl-datahub[all])",
+            "packages": [
+                "nest_asyncio-1.6.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "vertica-sqlalchemy-dialect==0.0.8.2 (from vertica-sqlalchemy-dialect[vertica-python]==0.0.8.2; extra == \"all\"->acryl-datahub[all])",
+            "packages": [
+                "vertica_sqlalchemy_dialect-0.0.8.2-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "fastavro>=1.2.0 (from acryl-datahub[all])",
+            "packages": [
+                "fastavro-1.9.7-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "pandas (from acryl-datahub[all])",
+            "packages": [
+                "pandas-2.1.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "mlflow-skinny>=2.3.0 (from acryl-datahub[all])",
+            "packages": [
+                "mlflow_skinny-2.17.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "pyodata>=1.11.1 (from acryl-datahub[all])",
+            "packages": [
+                "pyodata-1.11.1-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "google-cloud-resource-manager (from acryl-datahub[all])",
+            "packages": [
+                "google_cloud_resource_manager-1.12.5-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "sqlalchemy-hana>=0.5.0 (from acryl-datahub[all])",
+            "packages": [
+                "sqlalchemy_hana-2.8.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "hdbcli>=2.11.20 (from acryl-datahub[all])",
+            "packages": [
+                "hdbcli-2.22.29-cp34-abi3-manylinux1_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "deltalake!=0.6.4,>=0.6.3 (from acryl-datahub[all])",
+            "packages": [
+                "deltalake-0.20.2-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "phonenumbers<=8.13.0,>=8.12.56 (from acryl-datahub-classify==0.0.11->acryl-datahub[all])",
+            "packages": [
+                "phonenumbers-8.13.0-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "ipaddress>=1.0.23 (from acryl-datahub-classify==0.0.11->acryl-datahub[all])",
+            "packages": [
+                "ipaddress-1.0.23-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "vininfo>=1.7.0 (from acryl-datahub-classify==0.0.11->acryl-datahub[all])",
+            "packages": [
+                "vininfo-1.8.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "python-stdnum>=1.17 (from acryl-datahub-classify==0.0.11->acryl-datahub[all])",
+            "packages": [
+                "python_stdnum-1.20-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "spacy<3.8,>=3.4.1 (from acryl-datahub-classify==0.0.11->acryl-datahub[all])",
+            "packages": [
+                "spacy-3.7.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "future (from acryl-pyhive==0.6.16->acryl-pyhive[hive-pure-sasl]==0.6.16; extra == \"all\"->acryl-datahub[all])",
+            "packages": [
+                "future-1.0.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "pure-sasl>=0.6.2 (from acryl-pyhive[hive-pure-sasl]==0.6.16; extra == \"all\"->acryl-datahub[all])",
+            "packages": [
+                "pure-sasl-0.6.2.tar.gz"
+            ]
+        },
+        {
+            "requirement": "thrift>=0.10.0 (from acryl-pyhive[hive-pure-sasl]==0.6.16; extra == \"all\"->acryl-datahub[all])",
+            "packages": [
+                "thrift-0.21.0.tar.gz"
+            ]
+        },
+        {
+            "requirement": "thrift-sasl>=0.1.0 (from acryl-pyhive[hive-pure-sasl]==0.6.16; extra == \"all\"->acryl-datahub[all])",
+            "packages": [
+                "thrift_sasl-0.4.3-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "sqlglotrs==0.2.12 (from acryl-sqlglot[rs]==25.20.2.dev6; extra == \"all\"->acryl-datahub[all])",
+            "packages": [
+                "sqlglotrs-0.2.12-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "six (from avro-gen3==0.7.16->acryl-datahub[all])",
+            "packages": [
+                "six-1.16.0-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "urllib3<2,>=1.21.1 (from elasticsearch==7.13.4->acryl-datahub[all])",
+            "packages": [
+                "urllib3-1.26.20-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "certifi (from elasticsearch==7.13.4->acryl-datahub[all])",
+            "packages": [
+                "certifi-2024.8.30-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "google-api-core!=2.0.*,!=2.1.*,!=2.10.*,!=2.2.*,!=2.3.*,!=2.4.*,!=2.5.*,!=2.6.*,!=2.7.*,!=2.8.*,!=2.9.*,<3.0.0dev,>=1.34.0 (from google-api-core[grpc]!=2.0.*,!=2.1.*,!=2.10.*,!=2.2.*,!=2.3.*,!=2.4.*,!=2.5.*,!=2.6.*,!=2.7.*,!=2.8.*,!=2.9.*,<3.0.0dev,>=1.34.0->google-cloud-datacatalog-lineage==0.2.2->acryl-datahub[all])",
+            "packages": [
+                "google_api_core-2.21.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "proto-plus<2.0.0dev,>=1.22.0 (from google-cloud-datacatalog-lineage==0.2.2->acryl-datahub[all])",
+            "packages": [
+                "proto_plus-1.24.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "protobuf!=3.20.0,!=3.20.1,!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5,<5.0.0dev,>=3.19.5 (from google-cloud-datacatalog-lineage==0.2.2->acryl-datahub[all])",
+            "packages": [
+                "protobuf-4.25.5-cp37-abi3-manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "regex (from lark[regex]==1.1.4; extra == \"all\"->acryl-datahub[all])",
+            "packages": [
+                "regex-2024.9.11-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "attrs>=20.1.0 (from looker-sdk==23.0.0->acryl-datahub[all])",
+            "packages": [
+                "attrs-24.2.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "cattrs>=1.3 (from looker-sdk==23.0.0->acryl-datahub[all])",
+            "packages": [
+                "cattrs-24.1.2-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "sqlalchemy (from acryl-datahub[all])",
+            "packages": [
+                "SQLAlchemy-1.4.44-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "vertica-python>=1.1.1 (from vertica-sqlalchemy-dialect==0.0.8.2->vertica-sqlalchemy-dialect[vertica-python]==0.0.8.2; extra == \"all\"->acryl-datahub[all])",
+            "packages": [
+                "vertica_python-1.4.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "aiohappyeyeballs>=2.3.0 (from aiohttp<4->acryl-datahub[all])",
+            "packages": [
+                "aiohappyeyeballs-2.4.3-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "aiosignal>=1.1.2 (from aiohttp<4->acryl-datahub[all])",
+            "packages": [
+                "aiosignal-1.3.1-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "frozenlist>=1.1.1 (from aiohttp<4->acryl-datahub[all])",
+            "packages": [
+                "frozenlist-1.4.1-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "multidict<7.0,>=4.5 (from aiohttp<4->acryl-datahub[all])",
+            "packages": [
+                "multidict-6.1.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "yarl<2.0,>=1.12.0 (from aiohttp<4->acryl-datahub[all])",
+            "packages": [
+                "yarl-1.15.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "azure-identity>=1.17.1 (from acryl-datahub[all])",
+            "packages": [
+                "azure_identity-1.18.0-py3-none-any.whl.metadata",
+                "azure_identity-1.17.1-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "msal-extensions>=0.3.0 (from azure-identity>=1.17.1->acryl-datahub[all])",
+            "packages": [
+                "msal_extensions-1.2.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "azure-storage-blob>=12.19.0 (from acryl-datahub[all])",
+            "packages": [
+                "azure_storage_blob-12.23.0-py3-none-any.whl.metadata",
+                "azure_storage_blob-12.22.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "isodate>=0.6.1 (from azure-storage-blob>=12.19.0->acryl-datahub[all])",
+            "packages": [
+                "isodate-0.7.2-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "azure-storage-file-datalake>=12.14.0 (from acryl-datahub[all])",
+            "packages": [
+                "azure_storage_file_datalake-12.16.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "jmespath<2.0.0,>=0.7.1 (from botocore!=1.23.0->acryl-datahub[all])",
+            "packages": [
+                "jmespath-1.0.1-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "clickhouse-driver>=0.1.2 (from clickhouse-sqlalchemy<0.2.5,>=0.2.0->acryl-datahub[all])",
+            "packages": [
+                "clickhouse_driver-0.2.9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "asynch>=0.2.2 (from clickhouse-sqlalchemy<0.2.5,>=0.2.0->acryl-datahub[all])",
+            "packages": [
+                "asynch-0.2.5-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "cffi>=1.12 (from cryptography->acryl-datahub[all])",
+            "packages": [
+                "cffi-1.17.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "google-auth~=2.0 (from databricks-sdk>=0.30.0->acryl-datahub[all])",
+            "packages": [
+                "google_auth-2.35.0-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "alembic<2.0.0,>=1.0.11 (from databricks-sql-connector<3.0.0,>=2.8.0->acryl-datahub[all])",
+            "packages": [
+                "alembic-1.13.3-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "lz4<5.0.0,>=4.0.2 (from databricks-sql-connector<3.0.0,>=2.8.0->acryl-datahub[all])",
+            "packages": [
+                "lz4-4.3.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "oauthlib<4.0.0,>=3.1.0 (from databricks-sql-connector<3.0.0,>=2.8.0->acryl-datahub[all])",
+            "packages": [
+                "oauthlib-3.2.2-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "openpyxl<4.0.0,>=3.0.10 (from databricks-sql-connector<3.0.0,>=2.8.0->acryl-datahub[all])",
+            "packages": [
+                "openpyxl-3.1.5-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "thrift>=0.10.0 (from acryl-pyhive[hive-pure-sasl]==0.6.16; extra == \"all\"->acryl-datahub[all])",
+            "packages": [
+                "thrift-0.16.0.tar.gz"
+            ]
+        },
+        {
+            "requirement": "gitdb<5,>=4.0.1 (from GitPython>2->acryl-datahub[all])",
+            "packages": [
+                "gitdb-4.0.11-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "grpc-google-iam-v1<1.0.0dev,>=0.12.4 (from google-cloud-datacatalog>=1.5.0->acryl-datahub[all])",
+            "packages": [
+                "grpc_google_iam_v1-0.13.1-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "google-cloud-appengine-logging<2.0.0dev,>=0.1.0 (from google-cloud-logging<=3.5.0->acryl-datahub[all])",
+            "packages": [
+                "google_cloud_appengine_logging-1.4.5-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "google-cloud-audit-log<1.0.0dev,>=0.1.0 (from google-cloud-logging<=3.5.0->acryl-datahub[all])",
+            "packages": [
+                "google_cloud_audit_log-0.3.0-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "google-cloud-core<3.0.0dev,>=2.0.0 (from google-cloud-logging<=3.5.0->acryl-datahub[all])",
+            "packages": [
+                "google_cloud_core-2.4.1-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "graphql-core<3.3,>=3.2 (from gql>=3.3.0->gql[requests]>=3.3.0; extra == \"all\"->acryl-datahub[all])",
+            "packages": [
+                "graphql_core-3.2.5-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "backoff<3.0,>=1.11.1 (from gql>=3.3.0->gql[requests]>=3.3.0; extra == \"all\"->acryl-datahub[all])",
+            "packages": [
+                "backoff-2.2.1-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "anyio<5,>=3.0 (from gql>=3.3.0->gql[requests]>=3.3.0; extra == \"all\"->acryl-datahub[all])",
+            "packages": [
+                "anyio-4.6.2.post1-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "requests-toolbelt<2,>=1.0.0 (from gql[requests]>=3.3.0; extra == \"all\"->acryl-datahub[all])",
+            "packages": [
+                "requests_toolbelt-1.0.0-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "altair<4.2.1,>=4.0.0 (from great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "altair-4.2.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "colorama>=0.4.3 (from great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "colorama-0.4.6-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "importlib-metadata>=1.7.0 (from great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "importlib_metadata-8.5.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "Ipython>=7.16.3 (from great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "ipython-8.28.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "ipywidgets>=7.5.1 (from great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "ipywidgets-8.1.5-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "jinja2>=2.10 (from great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "jinja2-3.1.4-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "jsonpatch>=1.22 (from great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "jsonpatch-1.33-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "makefun<2,>=1.7.0 (from great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "makefun-1.15.6-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "marshmallow<4.0.0,>=3.7.1 (from great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "marshmallow-3.23.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "mistune>=0.8.4 (from great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "mistune-3.0.2-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "nbformat>=5.0 (from great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "nbformat-5.10.4-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "notebook>=6.4.10 (from great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "notebook-7.2.2-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "pyparsing>=2.4 (from great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "pyparsing-3.2.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "pytz>=2021.3 (from great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "pytz-2024.2-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "ruamel.yaml (from acryl-datahub[all])",
+            "packages": [
+                "ruamel.yaml-0.17.17-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "tqdm>=4.59.0 (from great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "tqdm-4.66.5-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "tzlocal>=1.2 (from great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "tzlocal-5.2-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "grpcio-tools<2,>=1.44.0 (from acryl-datahub[all])",
+            "packages": [
+                "grpcio_tools-1.66.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata",
+                "grpcio_tools-1.66.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata",
+                "grpcio_tools-1.66.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata",
+                "grpcio_tools-1.65.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata",
+                "grpcio_tools-1.65.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata",
+                "grpcio_tools-1.65.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata",
+                "grpcio_tools-1.65.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata",
+                "grpcio_tools-1.64.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata",
+                "grpcio_tools-1.64.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata",
+                "grpcio_tools-1.64.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata",
+                "grpcio_tools-1.63.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata",
+                "grpcio_tools-1.63.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata",
+                "grpcio_tools-1.62.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "jsonschema-specifications>=2023.03.6 (from jsonschema->acryl-datahub[all])",
+            "packages": [
+                "jsonschema_specifications-2024.10.1-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "referencing>=0.28.4 (from jsonschema->acryl-datahub[all])",
+            "packages": [
+                "referencing-0.35.1-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "rpds-py>=0.7.1 (from jsonschema->acryl-datahub[all])",
+            "packages": [
+                "rpds_py-0.20.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "cloudpickle<4 (from mlflow-skinny>=2.3.0->acryl-datahub[all])",
+            "packages": [
+                "cloudpickle-3.1.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "opentelemetry-api<3,>=1.9.0 (from mlflow-skinny>=2.3.0->acryl-datahub[all])",
+            "packages": [
+                "opentelemetry_api-1.27.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "opentelemetry-sdk<3,>=1.9.0 (from mlflow-skinny>=2.3.0->acryl-datahub[all])",
+            "packages": [
+                "opentelemetry_sdk-1.27.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "xmltodict (from moto<5.0.0->moto[s3]<5.0.0; extra == \"all\"->acryl-datahub[all])",
+            "packages": [
+                "xmltodict-0.14.2-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "werkzeug!=2.2.0,!=2.2.1,>=0.5 (from moto<5.0.0->moto[s3]<5.0.0; extra == \"all\"->acryl-datahub[all])",
+            "packages": [
+                "werkzeug-3.0.4-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "responses>=0.13.0 (from moto<5.0.0->moto[s3]<5.0.0; extra == \"all\"->acryl-datahub[all])",
+            "packages": [
+                "responses-0.25.3-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "s3transfer<0.11.0,>=0.10.0 (from boto3->acryl-datahub[all])",
+            "packages": [
+                "s3transfer-0.10.3-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "py-partiql-parser==0.5.0 (from moto[s3]<5.0.0; extra == \"all\"->acryl-datahub[all])",
+            "packages": [
+                "py_partiql_parser-0.5.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "PyJWT<3,>=1.0.0 (from PyJWT[crypto]<3,>=1.0.0->msal>=1.22.0->acryl-datahub[all])",
+            "packages": [
+                "PyJWT-2.9.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "flatdict (from okta~=1.7.0->acryl-datahub[all])",
+            "packages": [
+                "flatdict-4.0.1.tar.gz"
+            ]
+        },
+        {
+            "requirement": "pycryptodome (from okta~=1.7.0->acryl-datahub[all])",
+            "packages": [
+                "pycryptodome-3.21.0-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "python-jose (from okta~=1.7.0->acryl-datahub[all])",
+            "packages": [
+                "python_jose-3.3.0-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "aenum (from okta~=1.7.0->acryl-datahub[all])",
+            "packages": [
+                "aenum-3.1.15-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "pydash (from okta~=1.7.0->acryl-datahub[all])",
+            "packages": [
+                "pydash-8.0.3-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "tzdata>=2022.1 (from pandas->acryl-datahub[all])",
+            "packages": [
+                "tzdata-2024.2-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "fsspec (from PyAthena<3.0.0,>=2.6.0->PyAthena[sqlalchemy]<3.0.0,>=2.6.0; extra == \"all\"->acryl-datahub[all])",
+            "packages": [
+                "fsspec-2024.9.0-py3-none-any.whl.metadata",
+                "fsspec-2023.12.2-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "mmhash3<4.0.0,>=3.0.0 (from pyiceberg<0.7,>=0.4->acryl-datahub[all])",
+            "packages": [
+                "mmhash3-3.0.1-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "pyiceberg<0.7,>=0.4 (from acryl-datahub[all])",
+            "packages": [
+                "pyiceberg-0.6.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata",
+                "pyiceberg-0.5.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata",
+                "pyiceberg-0.5.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata",
+                "pyiceberg-0.4.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "pyparsing>=2.4 (from great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "pyparsing-3.0.9-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "rich<14.0.0,>=10.11.0 (from pyiceberg<0.7,>=0.4->acryl-datahub[all])",
+            "packages": [
+                "rich-13.9.2-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "sortedcontainers==2.4.0 (from pyiceberg<0.7,>=0.4->acryl-datahub[all])",
+            "packages": [
+                "sortedcontainers-2.4.0-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "strictyaml<2.0.0,>=1.7.0 (from pyiceberg<0.7,>=0.4->acryl-datahub[all])",
+            "packages": [
+                "strictyaml-1.7.3-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "dnspython<3.0.0,>=1.16.0 (from pymongo>=3.11->pymongo[srv]>=3.11; extra == \"all\"->acryl-datahub[all])",
+            "packages": [
+                "dnspython-2.7.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "lxml>=4.1.1 (from pyodata>=1.11.1->acryl-datahub[all])",
+            "packages": [
+                "lxml-5.3.0-cp311-cp311-manylinux_2_28_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "py4j==0.10.9.5 (from pyspark~=3.3.0->acryl-datahub[all])",
+            "packages": [
+                "py4j-0.10.9.5-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "pyasn1>=0.3.7 (from python-ldap>=2.4->acryl-datahub[all])",
+            "packages": [
+                "pyasn1-0.6.1-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "pyasn1-modules>=0.1.5 (from python-ldap>=2.4->acryl-datahub[all])",
+            "packages": [
+                "pyasn1_modules-0.4.1-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "scramp<1.5.0,>=1.2.0 (from redshift-connector>=2.1.0->acryl-datahub[all])",
+            "packages": [
+                "scramp-1.4.5-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "beautifulsoup4<5.0.0,>=4.7.0 (from redshift-connector>=2.1.0->acryl-datahub[all])",
+            "packages": [
+                "beautifulsoup4-4.12.3-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "charset-normalizer<4,>=2 (from requests->acryl-datahub[all])",
+            "packages": [
+                "charset_normalizer-3.4.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "idna<4,>=2.5 (from requests->acryl-datahub[all])",
+            "packages": [
+                "idna-3.10-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "importlib-resources>=5.10 (from schwifty<2024.08.0->acryl-datahub[all])",
+            "packages": [
+                "importlib_resources-6.4.5-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "pycountry (from schwifty<2024.08.0->acryl-datahub[all])",
+            "packages": [
+                "pycountry-24.6.1-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "rstr (from schwifty<2024.08.0->acryl-datahub[all])",
+            "packages": [
+                "rstr-3.2.2-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "wrapt (from smart-open>=5.2.1->smart-open[azure]>=5.2.1; extra == \"all\"->acryl-datahub[all])",
+            "packages": [
+                "wrapt-1.16.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "azure-common (from smart-open[azure]>=5.2.1; extra == \"all\"->acryl-datahub[all])",
+            "packages": [
+                "azure_common-1.1.28-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "asn1crypto<2.0.0,>0.24.0 (from snowflake-connector-python>=3.4.0->acryl-datahub[all])",
+            "packages": [
+                "asn1crypto-1.5.1-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "platformdirs<5.0.0,>=2.6.0 (from snowflake-connector-python>=3.4.0->acryl-datahub[all])",
+            "packages": [
+                "platformdirs-4.3.6-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "tomlkit (from snowflake-connector-python>=3.4.0->acryl-datahub[all])",
+            "packages": [
+                "tomlkit-0.13.2-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "google-resumable-media<3.0dev,>=2.0.0 (from google-cloud-bigquery->acryl-datahub[all])",
+            "packages": [
+                "google_resumable_media-2.7.2-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "python-tds (from sqlalchemy-pytds>=0.3->acryl-datahub[all])",
+            "packages": [
+                "python-tds-1.15.0.tar.gz"
+            ]
+        },
+        {
+            "requirement": "sqlalchemy-pytds>=0.3 (from acryl-datahub[all])",
+            "packages": [
+                "sqlalchemy_pytds-1.0.1-py2.py3-none-any.whl.metadata",
+                "sqlalchemy_pytds-1.0.0-py2.py3-none-any.whl.metadata",
+                "sqlalchemy_pytds-0.3.5-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "defusedxml>=0.7.1 (from tableauserverclient>=0.24.0->acryl-datahub[all])",
+            "packages": [
+                "defusedxml-0.7.1-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "tableauserverclient>=0.24.0 (from acryl-datahub[all])",
+            "packages": [
+                "tableauserverclient-0.32-py3-none-any.whl.metadata",
+                "tableauserverclient-0.31-py3-none-any.whl.metadata",
+                "tableauserverclient-0.30-py3-none-any.whl.metadata",
+                "tableauserverclient-0.29-py3-none-any.whl.metadata",
+                "tableauserverclient-0.28-py3-none-any.whl.metadata",
+                "tableauserverclient-0.25-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "unicodecsv>=0.14 (from tableschema>=1.20.2->acryl-datahub[all])",
+            "packages": [
+                "unicodecsv-0.14.1.tar.gz"
+            ]
+        },
+        {
+            "requirement": "rfc3986>=1.1.0 (from tableschema>=1.20.2->acryl-datahub[all])",
+            "packages": [
+                "rfc3986-2.0.0-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "dataflows-tabulator>=1.54.1 (from tableschema>=1.20.2->acryl-datahub[all])",
+            "packages": [
+                "dataflows_tabulator-1.54.3-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "teradatasql>=17.0.0.2 (from teradatasqlalchemy>=17.20.0.0->acryl-datahub[all])",
+            "packages": [
+                "teradatasql-20.0.0.19-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "python-utils>=3.8.1 (from progressbar2->acryl-datahub[all])",
+            "packages": [
+                "python_utils-3.9.0-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "gssapi (from requests-gssapi->acryl-datahub[all])",
+            "packages": [
+                "gssapi-1.9.0.tar.gz"
+            ]
+        },
+        {
+            "requirement": "pyspnego>=0.4.0 (from requests-ntlm->acryl-datahub[all])",
+            "packages": [
+                "pyspnego-0.11.1-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "zeep (from simple-salesforce->acryl-datahub[all])",
+            "packages": [
+                "zeep-4.3.1-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "mypy-extensions>=0.3.0 (from typing-inspect->acryl-datahub[all])",
+            "packages": [
+                "mypy_extensions-1.0.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "bracex>=2.1.1 (from wcmatch->acryl-datahub[all])",
+            "packages": [
+                "bracex-2.5.post1-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "Mako (from alembic<2.0.0,>=1.0.11->databricks-sql-connector<3.0.0,>=2.8.0->acryl-datahub[all])",
+            "packages": [
+                "Mako-1.3.5-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "entrypoints (from altair<4.2.1,>=4.0.0->great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "entrypoints-0.4-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "toolz (from altair<4.2.1,>=4.0.0->great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "toolz-1.0.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "sniffio>=1.1 (from anyio<5,>=3.0->gql>=3.3.0->gql[requests]>=3.3.0; extra == \"all\"->acryl-datahub[all])",
+            "packages": [
+                "sniffio-1.3.1-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "ciso8601 (from asynch>=0.2.2->clickhouse-sqlalchemy<0.2.5,>=0.2.0->acryl-datahub[all])",
+            "packages": [
+                "ciso8601-2.3.1-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "leb128 (from asynch>=0.2.2->clickhouse-sqlalchemy<0.2.5,>=0.2.0->acryl-datahub[all])",
+            "packages": [
+                "leb128-1.0.8-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "zstd (from asynch>=0.2.2->clickhouse-sqlalchemy<0.2.5,>=0.2.0->acryl-datahub[all])",
+            "packages": [
+                "zstd-1.5.5.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "soupsieve>1.2 (from beautifulsoup4<5.0.0,>=4.7.0->redshift-connector>=2.1.0->acryl-datahub[all])",
+            "packages": [
+                "soupsieve-2.6-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "pycparser (from cffi>=1.12->cryptography->acryl-datahub[all])",
+            "packages": [
+                "pycparser-2.22-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "chardet>=3.0 (from dataflows-tabulator>=1.54.1->tableschema>=1.20.2->acryl-datahub[all])",
+            "packages": [
+                "chardet-5.2.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "jsonlines>=1.1 (from dataflows-tabulator>=1.54.1->tableschema>=1.20.2->acryl-datahub[all])",
+            "packages": [
+                "jsonlines-4.0.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "linear-tsv>=1.0 (from dataflows-tabulator>=1.54.1->tableschema>=1.20.2->acryl-datahub[all])",
+            "packages": [
+                "linear-tsv-1.1.0.tar.gz"
+            ]
+        },
+        {
+            "requirement": "xlrd>=1.0 (from dataflows-tabulator>=1.54.1->tableschema>=1.20.2->acryl-datahub[all])",
+            "packages": [
+                "xlrd-2.0.1-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "smmap<6,>=3.0.1 (from gitdb<5,>=4.0.1->GitPython>2->acryl-datahub[all])",
+            "packages": [
+                "smmap-5.0.1-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "googleapis-common-protos<2.0.dev0,>=1.56.2 (from google-api-core!=2.0.*,!=2.1.*,!=2.10.*,!=2.2.*,!=2.3.*,!=2.4.*,!=2.5.*,!=2.6.*,!=2.7.*,!=2.8.*,!=2.9.*,<3.0.0dev,>=1.34.0->google-api-core[grpc]!=2.0.*,!=2.1.*,!=2.10.*,!=2.2.*,!=2.3.*,!=2.4.*,!=2.5.*,!=2.6.*,!=2.7.*,!=2.8.*,!=2.9.*,<3.0.0dev,>=1.34.0->google-cloud-datacatalog-lineage==0.2.2->acryl-datahub[all])",
+            "packages": [
+                "googleapis_common_protos-1.65.0-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "grpcio-status<2.0.dev0,>=1.33.2 (from google-api-core[grpc]!=2.0.*,!=2.1.*,!=2.10.*,!=2.2.*,!=2.3.*,!=2.4.*,!=2.5.*,!=2.6.*,!=2.7.*,!=2.8.*,!=2.9.*,<3.0.0dev,>=1.34.0->google-cloud-datacatalog-lineage==0.2.2->acryl-datahub[all])",
+            "packages": [
+                "grpcio_status-1.67.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "rsa<5,>=3.1.4 (from google-auth~=2.0->databricks-sdk>=0.30.0->acryl-datahub[all])",
+            "packages": [
+                "rsa-4.9-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "google-crc32c<2.0dev,>=1.0 (from google-resumable-media<3.0dev,>=2.0.0->google-cloud-bigquery->acryl-datahub[all])",
+            "packages": [
+                "google_crc32c-1.6.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "zipp>=3.20 (from importlib-metadata>=1.7.0->great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "zipp-3.20.2-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "decorator (from Ipython>=7.16.3->great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "decorator-5.1.1-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "jedi>=0.16 (from Ipython>=7.16.3->great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "jedi-0.19.1-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "matplotlib-inline (from Ipython>=7.16.3->great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "matplotlib_inline-0.1.7-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "prompt-toolkit<3.1.0,>=3.0.41 (from Ipython>=7.16.3->great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "prompt_toolkit-3.0.48-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "pygments>=2.4.0 (from Ipython>=7.16.3->great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "pygments-2.18.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "stack-data (from Ipython>=7.16.3->great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "stack_data-0.6.3-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "Ipython>=7.16.3 (from great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "ipython-8.27.0-py3-none-any.whl.metadata",
+                "ipython-8.26.0-py3-none-any.whl.metadata",
+                "ipython-8.25.0-py3-none-any.whl.metadata",
+                "ipython-8.24.0-py3-none-any.whl.metadata",
+                "ipython-8.23.0-py3-none-any.whl.metadata",
+                "ipython-8.22.2-py3-none-any.whl.metadata",
+                "ipython-8.22.1-py3-none-any.whl.metadata",
+                "ipython-8.21.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "pexpect>4.3 (from Ipython>=7.16.3->great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "pexpect-4.9.0-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "comm>=0.1.3 (from ipywidgets>=7.5.1->great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "comm-0.2.2-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "widgetsnbextension~=4.0.12 (from ipywidgets>=7.5.1->great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "widgetsnbextension-4.0.13-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "jupyterlab-widgets~=3.0.12 (from ipywidgets>=7.5.1->great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "jupyterlab_widgets-3.0.13-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "MarkupSafe>=2.0 (from jinja2>=2.10->great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "MarkupSafe-3.0.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "jsonpointer>=1.9 (from jsonpatch>=1.22->great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "jsonpointer-3.0.0-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "portalocker<3,>=1.4 (from msal-extensions>=0.3.0->azure-identity>=1.17.1->acryl-datahub[all])",
+            "packages": [
+                "portalocker-2.10.1-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "fastjsonschema>=2.15 (from nbformat>=5.0->great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "fastjsonschema-2.20.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "jupyter-core!=5.0.*,>=4.12 (from nbformat>=5.0->great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "jupyter_core-5.7.2-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "jupyter-server<3,>=2.4.0 (from notebook>=6.4.10->great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "jupyter_server-2.14.2-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "jupyterlab-server<3,>=2.27.1 (from notebook>=6.4.10->great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "jupyterlab_server-2.27.3-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "jupyterlab<4.3,>=4.2.0 (from notebook>=6.4.10->great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "jupyterlab-4.2.5-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "notebook-shim<0.3,>=0.2 (from notebook>=6.4.10->great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "notebook_shim-0.2.4-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "tornado>=6.2.0 (from notebook>=6.4.10->great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "tornado-6.4.1-cp38-abi3-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "et-xmlfile (from openpyxl<4.0.0,>=3.0.10->databricks-sql-connector<3.0.0,>=2.8.0->acryl-datahub[all])",
+            "packages": [
+                "et_xmlfile-1.1.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "importlib-metadata>=1.7.0 (from great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "importlib_metadata-8.4.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "opentelemetry-semantic-conventions==0.48b0 (from opentelemetry-sdk<3,>=1.9.0->mlflow-skinny>=2.3.0->acryl-datahub[all])",
+            "packages": [
+                "opentelemetry_semantic_conventions-0.48b0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "markdown-it-py>=2.2.0 (from rich<14.0.0,>=10.11.0->pyiceberg<0.7,>=0.4->acryl-datahub[all])",
+            "packages": [
+                "markdown_it_py-3.0.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "spacy-legacy<3.1.0,>=3.0.11 (from spacy<3.8,>=3.4.1->acryl-datahub-classify==0.0.11->acryl-datahub[all])",
+            "packages": [
+                "spacy_legacy-3.0.12-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "spacy-loggers<2.0.0,>=1.0.0 (from spacy<3.8,>=3.4.1->acryl-datahub-classify==0.0.11->acryl-datahub[all])",
+            "packages": [
+                "spacy_loggers-1.0.5-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "murmurhash<1.1.0,>=0.28.0 (from spacy<3.8,>=3.4.1->acryl-datahub-classify==0.0.11->acryl-datahub[all])",
+            "packages": [
+                "murmurhash-1.0.10-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "cymem<2.1.0,>=2.0.2 (from spacy<3.8,>=3.4.1->acryl-datahub-classify==0.0.11->acryl-datahub[all])",
+            "packages": [
+                "cymem-2.0.8-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "preshed<3.1.0,>=3.0.2 (from spacy<3.8,>=3.4.1->acryl-datahub-classify==0.0.11->acryl-datahub[all])",
+            "packages": [
+                "preshed-3.0.9-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "thinc<8.3.0,>=8.2.2 (from spacy<3.8,>=3.4.1->acryl-datahub-classify==0.0.11->acryl-datahub[all])",
+            "packages": [
+                "thinc-8.2.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "wasabi<1.2.0,>=0.9.1 (from spacy<3.8,>=3.4.1->acryl-datahub-classify==0.0.11->acryl-datahub[all])",
+            "packages": [
+                "wasabi-1.1.3-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "srsly<3.0.0,>=2.4.3 (from spacy<3.8,>=3.4.1->acryl-datahub-classify==0.0.11->acryl-datahub[all])",
+            "packages": [
+                "srsly-2.4.8-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "catalogue<2.1.0,>=2.0.6 (from spacy<3.8,>=3.4.1->acryl-datahub-classify==0.0.11->acryl-datahub[all])",
+            "packages": [
+                "catalogue-2.0.10-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "weasel<0.5.0,>=0.1.0 (from spacy<3.8,>=3.4.1->acryl-datahub-classify==0.0.11->acryl-datahub[all])",
+            "packages": [
+                "weasel-0.4.1-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "typer<1.0.0,>=0.3.0 (from spacy<3.8,>=3.4.1->acryl-datahub-classify==0.0.11->acryl-datahub[all])",
+            "packages": [
+                "typer-0.12.5-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "langcodes<4.0.0,>=3.2.0 (from spacy<3.8,>=3.4.1->acryl-datahub-classify==0.0.11->acryl-datahub[all])",
+            "packages": [
+                "langcodes-3.4.1-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "propcache>=0.2.0 (from yarl<2.0,>=1.12.0->aiohttp<4->acryl-datahub[all])",
+            "packages": [
+                "propcache-0.2.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "ecdsa!=0.15 (from python-jose->okta~=1.7.0->acryl-datahub[all])",
+            "packages": [
+                "ecdsa-0.19.0-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "grpcio-status<2.0.dev0,>=1.33.2 (from google-api-core[grpc]!=2.0.*,!=2.1.*,!=2.10.*,!=2.2.*,!=2.3.*,!=2.4.*,!=2.5.*,!=2.6.*,!=2.7.*,!=2.8.*,!=2.9.*,<3.0.0dev,>=1.34.0->google-cloud-datacatalog-lineage==0.2.2->acryl-datahub[all])",
+            "packages": [
+                "grpcio_status-1.66.2-py3-none-any.whl.metadata",
+                "grpcio_status-1.66.1-py3-none-any.whl.metadata",
+                "grpcio_status-1.66.0-py3-none-any.whl.metadata",
+                "grpcio_status-1.65.5-py3-none-any.whl.metadata",
+                "grpcio_status-1.65.4-py3-none-any.whl.metadata",
+                "grpcio_status-1.65.2-py3-none-any.whl.metadata",
+                "grpcio_status-1.65.1-py3-none-any.whl.metadata",
+                "grpcio_status-1.64.3-py3-none-any.whl.metadata",
+                "grpcio_status-1.64.1-py3-none-any.whl.metadata",
+                "grpcio_status-1.64.0-py3-none-any.whl.metadata",
+                "grpcio_status-1.63.2-py3-none-any.whl.metadata",
+                "grpcio_status-1.63.0-py3-none-any.whl.metadata",
+                "grpcio_status-1.62.3-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "parso<0.9.0,>=0.8.3 (from jedi>=0.16->Ipython>=7.16.3->great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "parso-0.8.4-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "jupyter-core!=5.0.*,>=4.12 (from nbformat>=5.0->great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "jupyter_core-5.7.1-py3-none-any.whl.metadata",
+                "jupyter_core-5.7.0-py3-none-any.whl.metadata",
+                "jupyter_core-5.6.1-py3-none-any.whl.metadata",
+                "jupyter_core-5.5.1-py3-none-any.whl.metadata",
+                "jupyter_core-5.5.0-py3-none-any.whl.metadata",
+                "jupyter_core-5.4.0-py3-none-any.whl.metadata",
+                "jupyter_core-5.3.2-py3-none-any.whl.metadata",
+                "jupyter_core-5.3.1-py3-none-any.whl.metadata",
+                "jupyter_core-5.3.0-py3-none-any.whl.metadata",
+                "jupyter_core-5.2.0-py3-none-any.whl.metadata",
+                "jupyter_core-5.1.5-py3-none-any.whl.metadata",
+                "jupyter_core-5.1.4-py3-none-any.whl.metadata",
+                "jupyter_core-5.1.3-py3-none-any.whl.metadata",
+                "jupyter_core-5.1.2-py3-none-any.whl.metadata",
+                "jupyter_core-5.1.1-py3-none-any.whl.metadata",
+                "jupyter_core-5.1.0-py3-none-any.whl.metadata",
+                "jupyter_core-4.12.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "argon2-cffi>=21.1 (from jupyter-server<3,>=2.4.0->notebook>=6.4.10->great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "argon2_cffi-23.1.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "jupyter-client>=7.4.4 (from jupyter-server<3,>=2.4.0->notebook>=6.4.10->great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "jupyter_client-8.6.3-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "jupyter-events>=0.9.0 (from jupyter-server<3,>=2.4.0->notebook>=6.4.10->great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "jupyter_events-0.10.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "jupyter-server-terminals>=0.4.4 (from jupyter-server<3,>=2.4.0->notebook>=6.4.10->great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "jupyter_server_terminals-0.5.3-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "nbconvert>=6.4.4 (from jupyter-server<3,>=2.4.0->notebook>=6.4.10->great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "nbconvert-7.16.4-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "overrides>=5.0 (from jupyter-server<3,>=2.4.0->notebook>=6.4.10->great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "overrides-7.7.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "prometheus-client>=0.9 (from jupyter-server<3,>=2.4.0->notebook>=6.4.10->great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "prometheus_client-0.21.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "pyzmq>=24 (from jupyter-server<3,>=2.4.0->notebook>=6.4.10->great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "pyzmq-26.2.0-cp311-cp311-manylinux_2_28_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "send2trash>=1.8.2 (from jupyter-server<3,>=2.4.0->notebook>=6.4.10->great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "Send2Trash-1.8.3-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "terminado>=0.8.3 (from jupyter-server<3,>=2.4.0->notebook>=6.4.10->great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "terminado-0.18.1-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "jupyter-server<3,>=2.4.0 (from notebook>=6.4.10->great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "jupyter_server-2.14.1-py3-none-any.whl.metadata",
+                "jupyter_server-2.14.0-py3-none-any.whl.metadata",
+                "jupyter_server-2.13.0-py3-none-any.whl.metadata",
+                "jupyter_server-2.12.5-py3-none-any.whl.metadata",
+                "jupyter_server-2.12.4-py3-none-any.whl.metadata",
+                "jupyter_server-2.12.3-py3-none-any.whl.metadata",
+                "jupyter_server-2.12.2-py3-none-any.whl.metadata",
+                "jupyter_server-2.12.1-py3-none-any.whl.metadata",
+                "jupyter_server-2.12.0-py3-none-any.whl.metadata",
+                "jupyter_server-2.11.2-py3-none-any.whl.metadata",
+                "jupyter_server-2.11.1-py3-none-any.whl.metadata",
+                "jupyter_server-2.10.1-py3-none-any.whl.metadata",
+                "jupyter_server-2.10.0-py3-none-any.whl.metadata",
+                "jupyter_server-2.9.1-py3-none-any.whl.metadata",
+                "jupyter_server-2.9.0-py3-none-any.whl.metadata",
+                "jupyter_server-2.8.0-py3-none-any.whl.metadata",
+                "jupyter_server-2.7.3-py3-none-any.whl.metadata",
+                "jupyter_server-2.7.2-py3-none-any.whl.metadata",
+                "jupyter_server-2.7.1-py3-none-any.whl.metadata",
+                "jupyter_server-2.7.0-py3-none-any.whl.metadata",
+                "jupyter_server-2.6.0-py3-none-any.whl.metadata",
+                "jupyter_server-2.5.0-py3-none-any.whl.metadata",
+                "jupyter_server-2.4.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "comm>=0.1.3 (from ipywidgets>=7.5.1->great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "comm-0.2.1-py3-none-any.whl.metadata",
+                "comm-0.2.0-py3-none-any.whl.metadata",
+                "comm-0.1.4-py3-none-any.whl.metadata",
+                "comm-0.1.3-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "nbformat>=5.0 (from great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "nbformat-5.10.3-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "notebook>=6.4.10 (from great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "notebook-7.2.1-py3-none-any.whl.metadata",
+                "notebook-7.2.0-py3-none-any.whl.metadata",
+                "notebook-7.1.3-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "jupyterlab<4.2,>=4.1.1 (from notebook>=6.4.10->great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "jupyterlab-4.1.8-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "notebook>=6.4.10 (from great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "notebook-7.1.2-py3-none-any.whl.metadata",
+                "notebook-7.1.1-py3-none-any.whl.metadata",
+                "notebook-7.1.0-py3-none-any.whl.metadata",
+                "notebook-7.0.8-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "jupyterlab<4.1,>=4.0.2 (from notebook>=6.4.10->great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "jupyterlab-4.0.13-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "notebook>=6.4.10 (from great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "notebook-7.0.7-py3-none-any.whl.metadata",
+                "notebook-7.0.6-py3-none-any.whl.metadata",
+                "notebook-7.0.5-py3-none-any.whl.metadata",
+                "notebook-7.0.4-py3-none-any.whl.metadata",
+                "notebook-7.0.3-py3-none-any.whl.metadata",
+                "notebook-7.0.2-py3-none-any.whl.metadata",
+                "notebook-7.0.1-py3-none-any.whl.metadata",
+                "notebook-7.0.0-py3-none-any.whl.metadata",
+                "notebook-6.5.7-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "jupyter-client<8,>=5.3.4 (from notebook>=6.4.10->great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "jupyter_client-7.4.9-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "ipython-genutils (from notebook>=6.4.10->great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "ipython_genutils-0.2.0-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "ipykernel (from notebook>=6.4.10->great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "ipykernel-6.29.5-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "nbclassic>=0.4.7 (from notebook>=6.4.10->great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "nbclassic-1.1.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "jupyter-core (from nbformat>=5.0->great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "jupyter_core-5.0.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "language-data>=1.2 (from langcodes<4.0.0,>=3.2.0->spacy<3.8,>=3.4.1->acryl-datahub-classify==0.0.11->acryl-datahub[all])",
+            "packages": [
+                "language_data-1.2.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "mdurl~=0.1 (from markdown-it-py>=2.2.0->rich<14.0.0,>=10.11.0->pyiceberg<0.7,>=0.4->acryl-datahub[all])",
+            "packages": [
+                "mdurl-0.1.2-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "bleach!=5.0.0 (from nbconvert>=6.4.4->jupyter-server<3,>=2.4.0->notebook>=6.4.10->great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "bleach-6.1.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "jupyterlab-pygments (from nbconvert>=6.4.4->jupyter-server<3,>=2.4.0->notebook>=6.4.10->great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "jupyterlab_pygments-0.3.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "nbclient>=0.5.0 (from nbconvert>=6.4.4->jupyter-server<3,>=2.4.0->notebook>=6.4.10->great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "nbclient-0.10.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "pandocfilters>=1.4.1 (from nbconvert>=6.4.4->jupyter-server<3,>=2.4.0->notebook>=6.4.10->great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "pandocfilters-1.5.1-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "tinycss2 (from nbconvert>=6.4.4->jupyter-server<3,>=2.4.0->notebook>=6.4.10->great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "tinycss2-1.3.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "ptyprocess>=0.5 (from pexpect>4.3->Ipython>=7.16.3->great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "ptyprocess-0.7.0-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "wcwidth (from prompt-toolkit<3.1.0,>=3.0.41->Ipython>=7.16.3->great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "wcwidth-0.2.13-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "blis<0.8.0,>=0.7.8 (from thinc<8.3.0,>=8.2.2->spacy<3.8,>=3.4.1->acryl-datahub-classify==0.0.11->acryl-datahub[all])",
+            "packages": [
+                "blis-0.7.11-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "confection<1.0.0,>=0.0.1 (from thinc<8.3.0,>=8.2.2->spacy<3.8,>=3.4.1->acryl-datahub-classify==0.0.11->acryl-datahub[all])",
+            "packages": [
+                "confection-0.1.5-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "shellingham>=1.3.0 (from typer<1.0.0,>=0.3.0->spacy<3.8,>=3.4.1->acryl-datahub-classify==0.0.11->acryl-datahub[all])",
+            "packages": [
+                "shellingham-1.5.4-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "cloudpathlib<1.0.0,>=0.7.0 (from weasel<0.5.0,>=0.1.0->spacy<3.8,>=3.4.1->acryl-datahub-classify==0.0.11->acryl-datahub[all])",
+            "packages": [
+                "cloudpathlib-0.19.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "argon2-cffi-bindings (from argon2-cffi>=21.1->jupyter-server<3,>=2.4.0->notebook>=6.4.10->great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "argon2_cffi_bindings-21.2.0-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "debugpy>=1.6.5 (from ipykernel->notebook>=6.4.10->great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "debugpy-1.8.7-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "ipykernel (from notebook>=6.4.10->great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "ipykernel-6.29.4-py3-none-any.whl.metadata",
+                "ipykernel-6.29.3-py3-none-any.whl.metadata",
+                "ipykernel-6.29.2-py3-none-any.whl.metadata",
+                "ipykernel-6.29.1-py3-none-any.whl.metadata",
+                "ipykernel-6.29.0-py3-none-any.whl.metadata",
+                "ipykernel-6.28.0-py3-none-any.whl.metadata",
+                "ipykernel-6.27.1-py3-none-any.whl.metadata",
+                "ipykernel-6.26.0-py3-none-any.whl.metadata",
+                "ipykernel-6.25.2-py3-none-any.whl.metadata",
+                "ipykernel-6.25.1-py3-none-any.whl.metadata",
+                "ipykernel-6.25.0-py3-none-any.whl.metadata",
+                "ipykernel-6.24.0-py3-none-any.whl.metadata",
+                "ipykernel-6.23.3-py3-none-any.whl.metadata",
+                "ipykernel-6.23.2-py3-none-any.whl.metadata",
+                "ipykernel-6.23.1-py3-none-any.whl.metadata",
+                "ipykernel-6.23.0-py3-none-any.whl.metadata",
+                "ipykernel-6.22.0-py3-none-any.whl.metadata",
+                "ipykernel-6.21.3-py3-none-any.whl.metadata",
+                "ipykernel-6.21.2-py3-none-any.whl.metadata",
+                "ipykernel-6.21.1-py3-none-any.whl.metadata",
+                "ipykernel-6.20.2-py3-none-any.whl.metadata",
+                "ipykernel-6.20.1-py3-none-any.whl.metadata",
+                "ipykernel-6.19.4-py3-none-any.whl.metadata",
+                "ipykernel-6.19.3-py3-none-any.whl.metadata",
+                "ipykernel-6.19.2-py3-none-any.whl.metadata",
+                "ipykernel-6.19.1-py3-none-any.whl.metadata",
+                "ipykernel-6.17.1-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "executing>=1.2.0 (from stack-data->Ipython>=7.16.3->great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "executing-2.1.0-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "asttokens>=2.1.0 (from stack-data->Ipython>=7.16.3->great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "asttokens-2.4.1-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "pure-eval (from stack-data->Ipython>=7.16.3->great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "pure_eval-0.2.3-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "webencodings (from bleach!=5.0.0->nbconvert>=6.4.4->jupyter-server<3,>=2.4.0->notebook>=6.4.10->great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "webencodings-0.5.1-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "marisa-trie>=0.7.7 (from language-data>=1.2->langcodes<4.0.0,>=3.2.0->spacy<3.8,>=3.4.1->acryl-datahub-classify==0.0.11->acryl-datahub[all])",
+            "packages": [
+                "marisa_trie-1.2.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "nbclient>=0.5.0 (from nbconvert>=6.4.4->jupyter-server<3,>=2.4.0->notebook>=6.4.10->great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "nbclient-0.9.1-py3-none-any.whl.metadata",
+                "nbclient-0.9.0-py3-none-any.whl.metadata",
+                "nbclient-0.8.0-py3-none-any.whl.metadata",
+                "nbclient-0.7.4-py3-none-any.whl.metadata",
+                "nbclient-0.7.3-py3-none-any.whl.metadata",
+                "nbclient-0.7.2-py3-none-any.whl.metadata",
+                "nbclient-0.7.1-py3-none-any.whl.metadata",
+                "nbclient-0.7.0-py3-none-any.whl.metadata",
+                "nbclient-0.6.8-py3-none-any.whl.metadata",
+                "nbclient-0.6.7-py3-none-any.whl.metadata",
+                "nbclient-0.6.6-py3-none-any.whl.metadata",
+                "nbclient-0.6.5-py3-none-any.whl.metadata",
+                "nbclient-0.6.4-py3-none-any.whl.metadata",
+                "nbclient-0.6.3-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "jupyter-server<3,>=1.8 (from notebook-shim<0.3,>=0.2->notebook>=6.4.10->great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "jupyter_server-2.3.0-py3-none-any.whl.metadata",
+                "jupyter_server-2.2.1-py3-none-any.whl.metadata",
+                "jupyter_server-2.2.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "anyio<5,>=3.0 (from gql>=3.3.0->gql[requests]>=3.3.0; extra == \"all\"->acryl-datahub[all])",
+            "packages": [
+                "anyio-3.7.1-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "jupyter-server<3,>=1.8 (from notebook-shim<0.3,>=0.2->notebook>=6.4.10->great-expectations<=0.15.50,>=0.15.12->acryl-datahub[all])",
+            "packages": [
+                "jupyter_server-2.1.0-py3-none-any.whl.metadata",
+                "jupyter_server-2.0.6-py3-none-any.whl.metadata",
+                "jupyter_server-2.0.5-py3-none-any.whl.metadata",
+                "jupyter_server-2.0.4-py3-none-any.whl.metadata",
+                "jupyter_server-2.0.3-py3-none-any.whl.metadata",
+                "jupyter_server-2.0.2-py3-none-any.whl.metadata",
+                "jupyter_server-2.0.1-py3-none-any.whl.metadata",
+                "jupyter_server-1.24.0-py3-none-any.whl.metadata"
+            ]
+        }
+    ]
+}

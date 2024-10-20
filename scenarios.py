@@ -209,13 +209,25 @@ def process_scenario(
     # Check success or failure reason
     success = True
     failure_reason = None
-    stderr = "\n".join(
-        [
-            line
-            for line in result_install.stderr.splitlines()
-            if line.strip() and not line.startswith("WARNING:")
-        ]
-    )
+    stderr_lines = [
+        line
+        for line in result_install.stderr.splitlines()
+        if line.strip() and not line.startswith("WARNING:")
+    ]
+
+    # Clear metadata warning lines from stderr
+    stderr_clean = []
+    metadata_warning = False
+    for stderr_line in stderr_lines:
+        if "has invalid metadata" in stderr_line:
+            metadata_warning = True
+            continue
+        if not metadata_warning:
+            stderr_clean.append(stderr_line)
+        if "nPlease use pip<24.1" in stderr_line:
+            metadata_warning = False
+
+    stderr = "\n".join(stderr_clean)
     if stderr:
         success = False
         if "subprocess-exited-with-error" in stderr:
