@@ -11,14 +11,14 @@
 # https://github.com/pypa/pip/issues/12990
 python_version = "3.11"
 platform_system = "Linux"
-datetime = "2024-10-07T14:00:00"
+datetime = "2024-10-07 14:00:00"
 requirements = ["autogluon==1.1.1"]
 
 [pip-issue-12754]
 # https://github.com/pypa/pip/issues/12754
 python_version = "3.11"
 platform_system = "Linux"
-datetime = "2024-06-07T14:00:00"
+datetime = "2024-06-07 14:00:00"
 requirements = [
     "auditree-arboretum>=0.5.0",
     "deprecated>=1.2.10",
@@ -52,14 +52,14 @@ requirements = [
 # https://github.com/pypa/pip/issues/12305
 python_version = "3.8"
 platform_system = "Linux"
-datetime = "2023-10-01T14:00:00"
+datetime = "2023-10-01 14:00:00"
 requirements = ["TTS"]
 
 [boto3-urllib3-transient]
 # https://github.com/astral-sh/uv/issues/1398
 python_version = "3.9"
 platform_system = "Linux"
-datetime = "2023-10-01T14:00:00"
+datetime = "2023-10-01 14:00:00"
 requirements = [
     "click >= 7.0",
     "click-loglevel ~= 0.2",
@@ -73,7 +73,7 @@ requirements = [
 # https://github.com/astral-sh/uv/issues/6281#issuecomment-2316240724
 python_version = "3.10"
 platform_system = "Linux"
-datetime = "2024-08-28T14:00:00"
+datetime = "2024-08-28 14:00:00"
 requirements = [
     "numpy>=2.1,<2.2",
     "numba<=0.60,>0.1"
@@ -83,7 +83,7 @@ requirements = [
 # https://github.com/astral-sh/uv/issues/1575
 python_version = "3.11"
 platform_system = "Linux"
-datetime = "2024-02-17T14:00:00"
+datetime = "2024-02-17 14:00:00"
 requirements = [
     "starlette<=0.36.0",
     "fastapi<=0.115.2",
@@ -93,7 +93,7 @@ requirements = [
 # https://github.com/astral-sh/uv/issues/8157
 python_version = "3.11"
 platform_system = "Linux"
-datetime = "2024-10-10T14:00:00"
+datetime = "2024-10-10 14:00:00"
 requirements = [
     "python-rapidjson<=1.20,>=1.4",
     "sentry-kafka-schemas<=0.1.113,>=0.1.50",
@@ -103,7 +103,7 @@ requirements = [
 # https://github.com/astral-sh/uv/issues/3078#issuecomment-2062907457
 python_version = "3.11"
 platform_system = "Linux"
-datetime = "2024-04-17T14:00:00"
+datetime = "2024-04-17 14:00:00"
 requirements = [
     "apache-airflow[apache-beam]==2.8.4",
 ]
@@ -112,7 +112,7 @@ requirements = [
 # https://github.com/astral-sh/uv/issues/3078#issuecomment-2062907457
 python_version = "3.11"
 platform_system = "Linux"
-datetime = "2024-04-17T14:00:00"
+datetime = "2024-04-17 14:00:00"
 requirements = [
     "dill>=0.2.2",
     "apache-beam<=2.49.0",
@@ -122,7 +122,7 @@ requirements = [
 # https://github.com/pradyunsg/pip-resolver-benchmarks/discussions/8#discussioncomment-7807758
 python_version = "3.10"
 platform_system = "Linux"
-datetime = "2023-12-09T14:00:00"
+datetime = "2023-12-09 14:00:00"
 requirements = [
     "kedro[test]==0.18.13",
 ]
@@ -131,7 +131,7 @@ requirements = [
 # https://github.com/pypa/pip/issues/12430
 python_version = "3.11"
 platform_system = "Linux"
-datetime = "2023-12-09T14:00:00"
+datetime = "2023-12-09 14:00:00"
 requirements = [
     "sphinx",
     "sphinx-rtd-theme",
@@ -145,7 +145,7 @@ requirements = [
 # https://github.com/pypa/pip/issues/13037
 python_version = "3.10"
 platform_system = "Linux"
-datetime = "2024-10-22T14:00:00"
+datetime = "2024-10-22 14:00:00"
 requirements = [
     "numpy==1.21.5",
     "spacy<4.0.0,>=3.0.0",
