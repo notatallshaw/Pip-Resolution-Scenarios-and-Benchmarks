@@ -3,13 +3,13 @@
 # dependencies = [
 #   "typer",
 #   "uv",
+#   "niquests",
 # ]
 # ///
 
 import json
 import os
 import platform
-import signal
 import socket
 import subprocess
 import sys
@@ -20,6 +20,7 @@ from contextlib import contextmanager
 from pathlib import Path
 from urllib.parse import unquote, urlparse
 
+import niquests
 import typer
 
 SCENARIOS_DIR = "scenarios"
@@ -50,26 +51,22 @@ def pip_timemachine(date: str, port: str):
         "run",
         "-p",
         "3.12",
-        "pip-timemachine",
+        "pip-timemachine@0.2",
         date,
         "--port",
         port,
     ]
     process = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     try:
-        time.sleep(0.5)
+        time.sleep(0.1)
         yield process
     finally:
-        if platform.system() == "Windows":
-            process.terminate()
-        else:
-            process.send_signal(signal.SIGTERM)
-
         try:
-            process.wait(timeout=3)
-        except subprocess.TimeoutExpired:
-            process.kill()
-            process.wait()
+            niquests.get(f"http://127.0.0.1:{port}/shutdown-pip-timemachine-server")
+        except niquests.exceptions.ReadTimeout:
+            pass
+        
+        process.wait()
 
 
 def process_scenario(
@@ -133,7 +130,7 @@ def process_scenario(
             "off",
             "--disable-pip-version-check",
             "--index-url",
-            f"http://127.0.0.1:{port}/",
+            f"http://127.0.0.1:{port}/simple",
             "--report",
             "-",
             *requirements,
