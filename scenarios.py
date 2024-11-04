@@ -51,7 +51,7 @@ def pip_timemachine(date: str, port: str):
         "run",
         "-p",
         "3.12",
-        "pip-timemachine@0.2",
+        "pip-timemachine@0.2.2",
         date,
         "--port",
         port,
