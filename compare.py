@@ -97,34 +97,32 @@ def process_toml_file(toml_file: Path, pip_name_1: str, pip_name_2: str) -> None
             )
 
         difference_messages = []
-        if success_1 != success_2:
+        one_failed = success_1 != success_2
+        if one_failed:
             difference_messages.append(f"Success: {success_1} -> {success_2}.")
-            if failure_reason_1 != failure_reason_2:
-                difference_messages.append(
-                    f"Failure Reason: {failure_reason_1} -> {failure_reason_2}."
-                )
-        elif success_1:
-            if failure_reason_1 != failure_reason_2:
-                difference_messages.append(
-                    f"Failure Reason: {failure_reason_1} -> {failure_reason_2}."
-                )
-            if install_info_1 != install_info_2:
-                difference_messages.append("Not the same install files.")
 
-            if resolution_1 != resolution_2:
-                num_requirements_1 = len(resolution_1.keys())
-                num_requirements_2 = len(resolution_2.keys())
-                if num_requirements_1 != num_requirements_2:
-                    difference_messages.append(
-                        f"Number of requirements processed: {num_requirements_1} -> {num_requirements_2}"
-                    )
+        if failure_reason_1 != failure_reason_2:
+            difference_messages.append(
+                f"Failure Reason: {failure_reason_1} -> {failure_reason_2}."
+            )
+    
+        if not one_failed and install_info_1 != install_info_2:
+            difference_messages.append("Not the same install files.")
 
-                num_packages_1 = sum(len(x) for x in resolution_1.values())
-                num_packages_2 = sum(len(x) for x in resolution_2.values())
-                if num_packages_1 != num_packages_2:
-                    difference_messages.append(
-                        f"Number of packages processed: {num_packages_1} -> {num_packages_2}"
-                    )
+        if resolution_1 != resolution_2:
+            num_requirements_1 = len(resolution_1.keys())
+            num_requirements_2 = len(resolution_2.keys())
+            if num_requirements_1 != num_requirements_2:
+                difference_messages.append(
+                    f"Number of requirements processed: {num_requirements_1} -> {num_requirements_2}"
+                )
+
+            num_packages_1 = sum(len(x) for x in resolution_1.values())
+            num_packages_2 = sum(len(x) for x in resolution_2.values())
+            if num_packages_1 != num_packages_2:
+                difference_messages.append(
+                    f"Number of packages processed: {num_packages_1} -> {num_packages_2}"
+                )
 
         if difference_messages:
             print(f"Difference for scenario {toml_file} - {scenario_name}:")

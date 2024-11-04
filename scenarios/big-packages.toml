@@ -3,7 +3,7 @@
 [apache-airflow-all]
 python_version = "3.11"
 platform_system = "Linux"
-datetime = "2024-10-07 14:00:00"
+datetime = "2024-11-02 14:00:00"
 requirements = ["apache-airflow[all]"]
 
 [dask-complete]
@@ -29,12 +29,6 @@ python_version = "3.11"
 platform_system = "Linux"
 datetime = "2024-10-07 14:00:00"
 requirements = ["dagster", "dagster-webserver"]
-
-[celery]
-python_version = "3.11"
-platform_system = "Linux"
-datetime = "2024-10-07 14:00:00"
-requirements = ["celery[redis, s3]"]
 
 [ray]
 python_version = "3.11"
@@ -66,12 +60,6 @@ platform_system = "Linux"
 datetime = "2024-10-07 14:00:00"
 requirements = ["transformers[torch, tf]"]
 
-[bokeh]
-python_version = "3.11"
-platform_system = "Linux"
-datetime = "2024-10-07 14:00:00"
-requirements = ["bokeh"]
-
 [prefect]
 python_version = "3.11"
 platform_system = "Linux"
@@ -83,18 +71,6 @@ python_version = "3.11"
 platform_system = "Linux"
 datetime = "2024-10-07 14:00:00"
 requirements = ["apache-beam[gcp, aws, azure]"]
-
-[scikit-learn]
-python_version = "3.11"
-platform_system = "Linux"
-datetime = "2024-10-07 14:00:00"
-requirements = ["scikit-learn"]
-
-[nltk]
-python_version = "3.11"
-platform_system = "Linux"
-datetime = "2024-10-07 14:00:00"
-requirements = ["nltk[all]"]
 
 [tensorflow]
 python_version = "3.11"
@@ -108,35 +84,11 @@ platform_system = "Linux"
 datetime = "2024-10-07 14:00:00"
 requirements = ["kedro"]
 
-[luigi]
-python_version = "3.11"
-platform_system = "Linux"
-datetime = "2024-10-07 14:00:00"
-requirements = ["luigi"]
-
-[apscheduler]
-python_version = "3.11"
-platform_system = "Linux"
-datetime = "2024-10-07 14:00:00"
-requirements = ["apscheduler"]
-
-[ansible]
-python_version = "3.11"
-platform_system = "Linux"
-datetime = "2024-10-07 14:00:00"
-requirements = ["ansible"]
-
 [salt]
 python_version = "3.11"
 platform_system = "Linux"
 datetime = "2024-10-07 14:00:00"
 requirements = ["salt"]
-
-[fabric]
-python_version = "3.11"
-platform_system = "Linux"
-datetime = "2024-10-07 14:00:00"
-requirements = ["fabric"]
 
 [pyinfra]
 python_version = "3.11"
@@ -144,47 +96,11 @@ platform_system = "Linux"
 datetime = "2024-10-07 14:00:00"
 requirements = ["pyinfra"]
 
-[fastapi]
-python_version = "3.11"
-platform_system = "Linux"
-datetime = "2024-10-07 14:00:00"
-requirements = ["fastapi"]
-
-[flask]
-python_version = "3.11"
-platform_system = "Linux"
-datetime = "2024-10-07 14:00:00"
-requirements = ["flask"]
-
-[pyramid]
-python_version = "3.11"
-platform_system = "Linux"
-datetime = "2024-10-07 14:00:00"
-requirements = ["pyramid"]
-
-[pyspark]
-python_version = "3.11"
-platform_system = "Linux"
-datetime = "2024-10-07 14:00:00"
-requirements = ["pyspark"]
-
-[databricks-connect]
-python_version = "3.11"
-platform_system = "Linux"
-datetime = "2024-10-07 14:00:00"
-requirements = ["databricks-connect"]
-
 [scvi-tools]
 python_version = "3.11"
 platform_system = "Linux"
 datetime = "2024-10-07 14:00:00"
 requirements = ["scvi-tools"]
-
-[deepchem]
-python_version = "3.11"
-platform_system = "Linux"
-datetime = "2024-10-07 14:00:00"
-requirements = ["deepchem"]
 
 [flair]
 python_version = "3.11"

@@ -56,18 +56,26 @@ def pip_timemachine(date: str, port: str):
         "--port",
         port,
     ]
-    process = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    process = subprocess.Popen(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     try:
-        time.sleep(0.1)
+        # Wait for server to come up before yielding process
+        for _ in range(100):
+            try:
+                niquests.get(f"http://127.0.0.1:{port}/simple/pip", headers={"Accept": "application/vnd.pypi.simple.v1+json"})
+            except niquests.exceptions.ConnectionError:
+                time.sleep(0.1)
+            else:
+                break
+        else:
+            raise RuntimeError("Failed to start pip-timemachine")
+
         yield process
     finally:
+        # Request shutdown but don't wait on process
         try:
             niquests.get(f"http://127.0.0.1:{port}/shutdown-pip-timemachine-server")
         except niquests.exceptions.ReadTimeout:
             pass
-        
-        process.wait()
-
 
 def process_scenario(
     pip_name: str,
