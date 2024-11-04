@@ -291,9 +291,9 @@
             ]
         },
         {
-            "requirement": "gruut-lang-de~=2.0.0 (from gruut[de,es,fr]==2.2.3->TTS)",
+            "requirement": "gruut-lang-es~=2.0.0 (from gruut[de,es,fr]==2.2.3->TTS)",
             "packages": [
-                "gruut_lang_de-2.0.0.tar.gz"
+                "gruut_lang_es-2.0.0.tar.gz"
             ]
         },
         {
@@ -303,9 +303,9 @@
             ]
         },
         {
-            "requirement": "gruut-lang-es~=2.0.0 (from gruut[de,es,fr]==2.2.3->TTS)",
+            "requirement": "gruut-lang-de~=2.0.0 (from gruut[de,es,fr]==2.2.3->TTS)",
             "packages": [
-                "gruut_lang_es-2.0.0.tar.gz"
+                "gruut_lang_de-2.0.0.tar.gz"
             ]
         },
         {

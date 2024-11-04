@@ -532,7 +532,7 @@
         {
             "requirement": "docopt (from bioc<3.0.0,>=2.0.0->flair)",
             "packages": [
-                "docopt-0.6.2.tar.gz"
+                "docopt-0.6.2-py2.py3-none-any.whl"
             ]
         },
         {

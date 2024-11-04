@@ -1708,7 +1708,7 @@
         {
             "requirement": "pydruid>=0.6.2 (from acryl-datahub[all])",
             "packages": [
-                "pydruid-0.6.9.tar.gz"
+                "pydruid-0.6.9-py2.py3-none-any.whl"
             ]
         },
         {
@@ -1870,7 +1870,7 @@
         {
             "requirement": "python-ldap>=2.4 (from acryl-datahub[all])",
             "packages": [
-                "python-ldap-3.4.4.tar.gz"
+                "python_ldap-3.4.4-cp311-cp311-linux_x86_64.whl"
             ]
         },
         {
@@ -2134,7 +2134,7 @@
         {
             "requirement": "pure-sasl>=0.6.2 (from acryl-pyhive[hive-pure-sasl]==0.6.16; extra == \"all\"->acryl-datahub[all])",
             "packages": [
-                "pure-sasl-0.6.2.tar.gz"
+                "pure_sasl-0.6.2-py3-none-any.whl"
             ]
         },
         {
@@ -2340,7 +2340,7 @@
         {
             "requirement": "thrift>=0.10.0 (from acryl-pyhive[hive-pure-sasl]==0.6.16; extra == \"all\"->acryl-datahub[all])",
             "packages": [
-                "thrift-0.16.0.tar.gz"
+                "thrift-0.16.0-py3-none-any.whl"
             ]
         },
         {
@@ -2813,7 +2813,7 @@
         {
             "requirement": "unicodecsv>=0.14 (from tableschema>=1.20.2->acryl-datahub[all])",
             "packages": [
-                "unicodecsv-0.14.1.tar.gz"
+                "unicodecsv-0.14.1-py3-none-any.whl"
             ]
         },
         {
@@ -2843,7 +2843,7 @@
         {
             "requirement": "gssapi (from requests-gssapi->acryl-datahub[all])",
             "packages": [
-                "gssapi-1.9.0.tar.gz"
+                "gssapi-1.9.0-cp311-cp311-linux_x86_64.whl"
             ]
         },
         {

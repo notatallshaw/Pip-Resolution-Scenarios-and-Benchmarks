@@ -992,7 +992,7 @@
         {
             "requirement": "unicodecsv>=0.14.1 (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "unicodecsv-0.14.1.tar.gz"
+                "unicodecsv-0.14.1-py3-none-any.whl"
             ]
         },
         {
@@ -1430,7 +1430,7 @@
         {
             "requirement": "crcmod<2.0,>=1.7 (from apache-beam>=2.53.0->apache-airflow-providers-apache-beam->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "crcmod-1.7.tar.gz"
+                "crcmod-1.7-py3-none-any.whl"
             ]
         },
         {
@@ -1442,7 +1442,7 @@
         {
             "requirement": "dill>=0.2.2 (from apache-airflow==2.8.4->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "dill-0.3.1.1.tar.gz"
+                "dill-0.3.1.1-py3-none-any.whl"
             ]
         },
         {
@@ -1466,7 +1466,7 @@
         {
             "requirement": "hdfs<3.0.0,>=2.1.0 (from apache-beam>=2.53.0->apache-airflow-providers-apache-beam->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "hdfs-2.7.3.tar.gz"
+                "hdfs-2.7.3-py3-none-any.whl"
             ]
         },
         {
@@ -1580,7 +1580,7 @@
         {
             "requirement": "docopt (from hdfs<3.0.0,>=2.1.0->apache-beam>=2.53.0->apache-airflow-providers-apache-beam->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "docopt-0.6.2.tar.gz"
+                "docopt-0.6.2-py2.py3-none-any.whl"
             ]
         },
         {
@@ -1598,7 +1598,7 @@
         {
             "requirement": "pyjsparser>=2.5.1 (from js2py<1,>=0.74->apache-beam>=2.53.0->apache-airflow-providers-apache-beam->apache-airflow[apache-beam]==2.8.4)",
             "packages": [
-                "pyjsparser-2.7.1.tar.gz"
+                "pyjsparser-2.7.1-py3-none-any.whl"
             ]
         },
         {

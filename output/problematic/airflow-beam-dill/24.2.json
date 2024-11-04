@@ -155,7 +155,7 @@
         {
             "requirement": "crcmod<2.0,>=1.7 (from apache-beam<=2.49.0)",
             "packages": [
-                "crcmod-1.7.tar.gz"
+                "crcmod-1.7-py3-none-any.whl"
             ]
         },
         {
@@ -167,7 +167,7 @@
         {
             "requirement": "dill>=0.2.2",
             "packages": [
-                "dill-0.3.1.1.tar.gz"
+                "dill-0.3.1.1-py3-none-any.whl"
             ]
         },
         {
@@ -197,7 +197,7 @@
         {
             "requirement": "hdfs<3.0.0,>=2.1.0 (from apache-beam<=2.49.0)",
             "packages": [
-                "hdfs-2.7.3.tar.gz"
+                "hdfs-2.7.3-py3-none-any.whl"
             ]
         },
         {
@@ -287,7 +287,7 @@
         {
             "requirement": "docopt (from hdfs<3.0.0,>=2.1.0->apache-beam<=2.49.0)",
             "packages": [
-                "docopt-0.6.2.tar.gz"
+                "docopt-0.6.2-py2.py3-none-any.whl"
             ]
         },
         {
