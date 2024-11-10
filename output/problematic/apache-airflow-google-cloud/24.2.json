@@ -1,0 +1,923 @@
+{
+    "input": {
+        "pip_version": "24.2",
+        "python_version": "3.11",
+        "datetime": "2024-11-09 14:00:00",
+        "platform_system": "Linux",
+        "requirements": [
+            "apache-airflow==2.7.3",
+            "google-cloud-logging==3.10.0"
+        ]
+    },
+    "result": {
+        "success": false,
+        "failure_reason": "Resolution Too Deep",
+        "install_info": []
+    },
+    "resolution": [
+        {
+            "requirement": "apache-airflow==2.7.3",
+            "packages": [
+                "apache_airflow-2.7.3-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "google-cloud-logging==3.10.0",
+            "packages": [
+                "google_cloud_logging-3.10.0-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "WTForms<3.1.0 (from apache-airflow==2.7.3)",
+            "packages": [
+                "WTForms-3.0.1-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "alembic<2.0,>=1.6.3 (from apache-airflow==2.7.3)",
+            "packages": [
+                "alembic-1.14.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "argcomplete>=1.10 (from apache-airflow==2.7.3)",
+            "packages": [
+                "argcomplete-3.5.1-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "asgiref (from apache-airflow==2.7.3)",
+            "packages": [
+                "asgiref-3.8.1-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "attrs>=22.1.0 (from apache-airflow==2.7.3)",
+            "packages": [
+                "attrs-24.2.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "blinker (from apache-airflow==2.7.3)",
+            "packages": [
+                "blinker-1.9.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "cattrs>=22.1.0 (from apache-airflow==2.7.3)",
+            "packages": [
+                "cattrs-24.1.2-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "colorlog<5.0,>=4.0.2 (from apache-airflow==2.7.3)",
+            "packages": [
+                "colorlog-4.8.0-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "configupdater>=3.1.1 (from apache-airflow==2.7.3)",
+            "packages": [
+                "ConfigUpdater-3.2-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "connexion<3.0,>=2.10.0 (from connexion[flask]<3.0,>=2.10.0->apache-airflow==2.7.3)",
+            "packages": [
+                "connexion-2.14.2-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "cron-descriptor>=1.2.24 (from apache-airflow==2.7.3)",
+            "packages": [
+                "cron_descriptor-1.4.5-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "croniter>=0.3.17 (from apache-airflow==2.7.3)",
+            "packages": [
+                "croniter-5.0.1-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "cryptography>=0.9.3 (from apache-airflow==2.7.3)",
+            "packages": [
+                "cryptography-43.0.3-cp39-abi3-manylinux_2_28_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "deprecated>=1.2.13 (from apache-airflow==2.7.3)",
+            "packages": [
+                "Deprecated-1.2.14-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "dill>=0.2.2 (from apache-airflow==2.7.3)",
+            "packages": [
+                "dill-0.3.9-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "flask<2.3,>=2.2 (from apache-airflow==2.7.3)",
+            "packages": [
+                "Flask-2.2.5-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "flask-appbuilder==4.3.6 (from apache-airflow==2.7.3)",
+            "packages": [
+                "Flask_AppBuilder-4.3.6-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "flask-caching>=1.5.0 (from apache-airflow==2.7.3)",
+            "packages": [
+                "Flask_Caching-2.3.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "flask-login>=0.6.2 (from apache-airflow==2.7.3)",
+            "packages": [
+                "Flask_Login-0.6.3-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "flask-session>=0.4.0 (from apache-airflow==2.7.3)",
+            "packages": [
+                "flask_session-0.8.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "flask-wtf>=0.15 (from apache-airflow==2.7.3)",
+            "packages": [
+                "flask_wtf-1.2.2-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "google-re2>=1.0 (from apache-airflow==2.7.3)",
+            "packages": [
+                "google_re2-1.1.20240702-1-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "graphviz>=0.12 (from apache-airflow==2.7.3)",
+            "packages": [
+                "graphviz-0.20.3-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "gunicorn>=20.1.0 (from apache-airflow==2.7.3)",
+            "packages": [
+                "gunicorn-23.0.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "httpx (from apache-airflow==2.7.3)",
+            "packages": [
+                "httpx-0.27.2-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "itsdangerous>=2.0 (from apache-airflow==2.7.3)",
+            "packages": [
+                "itsdangerous-2.2.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "jinja2>=3.0.0 (from apache-airflow==2.7.3)",
+            "packages": [
+                "jinja2-3.1.4-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "jsonschema>=4.18.0 (from apache-airflow==2.7.3)",
+            "packages": [
+                "jsonschema-4.23.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "lazy-object-proxy (from apache-airflow==2.7.3)",
+            "packages": [
+                "lazy_object_proxy-1.10.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "linkify-it-py>=2.0.0 (from apache-airflow==2.7.3)",
+            "packages": [
+                "linkify_it_py-2.0.3-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "lockfile>=0.12.2 (from apache-airflow==2.7.3)",
+            "packages": [
+                "lockfile-0.12.2-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "markdown>=3.0 (from apache-airflow==2.7.3)",
+            "packages": [
+                "Markdown-3.7-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "markdown-it-py>=2.1.0 (from apache-airflow==2.7.3)",
+            "packages": [
+                "markdown_it_py-3.0.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "markupsafe>=1.1.1 (from apache-airflow==2.7.3)",
+            "packages": [
+                "MarkupSafe-3.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "marshmallow-oneofschema>=2.0.1 (from apache-airflow==2.7.3)",
+            "packages": [
+                "marshmallow_oneofschema-3.1.1-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "mdit-py-plugins>=0.3.0 (from apache-airflow==2.7.3)",
+            "packages": [
+                "mdit_py_plugins-0.4.2-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "opentelemetry-api>=1.15.0 (from apache-airflow==2.7.3)",
+            "packages": [
+                "opentelemetry_api-1.28.1-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "opentelemetry-exporter-otlp (from apache-airflow==2.7.3)",
+            "packages": [
+                "opentelemetry_exporter_otlp-1.28.1-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "packaging>=14.0 (from apache-airflow==2.7.3)",
+            "packages": [
+                "packaging-24.2-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "pathspec>=0.9.0 (from apache-airflow==2.7.3)",
+            "packages": [
+                "pathspec-0.12.1-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "pendulum<3.0,>=2.0 (from apache-airflow==2.7.3)",
+            "packages": [
+                "pendulum-2.1.2.tar.gz"
+            ]
+        },
+        {
+            "requirement": "pluggy>=1.0 (from apache-airflow==2.7.3)",
+            "packages": [
+                "pluggy-1.5.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "psutil>=4.2.0 (from apache-airflow==2.7.3)",
+            "packages": [
+                "psutil-6.1.0-cp36-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "pydantic>=1.10.0 (from apache-airflow==2.7.3)",
+            "packages": [
+                "pydantic-2.9.2-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "pygments>=2.0.1 (from apache-airflow==2.7.3)",
+            "packages": [
+                "pygments-2.18.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "pyjwt>=2.0.0 (from apache-airflow==2.7.3)",
+            "packages": [
+                "PyJWT-2.9.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "python-daemon>=3.0.0 (from apache-airflow==2.7.3)",
+            "packages": [
+                "python_daemon-3.1.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "python-dateutil>=2.3 (from apache-airflow==2.7.3)",
+            "packages": [
+                "python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "python-nvd3>=0.15.0 (from apache-airflow==2.7.3)",
+            "packages": [
+                "python_nvd3-0.16.0-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "python-slugify>=5.0 (from apache-airflow==2.7.3)",
+            "packages": [
+                "python_slugify-8.0.4-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "rfc3339-validator>=0.1.4 (from apache-airflow==2.7.3)",
+            "packages": [
+                "rfc3339_validator-0.1.4-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "rich>=12.4.4 (from apache-airflow==2.7.3)",
+            "packages": [
+                "rich-13.9.4-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "rich-argparse>=1.0.0 (from apache-airflow==2.7.3)",
+            "packages": [
+                "rich_argparse-1.6.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "setproctitle>=1.1.8 (from apache-airflow==2.7.3)",
+            "packages": [
+                "setproctitle-1.3.3-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "sqlalchemy<2.0,>=1.4.28 (from apache-airflow==2.7.3)",
+            "packages": [
+                "SQLAlchemy-1.4.54-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "sqlalchemy-jsonfield>=1.0 (from apache-airflow==2.7.3)",
+            "packages": [
+                "SQLAlchemy_JSONField-1.0.2-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "tabulate>=0.7.5 (from apache-airflow==2.7.3)",
+            "packages": [
+                "tabulate-0.9.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "tenacity!=8.2.0,>=6.2.0 (from apache-airflow==2.7.3)",
+            "packages": [
+                "tenacity-9.0.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "termcolor>=1.1.0 (from apache-airflow==2.7.3)",
+            "packages": [
+                "termcolor-2.5.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "typing-extensions>=4.0.0 (from apache-airflow==2.7.3)",
+            "packages": [
+                "typing_extensions-4.12.2-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "unicodecsv>=0.14.1 (from apache-airflow==2.7.3)",
+            "packages": [
+                "unicodecsv-0.14.1-py3-none-any.whl"
+            ]
+        },
+        {
+            "requirement": "werkzeug>=2.0 (from apache-airflow==2.7.3)",
+            "packages": [
+                "werkzeug-3.1.3-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "apache-airflow-providers-common-sql (from apache-airflow==2.7.3)",
+            "packages": [
+                "apache_airflow_providers_common_sql-1.19.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "apache-airflow-providers-ftp (from apache-airflow==2.7.3)",
+            "packages": [
+                "apache_airflow_providers_ftp-3.11.1-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "apache-airflow-providers-http (from apache-airflow==2.7.3)",
+            "packages": [
+                "apache_airflow_providers_http-4.13.2-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "apache-airflow-providers-imap (from apache-airflow==2.7.3)",
+            "packages": [
+                "apache_airflow_providers_imap-3.7.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "apache-airflow-providers-sqlite (from apache-airflow==2.7.3)",
+            "packages": [
+                "apache_airflow_providers_sqlite-3.9.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "google-api-core!=2.0.*,!=2.1.*,!=2.10.*,!=2.2.*,!=2.3.*,!=2.4.*,!=2.5.*,!=2.6.*,!=2.7.*,!=2.8.*,!=2.9.*,<3.0.0dev,>=1.34.1 (from google-api-core[grpc]!=2.0.*,!=2.1.*,!=2.10.*,!=2.2.*,!=2.3.*,!=2.4.*,!=2.5.*,!=2.6.*,!=2.7.*,!=2.8.*,!=2.9.*,<3.0.0dev,>=1.34.1->google-cloud-logging==3.10.0)",
+            "packages": [
+                "google_api_core-2.22.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "google-auth!=2.24.0,!=2.25.0,<3.0.0dev,>=2.14.1 (from google-cloud-logging==3.10.0)",
+            "packages": [
+                "google_auth-2.36.0-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "google-cloud-appengine-logging<2.0.0dev,>=0.1.0 (from google-cloud-logging==3.10.0)",
+            "packages": [
+                "google_cloud_appengine_logging-1.5.0-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "google-cloud-audit-log<1.0.0dev,>=0.1.0 (from google-cloud-logging==3.10.0)",
+            "packages": [
+                "google_cloud_audit_log-0.3.0-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "google-cloud-core<3.0.0dev,>=2.0.0 (from google-cloud-logging==3.10.0)",
+            "packages": [
+                "google_cloud_core-2.4.1-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "grpc-google-iam-v1<1.0.0dev,>=0.12.4 (from google-cloud-logging==3.10.0)",
+            "packages": [
+                "grpc_google_iam_v1-0.13.1-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "proto-plus<2.0.0dev,>=1.22.0 (from google-cloud-logging==3.10.0)",
+            "packages": [
+                "proto_plus-1.25.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "protobuf!=3.20.0,!=3.20.1,!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5,<5.0.0dev,>=3.19.5 (from google-cloud-logging==3.10.0)",
+            "packages": [
+                "protobuf-4.25.5-cp37-abi3-manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "apispec<7,>=6.0.0 (from apispec[yaml]<7,>=6.0.0->flask-appbuilder==4.3.6->apache-airflow==2.7.3)",
+            "packages": [
+                "apispec-6.7.1-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "colorama<1,>=0.3.9 (from flask-appbuilder==4.3.6->apache-airflow==2.7.3)",
+            "packages": [
+                "colorama-0.4.6-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "click<9,>=8 (from flask-appbuilder==4.3.6->apache-airflow==2.7.3)",
+            "packages": [
+                "click-8.1.7-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "email-validator<2,>=1.0.5 (from flask-appbuilder==4.3.6->apache-airflow==2.7.3)",
+            "packages": [
+                "email_validator-1.3.1-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "Flask-Babel<3,>=1 (from flask-appbuilder==4.3.6->apache-airflow==2.7.3)",
+            "packages": [
+                "Flask_Babel-2.0.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "Flask-Limiter<4,>3 (from flask-appbuilder==4.3.6->apache-airflow==2.7.3)",
+            "packages": [
+                "Flask_Limiter-3.8.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "Flask-SQLAlchemy<3,>=2.4 (from flask-appbuilder==4.3.6->apache-airflow==2.7.3)",
+            "packages": [
+                "Flask_SQLAlchemy-2.5.1-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "Flask-JWT-Extended<5.0.0,>=4.0.0 (from flask-appbuilder==4.3.6->apache-airflow==2.7.3)",
+            "packages": [
+                "Flask_JWT_Extended-4.6.0-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "marshmallow<4,>=3.18.0 (from flask-appbuilder==4.3.6->apache-airflow==2.7.3)",
+            "packages": [
+                "marshmallow-3.23.1-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "marshmallow-sqlalchemy<0.27.0,>=0.22.0 (from flask-appbuilder==4.3.6->apache-airflow==2.7.3)",
+            "packages": [
+                "marshmallow_sqlalchemy-0.26.1-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "prison<1.0.0,>=0.2.1 (from flask-appbuilder==4.3.6->apache-airflow==2.7.3)",
+            "packages": [
+                "prison-0.2.1-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "sqlalchemy-utils<1,>=0.32.21 (from flask-appbuilder==4.3.6->apache-airflow==2.7.3)",
+            "packages": [
+                "SQLAlchemy_Utils-0.41.2-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "Mako (from alembic<2.0,>=1.6.3->apache-airflow==2.7.3)",
+            "packages": [
+                "Mako-1.3.6-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "clickclick<21,>=1.2 (from connexion<3.0,>=2.10.0->connexion[flask]<3.0,>=2.10.0->apache-airflow==2.7.3)",
+            "packages": [
+                "clickclick-20.10.2-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "PyYAML<7,>=5.1 (from connexion<3.0,>=2.10.0->connexion[flask]<3.0,>=2.10.0->apache-airflow==2.7.3)",
+            "packages": [
+                "PyYAML-6.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "requests<3,>=2.9.1 (from connexion<3.0,>=2.10.0->connexion[flask]<3.0,>=2.10.0->apache-airflow==2.7.3)",
+            "packages": [
+                "requests-2.32.3-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "inflection<0.6,>=0.3.1 (from connexion<3.0,>=2.10.0->connexion[flask]<3.0,>=2.10.0->apache-airflow==2.7.3)",
+            "packages": [
+                "inflection-0.5.1-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "werkzeug>=2.0 (from apache-airflow==2.7.3)",
+            "packages": [
+                "Werkzeug-2.2.3-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "pytz>2021.1 (from croniter>=0.3.17->apache-airflow==2.7.3)",
+            "packages": [
+                "pytz-2024.2-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "cffi>=1.12 (from cryptography>=0.9.3->apache-airflow==2.7.3)",
+            "packages": [
+                "cffi-1.17.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "wrapt<2,>=1.10 (from deprecated>=1.2.13->apache-airflow==2.7.3)",
+            "packages": [
+                "wrapt-1.16.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "cachelib<0.10.0,>=0.9.0 (from flask-caching>=1.5.0->apache-airflow==2.7.3)",
+            "packages": [
+                "cachelib-0.9.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "msgspec>=0.18.6 (from flask-session>=0.4.0->apache-airflow==2.7.3)",
+            "packages": [
+                "msgspec-0.18.6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "googleapis-common-protos<2.0.dev0,>=1.56.2 (from google-api-core!=2.0.*,!=2.1.*,!=2.10.*,!=2.2.*,!=2.3.*,!=2.4.*,!=2.5.*,!=2.6.*,!=2.7.*,!=2.8.*,!=2.9.*,<3.0.0dev,>=1.34.1->google-api-core[grpc]!=2.0.*,!=2.1.*,!=2.10.*,!=2.2.*,!=2.3.*,!=2.4.*,!=2.5.*,!=2.6.*,!=2.7.*,!=2.8.*,!=2.9.*,<3.0.0dev,>=1.34.1->google-cloud-logging==3.10.0)",
+            "packages": [
+                "googleapis_common_protos-1.65.0-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "grpcio<2.0dev,>=1.33.2 (from google-api-core[grpc]!=2.0.*,!=2.1.*,!=2.10.*,!=2.2.*,!=2.3.*,!=2.4.*,!=2.5.*,!=2.6.*,!=2.7.*,!=2.8.*,!=2.9.*,<3.0.0dev,>=1.34.1->google-cloud-logging==3.10.0)",
+            "packages": [
+                "grpcio-1.67.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "grpcio-status<2.0.dev0,>=1.33.2 (from google-api-core[grpc]!=2.0.*,!=2.1.*,!=2.10.*,!=2.2.*,!=2.3.*,!=2.4.*,!=2.5.*,!=2.6.*,!=2.7.*,!=2.8.*,!=2.9.*,<3.0.0dev,>=1.34.1->google-cloud-logging==3.10.0)",
+            "packages": [
+                "grpcio_status-1.67.1-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "cachetools<6.0,>=2.0.0 (from google-auth!=2.24.0,!=2.25.0,<3.0.0dev,>=2.14.1->google-cloud-logging==3.10.0)",
+            "packages": [
+                "cachetools-5.5.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "pyasn1-modules>=0.2.1 (from google-auth!=2.24.0,!=2.25.0,<3.0.0dev,>=2.14.1->google-cloud-logging==3.10.0)",
+            "packages": [
+                "pyasn1_modules-0.4.1-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "rsa<5,>=3.1.4 (from google-auth!=2.24.0,!=2.25.0,<3.0.0dev,>=2.14.1->google-cloud-logging==3.10.0)",
+            "packages": [
+                "rsa-4.9-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "jsonschema-specifications>=2023.03.6 (from jsonschema>=4.18.0->apache-airflow==2.7.3)",
+            "packages": [
+                "jsonschema_specifications-2024.10.1-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "referencing>=0.28.4 (from jsonschema>=4.18.0->apache-airflow==2.7.3)",
+            "packages": [
+                "referencing-0.35.1-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "rpds-py>=0.7.1 (from jsonschema>=4.18.0->apache-airflow==2.7.3)",
+            "packages": [
+                "rpds_py-0.21.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "uc-micro-py (from linkify-it-py>=2.0.0->apache-airflow==2.7.3)",
+            "packages": [
+                "uc_micro_py-1.0.3-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "mdurl~=0.1 (from markdown-it-py>=2.1.0->apache-airflow==2.7.3)",
+            "packages": [
+                "mdurl-0.1.2-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "importlib-metadata<=8.5.0,>=6.0 (from opentelemetry-api>=1.15.0->apache-airflow==2.7.3)",
+            "packages": [
+                "importlib_metadata-8.5.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "pytzdata>=2020.1 (from pendulum<3.0,>=2.0->apache-airflow==2.7.3)",
+            "packages": [
+                "pytzdata-2020.1-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "annotated-types>=0.6.0 (from pydantic>=1.10.0->apache-airflow==2.7.3)",
+            "packages": [
+                "annotated_types-0.7.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "pydantic-core==2.23.4 (from pydantic>=1.10.0->apache-airflow==2.7.3)",
+            "packages": [
+                "pydantic_core-2.23.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "setuptools>=62.4.0 (from python-daemon>=3.0.0->apache-airflow==2.7.3)",
+            "packages": [
+                "setuptools-75.3.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "six>=1.5 (from python-dateutil>=2.3->apache-airflow==2.7.3)",
+            "packages": [
+                "six-1.16.0-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "text-unidecode>=1.3 (from python-slugify>=5.0->apache-airflow==2.7.3)",
+            "packages": [
+                "text_unidecode-1.3-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "greenlet!=0.4.17 (from sqlalchemy<2.0,>=1.4.28->apache-airflow==2.7.3)",
+            "packages": [
+                "greenlet-3.1.1-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "apache-airflow-providers-common-sql (from apache-airflow==2.7.3)",
+            "packages": [
+                "apache_airflow_providers_common_sql-1.18.0-py3-none-any.whl.metadata",
+                "apache_airflow_providers_common_sql-1.17.1-py3-none-any.whl.metadata",
+                "apache_airflow_providers_common_sql-1.17.0-py3-none-any.whl.metadata",
+                "apache_airflow_providers_common_sql-1.16.0-py3-none-any.whl.metadata",
+                "apache_airflow_providers_common_sql-1.15.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "more-itertools>=9.0.0 (from apache-airflow-providers-common-sql->apache-airflow==2.7.3)",
+            "packages": [
+                "more_itertools-10.5.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "sqlparse>=0.4.2 (from apache-airflow-providers-common-sql->apache-airflow==2.7.3)",
+            "packages": [
+                "sqlparse-0.5.1-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "apache-airflow-providers-ftp (from apache-airflow==2.7.3)",
+            "packages": [
+                "apache_airflow_providers_ftp-3.11.0-py3-none-any.whl.metadata",
+                "apache_airflow_providers_ftp-3.10.1-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "aiohttp>=3.9.2 (from apache-airflow-providers-http->apache-airflow==2.7.3)",
+            "packages": [
+                "aiohttp-3.10.10-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "apache-airflow-providers-http (from apache-airflow==2.7.3)",
+            "packages": [
+                "apache_airflow_providers_http-4.13.1-py3-none-any.whl.metadata",
+                "apache_airflow_providers_http-4.13.0-py3-none-any.whl.metadata",
+                "apache_airflow_providers_http-4.12.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "requests_toolbelt (from apache-airflow-providers-http->apache-airflow==2.7.3)",
+            "packages": [
+                "requests_toolbelt-1.0.0-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "apache-airflow-providers-imap (from apache-airflow==2.7.3)",
+            "packages": [
+                "apache_airflow_providers_imap-3.6.1-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "apache-airflow-providers-sqlite (from apache-airflow==2.7.3)",
+            "packages": [
+                "apache_airflow_providers_sqlite-3.8.2-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "anyio (from httpx->apache-airflow==2.7.3)",
+            "packages": [
+                "anyio-4.6.2.post1-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "certifi (from httpx->apache-airflow==2.7.3)",
+            "packages": [
+                "certifi-2024.8.30-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "httpcore==1.* (from httpx->apache-airflow==2.7.3)",
+            "packages": [
+                "httpcore-1.0.6-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "idna (from httpx->apache-airflow==2.7.3)",
+            "packages": [
+                "idna-3.10-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "sniffio (from httpx->apache-airflow==2.7.3)",
+            "packages": [
+                "sniffio-1.3.1-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "h11<0.15,>=0.13 (from httpcore==1.*->httpx->apache-airflow==2.7.3)",
+            "packages": [
+                "h11-0.14.0-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "opentelemetry-exporter-otlp-proto-grpc==1.28.1 (from opentelemetry-exporter-otlp->apache-airflow==2.7.3)",
+            "packages": [
+                "opentelemetry_exporter_otlp_proto_grpc-1.28.1-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "opentelemetry-exporter-otlp-proto-http==1.28.1 (from opentelemetry-exporter-otlp->apache-airflow==2.7.3)",
+            "packages": [
+                "opentelemetry_exporter_otlp_proto_http-1.28.1-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "opentelemetry-exporter-otlp-proto-common==1.28.1 (from opentelemetry-exporter-otlp-proto-grpc==1.28.1->opentelemetry-exporter-otlp->apache-airflow==2.7.3)",
+            "packages": [
+                "opentelemetry_exporter_otlp_proto_common-1.28.1-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "opentelemetry-proto==1.28.1 (from opentelemetry-exporter-otlp-proto-grpc==1.28.1->opentelemetry-exporter-otlp->apache-airflow==2.7.3)",
+            "packages": [
+                "opentelemetry_proto-1.28.1-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "opentelemetry-sdk~=1.28.1 (from opentelemetry-exporter-otlp-proto-grpc==1.28.1->opentelemetry-exporter-otlp->apache-airflow==2.7.3)",
+            "packages": [
+                "opentelemetry_sdk-1.28.1-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "proto-plus<2.0.0dev,>=1.22.0 (from google-cloud-logging==3.10.0)",
+            "packages": [
+                "proto_plus-1.24.0-py3-none-any.whl.metadata",
+                "proto_plus-1.23.0-py3-none-any.whl.metadata",
+                "proto_plus-1.22.3-py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "grpc-google-iam-v1<1.0.0dev,>=0.12.4 (from google-cloud-logging==3.10.0)",
+            "packages": [
+                "grpc_google_iam_v1-0.13.0-py2.py3-none-any.whl.metadata",
+                "grpc_google_iam_v1-0.12.7-py2.py3-none-any.whl.metadata",
+                "grpc_google_iam_v1-0.12.6-py2.py3-none-any.whl.metadata",
+                "grpc_google_iam_v1-0.12.4-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "google-cloud-core<3.0.0dev,>=2.0.0 (from google-cloud-logging==3.10.0)",
+            "packages": [
+                "google_cloud_core-2.4.0-py2.py3-none-any.whl.metadata",
+                "google_cloud_core-2.3.3-py2.py3-none-any.whl.metadata",
+                "google_cloud_core-2.3.2-py2.py3-none-any.whl.metadata",
+                "google_cloud_core-2.3.1-py2.py3-none-any.whl.metadata",
+                "google_cloud_core-2.3.0-py2.py3-none-any.whl.metadata",
+                "google_cloud_core-2.2.3-py2.py3-none-any.whl.metadata",
+                "google_cloud_core-2.2.2-py2.py3-none-any.whl.metadata",
+                "google_cloud_core-2.2.1-py2.py3-none-any.whl.metadata",
+                "google_cloud_core-2.2.0-py2.py3-none-any.whl.metadata",
+                "google_cloud_core-2.1.0-py2.py3-none-any.whl.metadata",
+                "google_cloud_core-2.0.0-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "google-cloud-audit-log<1.0.0dev,>=0.1.0 (from google-cloud-logging==3.10.0)",
+            "packages": [
+                "google_cloud_audit_log-0.2.5-py2.py3-none-any.whl.metadata",
+                "google_cloud_audit_log-0.2.4-py2.py3-none-any.whl.metadata",
+                "google_cloud_audit_log-0.2.3-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "protobuf!=3.20.0,!=3.20.1,!=4.21.0,!=4.21.1,!=4.21.2,!=4.21.3,!=4.21.4,!=4.21.5,<5.0.0dev,>=3.19.5 (from google-cloud-logging==3.10.0)",
+            "packages": [
+                "protobuf-3.20.3-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "google-cloud-audit-log<1.0.0dev,>=0.1.0 (from google-cloud-logging==3.10.0)",
+            "packages": [
+                "google_cloud_audit_log-0.2.2-py2.py3-none-any.whl.metadata",
+                "google_cloud_audit_log-0.2.1-py2.py3-none-any.whl.metadata",
+                "google_cloud_audit_log-0.2.0-py2.py3-none-any.whl.metadata",
+                "google_cloud_audit_log-0.1.1-py2.py3-none-any.whl.metadata",
+                "google_cloud_audit_log-0.1.0-py2.py3-none-any.whl.metadata"
+            ]
+        },
+        {
+            "requirement": "google-cloud-appengine-logging<2.0.0dev,>=0.1.0 (from google-cloud-logging==3.10.0)",
+            "packages": [
+                "google_cloud_appengine_logging-1.4.5-py2.py3-none-any.whl.metadata"
+            ]
+        }
+    ]
+}
