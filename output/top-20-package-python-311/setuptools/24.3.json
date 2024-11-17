@@ -1,0 +1,25 @@
+{
+ "input": {
+  "pip_version": "24.3", 
+  "python_version": "3.11", 
+  "datetime": "2024-10-07 14:00:00", 
+  "platform_system": "Linux", 
+  "requirements": ["setuptools"]
+ }, 
+ "result": {
+  "success": true, 
+  "failure_reason": null, 
+  "install_info": [
+   {"file": "setuptools-75.1.0-py3-none-any.whl", "hash": "sha256=35ab7fd3bcd95e6b7fd704e4a1539513edad446c097797f2985e0e4b960772f2"}
+  ]
+ }, 
+ "resolution_rounds": [
+  {
+   "added": {
+    "setuptools-75.1.0-py3-none-any.whl": [">=3.8"]
+   }, 
+   "pinned": "setuptools-75.1.0-py3-none-any.whl"
+  }, 
+  {"pinned": "PythonCandidate"}
+ ]
+}
