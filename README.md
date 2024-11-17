@@ -16,10 +16,10 @@ PEP 723 scipts. Here are examples using uv:
 
 The idea is to measure the resolution in terms of the number of, the
 number of unique sdists it had to visist (io and build cost), the number of
-unique wheels it had to visit (io cost), the total numver of packages,
-requirements, and times it had to pin a package (cpu cost), and
-the total number of "resolution rounds" (roughly the number of "steps"
-the resolver had to take).
+unique wheels it had to visit (io cost), the total number of time is visited
+a package or a requirements or pinned a package (cpu cost), and the total
+number of "resolution rounds" (roughly the number of "steps" the resolver
+had to take).
 
 # What is it not measuring?
 
