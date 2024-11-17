@@ -14,11 +14,12 @@ PEP 723 scipts. Here are examples using uv:
 
 # What is it measuring?
 
-The idea is to measure the resolution in terms of what requirements and
-packages did pip have to visit. As pip's resolution algorithm is is at
-least an O(n^2) algorithm then the number of packages pip has to visit
-goes up it domainates the amount of time it takes pip to resolve a given
-set of requirements.
+The idea is to measure the resolution in terms of the number of, the
+number of unique sdists it had to visist (io and build cost), the number of
+unique wheels it had to visit (io cost), the total numver of packages,
+requirements, and times it had to pin a package (cpu cost), and
+the total number of "resolution rounds" (roughly the number of "steps"
+the resolver had to take).
 
 # What is it not measuring?
 

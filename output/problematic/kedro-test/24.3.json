@@ -1,0 +1,480 @@
+{
+ "input": {
+  "pip_version": "24.3", 
+  "python_version": "3.10", 
+  "datetime": "2023-12-09 14:00:00", 
+  "platform_system": "Linux", 
+  "requirements": ["kedro[test]==0.18.13"]
+ }, 
+ "result": {"success": false, "failure_reason": "Resolution Impossible", "install_info": []}, 
+ "resolution_rounds": [
+  {
+   "added": {
+    "kedro-0.18.13-py3-none-any.whl": ["anyconfig<0.14,>=0.10", "attrs>=21.3", "build", "cachetools~=5.3", "click<9.0", "cookiecutter<3.0,>=2.1.1", "dynaconf<4.0,>=3.1.2", "fsspec<2024.1,>=2021.4", "gitpython~=3.0", "importlib-resources>=1.3", "jmespath<2.0,>=0.9.5", "more-itertools<11,>=9", "omegaconf~=2.3", "parse~=1.19.0", "pip-tools<8,>=6.5", "pluggy<1.3,>=1.0", "PyYAML<7.0,>=4.2", "rich<14.0,>=12.0", "rope<2.0,>=0.21", "setuptools>=65.5.1", "toml~=0.10", "toposort~=1.5", "importlib-metadata>=3.6; python_version >= \"3.8\"", ">=3.7"]
+   }, 
+   "pinned": "kedro-0.18.13-py3-none-any.whl"
+  }, 
+  {"pinned": "PythonCandidate"}, 
+  {
+   "added": {
+    "kedro-0.18.13-py3-none-any.whl": ["kedro-0.18.13-py3-none-any.whl", "anyconfig<0.14,>=0.10", "attrs>=21.3", "build", "cachetools~=5.3", "click<9.0", "cookiecutter<3.0,>=2.1.1", "dynaconf<4.0,>=3.1.2", "fsspec<2024.1,>=2021.4", "gitpython~=3.0", "importlib-resources>=1.3", "jmespath<2.0,>=0.9.5", "more-itertools<11,>=9", "omegaconf~=2.3", "parse~=1.19.0", "pip-tools<8,>=6.5", "pluggy<1.3,>=1.0", "PyYAML<7.0,>=4.2", "rich<14.0,>=12.0", "rope<2.0,>=0.21", "setuptools>=65.5.1", "toml~=0.10", "toposort~=1.5", "importlib-metadata>=3.6; python_version >= \"3.8\"", "bandit<2.0,>=1.6.2; extra == \"test\"", "behave==1.2.6; extra == \"test\"", "biopython~=1.73; extra == \"test\"", "blacken-docs==1.9.2; extra == \"test\"", "black~=22.0; extra == \"test\"", "compress-pickle~=2.1.0; extra == \"test\"", "compress-pickle[lz4]~=2.1.0; extra == \"test\"", "coverage[toml]; extra == \"test\"", "dask~=2021.10; extra == \"test\"", "dask[complete]~=2021.10; extra == \"test\"", "dill~=0.3.1; extra == \"test\"", "filelock<4.0,>=3.4.0; extra == \"test\"", "geopandas<1.0,>=0.6.0; extra == \"test\"", "hdfs<3.0,>=2.5.8; extra == \"test\"", "holoviews>=1.13.0; extra == \"test\"", "import-linter==1.8.0; extra == \"test\"", "import-linter[toml]==1.8.0; extra == \"test\"", "isort~=5.0; extra == \"test\"", "Jinja2<3.1.0; extra == \"test\"", "joblib>=0.14; extra == \"test\"", "jupyterlab-server<2.16.0,>=2.11.1; extra == \"test\"", "jupyterlab<3.6.0,~=3.0; extra == \"test\"", "jupyter~=1.0; extra == \"test\"", "lxml~=4.6; extra == \"test\"", "memory-profiler<1.0,>=0.50.0; extra == \"test\"", "networkx~=2.4; extra == \"test\"", "opencv-python~=4.5.5.64; extra == \"test\"", "openpyxl<4.0,>=3.0.3; extra == \"test\"", "pandas~=1.3; extra == \"test\"", "Pillow~=9.0; extra == \"test\"", "plotly<6.0,>=4.8.0; extra == \"test\"", "pre-commit<3.0,>=2.9.2; extra == \"test\"", "pylint<3.0,>=2.17.0; extra == \"test\"", "pyproj~=3.0; extra == \"test\"", "pytest-cov~=3.0; extra == \"test\"", "pytest-mock<2.0,>=1.7.1; extra == \"test\"", "pytest-xdist~=2.2.1; extra == \"test\"", "pytest-xdist[psutil]~=2.2.1; extra == \"test\"", "pytest~=7.2; extra == \"test\"", "redis~=4.1; extra == \"test\"", "requests-mock~=1.6; extra == \"test\"", "requests~=2.20; extra == \"test\"", "s3fs<0.5,>=0.3.0; extra == \"test\"", "scikit-learn<2,>=1.0.2; extra == \"test\"", "scipy>=1.7.3; extra == \"test\"", "semver; extra == \"test\"", "SQLAlchemy~=1.2; extra == \"test\"", "triad<1.0,>=0.6.7; extra == \"test\"", "trufflehog~=2.1; extra == \"test\"", "xlsxwriter~=1.0; extra == \"test\"", "tensorflow~=2.0; (platform_system != \"Darwin\" or platform_machine != \"arm64\") and extra == \"test\"", "tables~=3.6; platform_system != \"Windows\" and extra == \"test\"", "delta-spark~=1.2.1; python_version < \"3.11\" and extra == \"test\"", "pandas-gbq<0.18.0,>=0.12.0; python_version < \"3.11\" and extra == \"test\"", "pyarrow>=1.0; python_version < \"3.11\" and extra == \"test\"", "pyspark<3.4,>=2.2; python_version < \"3.11\" and extra == \"test\"", "matplotlib<3.6,>=3.5; python_version >= \"3.10\" and extra == \"test\"", "moto==4.1.12; python_version >= \"3.10\" and extra == \"test\"", "adlfs~=2023.1; python_version >= \"3.8\" and extra == \"test\"", "gcsfs<2023.3,>=2023.1; python_version >= \"3.8\" and extra == \"test\"", "ipython~=8.10; python_version >= \"3.8\" and extra == \"test\""]
+   }, 
+   "pinned": "kedro-0.18.13-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "behave-1.2.6-py2.py3-none-any.whl": ["parse>=1.8.2", "parse-type>=0.4.2", "six>=1.11", "!=3.0.*,!=3.1.*,!=3.2.*,>=2.6"]
+   }, 
+   "pinned": "behave-1.2.6-py2.py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "blacken_docs-1.9.2-py2.py3-none-any.whl": ["black>=19.3b0", ">=3.6.1"]
+   }, 
+   "pinned": "blacken_docs-1.9.2-py2.py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "import_linter-1.8.0-py3-none-any.whl": ["click>=6", "grimp>=2.3", "typing-extensions>=3.10.0.0", "tomli>=1.2.1; python_version < \"3.11\"", ">=3.7"]
+   }, 
+   "pinned": "import_linter-1.8.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "import_linter-1.8.0-py3-none-any.whl": ["import_linter-1.8.0-py3-none-any.whl", "click>=6", "grimp>=2.3", "typing-extensions>=3.10.0.0", "tomli>=1.2.1; python_version < \"3.11\""]
+   }, 
+   "pinned": "import_linter-1.8.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "moto-4.1.12-py2.py3-none-any.whl": ["boto3>=1.9.201", "botocore>=1.12.201", "cryptography>=3.3.1", "requests>=2.5", "xmltodict", "werkzeug!=2.2.0,!=2.2.1,>=0.5", "python-dateutil<3.0.0,>=2.1", "responses>=0.13.0", "Jinja2>=2.10.1", ">=3.7"]
+   }, 
+   "pinned": "moto-4.1.12-py2.py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "adlfs-2023.10.0-py3-none-any.whl": ["azure-core<2.0.0,>=1.23.1", "azure-datalake-store<0.1,>=0.0.46", "azure-identity", "azure-storage-blob>=12.12.0", "fsspec>=2023.9.0", "aiohttp>=3.7.0", ">=3.8"]
+   }, 
+   "pinned": "adlfs-2023.10.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "anyconfig-0.13.0-py2.py3-none-any.whl": ["setuptools"]
+   }, 
+   "pinned": "anyconfig-0.13.0-py2.py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "attrs-23.1.0-py3-none-any.whl": [">=3.7"]
+   }, 
+   "pinned": "attrs-23.1.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "bandit-1.7.6-py3-none-any.whl": ["GitPython>=3.1.30", "PyYAML>=5.3.1", "stevedore>=1.20.0", "rich", ">=3.8"]
+   }, 
+   "pinned": "bandit-1.7.6-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "biopython-1.81-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": ["numpy", ">=3.7"]
+   }, 
+   "pinned": "biopython-1.81-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "black-22.12.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": ["click>=8.0.0", "mypy-extensions>=0.4.3", "pathspec>=0.9.0", "platformdirs>=2", "tomli>=1.1.0; python_full_version < \"3.11.0a7\"", ">=3.7"]
+   }, 
+   "pinned": "black-22.12.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "cachetools-5.3.2-py3-none-any.whl": [">=3.7"]
+   }, 
+   "pinned": "cachetools-5.3.2-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "click-8.1.7-py3-none-any.whl": [">=3.7"]
+   }, 
+   "pinned": "click-8.1.7-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "compress_pickle-2.1.0-py3-none-any.whl": [">=3.6"]
+   }, 
+   "pinned": "compress_pickle-2.1.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "compress_pickle-2.1.0-py3-none-any.whl": ["compress_pickle-2.1.0-py3-none-any.whl", "lz4; extra == \"lz4\""]
+   }, 
+   "pinned": "compress_pickle-2.1.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "cookiecutter-2.5.0-py3-none-any.whl": ["binaryornot>=0.4.4", "Jinja2<4.0.0,>=2.7", "click<9.0.0,>=7.0", "pyyaml>=5.3.1", "python-slugify>=4.0.0", "requests>=2.23.0", "arrow", "rich", ">=3.7"]
+   }, 
+   "pinned": "cookiecutter-2.5.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dask-2021.12.0-py3-none-any.whl": ["cloudpickle>=1.1.1", "fsspec>=0.6.0", "packaging>=20.0", "partd>=0.3.10", "pyyaml", "toolz>=0.8.2", ">=3.7"]
+   }, 
+   "pinned": "dask-2021.12.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dask-2021.12.0-py3-none-any.whl": ["dask-2021.12.0-py3-none-any.whl", "cloudpickle>=1.1.1", "fsspec>=0.6.0", "packaging>=20.0", "partd>=0.3.10", "pyyaml", "toolz>=0.8.2", "bokeh>=2.1.1; extra == \"complete\"", "distributed==2021.12.0; extra == \"complete\"", "jinja2; extra == \"complete\"", "numpy>=1.18; extra == \"complete\"", "pandas>=1.0; extra == \"complete\""]
+   }, 
+   "pinned": "dask-2021.12.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "distributed-2021.12.0-py3-none-any.whl": ["click>=6.6", "cloudpickle>=1.5.0", "dask==2021.12.0", "jinja2", "msgpack>=0.6.0", "psutil>=5.0", "sortedcontainers!=2.0.0,!=2.0.1", "tblib>=1.6.0", "toolz>=0.8.2", "zict>=0.1.3", "pyyaml", "setuptools", "tornado>=6.0.3; python_version >= \"3.8\"", ">=3.7"]
+   }, 
+   "pinned": "distributed-2021.12.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "delta_spark-1.2.1-py3-none-any.whl": ["pyspark<3.3.0,>=3.2.0", "importlib-metadata>=1.0.0", ">=3.6"]
+   }, 
+   "pinned": "delta_spark-1.2.1-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dill-0.3.7-py3-none-any.whl": [">=3.7"]
+   }, 
+   "pinned": "dill-0.3.7-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dynaconf-3.2.4-py2.py3-none-any.whl": [">=3.8"]
+   }, 
+   "pinned": "dynaconf-3.2.4-py2.py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "filelock-3.13.1-py3-none-any.whl": [">=3.8"]
+   }, 
+   "pinned": "filelock-3.13.1-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "fsspec-2023.12.1-py3-none-any.whl": [">=3.8"]
+   }, 
+   "pinned": "fsspec-2023.12.1-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "gcsfs-2023.1.0-py2.py3-none-any.whl": ["aiohttp!=4.0.0a0,!=4.0.0a1", "decorator>4.1.2", "fsspec==2023.1.0"]
+   }, 
+   "rejected": {
+    "fsspec<2024.1,>=2021.4": ["kedro-0.18.13-py3-none-any.whl"], 
+    "fsspec>=2023.9.0": ["adlfs-2023.10.0-py3-none-any.whl"], 
+    "fsspec>=0.6.0": ["dask-2021.12.0-py3-none-any.whl"], 
+    "fsspec==2023.1.0": ["gcsfs-2023.1.0-py2.py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "dask-2021.11.2-py3-none-any.whl": ["dask-2021.11.2-py3-none-any.whl", "cloudpickle>=1.1.1", "fsspec>=0.6.0", "packaging>=20.0", "partd>=0.3.10", "pyyaml", "toolz>=0.8.2", "bokeh!=2.0.0,>=1.0.0; extra == \"complete\"", "distributed==2021.11.2; extra == \"complete\"", "jinja2; extra == \"complete\"", "numpy>=1.18; extra == \"complete\"", "pandas>=1.0; extra == \"complete\""]
+   }, 
+   "pinned": "dask-2021.11.2-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "distributed-2021.11.2-py3-none-any.whl": ["click>=6.6", "cloudpickle>=1.5.0", "dask==2021.11.2", "jinja2", "msgpack>=0.6.0", "psutil>=5.0", "sortedcontainers!=2.0.0,!=2.0.1", "tblib>=1.6.0", "toolz>=0.8.2", "zict>=0.1.3", "pyyaml", "setuptools", "tornado>=6.0.3; python_version >= \"3.8\"", ">=3.7"]
+   }, 
+   "pinned": "distributed-2021.11.2-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dask-2021.11.2-py3-none-any.whl": ["cloudpickle>=1.1.1", "fsspec>=0.6.0", "packaging>=20.0", "partd>=0.3.10", "pyyaml", "toolz>=0.8.2", ">=3.7"]
+   }, 
+   "pinned": "dask-2021.11.2-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "fsspec-2023.12.1-py3-none-any.whl": [">=3.8"]
+   }, 
+   "pinned": "fsspec-2023.12.1-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "gcsfs-2023.1.0-py2.py3-none-any.whl": ["aiohttp!=4.0.0a0,!=4.0.0a1", "decorator>4.1.2", "fsspec==2023.1.0"]
+   }, 
+   "rejected": {
+    "fsspec<2024.1,>=2021.4": ["kedro-0.18.13-py3-none-any.whl"], 
+    "fsspec>=2023.9.0": ["adlfs-2023.10.0-py3-none-any.whl"], 
+    "fsspec>=0.6.0": ["dask-2021.11.2-py3-none-any.whl"], 
+    "fsspec==2023.1.0": ["gcsfs-2023.1.0-py2.py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "dask-2021.11.1-py3-none-any.whl": ["dask-2021.11.1-py3-none-any.whl", "cloudpickle>=1.1.1", "fsspec>=0.6.0", "packaging>=20.0", "partd>=0.3.10", "pyyaml", "toolz>=0.8.2", "bokeh!=2.0.0,>=1.0.0; extra == \"complete\"", "distributed==2021.11.1; extra == \"complete\"", "jinja2; extra == \"complete\"", "numpy>=1.18; extra == \"complete\"", "pandas>=1.0; extra == \"complete\""]
+   }, 
+   "pinned": "dask-2021.11.1-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "distributed-2021.11.1-py3-none-any.whl": ["click>=6.6", "cloudpickle>=1.5.0", "dask==2021.11.1", "jinja2", "msgpack>=0.6.0", "psutil>=5.0", "sortedcontainers!=2.0.0,!=2.0.1", "tblib>=1.6.0", "toolz>=0.8.2", "zict>=0.1.3", "pyyaml", "setuptools", "tornado>=6.0.3; python_version >= \"3.8\"", ">=3.7"]
+   }, 
+   "pinned": "distributed-2021.11.1-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dask-2021.11.1-py3-none-any.whl": ["cloudpickle>=1.1.1", "fsspec>=0.6.0", "packaging>=20.0", "partd>=0.3.10", "pyyaml", "toolz>=0.8.2", ">=3.7"]
+   }, 
+   "pinned": "dask-2021.11.1-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "fsspec-2023.12.1-py3-none-any.whl": [">=3.8"]
+   }, 
+   "pinned": "fsspec-2023.12.1-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "gcsfs-2023.1.0-py2.py3-none-any.whl": ["aiohttp!=4.0.0a0,!=4.0.0a1", "decorator>4.1.2", "fsspec==2023.1.0"]
+   }, 
+   "rejected": {
+    "fsspec<2024.1,>=2021.4": ["kedro-0.18.13-py3-none-any.whl"], 
+    "fsspec>=2023.9.0": ["adlfs-2023.10.0-py3-none-any.whl"], 
+    "fsspec>=0.6.0": ["dask-2021.11.1-py3-none-any.whl"], 
+    "fsspec==2023.1.0": ["gcsfs-2023.1.0-py2.py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "dask-2021.11.0-py3-none-any.whl": ["dask-2021.11.0-py3-none-any.whl", "cloudpickle>=1.1.1", "fsspec>=0.6.0", "packaging>=20.0", "partd>=0.3.10", "pyyaml", "toolz>=0.8.2", "bokeh!=2.0.0,>=1.0.0; extra == \"complete\"", "distributed==2021.11.0; extra == \"complete\"", "jinja2; extra == \"complete\"", "numpy>=1.18; extra == \"complete\"", "pandas>=1.0; extra == \"complete\""]
+   }, 
+   "pinned": "dask-2021.11.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "distributed-2021.11.0-py3-none-any.whl": ["click>=6.6", "cloudpickle>=1.5.0", "dask==2021.11.0", "jinja2", "msgpack>=0.6.0", "psutil>=5.0", "sortedcontainers!=2.0.0,!=2.0.1", "tblib>=1.6.0", "toolz>=0.8.2", "zict>=0.1.3", "pyyaml", "setuptools", "tornado>=6.0.3; python_version >= \"3.8\"", ">=3.7"]
+   }, 
+   "pinned": "distributed-2021.11.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dask-2021.11.0-py3-none-any.whl": ["cloudpickle>=1.1.1", "fsspec>=0.6.0", "packaging>=20.0", "partd>=0.3.10", "pyyaml", "toolz>=0.8.2", ">=3.7"]
+   }, 
+   "pinned": "dask-2021.11.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "fsspec-2023.12.1-py3-none-any.whl": [">=3.8"]
+   }, 
+   "pinned": "fsspec-2023.12.1-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "gcsfs-2023.1.0-py2.py3-none-any.whl": ["aiohttp!=4.0.0a0,!=4.0.0a1", "decorator>4.1.2", "fsspec==2023.1.0"]
+   }, 
+   "rejected": {
+    "fsspec<2024.1,>=2021.4": ["kedro-0.18.13-py3-none-any.whl"], 
+    "fsspec>=2023.9.0": ["adlfs-2023.10.0-py3-none-any.whl"], 
+    "fsspec>=0.6.0": ["dask-2021.11.0-py3-none-any.whl"], 
+    "fsspec==2023.1.0": ["gcsfs-2023.1.0-py2.py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "dask-2021.10.0-py3-none-any.whl": ["dask-2021.10.0-py3-none-any.whl", "cloudpickle>=1.1.1", "fsspec>=0.6.0", "packaging>=20.0", "partd>=0.3.10", "pyyaml", "toolz>=0.8.2", "bokeh!=2.0.0,>=1.0.0; extra == \"complete\"", "distributed==2021.10.0; extra == \"complete\"", "jinja2; extra == \"complete\"", "numpy>=1.18; extra == \"complete\"", "pandas>=1.0; extra == \"complete\""]
+   }, 
+   "pinned": "dask-2021.10.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "distributed-2021.10.0-py3-none-any.whl": ["click>=6.6", "cloudpickle>=1.5.0", "dask==2021.10.0", "jinja2", "msgpack>=0.6.0", "psutil>=5.0", "sortedcontainers!=2.0.0,!=2.0.1", "tblib>=1.6.0", "toolz>=0.8.2", "zict>=0.1.3", "pyyaml", "setuptools", "tornado>=6.0.3; python_version >= \"3.8\"", ">=3.7"]
+   }, 
+   "pinned": "distributed-2021.10.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dask-2021.10.0-py3-none-any.whl": ["cloudpickle>=1.1.1", "fsspec>=0.6.0", "packaging>=20.0", "partd>=0.3.10", "pyyaml", "toolz>=0.8.2", ">=3.7"]
+   }, 
+   "pinned": "dask-2021.10.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "fsspec-2023.12.1-py3-none-any.whl": [">=3.8"]
+   }, 
+   "pinned": "fsspec-2023.12.1-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "gcsfs-2023.1.0-py2.py3-none-any.whl": ["aiohttp!=4.0.0a0,!=4.0.0a1", "decorator>4.1.2", "fsspec==2023.1.0"]
+   }, 
+   "rejected": {
+    "fsspec<2024.1,>=2021.4": ["kedro-0.18.13-py3-none-any.whl"], 
+    "fsspec>=2023.9.0": ["adlfs-2023.10.0-py3-none-any.whl"], 
+    "fsspec>=0.6.0": ["dask-2021.10.0-py3-none-any.whl"], 
+    "fsspec==2023.1.0": ["gcsfs-2023.1.0-py2.py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "dask-2021.11.2-py3-none-any.whl": ["cloudpickle>=1.1.1", "fsspec>=0.6.0", "packaging>=20.0", "partd>=0.3.10", "pyyaml", "toolz>=0.8.2", ">=3.7"]
+   }, 
+   "pinned": "dask-2021.11.2-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dask-2021.12.0-py3-none-any.whl": ["dask-2021.12.0-py3-none-any.whl"], 
+    "dask-2021.11.2-py3-none-any.whl": ["dask-2021.11.2-py3-none-any.whl", "cloudpickle>=1.1.1", "fsspec>=0.6.0", "packaging>=20.0", "partd>=0.3.10", "pyyaml", "toolz>=0.8.2", "bokeh!=2.0.0,>=1.0.0; extra == \"complete\"", "distributed==2021.11.2; extra == \"complete\"", "jinja2; extra == \"complete\"", "numpy>=1.18; extra == \"complete\"", "pandas>=1.0; extra == \"complete\""]
+   }, 
+   "rejected": {
+    "dask~=2021.10; extra == \"test\"": ["kedro-0.18.13-py3-none-any.whl"], 
+    "dask-2021.12.0-py3-none-any.whl": ["dask-2021.12.0-py3-none-any.whl"]
+   }, 
+   "pinned": "dask-2021.11.2-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "distributed-2021.11.2-py3-none-any.whl": ["click>=6.6", "cloudpickle>=1.5.0", "dask==2021.11.2", "jinja2", "msgpack>=0.6.0", "psutil>=5.0", "sortedcontainers!=2.0.0,!=2.0.1", "tblib>=1.6.0", "toolz>=0.8.2", "zict>=0.1.3", "pyyaml", "setuptools", "tornado>=6.0.3; python_version >= \"3.8\"", ">=3.7"]
+   }, 
+   "pinned": "distributed-2021.11.2-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "fsspec-2023.12.1-py3-none-any.whl": [">=3.8"]
+   }, 
+   "pinned": "fsspec-2023.12.1-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "gcsfs-2023.1.0-py2.py3-none-any.whl": ["aiohttp!=4.0.0a0,!=4.0.0a1", "decorator>4.1.2", "fsspec==2023.1.0"]
+   }, 
+   "rejected": {
+    "fsspec<2024.1,>=2021.4": ["kedro-0.18.13-py3-none-any.whl"], 
+    "fsspec>=2023.9.0": ["adlfs-2023.10.0-py3-none-any.whl"], 
+    "fsspec>=0.6.0": ["dask-2021.11.2-py3-none-any.whl"], 
+    "fsspec==2023.1.0": ["gcsfs-2023.1.0-py2.py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "dask-2021.12.0-py3-none-any.whl": ["dask-2021.12.0-py3-none-any.whl"], 
+    "dask-2021.11.1-py3-none-any.whl": ["dask-2021.11.1-py3-none-any.whl", "cloudpickle>=1.1.1", "fsspec>=0.6.0", "packaging>=20.0", "partd>=0.3.10", "pyyaml", "toolz>=0.8.2", "bokeh!=2.0.0,>=1.0.0; extra == \"complete\"", "distributed==2021.11.1; extra == \"complete\"", "jinja2; extra == \"complete\"", "numpy>=1.18; extra == \"complete\"", "pandas>=1.0; extra == \"complete\""]
+   }, 
+   "rejected": {
+    "dask~=2021.10; extra == \"test\"": ["kedro-0.18.13-py3-none-any.whl"], 
+    "dask-2021.12.0-py3-none-any.whl": ["dask-2021.12.0-py3-none-any.whl"]
+   }, 
+   "pinned": "dask-2021.11.1-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "distributed-2021.11.1-py3-none-any.whl": ["click>=6.6", "cloudpickle>=1.5.0", "dask==2021.11.1", "jinja2", "msgpack>=0.6.0", "psutil>=5.0", "sortedcontainers!=2.0.0,!=2.0.1", "tblib>=1.6.0", "toolz>=0.8.2", "zict>=0.1.3", "pyyaml", "setuptools", "tornado>=6.0.3; python_version >= \"3.8\"", ">=3.7"]
+   }, 
+   "pinned": "distributed-2021.11.1-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dask-2021.11.1-py3-none-any.whl": ["cloudpickle>=1.1.1", "fsspec>=0.6.0", "packaging>=20.0", "partd>=0.3.10", "pyyaml", "toolz>=0.8.2", ">=3.7"]
+   }, 
+   "pinned": "dask-2021.11.1-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "fsspec-2023.12.1-py3-none-any.whl": [">=3.8"]
+   }, 
+   "pinned": "fsspec-2023.12.1-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "gcsfs-2023.1.0-py2.py3-none-any.whl": ["aiohttp!=4.0.0a0,!=4.0.0a1", "decorator>4.1.2", "fsspec==2023.1.0"]
+   }, 
+   "rejected": {
+    "fsspec<2024.1,>=2021.4": ["kedro-0.18.13-py3-none-any.whl"], 
+    "fsspec>=2023.9.0": ["adlfs-2023.10.0-py3-none-any.whl"], 
+    "fsspec>=0.6.0": ["dask-2021.11.1-py3-none-any.whl"], 
+    "fsspec==2023.1.0": ["gcsfs-2023.1.0-py2.py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "dask-2021.12.0-py3-none-any.whl": ["dask-2021.12.0-py3-none-any.whl"], 
+    "dask-2021.11.0-py3-none-any.whl": ["dask-2021.11.0-py3-none-any.whl", "cloudpickle>=1.1.1", "fsspec>=0.6.0", "packaging>=20.0", "partd>=0.3.10", "pyyaml", "toolz>=0.8.2", "bokeh!=2.0.0,>=1.0.0; extra == \"complete\"", "distributed==2021.11.0; extra == \"complete\"", "jinja2; extra == \"complete\"", "numpy>=1.18; extra == \"complete\"", "pandas>=1.0; extra == \"complete\""]
+   }, 
+   "rejected": {
+    "dask~=2021.10; extra == \"test\"": ["kedro-0.18.13-py3-none-any.whl"], 
+    "dask-2021.12.0-py3-none-any.whl": ["dask-2021.12.0-py3-none-any.whl"]
+   }, 
+   "pinned": "dask-2021.11.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "distributed-2021.11.0-py3-none-any.whl": ["click>=6.6", "cloudpickle>=1.5.0", "dask==2021.11.0", "jinja2", "msgpack>=0.6.0", "psutil>=5.0", "sortedcontainers!=2.0.0,!=2.0.1", "tblib>=1.6.0", "toolz>=0.8.2", "zict>=0.1.3", "pyyaml", "setuptools", "tornado>=6.0.3; python_version >= \"3.8\"", ">=3.7"]
+   }, 
+   "pinned": "distributed-2021.11.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dask-2021.11.0-py3-none-any.whl": ["cloudpickle>=1.1.1", "fsspec>=0.6.0", "packaging>=20.0", "partd>=0.3.10", "pyyaml", "toolz>=0.8.2", ">=3.7"]
+   }, 
+   "pinned": "dask-2021.11.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "fsspec-2023.12.1-py3-none-any.whl": [">=3.8"]
+   }, 
+   "pinned": "fsspec-2023.12.1-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "gcsfs-2023.1.0-py2.py3-none-any.whl": ["aiohttp!=4.0.0a0,!=4.0.0a1", "decorator>4.1.2", "fsspec==2023.1.0"]
+   }, 
+   "rejected": {
+    "fsspec<2024.1,>=2021.4": ["kedro-0.18.13-py3-none-any.whl"], 
+    "fsspec>=2023.9.0": ["adlfs-2023.10.0-py3-none-any.whl"], 
+    "fsspec>=0.6.0": ["dask-2021.11.0-py3-none-any.whl"], 
+    "fsspec==2023.1.0": ["gcsfs-2023.1.0-py2.py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "dask-2021.12.0-py3-none-any.whl": ["dask-2021.12.0-py3-none-any.whl"], 
+    "dask-2021.10.0-py3-none-any.whl": ["dask-2021.10.0-py3-none-any.whl", "cloudpickle>=1.1.1", "fsspec>=0.6.0", "packaging>=20.0", "partd>=0.3.10", "pyyaml", "toolz>=0.8.2", "bokeh!=2.0.0,>=1.0.0; extra == \"complete\"", "distributed==2021.10.0; extra == \"complete\"", "jinja2; extra == \"complete\"", "numpy>=1.18; extra == \"complete\"", "pandas>=1.0; extra == \"complete\""]
+   }, 
+   "rejected": {
+    "dask~=2021.10; extra == \"test\"": ["kedro-0.18.13-py3-none-any.whl"], 
+    "dask-2021.12.0-py3-none-any.whl": ["dask-2021.12.0-py3-none-any.whl"]
+   }, 
+   "pinned": "dask-2021.10.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "distributed-2021.10.0-py3-none-any.whl": ["click>=6.6", "cloudpickle>=1.5.0", "dask==2021.10.0", "jinja2", "msgpack>=0.6.0", "psutil>=5.0", "sortedcontainers!=2.0.0,!=2.0.1", "tblib>=1.6.0", "toolz>=0.8.2", "zict>=0.1.3", "pyyaml", "setuptools", "tornado>=6.0.3; python_version >= \"3.8\"", ">=3.7"]
+   }, 
+   "pinned": "distributed-2021.10.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dask-2021.10.0-py3-none-any.whl": ["cloudpickle>=1.1.1", "fsspec>=0.6.0", "packaging>=20.0", "partd>=0.3.10", "pyyaml", "toolz>=0.8.2", ">=3.7"]
+   }, 
+   "pinned": "dask-2021.10.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "fsspec-2023.12.1-py3-none-any.whl": [">=3.8"]
+   }, 
+   "pinned": "fsspec-2023.12.1-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "gcsfs-2023.1.0-py2.py3-none-any.whl": ["aiohttp!=4.0.0a0,!=4.0.0a1", "decorator>4.1.2", "fsspec==2023.1.0"]
+   }, 
+   "rejected": {
+    "fsspec<2024.1,>=2021.4": ["kedro-0.18.13-py3-none-any.whl"], 
+    "fsspec>=2023.9.0": ["adlfs-2023.10.0-py3-none-any.whl"], 
+    "fsspec>=0.6.0": ["dask-2021.10.0-py3-none-any.whl"], 
+    "fsspec==2023.1.0": ["gcsfs-2023.1.0-py2.py3-none-any.whl"]
+   }
+  }
+ ]
+}

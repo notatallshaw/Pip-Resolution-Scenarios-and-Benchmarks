@@ -1,0 +1,25 @@
+{
+ "input": {
+  "pip_version": "24.3", 
+  "python_version": "3.9", 
+  "datetime": "2024-10-07 14:00:00", 
+  "platform_system": "Linux", 
+  "requirements": ["pyyaml"]
+ }, 
+ "result": {
+  "success": true, 
+  "failure_reason": null, 
+  "install_info": [
+   {"file": "PyYAML-6.0.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=3b1fdb9dc17f5a7677423d508ab4f243a726dea51fa5e70992e59a7411c89d19"}
+  ]
+ }, 
+ "resolution_rounds": [
+  {
+   "added": {
+    "PyYAML-6.0.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.8"]
+   }, 
+   "pinned": "PyYAML-6.0.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {"pinned": "PythonCandidate"}
+ ]
+}

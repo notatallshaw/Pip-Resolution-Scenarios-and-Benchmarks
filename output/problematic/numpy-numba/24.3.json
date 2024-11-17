@@ -1,0 +1,70 @@
+{
+ "input": {
+  "pip_version": "24.3", 
+  "python_version": "3.10", 
+  "datetime": "2024-08-28 14:00:00", 
+  "platform_system": "Linux", 
+  "requirements": ["numpy>=2.1,<2.2", "numba<=0.60,>0.1"]
+ }, 
+ "result": {
+  "success": true, 
+  "failure_reason": null, 
+  "install_info": [
+   {"file": "llvmlite-0.34.0.tar.gz", "hash": "sha256=f03ee0d19bca8f2fe922bb424a909d05c28411983b0c2bc58b020032a0d11f63"}, 
+   {"file": "numba-0.51.2.tar.gz", "hash": "sha256=16bd59572114adbf5f600ea383880d7b2071ae45477e84a24994e089ea390768"}, 
+   {"file": "numpy-2.1.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=398049e237d1aae53d82a416dade04defed1a47f87d18d5bd615b6e7d7e41d1f"}, 
+   {"file": "setuptools-74.0.0-py3-none-any.whl", "hash": "sha256=0274581a0037b638b9fc1c6883cc71c0210865aaa76073f7882376b641b84e8f"}
+  ]
+ }, 
+ "resolution_rounds": [
+  {
+   "added": {
+    "numpy-2.1.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.10"]
+   }, 
+   "pinned": "numpy-2.1.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {"pinned": "PythonCandidate"}, 
+  {
+   "added": {
+    "numba-0.60.0-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl": ["llvmlite<0.44,>=0.43.0dev0", "numpy<2.1,>=1.22"], 
+    "numba-0.59.1-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl": ["llvmlite<0.43,>=0.42.0dev0", "numpy<1.27,>=1.22"], 
+    "numba-0.59.0-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl": ["llvmlite<0.43,>=0.42.0dev0", "numpy<1.27,>=1.22"], 
+    "numba-0.58.1-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl": ["llvmlite<0.42,>=0.41.0dev0", "numpy<1.27,>=1.22"], 
+    "numba-0.58.0-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl": ["llvmlite<0.42,>=0.41.0dev0", "numpy<1.26,>=1.21"], 
+    "numba-0.57.1-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl": ["llvmlite<0.41,>=0.40.0dev0", "numpy<1.25,>=1.21"], 
+    "numba-0.57.0-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl": ["llvmlite<0.41,>=0.40.0dev0", "numpy<1.25,>=1.21"], 
+    "numba-0.56.4-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl": ["llvmlite<0.40,>=0.39.0dev0", "numpy<1.24,>=1.18"], 
+    "numba-0.56.3-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl": ["llvmlite<0.40,>=0.39.0dev0", "numpy<1.24,>=1.18"], 
+    "numba-0.56.2-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl": ["llvmlite<0.40,>=0.39.0dev0", "numpy<1.24,>=1.18"], 
+    "numba-0.56.0-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl": ["llvmlite<0.40,>=0.39.0dev0", "numpy<1.23,>=1.18"], 
+    "numba-0.55.2-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl": ["llvmlite<0.39,>=0.38.0rc1", "numpy<1.23,>=1.18"], 
+    "numba-0.55.1-1-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl": ["llvmlite<0.39,>=0.38.0rc1", "numpy<1.22,>=1.18"], 
+    "numba-0.55.0-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl": ["llvmlite<0.39,>=0.38.0rc1", "numpy<1.22,>=1.18"], 
+    "numba-0.51.2.tar.gz": ["llvmlite<0.35,>=0.34.0.dev0", "numpy>=1.15", "setuptools", ">=3.6"]
+   }, 
+   "rejected": {
+    "numpy<2.2,>=2.1": ["<User Requirement>"], 
+    "numpy<2.1,>=1.22": ["numba-0.60.0-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy<1.27,>=1.22": ["numba-0.58.1-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", "numba-0.59.0-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", "numba-0.59.1-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy<1.26,>=1.21": ["numba-0.58.0-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy<1.25,>=1.21": ["numba-0.57.0-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", "numba-0.57.1-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy<1.24,>=1.18": ["numba-0.56.2-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", "numba-0.56.3-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", "numba-0.56.4-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy<1.23,>=1.18": ["numba-0.55.2-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", "numba-0.56.0-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy<1.22,>=1.18": ["numba-0.55.0-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", "numba-0.55.1-1-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"]
+   }, 
+   "pinned": "numba-0.51.2.tar.gz"
+  }, 
+  {
+   "added": {
+    "llvmlite-0.34.0.tar.gz": [">=3.6"]
+   }, 
+   "pinned": "llvmlite-0.34.0.tar.gz"
+  }, 
+  {
+   "added": {
+    "setuptools-74.0.0-py3-none-any.whl": [">=3.8"]
+   }, 
+   "pinned": "setuptools-74.0.0-py3-none-any.whl"
+  }
+ ]
+}
