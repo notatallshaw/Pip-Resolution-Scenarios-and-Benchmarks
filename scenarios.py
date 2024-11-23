@@ -315,10 +315,16 @@ class ResolutionLines:
 
 
 def tail_file(file: TextIOWrapper):
+    partial_line = ""
     while True:
         line = file.readline()
         if line:
-            yield line.rstrip("\n")
+            if line.endswith("\n"):
+                partial_line = ""
+                yield partial_line + line.rstrip("\n")
+            else:
+                partial_line += line
+                yield None
         else:
             yield None
 
@@ -426,7 +432,12 @@ def process_scenario(
                         # End early if there are too many resolution rounds
                         if len(resolution_lines.resolution_rounds) >= 15_000:
                             resolution_too_deep = True
-                            process.kill()
+                            try:
+                                process.terminate()
+                                process.wait(5)
+                            except subprocess.TimeoutExpired:
+                                process.kill()
+
                             continue
 
                     stderr_line = next(stderr_gen, None)
