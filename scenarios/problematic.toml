@@ -236,3 +236,12 @@ requirements = [
    "django-stubs[compatible-mypy]",
    "djangorestframework-stubs[compatible-mypy]>=3",
 ]
+
+[kauldron-docs]
+python_version = "3.12"
+platform_system = "Linux"
+datetime = "2024-11-26 14:00:00"
+requirements = [
+   "kauldron[docs]"
+]
+
