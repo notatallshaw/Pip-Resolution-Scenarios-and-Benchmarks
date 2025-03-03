@@ -329,6 +329,104 @@ def tail_file(file: TextIOWrapper):
             yield None
 
 
+def create_virtualenv(venv_dir: Path, python_version: str) -> Path:
+    """
+    Create a virtual environment in venv_dir using the given python_version.
+    Returns the path to the python executable in the virtual environment.
+    """
+    create_venv_cmd = ["uv", "venv", "--python", python_version, str(venv_dir)]
+    result = subprocess.run(create_venv_cmd, capture_output=True, text=True)
+    if result.returncode != 0:
+        print(f"Error creating venv: {result.stderr}")
+        raise RuntimeError("Virtual environment creation failed")
+    if os.name != "nt":
+        return venv_dir / "bin" / "python"
+    else:
+        return venv_dir / "Scripts" / "python.exe"
+
+
+def install_requirements(venv_python: Path, port: str, requirements: list[str], temp_dir: str) -> tuple:
+    """
+    Install requirements in the virtual environment and capture the output.
+    Returns a tuple: (report_lines, resolution_lines, stderr_clean, resolution_too_deep).
+    """
+    command_install = [
+        str(venv_python),
+        "-W", "ignore",
+        "-m", "pip",
+        "install",
+        "--dry-run",
+        "--ignore-installed",
+        "--progress-bar", "off",
+        "--disable-pip-version-check",
+        "--index-url", f"http://127.0.0.1:{port}/simple",
+        "--report", "-",
+        *requirements,
+    ]
+    stdout_path = os.path.join(temp_dir, "stdout.txt")
+    stderr_path = os.path.join(temp_dir, "stderr.txt")
+    stderr_lines: list[str] = []
+    report_lines = ReporterLines()
+    resolution_lines = ResolutionLines()
+    resolution_too_deep = False
+
+    with open(stdout_path, "w") as out, open(stderr_path, "w") as err:
+        process = subprocess.Popen(
+            command_install,
+            stdout=out,
+            stderr=err,
+            text=True,
+            env={"PIP_RESOLVER_DEBUG": "1", **os.environ},
+        )
+        with open(stdout_path, "r") as stdout_tail, open(stderr_path, "r") as stderr_tail:
+            stdout_gen = tail_file(stdout_tail)
+            stderr_gen = tail_file(stderr_tail)
+            while process.poll() is None and not resolution_too_deep:
+                stdout_line = next(stdout_gen, None)
+                if stdout_line:
+                    resolution_lines.process_line(stdout_line)
+                    report_lines.process_line(stdout_line)
+                    if len(resolution_lines.resolution_rounds) >= 15_000:
+                        resolution_too_deep = True
+                        try:
+                            process.terminate()
+                            process.wait(5)
+                        except subprocess.TimeoutExpired:
+                            process.kill()
+                        continue
+                stderr_line = next(stderr_gen, None)
+                if stderr_line:
+                    stderr_lines.append(stderr_line)
+                if stdout_line is None and stderr_line is None:
+                    time.sleep(0.1)
+            # Consume remaining lines
+            for stdout_line in stdout_gen:
+                if stdout_line:
+                    resolution_lines.process_line(stdout_line)
+                    report_lines.process_line(stdout_line)
+                else:
+                    break
+            for stderr_line in stderr_gen:
+                if stderr_line:
+                    stderr_lines.append(stderr_line)
+                else:
+                    break
+
+    # Clean up stderr lines
+    stderr_clean = []
+    metadata_warning = False
+    for line in stderr_lines:
+        if "has invalid metadata" in line:
+            metadata_warning = True
+            continue
+        if not metadata_warning:
+            stderr_clean.append(line)
+        if "nPlease use pip<24.1" in line:
+            metadata_warning = False
+
+    return report_lines, resolution_lines, "\n".join(stderr_clean), resolution_too_deep
+
+
 def process_scenario(
     pip_name: str,
     pip_requirement: str,
@@ -340,203 +438,83 @@ def process_scenario(
 ):
     port = str(get_open_port())
     with pip_timemachine(datetime, port), tempfile.TemporaryDirectory() as temp_dir:
-        # Create a virtual environment
+        # Create virtual environment using the helper
         venv_dir = Path(temp_dir) / ".venv"
-        create_venv_cmd = ["uv", "venv", "--python", python_version, str(venv_dir)]
-        result_create_venv = subprocess.run(
-            create_venv_cmd, capture_output=True, text=True
-        )
+        venv_python = create_virtualenv(venv_dir, python_version)
 
-        if result_create_venv.returncode != 0:
-            print(f"Error creating venv: {result_create_venv.stderr}")
-            return
-
-        # Determine the path to the Python executable in the virtual environment
-        venv_python = (
-            venv_dir / "bin" / "python"
-            if os.name != "nt"
-            else venv_dir / "Scripts" / "python.exe"
-        )
-
-        # Install the version of pip you are testing
+        # Install pip in the virtual environment
         install_pip_cmd = [
             sys.executable,
             "-m",
             "uv",
             "pip",
             "install",
-            "--python",
-            str(venv_python),
+            "--python", str(venv_python),
             pip_requirement,
         ]
-        result_install_pip = subprocess.run(
-            install_pip_cmd, capture_output=True, text=True
-        )
-
+        result_install_pip = subprocess.run(install_pip_cmd, capture_output=True, text=True)
         if result_install_pip.returncode != 0:
-            print(f"Error creating venv: {result_create_venv.stderr}")
+            print(f"Error installing pip: {result_install_pip.stderr}")
             return
 
-        # Install the requirements
-        command_install = [
-            str(venv_python),
-            "-W",
-            "ignore",
-            "-m",
-            "pip",
-            "install",
-            "--dry-run",
-            "--ignore-installed",
-            "--progress-bar",
-            "off",
-            "--disable-pip-version-check",
-            "--index-url",
-            f"http://127.0.0.1:{port}/simple",
-            "--report",
-            "-",
-            *requirements,
-        ]
+        # Install requirements using the helper
+        report_lines, resolution_lines, stderr, resolution_too_deep = install_requirements(venv_python, port, requirements, temp_dir)
 
-        # Write the process output to temporary files and then tail from
-        # those temporary files as it runs, this some big advantages:
-        #  * The output is not in memory (it can get massive)
-        #  * We can process the output as it runs
-        #  * We can terminate early if there are too many rounds
-        stdout_path = os.path.join(temp_dir, "stdout.txt")
-        stderr_path = os.path.join(temp_dir, "stderr.txt")
-        stderr_lines: list[str] = []
-        report_lines = ReporterLines()
-        resolution_lines = ResolutionLines()
-        resolution_too_deep = False
-        with open(stdout_path, "w") as out, open(stderr_path, "w") as err:
-            process = subprocess.Popen(
-                command_install,
-                stdout=out,
-                stderr=err,
-                text=True,
-                env={"PIP_RESOLVER_DEBUG": "1", **os.environ},
-            )
-            with (
-                open(stdout_path, "r") as stdout_tail,
-                open(stderr_path, "r") as stderr_tail,
-            ):
-                stdout_gen = tail_file(stdout_tail)
-                stderr_gen = tail_file(stderr_tail)
+        # Handle success/failure status based on stderr and resolution flag
+        success = True
+        failure_reason = None
+        if stderr:
+            success = False
+            if "subprocess-exited-with-error" in stderr:
+                failure_reason = "Build Failure"
+            elif "ResolutionTooDeep" in stderr:
+                failure_reason = "Resolution Too Deep"
+            elif "ResolutionImpossible" in stderr:
+                failure_reason = "Resolution Impossible"
+            else:
+                failure_reason = stderr
+        if resolution_too_deep:
+            success = False
+            failure_reason = "Resolution Too Deep"
 
-                while process.poll() is None and resolution_too_deep is False:
-                    stdout_line = next(stdout_gen, None)
-                    if stdout_line:
-                        resolution_lines.process_line(stdout_line)
-                        report_lines.process_line(stdout_line)
-
-                        # End early if there are too many resolution rounds
-                        if len(resolution_lines.resolution_rounds) >= 15_000:
-                            resolution_too_deep = True
-                            try:
-                                process.terminate()
-                                process.wait(5)
-                            except subprocess.TimeoutExpired:
-                                process.kill()
-
-                            continue
-
-                    stderr_line = next(stderr_gen, None)
-                    if stderr_line:
-                        if stderr_line:
-                            stderr_lines.append(stderr_line)
-
-                    if stdout_line is None and stderr_line is None:
-                        time.sleep(0.1)
-
-                # Consume any remaining lines in the file
-                for stdout_line in stdout_gen:
-                    if stdout_line:
-                        resolution_lines.process_line(stdout_line)
-                        report_lines.process_line(stdout_line)
-                    else:
-                        break
-
-                for stderr_line in stderr_gen:
-                    if stderr_line:
-                        stderr_lines.append(stderr_line)
-                    else:
-                        break
-
-    # Grab install information from report
-    install_info: list[dict[str, str]] = []
-    if report_lines.reporter_lines:
-        report_json = json.loads("\n".join(report_lines.reporter_lines))
-        for report_install in report_json["install"]:
-            download_info = report_install["download_info"]
-            install_info.append(
-                {
+        # Grab install information from report
+        install_info: list[dict[str, str]] = []
+        if report_lines.reporter_lines:
+            report_json = json.loads("\n".join(report_lines.reporter_lines))
+            for report_install in report_json["install"]:
+                download_info = report_install["download_info"]
+                install_info.append({
                     "file": extract_filename(download_info["url"]),
                     "hash": extract_filename(download_info["archive_info"]["hash"]),
-                }
-            )
+                })
 
-    # Check success or failure reason
-    success = True
-    failure_reason = None
-    stderr_lines = [
-        line for line in stderr_lines if line.strip() and not line.startswith("WARNING:")
-    ]
+        # Build and dump JSON output
+        output_json = {
+            "input": {
+                "pip_version": pip_name,
+                "python_version": python_version,
+                "datetime": datetime,
+                "platform_system": platform_system,
+                "requirements": requirements,
+            },
+            "result": {
+                "success": success,
+                "failure_reason": failure_reason,
+                "install_info": sorted(install_info, key=lambda x: (x["file"], x["hash"])),
+            },
+            "resolution_rounds": resolution_lines.resolution_rounds,
+        }
+        formatter = Formatter()
+        formatter.indent_spaces = 1
+        formatter.max_inline_complexity = 1
+        formatter.max_inline_length = 10_000
+        formatter.nested_bracket_padding = False
+        formatter.simple_bracket_padding = False
+        formatter.table_dict_minimum_similarity = 101
+        formatter.table_list_minimum_similarity = 101
+        formatter.json_eol_style = EolStyle.LF
 
-    # Clear metadata warning lines from stderr
-    stderr_clean = []
-    metadata_warning = False
-    for stderr_line in stderr_lines:
-        if "has invalid metadata" in stderr_line:
-            metadata_warning = True
-            continue
-        if not metadata_warning:
-            stderr_clean.append(stderr_line)
-        if "nPlease use pip<24.1" in stderr_line:
-            metadata_warning = False
-
-    stderr = "\n".join(stderr_clean)
-    if stderr:
-        success = False
-        if "subprocess-exited-with-error" in stderr:
-            failure_reason = "Build Failure"
-        elif "ResolutionTooDeep" in stderr:
-            failure_reason = "Resolution Too Deep"
-        elif "ResolutionImpossible" in stderr:
-            failure_reason = "Resolution Impossible"
-        else:
-            failure_reason = stderr
-
-    if resolution_too_deep:
-        success = False
-        failure_reason = "Resolution Too Deep"
-
-    # Build and dump JSON
-    output_json = {
-        "input": {
-            "pip_version": pip_name,
-            "python_version": python_version,
-            "datetime": datetime,
-            "platform_system": platform_system,
-            "requirements": requirements,
-        },
-        "result": {
-            "success": success,
-            "failure_reason": failure_reason,
-            "install_info": sorted(install_info, key=lambda x: (x["file"], x["hash"])),
-        },
-        "resolution_rounds": resolution_lines.resolution_rounds,
-    }
-    formatter = Formatter()
-    formatter.indent_spaces = 1
-    formatter.max_inline_complexity = 1
-    formatter.max_inline_length = 10_000
-    formatter.nested_bracket_padding = False
-    formatter.simple_bracket_padding = False
-    formatter.table_dict_minimum_similarity = 101
-    formatter.table_list_minimum_similarity = 101
-    formatter.json_eol_style = EolStyle.LF
-
-    formatter.dump(output_json, output_file=str(json_path), newline_at_eof=True)
+        formatter.dump(output_json, output_file=str(json_path), newline_at_eof=True)
 
 
 def process_toml_file(toml_file: Path, pip_name: str, pip_requirement: str) -> None:
