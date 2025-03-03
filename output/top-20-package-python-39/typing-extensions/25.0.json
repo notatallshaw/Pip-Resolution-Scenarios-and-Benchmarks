@@ -1,0 +1,25 @@
+{
+ "input": {
+  "pip_version": "25.0", 
+  "python_version": "3.9", 
+  "datetime": "2024-10-07 14:00:00", 
+  "platform_system": "Linux", 
+  "requirements": ["typing-extensions"]
+ }, 
+ "result": {
+  "success": true, 
+  "failure_reason": null, 
+  "install_info": [
+   {"file": "typing_extensions-4.12.2-py3-none-any.whl", "hash": "sha256=04e5ca0351e0f3f85c6853954072df659d0d13fac324d0072316b67d7794700d"}
+  ]
+ }, 
+ "resolution_rounds": [
+  {
+   "added": {
+    "typing_extensions-4.12.2-py3-none-any.whl": [">=3.8"]
+   }, 
+   "pinned": "typing_extensions-4.12.2-py3-none-any.whl"
+  }, 
+  {"pinned": "PythonCandidate"}
+ ]
+}
