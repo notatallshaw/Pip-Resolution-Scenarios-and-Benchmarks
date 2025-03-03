@@ -50,7 +50,7 @@ requirements = [
 
 [TTS]
 # https://github.com/pypa/pip/issues/12305
-python_version = "3.8"
+python_version = "3.9"
 platform_system = "Linux"
 datetime = "2023-10-01 14:00:00"
 requirements = ["TTS"]
@@ -154,7 +154,7 @@ requirements = [
 
 [zamba]
 # https://github.com/astral-sh/uv/issues/3143
-python_version = "3.8"
+python_version = "3.9"
 platform_system = "Linux"
 datetime = "2024-04-20 14:00:00"
 requirements = [
