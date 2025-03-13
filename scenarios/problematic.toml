@@ -245,3 +245,22 @@ requirements = [
    "kauldron[docs]"
 ]
 
+
+[numpy-umap-learn]
+# https://github.com/astral-sh/uv/issues/12060
+python_version = "3.10"
+platform_system = "Linux"
+datetime = "2025-03-12 14:00:00"
+requirements = [
+   "numpy",
+   "umap-learn"
+]
+
+[ipykernel]
+# https://github.com/pypa/pip/issues/13267
+python_version = "3.14"
+platform_system = "Linux"
+datetime = "2025-03-06 14:00:00"
+requirements = [
+   "ipykernel"
+]
