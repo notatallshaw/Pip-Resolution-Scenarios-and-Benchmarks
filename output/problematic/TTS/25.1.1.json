@@ -1,0 +1,2669 @@
+{
+ "input": {
+  "pip_version": "25.1.1", 
+  "python_version": "3.9", 
+  "datetime": "2023-10-01 14:00:00", 
+  "platform_system": "Linux", 
+  "requirements": ["TTS"]
+ }, 
+ "result": {
+  "success": true, 
+  "failure_reason": null, 
+  "install_info": [
+   {"file": "Babel-2.12.1-py3-none-any.whl", "hash": "sha256=b4246fb7677d3b98f501a39d43396d3cafdc8eadb045f4a31be01863f655c610"}, 
+   {"file": "Cython-0.29.30-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl", "hash": "sha256=60d370c33d56077d30e5f425026e58c2559e93b4784106f61581cf54071f6270"}, 
+   {"file": "GitPython-3.1.37-py3-none-any.whl", "hash": "sha256=5f4c4187de49616d710a77e98ddf17b4782060a1788df441846bddefbb89ab33"}, 
+   {"file": "Jinja2-3.1.2-py3-none-any.whl", "hash": "sha256=6088930bfe239f0e6710546ab9c19c9ef35e29792895fed6e6e31a023a182a61"}, 
+   {"file": "Markdown-3.4.4-py3-none-any.whl", "hash": "sha256=a4c1b65c0957b4bd9e7d86ddc7b3c9868fb9670660f6f99f6d1bca8954d5a941"}, 
+   {"file": "MarkupSafe-2.1.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=05fb21170423db021895e1ea1e1f3ab3adb85d1c2333cbc2310f2a26bc77272e"}, 
+   {"file": "Pillow-10.0.1-cp39-cp39-manylinux_2_28_x86_64.whl", "hash": "sha256=ca26ba5767888c84bf5a0c1a32f069e8204ce8c21d00a49c90dabeba00ce0145"}, 
+   {"file": "PyWavelets-1.4.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=71ab30f51ee4470741bb55fc6b197b4a2b612232e30f6ac069106f0156342356"}, 
+   {"file": "PyYAML-6.0.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=bc1bf2925a1ecd43da378f4db9e4f799775d6367bdb94671027b73b393a7c42c"}, 
+   {"file": "TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl", "hash": "sha256=fd3ac401c407d6831c624ddf662d69768348218792a6ce6c9f727cdefd0018b7"}, 
+   {"file": "Unidecode-1.3.7-py3-none-any.whl", "hash": "sha256=663a537f506834ed836af26a81b210d90cbde044c47bfbdc0fbbc9f94c86a6e4"}, 
+   {"file": "absl_py-2.0.0-py3-none-any.whl", "hash": "sha256=9a28abb62774ae4e8edbe2dd4c49ffcd45a6a848952a5eccc6a49f3f0fc1e2f3"}, 
+   {"file": "accelerate-0.23.0-py3-none-any.whl", "hash": "sha256=fba5065ff4e7c8f0a39df50785023703cd9bf8388073aa13c6457920f3bc5225"}, 
+   {"file": "aiohttp-3.8.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=d827176898a2b0b09694fbd1088c7a31836d1a505c243811c87ae53a3f6273c1"}, 
+   {"file": "aiosignal-1.3.1-py3-none-any.whl", "hash": "sha256=f8376fb07dd1e86a584e4fcdec80b36b7f81aac666ebc724e2c090300dd83b17"}, 
+   {"file": "anyascii-0.3.2-py3-none-any.whl", "hash": "sha256=3b3beef6fc43d9036d3b0529050b0c48bfad8bc960e9e562d7223cfb94fe45d4"}, 
+   {"file": "appdirs-1.4.4-py2.py3-none-any.whl", "hash": "sha256=a841dacd6b99318a741b166adb07e19ee71a274450e68237b4650ca1055ab128"}, 
+   {"file": "async_timeout-4.0.3-py3-none-any.whl", "hash": "sha256=7405140ff1230c310e51dc27b3145b9092d659ce68ff733fb0cefe3ee42be028"}, 
+   {"file": "attrs-23.1.0-py3-none-any.whl", "hash": "sha256=1f28b4522cdc2fb4256ac1a020c78acf9cba2c6b461ccd2c126f3aa8e8335d04"}, 
+   {"file": "audioread-3.0.1-py3-none-any.whl", "hash": "sha256=4cdce70b8adc0da0a3c9e0d85fb10b3ace30fbdf8d1670fd443929b61d117c33"}, 
+   {"file": "bangla-0.0.2-py2.py3-none-any.whl", "hash": "sha256=60c52bb4614894de4a91ee997bf950d03545d1fb9b01196577ce04ed4fa00ff8"}, 
+   {"file": "blinker-1.6.2-py3-none-any.whl", "hash": "sha256=c3d739772abb7bc2860abf5f2ec284223d9ad5c76da018234f6f50d6f31ab1f0"}, 
+   {"file": "bnnumerizer-0.0.2.tar.gz", "hash": "sha256=41df6fd0b7b51aa4ec4776b6643cedebee5fd11e335d7d56d4a20c08515e5f0d"}, 
+   {"file": "bnunicodenormalizer-0.1.6.tar.gz", "hash": "sha256=a950bafb44a702cdb90c5cca3c71543a860f96b46f906585a6d8c85689bcc093"}, 
+   {"file": "cachetools-5.3.1-py3-none-any.whl", "hash": "sha256=95ef631eeaea14ba2e36f06437f36463aac3a096799e876ee55e5cdccb102590"}, 
+   {"file": "certifi-2023.7.22-py3-none-any.whl", "hash": "sha256=92d6037539857d8206b8f6ae472e8b77db8058fec5937a1ef3f54304089edbb9"}, 
+   {"file": "cffi-1.16.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=8f8e709127c6c77446a8c0a8c8bf3c8ee706a06cd44b1e827c3e6a2ee6b8c098"}, 
+   {"file": "charset_normalizer-3.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=619d1c96099be5823db34fe89e2582b336b5b074a7f47f819d6b3a57ff7bdb86"}, 
+   {"file": "clean_fid-0.1.35-py3-none-any.whl", "hash": "sha256=757cf49d75debe9b07ab14955fe59c845a296deaf0616153b40c5e75b3cf87fb"}, 
+   {"file": "click-8.1.7-py3-none-any.whl", "hash": "sha256=ae74fb96c20a0277a1d615f1e4d73c8414f5a98db8b799a7931d1582f3390c28"}, 
+   {"file": "clip_anytorch-2.5.2-py3-none-any.whl", "hash": "sha256=1e9e80e143ec0df7721df6b9e09c18111cfec4d672e8568d073374ee32d1de2c"}, 
+   {"file": "cmake-3.27.6-py2.py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", "hash": "sha256=8c0ad28706b76d6b7c7643222d833af44bdd03da4371e3a6f0eac68e3a1d6366"}, 
+   {"file": "contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=efe0fab26d598e1ec07d72cf03eaeeba8e42b4ecf6b9ccb5a356fde60ff08b85"}, 
+   {"file": "coqpit-0.0.17-py3-none-any.whl", "hash": "sha256=68d253214eabb30526775442227d772cbb7b297ece6b65be59c29eab00d476b9"}, 
+   {"file": "cycler-0.12.0-py3-none-any.whl", "hash": "sha256=7896994252d006771357777d0251f3e34d266f4fa5f2c572247a80ab01440947"}, 
+   {"file": "dateparser-1.1.8-py2.py3-none-any.whl", "hash": "sha256=070b29b5bbf4b1ec2cd51c96ea040dc68a614de703910a91ad1abba18f9f379f"}, 
+   {"file": "decorator-5.1.1-py3-none-any.whl", "hash": "sha256=b8c3f85900b9dc423225913c5aace94729fe1fa9763b38939a95226f02d37186"}, 
+   {"file": "docker_pycreds-0.4.0-py2.py3-none-any.whl", "hash": "sha256=7266112468627868005106ec19cd0d722702d2b7d5912a28e19b826c3d37af49"}, 
+   {"file": "docopt-0.6.2.tar.gz", "hash": "sha256=49b3a825280bd66b3aa83585ef59c4a8c82f2c8a522dbe754a8bc8d08c85c491"}, 
+   {"file": "einops-0.6.1-py3-none-any.whl", "hash": "sha256=99149e46cc808956b174932fe563d920db4d6e5dadb8c6ecdaa7483b7ef7cfc3"}, 
+   {"file": "encodec-0.1.1.tar.gz", "hash": "sha256=36dde98ccfe6c51a15576476cadfcb3b35a63507b8b8555abd69889a6fba6772"}, 
+   {"file": "filelock-3.12.4-py3-none-any.whl", "hash": "sha256=08c21d87ded6e2b9da6728c3dff51baf1dcecf973b768ef35bcbc3447edb9ad4"}, 
+   {"file": "flask-2.3.3-py3-none-any.whl", "hash": "sha256=f69fcd559dc907ed196ab9df0e48471709175e696d6e698dd4dbe940f96ce66b"}, 
+   {"file": "fonttools-4.43.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=812142a0e53cc853964d487e6b40963df62f522b1b571e19d1ff8467d7880ceb"}, 
+   {"file": "frozenlist-1.4.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=7f4f399d28478d1f604c2ff9119907af9726aed73680e5ed1ca634d377abb087"}, 
+   {"file": "fsspec-2023.6.0-py3-none-any.whl", "hash": "sha256=1cbad1faef3e391fba6dc005ae9b5bdcbf43005c9167ce78c915549c352c869a"}, 
+   {"file": "ftfy-6.1.1-py3-none-any.whl", "hash": "sha256=0ffd33fce16b54cccaec78d6ec73d95ad370e5df5a25255c8966a6147bd667ca"}, 
+   {"file": "g2pkk-0.1.2-py3-none-any.whl", "hash": "sha256=f1d551f35d3b9065f75749c724e65b28731fdc3262e5e9657cb57e3f7b5dcac3"}, 
+   {"file": "gitdb-4.0.10-py3-none-any.whl", "hash": "sha256=c286cf298426064079ed96a9e4a9d39e7f3e9bf15ba60701e95f5492f28415c7"}, 
+   {"file": "google_auth-2.23.2-py2.py3-none-any.whl", "hash": "sha256=c2e253347579d483004f17c3bd0bf92e611ef6c7ba24d41c5c59f2e7aeeaf088"}, 
+   {"file": "google_auth_oauthlib-1.0.0-py2.py3-none-any.whl", "hash": "sha256=95880ca704928c300f48194d1770cf5b1462835b6e49db61445a520f793fd5fb"}, 
+   {"file": "grpcio-1.59.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=fc8bf2e7bc725e76c0c11e474634a08c8f24bcf7426c0c6d60c8f9c6e70e4d4a"}, 
+   {"file": "gruut-2.2.3.tar.gz", "hash": "sha256=8d393d5e152c1aeae62798e3c8c4cbb8a528c32fd012640db5db31194cdac6f5"}, 
+   {"file": "gruut-ipa-0.13.0.tar.gz", "hash": "sha256=71776eb99f46e119ab14d3d4e536f54317133607cc2f6bad9711ab51f1bec66e"}, 
+   {"file": "gruut_lang_de-2.0.0.tar.gz", "hash": "sha256=e8cffbcda577ee0881d67917190ed204d56b34d36a93f9a02d73f4aa8af38142"}, 
+   {"file": "gruut_lang_en-2.0.0.tar.gz", "hash": "sha256=890ff3b6ddebe8a87ea040683974785c0eafa81fedcb24c4abb2a1e4cd171e52"}, 
+   {"file": "gruut_lang_es-2.0.0.tar.gz", "hash": "sha256=0808880fb6d5df5d24936d64be9aa02eca6437ab1251d0486d3920d5b8098f8e"}, 
+   {"file": "gruut_lang_fr-2.0.2.tar.gz", "hash": "sha256=d2de9fc2f92ede277cb6dfe72afdba1b902d329b3cc1f1c706e66b31f0d436bd"}, 
+   {"file": "huggingface_hub-0.17.3-py3-none-any.whl", "hash": "sha256=545eb3665f6ac587add946e73984148f2ea5c7877eac2e845549730570c1933a"}, 
+   {"file": "idna-3.4-py3-none-any.whl", "hash": "sha256=90b77e79eaa3eba6de819a0c442c0b4ceefc341a7a2ab77d7562bf49f425c5c2"}, 
+   {"file": "imageio-2.31.4-py3-none-any.whl", "hash": "sha256=9a39577b482b9c9533b95b436b45540dc32fdf2868ba912d723d3490594fae22"}, 
+   {"file": "importlib_metadata-6.8.0-py3-none-any.whl", "hash": "sha256=3ebb78df84a805d7698245025b975d9d67053cd94c79245ba4b3eb694abe68bb"}, 
+   {"file": "importlib_resources-6.1.0-py3-none-any.whl", "hash": "sha256=aa50258bbfa56d4e33fbd8aa3ef48ded10d1735f11532b8df95388cc6bdb7e83"}, 
+   {"file": "inflect-5.6.2-py3-none-any.whl", "hash": "sha256=b45d91a4a28a4e617ff1821117439b06eaa86e2a4573154af0149e9be6687238"}, 
+   {"file": "itsdangerous-2.1.2-py3-none-any.whl", "hash": "sha256=2c2349112351b88699d8d4b6b075022c0808887cb7ad10069318a8b0bc88db44"}, 
+   {"file": "jamo-0.4.1-py3-none-any.whl", "hash": "sha256=d4b94fd23324c606ed2fbc4037c603e2c3a7ae9390c05d3473aea1ccb6b1c3fb"}, 
+   {"file": "jieba-0.42.1.tar.gz", "hash": "sha256=055ca12f62674fafed09427f176506079bc135638a14e23e25be909131928db2"}, 
+   {"file": "joblib-1.3.2-py3-none-any.whl", "hash": "sha256=ef4331c65f239985f3f2220ecc87db222f08fd22097a3dd5698f693875f8cbb9"}, 
+   {"file": "jsonlines-1.2.0-py2.py3-none-any.whl", "hash": "sha256=0ebd5b0c3efe0d4b5018b320fb0ee1a7b680ab39f6eb853715859f818d386cc8"}, 
+   {"file": "jsonmerge-1.9.2-py3-none-any.whl", "hash": "sha256=cab93ee7763fb51a4a09bbdab2eacf499ffb208ab94247ae86acea3e0e823b05"}, 
+   {"file": "jsonschema-4.19.1-py3-none-any.whl", "hash": "sha256=cd5f1f9ed9444e554b38ba003af06c0a8c2868131e56bfbef0550fb450c0330e"}, 
+   {"file": "jsonschema_specifications-2023.7.1-py3-none-any.whl", "hash": "sha256=05adf340b659828a004220a9613be00fa3f223f2b82002e273dee62fd50524b1"}, 
+   {"file": "k_diffusion-0.0.16-py3-none-any.whl", "hash": "sha256=762436e845d70d0f922a2d1fa6bdab1ac55732a35a2a4c13ea7443c53921a611"}, 
+   {"file": "kiwisolver-1.4.5-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl", "hash": "sha256=6c3bd3cde54cafb87d74d8db50b909705c62b17c2099b8f2e25b461882e544ff"}, 
+   {"file": "kornia-0.7.0-py2.py3-none-any.whl", "hash": "sha256=daa77a65f9cbfc1a67487d64a6b23d18a81f10eb94380312cda255d431bcc18a"}, 
+   {"file": "lazy_loader-0.3-py3-none-any.whl", "hash": "sha256=1e9e76ee8631e264c62ce10006718e80b2cfc74340d17d1031e0f84af7478554"}, 
+   {"file": "librosa-0.10.0-py3-none-any.whl", "hash": "sha256=6db29c1467168da21313203dcef405a73a678d3aad0fbc67607250b2f08a3f5a"}, 
+   {"file": "lit-17.0.1.tar.gz", "hash": "sha256=44867ae576b5790567b120bc3f0d9f021dac9424d1b0840c75acd85f4610ac04"}, 
+   {"file": "llvmlite-0.40.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=e2dbbb8424037ca287983b115a29adf37d806baf7e1bf4a67bd2cffb74e085ed"}, 
+   {"file": "matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=ec726b08a5275d827aa91bb951e68234a4423adb91cf65bc0fcdc0f2777663f7"}, 
+   {"file": "mpmath-1.3.0-py3-none-any.whl", "hash": "sha256=a0b2b9fe80bbcd81a6647ff13108738cfb482d481d826cc0e02f5b35e5c88d2c"}, 
+   {"file": "msgpack-1.0.7-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=f6ffbc252eb0d229aeb2f9ad051200668fc3a9aaa8994e49f0cb2ffe2b7867e7"}, 
+   {"file": "multidict-6.0.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=d5e3fc56f88cc98ef8139255cf8cd63eb2c586531e43310ff859d6bb3a6b51f1"}, 
+   {"file": "networkx-2.8.8-py3-none-any.whl", "hash": "sha256=e435dfa75b1d7195c7b8378c3859f0445cd88c6b0375c181ed66823a9ceb7524"}, 
+   {"file": "nltk-3.8.1-py3-none-any.whl", "hash": "sha256=fd5c9109f976fa86bcadba8f91e47f5e9293bd034474752e92a520f81c93dda5"}, 
+   {"file": "num2words-0.5.12-py3-none-any.whl", "hash": "sha256=9eeef488658226ab36818c06d7aeb956d19b530fb62030596b6802fb4659f30e"}, 
+   {"file": "numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", "hash": "sha256=9fc0cd4ec93a1e3877985e10ed5837ed2991c83aa4b7ca574caae5c8b448cc4b"}, 
+   {"file": "numpy-1.22.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=b55b953a1bdb465f4dc181758570d321db4ac23005f90ffd2b434cc6609a63dd"}, 
+   {"file": "nvidia_cublas_cu11-11.10.3.66-py3-none-manylinux1_x86_64.whl", "hash": "sha256=d32e4d75f94ddfb93ea0a5dda08389bcc65d8916a25cb9f37ac89edaeed3bded"}, 
+   {"file": "nvidia_cuda_cupti_cu11-11.7.101-py3-none-manylinux1_x86_64.whl", "hash": "sha256=e0cfd9854e1f2edaa36ca20d21cd0bdd5dcfca4e3b9e130a082e05b33b6c5895"}, 
+   {"file": "nvidia_cuda_nvrtc_cu11-11.7.99-2-py3-none-manylinux1_x86_64.whl", "hash": "sha256=9f1562822ea264b7e34ed5930567e89242d266448e936b85bc97a3370feabb03"}, 
+   {"file": "nvidia_cuda_runtime_cu11-11.7.99-py3-none-manylinux1_x86_64.whl", "hash": "sha256=cc768314ae58d2641f07eac350f40f99dcb35719c4faff4bc458a7cd2b119e31"}, 
+   {"file": "nvidia_cudnn_cu11-8.5.0.96-2-py3-none-manylinux1_x86_64.whl", "hash": "sha256=402f40adfc6f418f9dae9ab402e773cfed9beae52333f6d86ae3107a1b9527e7"}, 
+   {"file": "nvidia_cufft_cu11-10.9.0.58-py3-none-manylinux1_x86_64.whl", "hash": "sha256=222f9da70c80384632fd6035e4c3f16762d64ea7a843829cb278f98b3cb7dd81"}, 
+   {"file": "nvidia_curand_cu11-10.2.10.91-py3-none-manylinux1_x86_64.whl", "hash": "sha256=eecb269c970fa599a2660c9232fa46aaccbf90d9170b96c462e13bcb4d129e2c"}, 
+   {"file": "nvidia_cusolver_cu11-11.4.0.1-2-py3-none-manylinux1_x86_64.whl", "hash": "sha256=72fa7261d755ed55c0074960df5904b65e2326f7adce364cbe4945063c1be412"}, 
+   {"file": "nvidia_cusparse_cu11-11.7.4.91-py3-none-manylinux1_x86_64.whl", "hash": "sha256=a3389de714db63321aa11fbec3919271f415ef19fda58aed7f2ede488c32733d"}, 
+   {"file": "nvidia_nccl_cu11-2.14.3-py3-none-manylinux1_x86_64.whl", "hash": "sha256=5e5534257d1284b8e825bc3a182c6f06acd6eb405e9f89d49340e98cd8f136eb"}, 
+   {"file": "nvidia_nvtx_cu11-11.7.91-py3-none-manylinux1_x86_64.whl", "hash": "sha256=b22c64eee426a62fc00952b507d6d29cf62b4c9df7a480fcc417e540e05fd5ac"}, 
+   {"file": "oauthlib-3.2.2-py3-none-any.whl", "hash": "sha256=8139f29aac13e25d502680e9e19963e83f16838d48a0d71c287fe40e7067fbca"}, 
+   {"file": "packaging-23.1-py3-none-any.whl", "hash": "sha256=994793af429502c4ea2ebf6bf664629d07c1a9fe974af92966e4b8d2df7edc61"}, 
+   {"file": "pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=9f69c4029613de47816b1bb30ff5ac778686688751a5e9c99ad8c7031f6508e5"}, 
+   {"file": "pathtools-0.1.2.tar.gz", "hash": "sha256=7c35c5421a39bb82e58018febd90e3b6e5db34c5443aaaf742b3f33d4655f1c0"}, 
+   {"file": "platformdirs-3.10.0-py3-none-any.whl", "hash": "sha256=d7c24979f292f916dc9cbf8648319032f551ea8c49a4c9bf2fb556a02070ec1d"}, 
+   {"file": "pooch-1.7.0-py3-none-any.whl", "hash": "sha256=74258224fc33d58f53113cf955e8d51bf01386b91492927d0d1b6b341a765ad7"}, 
+   {"file": "protobuf-4.24.3-cp37-abi3-manylinux2014_x86_64.whl", "hash": "sha256=f6ccbcf027761a2978c1406070c3788f6de4a4b2cc20800cc03d52df716ad675"}, 
+   {"file": "psutil-5.9.5-cp36-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=89518112647f1276b03ca97b65cc7f64ca587b1eb0278383017c2a0dcc26cbe4"}, 
+   {"file": "pyasn1-0.5.0-py2.py3-none-any.whl", "hash": "sha256=87a2121042a1ac9358cabcaf1d07680ff97ee6404333bacca15f76aa8ad01a57"}, 
+   {"file": "pyasn1_modules-0.3.0-py2.py3-none-any.whl", "hash": "sha256=d3ccd6ed470d9ffbc716be08bd90efbd44d0734bc9303818f7336070984a162d"}, 
+   {"file": "pycparser-2.21-py2.py3-none-any.whl", "hash": "sha256=8ee45429555515e1f6b185e78100aea234072576aa43ab53aefcae078162fca9"}, 
+   {"file": "pynndescent-0.5.10.tar.gz", "hash": "sha256=5d5dc683c03ef55fe3ddf693859720ca18f85c6e6e5bb0b4f14870278d5288ad"}, 
+   {"file": "pyparsing-3.1.1-py3-none-any.whl", "hash": "sha256=32c7c0b711493c72ff18a981d24f28aaf9c1fb7ed5e9667c9e84e3db623bdbfb"}, 
+   {"file": "pypinyin-0.49.0-py2.py3-none-any.whl", "hash": "sha256=3791f5b647e446866e6b5d3a63942ecbaeb29b49fed268a9d9a4982241c35fe0"}, 
+   {"file": "pysbd-0.3.4-py3-none-any.whl", "hash": "sha256=cd838939b7b0b185fcf86b0baf6636667dfb6e474743beeff878e9f42e022953"}, 
+   {"file": "python_crfsuite-0.9.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=cd97cb24a273bb9abcd50974c020322838b5d910eccd663e9610aab150557cc3"}, 
+   {"file": "python_dateutil-2.8.2-py2.py3-none-any.whl", "hash": "sha256=961d03dc3453ebbc59dbdea9e4e11c5651520a876d0f4db161e8674aae935da9"}, 
+   {"file": "pytz-2023.3.post1-py2.py3-none-any.whl", "hash": "sha256=ce42d816b81b68506614c11e8937d3aa9e41007ceb50bfdcb0749b921bf646c7"}, 
+   {"file": "referencing-0.30.2-py3-none-any.whl", "hash": "sha256=449b6669b6121a9e96a7f9e410b245d471e8d48964c67113ce9afe50c8dd7bdf"}, 
+   {"file": "regex-2023.8.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=7098c524ba9f20717a56a8d551d2ed491ea89cbf37e540759ed3b776a4f8d6eb"}, 
+   {"file": "requests-2.31.0-py3-none-any.whl", "hash": "sha256=58cd2187c01e70e6e26505bca751777aa9f2ee0b7f4300988b709f44e013003f"}, 
+   {"file": "requests_oauthlib-1.3.1-py2.py3-none-any.whl", "hash": "sha256=2577c501a2fb8d05a304c09d090d6e47c306fef15809d102b327cf8364bddab5"}, 
+   {"file": "resize_right-0.0.2-py3-none-any.whl", "hash": "sha256=78351ca3eda0872208fcbc90861b45de559f90fb4027ce41825fdeb9b995005c"}, 
+   {"file": "rpds_py-0.10.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=e8c71ea77536149e36c4c784f6d420ffd20bea041e3ba21ed021cb40ce58e2c9"}, 
+   {"file": "rsa-4.9-py3-none-any.whl", "hash": "sha256=90260d9058e514786967344d0ef75fa8727eed8a7d2e43ce9f4bcf1b536174f7"}, 
+   {"file": "safetensors-0.3.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=ad3cc8006e7a86ee7c88bd2813ec59cd7cc75b03e6fa4af89b9c7b235b438d68"}, 
+   {"file": "scikit_image-0.21.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=78b1e96c59cab640ca5c5b22c501524cfaf34cbe0cb51ba73bd9a9ede3fb6e1d"}, 
+   {"file": "scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=7617164951c422747e7c32be4afa15d75ad8044f42e7d70d3e2e0429a50e6718"}, 
+   {"file": "scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=c77da50c9a91e23beb63c2a711ef9e9ca9a2060442757dffee34ea41847d8156"}, 
+   {"file": "sentry_sdk-1.31.0-py2.py3-none-any.whl", "hash": "sha256=64a7141005fb775b9db298a30de93e3b83e0ddd1232dc6f36eb38aebc1553291"}, 
+   {"file": "setproctitle-1.3.2-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=fe8a988c7220c002c45347430993830666e55bc350179d91fcee0feafe64e1d4"}, 
+   {"file": "setuptools-68.2.2-py3-none-any.whl", "hash": "sha256=b454a35605876da60632df1a60f736524eb73cc47bbc9f3f1ef1b644de74fd2a"}, 
+   {"file": "six-1.16.0-py2.py3-none-any.whl", "hash": "sha256=8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"}, 
+   {"file": "smmap-5.0.1-py3-none-any.whl", "hash": "sha256=e6d8668fa5f93e706934a62d7b4db19c8d9eb8cf2adbb75ef1b675aa332b69da"}, 
+   {"file": "soundfile-0.12.1-py2.py3-none-manylinux_2_31_x86_64.whl", "hash": "sha256=074247b771a181859d2bc1f98b5ebf6d5153d2c397b86ee9e29ba602a8dfe2a6"}, 
+   {"file": "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=3c72ab44bfd72ecadb0a29e38487c241eb69a9867d3476e528c64e957fc06ff7"}, 
+   {"file": "sympy-1.12-py3-none-any.whl", "hash": "sha256=c3588cd4295d0c0f603d0f2ae780587e64e2efeedb3521e46b9bb1d08d184fa5"}, 
+   {"file": "tbb-2021.10.0-py2.py3-none-manylinux1_x86_64.whl", "hash": "sha256=a201aa14e098f7f6c8e45e393382007d01552f92797283b46d550068717cfb8c"}, 
+   {"file": "tensorboard-2.14.1-py3-none-any.whl", "hash": "sha256=3db108fb58f023b6439880e177743c5f1e703e9eeb5fb7d597871f949f85fd58"}, 
+   {"file": "tensorboard_data_server-0.7.1-py3-none-manylinux2014_x86_64.whl", "hash": "sha256=255c02b7f5b03dd5c0a88c928e563441ff39e1d4b4a234cdbe09f016e53d9594"}, 
+   {"file": "threadpoolctl-3.2.0-py3-none-any.whl", "hash": "sha256=2b7818516e423bdaebb97c723f86a7c6b0a83d3f3b0970328d66f4d9104dc032"}, 
+   {"file": "tifffile-2023.9.26-py3-none-any.whl", "hash": "sha256=1de47fa945fddaade256e25ad4f375ae65547f3c1354063aded881c32a64cf89"}, 
+   {"file": "tokenizers-0.13.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=dd7730c98a3010cd4f523465867ff95cd9d6430db46676ce79358f65ae39797b"}, 
+   {"file": "torch-2.0.1-cp39-cp39-manylinux1_x86_64.whl", "hash": "sha256=e10e1597f2175365285db1b24019eb6f04d53dcd626c735fc502f1e8b6be9875"}, 
+   {"file": "torchaudio-2.0.2-cp39-cp39-manylinux1_x86_64.whl", "hash": "sha256=6c617d5978a6b8a29d6675dcd18196e6dc541daac44b7b2b6eeb31aed82f3203"}, 
+   {"file": "torchdiffeq-0.2.3-py3-none-any.whl", "hash": "sha256=b5b01ec1294a2d8d5f77e567bf17c5de1237c0573cb94deefa88326f0e18c338"}, 
+   {"file": "torchsde-0.2.6-py3-none-any.whl", "hash": "sha256=19bf7ff02eec7e8e46ba1cdb4aa0f9db1c51d492524a16975234b467f7fc463b"}, 
+   {"file": "torchvision-0.15.2-cp39-cp39-manylinux1_x86_64.whl", "hash": "sha256=63df26673e66cba3f17e07c327a8cafa3cce98265dbc3da329f1951d45966838"}, 
+   {"file": "tqdm-4.64.1-py2.py3-none-any.whl", "hash": "sha256=6fee160d6ffcd1b1c68c65f14c829c22832bc401726335ce92c52d395944a6a1"}, 
+   {"file": "trainer-0.0.31-py3-none-any.whl", "hash": "sha256=c15d7cc5dc048a9004a7cebc4595639c290c76f8248b65b51ab7e534c1bcce10"}, 
+   {"file": "trampoline-0.1.2-py3-none-any.whl", "hash": "sha256=36cc9a4ff9811843d177fc0e0740efbd7da39eadfe6e50c9e2937cbc06d899d9"}, 
+   {"file": "transformers-4.33.3-py3-none-any.whl", "hash": "sha256=7150bbf6781ddb3338ce7d74f4d6f557e6c236a0a1dd3de57412214caae7fd71"}, 
+   {"file": "triton-2.0.0-1-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", "hash": "sha256=74f118c12b437fb2ca25e1a04759173b517582fcf4c7be11913316c764213656"}, 
+   {"file": "typing_extensions-4.8.0-py3-none-any.whl", "hash": "sha256=8f92fc8806f9a6b641eaa5318da32b44d401efaac0f6678c9bc448ba3605faa0"}, 
+   {"file": "tzlocal-5.0.1-py3-none-any.whl", "hash": "sha256=f3596e180296aaf2dbd97d124fe76ae3a0e3d32b258447de7b939b3fd4be992f"}, 
+   {"file": "umap-learn-0.5.4.tar.gz", "hash": "sha256=8cb2fa20b2493f9adbff3bfa3b3e3787f6d67d1547e688ea2bdc272b37d89e18"}, 
+   {"file": "urllib3-2.0.5-py3-none-any.whl", "hash": "sha256=ef16afa8ba34a1f989db38e1dbbe0c302e4289a47856990d0682e374563ce35e"}, 
+   {"file": "wandb-0.15.11-py3-none-any.whl", "hash": "sha256=d0ea8b683c1416b626de0a57800687fb6c36307b3e1a455b7ed4dee6e342f391"}, 
+   {"file": "wcwidth-0.2.8-py2.py3-none-any.whl", "hash": "sha256=77f719e01648ed600dfa5402c347481c0992263b81a027344f3e1ba25493a704"}, 
+   {"file": "werkzeug-3.0.0-py3-none-any.whl", "hash": "sha256=cbb2600f7eabe51dbc0502f58be0b3e1b96b893b05695ea2b35b43d4de2d9962"}, 
+   {"file": "wheel-0.41.2-py3-none-any.whl", "hash": "sha256=75909db2664838d015e3d9139004ee16711748a52c8f336b52882266540215d8"}, 
+   {"file": "yarl-1.9.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=a74dcbfe780e62f4b5a062714576f16c2f3493a0394e555ab141bf0d746bb955"}, 
+   {"file": "zipp-3.17.0-py3-none-any.whl", "hash": "sha256=0e923e726174922dce09c53c59ad483ff7bbb8e572e00c7f7c46b88556409f31"}
+  ]
+ }, 
+ "resolution_rounds": [
+  {
+   "added": {
+    "TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl": ["<3.12,>=3.9.0", "cython==0.29.30", "scipy>=1.11.2", "torch>=1.7", "torchaudio", "soundfile==0.12.*", "librosa==0.10.*", "scikit-learn==1.3.0", "inflect==5.6.*", "tqdm==4.64.*", "anyascii==0.3.*", "pyyaml==6.*", "fsspec==2023.6.0", "aiohttp==3.8.*", "packaging==23.1", "flask==2.*", "pysbd==0.3.4", "umap-learn==0.5.*", "pandas<2.0,>=1.4", "matplotlib==3.7.*", "trainer", "coqpit>=0.0.16", "jieba", "pypinyin", "gruut==2.2.3", "gruut[de,es,fr]==2.2.3", "jamo", "nltk", "g2pkk>=0.1.1", "bangla", "bnnumerizer", "bnunicodenormalizer", "k-diffusion", "einops==0.6.*", "transformers==4.33.*", "encodec==0.1.*", "unidecode==1.3.*", "numpy==1.22.0; python_version <= \"3.10\"", "numba==0.57.0; python_version >= \"3.9\""]
+   }, 
+   "pinned": "TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl"
+  }, 
+  {"pinned": "PythonCandidate"}, 
+  {
+   "added": {
+    "Cython-0.29.30-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl": ["!=3.0.*,!=3.1.*,!=3.2.*,>=2.6"]
+   }, 
+   "pinned": "Cython-0.29.30-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "fsspec-2023.6.0-py3-none-any.whl": [">=3.8"]
+   }, 
+   "pinned": "fsspec-2023.6.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "gruut-2.2.3.tar.gz": [">=3.6", "Babel<3.0.0,>=2.8.0", "dateparser~=1.1.0", "gruut-ipa<1.0,>=0.12.0", "gruut-lang-en~=2.0.0", "jsonlines~=1.2.0", "networkx<3.0.0,>=2.5.0", "num2words<1.0.0,>=0.5.10", "numpy<2.0.0,>=1.19.0", "python-crfsuite~=0.9.7"]
+   }, 
+   "pinned": "gruut-2.2.3.tar.gz"
+  }, 
+  {
+   "added": {
+    "numpy-1.22.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.8"]
+   }, 
+   "pinned": "numpy-1.22.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "gruut-2.2.3.tar.gz": ["gruut-2.2.3.tar.gz", "Babel<3.0.0,>=2.8.0", "dateparser~=1.1.0", "gruut-ipa<1.0,>=0.12.0", "gruut-lang-en~=2.0.0", "jsonlines~=1.2.0", "networkx<3.0.0,>=2.5.0", "num2words<1.0.0,>=0.5.10", "numpy<2.0.0,>=1.19.0", "python-crfsuite~=0.9.7", "gruut-lang-de~=2.0.0; extra == \"de\"", "gruut-lang-fr~=2.0.0; extra == \"fr\"", "gruut-lang-es~=2.0.0; extra == \"es\""]
+   }, 
+   "pinned": "gruut-2.2.3.tar.gz"
+  }, 
+  {
+   "added": {
+    "numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl": [">=3.8", "llvmlite<0.41,>=0.40.0dev0", "numpy<1.25,>=1.21"]
+   }, 
+   "pinned": "numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "packaging-23.1-py3-none-any.whl": [">=3.7"]
+   }, 
+   "pinned": "packaging-23.1-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "pysbd-0.3.4-py3-none-any.whl": [">=3"]
+   }, 
+   "pinned": "pysbd-0.3.4-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.8", "numpy>=1.17.3", "scipy>=1.5.0", "joblib>=1.1.1", "threadpoolctl>=2.0.0"]
+   }, 
+   "pinned": "scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "aiohttp-3.8.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.6", "attrs>=17.3.0", "charset-normalizer<4.0,>=2.0", "multidict<7.0,>=4.5", "async-timeout<5.0,>=4.0.0a3", "yarl<2.0,>=1.0", "frozenlist>=1.1.1", "aiosignal>=1.1.2"]
+   }, 
+   "pinned": "aiohttp-3.8.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "anyascii-0.3.2-py3-none-any.whl": [">=3.3"]
+   }, 
+   "pinned": "anyascii-0.3.2-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "async_timeout-4.0.3-py3-none-any.whl": [">=3.7"]
+   }, 
+   "pinned": "async_timeout-4.0.3-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "Babel-2.12.1-py3-none-any.whl": [">=3.7"]
+   }, 
+   "pinned": "Babel-2.12.1-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "charset_normalizer-3.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.7.0"]
+   }, 
+   "pinned": "charset_normalizer-3.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "dateparser-1.1.8-py2.py3-none-any.whl": [">=3.7", "python-dateutil", "pytz", "regex!=2019.02.19,!=2021.8.27", "tzlocal"]
+   }, 
+   "pinned": "dateparser-1.1.8-py2.py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "einops-0.6.1-py3-none-any.whl": [">=3.7"]
+   }, 
+   "pinned": "einops-0.6.1-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "encodec-0.1.1.tar.gz": [">=3.8.0", "numpy", "torch", "torchaudio", "einops"]
+   }, 
+   "pinned": "encodec-0.1.1.tar.gz"
+  }, 
+  {
+   "added": {
+    "flask-2.3.3-py3-none-any.whl": [">=3.8", "Werkzeug>=2.3.7", "Jinja2>=3.1.2", "itsdangerous>=2.1.2", "click>=8.1.3", "blinker>=1.6.2", "importlib-metadata>=3.6.0; python_version < \"3.10\""]
+   }, 
+   "pinned": "flask-2.3.3-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "gruut-ipa-0.13.0.tar.gz": [">=3.6"]
+   }, 
+   "pinned": "gruut-ipa-0.13.0.tar.gz"
+  }, 
+  {"pinned": "gruut_lang_de-2.0.0.tar.gz"}, 
+  {"pinned": "gruut_lang_en-2.0.0.tar.gz"}, 
+  {"pinned": "gruut_lang_es-2.0.0.tar.gz"}, 
+  {"pinned": "gruut_lang_fr-2.0.2.tar.gz"}, 
+  {
+   "added": {
+    "inflect-5.6.2-py3-none-any.whl": [">=3.7"]
+   }, 
+   "pinned": "inflect-5.6.2-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "jsonlines-1.2.0-py2.py3-none-any.whl": ["six"]
+   }, 
+   "pinned": "jsonlines-1.2.0-py2.py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "librosa-0.10.1-py3-none-any.whl": [">=3.7", "audioread>=2.1.9", "numpy!=1.22.0,!=1.22.1,!=1.22.2,>=1.20.3"], 
+    "librosa-0.10.0.post2-py3-none-any.whl": [">=3.7", "audioread>=2.1.9", "numpy!=1.22.0,!=1.22.1,!=1.22.2,>=1.20.3"], 
+    "librosa-0.10.0.post1-py3-none-any.whl": [">=3.7", "audioread>=2.1.9", "numpy!=1.22.0,!=1.22.1,!=1.22.2,>=1.20.3"], 
+    "librosa-0.10.0-py3-none-any.whl": [">=3.7", "audioread>=2.1.9", "numpy>=1.20.3", "scipy>=1.2.0", "scikit-learn>=0.20.0", "joblib>=0.14", "decorator>=4.3.0", "numba>=0.51.0", "soundfile>=0.12.1", "pooch>=1.0", "soxr>=0.3.2", "typing-extensions>=4.1.1", "lazy-loader>=0.1", "msgpack>=1.0"]
+   }, 
+   "rejected": {
+    "numpy==1.22.0; python_version <= \"3.10\"": ["TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl"], 
+    "numpy<2.0.0,>=1.19.0": ["gruut-2.2.3.tar.gz"], 
+    "numpy<1.25,>=1.21": ["numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy>=1.17.3": ["scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy": ["encodec-0.1.1.tar.gz"], 
+    "numpy!=1.22.0,!=1.22.1,!=1.22.2,>=1.20.3": ["librosa-0.10.0.post1-py3-none-any.whl", "librosa-0.10.0.post2-py3-none-any.whl", "librosa-0.10.1-py3-none-any.whl"]
+   }, 
+   "pinned": "librosa-0.10.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "llvmlite-0.40.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.8"]
+   }, 
+   "pinned": "llvmlite-0.40.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.8", "contourpy>=1.0.1", "cycler>=0.10", "fonttools>=4.22.0", "kiwisolver>=1.0.1", "numpy<2,>=1.20", "packaging>=20.0", "pillow>=6.2.0", "pyparsing>=2.3.1", "python-dateutil>=2.7", "importlib-resources>=3.2.0; python_version < \"3.10\""]
+   }, 
+   "pinned": "matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "multidict-6.0.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.7"]
+   }, 
+   "pinned": "multidict-6.0.4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "networkx-2.8.8-py3-none-any.whl": [">=3.8"]
+   }, 
+   "pinned": "networkx-2.8.8-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "num2words-0.5.12-py3-none-any.whl": ["docopt>=0.6.2"]
+   }, 
+   "pinned": "num2words-0.5.12-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.8", "python-dateutil>=2.8.1", "pytz>=2020.1", "numpy>=1.20.3; python_version < \"3.10\""]
+   }, 
+   "pinned": "pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {"pinned": "python_crfsuite-0.9.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"}, 
+  {
+   "added": {
+    "PyYAML-6.0.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.6"]
+   }, 
+   "pinned": "PyYAML-6.0.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "soundfile-0.12.1-py2.py3-none-manylinux_2_31_x86_64.whl": ["cffi>=1.0"]
+   }, 
+   "pinned": "soundfile-0.12.1-py2.py3-none-manylinux_2_31_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "tqdm-4.64.1-py2.py3-none-any.whl": ["!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,>=2.7"]
+   }, 
+   "pinned": "tqdm-4.64.1-py2.py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "transformers-4.33.3-py3-none-any.whl": [">=3.8.0", "filelock", "huggingface-hub<1.0,>=0.15.1", "numpy>=1.17", "packaging>=20.0", "pyyaml>=5.1", "regex!=2019.12.17", "requests", "tokenizers!=0.11.3,<0.14,>=0.11.1", "safetensors>=0.3.1", "tqdm>=4.27"]
+   }, 
+   "pinned": "transformers-4.33.3-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "huggingface_hub-0.17.3-py3-none-any.whl": [">=3.8.0", "filelock", "fsspec", "requests", "tqdm>=4.42.1", "pyyaml>=5.1", "typing-extensions>=3.7.4.3", "packaging>=20.9"]
+   }, 
+   "pinned": "huggingface_hub-0.17.3-py3-none-any.whl"
+  }, 
+  {"pinned": "tokenizers-0.13.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"}, 
+  {
+   "added": {
+    "umap-learn-0.5.4.tar.gz": ["numpy>=1.17", "scipy>=1.3.1", "scikit-learn>=0.22", "numba>=0.51.2", "pynndescent>=0.5", "tqdm", "tbb>=2019.0"]
+   }, 
+   "pinned": "umap-learn-0.5.4.tar.gz"
+  }, 
+  {
+   "added": {
+    "Unidecode-1.3.7-py3-none-any.whl": [">=3.5"]
+   }, 
+   "pinned": "Unidecode-1.3.7-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "yarl-1.9.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.7", "multidict>=4.0", "idna>=2.0"]
+   }, 
+   "pinned": "yarl-1.9.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "aiosignal-1.3.1-py3-none-any.whl": [">=3.7", "frozenlist>=1.1.0"]
+   }, 
+   "pinned": "aiosignal-1.3.1-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "attrs-23.1.0-py3-none-any.whl": [">=3.7"]
+   }, 
+   "pinned": "attrs-23.1.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "audioread-3.0.1-py3-none-any.whl": [">=3.6"]
+   }, 
+   "pinned": "audioread-3.0.1-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "blinker-1.6.2-py3-none-any.whl": [">=3.7"]
+   }, 
+   "pinned": "blinker-1.6.2-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "cffi-1.16.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.8", "pycparser"]
+   }, 
+   "pinned": "cffi-1.16.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "click-8.1.7-py3-none-any.whl": [">=3.7"]
+   }, 
+   "pinned": "click-8.1.7-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.8", "numpy<2.0,>=1.16; python_version <= \"3.11\""]
+   }, 
+   "pinned": "contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "coqpit-0.0.17-py3-none-any.whl": [">=3.7.0"]
+   }, 
+   "pinned": "coqpit-0.0.17-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "cycler-0.12.0-py3-none-any.whl": [">=3.8"]
+   }, 
+   "pinned": "cycler-0.12.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "decorator-5.1.1-py3-none-any.whl": [">=3.5"]
+   }, 
+   "pinned": "decorator-5.1.1-py3-none-any.whl"
+  }, 
+  {"pinned": "docopt-0.6.2.tar.gz"}, 
+  {
+   "added": {
+    "fonttools-4.43.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.8"]
+   }, 
+   "pinned": "fonttools-4.43.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "frozenlist-1.4.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.8"]
+   }, 
+   "pinned": "frozenlist-1.4.0-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "g2pkk-0.1.2-py3-none-any.whl": [">=3.6", "jamo", "nltk"]
+   }, 
+   "pinned": "g2pkk-0.1.2-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "idna-3.4-py3-none-any.whl": [">=3.5"]
+   }, 
+   "pinned": "idna-3.4-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "importlib_metadata-6.8.0-py3-none-any.whl": [">=3.8", "zipp>=0.5"]
+   }, 
+   "pinned": "importlib_metadata-6.8.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "importlib_resources-6.1.0-py3-none-any.whl": [">=3.8", "zipp>=3.1.0; python_version < \"3.10\""]
+   }, 
+   "pinned": "importlib_resources-6.1.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "itsdangerous-2.1.2-py3-none-any.whl": [">=3.7"]
+   }, 
+   "pinned": "itsdangerous-2.1.2-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "Jinja2-3.1.2-py3-none-any.whl": [">=3.7", "MarkupSafe>=2.0"]
+   }, 
+   "pinned": "Jinja2-3.1.2-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "joblib-1.3.2-py3-none-any.whl": [">=3.7"]
+   }, 
+   "pinned": "joblib-1.3.2-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "kiwisolver-1.4.5-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl": [">=3.7"]
+   }, 
+   "pinned": "kiwisolver-1.4.5-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "lazy_loader-0.3-py3-none-any.whl": [">=3.7"]
+   }, 
+   "pinned": "lazy_loader-0.3-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "MarkupSafe-2.1.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.7"]
+   }, 
+   "pinned": "MarkupSafe-2.1.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "msgpack-1.0.7-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.8"]
+   }, 
+   "pinned": "msgpack-1.0.7-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "Pillow-10.0.1-cp39-cp39-manylinux_2_28_x86_64.whl": [">=3.8"]
+   }, 
+   "pinned": "Pillow-10.0.1-cp39-cp39-manylinux_2_28_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "pooch-1.7.0-py3-none-any.whl": [">=3.7", "platformdirs>=2.5.0", "packaging>=20.0", "requests>=2.19.0"]
+   }, 
+   "pinned": "pooch-1.7.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "platformdirs-3.10.0-py3-none-any.whl": [">=3.7"]
+   }, 
+   "pinned": "platformdirs-3.10.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "pynndescent-0.5.10.tar.gz": ["scikit-learn>=0.18", "scipy>=1.0", "numba>=0.51.2", "llvmlite>=0.30", "joblib>=0.11"]
+   }, 
+   "pinned": "pynndescent-0.5.10.tar.gz"
+  }, 
+  {
+   "added": {
+    "pyparsing-3.1.1-py3-none-any.whl": [">=3.6.8"]
+   }, 
+   "pinned": "pyparsing-3.1.1-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "python_dateutil-2.8.2-py2.py3-none-any.whl": ["!=3.0.*,!=3.1.*,!=3.2.*,>=2.7", "six>=1.5"]
+   }, 
+   "pinned": "python_dateutil-2.8.2-py2.py3-none-any.whl"
+  }, 
+  {"pinned": "pytz-2023.3.post1-py2.py3-none-any.whl"}, 
+  {
+   "added": {
+    "regex-2023.8.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.6"]
+   }, 
+   "pinned": "regex-2023.8.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "requests-2.31.0-py3-none-any.whl": [">=3.7", "charset-normalizer<4,>=2", "idna<4,>=2.5", "urllib3<3,>=1.21.1", "certifi>=2017.4.17"]
+   }, 
+   "pinned": "requests-2.31.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "urllib3-2.0.5-py3-none-any.whl": [">=3.7"]
+   }, 
+   "pinned": "urllib3-2.0.5-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "certifi-2023.7.22-py3-none-any.whl": [">=3.6"]
+   }, 
+   "pinned": "certifi-2023.7.22-py3-none-any.whl"
+  }, 
+  {"pinned": "safetensors-0.3.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"}, 
+  {
+   "added": {
+    "scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": ["<3.13,>=3.9", "numpy<1.28.0,>=1.21.6"]
+   }, 
+   "pinned": "scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "six-1.16.0-py2.py3-none-any.whl": ["!=3.0.*,!=3.1.*,!=3.2.*,>=2.7"]
+   }, 
+   "pinned": "six-1.16.0-py2.py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.6", "numpy"]
+   }, 
+   "pinned": "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {"pinned": "tbb-2021.10.0-py2.py3-none-manylinux1_x86_64.whl"}, 
+  {
+   "added": {
+    "threadpoolctl-3.2.0-py3-none-any.whl": [">=3.8"]
+   }, 
+   "pinned": "threadpoolctl-3.2.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "torch-2.0.1-cp39-cp39-manylinux1_x86_64.whl": [">=3.8.0", "filelock", "typing-extensions", "sympy", "networkx", "jinja2", "nvidia-cuda-nvrtc-cu11==11.7.99; platform_system == \"Linux\" and platform_machine == \"x86_64\"", "nvidia-cuda-runtime-cu11==11.7.99; platform_system == \"Linux\" and platform_machine == \"x86_64\"", "nvidia-cuda-cupti-cu11==11.7.101; platform_system == \"Linux\" and platform_machine == \"x86_64\"", "nvidia-cudnn-cu11==8.5.0.96; platform_system == \"Linux\" and platform_machine == \"x86_64\"", "nvidia-cublas-cu11==11.10.3.66; platform_system == \"Linux\" and platform_machine == \"x86_64\"", "nvidia-cufft-cu11==10.9.0.58; platform_system == \"Linux\" and platform_machine == \"x86_64\"", "nvidia-curand-cu11==10.2.10.91; platform_system == \"Linux\" and platform_machine == \"x86_64\"", "nvidia-cusolver-cu11==11.4.0.1; platform_system == \"Linux\" and platform_machine == \"x86_64\"", "nvidia-cusparse-cu11==11.7.4.91; platform_system == \"Linux\" and platform_machine == \"x86_64\"", "nvidia-nccl-cu11==2.14.3; platform_system == \"Linux\" and platform_machine == \"x86_64\"", "nvidia-nvtx-cu11==11.7.91; platform_system == \"Linux\" and platform_machine == \"x86_64\"", "triton==2.0.0; platform_system == \"Linux\" and platform_machine == \"x86_64\""]
+   }, 
+   "pinned": "torch-2.0.1-cp39-cp39-manylinux1_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "nvidia_cublas_cu11-11.10.3.66-py3-none-manylinux1_x86_64.whl": [">=3", "setuptools", "wheel"]
+   }, 
+   "pinned": "nvidia_cublas_cu11-11.10.3.66-py3-none-manylinux1_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "nvidia_cuda_cupti_cu11-11.7.101-py3-none-manylinux1_x86_64.whl": [">=3", "setuptools", "wheel"]
+   }, 
+   "pinned": "nvidia_cuda_cupti_cu11-11.7.101-py3-none-manylinux1_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "nvidia_cuda_nvrtc_cu11-11.7.99-2-py3-none-manylinux1_x86_64.whl": [">=3"]
+   }, 
+   "pinned": "nvidia_cuda_nvrtc_cu11-11.7.99-2-py3-none-manylinux1_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "nvidia_cuda_runtime_cu11-11.7.99-py3-none-manylinux1_x86_64.whl": [">=3", "setuptools", "wheel"]
+   }, 
+   "pinned": "nvidia_cuda_runtime_cu11-11.7.99-py3-none-manylinux1_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "nvidia_cudnn_cu11-8.5.0.96-2-py3-none-manylinux1_x86_64.whl": [">=3", "nvidia-cublas-cu11"]
+   }, 
+   "pinned": "nvidia_cudnn_cu11-8.5.0.96-2-py3-none-manylinux1_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "nvidia_cufft_cu11-10.9.0.58-py3-none-manylinux1_x86_64.whl": [">=3"]
+   }, 
+   "pinned": "nvidia_cufft_cu11-10.9.0.58-py3-none-manylinux1_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "nvidia_curand_cu11-10.2.10.91-py3-none-manylinux1_x86_64.whl": [">=3", "setuptools", "wheel"]
+   }, 
+   "pinned": "nvidia_curand_cu11-10.2.10.91-py3-none-manylinux1_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "nvidia_cusolver_cu11-11.4.0.1-2-py3-none-manylinux1_x86_64.whl": [">=3", "nvidia-cublas-cu11"]
+   }, 
+   "pinned": "nvidia_cusolver_cu11-11.4.0.1-2-py3-none-manylinux1_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "nvidia_cusparse_cu11-11.7.4.91-py3-none-manylinux1_x86_64.whl": [">=3", "setuptools", "wheel"]
+   }, 
+   "pinned": "nvidia_cusparse_cu11-11.7.4.91-py3-none-manylinux1_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "nvidia_nccl_cu11-2.14.3-py3-none-manylinux1_x86_64.whl": [">=3"]
+   }, 
+   "pinned": "nvidia_nccl_cu11-2.14.3-py3-none-manylinux1_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "nvidia_nvtx_cu11-11.7.91-py3-none-manylinux1_x86_64.whl": [">=3", "setuptools", "wheel"]
+   }, 
+   "pinned": "nvidia_nvtx_cu11-11.7.91-py3-none-manylinux1_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "triton-2.0.0-1-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl": ["cmake", "filelock", "torch", "lit"]
+   }, 
+   "pinned": "triton-2.0.0-1-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "typing_extensions-4.8.0-py3-none-any.whl": [">=3.8"]
+   }, 
+   "pinned": "typing_extensions-4.8.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "werkzeug-3.0.0-py3-none-any.whl": [">=3.8", "MarkupSafe>=2.1.1"]
+   }, 
+   "pinned": "werkzeug-3.0.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "zipp-3.17.0-py3-none-any.whl": [">=3.8"]
+   }, 
+   "pinned": "zipp-3.17.0-py3-none-any.whl"
+  }, 
+  {"pinned": "bangla-0.0.2-py2.py3-none-any.whl"}, 
+  {"pinned": "bnnumerizer-0.0.2.tar.gz"}, 
+  {"pinned": "bnunicodenormalizer-0.1.6.tar.gz"}, 
+  {"pinned": "cmake-3.27.6-py2.py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"}, 
+  {
+   "added": {
+    "filelock-3.12.4-py3-none-any.whl": [">=3.8"]
+   }, 
+   "pinned": "filelock-3.12.4-py3-none-any.whl"
+  }, 
+  {"pinned": "jamo-0.4.1-py3-none-any.whl"}, 
+  {"pinned": "jieba-0.42.1.tar.gz"}, 
+  {
+   "added": {
+    "k_diffusion-0.1.0-py3-none-any.whl": ["accelerate", "clean-fid", "clip-anytorch", "dctorch", "einops", "jsonmerge", "kornia", "Pillow", "rotary-embedding-torch", "safetensors", "scikit-image", "scipy", "torch>=2.0", "torchdiffeq", "torchsde", "torchvision", "tqdm", "wandb"]
+   }, 
+   "pinned": "k_diffusion-0.1.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "accelerate-0.23.0-py3-none-any.whl": [">=3.8.0", "numpy>=1.17", "packaging>=20.0", "psutil", "pyyaml", "torch>=1.10.0", "huggingface-hub"]
+   }, 
+   "pinned": "accelerate-0.23.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "clean_fid-0.1.35-py3-none-any.whl": ["torch", "torchvision", "numpy>=1.14.3", "scipy>=1.0.1", "tqdm>=4.28.1", "pillow>=8.1", "requests"]
+   }, 
+   "pinned": "clean_fid-0.1.35-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "clip_anytorch-2.5.2-py3-none-any.whl": ["ftfy", "regex", "tqdm", "torch", "torchvision"]
+   }, 
+   "pinned": "clip_anytorch-2.5.2-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dctorch-0.1.2-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.1-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.0-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"]
+   }, 
+   "rejected": {
+    "numpy==1.22.0; python_version <= \"3.10\"": ["TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl"], 
+    "numpy<2.0.0,>=1.19.0": ["gruut-2.2.3.tar.gz"], 
+    "numpy<1.25,>=1.21": ["numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy>=1.17.3": ["scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy": ["encodec-0.1.1.tar.gz", "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3": ["librosa-0.10.0-py3-none-any.whl"], 
+    "numpy<2,>=1.20": ["matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3; python_version < \"3.10\"": ["pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.17": ["accelerate-0.23.0-py3-none-any.whl", "transformers-4.33.3-py3-none-any.whl", "umap-learn-0.5.4.tar.gz"], 
+    "numpy<2.0,>=1.16; python_version <= \"3.11\"": ["contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<1.28.0,>=1.21.6": ["scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.14.3": ["clean_fid-0.1.35-py3-none-any.whl"], 
+    "numpy<2.0.0,>=1.22.3": ["dctorch-0.1.0-py3-none-any.whl", "dctorch-0.1.1-py3-none-any.whl", "dctorch-0.1.2-py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "dctorch-0.1.2-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.1-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.0-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"]
+   }, 
+   "rejected": {
+    "numpy==1.22.0; python_version <= \"3.10\"": ["TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl"], 
+    "numpy<2.0.0,>=1.19.0": ["gruut-2.2.3.tar.gz"], 
+    "numpy<1.25,>=1.21": ["numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy>=1.17.3": ["scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy": ["encodec-0.1.1.tar.gz", "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3": ["librosa-0.10.0-py3-none-any.whl"], 
+    "numpy<2,>=1.20": ["matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3; python_version < \"3.10\"": ["pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.17": ["accelerate-0.23.0-py3-none-any.whl", "transformers-4.33.3-py3-none-any.whl", "umap-learn-0.5.4.tar.gz"], 
+    "numpy<2.0,>=1.16; python_version <= \"3.11\"": ["contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<1.28.0,>=1.21.6": ["scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.14.3": ["clean_fid-0.1.35-py3-none-any.whl"], 
+    "numpy<2.0.0,>=1.22.3": ["dctorch-0.1.0-py3-none-any.whl", "dctorch-0.1.1-py3-none-any.whl", "dctorch-0.1.2-py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "clean_fid-0.1.34-py3-none-any.whl": ["torch", "torchvision", "numpy>=1.14.3", "scipy>=1.0.1", "tqdm>=4.28.1", "pillow>=8.1", "requests==2.25.1"]
+   }, 
+   "pinned": "clean_fid-0.1.34-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dctorch-0.1.2-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.1-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.0-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"]
+   }, 
+   "rejected": {
+    "numpy==1.22.0; python_version <= \"3.10\"": ["TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl"], 
+    "numpy<2.0.0,>=1.19.0": ["gruut-2.2.3.tar.gz"], 
+    "numpy<1.25,>=1.21": ["numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy>=1.17.3": ["scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy": ["encodec-0.1.1.tar.gz", "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3": ["librosa-0.10.0-py3-none-any.whl"], 
+    "numpy<2,>=1.20": ["matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3; python_version < \"3.10\"": ["pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.17": ["accelerate-0.23.0-py3-none-any.whl", "transformers-4.33.3-py3-none-any.whl", "umap-learn-0.5.4.tar.gz"], 
+    "numpy<2.0,>=1.16; python_version <= \"3.11\"": ["contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<1.28.0,>=1.21.6": ["scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.14.3": ["clean_fid-0.1.34-py3-none-any.whl"], 
+    "numpy<2.0.0,>=1.22.3": ["dctorch-0.1.0-py3-none-any.whl", "dctorch-0.1.1-py3-none-any.whl", "dctorch-0.1.2-py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "clean_fid-0.1.33-py3-none-any.whl": ["torch", "torchvision", "numpy>=1.14.3", "scipy>=1.0.1", "tqdm>=4.28.1", "pillow>=8.1", "requests==2.25.1"]
+   }, 
+   "pinned": "clean_fid-0.1.33-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dctorch-0.1.2-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.1-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.0-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"]
+   }, 
+   "rejected": {
+    "numpy==1.22.0; python_version <= \"3.10\"": ["TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl"], 
+    "numpy<2.0.0,>=1.19.0": ["gruut-2.2.3.tar.gz"], 
+    "numpy<1.25,>=1.21": ["numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy>=1.17.3": ["scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy": ["encodec-0.1.1.tar.gz", "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3": ["librosa-0.10.0-py3-none-any.whl"], 
+    "numpy<2,>=1.20": ["matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3; python_version < \"3.10\"": ["pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.17": ["accelerate-0.23.0-py3-none-any.whl", "transformers-4.33.3-py3-none-any.whl", "umap-learn-0.5.4.tar.gz"], 
+    "numpy<2.0,>=1.16; python_version <= \"3.11\"": ["contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<1.28.0,>=1.21.6": ["scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.14.3": ["clean_fid-0.1.33-py3-none-any.whl"], 
+    "numpy<2.0.0,>=1.22.3": ["dctorch-0.1.0-py3-none-any.whl", "dctorch-0.1.1-py3-none-any.whl", "dctorch-0.1.2-py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "clean_fid-0.1.32-py3-none-any.whl": ["torch", "torchvision", "numpy>=1.14.3", "scipy>=1.0.1", "tqdm>=4.28.1", "pillow>=8.1", "requests==2.25.1"]
+   }, 
+   "pinned": "clean_fid-0.1.32-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dctorch-0.1.2-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.1-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.0-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"]
+   }, 
+   "rejected": {
+    "numpy==1.22.0; python_version <= \"3.10\"": ["TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl"], 
+    "numpy<2.0.0,>=1.19.0": ["gruut-2.2.3.tar.gz"], 
+    "numpy<1.25,>=1.21": ["numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy>=1.17.3": ["scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy": ["encodec-0.1.1.tar.gz", "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3": ["librosa-0.10.0-py3-none-any.whl"], 
+    "numpy<2,>=1.20": ["matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3; python_version < \"3.10\"": ["pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.17": ["accelerate-0.23.0-py3-none-any.whl", "transformers-4.33.3-py3-none-any.whl", "umap-learn-0.5.4.tar.gz"], 
+    "numpy<2.0,>=1.16; python_version <= \"3.11\"": ["contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<1.28.0,>=1.21.6": ["scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.14.3": ["clean_fid-0.1.32-py3-none-any.whl"], 
+    "numpy<2.0.0,>=1.22.3": ["dctorch-0.1.0-py3-none-any.whl", "dctorch-0.1.1-py3-none-any.whl", "dctorch-0.1.2-py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "clean_fid-0.1.31-py3-none-any.whl": ["torch", "torchvision", "numpy>=1.14.3", "scipy>=1.0.1", "tqdm>=4.28.1", "pillow>=8.1", "requests==2.25.1"]
+   }, 
+   "pinned": "clean_fid-0.1.31-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dctorch-0.1.2-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.1-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.0-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"]
+   }, 
+   "rejected": {
+    "numpy==1.22.0; python_version <= \"3.10\"": ["TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl"], 
+    "numpy<2.0.0,>=1.19.0": ["gruut-2.2.3.tar.gz"], 
+    "numpy<1.25,>=1.21": ["numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy>=1.17.3": ["scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy": ["encodec-0.1.1.tar.gz", "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3": ["librosa-0.10.0-py3-none-any.whl"], 
+    "numpy<2,>=1.20": ["matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3; python_version < \"3.10\"": ["pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.17": ["accelerate-0.23.0-py3-none-any.whl", "transformers-4.33.3-py3-none-any.whl", "umap-learn-0.5.4.tar.gz"], 
+    "numpy<2.0,>=1.16; python_version <= \"3.11\"": ["contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<1.28.0,>=1.21.6": ["scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.14.3": ["clean_fid-0.1.31-py3-none-any.whl"], 
+    "numpy<2.0.0,>=1.22.3": ["dctorch-0.1.0-py3-none-any.whl", "dctorch-0.1.1-py3-none-any.whl", "dctorch-0.1.2-py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "clean_fid-0.1.30-py3-none-any.whl": ["torch", "torchvision", "numpy>=1.14.3", "scipy>=1.0.1", "tqdm>=4.28.1", "pillow>=8.1", "requests==2.25.1"]
+   }, 
+   "pinned": "clean_fid-0.1.30-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dctorch-0.1.2-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.1-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.0-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"]
+   }, 
+   "rejected": {
+    "numpy==1.22.0; python_version <= \"3.10\"": ["TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl"], 
+    "numpy<2.0.0,>=1.19.0": ["gruut-2.2.3.tar.gz"], 
+    "numpy<1.25,>=1.21": ["numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy>=1.17.3": ["scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy": ["encodec-0.1.1.tar.gz", "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3": ["librosa-0.10.0-py3-none-any.whl"], 
+    "numpy<2,>=1.20": ["matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3; python_version < \"3.10\"": ["pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.17": ["accelerate-0.23.0-py3-none-any.whl", "transformers-4.33.3-py3-none-any.whl", "umap-learn-0.5.4.tar.gz"], 
+    "numpy<2.0,>=1.16; python_version <= \"3.11\"": ["contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<1.28.0,>=1.21.6": ["scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.14.3": ["clean_fid-0.1.30-py3-none-any.whl"], 
+    "numpy<2.0.0,>=1.22.3": ["dctorch-0.1.0-py3-none-any.whl", "dctorch-0.1.1-py3-none-any.whl", "dctorch-0.1.2-py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "clean_fid-0.1.29-py3-none-any.whl": ["torch", "torchvision", "numpy>=1.14.3", "scipy>=1.0.1", "tqdm>=4.28.1", "pillow>=8.1", "requests==2.25.1"]
+   }, 
+   "pinned": "clean_fid-0.1.29-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dctorch-0.1.2-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.1-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.0-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"]
+   }, 
+   "rejected": {
+    "numpy==1.22.0; python_version <= \"3.10\"": ["TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl"], 
+    "numpy<2.0.0,>=1.19.0": ["gruut-2.2.3.tar.gz"], 
+    "numpy<1.25,>=1.21": ["numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy>=1.17.3": ["scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy": ["encodec-0.1.1.tar.gz", "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3": ["librosa-0.10.0-py3-none-any.whl"], 
+    "numpy<2,>=1.20": ["matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3; python_version < \"3.10\"": ["pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.17": ["accelerate-0.23.0-py3-none-any.whl", "transformers-4.33.3-py3-none-any.whl", "umap-learn-0.5.4.tar.gz"], 
+    "numpy<2.0,>=1.16; python_version <= \"3.11\"": ["contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<1.28.0,>=1.21.6": ["scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.14.3": ["clean_fid-0.1.29-py3-none-any.whl"], 
+    "numpy<2.0.0,>=1.22.3": ["dctorch-0.1.0-py3-none-any.whl", "dctorch-0.1.1-py3-none-any.whl", "dctorch-0.1.2-py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "clean_fid-0.1.28-py3-none-any.whl": ["torch", "torchvision", "numpy>=1.14.3", "scipy>=1.0.1", "tqdm>=4.28.1", "pillow>=8.1", "requests==2.25.1"]
+   }, 
+   "pinned": "clean_fid-0.1.28-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dctorch-0.1.2-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.1-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.0-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"]
+   }, 
+   "rejected": {
+    "numpy==1.22.0; python_version <= \"3.10\"": ["TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl"], 
+    "numpy<2.0.0,>=1.19.0": ["gruut-2.2.3.tar.gz"], 
+    "numpy<1.25,>=1.21": ["numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy>=1.17.3": ["scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy": ["encodec-0.1.1.tar.gz", "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3": ["librosa-0.10.0-py3-none-any.whl"], 
+    "numpy<2,>=1.20": ["matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3; python_version < \"3.10\"": ["pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.17": ["accelerate-0.23.0-py3-none-any.whl", "transformers-4.33.3-py3-none-any.whl", "umap-learn-0.5.4.tar.gz"], 
+    "numpy<2.0,>=1.16; python_version <= \"3.11\"": ["contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<1.28.0,>=1.21.6": ["scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.14.3": ["clean_fid-0.1.28-py3-none-any.whl"], 
+    "numpy<2.0.0,>=1.22.3": ["dctorch-0.1.0-py3-none-any.whl", "dctorch-0.1.1-py3-none-any.whl", "dctorch-0.1.2-py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "clean_fid-0.1.26-py3-none-any.whl": ["torch", "torchvision", "numpy>=1.14.3", "scipy>=1.0.1", "tqdm>=4.28.1", "pillow>=8.1", "requests==2.25.1"]
+   }, 
+   "pinned": "clean_fid-0.1.26-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dctorch-0.1.2-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.1-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.0-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"]
+   }, 
+   "rejected": {
+    "numpy==1.22.0; python_version <= \"3.10\"": ["TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl"], 
+    "numpy<2.0.0,>=1.19.0": ["gruut-2.2.3.tar.gz"], 
+    "numpy<1.25,>=1.21": ["numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy>=1.17.3": ["scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy": ["encodec-0.1.1.tar.gz", "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3": ["librosa-0.10.0-py3-none-any.whl"], 
+    "numpy<2,>=1.20": ["matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3; python_version < \"3.10\"": ["pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.17": ["accelerate-0.23.0-py3-none-any.whl", "transformers-4.33.3-py3-none-any.whl", "umap-learn-0.5.4.tar.gz"], 
+    "numpy<2.0,>=1.16; python_version <= \"3.11\"": ["contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<1.28.0,>=1.21.6": ["scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.14.3": ["clean_fid-0.1.26-py3-none-any.whl"], 
+    "numpy<2.0.0,>=1.22.3": ["dctorch-0.1.0-py3-none-any.whl", "dctorch-0.1.1-py3-none-any.whl", "dctorch-0.1.2-py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "clean_fid-0.1.25-py3-none-any.whl": ["torch", "torchvision", "numpy>=1.14.3", "scipy>=1.0.1", "tqdm>=4.28.1", "pillow>=8.1", "requests==2.25.1"]
+   }, 
+   "pinned": "clean_fid-0.1.25-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dctorch-0.1.2-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.1-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.0-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"]
+   }, 
+   "rejected": {
+    "numpy==1.22.0; python_version <= \"3.10\"": ["TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl"], 
+    "numpy<2.0.0,>=1.19.0": ["gruut-2.2.3.tar.gz"], 
+    "numpy<1.25,>=1.21": ["numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy>=1.17.3": ["scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy": ["encodec-0.1.1.tar.gz", "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3": ["librosa-0.10.0-py3-none-any.whl"], 
+    "numpy<2,>=1.20": ["matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3; python_version < \"3.10\"": ["pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.17": ["accelerate-0.23.0-py3-none-any.whl", "transformers-4.33.3-py3-none-any.whl", "umap-learn-0.5.4.tar.gz"], 
+    "numpy<2.0,>=1.16; python_version <= \"3.11\"": ["contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<1.28.0,>=1.21.6": ["scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.14.3": ["clean_fid-0.1.25-py3-none-any.whl"], 
+    "numpy<2.0.0,>=1.22.3": ["dctorch-0.1.0-py3-none-any.whl", "dctorch-0.1.1-py3-none-any.whl", "dctorch-0.1.2-py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "clean_fid-0.1.24-py3-none-any.whl": ["torch", "torchvision", "numpy>=1.14.3", "scipy>=1.0.1", "tqdm>=4.28.1", "pillow>=8.1", "requests==2.25.1"]
+   }, 
+   "pinned": "clean_fid-0.1.24-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dctorch-0.1.2-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.1-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.0-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"]
+   }, 
+   "rejected": {
+    "numpy==1.22.0; python_version <= \"3.10\"": ["TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl"], 
+    "numpy<2.0.0,>=1.19.0": ["gruut-2.2.3.tar.gz"], 
+    "numpy<1.25,>=1.21": ["numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy>=1.17.3": ["scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy": ["encodec-0.1.1.tar.gz", "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3": ["librosa-0.10.0-py3-none-any.whl"], 
+    "numpy<2,>=1.20": ["matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3; python_version < \"3.10\"": ["pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.17": ["accelerate-0.23.0-py3-none-any.whl", "transformers-4.33.3-py3-none-any.whl", "umap-learn-0.5.4.tar.gz"], 
+    "numpy<2.0,>=1.16; python_version <= \"3.11\"": ["contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<1.28.0,>=1.21.6": ["scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.14.3": ["clean_fid-0.1.24-py3-none-any.whl"], 
+    "numpy<2.0.0,>=1.22.3": ["dctorch-0.1.0-py3-none-any.whl", "dctorch-0.1.1-py3-none-any.whl", "dctorch-0.1.2-py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "clean_fid-0.1.23-py3-none-any.whl": ["torch", "torchvision", "numpy>=1.14.3", "scipy>=1.0.1", "tqdm>=4.28.1", "pillow>=8.1", "requests==2.25.1"]
+   }, 
+   "pinned": "clean_fid-0.1.23-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dctorch-0.1.2-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.1-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.0-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"]
+   }, 
+   "rejected": {
+    "numpy==1.22.0; python_version <= \"3.10\"": ["TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl"], 
+    "numpy<2.0.0,>=1.19.0": ["gruut-2.2.3.tar.gz"], 
+    "numpy<1.25,>=1.21": ["numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy>=1.17.3": ["scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy": ["encodec-0.1.1.tar.gz", "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3": ["librosa-0.10.0-py3-none-any.whl"], 
+    "numpy<2,>=1.20": ["matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3; python_version < \"3.10\"": ["pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.17": ["accelerate-0.23.0-py3-none-any.whl", "transformers-4.33.3-py3-none-any.whl", "umap-learn-0.5.4.tar.gz"], 
+    "numpy<2.0,>=1.16; python_version <= \"3.11\"": ["contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<1.28.0,>=1.21.6": ["scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.14.3": ["clean_fid-0.1.23-py3-none-any.whl"], 
+    "numpy<2.0.0,>=1.22.3": ["dctorch-0.1.0-py3-none-any.whl", "dctorch-0.1.1-py3-none-any.whl", "dctorch-0.1.2-py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "clean_fid-0.1.22-py3-none-any.whl": ["torch", "torchvision", "numpy>=1.14.3", "scipy>=1.0.1", "tqdm>=4.28.1", "pillow>=8.1", "requests==2.25.1"]
+   }, 
+   "pinned": "clean_fid-0.1.22-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dctorch-0.1.2-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.1-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.0-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"]
+   }, 
+   "rejected": {
+    "numpy==1.22.0; python_version <= \"3.10\"": ["TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl"], 
+    "numpy<2.0.0,>=1.19.0": ["gruut-2.2.3.tar.gz"], 
+    "numpy<1.25,>=1.21": ["numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy>=1.17.3": ["scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy": ["encodec-0.1.1.tar.gz", "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3": ["librosa-0.10.0-py3-none-any.whl"], 
+    "numpy<2,>=1.20": ["matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3; python_version < \"3.10\"": ["pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.17": ["accelerate-0.23.0-py3-none-any.whl", "transformers-4.33.3-py3-none-any.whl", "umap-learn-0.5.4.tar.gz"], 
+    "numpy<2.0,>=1.16; python_version <= \"3.11\"": ["contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<1.28.0,>=1.21.6": ["scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.14.3": ["clean_fid-0.1.22-py3-none-any.whl"], 
+    "numpy<2.0.0,>=1.22.3": ["dctorch-0.1.0-py3-none-any.whl", "dctorch-0.1.1-py3-none-any.whl", "dctorch-0.1.2-py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "clean_fid-0.1.21-py3-none-any.whl": ["torch", "torchvision", "numpy>=1.14.3", "scipy>=1.0.1", "tqdm>=4.28.1", "pillow>=8.1", "requests==2.25.1"]
+   }, 
+   "pinned": "clean_fid-0.1.21-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dctorch-0.1.2-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.1-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.0-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"]
+   }, 
+   "rejected": {
+    "numpy==1.22.0; python_version <= \"3.10\"": ["TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl"], 
+    "numpy<2.0.0,>=1.19.0": ["gruut-2.2.3.tar.gz"], 
+    "numpy<1.25,>=1.21": ["numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy>=1.17.3": ["scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy": ["encodec-0.1.1.tar.gz", "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3": ["librosa-0.10.0-py3-none-any.whl"], 
+    "numpy<2,>=1.20": ["matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3; python_version < \"3.10\"": ["pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.17": ["accelerate-0.23.0-py3-none-any.whl", "transformers-4.33.3-py3-none-any.whl", "umap-learn-0.5.4.tar.gz"], 
+    "numpy<2.0,>=1.16; python_version <= \"3.11\"": ["contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<1.28.0,>=1.21.6": ["scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.14.3": ["clean_fid-0.1.21-py3-none-any.whl"], 
+    "numpy<2.0.0,>=1.22.3": ["dctorch-0.1.0-py3-none-any.whl", "dctorch-0.1.1-py3-none-any.whl", "dctorch-0.1.2-py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "clean_fid-0.1.19-py3-none-any.whl": ["torch", "torchvision", "numpy>=1.14.3", "scipy>=1.0.1", "tqdm>=4.28.1", "pillow>=8.1", "requests==2.25.1"]
+   }, 
+   "pinned": "clean_fid-0.1.19-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dctorch-0.1.2-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.1-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.0-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"]
+   }, 
+   "rejected": {
+    "numpy==1.22.0; python_version <= \"3.10\"": ["TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl"], 
+    "numpy<2.0.0,>=1.19.0": ["gruut-2.2.3.tar.gz"], 
+    "numpy<1.25,>=1.21": ["numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy>=1.17.3": ["scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy": ["encodec-0.1.1.tar.gz", "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3": ["librosa-0.10.0-py3-none-any.whl"], 
+    "numpy<2,>=1.20": ["matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3; python_version < \"3.10\"": ["pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.17": ["accelerate-0.23.0-py3-none-any.whl", "transformers-4.33.3-py3-none-any.whl", "umap-learn-0.5.4.tar.gz"], 
+    "numpy<2.0,>=1.16; python_version <= \"3.11\"": ["contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<1.28.0,>=1.21.6": ["scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.14.3": ["clean_fid-0.1.19-py3-none-any.whl"], 
+    "numpy<2.0.0,>=1.22.3": ["dctorch-0.1.0-py3-none-any.whl", "dctorch-0.1.1-py3-none-any.whl", "dctorch-0.1.2-py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "clean_fid-0.1.18-py3-none-any.whl": ["torch", "torchvision", "numpy>=1.14.3", "scipy>=1.0.1", "tqdm>=4.28.1", "pillow>=8.1", "requests==2.25.1"]
+   }, 
+   "pinned": "clean_fid-0.1.18-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dctorch-0.1.2-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.1-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.0-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"]
+   }, 
+   "rejected": {
+    "numpy==1.22.0; python_version <= \"3.10\"": ["TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl"], 
+    "numpy<2.0.0,>=1.19.0": ["gruut-2.2.3.tar.gz"], 
+    "numpy<1.25,>=1.21": ["numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy>=1.17.3": ["scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy": ["encodec-0.1.1.tar.gz", "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3": ["librosa-0.10.0-py3-none-any.whl"], 
+    "numpy<2,>=1.20": ["matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3; python_version < \"3.10\"": ["pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.17": ["accelerate-0.23.0-py3-none-any.whl", "transformers-4.33.3-py3-none-any.whl", "umap-learn-0.5.4.tar.gz"], 
+    "numpy<2.0,>=1.16; python_version <= \"3.11\"": ["contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<1.28.0,>=1.21.6": ["scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.14.3": ["clean_fid-0.1.18-py3-none-any.whl"], 
+    "numpy<2.0.0,>=1.22.3": ["dctorch-0.1.0-py3-none-any.whl", "dctorch-0.1.1-py3-none-any.whl", "dctorch-0.1.2-py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "clean_fid-0.1.17-py3-none-any.whl": ["torch", "torchvision", "numpy>=1.14.3", "scipy>=1.0.1", "tqdm>=4.28.1", "pillow>=8.1", "requests==2.25.1"]
+   }, 
+   "pinned": "clean_fid-0.1.17-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dctorch-0.1.2-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.1-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.0-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"]
+   }, 
+   "rejected": {
+    "numpy==1.22.0; python_version <= \"3.10\"": ["TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl"], 
+    "numpy<2.0.0,>=1.19.0": ["gruut-2.2.3.tar.gz"], 
+    "numpy<1.25,>=1.21": ["numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy>=1.17.3": ["scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy": ["encodec-0.1.1.tar.gz", "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3": ["librosa-0.10.0-py3-none-any.whl"], 
+    "numpy<2,>=1.20": ["matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3; python_version < \"3.10\"": ["pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.17": ["accelerate-0.23.0-py3-none-any.whl", "transformers-4.33.3-py3-none-any.whl", "umap-learn-0.5.4.tar.gz"], 
+    "numpy<2.0,>=1.16; python_version <= \"3.11\"": ["contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<1.28.0,>=1.21.6": ["scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.14.3": ["clean_fid-0.1.17-py3-none-any.whl"], 
+    "numpy<2.0.0,>=1.22.3": ["dctorch-0.1.0-py3-none-any.whl", "dctorch-0.1.1-py3-none-any.whl", "dctorch-0.1.2-py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "clean_fid-0.1.16-py3-none-any.whl": ["torch", "torchvision", "numpy>=1.14.3", "scipy>=1.0.1", "tqdm>=4.28.1", "pillow>=8.1", "requests==2.25.1"]
+   }, 
+   "pinned": "clean_fid-0.1.16-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dctorch-0.1.2-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.1-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.0-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"]
+   }, 
+   "rejected": {
+    "numpy==1.22.0; python_version <= \"3.10\"": ["TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl"], 
+    "numpy<2.0.0,>=1.19.0": ["gruut-2.2.3.tar.gz"], 
+    "numpy<1.25,>=1.21": ["numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy>=1.17.3": ["scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy": ["encodec-0.1.1.tar.gz", "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3": ["librosa-0.10.0-py3-none-any.whl"], 
+    "numpy<2,>=1.20": ["matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3; python_version < \"3.10\"": ["pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.17": ["accelerate-0.23.0-py3-none-any.whl", "transformers-4.33.3-py3-none-any.whl", "umap-learn-0.5.4.tar.gz"], 
+    "numpy<2.0,>=1.16; python_version <= \"3.11\"": ["contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<1.28.0,>=1.21.6": ["scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.14.3": ["clean_fid-0.1.16-py3-none-any.whl"], 
+    "numpy<2.0.0,>=1.22.3": ["dctorch-0.1.0-py3-none-any.whl", "dctorch-0.1.1-py3-none-any.whl", "dctorch-0.1.2-py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "clean_fid-0.1.15-py3-none-any.whl": ["torch", "torchvision", "numpy>=1.14.3", "scipy>=1.0.1", "tqdm>=4.28.1", "pillow>=8.1", "requests==2.25.1"]
+   }, 
+   "pinned": "clean_fid-0.1.15-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dctorch-0.1.2-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.1-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.0-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"]
+   }, 
+   "rejected": {
+    "numpy==1.22.0; python_version <= \"3.10\"": ["TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl"], 
+    "numpy<2.0.0,>=1.19.0": ["gruut-2.2.3.tar.gz"], 
+    "numpy<1.25,>=1.21": ["numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy>=1.17.3": ["scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy": ["encodec-0.1.1.tar.gz", "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3": ["librosa-0.10.0-py3-none-any.whl"], 
+    "numpy<2,>=1.20": ["matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3; python_version < \"3.10\"": ["pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.17": ["accelerate-0.23.0-py3-none-any.whl", "transformers-4.33.3-py3-none-any.whl", "umap-learn-0.5.4.tar.gz"], 
+    "numpy<2.0,>=1.16; python_version <= \"3.11\"": ["contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<1.28.0,>=1.21.6": ["scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.14.3": ["clean_fid-0.1.15-py3-none-any.whl"], 
+    "numpy<2.0.0,>=1.22.3": ["dctorch-0.1.0-py3-none-any.whl", "dctorch-0.1.1-py3-none-any.whl", "dctorch-0.1.2-py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "clean_fid-0.1.14-py3-none-any.whl": ["torch", "torchvision", "numpy>=1.14.3", "scipy>=1.0.1", "tqdm>=4.28.1", "pillow>=8.1", "requests==2.25.1"]
+   }, 
+   "pinned": "clean_fid-0.1.14-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dctorch-0.1.2-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.1-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.0-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"]
+   }, 
+   "rejected": {
+    "numpy==1.22.0; python_version <= \"3.10\"": ["TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl"], 
+    "numpy<2.0.0,>=1.19.0": ["gruut-2.2.3.tar.gz"], 
+    "numpy<1.25,>=1.21": ["numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy>=1.17.3": ["scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy": ["encodec-0.1.1.tar.gz", "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3": ["librosa-0.10.0-py3-none-any.whl"], 
+    "numpy<2,>=1.20": ["matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3; python_version < \"3.10\"": ["pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.17": ["accelerate-0.23.0-py3-none-any.whl", "transformers-4.33.3-py3-none-any.whl", "umap-learn-0.5.4.tar.gz"], 
+    "numpy<2.0,>=1.16; python_version <= \"3.11\"": ["contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<1.28.0,>=1.21.6": ["scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.14.3": ["clean_fid-0.1.14-py3-none-any.whl"], 
+    "numpy<2.0.0,>=1.22.3": ["dctorch-0.1.0-py3-none-any.whl", "dctorch-0.1.1-py3-none-any.whl", "dctorch-0.1.2-py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "clean_fid-0.1.13-py3-none-any.whl": ["torch>=0.4.0", "torchvision>=0.2.1", "numpy>=1.14.3", "scipy>=1.0.1", "tqdm>=4.28.1", "pillow>=8.1", "requests==2.25.1"]
+   }, 
+   "pinned": "clean_fid-0.1.13-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dctorch-0.1.2-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.1-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.0-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"]
+   }, 
+   "rejected": {
+    "numpy==1.22.0; python_version <= \"3.10\"": ["TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl"], 
+    "numpy<2.0.0,>=1.19.0": ["gruut-2.2.3.tar.gz"], 
+    "numpy<1.25,>=1.21": ["numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy>=1.17.3": ["scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy": ["encodec-0.1.1.tar.gz", "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3": ["librosa-0.10.0-py3-none-any.whl"], 
+    "numpy<2,>=1.20": ["matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3; python_version < \"3.10\"": ["pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.17": ["accelerate-0.23.0-py3-none-any.whl", "transformers-4.33.3-py3-none-any.whl", "umap-learn-0.5.4.tar.gz"], 
+    "numpy<2.0,>=1.16; python_version <= \"3.11\"": ["contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<1.28.0,>=1.21.6": ["scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.14.3": ["clean_fid-0.1.13-py3-none-any.whl"], 
+    "numpy<2.0.0,>=1.22.3": ["dctorch-0.1.0-py3-none-any.whl", "dctorch-0.1.1-py3-none-any.whl", "dctorch-0.1.2-py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "clean_fid-0.1.12-py3-none-any.whl": ["torch>=0.4.0", "torchvision>=0.2.1", "numpy>=1.14.3", "scipy>=1.0.1", "tqdm>=4.28.1", "pillow>=8.1", "requests==2.25.1"]
+   }, 
+   "pinned": "clean_fid-0.1.12-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dctorch-0.1.2-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.1-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.0-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"]
+   }, 
+   "rejected": {
+    "numpy==1.22.0; python_version <= \"3.10\"": ["TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl"], 
+    "numpy<2.0.0,>=1.19.0": ["gruut-2.2.3.tar.gz"], 
+    "numpy<1.25,>=1.21": ["numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy>=1.17.3": ["scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy": ["encodec-0.1.1.tar.gz", "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3": ["librosa-0.10.0-py3-none-any.whl"], 
+    "numpy<2,>=1.20": ["matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3; python_version < \"3.10\"": ["pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.17": ["accelerate-0.23.0-py3-none-any.whl", "transformers-4.33.3-py3-none-any.whl", "umap-learn-0.5.4.tar.gz"], 
+    "numpy<2.0,>=1.16; python_version <= \"3.11\"": ["contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<1.28.0,>=1.21.6": ["scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.14.3": ["clean_fid-0.1.12-py3-none-any.whl"], 
+    "numpy<2.0.0,>=1.22.3": ["dctorch-0.1.0-py3-none-any.whl", "dctorch-0.1.1-py3-none-any.whl", "dctorch-0.1.2-py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "clean_fid-0.1.11-py3-none-any.whl": ["torch>=0.4.0", "torchvision>=0.2.1", "numpy>=1.14.3", "scipy>=1.0.1", "tqdm>=4.28.1", "pillow>=8.1", "requests==2.25.1"]
+   }, 
+   "pinned": "clean_fid-0.1.11-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dctorch-0.1.2-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.1-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.0-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"]
+   }, 
+   "rejected": {
+    "numpy==1.22.0; python_version <= \"3.10\"": ["TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl"], 
+    "numpy<2.0.0,>=1.19.0": ["gruut-2.2.3.tar.gz"], 
+    "numpy<1.25,>=1.21": ["numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy>=1.17.3": ["scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy": ["encodec-0.1.1.tar.gz", "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3": ["librosa-0.10.0-py3-none-any.whl"], 
+    "numpy<2,>=1.20": ["matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3; python_version < \"3.10\"": ["pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.17": ["accelerate-0.23.0-py3-none-any.whl", "transformers-4.33.3-py3-none-any.whl", "umap-learn-0.5.4.tar.gz"], 
+    "numpy<2.0,>=1.16; python_version <= \"3.11\"": ["contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<1.28.0,>=1.21.6": ["scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.14.3": ["clean_fid-0.1.11-py3-none-any.whl"], 
+    "numpy<2.0.0,>=1.22.3": ["dctorch-0.1.0-py3-none-any.whl", "dctorch-0.1.1-py3-none-any.whl", "dctorch-0.1.2-py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "clean_fid-0.1.10-py3-none-any.whl": ["torch>=0.4.0", "torchvision>=0.2.1", "numpy>=1.14.3", "scipy>=1.0.1", "tqdm>=4.28.1", "pillow>=8.1", "requests==2.25.1"]
+   }, 
+   "pinned": "clean_fid-0.1.10-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dctorch-0.1.2-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.1-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.0-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"]
+   }, 
+   "rejected": {
+    "numpy==1.22.0; python_version <= \"3.10\"": ["TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl"], 
+    "numpy<2.0.0,>=1.19.0": ["gruut-2.2.3.tar.gz"], 
+    "numpy<1.25,>=1.21": ["numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy>=1.17.3": ["scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy": ["encodec-0.1.1.tar.gz", "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3": ["librosa-0.10.0-py3-none-any.whl"], 
+    "numpy<2,>=1.20": ["matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3; python_version < \"3.10\"": ["pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.17": ["accelerate-0.23.0-py3-none-any.whl", "transformers-4.33.3-py3-none-any.whl", "umap-learn-0.5.4.tar.gz"], 
+    "numpy<2.0,>=1.16; python_version <= \"3.11\"": ["contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<1.28.0,>=1.21.6": ["scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.14.3": ["clean_fid-0.1.10-py3-none-any.whl"], 
+    "numpy<2.0.0,>=1.22.3": ["dctorch-0.1.0-py3-none-any.whl", "dctorch-0.1.1-py3-none-any.whl", "dctorch-0.1.2-py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "clean_fid-0.1.9-py3-none-any.whl": ["torch>=0.4.0", "torchvision>=0.2.1", "numpy>=1.14.3", "scipy>=1.0.1", "tqdm>=4.28.1", "pillow>=8.1", "requests==2.25.1"]
+   }, 
+   "pinned": "clean_fid-0.1.9-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dctorch-0.1.2-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.1-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.0-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"]
+   }, 
+   "rejected": {
+    "numpy==1.22.0; python_version <= \"3.10\"": ["TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl"], 
+    "numpy<2.0.0,>=1.19.0": ["gruut-2.2.3.tar.gz"], 
+    "numpy<1.25,>=1.21": ["numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy>=1.17.3": ["scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy": ["encodec-0.1.1.tar.gz", "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3": ["librosa-0.10.0-py3-none-any.whl"], 
+    "numpy<2,>=1.20": ["matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3; python_version < \"3.10\"": ["pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.17": ["accelerate-0.23.0-py3-none-any.whl", "transformers-4.33.3-py3-none-any.whl", "umap-learn-0.5.4.tar.gz"], 
+    "numpy<2.0,>=1.16; python_version <= \"3.11\"": ["contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<1.28.0,>=1.21.6": ["scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.14.3": ["clean_fid-0.1.9-py3-none-any.whl"], 
+    "numpy<2.0.0,>=1.22.3": ["dctorch-0.1.0-py3-none-any.whl", "dctorch-0.1.1-py3-none-any.whl", "dctorch-0.1.2-py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "clean_fid-0.1.8-py3-none-any.whl": ["torch>=0.4.0", "torchvision>=0.2.1", "numpy>=1.14.3", "scipy>=1.0.1", "tqdm>=4.28.1", "pillow>=8.1", "requests==2.25.1"]
+   }, 
+   "pinned": "clean_fid-0.1.8-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dctorch-0.1.2-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.1-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.0-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"]
+   }, 
+   "rejected": {
+    "numpy==1.22.0; python_version <= \"3.10\"": ["TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl"], 
+    "numpy<2.0.0,>=1.19.0": ["gruut-2.2.3.tar.gz"], 
+    "numpy<1.25,>=1.21": ["numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy>=1.17.3": ["scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy": ["encodec-0.1.1.tar.gz", "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3": ["librosa-0.10.0-py3-none-any.whl"], 
+    "numpy<2,>=1.20": ["matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3; python_version < \"3.10\"": ["pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.17": ["accelerate-0.23.0-py3-none-any.whl", "transformers-4.33.3-py3-none-any.whl", "umap-learn-0.5.4.tar.gz"], 
+    "numpy<2.0,>=1.16; python_version <= \"3.11\"": ["contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<1.28.0,>=1.21.6": ["scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.14.3": ["clean_fid-0.1.8-py3-none-any.whl"], 
+    "numpy<2.0.0,>=1.22.3": ["dctorch-0.1.0-py3-none-any.whl", "dctorch-0.1.1-py3-none-any.whl", "dctorch-0.1.2-py3-none-any.whl"]
+   }
+  }, 
+  {"pinned": "clean_fid-0.1.6-py3-none-any.whl"}, 
+  {
+   "added": {
+    "dctorch-0.1.2-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.1-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.0-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"]
+   }, 
+   "rejected": {
+    "numpy==1.22.0; python_version <= \"3.10\"": ["TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl"], 
+    "numpy<2.0.0,>=1.19.0": ["gruut-2.2.3.tar.gz"], 
+    "numpy<1.25,>=1.21": ["numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy>=1.17.3": ["scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy": ["encodec-0.1.1.tar.gz", "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3": ["librosa-0.10.0-py3-none-any.whl"], 
+    "numpy<2,>=1.20": ["matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3; python_version < \"3.10\"": ["pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.17": ["accelerate-0.23.0-py3-none-any.whl", "transformers-4.33.3-py3-none-any.whl", "umap-learn-0.5.4.tar.gz"], 
+    "numpy<2.0,>=1.16; python_version <= \"3.11\"": ["contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<1.28.0,>=1.21.6": ["scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<2.0.0,>=1.22.3": ["dctorch-0.1.0-py3-none-any.whl", "dctorch-0.1.1-py3-none-any.whl", "dctorch-0.1.2-py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "dctorch-0.1.2-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.1-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.0-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"]
+   }, 
+   "rejected": {
+    "numpy==1.22.0; python_version <= \"3.10\"": ["TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl"], 
+    "numpy<2.0.0,>=1.19.0": ["gruut-2.2.3.tar.gz"], 
+    "numpy<1.25,>=1.21": ["numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy>=1.17.3": ["scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy": ["encodec-0.1.1.tar.gz", "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3": ["librosa-0.10.0-py3-none-any.whl"], 
+    "numpy<2,>=1.20": ["matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3; python_version < \"3.10\"": ["pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.17": ["accelerate-0.23.0-py3-none-any.whl", "transformers-4.33.3-py3-none-any.whl", "umap-learn-0.5.4.tar.gz"], 
+    "numpy<2.0,>=1.16; python_version <= \"3.11\"": ["contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<1.28.0,>=1.21.6": ["scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<2.0.0,>=1.22.3": ["dctorch-0.1.0-py3-none-any.whl", "dctorch-0.1.1-py3-none-any.whl", "dctorch-0.1.2-py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "accelerate-0.22.0-py3-none-any.whl": [">=3.8.0", "numpy>=1.17", "packaging>=20.0", "psutil", "pyyaml", "torch>=1.10.0"]
+   }, 
+   "pinned": "accelerate-0.22.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dctorch-0.1.2-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.1-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.0-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"]
+   }, 
+   "rejected": {
+    "numpy==1.22.0; python_version <= \"3.10\"": ["TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl"], 
+    "numpy<2.0.0,>=1.19.0": ["gruut-2.2.3.tar.gz"], 
+    "numpy<1.25,>=1.21": ["numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy>=1.17.3": ["scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy": ["encodec-0.1.1.tar.gz", "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3": ["librosa-0.10.0-py3-none-any.whl"], 
+    "numpy<2,>=1.20": ["matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3; python_version < \"3.10\"": ["pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.17": ["accelerate-0.22.0-py3-none-any.whl", "transformers-4.33.3-py3-none-any.whl", "umap-learn-0.5.4.tar.gz"], 
+    "numpy<2.0,>=1.16; python_version <= \"3.11\"": ["contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<1.28.0,>=1.21.6": ["scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<2.0.0,>=1.22.3": ["dctorch-0.1.0-py3-none-any.whl", "dctorch-0.1.1-py3-none-any.whl", "dctorch-0.1.2-py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "accelerate-0.21.0-py3-none-any.whl": [">=3.8.0", "numpy>=1.17", "packaging>=20.0", "psutil", "pyyaml", "torch>=1.10.0"]
+   }, 
+   "pinned": "accelerate-0.21.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dctorch-0.1.2-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.1-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.0-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"]
+   }, 
+   "rejected": {
+    "numpy==1.22.0; python_version <= \"3.10\"": ["TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl"], 
+    "numpy<2.0.0,>=1.19.0": ["gruut-2.2.3.tar.gz"], 
+    "numpy<1.25,>=1.21": ["numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy>=1.17.3": ["scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy": ["encodec-0.1.1.tar.gz", "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3": ["librosa-0.10.0-py3-none-any.whl"], 
+    "numpy<2,>=1.20": ["matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3; python_version < \"3.10\"": ["pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.17": ["accelerate-0.21.0-py3-none-any.whl", "transformers-4.33.3-py3-none-any.whl", "umap-learn-0.5.4.tar.gz"], 
+    "numpy<2.0,>=1.16; python_version <= \"3.11\"": ["contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<1.28.0,>=1.21.6": ["scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<2.0.0,>=1.22.3": ["dctorch-0.1.0-py3-none-any.whl", "dctorch-0.1.1-py3-none-any.whl", "dctorch-0.1.2-py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "accelerate-0.20.3-py3-none-any.whl": [">=3.7.0", "numpy>=1.17", "packaging>=20.0", "psutil", "pyyaml", "torch>=1.6.0"]
+   }, 
+   "pinned": "accelerate-0.20.3-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dctorch-0.1.2-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.1-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.0-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"]
+   }, 
+   "rejected": {
+    "numpy==1.22.0; python_version <= \"3.10\"": ["TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl"], 
+    "numpy<2.0.0,>=1.19.0": ["gruut-2.2.3.tar.gz"], 
+    "numpy<1.25,>=1.21": ["numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy>=1.17.3": ["scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy": ["encodec-0.1.1.tar.gz", "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3": ["librosa-0.10.0-py3-none-any.whl"], 
+    "numpy<2,>=1.20": ["matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3; python_version < \"3.10\"": ["pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.17": ["accelerate-0.20.3-py3-none-any.whl", "transformers-4.33.3-py3-none-any.whl", "umap-learn-0.5.4.tar.gz"], 
+    "numpy<2.0,>=1.16; python_version <= \"3.11\"": ["contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<1.28.0,>=1.21.6": ["scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<2.0.0,>=1.22.3": ["dctorch-0.1.0-py3-none-any.whl", "dctorch-0.1.1-py3-none-any.whl", "dctorch-0.1.2-py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "accelerate-0.20.2-py3-none-any.whl": [">=3.7.0", "numpy>=1.17", "packaging>=20.0", "psutil", "pyyaml", "torch>=1.6.0"]
+   }, 
+   "pinned": "accelerate-0.20.2-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dctorch-0.1.2-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.1-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.0-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"]
+   }, 
+   "rejected": {
+    "numpy==1.22.0; python_version <= \"3.10\"": ["TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl"], 
+    "numpy<2.0.0,>=1.19.0": ["gruut-2.2.3.tar.gz"], 
+    "numpy<1.25,>=1.21": ["numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy>=1.17.3": ["scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy": ["encodec-0.1.1.tar.gz", "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3": ["librosa-0.10.0-py3-none-any.whl"], 
+    "numpy<2,>=1.20": ["matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3; python_version < \"3.10\"": ["pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.17": ["accelerate-0.20.2-py3-none-any.whl", "transformers-4.33.3-py3-none-any.whl", "umap-learn-0.5.4.tar.gz"], 
+    "numpy<2.0,>=1.16; python_version <= \"3.11\"": ["contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<1.28.0,>=1.21.6": ["scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<2.0.0,>=1.22.3": ["dctorch-0.1.0-py3-none-any.whl", "dctorch-0.1.1-py3-none-any.whl", "dctorch-0.1.2-py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "accelerate-0.20.1-py3-none-any.whl": [">=3.7.0", "numpy>=1.17", "packaging>=20.0", "psutil", "pyyaml", "torch>=1.6.0"]
+   }, 
+   "pinned": "accelerate-0.20.1-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dctorch-0.1.2-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.1-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.0-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"]
+   }, 
+   "rejected": {
+    "numpy==1.22.0; python_version <= \"3.10\"": ["TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl"], 
+    "numpy<2.0.0,>=1.19.0": ["gruut-2.2.3.tar.gz"], 
+    "numpy<1.25,>=1.21": ["numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy>=1.17.3": ["scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy": ["encodec-0.1.1.tar.gz", "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3": ["librosa-0.10.0-py3-none-any.whl"], 
+    "numpy<2,>=1.20": ["matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3; python_version < \"3.10\"": ["pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.17": ["accelerate-0.20.1-py3-none-any.whl", "transformers-4.33.3-py3-none-any.whl", "umap-learn-0.5.4.tar.gz"], 
+    "numpy<2.0,>=1.16; python_version <= \"3.11\"": ["contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<1.28.0,>=1.21.6": ["scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<2.0.0,>=1.22.3": ["dctorch-0.1.0-py3-none-any.whl", "dctorch-0.1.1-py3-none-any.whl", "dctorch-0.1.2-py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "accelerate-0.20.0-py3-none-any.whl": [">=3.7.0", "numpy>=1.17", "packaging>=20.0", "psutil", "pyyaml", "torch>=1.6.0"]
+   }, 
+   "pinned": "accelerate-0.20.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dctorch-0.1.2-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.1-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.0-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"]
+   }, 
+   "rejected": {
+    "numpy==1.22.0; python_version <= \"3.10\"": ["TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl"], 
+    "numpy<2.0.0,>=1.19.0": ["gruut-2.2.3.tar.gz"], 
+    "numpy<1.25,>=1.21": ["numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy>=1.17.3": ["scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy": ["encodec-0.1.1.tar.gz", "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3": ["librosa-0.10.0-py3-none-any.whl"], 
+    "numpy<2,>=1.20": ["matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3; python_version < \"3.10\"": ["pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.17": ["accelerate-0.20.0-py3-none-any.whl", "transformers-4.33.3-py3-none-any.whl", "umap-learn-0.5.4.tar.gz"], 
+    "numpy<2.0,>=1.16; python_version <= \"3.11\"": ["contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<1.28.0,>=1.21.6": ["scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<2.0.0,>=1.22.3": ["dctorch-0.1.0-py3-none-any.whl", "dctorch-0.1.1-py3-none-any.whl", "dctorch-0.1.2-py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "accelerate-0.19.0-py3-none-any.whl": [">=3.7.0", "numpy>=1.17", "packaging>=20.0", "psutil", "pyyaml", "torch>=1.6.0"]
+   }, 
+   "pinned": "accelerate-0.19.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dctorch-0.1.2-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.1-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.0-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"]
+   }, 
+   "rejected": {
+    "numpy==1.22.0; python_version <= \"3.10\"": ["TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl"], 
+    "numpy<2.0.0,>=1.19.0": ["gruut-2.2.3.tar.gz"], 
+    "numpy<1.25,>=1.21": ["numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy>=1.17.3": ["scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy": ["encodec-0.1.1.tar.gz", "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3": ["librosa-0.10.0-py3-none-any.whl"], 
+    "numpy<2,>=1.20": ["matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3; python_version < \"3.10\"": ["pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.17": ["accelerate-0.19.0-py3-none-any.whl", "transformers-4.33.3-py3-none-any.whl", "umap-learn-0.5.4.tar.gz"], 
+    "numpy<2.0,>=1.16; python_version <= \"3.11\"": ["contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<1.28.0,>=1.21.6": ["scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<2.0.0,>=1.22.3": ["dctorch-0.1.0-py3-none-any.whl", "dctorch-0.1.1-py3-none-any.whl", "dctorch-0.1.2-py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "accelerate-0.18.0-py3-none-any.whl": [">=3.7.0", "numpy>=1.17", "packaging>=20.0", "psutil", "pyyaml", "torch>=1.4.0"]
+   }, 
+   "pinned": "accelerate-0.18.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dctorch-0.1.2-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.1-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.0-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"]
+   }, 
+   "rejected": {
+    "numpy==1.22.0; python_version <= \"3.10\"": ["TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl"], 
+    "numpy<2.0.0,>=1.19.0": ["gruut-2.2.3.tar.gz"], 
+    "numpy<1.25,>=1.21": ["numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy>=1.17.3": ["scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy": ["encodec-0.1.1.tar.gz", "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3": ["librosa-0.10.0-py3-none-any.whl"], 
+    "numpy<2,>=1.20": ["matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3; python_version < \"3.10\"": ["pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.17": ["accelerate-0.18.0-py3-none-any.whl", "transformers-4.33.3-py3-none-any.whl", "umap-learn-0.5.4.tar.gz"], 
+    "numpy<2.0,>=1.16; python_version <= \"3.11\"": ["contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<1.28.0,>=1.21.6": ["scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<2.0.0,>=1.22.3": ["dctorch-0.1.0-py3-none-any.whl", "dctorch-0.1.1-py3-none-any.whl", "dctorch-0.1.2-py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "accelerate-0.17.1-py3-none-any.whl": [">=3.7.0", "numpy>=1.17", "packaging>=20.0", "psutil", "pyyaml", "torch>=1.4.0"]
+   }, 
+   "pinned": "accelerate-0.17.1-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dctorch-0.1.2-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.1-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.0-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"]
+   }, 
+   "rejected": {
+    "numpy==1.22.0; python_version <= \"3.10\"": ["TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl"], 
+    "numpy<2.0.0,>=1.19.0": ["gruut-2.2.3.tar.gz"], 
+    "numpy<1.25,>=1.21": ["numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy>=1.17.3": ["scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy": ["encodec-0.1.1.tar.gz", "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3": ["librosa-0.10.0-py3-none-any.whl"], 
+    "numpy<2,>=1.20": ["matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3; python_version < \"3.10\"": ["pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.17": ["accelerate-0.17.1-py3-none-any.whl", "transformers-4.33.3-py3-none-any.whl", "umap-learn-0.5.4.tar.gz"], 
+    "numpy<2.0,>=1.16; python_version <= \"3.11\"": ["contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<1.28.0,>=1.21.6": ["scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<2.0.0,>=1.22.3": ["dctorch-0.1.0-py3-none-any.whl", "dctorch-0.1.1-py3-none-any.whl", "dctorch-0.1.2-py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "accelerate-0.17.0-py3-none-any.whl": [">=3.7.0", "numpy>=1.17", "packaging>=20.0", "psutil", "pyyaml", "torch>=1.4.0"]
+   }, 
+   "pinned": "accelerate-0.17.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dctorch-0.1.2-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.1-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.0-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"]
+   }, 
+   "rejected": {
+    "numpy==1.22.0; python_version <= \"3.10\"": ["TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl"], 
+    "numpy<2.0.0,>=1.19.0": ["gruut-2.2.3.tar.gz"], 
+    "numpy<1.25,>=1.21": ["numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy>=1.17.3": ["scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy": ["encodec-0.1.1.tar.gz", "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3": ["librosa-0.10.0-py3-none-any.whl"], 
+    "numpy<2,>=1.20": ["matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3; python_version < \"3.10\"": ["pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.17": ["accelerate-0.17.0-py3-none-any.whl", "transformers-4.33.3-py3-none-any.whl", "umap-learn-0.5.4.tar.gz"], 
+    "numpy<2.0,>=1.16; python_version <= \"3.11\"": ["contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<1.28.0,>=1.21.6": ["scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<2.0.0,>=1.22.3": ["dctorch-0.1.0-py3-none-any.whl", "dctorch-0.1.1-py3-none-any.whl", "dctorch-0.1.2-py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "accelerate-0.16.0-py3-none-any.whl": [">=3.7.0", "numpy>=1.17", "packaging>=20.0", "psutil", "pyyaml", "torch>=1.4.0"]
+   }, 
+   "pinned": "accelerate-0.16.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dctorch-0.1.2-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.1-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.0-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"]
+   }, 
+   "rejected": {
+    "numpy==1.22.0; python_version <= \"3.10\"": ["TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl"], 
+    "numpy<2.0.0,>=1.19.0": ["gruut-2.2.3.tar.gz"], 
+    "numpy<1.25,>=1.21": ["numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy>=1.17.3": ["scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy": ["encodec-0.1.1.tar.gz", "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3": ["librosa-0.10.0-py3-none-any.whl"], 
+    "numpy<2,>=1.20": ["matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3; python_version < \"3.10\"": ["pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.17": ["accelerate-0.16.0-py3-none-any.whl", "transformers-4.33.3-py3-none-any.whl", "umap-learn-0.5.4.tar.gz"], 
+    "numpy<2.0,>=1.16; python_version <= \"3.11\"": ["contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<1.28.0,>=1.21.6": ["scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<2.0.0,>=1.22.3": ["dctorch-0.1.0-py3-none-any.whl", "dctorch-0.1.1-py3-none-any.whl", "dctorch-0.1.2-py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "accelerate-0.15.0-py3-none-any.whl": [">=3.7.0", "numpy>=1.17", "packaging>=20.0", "psutil", "pyyaml", "torch>=1.4.0"]
+   }, 
+   "pinned": "accelerate-0.15.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dctorch-0.1.2-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.1-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.0-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"]
+   }, 
+   "rejected": {
+    "numpy==1.22.0; python_version <= \"3.10\"": ["TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl"], 
+    "numpy<2.0.0,>=1.19.0": ["gruut-2.2.3.tar.gz"], 
+    "numpy<1.25,>=1.21": ["numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy>=1.17.3": ["scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy": ["encodec-0.1.1.tar.gz", "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3": ["librosa-0.10.0-py3-none-any.whl"], 
+    "numpy<2,>=1.20": ["matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3; python_version < \"3.10\"": ["pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.17": ["accelerate-0.15.0-py3-none-any.whl", "transformers-4.33.3-py3-none-any.whl", "umap-learn-0.5.4.tar.gz"], 
+    "numpy<2.0,>=1.16; python_version <= \"3.11\"": ["contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<1.28.0,>=1.21.6": ["scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<2.0.0,>=1.22.3": ["dctorch-0.1.0-py3-none-any.whl", "dctorch-0.1.1-py3-none-any.whl", "dctorch-0.1.2-py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "accelerate-0.14.0-py3-none-any.whl": [">=3.7.0", "numpy>=1.17", "packaging>=20.0", "psutil", "pyyaml", "torch>=1.4.0"]
+   }, 
+   "pinned": "accelerate-0.14.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dctorch-0.1.2-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.1-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.0-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"]
+   }, 
+   "rejected": {
+    "numpy==1.22.0; python_version <= \"3.10\"": ["TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl"], 
+    "numpy<2.0.0,>=1.19.0": ["gruut-2.2.3.tar.gz"], 
+    "numpy<1.25,>=1.21": ["numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy>=1.17.3": ["scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy": ["encodec-0.1.1.tar.gz", "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3": ["librosa-0.10.0-py3-none-any.whl"], 
+    "numpy<2,>=1.20": ["matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3; python_version < \"3.10\"": ["pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.17": ["accelerate-0.14.0-py3-none-any.whl", "transformers-4.33.3-py3-none-any.whl", "umap-learn-0.5.4.tar.gz"], 
+    "numpy<2.0,>=1.16; python_version <= \"3.11\"": ["contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<1.28.0,>=1.21.6": ["scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<2.0.0,>=1.22.3": ["dctorch-0.1.0-py3-none-any.whl", "dctorch-0.1.1-py3-none-any.whl", "dctorch-0.1.2-py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "accelerate-0.13.2-py3-none-any.whl": [">=3.7.0", "numpy>=1.17", "packaging>=20.0", "psutil", "pyyaml", "torch>=1.4.0"]
+   }, 
+   "pinned": "accelerate-0.13.2-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dctorch-0.1.2-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.1-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.0-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"]
+   }, 
+   "rejected": {
+    "numpy==1.22.0; python_version <= \"3.10\"": ["TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl"], 
+    "numpy<2.0.0,>=1.19.0": ["gruut-2.2.3.tar.gz"], 
+    "numpy<1.25,>=1.21": ["numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy>=1.17.3": ["scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy": ["encodec-0.1.1.tar.gz", "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3": ["librosa-0.10.0-py3-none-any.whl"], 
+    "numpy<2,>=1.20": ["matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3; python_version < \"3.10\"": ["pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.17": ["accelerate-0.13.2-py3-none-any.whl", "transformers-4.33.3-py3-none-any.whl", "umap-learn-0.5.4.tar.gz"], 
+    "numpy<2.0,>=1.16; python_version <= \"3.11\"": ["contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<1.28.0,>=1.21.6": ["scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<2.0.0,>=1.22.3": ["dctorch-0.1.0-py3-none-any.whl", "dctorch-0.1.1-py3-none-any.whl", "dctorch-0.1.2-py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "accelerate-0.13.1-py3-none-any.whl": [">=3.7.0", "numpy>=1.17", "packaging>=20.0", "psutil", "pyyaml", "torch>=1.4.0"]
+   }, 
+   "pinned": "accelerate-0.13.1-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dctorch-0.1.2-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.1-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.0-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"]
+   }, 
+   "rejected": {
+    "numpy==1.22.0; python_version <= \"3.10\"": ["TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl"], 
+    "numpy<2.0.0,>=1.19.0": ["gruut-2.2.3.tar.gz"], 
+    "numpy<1.25,>=1.21": ["numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy>=1.17.3": ["scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy": ["encodec-0.1.1.tar.gz", "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3": ["librosa-0.10.0-py3-none-any.whl"], 
+    "numpy<2,>=1.20": ["matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3; python_version < \"3.10\"": ["pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.17": ["accelerate-0.13.1-py3-none-any.whl", "transformers-4.33.3-py3-none-any.whl", "umap-learn-0.5.4.tar.gz"], 
+    "numpy<2.0,>=1.16; python_version <= \"3.11\"": ["contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<1.28.0,>=1.21.6": ["scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<2.0.0,>=1.22.3": ["dctorch-0.1.0-py3-none-any.whl", "dctorch-0.1.1-py3-none-any.whl", "dctorch-0.1.2-py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "accelerate-0.13.0-py3-none-any.whl": [">=3.7.0", "numpy>=1.17", "packaging>=20.0", "psutil", "pyyaml", "torch>=1.4.0"]
+   }, 
+   "pinned": "accelerate-0.13.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dctorch-0.1.2-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.1-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.0-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"]
+   }, 
+   "rejected": {
+    "numpy==1.22.0; python_version <= \"3.10\"": ["TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl"], 
+    "numpy<2.0.0,>=1.19.0": ["gruut-2.2.3.tar.gz"], 
+    "numpy<1.25,>=1.21": ["numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy>=1.17.3": ["scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy": ["encodec-0.1.1.tar.gz", "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3": ["librosa-0.10.0-py3-none-any.whl"], 
+    "numpy<2,>=1.20": ["matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3; python_version < \"3.10\"": ["pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.17": ["accelerate-0.13.0-py3-none-any.whl", "transformers-4.33.3-py3-none-any.whl", "umap-learn-0.5.4.tar.gz"], 
+    "numpy<2.0,>=1.16; python_version <= \"3.11\"": ["contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<1.28.0,>=1.21.6": ["scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<2.0.0,>=1.22.3": ["dctorch-0.1.0-py3-none-any.whl", "dctorch-0.1.1-py3-none-any.whl", "dctorch-0.1.2-py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "accelerate-0.12.0-py3-none-any.whl": [">=3.7.0", "numpy>=1.17", "packaging>=20.0", "psutil", "pyyaml", "torch>=1.4.0"]
+   }, 
+   "pinned": "accelerate-0.12.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dctorch-0.1.2-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.1-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.0-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"]
+   }, 
+   "rejected": {
+    "numpy==1.22.0; python_version <= \"3.10\"": ["TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl"], 
+    "numpy<2.0.0,>=1.19.0": ["gruut-2.2.3.tar.gz"], 
+    "numpy<1.25,>=1.21": ["numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy>=1.17.3": ["scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy": ["encodec-0.1.1.tar.gz", "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3": ["librosa-0.10.0-py3-none-any.whl"], 
+    "numpy<2,>=1.20": ["matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3; python_version < \"3.10\"": ["pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.17": ["accelerate-0.12.0-py3-none-any.whl", "transformers-4.33.3-py3-none-any.whl", "umap-learn-0.5.4.tar.gz"], 
+    "numpy<2.0,>=1.16; python_version <= \"3.11\"": ["contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<1.28.0,>=1.21.6": ["scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<2.0.0,>=1.22.3": ["dctorch-0.1.0-py3-none-any.whl", "dctorch-0.1.1-py3-none-any.whl", "dctorch-0.1.2-py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "accelerate-0.11.0-py3-none-any.whl": [">=3.7.0", "numpy>=1.17", "packaging>=20.0", "psutil", "pyyaml", "torch>=1.4.0"]
+   }, 
+   "pinned": "accelerate-0.11.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dctorch-0.1.2-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.1-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.0-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"]
+   }, 
+   "rejected": {
+    "numpy==1.22.0; python_version <= \"3.10\"": ["TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl"], 
+    "numpy<2.0.0,>=1.19.0": ["gruut-2.2.3.tar.gz"], 
+    "numpy<1.25,>=1.21": ["numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy>=1.17.3": ["scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy": ["encodec-0.1.1.tar.gz", "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3": ["librosa-0.10.0-py3-none-any.whl"], 
+    "numpy<2,>=1.20": ["matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3; python_version < \"3.10\"": ["pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.17": ["accelerate-0.11.0-py3-none-any.whl", "transformers-4.33.3-py3-none-any.whl", "umap-learn-0.5.4.tar.gz"], 
+    "numpy<2.0,>=1.16; python_version <= \"3.11\"": ["contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<1.28.0,>=1.21.6": ["scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<2.0.0,>=1.22.3": ["dctorch-0.1.0-py3-none-any.whl", "dctorch-0.1.1-py3-none-any.whl", "dctorch-0.1.2-py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "accelerate-0.10.0-py3-none-any.whl": [">=3.7.0", "numpy>=1.17", "packaging>=20.0", "psutil", "pyyaml", "torch>=1.4.0"]
+   }, 
+   "pinned": "accelerate-0.10.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dctorch-0.1.2-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.1-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.0-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"]
+   }, 
+   "rejected": {
+    "numpy==1.22.0; python_version <= \"3.10\"": ["TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl"], 
+    "numpy<2.0.0,>=1.19.0": ["gruut-2.2.3.tar.gz"], 
+    "numpy<1.25,>=1.21": ["numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy>=1.17.3": ["scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy": ["encodec-0.1.1.tar.gz", "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3": ["librosa-0.10.0-py3-none-any.whl"], 
+    "numpy<2,>=1.20": ["matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3; python_version < \"3.10\"": ["pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.17": ["accelerate-0.10.0-py3-none-any.whl", "transformers-4.33.3-py3-none-any.whl", "umap-learn-0.5.4.tar.gz"], 
+    "numpy<2.0,>=1.16; python_version <= \"3.11\"": ["contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<1.28.0,>=1.21.6": ["scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<2.0.0,>=1.22.3": ["dctorch-0.1.0-py3-none-any.whl", "dctorch-0.1.1-py3-none-any.whl", "dctorch-0.1.2-py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "accelerate-0.9.0-py3-none-any.whl": [">=3.6.0", "torch>=1.4.0", "pyyaml", "numpy>=1.17"]
+   }, 
+   "pinned": "accelerate-0.9.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dctorch-0.1.2-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.1-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.0-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"]
+   }, 
+   "rejected": {
+    "numpy==1.22.0; python_version <= \"3.10\"": ["TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl"], 
+    "numpy<2.0.0,>=1.19.0": ["gruut-2.2.3.tar.gz"], 
+    "numpy<1.25,>=1.21": ["numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy>=1.17.3": ["scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy": ["encodec-0.1.1.tar.gz", "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3": ["librosa-0.10.0-py3-none-any.whl"], 
+    "numpy<2,>=1.20": ["matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3; python_version < \"3.10\"": ["pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.17": ["accelerate-0.9.0-py3-none-any.whl", "transformers-4.33.3-py3-none-any.whl", "umap-learn-0.5.4.tar.gz"], 
+    "numpy<2.0,>=1.16; python_version <= \"3.11\"": ["contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<1.28.0,>=1.21.6": ["scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<2.0.0,>=1.22.3": ["dctorch-0.1.0-py3-none-any.whl", "dctorch-0.1.1-py3-none-any.whl", "dctorch-0.1.2-py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "accelerate-0.8.0-py3-none-any.whl": [">=3.6.0", "torch>=1.4.0", "pyyaml", "numpy>=1.17"]
+   }, 
+   "pinned": "accelerate-0.8.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dctorch-0.1.2-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.1-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.0-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"]
+   }, 
+   "rejected": {
+    "numpy==1.22.0; python_version <= \"3.10\"": ["TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl"], 
+    "numpy<2.0.0,>=1.19.0": ["gruut-2.2.3.tar.gz"], 
+    "numpy<1.25,>=1.21": ["numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy>=1.17.3": ["scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy": ["encodec-0.1.1.tar.gz", "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3": ["librosa-0.10.0-py3-none-any.whl"], 
+    "numpy<2,>=1.20": ["matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3; python_version < \"3.10\"": ["pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.17": ["accelerate-0.8.0-py3-none-any.whl", "transformers-4.33.3-py3-none-any.whl", "umap-learn-0.5.4.tar.gz"], 
+    "numpy<2.0,>=1.16; python_version <= \"3.11\"": ["contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<1.28.0,>=1.21.6": ["scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<2.0.0,>=1.22.3": ["dctorch-0.1.0-py3-none-any.whl", "dctorch-0.1.1-py3-none-any.whl", "dctorch-0.1.2-py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "accelerate-0.7.1-py3-none-any.whl": [">=3.6.0", "torch>=1.4.0", "pyyaml", "numpy>=1.17"]
+   }, 
+   "pinned": "accelerate-0.7.1-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dctorch-0.1.2-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.1-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.0-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"]
+   }, 
+   "rejected": {
+    "numpy==1.22.0; python_version <= \"3.10\"": ["TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl"], 
+    "numpy<2.0.0,>=1.19.0": ["gruut-2.2.3.tar.gz"], 
+    "numpy<1.25,>=1.21": ["numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy>=1.17.3": ["scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy": ["encodec-0.1.1.tar.gz", "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3": ["librosa-0.10.0-py3-none-any.whl"], 
+    "numpy<2,>=1.20": ["matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3; python_version < \"3.10\"": ["pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.17": ["accelerate-0.7.1-py3-none-any.whl", "transformers-4.33.3-py3-none-any.whl", "umap-learn-0.5.4.tar.gz"], 
+    "numpy<2.0,>=1.16; python_version <= \"3.11\"": ["contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<1.28.0,>=1.21.6": ["scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<2.0.0,>=1.22.3": ["dctorch-0.1.0-py3-none-any.whl", "dctorch-0.1.1-py3-none-any.whl", "dctorch-0.1.2-py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "accelerate-0.7.0-py3-none-any.whl": [">=3.6.0", "torch>=1.4.0", "pyyaml", "numpy>=1.17"]
+   }, 
+   "pinned": "accelerate-0.7.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dctorch-0.1.2-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.1-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.0-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"]
+   }, 
+   "rejected": {
+    "numpy==1.22.0; python_version <= \"3.10\"": ["TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl"], 
+    "numpy<2.0.0,>=1.19.0": ["gruut-2.2.3.tar.gz"], 
+    "numpy<1.25,>=1.21": ["numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy>=1.17.3": ["scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy": ["encodec-0.1.1.tar.gz", "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3": ["librosa-0.10.0-py3-none-any.whl"], 
+    "numpy<2,>=1.20": ["matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3; python_version < \"3.10\"": ["pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.17": ["accelerate-0.7.0-py3-none-any.whl", "transformers-4.33.3-py3-none-any.whl", "umap-learn-0.5.4.tar.gz"], 
+    "numpy<2.0,>=1.16; python_version <= \"3.11\"": ["contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<1.28.0,>=1.21.6": ["scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<2.0.0,>=1.22.3": ["dctorch-0.1.0-py3-none-any.whl", "dctorch-0.1.1-py3-none-any.whl", "dctorch-0.1.2-py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "accelerate-0.6.2-py3-none-any.whl": [">=3.6.0", "torch>=1.4.0", "pyyaml", "numpy>=1.17"]
+   }, 
+   "pinned": "accelerate-0.6.2-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dctorch-0.1.2-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.1-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.0-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"]
+   }, 
+   "rejected": {
+    "numpy==1.22.0; python_version <= \"3.10\"": ["TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl"], 
+    "numpy<2.0.0,>=1.19.0": ["gruut-2.2.3.tar.gz"], 
+    "numpy<1.25,>=1.21": ["numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy>=1.17.3": ["scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy": ["encodec-0.1.1.tar.gz", "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3": ["librosa-0.10.0-py3-none-any.whl"], 
+    "numpy<2,>=1.20": ["matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3; python_version < \"3.10\"": ["pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.17": ["accelerate-0.6.2-py3-none-any.whl", "transformers-4.33.3-py3-none-any.whl", "umap-learn-0.5.4.tar.gz"], 
+    "numpy<2.0,>=1.16; python_version <= \"3.11\"": ["contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<1.28.0,>=1.21.6": ["scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<2.0.0,>=1.22.3": ["dctorch-0.1.0-py3-none-any.whl", "dctorch-0.1.1-py3-none-any.whl", "dctorch-0.1.2-py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "accelerate-0.6.1-py3-none-any.whl": [">=3.6.0", "torch>=1.4.0", "pyyaml", "numpy>=1.17"]
+   }, 
+   "pinned": "accelerate-0.6.1-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dctorch-0.1.2-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.1-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.0-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"]
+   }, 
+   "rejected": {
+    "numpy==1.22.0; python_version <= \"3.10\"": ["TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl"], 
+    "numpy<2.0.0,>=1.19.0": ["gruut-2.2.3.tar.gz"], 
+    "numpy<1.25,>=1.21": ["numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy>=1.17.3": ["scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy": ["encodec-0.1.1.tar.gz", "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3": ["librosa-0.10.0-py3-none-any.whl"], 
+    "numpy<2,>=1.20": ["matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3; python_version < \"3.10\"": ["pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.17": ["accelerate-0.6.1-py3-none-any.whl", "transformers-4.33.3-py3-none-any.whl", "umap-learn-0.5.4.tar.gz"], 
+    "numpy<2.0,>=1.16; python_version <= \"3.11\"": ["contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<1.28.0,>=1.21.6": ["scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<2.0.0,>=1.22.3": ["dctorch-0.1.0-py3-none-any.whl", "dctorch-0.1.1-py3-none-any.whl", "dctorch-0.1.2-py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "accelerate-0.6.0-py3-none-any.whl": [">=3.6.0", "torch>=1.4.0", "pyyaml", "numpy>=1.17"]
+   }, 
+   "pinned": "accelerate-0.6.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dctorch-0.1.2-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.1-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.0-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"]
+   }, 
+   "rejected": {
+    "numpy==1.22.0; python_version <= \"3.10\"": ["TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl"], 
+    "numpy<2.0.0,>=1.19.0": ["gruut-2.2.3.tar.gz"], 
+    "numpy<1.25,>=1.21": ["numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy>=1.17.3": ["scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy": ["encodec-0.1.1.tar.gz", "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3": ["librosa-0.10.0-py3-none-any.whl"], 
+    "numpy<2,>=1.20": ["matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3; python_version < \"3.10\"": ["pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.17": ["accelerate-0.6.0-py3-none-any.whl", "transformers-4.33.3-py3-none-any.whl", "umap-learn-0.5.4.tar.gz"], 
+    "numpy<2.0,>=1.16; python_version <= \"3.11\"": ["contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<1.28.0,>=1.21.6": ["scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<2.0.0,>=1.22.3": ["dctorch-0.1.0-py3-none-any.whl", "dctorch-0.1.1-py3-none-any.whl", "dctorch-0.1.2-py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "accelerate-0.5.1-py3-none-any.whl": [">=3.6.0", "torch>=1.4.0", "pyyaml", "numpy>=1.17"]
+   }, 
+   "pinned": "accelerate-0.5.1-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dctorch-0.1.2-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.1-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.0-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"]
+   }, 
+   "rejected": {
+    "numpy==1.22.0; python_version <= \"3.10\"": ["TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl"], 
+    "numpy<2.0.0,>=1.19.0": ["gruut-2.2.3.tar.gz"], 
+    "numpy<1.25,>=1.21": ["numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy>=1.17.3": ["scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy": ["encodec-0.1.1.tar.gz", "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3": ["librosa-0.10.0-py3-none-any.whl"], 
+    "numpy<2,>=1.20": ["matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3; python_version < \"3.10\"": ["pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.17": ["accelerate-0.5.1-py3-none-any.whl", "transformers-4.33.3-py3-none-any.whl", "umap-learn-0.5.4.tar.gz"], 
+    "numpy<2.0,>=1.16; python_version <= \"3.11\"": ["contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<1.28.0,>=1.21.6": ["scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<2.0.0,>=1.22.3": ["dctorch-0.1.0-py3-none-any.whl", "dctorch-0.1.1-py3-none-any.whl", "dctorch-0.1.2-py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "accelerate-0.5.0-py3-none-any.whl": [">=3.6.0", "torch>=1.4.0", "pyyaml", "numpy>=1.17"]
+   }, 
+   "pinned": "accelerate-0.5.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dctorch-0.1.2-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.1-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.0-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"]
+   }, 
+   "rejected": {
+    "numpy==1.22.0; python_version <= \"3.10\"": ["TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl"], 
+    "numpy<2.0.0,>=1.19.0": ["gruut-2.2.3.tar.gz"], 
+    "numpy<1.25,>=1.21": ["numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy>=1.17.3": ["scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy": ["encodec-0.1.1.tar.gz", "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3": ["librosa-0.10.0-py3-none-any.whl"], 
+    "numpy<2,>=1.20": ["matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3; python_version < \"3.10\"": ["pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.17": ["accelerate-0.5.0-py3-none-any.whl", "transformers-4.33.3-py3-none-any.whl", "umap-learn-0.5.4.tar.gz"], 
+    "numpy<2.0,>=1.16; python_version <= \"3.11\"": ["contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<1.28.0,>=1.21.6": ["scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<2.0.0,>=1.22.3": ["dctorch-0.1.0-py3-none-any.whl", "dctorch-0.1.1-py3-none-any.whl", "dctorch-0.1.2-py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "accelerate-0.4.0-py3-none-any.whl": [">=3.6.0", "torch>=1.4.0", "pyyaml"]
+   }, 
+   "pinned": "accelerate-0.4.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "dctorch-0.1.2-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.1-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.0-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"]
+   }, 
+   "rejected": {
+    "numpy==1.22.0; python_version <= \"3.10\"": ["TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl"], 
+    "numpy<2.0.0,>=1.19.0": ["gruut-2.2.3.tar.gz"], 
+    "numpy<1.25,>=1.21": ["numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy>=1.17.3": ["scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy": ["encodec-0.1.1.tar.gz", "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3": ["librosa-0.10.0-py3-none-any.whl"], 
+    "numpy<2,>=1.20": ["matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3; python_version < \"3.10\"": ["pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.17": ["transformers-4.33.3-py3-none-any.whl", "umap-learn-0.5.4.tar.gz"], 
+    "numpy<2.0,>=1.16; python_version <= \"3.11\"": ["contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<1.28.0,>=1.21.6": ["scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<2.0.0,>=1.22.3": ["dctorch-0.1.0-py3-none-any.whl", "dctorch-0.1.1-py3-none-any.whl", "dctorch-0.1.2-py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "dctorch-0.1.2-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.1-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"], 
+    "dctorch-0.1.0-py3-none-any.whl": ["<4.0,>=3.8", "numpy<2.0.0,>=1.22.3"]
+   }, 
+   "rejected": {
+    "numpy==1.22.0; python_version <= \"3.10\"": ["TTS-0.17.6-cp39-cp39-manylinux1_x86_64.whl"], 
+    "numpy<2.0.0,>=1.19.0": ["gruut-2.2.3.tar.gz"], 
+    "numpy<1.25,>=1.21": ["numba-0.57.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"], 
+    "numpy>=1.17.3": ["scikit_learn-1.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy": ["encodec-0.1.1.tar.gz", "soxr-0.3.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3": ["librosa-0.10.0-py3-none-any.whl"], 
+    "numpy<2,>=1.20": ["matplotlib-3.7.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.20.3; python_version < \"3.10\"": ["pandas-1.5.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy>=1.17": ["transformers-4.33.3-py3-none-any.whl", "umap-learn-0.5.4.tar.gz"], 
+    "numpy<2.0,>=1.16; python_version <= \"3.11\"": ["contourpy-1.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<1.28.0,>=1.21.6": ["scipy-1.11.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"], 
+    "numpy<2.0.0,>=1.22.3": ["dctorch-0.1.0-py3-none-any.whl", "dctorch-0.1.1-py3-none-any.whl", "dctorch-0.1.2-py3-none-any.whl"]
+   }
+  }, 
+  {
+   "added": {
+    "k_diffusion-0.0.16-py3-none-any.whl": ["accelerate", "clean-fid", "clip-anytorch", "einops", "jsonmerge", "kornia", "Pillow", "resize-right", "scikit-image", "scipy", "torch", "torchdiffeq", "torchsde", "torchvision", "tqdm", "wandb"]
+   }, 
+   "pinned": "k_diffusion-0.0.16-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "accelerate-0.23.0-py3-none-any.whl": [">=3.8.0", "numpy>=1.17", "packaging>=20.0", "psutil", "pyyaml", "torch>=1.10.0", "huggingface-hub"]
+   }, 
+   "pinned": "accelerate-0.23.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "clean_fid-0.1.35-py3-none-any.whl": ["torch", "torchvision", "numpy>=1.14.3", "scipy>=1.0.1", "tqdm>=4.28.1", "pillow>=8.1", "requests"]
+   }, 
+   "pinned": "clean_fid-0.1.35-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "clip_anytorch-2.5.2-py3-none-any.whl": ["ftfy", "regex", "tqdm", "torch", "torchvision"]
+   }, 
+   "pinned": "clip_anytorch-2.5.2-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "ftfy-6.1.1-py3-none-any.whl": ["<4,>=3.7", "wcwidth>=0.2.5"]
+   }, 
+   "pinned": "ftfy-6.1.1-py3-none-any.whl"
+  }, 
+  {"pinned": "wcwidth-0.2.8-py2.py3-none-any.whl"}, 
+  {
+   "added": {
+    "jsonmerge-1.9.2-py3-none-any.whl": ["jsonschema>2.4.0"]
+   }, 
+   "pinned": "jsonmerge-1.9.2-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "jsonschema-4.19.1-py3-none-any.whl": [">=3.8", "attrs>=22.2.0", "jsonschema-specifications>=2023.03.6", "referencing>=0.28.4", "rpds-py>=0.7.1"]
+   }, 
+   "pinned": "jsonschema-4.19.1-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "jsonschema_specifications-2023.7.1-py3-none-any.whl": [">=3.8", "referencing>=0.28.0"]
+   }, 
+   "pinned": "jsonschema_specifications-2023.7.1-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "referencing-0.30.2-py3-none-any.whl": [">=3.8", "attrs>=22.2.0", "rpds-py>=0.7.0"]
+   }, 
+   "pinned": "referencing-0.30.2-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "rpds_py-0.10.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.8"]
+   }, 
+   "pinned": "rpds_py-0.10.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "kornia-0.7.0-py2.py3-none-any.whl": [">=3.8", "packaging", "torch>=1.9.1"]
+   }, 
+   "pinned": "kornia-0.7.0-py2.py3-none-any.whl"
+  }, 
+  {"pinned": "lit-17.0.1.tar.gz"}, 
+  {
+   "added": {
+    "nltk-3.8.1-py3-none-any.whl": [">=3.7", "click", "joblib", "regex>=2021.8.3", "tqdm"]
+   }, 
+   "pinned": "nltk-3.8.1-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "psutil-5.9.5-cp36-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl": ["!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,>=2.7"]
+   }, 
+   "pinned": "psutil-5.9.5-cp36-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "pycparser-2.21-py2.py3-none-any.whl": ["!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,>=2.7"]
+   }, 
+   "pinned": "pycparser-2.21-py2.py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "pypinyin-0.49.0-py2.py3-none-any.whl": ["!=3.0.*,!=3.1.*,!=3.2.*,<4,>=2.6"]
+   }, 
+   "pinned": "pypinyin-0.49.0-py2.py3-none-any.whl"
+  }, 
+  {"pinned": "resize_right-0.0.2-py3-none-any.whl"}, 
+  {
+   "added": {
+    "scikit_image-0.21.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.8", "numpy>=1.21.1", "scipy>=1.8", "networkx>=2.8", "pillow>=9.0.1", "imageio>=2.27", "tifffile>=2022.8.12", "PyWavelets>=1.1.1", "packaging>=21", "lazy_loader>=0.2"]
+   }, 
+   "pinned": "scikit_image-0.21.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "imageio-2.31.4-py3-none-any.whl": [">=3.8", "numpy", "pillow>=8.3.2"]
+   }, 
+   "pinned": "imageio-2.31.4-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "PyWavelets-1.4.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.8", "numpy>=1.17.3"]
+   }, 
+   "pinned": "PyWavelets-1.4.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "tifffile-2023.9.26-py3-none-any.whl": [">=3.9", "numpy"]
+   }, 
+   "pinned": "tifffile-2023.9.26-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "setuptools-68.2.2-py3-none-any.whl": [">=3.8"]
+   }, 
+   "pinned": "setuptools-68.2.2-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "sympy-1.12-py3-none-any.whl": [">=3.8", "mpmath>=0.19"]
+   }, 
+   "pinned": "sympy-1.12-py3-none-any.whl"
+  }, 
+  {"pinned": "mpmath-1.3.0-py3-none-any.whl"}, 
+  {
+   "added": {
+    "torchaudio-2.0.2-cp39-cp39-manylinux1_x86_64.whl": ["torch==2.0.1"]
+   }, 
+   "pinned": "torchaudio-2.0.2-cp39-cp39-manylinux1_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "torchdiffeq-0.2.3-py3-none-any.whl": ["~=3.6", "torch>=1.3.0", "scipy>=1.4.0"]
+   }, 
+   "pinned": "torchdiffeq-0.2.3-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "torchsde-0.2.6-py3-none-any.whl": [">=3.8", "numpy>=1.19", "scipy>=1.5", "torch>=1.6.0", "trampoline>=0.1.2"]
+   }, 
+   "pinned": "torchsde-0.2.6-py3-none-any.whl"
+  }, 
+  {"pinned": "trampoline-0.1.2-py3-none-any.whl"}, 
+  {
+   "added": {
+    "torchvision-0.15.2-cp39-cp39-manylinux1_x86_64.whl": [">=3.8", "numpy", "requests", "torch==2.0.1", "pillow!=8.3.*,>=5.3.0"]
+   }, 
+   "pinned": "torchvision-0.15.2-cp39-cp39-manylinux1_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "trainer-0.0.31-py3-none-any.whl": ["<3.12,>=3.6.0", "torch>=1.7", "coqpit", "psutil", "fsspec", "tensorboard", "soundfile"]
+   }, 
+   "pinned": "trainer-0.0.31-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "tensorboard-2.14.1-py3-none-any.whl": [">=3.9", "absl-py>=0.4", "grpcio>=1.48.2", "google-auth<3,>=1.6.3", "google-auth-oauthlib<1.1,>=0.5", "markdown>=2.6.8", "numpy>=1.12.0", "protobuf>=3.19.6", "requests<3,>=2.21.0", "setuptools>=41.0.0", "six>1.9", "tensorboard-data-server<0.8.0,>=0.7.0", "werkzeug>=1.0.1"]
+   }, 
+   "pinned": "tensorboard-2.14.1-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "google_auth-2.23.2-py2.py3-none-any.whl": [">=3.7", "cachetools<6.0,>=2.0.0", "pyasn1-modules>=0.2.1", "rsa<5,>=3.1.4"]
+   }, 
+   "pinned": "google_auth-2.23.2-py2.py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "cachetools-5.3.1-py3-none-any.whl": [">=3.7"]
+   }, 
+   "pinned": "cachetools-5.3.1-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "google_auth_oauthlib-1.0.0-py2.py3-none-any.whl": [">=3.6", "google-auth>=2.15.0", "requests-oauthlib>=0.7.0"]
+   }, 
+   "pinned": "google_auth_oauthlib-1.0.0-py2.py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "rsa-4.9-py3-none-any.whl": ["<4,>=3.6", "pyasn1>=0.1.3"]
+   }, 
+   "pinned": "rsa-4.9-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "tensorboard_data_server-0.7.1-py3-none-manylinux2014_x86_64.whl": [">=3.7"]
+   }, 
+   "pinned": "tensorboard_data_server-0.7.1-py3-none-manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "absl_py-2.0.0-py3-none-any.whl": [">=3.7"]
+   }, 
+   "pinned": "absl_py-2.0.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "grpcio-1.59.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.7"]
+   }, 
+   "pinned": "grpcio-1.59.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "Markdown-3.4.4-py3-none-any.whl": [">=3.7", "importlib-metadata>=4.4; python_version < \"3.10\""]
+   }, 
+   "pinned": "Markdown-3.4.4-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "protobuf-4.24.3-cp37-abi3-manylinux2014_x86_64.whl": [">=3.7"]
+   }, 
+   "pinned": "protobuf-4.24.3-cp37-abi3-manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "pyasn1-0.5.0-py2.py3-none-any.whl": ["!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,!=3.5.*,>=2.7"]
+   }, 
+   "pinned": "pyasn1-0.5.0-py2.py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "pyasn1_modules-0.3.0-py2.py3-none-any.whl": ["!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,!=3.5.*,>=2.7", "pyasn1<0.6.0,>=0.4.6"]
+   }, 
+   "pinned": "pyasn1_modules-0.3.0-py2.py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "requests_oauthlib-1.3.1-py2.py3-none-any.whl": ["!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,>=2.7", "oauthlib>=3.0.0", "requests>=2.0.0"]
+   }, 
+   "pinned": "requests_oauthlib-1.3.1-py2.py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "oauthlib-3.2.2-py3-none-any.whl": [">=3.6"]
+   }, 
+   "pinned": "oauthlib-3.2.2-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "tzlocal-5.0.1-py3-none-any.whl": [">=3.7"]
+   }, 
+   "pinned": "tzlocal-5.0.1-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "wandb-0.15.11-py3-none-any.whl": [">=3.6", "Click!=8.0.0,>=7.1", "GitPython!=3.1.29,>=1.0.0", "requests<3,>=2.0.0", "psutil>=5.0.0", "sentry-sdk>=1.0.0", "docker-pycreds>=0.4.0", "PyYAML", "pathtools", "setproctitle", "setuptools", "appdirs>=1.4.3", "typing-extensions; python_version < \"3.10\"", "protobuf!=4.21.0,<5,>=3.15.0; python_version == \"3.9\" and sys_platform == \"linux\""]
+   }, 
+   "pinned": "wandb-0.15.11-py3-none-any.whl"
+  }, 
+  {"pinned": "appdirs-1.4.4-py2.py3-none-any.whl"}, 
+  {
+   "added": {
+    "docker_pycreds-0.4.0-py2.py3-none-any.whl": ["six>=1.4.0"]
+   }, 
+   "pinned": "docker_pycreds-0.4.0-py2.py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "GitPython-3.1.37-py3-none-any.whl": [">=3.7", "gitdb<5,>=4.0.1"]
+   }, 
+   "pinned": "GitPython-3.1.37-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "gitdb-4.0.10-py3-none-any.whl": [">=3.7", "smmap<6,>=3.0.1"]
+   }, 
+   "pinned": "gitdb-4.0.10-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "smmap-5.0.1-py3-none-any.whl": [">=3.7"]
+   }, 
+   "pinned": "smmap-5.0.1-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "sentry_sdk-1.31.0-py2.py3-none-any.whl": ["certifi", "urllib3>=1.26.11; python_version >= \"3.6\""]
+   }, 
+   "pinned": "sentry_sdk-1.31.0-py2.py3-none-any.whl"
+  }, 
+  {"pinned": "pathtools-0.1.2.tar.gz"}, 
+  {
+   "added": {
+    "setproctitle-1.3.2-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.7"]
+   }, 
+   "pinned": "setproctitle-1.3.2-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "wheel-0.41.2-py3-none-any.whl": [">=3.7"]
+   }, 
+   "pinned": "wheel-0.41.2-py3-none-any.whl"
+  }
+ ]
+}

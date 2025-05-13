@@ -1,0 +1,25 @@
+{
+ "input": {
+  "pip_version": "25.1.1", 
+  "python_version": "3.10", 
+  "datetime": "2024-10-07 14:00:00", 
+  "platform_system": "Linux", 
+  "requirements": ["numpy"]
+ }, 
+ "result": {
+  "success": true, 
+  "failure_reason": null, 
+  "install_info": [
+   {"file": "numpy-2.1.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=d666cb72687559689e9906197e3bec7b736764df6a2e58ee265e360663e9baf7"}
+  ]
+ }, 
+ "resolution_rounds": [
+  {
+   "added": {
+    "numpy-2.1.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.10"]
+   }, 
+   "pinned": "numpy-2.1.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {"pinned": "PythonCandidate"}
+ ]
+}

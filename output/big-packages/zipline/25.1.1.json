@@ -1,0 +1,310 @@
+{
+ "input": {
+  "pip_version": "25.1.1", 
+  "python_version": "3.11", 
+  "datetime": "2024-10-07 14:00:00", 
+  "platform_system": "Linux", 
+  "requirements": ["zipline-reloaded"]
+ }, 
+ "result": {
+  "success": true, 
+  "failure_reason": null, 
+  "install_info": [
+   {"file": "Bottleneck-1.4.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=a704165552496cbcc8bcc5921bb679fd6fa66bb1e758888de091b1223231c9f0"}, 
+   {"file": "Mako-1.3.5-py3-none-any.whl", "hash": "sha256=260f1dbc3a519453a9c856dedfe4beb4e50bd5a26d96386cb6c80856556bb91a"}, 
+   {"file": "MarkupSafe-2.1.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=b91c037585eba9095565a3556f611e3cbfaa42ca1e865f7b8015fe5c7336d5a5"}, 
+   {"file": "SQLAlchemy-2.0.35-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=627dee0c280eea91aed87b20a1f849e9ae2fe719d52cbf847c0e0ea34464b3f7"}, 
+   {"file": "alembic-1.13.3-py3-none-any.whl", "hash": "sha256=908e905976d15235fae59c9ac42c4c5b75cfcefe3d27c0fbf7ae15a37715d80e"}, 
+   {"file": "bcolz_zipline-1.2.12-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=1d8d65440eca3c96b908175c0929072089fe140dbaf5a32cd35b3254814fe22a"}, 
+   {"file": "blosc2-2.7.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=ed15f0eb6a99df425b33be948fb309a97e76bda37eae20022bc9611bce775592"}, 
+   {"file": "certifi-2024.8.30-py3-none-any.whl", "hash": "sha256=922820b53db7a7257ffbda3f597266d435245903d80737e34f8a45ff3e3230d8"}, 
+   {"file": "charset_normalizer-3.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=753f10e867343b4511128c6ed8c82f7bec3bd026875576dfd88483c5c73b2fd8"}, 
+   {"file": "click-8.1.7-py3-none-any.whl", "hash": "sha256=ae74fb96c20a0277a1d615f1e4d73c8414f5a98db8b799a7931d1582f3390c28"}, 
+   {"file": "empyrical_reloaded-0.5.11-py3-none-any.whl", "hash": "sha256=f1ef13ad9cca6f66863e7f1436520002068b8f1737a80ced1feb5e1b59e67440"}, 
+   {"file": "exchange_calendars-4.5.6-py3-none-any.whl", "hash": "sha256=5abf5ebcb8ceef0ced36fe4e20071d42517091bf081e6c44354cb343009d672b"}, 
+   {"file": "greenlet-3.1.1-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl", "hash": "sha256=9e8f8c9cb53cdac7ba9793c276acd90168f416b9ce36799b9b885790f8ad6c0a"}, 
+   {"file": "h5py-3.12.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=018a4597f35092ae3fb28ee851fdc756d2b88c96336b8480e124ce1ac6fb9166"}, 
+   {"file": "idna-3.10-py3-none-any.whl", "hash": "sha256=946d195a0d259cbba61165e88e65941f16e9b36ea6ddb97f00452bae8b1287d3"}, 
+   {"file": "intervaltree-3.1.0.tar.gz", "hash": "sha256=902b1b88936918f9b2a19e0e5eb7ccb430ae45cde4f39ea4b36932920d33952d"}, 
+   {"file": "iso3166-2.1.1-py3-none-any.whl", "hash": "sha256=263660b36f8471c42acd1ff673d28a3715edbce7d24b1550d0cf010f6816c47f"}, 
+   {"file": "iso4217-1.12.20240625-py2.py3-none-any.whl", "hash": "sha256=557da07dbb18297c7571356e3f1dbd3e541f48bccd395a493d6ee73689c4b93d"}, 
+   {"file": "korean_lunar_calendar-0.3.1-py3-none-any.whl", "hash": "sha256=392757135c492c4f42a604e6038042953c35c6f449dda5f27e3f86a7f9c943e5"}, 
+   {"file": "lru_dict-1.3.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=a1efc59bfba6aac33684d87b9e02813b0e2445b2f1c444dae2a0b396ad0ed60c"}, 
+   {"file": "msgpack-1.1.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=5e1da8f11a3dd397f0a32c76165cf0c4eb95b31013a94f6ecc0b280c05c91b59"}, 
+   {"file": "multipledispatch-1.0.0-py3-none-any.whl", "hash": "sha256=0c53cd8b077546da4e48869f49b13164bebafd0c2a5afceb6bb6a316e7fb46e4"}, 
+   {"file": "ndindex-1.9.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=f647eda61cae68a260017118ad8daac4d580ad221ff922bbaa1526e30e350feb"}, 
+   {"file": "networkx-3.3-py3-none-any.whl", "hash": "sha256=28575580c6ebdaf4505b22c6256a2b9de86b316dc63ba9e93abde3d78dfdbcf2"}, 
+   {"file": "numexpr-2.10.1-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl", "hash": "sha256=45f598182b4f5c153222e47d5163c3bee8d5ebcaee7e56dd2a5898d4d97e4473"}, 
+   {"file": "numpy-2.1.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=e2b49c3c0804e8ecb05d59af8386ec2f74877f7ca8fd9c1e00be2672e4d399b1"}, 
+   {"file": "packaging-24.1-py3-none-any.whl", "hash": "sha256=5b8f2217dbdbd2f7f384c41c628544e6d52f2d0f53c6d0c3ea61aa5d1d7ff124"}, 
+   {"file": "pandas-2.2.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=c124333816c3a9b03fbeef3a9f230ba9a737e9e5bb4060aa2107a86cc0a497fc"}, 
+   {"file": "patsy-0.5.6-py2.py3-none-any.whl", "hash": "sha256=19056886fd8fa71863fa32f0eb090267f21fb74be00f19f5c70b2e9d76c883c6"}, 
+   {"file": "peewee-3.17.3.tar.gz", "hash": "sha256=ef15f90b628e41a584be8306cdc3243c51f73ce88b06154d9572f6d0284a0169"}, 
+   {"file": "py_cpuinfo-9.0.0-py3-none-any.whl", "hash": "sha256=859625bc251f64e21f077d099d4162689c762b5d6a4c3c97553d56241c9674d5"}, 
+   {"file": "pyluach-2.2.0-py3-none-any.whl", "hash": "sha256=d1eb49d6292087e9290f4661ae01b60c8c933704ec8c9cef82673b349ff96adf"}, 
+   {"file": "python-interface-1.6.1.tar.gz", "hash": "sha256=10e710f7e38826db0e9b5719e6c4260f68376c1d0fd9a1f9800708644bc63828"}, 
+   {"file": "python_dateutil-2.9.0.post0-py2.py3-none-any.whl", "hash": "sha256=a8b2bc7bffae282281c8140a97d3aa9c14da0b136dfe83f850eea9a5f7470427"}, 
+   {"file": "pytz-2024.2-py2.py3-none-any.whl", "hash": "sha256=31c7c1817eb7fae7ca4b8c7ee50c72f93aa2dd863de768e1ef4245d426aa0725"}, 
+   {"file": "requests-2.32.3-py3-none-any.whl", "hash": "sha256=70761cfe03c773ceb22aa2f671b4757976145175cdfca038c02654d061d6dcc6"}, 
+   {"file": "scipy-1.14.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=fef8c87f8abfb884dac04e97824b61299880c43f4ce675dd2cbeadd3c9b466d2"}, 
+   {"file": "six-1.16.0-py2.py3-none-any.whl", "hash": "sha256=8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"}, 
+   {"file": "sortedcontainers-2.4.0-py2.py3-none-any.whl", "hash": "sha256=a163dcaede0f1c021485e957a39245190e74249897e2ae4b2aa38595db237ee0"}, 
+   {"file": "statsmodels-0.14.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=e332c2d9b806083d1797231280602340c5c913f90d4caa0213a6a54679ce9331"}, 
+   {"file": "tables-3.10.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=9372516c76be3a05a573df63a69ce38315d03b5816d2a1e89c48129ec8b161b0"}, 
+   {"file": "toolz-1.0.0-py3-none-any.whl", "hash": "sha256=292c8f1c4e7516bf9086f8850935c799a874039c8bcf959d47b600e4c44a6236"}, 
+   {"file": "typing_extensions-4.12.2-py3-none-any.whl", "hash": "sha256=04e5ca0351e0f3f85c6853954072df659d0d13fac324d0072316b67d7794700d"}, 
+   {"file": "tzdata-2024.2-py2.py3-none-any.whl", "hash": "sha256=a48093786cdcde33cad18c2555e8532f34422074448fbc874186f0abd79565cd"}, 
+   {"file": "urllib3-2.2.3-py3-none-any.whl", "hash": "sha256=ca899ca043dcb1bafa3e262d73aa25c465bfb49e0bd9dd5d59f1d0acba2f8fac"}, 
+   {"file": "zipline_reloaded-3.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=f9a4601dbbeff63ac51dc44255ea38272040baeac762eb949bd0bedb036702e1"}
+  ]
+ }, 
+ "resolution_rounds": [
+  {
+   "added": {
+    "zipline_reloaded-3.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.9", "pandas<3.0,>=1.3.0", "alembic>=0.7.7", "bcolz-zipline>=1.2.6", "bottleneck>=1.0.0", "click>=4.0.0", "empyrical-reloaded>=0.5.7", "h5py>=2.7.1", "intervaltree>=2.1.0", "iso3166>=2.1.1", "iso4217>=1.6.20180829", "lru-dict>=1.1.4", "multipledispatch>=0.6.0", "networkx>=2.0", "numexpr>=2.6.1", "patsy>=0.4.0", "python-dateutil>=2.4.2", "python-interface>=1.5.3", "pytz>=2018.5", "requests>=2.9.1", "scipy>=0.17.1", "six>=1.10.0", "sqlalchemy>=2", "statsmodels>=0.6.1", "tables>=3.4.3", "toolz>=0.8.2", "exchange-calendars>=4.2.4", "numpy>=1.23.5; python_version < \"3.12\""]
+   }, 
+   "pinned": "zipline_reloaded-3.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {"pinned": "PythonCandidate"}, 
+  {
+   "added": {
+    "pandas-2.2.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.9", "numpy>=1.23.2; python_version == \"3.11\"", "python-dateutil>=2.8.2", "pytz>=2020.1", "tzdata>=2022.7"]
+   }, 
+   "pinned": "pandas-2.2.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "alembic-1.13.3-py3-none-any.whl": [">=3.8", "SQLAlchemy>=1.3.0", "Mako", "typing-extensions>=4"]
+   }, 
+   "pinned": "alembic-1.13.3-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "bcolz_zipline-1.2.12-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.9", "numpy>=1.21", "packaging"]
+   }, 
+   "pinned": "bcolz_zipline-1.2.12-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "Bottleneck-1.4.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl": ["numpy"]
+   }, 
+   "pinned": "Bottleneck-1.4.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "click-8.1.7-py3-none-any.whl": [">=3.7"]
+   }, 
+   "pinned": "click-8.1.7-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "empyrical_reloaded-0.5.11-py3-none-any.whl": [">=3.9", "bottleneck>=1.3.0", "pandas>=1.3.0", "scipy>=0.15.1", "peewee<3.17.4", "numpy>=1.23.5; python_version < \"3.12\"", "pandas>=1.3.0; python_version < \"3.12\""]
+   }, 
+   "pinned": "empyrical_reloaded-0.5.11-py3-none-any.whl"
+  }, 
+  {"pinned": "peewee-3.17.3.tar.gz"}, 
+  {
+   "added": {
+    "exchange_calendars-4.5.6-py3-none-any.whl": ["~=3.9", "numpy", "pandas>=1.5", "pyluach", "toolz", "tzdata", "korean-lunar-calendar"]
+   }, 
+   "pinned": "exchange_calendars-4.5.6-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "h5py-3.12.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.9", "numpy>=1.19.3"]
+   }, 
+   "pinned": "h5py-3.12.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "intervaltree-3.1.0.tar.gz": ["sortedcontainers<3.0,>=2.0"]
+   }, 
+   "pinned": "intervaltree-3.1.0.tar.gz"
+  }, 
+  {"pinned": "sortedcontainers-2.4.0-py2.py3-none-any.whl"}, 
+  {
+   "added": {
+    "iso3166-2.1.1-py3-none-any.whl": [">=3.6"]
+   }, 
+   "pinned": "iso3166-2.1.1-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "iso4217-1.12.20240625-py2.py3-none-any.whl": ["!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,>=2.7"]
+   }, 
+   "pinned": "iso4217-1.12.20240625-py2.py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "lru_dict-1.3.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.8"]
+   }, 
+   "pinned": "lru_dict-1.3.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {"pinned": "multipledispatch-1.0.0-py3-none-any.whl"}, 
+  {
+   "added": {
+    "networkx-3.3-py3-none-any.whl": [">=3.10"]
+   }, 
+   "pinned": "networkx-3.3-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "numexpr-2.10.1-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl": [">=3.9", "numpy>=1.23.0"]
+   }, 
+   "pinned": "numexpr-2.10.1-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "numpy-2.1.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.10"]
+   }, 
+   "pinned": "numpy-2.1.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "patsy-0.5.6-py2.py3-none-any.whl": ["six", "numpy>=1.4"]
+   }, 
+   "pinned": "patsy-0.5.6-py2.py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "python_dateutil-2.9.0.post0-py2.py3-none-any.whl": ["!=3.0.*,!=3.1.*,!=3.2.*,>=2.7", "six>=1.5"]
+   }, 
+   "pinned": "python_dateutil-2.9.0.post0-py2.py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "python-interface-1.6.1.tar.gz": ["six"]
+   }, 
+   "pinned": "python-interface-1.6.1.tar.gz"
+  }, 
+  {"pinned": "pytz-2024.2-py2.py3-none-any.whl"}, 
+  {
+   "added": {
+    "requests-2.32.3-py3-none-any.whl": [">=3.8", "charset-normalizer<4,>=2", "idna<4,>=2.5", "urllib3<3,>=1.21.1", "certifi>=2017.4.17"]
+   }, 
+   "pinned": "requests-2.32.3-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "charset_normalizer-3.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.7.0"]
+   }, 
+   "pinned": "charset_normalizer-3.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "idna-3.10-py3-none-any.whl": [">=3.6"]
+   }, 
+   "pinned": "idna-3.10-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "urllib3-2.2.3-py3-none-any.whl": [">=3.8"]
+   }, 
+   "pinned": "urllib3-2.2.3-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "certifi-2024.8.30-py3-none-any.whl": [">=3.6"]
+   }, 
+   "pinned": "certifi-2024.8.30-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "scipy-1.14.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.10", "numpy<2.3,>=1.23.5"]
+   }, 
+   "pinned": "scipy-1.14.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "six-1.16.0-py2.py3-none-any.whl": ["!=3.0.*,!=3.1.*,!=3.2.*,>=2.7"]
+   }, 
+   "pinned": "six-1.16.0-py2.py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "SQLAlchemy-2.0.35-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.7", "typing-extensions>=4.6.0", "greenlet!=0.4.17; python_version < \"3.13\" and (platform_machine == \"aarch64\" or (platform_machine == \"ppc64le\" or (platform_machine == \"x86_64\" or (platform_machine == \"amd64\" or (platform_machine == \"AMD64\" or (platform_machine == \"win32\" or platform_machine == \"WIN32\"))))))"]
+   }, 
+   "pinned": "SQLAlchemy-2.0.35-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "greenlet-3.1.1-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl": [">=3.7"]
+   }, 
+   "pinned": "greenlet-3.1.1-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "statsmodels-0.14.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.9", "numpy<3,>=1.22.3", "scipy!=1.9.2,>=1.8", "pandas!=2.1.0,>=1.4", "patsy>=0.5.6", "packaging>=21.3"]
+   }, 
+   "pinned": "statsmodels-0.14.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "packaging-24.1-py3-none-any.whl": [">=3.8"]
+   }, 
+   "pinned": "packaging-24.1-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "tables-3.10.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.10", "numpy>=1.20.0", "numexpr>=2.6.2", "packaging", "py-cpuinfo", "blosc2>=2.3.0", "typing-extensions>=4.4.0"]
+   }, 
+   "pinned": "tables-3.10.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "blosc2-2.7.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": ["<4,>=3.10", "numpy>=1.21", "ndindex>=1.4", "msgpack", "numexpr", "py-cpuinfo"]
+   }, 
+   "pinned": "blosc2-2.7.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "ndindex-1.9.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.9"]
+   }, 
+   "pinned": "ndindex-1.9.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "toolz-1.0.0-py3-none-any.whl": [">=3.8"]
+   }, 
+   "pinned": "toolz-1.0.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "typing_extensions-4.12.2-py3-none-any.whl": [">=3.8"]
+   }, 
+   "pinned": "typing_extensions-4.12.2-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "tzdata-2024.2-py2.py3-none-any.whl": [">=2"]
+   }, 
+   "pinned": "tzdata-2024.2-py2.py3-none-any.whl"
+  }, 
+  {"pinned": "korean_lunar_calendar-0.3.1-py3-none-any.whl"}, 
+  {
+   "added": {
+    "Mako-1.3.5-py3-none-any.whl": [">=3.8", "MarkupSafe>=0.9.2"]
+   }, 
+   "pinned": "Mako-1.3.5-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "MarkupSafe-2.1.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.7"]
+   }, 
+   "pinned": "MarkupSafe-2.1.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "msgpack-1.1.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.8"]
+   }, 
+   "pinned": "msgpack-1.1.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {"pinned": "py_cpuinfo-9.0.0-py3-none-any.whl"}, 
+  {
+   "added": {
+    "pyluach-2.2.0-py3-none-any.whl": [">=3.7"]
+   }, 
+   "pinned": "pyluach-2.2.0-py3-none-any.whl"
+  }
+ ]
+}

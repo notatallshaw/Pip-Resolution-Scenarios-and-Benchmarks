@@ -1,0 +1,300 @@
+{
+ "input": {
+  "pip_version": "25.1.1", 
+  "python_version": "3.11", 
+  "datetime": "2024-10-07 14:00:00", 
+  "platform_system": "Linux", 
+  "requirements": ["spacy"]
+ }, 
+ "result": {
+  "success": true, 
+  "failure_reason": null, 
+  "install_info": [
+   {"file": "MarkupSafe-2.1.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=b91c037585eba9095565a3556f611e3cbfaa42ca1e865f7b8015fe5c7336d5a5"}, 
+   {"file": "annotated_types-0.7.0-py3-none-any.whl", "hash": "sha256=1f02e8b43a8fbbc3f3e0d4f0f4bfc8131bcb4eebe8849b8e5c773f3a1c582a53"}, 
+   {"file": "blis-1.0.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=632580f1d3ff44fb36e8a21a9457f23aeaff5d35d108bd2ef0393b9f6d85de93"}, 
+   {"file": "catalogue-2.0.10-py3-none-any.whl", "hash": "sha256=58c2de0020aa90f4a2da7dfad161bf7b3b054c86a5f09fcedc0b2b740c109a9f"}, 
+   {"file": "certifi-2024.8.30-py3-none-any.whl", "hash": "sha256=922820b53db7a7257ffbda3f597266d435245903d80737e34f8a45ff3e3230d8"}, 
+   {"file": "charset_normalizer-3.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=753f10e867343b4511128c6ed8c82f7bec3bd026875576dfd88483c5c73b2fd8"}, 
+   {"file": "click-8.1.7-py3-none-any.whl", "hash": "sha256=ae74fb96c20a0277a1d615f1e4d73c8414f5a98db8b799a7931d1582f3390c28"}, 
+   {"file": "cloudpathlib-0.19.0-py3-none-any.whl", "hash": "sha256=eb7758648812d5906af44f14cf9a6a64f687342a6f547a1c20deb7241d769dcb"}, 
+   {"file": "confection-0.1.5-py3-none-any.whl", "hash": "sha256=e29d3c3f8eac06b3f77eb9dfb4bf2fc6bcc9622a98ca00a698e3d019c6430b14"}, 
+   {"file": "cymem-2.0.8-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=42c993589d1811ec665d37437d5677b8757f53afadd927bf8516ac8ce2d3a50c"}, 
+   {"file": "idna-3.10-py3-none-any.whl", "hash": "sha256=946d195a0d259cbba61165e88e65941f16e9b36ea6ddb97f00452bae8b1287d3"}, 
+   {"file": "jinja2-3.1.4-py3-none-any.whl", "hash": "sha256=bc5dd2abb727a5319567b7a813e6a2e7318c39f4f487cfe6c89c6f9c7d25197d"}, 
+   {"file": "langcodes-3.4.1-py3-none-any.whl", "hash": "sha256=68f686fc3d358f222674ecf697ddcee3ace3c2fe325083ecad2543fd28a20e77"}, 
+   {"file": "language_data-1.2.0-py3-none-any.whl", "hash": "sha256=77d5cab917f91ee0b2f1aa7018443e911cf8985ef734ca2ba3940770f6a3816b"}, 
+   {"file": "marisa_trie-1.2.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=525b8df41a1a7337ed7f982eb63b704d7d75f047e30970fcfbe9cf6fc22c5991"}, 
+   {"file": "markdown_it_py-3.0.0-py3-none-any.whl", "hash": "sha256=355216845c60bd96232cd8d8c40e8f9765cc86f46880e43a8fd22dc1a1a8cab1"}, 
+   {"file": "mdurl-0.1.2-py3-none-any.whl", "hash": "sha256=84008a41e51615a49fc9966191ff91509e3c40b939176e643fd50a5c2196b8f8"}, 
+   {"file": "murmurhash-1.0.10-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=18b9d200a09d48ef67f6840b77c14f151f2b6c48fd69661eb75c7276ebdb146c"}, 
+   {"file": "numpy-2.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=13e689d772146140a252c3a28501da66dfecd77490b498b168b501835041f951"}, 
+   {"file": "packaging-24.1-py3-none-any.whl", "hash": "sha256=5b8f2217dbdbd2f7f384c41c628544e6d52f2d0f53c6d0c3ea61aa5d1d7ff124"}, 
+   {"file": "preshed-3.0.9-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=51d0192274aa061699b284f9fd08416065348edbafd64840c3889617ee1609de"}, 
+   {"file": "pydantic-2.9.2-py3-none-any.whl", "hash": "sha256=f048cec7b26778210e28a0459867920654d48e5e62db0958433636cde4254f12"}, 
+   {"file": "pydantic_core-2.23.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=216f9b2d7713eb98cb83c80b9c794de1f6b7e3145eef40400c62e86cee5f4e1e"}, 
+   {"file": "pygments-2.18.0-py3-none-any.whl", "hash": "sha256=b8e6aca0523f3ab76fee51799c488e38782ac06eafcf95e7ba832985c8e7b13a"}, 
+   {"file": "requests-2.32.3-py3-none-any.whl", "hash": "sha256=70761cfe03c773ceb22aa2f671b4757976145175cdfca038c02654d061d6dcc6"}, 
+   {"file": "rich-13.9.2-py3-none-any.whl", "hash": "sha256=8c82a3d3f8dcfe9e734771313e606b39d8247bb6b826e196f4914b333b743cf1"}, 
+   {"file": "setuptools-75.1.0-py3-none-any.whl", "hash": "sha256=35ab7fd3bcd95e6b7fd704e4a1539513edad446c097797f2985e0e4b960772f2"}, 
+   {"file": "shellingham-1.5.4-py2.py3-none-any.whl", "hash": "sha256=7ecfff8f2fd72616f7481040475a65b2bf8af90a56c89140852d1120324e8686"}, 
+   {"file": "smart_open-7.0.5-py3-none-any.whl", "hash": "sha256=8523ed805c12dff3eaa50e9c903a6cb0ae78800626631c5fe7ea073439847b89"}, 
+   {"file": "spacy-3.8.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=05d8a4cbfdb90049053564790a0d12fa790c9471580cb6a1f8bdc2b6e74703dd"}, 
+   {"file": "spacy_legacy-3.0.12-py2.py3-none-any.whl", "hash": "sha256=476e3bd0d05f8c339ed60f40986c07387c0a71479245d6d0f4298dbd52cda55f"}, 
+   {"file": "spacy_loggers-1.0.5-py3-none-any.whl", "hash": "sha256=196284c9c446cc0cdb944005384270d775fdeaf4f494d8e269466cfa497ef645"}, 
+   {"file": "srsly-2.4.8-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=ace7ed4a0c20fa54d90032be32f9c656b6d75445168da78d14fe9080a0c208ad"}, 
+   {"file": "thinc-8.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=ed88275031dcaadd85d3deeb8eb12d1ec0ee6b4679e24cc893c81a30409ac4ee"}, 
+   {"file": "tqdm-4.66.5-py3-none-any.whl", "hash": "sha256=90279a3770753eafc9194a0364852159802111925aa30eb3f9d85b0e805ac7cd"}, 
+   {"file": "typer-0.12.5-py3-none-any.whl", "hash": "sha256=62fe4e471711b147e3365034133904df3e235698399bc4de2b36c8579298d52b"}, 
+   {"file": "typing_extensions-4.12.2-py3-none-any.whl", "hash": "sha256=04e5ca0351e0f3f85c6853954072df659d0d13fac324d0072316b67d7794700d"}, 
+   {"file": "urllib3-2.2.3-py3-none-any.whl", "hash": "sha256=ca899ca043dcb1bafa3e262d73aa25c465bfb49e0bd9dd5d59f1d0acba2f8fac"}, 
+   {"file": "wasabi-1.1.3-py3-none-any.whl", "hash": "sha256=f76e16e8f7e79f8c4c8be49b4024ac725713ab10cd7f19350ad18a8e3f71728c"}, 
+   {"file": "weasel-0.4.1-py3-none-any.whl", "hash": "sha256=24140a090ea1ac512a2b2f479cc64192fd1d527a7f3627671268d08ed5ac418c"}, 
+   {"file": "wrapt-1.16.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=72554a23c78a8e7aa02abbd699d129eead8b147a23c56e08d08dfc29cfdddca1"}
+  ]
+ }, 
+ "resolution_rounds": [
+  {
+   "added": {
+    "spacy-3.8.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.7", "spacy-legacy<3.1.0,>=3.0.11", "spacy-loggers<2.0.0,>=1.0.0", "murmurhash<1.1.0,>=0.28.0", "cymem<2.1.0,>=2.0.2", "preshed<3.1.0,>=3.0.2", "thinc<8.4.0,>=8.3.0", "wasabi<1.2.0,>=0.9.1", "srsly<3.0.0,>=2.4.3", "catalogue<2.1.0,>=2.0.6", "weasel<0.5.0,>=0.1.0", "typer<1.0.0,>=0.3.0", "tqdm<5.0.0,>=4.38.0", "requests<3.0.0,>=2.13.0", "pydantic!=1.8,!=1.8.1,<3.0.0,>=1.7.4", "jinja2", "setuptools", "packaging>=20.0", "langcodes<4.0.0,>=3.2.0", "numpy>=1.19.0; python_version >= \"3.9\""]
+   }, 
+   "pinned": "spacy-3.8.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {"pinned": "PythonCandidate"}, 
+  {
+   "added": {
+    "catalogue-2.0.10-py3-none-any.whl": [">=3.6"]
+   }, 
+   "pinned": "catalogue-2.0.10-py3-none-any.whl"
+  }, 
+  {"pinned": "cymem-2.0.8-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"}, 
+  {
+   "added": {
+    "langcodes-3.4.1-py3-none-any.whl": [">=3.8", "language-data>=1.2"]
+   }, 
+   "pinned": "langcodes-3.4.1-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "murmurhash-1.0.10-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.6"]
+   }, 
+   "pinned": "murmurhash-1.0.10-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "preshed-3.0.9-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.6", "cymem<2.1.0,>=2.0.2", "murmurhash<1.1.0,>=0.28.0"]
+   }, 
+   "pinned": "preshed-3.0.9-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "pydantic-2.9.2-py3-none-any.whl": [">=3.8", "annotated-types>=0.6.0", "pydantic-core==2.23.4", "typing-extensions>=4.6.1; python_version < \"3.13\""]
+   }, 
+   "pinned": "pydantic-2.9.2-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "pydantic_core-2.23.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.8", "typing-extensions!=4.7.0,>=4.6.0"]
+   }, 
+   "pinned": "pydantic_core-2.23.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "requests-2.32.3-py3-none-any.whl": [">=3.8", "charset-normalizer<4,>=2", "idna<4,>=2.5", "urllib3<3,>=1.21.1", "certifi>=2017.4.17"]
+   }, 
+   "pinned": "requests-2.32.3-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "charset_normalizer-3.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.7.0"]
+   }, 
+   "pinned": "charset_normalizer-3.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "idna-3.10-py3-none-any.whl": [">=3.6"]
+   }, 
+   "pinned": "idna-3.10-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "spacy_legacy-3.0.12-py2.py3-none-any.whl": [">=3.6"]
+   }, 
+   "pinned": "spacy_legacy-3.0.12-py2.py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "spacy_loggers-1.0.5-py3-none-any.whl": [">=3.6"]
+   }, 
+   "pinned": "spacy_loggers-1.0.5-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "srsly-2.4.8-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.6", "catalogue<2.1.0,>=2.0.3"]
+   }, 
+   "pinned": "srsly-2.4.8-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "thinc-8.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.6", "blis<1.1.0,>=1.0.0", "murmurhash<1.1.0,>=1.0.2", "cymem<2.1.0,>=2.0.2", "preshed<3.1.0,>=3.0.2", "wasabi<1.2.0,>=0.8.1", "srsly<3.0.0,>=2.4.0", "catalogue<2.1.0,>=2.0.4", "confection<1.0.0,>=0.0.1", "setuptools", "pydantic!=1.8,!=1.8.1,<3.0.0,>=1.7.4", "packaging>=20.0", "numpy<2.1.0,>=2.0.0; python_version >= \"3.9\""]
+   }, 
+   "pinned": "thinc-8.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "blis-1.0.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": ["numpy<3.0.0,>=2.0.0"]
+   }, 
+   "pinned": "blis-1.0.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "confection-0.1.5-py3-none-any.whl": [">=3.6", "pydantic!=1.8,!=1.8.1,<3.0.0,>=1.7.4", "srsly<3.0.0,>=2.4.0"]
+   }, 
+   "pinned": "confection-0.1.5-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "numpy-2.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.9"]
+   }, 
+   "pinned": "numpy-2.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "tqdm-4.66.5-py3-none-any.whl": [">=3.7"]
+   }, 
+   "pinned": "tqdm-4.66.5-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "typer-0.12.5-py3-none-any.whl": [">=3.7", "click>=8.0.0", "typing-extensions>=3.7.4.3", "shellingham>=1.3.0", "rich>=10.11.0"]
+   }, 
+   "pinned": "typer-0.12.5-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "urllib3-2.2.3-py3-none-any.whl": [">=3.8"]
+   }, 
+   "pinned": "urllib3-2.2.3-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "wasabi-1.1.3-py3-none-any.whl": [">=3.6"]
+   }, 
+   "pinned": "wasabi-1.1.3-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "weasel-0.4.1-py3-none-any.whl": [">=3.7", "confection<0.2.0,>=0.0.4", "packaging>=20.0", "wasabi<1.2.0,>=0.9.1", "srsly<3.0.0,>=2.4.3", "typer<1.0.0,>=0.3.0", "cloudpathlib<1.0.0,>=0.7.0", "smart-open<8.0.0,>=5.2.1", "requests<3.0.0,>=2.13.0", "pydantic!=1.8,!=1.8.1,<3.0.0,>=1.7.4"]
+   }, 
+   "pinned": "weasel-0.4.1-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "cloudpathlib-0.19.0-py3-none-any.whl": [">=3.8"]
+   }, 
+   "pinned": "cloudpathlib-0.19.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "smart_open-7.0.5-py3-none-any.whl": ["<4.0,>=3.7", "wrapt"]
+   }, 
+   "pinned": "smart_open-7.0.5-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "annotated_types-0.7.0-py3-none-any.whl": [">=3.8"]
+   }, 
+   "pinned": "annotated_types-0.7.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "certifi-2024.8.30-py3-none-any.whl": [">=3.6"]
+   }, 
+   "pinned": "certifi-2024.8.30-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "click-8.1.7-py3-none-any.whl": [">=3.7"]
+   }, 
+   "pinned": "click-8.1.7-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "language_data-1.2.0-py3-none-any.whl": ["marisa-trie>=0.7.7"]
+   }, 
+   "pinned": "language_data-1.2.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "marisa_trie-1.2.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.7", "setuptools"]
+   }, 
+   "pinned": "marisa_trie-1.2.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "packaging-24.1-py3-none-any.whl": [">=3.8"]
+   }, 
+   "pinned": "packaging-24.1-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "rich-13.9.2-py3-none-any.whl": [">=3.8.0", "markdown-it-py>=2.2.0", "pygments<3.0.0,>=2.13.0"]
+   }, 
+   "pinned": "rich-13.9.2-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "pygments-2.18.0-py3-none-any.whl": [">=3.8"]
+   }, 
+   "pinned": "pygments-2.18.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "markdown_it_py-3.0.0-py3-none-any.whl": [">=3.8", "mdurl~=0.1"]
+   }, 
+   "pinned": "markdown_it_py-3.0.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "mdurl-0.1.2-py3-none-any.whl": [">=3.7"]
+   }, 
+   "pinned": "mdurl-0.1.2-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "shellingham-1.5.4-py2.py3-none-any.whl": [">=3.7"]
+   }, 
+   "pinned": "shellingham-1.5.4-py2.py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "typing_extensions-4.12.2-py3-none-any.whl": [">=3.8"]
+   }, 
+   "pinned": "typing_extensions-4.12.2-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "jinja2-3.1.4-py3-none-any.whl": [">=3.7", "MarkupSafe>=2.0"]
+   }, 
+   "pinned": "jinja2-3.1.4-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "MarkupSafe-2.1.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.7"]
+   }, 
+   "pinned": "MarkupSafe-2.1.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "setuptools-75.1.0-py3-none-any.whl": [">=3.8"]
+   }, 
+   "pinned": "setuptools-75.1.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "wrapt-1.16.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.6"]
+   }, 
+   "pinned": "wrapt-1.16.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }
+ ]
+}

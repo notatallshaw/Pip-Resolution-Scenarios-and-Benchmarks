@@ -1,0 +1,655 @@
+{
+ "input": {
+  "pip_version": "25.1.1", 
+  "python_version": "3.11", 
+  "datetime": "2024-10-07 14:00:00", 
+  "platform_system": "Linux", 
+  "requirements": ["scvi-tools"]
+ }, 
+ "result": {
+  "success": true, 
+  "failure_reason": null, 
+  "install_info": [
+   {"file": "Markdown-3.7-py3-none-any.whl", "hash": "sha256=7eb6df5690b81a1d7942992c97fad2938e956e79df20cbc6186e9c3a77b1c803"}, 
+   {"file": "MarkupSafe-2.1.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=b91c037585eba9095565a3556f611e3cbfaa42ca1e865f7b8015fe5c7336d5a5"}, 
+   {"file": "PyYAML-6.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=3ad2a3decf9aaba3d29c8f537ac4b243e36bef957511b4766cb0057d32b0be85"}, 
+   {"file": "absl_py-2.1.0-py3-none-any.whl", "hash": "sha256=526a04eadab8b4ee719ce68f204172ead1027549089702d99b9059f129ff1308"}, 
+   {"file": "aiohappyeyeballs-2.4.3-py3-none-any.whl", "hash": "sha256=8a7a83727b2756f394ab2895ea0765a0a8c475e3c71e98d43d76f22b4b435572"}, 
+   {"file": "aiohttp-3.10.9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=8a3f063b41cc06e8d0b3fcbbfc9c05b7420f41287e0cd4f75ce0a1f3d80729e6"}, 
+   {"file": "aiosignal-1.3.1-py3-none-any.whl", "hash": "sha256=f8376fb07dd1e86a584e4fcdec80b36b7f81aac666ebc724e2c090300dd83b17"}, 
+   {"file": "anndata-0.10.9-py3-none-any.whl", "hash": "sha256=e16c259bfd06c0f9ba7fdc9c2208828f5ef5f174356596c33206bb3f015b053a"}, 
+   {"file": "array_api_compat-1.9-py3-none-any.whl", "hash": "sha256=76db63c2d2461ba0e86b920c8b087f0a1617eb14de3ec29fe6811eeecad9c5e8"}, 
+   {"file": "attrs-24.2.0-py3-none-any.whl", "hash": "sha256=81921eb96de3191c8258c199618104dd27ac608d9366f5e35d011eae1867ede2"}, 
+   {"file": "chex-0.1.87-py3-none-any.whl", "hash": "sha256=ce536475661fd96d21be0c1728ecdbedd03f8ff950c662dfc338c92ea782cb16"}, 
+   {"file": "contextlib2-21.6.0-py2.py3-none-any.whl", "hash": "sha256=3fbdb64466afd23abaf6c977627b75b6139a5a3e8ce38405c5b413aed7a0471f"}, 
+   {"file": "docrep-0.3.2.tar.gz", "hash": "sha256=ed8a17e201abd829ef8da78a0b6f4d51fb99a4cbd0554adbed3309297f964314"}, 
+   {"file": "etils-1.9.4-py3-none-any.whl", "hash": "sha256=4387e7a4911a3b5cc4b92b99a9211386d176b43bae1dac8e2fe345fc2cb95e4b"}, 
+   {"file": "filelock-3.16.1-py3-none-any.whl", "hash": "sha256=2082e5703d51fbf98ea75855d9d5527e33d8ff23099bec374a134febee6946b0"}, 
+   {"file": "flax-0.9.0-py3-none-any.whl", "hash": "sha256=12cd8f7162165ddd56877fb1cd9a4fcb47a31569e4c5343eeb59a36369fa2cfe"}, 
+   {"file": "frozenlist-1.4.1-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=4f9c515e7914626b2a2e1e311794b4c35720a0be87af52b79ff8e1429fc25f19"}, 
+   {"file": "fsspec-2024.9.0-py3-none-any.whl", "hash": "sha256=a0947d552d8a6efa72cc2c730b12c41d043509156966cca4fb157b0f2a0c574b"}, 
+   {"file": "grpcio-1.66.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=d25a14af966438cddf498b2e338f88d1c9706f3493b1d73b93f695c99c5f0e2a"}, 
+   {"file": "h5py-3.12.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=018a4597f35092ae3fb28ee851fdc756d2b88c96336b8480e124ce1ac6fb9166"}, 
+   {"file": "humanize-4.11.0-py3-none-any.whl", "hash": "sha256=b53caaec8532bcb2fff70c8826f904c35943f8cecaca29d272d9df38092736c0"}, 
+   {"file": "idna-3.10-py3-none-any.whl", "hash": "sha256=946d195a0d259cbba61165e88e65941f16e9b36ea6ddb97f00452bae8b1287d3"}, 
+   {"file": "importlib_resources-6.4.5-py3-none-any.whl", "hash": "sha256=ac29d5f956f01d5e4bb63102a5a19957f1b9175e45649977264a1416783bb717"}, 
+   {"file": "jax-0.4.34-py3-none-any.whl", "hash": "sha256=b957ca1fc91f7343f91a186af9f19c7f342c946f95a8c11c7f1e5cdfe2e58d9e"}, 
+   {"file": "jaxlib-0.4.34-cp311-cp311-manylinux2014_x86_64.whl", "hash": "sha256=3bcfa639ca3cfaf86c8ceebd5fc0d47300fd98a078014a1d0cc03133e1523d5f"}, 
+   {"file": "jinja2-3.1.4-py3-none-any.whl", "hash": "sha256=bc5dd2abb727a5319567b7a813e6a2e7318c39f4f487cfe6c89c6f9c7d25197d"}, 
+   {"file": "joblib-1.4.2-py3-none-any.whl", "hash": "sha256=06d478d5674cbc267e7496a410ee875abd68e4340feff4490bcb7afb88060ae6"}, 
+   {"file": "lightning-2.4.0-py3-none-any.whl", "hash": "sha256=560163af9711cf59055c448232c473150a299089efce0d2be3cc3288082d8768"}, 
+   {"file": "lightning_utilities-0.11.7-py3-none-any.whl", "hash": "sha256=84eebbc700edbfaa6c005458fc911a7fe7f99f02970b00cb322b4d2767deba98"}, 
+   {"file": "llvmlite-0.43.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=977525a1e5f4059316b183fb4fd34fa858c9eade31f165427a3977c95e3ee749"}, 
+   {"file": "markdown_it_py-3.0.0-py3-none-any.whl", "hash": "sha256=355216845c60bd96232cd8d8c40e8f9765cc86f46880e43a8fd22dc1a1a8cab1"}, 
+   {"file": "mdurl-0.1.2-py3-none-any.whl", "hash": "sha256=84008a41e51615a49fc9966191ff91509e3c40b939176e643fd50a5c2196b8f8"}, 
+   {"file": "ml_collections-0.1.1.tar.gz", "hash": "sha256=3fefcc72ec433aa1e5d32307a3e474bbb67f405be814ea52a2166bfc9dbe68cc"}, 
+   {"file": "ml_dtypes-0.5.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=2e7534392682c3098bc7341648c650864207169c654aed83143d7a19c67ae06f"}, 
+   {"file": "mpmath-1.3.0-py3-none-any.whl", "hash": "sha256=a0b2b9fe80bbcd81a6647ff13108738cfb482d481d826cc0e02f5b35e5c88d2c"}, 
+   {"file": "msgpack-1.1.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=5e1da8f11a3dd397f0a32c76165cf0c4eb95b31013a94f6ecc0b280c05c91b59"}, 
+   {"file": "mudata-0.3.1-py3-none-any.whl", "hash": "sha256=d3a5ce96c3fcb64077be936758cc71657475905a4bbeeeba17c9ff48173f6c9d"}, 
+   {"file": "multidict-6.1.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=ec2abea24d98246b94913b76a125e855eb5c434f7c46546046372fe60f666351"}, 
+   {"file": "multipledispatch-1.0.0-py3-none-any.whl", "hash": "sha256=0c53cd8b077546da4e48869f49b13164bebafd0c2a5afceb6bb6a316e7fb46e4"}, 
+   {"file": "natsort-8.4.0-py3-none-any.whl", "hash": "sha256=4732914fb471f56b5cce04d7bae6f164a592c7712e1c85f9ef585e197299521c"}, 
+   {"file": "nest_asyncio-1.6.0-py3-none-any.whl", "hash": "sha256=87af6efd6b5e897c81050477ef65c62e2b2f35d51703cae01aff2905b1852e1c"}, 
+   {"file": "networkx-3.3-py3-none-any.whl", "hash": "sha256=28575580c6ebdaf4505b22c6256a2b9de86b316dc63ba9e93abde3d78dfdbcf2"}, 
+   {"file": "numba-0.60.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", "hash": "sha256=4142d7ac0210cc86432b818338a2bc368dc773a2f5cf1e32ff7c5b378bd63ee8"}, 
+   {"file": "numpy-1.26.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=666dbfb6ec68962c033a450943ded891bed2d54e6755e35e5835d63f4f6931d5"}, 
+   {"file": "numpyro-0.15.3-py3-none-any.whl", "hash": "sha256=12b4817868c0b2b5ab4fc09879896c8d39e84a0d47da7525d835569654354480"}, 
+   {"file": "nvidia_cublas_cu12-12.1.3.1-py3-none-manylinux1_x86_64.whl", "hash": "sha256=ee53ccca76a6fc08fb9701aa95b6ceb242cdaab118c3bb152af4e579af792728"}, 
+   {"file": "nvidia_cuda_cupti_cu12-12.1.105-py3-none-manylinux1_x86_64.whl", "hash": "sha256=e54fde3983165c624cb79254ae9818a456eb6e87a7fd4d56a2352c24ee542d7e"}, 
+   {"file": "nvidia_cuda_nvrtc_cu12-12.1.105-py3-none-manylinux1_x86_64.whl", "hash": "sha256=339b385f50c309763ca65456ec75e17bbefcbbf2893f462cb8b90584cd27a1c2"}, 
+   {"file": "nvidia_cuda_runtime_cu12-12.1.105-py3-none-manylinux1_x86_64.whl", "hash": "sha256=6e258468ddf5796e25f1dc591a31029fa317d97a0a94ed93468fc86301d61e40"}, 
+   {"file": "nvidia_cudnn_cu12-9.1.0.70-py3-none-manylinux2014_x86_64.whl", "hash": "sha256=165764f44ef8c61fcdfdfdbe769d687e06374059fbb388b6c89ecb0e28793a6f"}, 
+   {"file": "nvidia_cufft_cu12-11.0.2.54-py3-none-manylinux1_x86_64.whl", "hash": "sha256=794e3948a1aa71fd817c3775866943936774d1c14e7628c74f6f7417224cdf56"}, 
+   {"file": "nvidia_curand_cu12-10.3.2.106-py3-none-manylinux1_x86_64.whl", "hash": "sha256=9d264c5036dde4e64f1de8c50ae753237c12e0b1348738169cd0f8a536c0e1e0"}, 
+   {"file": "nvidia_cusolver_cu12-11.4.5.107-py3-none-manylinux1_x86_64.whl", "hash": "sha256=8a7ec542f0412294b15072fa7dab71d31334014a69f953004ea7a118206fe0dd"}, 
+   {"file": "nvidia_cusparse_cu12-12.1.0.106-py3-none-manylinux1_x86_64.whl", "hash": "sha256=f3b50f42cf363f86ab21f720998517a659a48131e8d538dc02f8768237bd884c"}, 
+   {"file": "nvidia_nccl_cu12-2.20.5-py3-none-manylinux2014_x86_64.whl", "hash": "sha256=057f6bf9685f75215d0c53bf3ac4a10b3e6578351de307abad9e18a99182af56"}, 
+   {"file": "nvidia_nvjitlink_cu12-12.6.77-py3-none-manylinux2014_x86_64.whl", "hash": "sha256=9ae346d16203ae4ea513be416495167a0101d33d2d14935aa9c1829a3fb45142"}, 
+   {"file": "nvidia_nvtx_cu12-12.1.105-py3-none-manylinux1_x86_64.whl", "hash": "sha256=dc21cf308ca5691e7c04d962e213f8a4aa9bbfa23d95412f452254c2caeb09e5"}, 
+   {"file": "opt_einsum-3.4.0-py3-none-any.whl", "hash": "sha256=69bb92469f86a1565195ece4ac0323943e83477171b91d24c35afe028a90d7cd"}, 
+   {"file": "optax-0.2.3-py3-none-any.whl", "hash": "sha256=083e603dcd731d7e74d99f71c12f77937dd53f79001b4c09c290e4f47dd2e94f"}, 
+   {"file": "orbax_checkpoint-0.6.4-py3-none-any.whl", "hash": "sha256=b4f2608ee4d1da67f7619fc35ff9c928ecdf4ccf7546eeb43ecf38c2608b6dea"}, 
+   {"file": "packaging-24.1-py3-none-any.whl", "hash": "sha256=5b8f2217dbdbd2f7f384c41c628544e6d52f2d0f53c6d0c3ea61aa5d1d7ff124"}, 
+   {"file": "pandas-2.2.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=c124333816c3a9b03fbeef3a9f230ba9a737e9e5bb4060aa2107a86cc0a497fc"}, 
+   {"file": "protobuf-5.28.2-cp38-abi3-manylinux2014_x86_64.whl", "hash": "sha256=5e8a95246d581eef20471b5d5ba010d55f66740942b95ba9b872d918c459452f"}, 
+   {"file": "pygments-2.18.0-py3-none-any.whl", "hash": "sha256=b8e6aca0523f3ab76fee51799c488e38782ac06eafcf95e7ba832985c8e7b13a"}, 
+   {"file": "pyro_api-0.1.2-py3-none-any.whl", "hash": "sha256=10e0e42e9e4401ce464dab79c870e50dfb4f413d326fa777f3582928ef9caf8f"}, 
+   {"file": "pyro_ppl-1.9.1-py3-none-any.whl", "hash": "sha256=91fb2c8740d9d3bd548180ac5ecfa04552ed8c471a1ab66870180663b8f09852"}, 
+   {"file": "python_dateutil-2.9.0.post0-py2.py3-none-any.whl", "hash": "sha256=a8b2bc7bffae282281c8140a97d3aa9c14da0b136dfe83f850eea9a5f7470427"}, 
+   {"file": "pytorch_lightning-2.4.0-py3-none-any.whl", "hash": "sha256=9ac7935229ac022ef06994c928217ed37f525ac6700f7d4fc57009624570e655"}, 
+   {"file": "pytz-2024.2-py2.py3-none-any.whl", "hash": "sha256=31c7c1817eb7fae7ca4b8c7ee50c72f93aa2dd863de768e1ef4245d426aa0725"}, 
+   {"file": "rich-13.9.2-py3-none-any.whl", "hash": "sha256=8c82a3d3f8dcfe9e734771313e606b39d8247bb6b826e196f4914b333b743cf1"}, 
+   {"file": "scikit_learn-1.5.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=f8b0ccd4a902836493e026c03256e8b206656f91fbcc4fde28c57a5b752561f1"}, 
+   {"file": "scipy-1.14.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=fef8c87f8abfb884dac04e97824b61299880c43f4ce675dd2cbeadd3c9b466d2"}, 
+   {"file": "scvi_tools-1.2.0-py3-none-any.whl", "hash": "sha256=3e56d15e426ad7e347fba95d4fe4d66b1b1a277e081cf94cfca82462589b4b23"}, 
+   {"file": "setuptools-75.1.0-py3-none-any.whl", "hash": "sha256=35ab7fd3bcd95e6b7fd704e4a1539513edad446c097797f2985e0e4b960772f2"}, 
+   {"file": "six-1.16.0-py2.py3-none-any.whl", "hash": "sha256=8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"}, 
+   {"file": "sparse-0.15.4-py2.py3-none-any.whl", "hash": "sha256=76ec76fee2aee82a84eb97155dd530a9644e3b1fdea2406bc4b454698b36d938"}, 
+   {"file": "sympy-1.13.3-py3-none-any.whl", "hash": "sha256=54612cf55a62755ee71824ce692986f23c88ffa77207b30c1368eda4a7060f73"}, 
+   {"file": "tensorboard-2.18.0-py3-none-any.whl", "hash": "sha256=107ca4821745f73e2aefa02c50ff70a9b694f39f790b11e6f682f7d326745eab"}, 
+   {"file": "tensorboard_data_server-0.7.2-py3-none-manylinux_2_31_x86_64.whl", "hash": "sha256=ef687163c24185ae9754ed5650eb5bc4d84ff257aabdc33f0cc6f74d8ba54530"}, 
+   {"file": "tensorstore-0.1.66-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=a150257280f580f73b3c037a8e60c56a51e5c81d4bc3a1a90cab0e00a292dddd"}, 
+   {"file": "threadpoolctl-3.5.0-py3-none-any.whl", "hash": "sha256=56c1e26c150397e58c4926da8eeee87533b1e32bef131bd4bf6a2f45f3185467"}, 
+   {"file": "toolz-1.0.0-py3-none-any.whl", "hash": "sha256=292c8f1c4e7516bf9086f8850935c799a874039c8bcf959d47b600e4c44a6236"}, 
+   {"file": "torch-2.4.1-cp311-cp311-manylinux1_x86_64.whl", "hash": "sha256=0b5f88afdfa05a335d80351e3cea57d38e578c8689f751d35e0ff36bce872113"}, 
+   {"file": "torchmetrics-1.4.2-py3-none-any.whl", "hash": "sha256=87b9eca51ff6f93985a0f9db509f646cb45425b016f4d2f383d8c28d40dde5b6"}, 
+   {"file": "tqdm-4.66.5-py3-none-any.whl", "hash": "sha256=90279a3770753eafc9194a0364852159802111925aa30eb3f9d85b0e805ac7cd"}, 
+   {"file": "triton-3.0.0-1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", "hash": "sha256=5ce8520437c602fb633f1324cc3871c47bee3b67acf9756c1a66309b60e3216c"}, 
+   {"file": "typing_extensions-4.12.2-py3-none-any.whl", "hash": "sha256=04e5ca0351e0f3f85c6853954072df659d0d13fac324d0072316b67d7794700d"}, 
+   {"file": "tzdata-2024.2-py2.py3-none-any.whl", "hash": "sha256=a48093786cdcde33cad18c2555e8532f34422074448fbc874186f0abd79565cd"}, 
+   {"file": "werkzeug-3.0.4-py3-none-any.whl", "hash": "sha256=02c9eb92b7d6c06f31a782811505d2157837cea66aaede3e217c7c27c039476c"}, 
+   {"file": "xarray-2024.9.0-py3-none-any.whl", "hash": "sha256=4fd534abdf12d5fa75dd566c56483d5081f77864462cf3d6ad53e13f9db48222"}, 
+   {"file": "yarl-1.13.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=9d2e1626be8712333a9f71270366f4a132f476ffbe83b689dd6dc0d114796c74"}, 
+   {"file": "zipp-3.20.2-py3-none-any.whl", "hash": "sha256=a817ac80d6cf4b23bf7f2828b7cabf326f15a001bea8b1f9b49631780ba28350"}
+  ]
+ }, 
+ "resolution_rounds": [
+  {
+   "added": {
+    "scvi_tools-1.2.0-py3-none-any.whl": [">=3.10", "anndata", "docrep>=0.3.2", "flax", "jax", "jaxlib", "lightning>=2.0", "ml-collections>=0.1.1", "mudata>=0.1.2", "numpy<2.0", "numpyro>=0.12.1", "optax", "pandas", "pyro-ppl>=1.6.0", "rich>=12.0.0", "scikit-learn>=0.21.2", "scipy", "sparse>=0.14.0", "tensorboard>=2.0", "torch", "torchmetrics>=0.11.0", "tqdm", "xarray>=2023.2.0"]
+   }, 
+   "pinned": "scvi_tools-1.2.0-py3-none-any.whl"
+  }, 
+  {"pinned": "PythonCandidate"}, 
+  {
+   "added": {
+    "numpy-1.26.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.9"]
+   }, 
+   "pinned": "numpy-1.26.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "docrep-0.3.2.tar.gz": ["six"]
+   }, 
+   "pinned": "docrep-0.3.2.tar.gz"
+  }, 
+  {
+   "added": {
+    "lightning-2.4.0-py3-none-any.whl": [">=3.9", "PyYAML<8.0,>=5.4", "fsspec<2026.0,>=2022.5.0", "fsspec[http]<2026.0,>=2022.5.0", "lightning-utilities<2.0,>=0.10.0", "packaging<25.0,>=20.0", "torch<4.0,>=2.1.0", "torchmetrics<3.0,>=0.7.0", "tqdm<6.0,>=4.57.0", "typing-extensions<6.0,>=4.4.0", "pytorch-lightning"]
+   }, 
+   "pinned": "lightning-2.4.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "fsspec-2024.9.0-py3-none-any.whl": [">=3.8"]
+   }, 
+   "pinned": "fsspec-2024.9.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "fsspec-2024.9.0-py3-none-any.whl": ["fsspec-2024.9.0-py3-none-any.whl", "aiohttp!=4.0.0a0,!=4.0.0a1; extra == \"http\""]
+   }, 
+   "pinned": "fsspec-2024.9.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "lightning_utilities-0.11.7-py3-none-any.whl": [">=3.8", "packaging>=17.1", "setuptools", "typing-extensions"]
+   }, 
+   "pinned": "lightning_utilities-0.11.7-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "packaging-24.1-py3-none-any.whl": [">=3.8"]
+   }, 
+   "pinned": "packaging-24.1-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "PyYAML-6.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.8"]
+   }, 
+   "pinned": "PyYAML-6.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "torch-2.4.1-cp311-cp311-manylinux1_x86_64.whl": [">=3.8.0", "filelock", "typing-extensions>=4.8.0", "sympy", "networkx", "jinja2", "fsspec", "nvidia-cuda-nvrtc-cu12==12.1.105; platform_system == \"Linux\" and platform_machine == \"x86_64\"", "nvidia-cuda-runtime-cu12==12.1.105; platform_system == \"Linux\" and platform_machine == \"x86_64\"", "nvidia-cuda-cupti-cu12==12.1.105; platform_system == \"Linux\" and platform_machine == \"x86_64\"", "nvidia-cudnn-cu12==9.1.0.70; platform_system == \"Linux\" and platform_machine == \"x86_64\"", "nvidia-cublas-cu12==12.1.3.1; platform_system == \"Linux\" and platform_machine == \"x86_64\"", "nvidia-cufft-cu12==11.0.2.54; platform_system == \"Linux\" and platform_machine == \"x86_64\"", "nvidia-curand-cu12==10.3.2.106; platform_system == \"Linux\" and platform_machine == \"x86_64\"", "nvidia-cusolver-cu12==11.4.5.107; platform_system == \"Linux\" and platform_machine == \"x86_64\"", "nvidia-cusparse-cu12==12.1.0.106; platform_system == \"Linux\" and platform_machine == \"x86_64\"", "nvidia-nccl-cu12==2.20.5; platform_system == \"Linux\" and platform_machine == \"x86_64\"", "nvidia-nvtx-cu12==12.1.105; platform_system == \"Linux\" and platform_machine == \"x86_64\"", "triton==3.0.0; platform_system == \"Linux\" and platform_machine == \"x86_64\" and python_version < \"3.13\""]
+   }, 
+   "pinned": "torch-2.4.1-cp311-cp311-manylinux1_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "nvidia_cublas_cu12-12.1.3.1-py3-none-manylinux1_x86_64.whl": [">=3"]
+   }, 
+   "pinned": "nvidia_cublas_cu12-12.1.3.1-py3-none-manylinux1_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "nvidia_cuda_cupti_cu12-12.1.105-py3-none-manylinux1_x86_64.whl": [">=3"]
+   }, 
+   "pinned": "nvidia_cuda_cupti_cu12-12.1.105-py3-none-manylinux1_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "nvidia_cuda_nvrtc_cu12-12.1.105-py3-none-manylinux1_x86_64.whl": [">=3"]
+   }, 
+   "pinned": "nvidia_cuda_nvrtc_cu12-12.1.105-py3-none-manylinux1_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "nvidia_cuda_runtime_cu12-12.1.105-py3-none-manylinux1_x86_64.whl": [">=3"]
+   }, 
+   "pinned": "nvidia_cuda_runtime_cu12-12.1.105-py3-none-manylinux1_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "nvidia_cudnn_cu12-9.1.0.70-py3-none-manylinux2014_x86_64.whl": [">=3", "nvidia-cublas-cu12"]
+   }, 
+   "pinned": "nvidia_cudnn_cu12-9.1.0.70-py3-none-manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "nvidia_cufft_cu12-11.0.2.54-py3-none-manylinux1_x86_64.whl": [">=3"]
+   }, 
+   "pinned": "nvidia_cufft_cu12-11.0.2.54-py3-none-manylinux1_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "nvidia_curand_cu12-10.3.2.106-py3-none-manylinux1_x86_64.whl": [">=3"]
+   }, 
+   "pinned": "nvidia_curand_cu12-10.3.2.106-py3-none-manylinux1_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "nvidia_cusolver_cu12-11.4.5.107-py3-none-manylinux1_x86_64.whl": [">=3", "nvidia-cublas-cu12", "nvidia-nvjitlink-cu12", "nvidia-cusparse-cu12"]
+   }, 
+   "pinned": "nvidia_cusolver_cu12-11.4.5.107-py3-none-manylinux1_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "nvidia_cusparse_cu12-12.1.0.106-py3-none-manylinux1_x86_64.whl": [">=3", "nvidia-nvjitlink-cu12"]
+   }, 
+   "pinned": "nvidia_cusparse_cu12-12.1.0.106-py3-none-manylinux1_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "nvidia_nccl_cu12-2.20.5-py3-none-manylinux2014_x86_64.whl": [">=3"]
+   }, 
+   "pinned": "nvidia_nccl_cu12-2.20.5-py3-none-manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "nvidia_nvtx_cu12-12.1.105-py3-none-manylinux1_x86_64.whl": [">=3"]
+   }, 
+   "pinned": "nvidia_nvtx_cu12-12.1.105-py3-none-manylinux1_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "triton-3.0.0-1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl": ["filelock"]
+   }, 
+   "pinned": "triton-3.0.0-1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "torchmetrics-1.4.2-py3-none-any.whl": [">=3.8", "numpy>1.20.0", "packaging>17.1", "torch>=1.10.0", "lightning-utilities>=0.8.0"]
+   }, 
+   "pinned": "torchmetrics-1.4.2-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "tqdm-4.66.5-py3-none-any.whl": [">=3.7"]
+   }, 
+   "pinned": "tqdm-4.66.5-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "typing_extensions-4.12.2-py3-none-any.whl": [">=3.8"]
+   }, 
+   "pinned": "typing_extensions-4.12.2-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "aiohttp-3.10.9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.8", "aiohappyeyeballs>=2.3.0", "aiosignal>=1.1.2", "attrs>=17.3.0", "frozenlist>=1.1.1", "multidict<7.0,>=4.5", "yarl<2.0,>=1.12.0"]
+   }, 
+   "pinned": "aiohttp-3.10.9-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "multidict-6.1.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.8"]
+   }, 
+   "pinned": "multidict-6.1.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "yarl-1.13.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.8", "idna>=2.0", "multidict>=4.0"]
+   }, 
+   "pinned": "yarl-1.13.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "aiohappyeyeballs-2.4.3-py3-none-any.whl": [">=3.8"]
+   }, 
+   "pinned": "aiohappyeyeballs-2.4.3-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "aiosignal-1.3.1-py3-none-any.whl": [">=3.7", "frozenlist>=1.1.0"]
+   }, 
+   "pinned": "aiosignal-1.3.1-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "attrs-24.2.0-py3-none-any.whl": [">=3.7"]
+   }, 
+   "pinned": "attrs-24.2.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "frozenlist-1.4.1-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.8"]
+   }, 
+   "pinned": "frozenlist-1.4.1-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "idna-3.10-py3-none-any.whl": [">=3.6"]
+   }, 
+   "pinned": "idna-3.10-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "ml_collections-0.1.1.tar.gz": [">=2.6", "absl-py", "PyYAML", "six", "contextlib2"]
+   }, 
+   "pinned": "ml_collections-0.1.1.tar.gz"
+  }, 
+  {
+   "added": {
+    "mudata-0.3.1-py3-none-any.whl": [">=3.10", "anndata>=0.10.8"]
+   }, 
+   "pinned": "mudata-0.3.1-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "anndata-0.10.9-py3-none-any.whl": [">=3.9", "array-api-compat!=1.5,>1.4", "h5py>=3.1", "natsort", "numpy>=1.23", "packaging>=20.0", "pandas!=2.1.0rc0,!=2.1.2,>=1.4", "scipy>1.8"]
+   }, 
+   "pinned": "anndata-0.10.9-py3-none-any.whl"
+  }, 
+  {"pinned": "array_api_compat-1.9-py3-none-any.whl"}, 
+  {
+   "added": {
+    "h5py-3.12.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.9", "numpy>=1.19.3"]
+   }, 
+   "pinned": "h5py-3.12.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "numpyro-0.15.3-py3-none-any.whl": [">=3.9", "jax>=0.4.25", "jaxlib>=0.4.25", "multipledispatch", "numpy", "tqdm"]
+   }, 
+   "pinned": "numpyro-0.15.3-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "jax-0.4.34-py3-none-any.whl": [">=3.10", "jaxlib<=0.4.34,>=0.4.34", "ml-dtypes>=0.2.0", "numpy>=1.24", "opt-einsum", "scipy>=1.10"]
+   }, 
+   "pinned": "jax-0.4.34-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "jaxlib-0.4.34-cp311-cp311-manylinux2014_x86_64.whl": [">=3.10", "scipy>=1.10", "numpy>=1.24", "ml-dtypes>=0.2.0"]
+   }, 
+   "pinned": "jaxlib-0.4.34-cp311-cp311-manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "ml_dtypes-0.5.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.9", "numpy>=1.21", "numpy>=1.21.2; python_version >= \"3.10\"", "numpy>=1.23.3; python_version >= \"3.11\""]
+   }, 
+   "pinned": "ml_dtypes-0.5.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "pandas-2.2.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.9", "numpy>=1.23.2; python_version == \"3.11\"", "python-dateutil>=2.8.2", "pytz>=2020.1", "tzdata>=2022.7"]
+   }, 
+   "pinned": "pandas-2.2.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "pyro_ppl-1.9.1-py3-none-any.whl": [">=3.8", "numpy>=1.7", "opt-einsum>=2.3.2", "pyro-api>=0.1.1", "torch>=2.0", "tqdm>=4.36"]
+   }, 
+   "pinned": "pyro_ppl-1.9.1-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "opt_einsum-3.4.0-py3-none-any.whl": [">=3.8"]
+   }, 
+   "pinned": "opt_einsum-3.4.0-py3-none-any.whl"
+  }, 
+  {"pinned": "pyro_api-0.1.2-py3-none-any.whl"}, 
+  {
+   "added": {
+    "python_dateutil-2.9.0.post0-py2.py3-none-any.whl": ["!=3.0.*,!=3.1.*,!=3.2.*,>=2.7", "six>=1.5"]
+   }, 
+   "pinned": "python_dateutil-2.9.0.post0-py2.py3-none-any.whl"
+  }, 
+  {"pinned": "pytz-2024.2-py2.py3-none-any.whl"}, 
+  {
+   "added": {
+    "rich-13.9.2-py3-none-any.whl": [">=3.8.0", "markdown-it-py>=2.2.0", "pygments<3.0.0,>=2.13.0"]
+   }, 
+   "pinned": "rich-13.9.2-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "pygments-2.18.0-py3-none-any.whl": [">=3.8"]
+   }, 
+   "pinned": "pygments-2.18.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "markdown_it_py-3.0.0-py3-none-any.whl": [">=3.8", "mdurl~=0.1"]
+   }, 
+   "pinned": "markdown_it_py-3.0.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "mdurl-0.1.2-py3-none-any.whl": [">=3.7"]
+   }, 
+   "pinned": "mdurl-0.1.2-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "scikit_learn-1.5.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.9", "numpy>=1.19.5", "scipy>=1.6.0", "joblib>=1.2.0", "threadpoolctl>=3.1.0"]
+   }, 
+   "pinned": "scikit_learn-1.5.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "joblib-1.4.2-py3-none-any.whl": [">=3.8"]
+   }, 
+   "pinned": "joblib-1.4.2-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "scipy-1.14.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.10", "numpy<2.3,>=1.23.5"]
+   }, 
+   "pinned": "scipy-1.14.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "six-1.16.0-py2.py3-none-any.whl": ["!=3.0.*,!=3.1.*,!=3.2.*,>=2.7"]
+   }, 
+   "pinned": "six-1.16.0-py2.py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "sparse-0.15.4-py2.py3-none-any.whl": [">=3.8", "numpy>=1.17", "scipy>=0.19", "numba>=0.49"]
+   }, 
+   "pinned": "sparse-0.15.4-py2.py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "numba-0.60.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl": [">=3.9", "llvmlite<0.44,>=0.43.0dev0", "numpy<2.1,>=1.22"]
+   }, 
+   "pinned": "numba-0.60.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "llvmlite-0.43.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.9"]
+   }, 
+   "pinned": "llvmlite-0.43.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "tensorboard-2.18.0-py3-none-any.whl": [">=3.9", "absl-py>=0.4", "grpcio>=1.48.2", "markdown>=2.6.8", "numpy>=1.12.0", "packaging", "protobuf!=4.24.0,>=3.19.6", "setuptools>=41.0.0", "six>1.9", "tensorboard-data-server<0.8.0,>=0.7.0", "werkzeug>=1.0.1"]
+   }, 
+   "pinned": "tensorboard-2.18.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "tensorboard_data_server-0.7.2-py3-none-manylinux_2_31_x86_64.whl": [">=3.7"]
+   }, 
+   "pinned": "tensorboard_data_server-0.7.2-py3-none-manylinux_2_31_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "absl_py-2.1.0-py3-none-any.whl": [">=3.7"]
+   }, 
+   "pinned": "absl_py-2.1.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "grpcio-1.66.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.8"]
+   }, 
+   "pinned": "grpcio-1.66.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "Markdown-3.7-py3-none-any.whl": [">=3.8"]
+   }, 
+   "pinned": "Markdown-3.7-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "protobuf-5.28.2-cp38-abi3-manylinux2014_x86_64.whl": [">=3.8"]
+   }, 
+   "pinned": "protobuf-5.28.2-cp38-abi3-manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "setuptools-75.1.0-py3-none-any.whl": [">=3.8"]
+   }, 
+   "pinned": "setuptools-75.1.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "threadpoolctl-3.5.0-py3-none-any.whl": [">=3.8"]
+   }, 
+   "pinned": "threadpoolctl-3.5.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "tzdata-2024.2-py2.py3-none-any.whl": [">=2"]
+   }, 
+   "pinned": "tzdata-2024.2-py2.py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "werkzeug-3.0.4-py3-none-any.whl": [">=3.8", "MarkupSafe>=2.1.1"]
+   }, 
+   "pinned": "werkzeug-3.0.4-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "MarkupSafe-2.1.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.7"]
+   }, 
+   "pinned": "MarkupSafe-2.1.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "xarray-2024.9.0-py3-none-any.whl": [">=3.10", "numpy>=1.24", "packaging>=23.1", "pandas>=2.1"]
+   }, 
+   "pinned": "xarray-2024.9.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "contextlib2-21.6.0-py2.py3-none-any.whl": [">=3.6"]
+   }, 
+   "pinned": "contextlib2-21.6.0-py2.py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "filelock-3.16.1-py3-none-any.whl": [">=3.8"]
+   }, 
+   "pinned": "filelock-3.16.1-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "flax-0.9.0-py3-none-any.whl": [">=3.10", "jax>=0.4.27", "msgpack", "optax", "orbax-checkpoint", "tensorstore", "rich>=11.1", "typing-extensions>=4.2", "PyYAML>=5.4.1", "numpy>=1.23.2; python_version >= \"3.11\""]
+   }, 
+   "pinned": "flax-0.9.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "jinja2-3.1.4-py3-none-any.whl": [">=3.7", "MarkupSafe>=2.0"]
+   }, 
+   "pinned": "jinja2-3.1.4-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "msgpack-1.1.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.8"]
+   }, 
+   "pinned": "msgpack-1.1.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {"pinned": "multipledispatch-1.0.0-py3-none-any.whl"}, 
+  {
+   "added": {
+    "natsort-8.4.0-py3-none-any.whl": [">=3.7"]
+   }, 
+   "pinned": "natsort-8.4.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "networkx-3.3-py3-none-any.whl": [">=3.10"]
+   }, 
+   "pinned": "networkx-3.3-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "nvidia_nvjitlink_cu12-12.6.77-py3-none-manylinux2014_x86_64.whl": [">=3"]
+   }, 
+   "pinned": "nvidia_nvjitlink_cu12-12.6.77-py3-none-manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "optax-0.2.3-py3-none-any.whl": [">=3.9", "absl-py>=0.7.1", "chex>=0.1.86", "jax>=0.4.27", "jaxlib>=0.4.27", "numpy>=1.18.0", "etils[epy]"]
+   }, 
+   "pinned": "optax-0.2.3-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "chex-0.1.87-py3-none-any.whl": [">=3.9", "absl-py>=0.9.0", "typing-extensions>=4.2.0", "jax>=0.4.27", "jaxlib>=0.4.27", "numpy>=1.24.1", "toolz>=0.9.0"]
+   }, 
+   "pinned": "chex-0.1.87-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "toolz-1.0.0-py3-none-any.whl": [">=3.8"]
+   }, 
+   "pinned": "toolz-1.0.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "etils-1.9.4-py3-none-any.whl": ["etils-1.9.4-py3-none-any.whl", "typing_extensions; extra == \"epy\""]
+   }, 
+   "pinned": "etils-1.9.4-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "etils-1.9.4-py3-none-any.whl": [">=3.10"]
+   }, 
+   "pinned": "etils-1.9.4-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "orbax_checkpoint-0.6.4-py3-none-any.whl": [">=3.9", "absl-py", "etils[epath,epy]", "typing_extensions", "msgpack", "jax>=0.4.26", "jaxlib", "numpy", "pyyaml", "tensorstore>=0.1.60", "nest_asyncio", "protobuf", "humanize"]
+   }, 
+   "pinned": "orbax_checkpoint-0.6.4-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "tensorstore-0.1.66-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": [">=3.9", "numpy>=1.22.0", "ml-dtypes>=0.3.1"]
+   }, 
+   "pinned": "tensorstore-0.1.66-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  }, 
+  {
+   "added": {
+    "etils-1.9.4-py3-none-any.whl": ["etils-1.9.4-py3-none-any.whl", "fsspec; extra == \"epath\"", "importlib_resources; extra == \"epath\"", "typing_extensions; extra == \"epath\"", "zipp; extra == \"epath\"", "etils[epy]; extra == \"epath\"", "typing_extensions; extra == \"epy\""]
+   }, 
+   "pinned": "etils-1.9.4-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "humanize-4.11.0-py3-none-any.whl": [">=3.9"]
+   }, 
+   "pinned": "humanize-4.11.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "importlib_resources-6.4.5-py3-none-any.whl": [">=3.8"]
+   }, 
+   "pinned": "importlib_resources-6.4.5-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "nest_asyncio-1.6.0-py3-none-any.whl": [">=3.5"]
+   }, 
+   "pinned": "nest_asyncio-1.6.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "pytorch_lightning-2.4.0-py3-none-any.whl": [">=3.8", "torch>=2.1.0", "tqdm>=4.57.0", "PyYAML>=5.4", "fsspec>=2022.5.0", "fsspec[http]>=2022.5.0", "torchmetrics>=0.7.0", "packaging>=20.0", "typing-extensions>=4.4.0", "lightning-utilities>=0.10.0"]
+   }, 
+   "pinned": "pytorch_lightning-2.4.0-py3-none-any.whl"
+  }, 
+  {
+   "added": {
+    "sympy-1.13.3-py3-none-any.whl": [">=3.8", "mpmath<1.4,>=1.1.0"]
+   }, 
+   "pinned": "sympy-1.13.3-py3-none-any.whl"
+  }, 
+  {"pinned": "mpmath-1.3.0-py3-none-any.whl"}, 
+  {
+   "added": {
+    "zipp-3.20.2-py3-none-any.whl": [">=3.8"]
+   }, 
+   "pinned": "zipp-3.20.2-py3-none-any.whl"
+  }
+ ]
+}
