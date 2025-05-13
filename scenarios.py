@@ -21,6 +21,7 @@ import tempfile
 import time
 import tomllib
 from collections import defaultdict
+from collections.abc import Generator
 from contextlib import contextmanager
 from io import TextIOWrapper
 from pathlib import Path
@@ -45,7 +46,19 @@ def extract_filename(url: str) -> str:
     return filename
 
 
-def snakecase_and_strip_suffix(input_str, suffix="_requirement"):
+def snakecase_and_strip_suffix(input_str: str, suffix: str = "_requirement") -> str:
+    """
+    Converts a string to snake_case and removes a specified suffix if it exists.
+    
+    This function is kept for potential future use in processing requirement names.
+    
+    Args:
+        input_str: The string to convert to snake_case
+        suffix: The suffix to remove if present at the end of the string
+        
+    Returns:
+        The converted snake_case string with suffix removed if present
+    """
     # Convert to snake_case
     snake_case_str = inflection.underscore(input_str)
     # Remove the suffix if it exists at the end
@@ -164,16 +177,16 @@ class RejectedAddedVisitor(ast.NodeVisitor):
 
 
 def get_open_port() -> int:
-    _sockeet = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    _sockeet.bind(("", 0))
-    address = _sockeet.getsockname()
+    _socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    _socket.bind(("", 0))
+    address = _socket.getsockname()
     port = address[1]
-    _sockeet.close()
+    _socket.close()
     return port
 
 
 @contextmanager
-def pip_timemachine(date: str, port: str):
+def pip_timemachine(date: str, port: str) -> Generator[subprocess.Popen, None, None]:
     cmd = [
         sys.executable,
         "-m",
@@ -217,7 +230,7 @@ class ReporterLines:
         self._report_output = False
         self.reporter_lines: list[str] = []
 
-    def process_line(self, line) -> None:
+    def process_line(self, line: str) -> None:
         if line == "{":
             self._report_output = True
             self.reporter_lines.append(line)
@@ -262,15 +275,15 @@ class ResolutionLines:
 
         if line.startswith("Reporter.adding_requirement("):
             tree = ast.parse(line, mode="eval")
-            requirements_visistor = RejectedAddedVisitor()
-            requirements_visistor.visit(tree)
-            if len(requirements_visistor.candidates) == 1:
+            requirements_visitor = RejectedAddedVisitor()
+            requirements_visitor.visit(tree)
+            if len(requirements_visitor.candidates) == 1:
                 if "added" not in self._resolution_step:
                     self._resolution_step["added"] = defaultdict(list)
 
                 self._resolution_step["added"][
-                    requirements_visistor.candidates[0]["from"]
-                ].append(requirements_visistor.candidates[0]["requirement"])
+                    requirements_visitor.candidates[0]["from"]
+                ].append(requirements_visitor.candidates[0]["requirement"])
             else:
                 raise ValueError(f"Unknown requirement {line}")
             return
@@ -281,29 +294,25 @@ class ResolutionLines:
                 return
 
             tree = ast.parse(line, mode="eval")
-            pinning_visistor = PinningVisitor()
-            pinning_visistor.visit(tree)
-            if pinning_visistor.pinned_file:
+            pinning_visitor = PinningVisitor()
+            pinning_visitor.visit(tree)
+            if pinning_visitor.pinned_file:
                 if "pinned" in self._resolution_step:
                     raise ValueError(f"Unexpected second pinning: {line}")
-                self._resolution_step["pinned"] = pinning_visistor.pinned_file
+                self._resolution_step["pinned"] = pinning_visitor.pinned_file
             else:
                 raise ValueError(f"Unknown pinning {line}")
             return
 
         if line.startswith("Reporter.rejecting_candidate("):
-            rejecting_visistor = RejectedAddedVisitor()
-            try:
-                tree = ast.parse(line.replace("via=", ""), mode="eval")
-            except Exception:
-                breakpoint()
-                "break"
-            rejecting_visistor.visit(tree)
-            if rejecting_visistor.candidates:
+            rejecting_visitor = RejectedAddedVisitor()
+            tree = ast.parse(line.replace("via=", ""), mode="eval")
+            rejecting_visitor.visit(tree)
+            if rejecting_visitor.candidates:
                 if "rejected" not in self._resolution_step:
                     self._resolution_step["rejected"] = defaultdict(set)
 
-                for candidate in rejecting_visistor.candidates:
+                for candidate in rejecting_visitor.candidates:
                     self._resolution_step["rejected"][candidate["requirement"]].add(
                         candidate["from"]
                     )
@@ -314,7 +323,7 @@ class ResolutionLines:
         raise ValueError(f"Unknown Report action: {line}")
 
 
-def tail_file(file: TextIOWrapper):
+def tail_file(file: TextIOWrapper) -> Generator[str | None, None, None]:
     partial_line = ""
     while True:
         line = file.readline()
@@ -345,7 +354,7 @@ def create_virtualenv(venv_dir: Path, python_version: str) -> Path:
         return venv_dir / "Scripts" / "python.exe"
 
 
-def install_requirements(venv_python: Path, port: str, requirements: list[str], temp_dir: str) -> tuple:
+def install_requirements(venv_python: Path, port: str, requirements: list[str], temp_dir: str) -> tuple[ReporterLines, ResolutionLines, str, bool]:
     """
     Install requirements in the virtual environment and capture the output.
     Returns a tuple: (report_lines, resolution_lines, stderr_clean, resolution_too_deep).
@@ -421,7 +430,7 @@ def install_requirements(venv_python: Path, port: str, requirements: list[str], 
             continue
         if not metadata_warning:
             stderr_clean.append(line)
-        if "nPlease use pip<24.1" in line:
+        if "Please use pip<24.1" in line:
             metadata_warning = False
 
     return report_lines, resolution_lines, "\n".join(stderr_clean), resolution_too_deep
@@ -533,12 +542,7 @@ def process_toml_file(toml_file: Path, pip_name: str, pip_requirement: str) -> N
         if platform_system != local_platform_system:
             continue
 
-        json_path = (
-            Path("output")
-            / os.path.splitext(toml_file.name)[0]
-            / scenario_name
-            / f"{pip_name}.json"
-        )
+        json_path = Path("output") / Path(toml_file.name).stem / scenario_name / f"{pip_name}.json"
         if json_path.exists():
             try:
                 existing_json = json.load(json_path.open())
@@ -597,7 +601,7 @@ def main(
 
     scenarios_path = Path(SCENARIOS_DIR)
     if not scenarios_path.exists() or not scenarios_path.is_dir():
-        print(f"The directory '{SCENARIOS_DIR}' does not exist.")
+        print(f"Error: The directory '{SCENARIOS_DIR}' does not exist")
         return
 
     # Loop through each TOML file in the scenarios directory
