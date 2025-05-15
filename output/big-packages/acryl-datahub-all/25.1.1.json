@@ -7,8 +7,8 @@
   "requirements": ["acryl-datahub[all]"]
  }, 
  "result": {
-  "success": false, 
-  "failure_reason": "WARNING: pymongo 4.10.1 does not provide the extra 'srv'", 
+  "success": true, 
+  "failure_reason": null, 
   "install_info": [
    {"file": "Authlib-1.3.2-py2.py3-none-any.whl", "hash": "sha256=ede026a95e9f5cdc2d4364a52103f5405e75aa156357e831ef2bfd0bc5094dfc"}, 
    {"file": "Deprecated-1.2.14-py2.py3-none-any.whl", "hash": "sha256=6fac8b097794a90302bdbb17b9b815e732d3c4720583ff1b198499d78470466c"}, 

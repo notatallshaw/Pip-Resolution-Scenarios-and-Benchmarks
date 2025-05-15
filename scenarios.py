@@ -428,6 +428,8 @@ def install_requirements(venv_python: Path, port: str, requirements: list[str], 
         if "has invalid metadata" in line:
             metadata_warning = True
             continue
+        if "does not provide the extra" in line:
+            continue
         if not metadata_warning:
             stderr_clean.append(line)
         if "Please use pip<24.1" in line:

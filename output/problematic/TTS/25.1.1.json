@@ -208,7 +208,7 @@
   }, 
   {
    "added": {
-    "gruut-2.2.3.tar.gz": ["gruut-2.2.3.tar.gz", "Babel<3.0.0,>=2.8.0", "dateparser~=1.1.0", "gruut-ipa<1.0,>=0.12.0", "gruut-lang-en~=2.0.0", "jsonlines~=1.2.0", "networkx<3.0.0,>=2.5.0", "num2words<1.0.0,>=0.5.10", "numpy<2.0.0,>=1.19.0", "python-crfsuite~=0.9.7", "gruut-lang-de~=2.0.0; extra == \"de\"", "gruut-lang-fr~=2.0.0; extra == \"fr\"", "gruut-lang-es~=2.0.0; extra == \"es\""]
+    "gruut-2.2.3.tar.gz": ["gruut-2.2.3.tar.gz", "Babel<3.0.0,>=2.8.0", "dateparser~=1.1.0", "gruut-ipa<1.0,>=0.12.0", "gruut-lang-en~=2.0.0", "jsonlines~=1.2.0", "networkx<3.0.0,>=2.5.0", "num2words<1.0.0,>=0.5.10", "numpy<2.0.0,>=1.19.0", "python-crfsuite~=0.9.7", "gruut-lang-de~=2.0.0; extra == \"de\"", "gruut-lang-es~=2.0.0; extra == \"es\"", "gruut-lang-fr~=2.0.0; extra == \"fr\""]
    }, 
    "pinned": "gruut-2.2.3.tar.gz"
   }, 
