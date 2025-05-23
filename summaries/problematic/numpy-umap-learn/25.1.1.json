@@ -1,0 +1,31 @@
+{
+ "input": {
+  "pip_version": "25.1.1", 
+  "python_version": "3.10", 
+  "datetime": "2025-03-12 14:00:00", 
+  "platform_system": "Linux", 
+  "requirements": ["numpy", "umap-learn"]
+ }, 
+ "result": {"success": true, "failure_reason": null}, 
+ "summary": {
+  "distinct_wheels_visited": 11, 
+  "distinct_sdists_visited": 0, 
+  "total_visited_packages": 11, 
+  "total_visited_requirements": 27, 
+  "total_rejected_requirements": 0, 
+  "total_pinned_packages": 12, 
+  "total_rounds": 12, 
+  "install_info": [
+   {"file": "joblib-1.4.2-py3-none-any.whl", "hash": "sha256=06d478d5674cbc267e7496a410ee875abd68e4340feff4490bcb7afb88060ae6"}, 
+   {"file": "llvmlite-0.44.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=7202b678cdf904823c764ee0fe2dfe38a76981f4c1e51715b4cb5abb6cf1d9e8"}, 
+   {"file": "numba-0.61.0-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", "hash": "sha256=6fb74e81aa78a2303e30593d8331327dfc0d2522b5db05ac967556a26db3ef87"}, 
+   {"file": "numpy-2.1.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=78574ac2d1a4a02421f25da9559850d59457bac82f2b8d7a44fe83a64f770098"}, 
+   {"file": "pynndescent-0.5.13-py3-none-any.whl", "hash": "sha256=69aabb8f394bc631b6ac475a1c7f3994c54adf3f51cd63b2730fefba5771b949"}, 
+   {"file": "scikit_learn-1.6.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=775da975a471c4f6f467725dff0ced5c7ac7bda5e9316b260225b48475279a1b"}, 
+   {"file": "scipy-1.15.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=69ea6e56d00977f355c0f84eba69877b6df084516c602d93a33812aa04d90a3d"}, 
+   {"file": "threadpoolctl-3.5.0-py3-none-any.whl", "hash": "sha256=56c1e26c150397e58c4926da8eeee87533b1e32bef131bd4bf6a2f45f3185467"}, 
+   {"file": "tqdm-4.67.1-py3-none-any.whl", "hash": "sha256=26445eca388f82e72884e0d580d5464cd801a3ea01e63e5601bdff9ba6a48de2"}, 
+   {"file": "umap_learn-0.5.7-py3-none-any.whl", "hash": "sha256=6a7e0be2facfa365a5ed6588447102bdbef32a0ef449535c25c97ea7e680073c"}
+  ]
+ }
+}

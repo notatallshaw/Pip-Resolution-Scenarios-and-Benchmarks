@@ -1,0 +1,25 @@
+{
+ "input": {
+  "pip_version": "25.1.1", 
+  "python_version": "3.10", 
+  "datetime": "2024-08-28 14:00:00", 
+  "platform_system": "Linux", 
+  "requirements": ["numpy>=2.1,<2.2", "numba<=0.60,>0.1"]
+ }, 
+ "result": {"success": true, "failure_reason": null}, 
+ "summary": {
+  "distinct_wheels_visited": 16, 
+  "distinct_sdists_visited": 2, 
+  "total_visited_packages": 18, 
+  "total_visited_requirements": 49, 
+  "total_rejected_requirements": 8, 
+  "total_pinned_packages": 5, 
+  "total_rounds": 5, 
+  "install_info": [
+   {"file": "llvmlite-0.34.0.tar.gz", "hash": "sha256=f03ee0d19bca8f2fe922bb424a909d05c28411983b0c2bc58b020032a0d11f63"}, 
+   {"file": "numba-0.51.2.tar.gz", "hash": "sha256=16bd59572114adbf5f600ea383880d7b2071ae45477e84a24994e089ea390768"}, 
+   {"file": "numpy-2.1.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=398049e237d1aae53d82a416dade04defed1a47f87d18d5bd615b6e7d7e41d1f"}, 
+   {"file": "setuptools-74.0.0-py3-none-any.whl", "hash": "sha256=0274581a0037b638b9fc1c6883cc71c0210865aaa76073f7882376b641b84e8f"}
+  ]
+ }
+}

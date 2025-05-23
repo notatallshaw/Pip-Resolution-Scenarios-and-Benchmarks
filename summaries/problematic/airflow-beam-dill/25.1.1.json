@@ -1,0 +1,52 @@
+{
+ "input": {
+  "pip_version": "25.1.1", 
+  "python_version": "3.11", 
+  "datetime": "2024-04-17 14:00:00", 
+  "platform_system": "Linux", 
+  "requirements": ["dill>=0.2.2", "apache-beam<=2.49.0"]
+ }, 
+ "result": {"success": true, "failure_reason": null}, 
+ "summary": {
+  "distinct_wheels_visited": 28, 
+  "distinct_sdists_visited": 0, 
+  "total_visited_packages": 28, 
+  "total_visited_requirements": 62, 
+  "total_rejected_requirements": 0, 
+  "total_pinned_packages": 32, 
+  "total_rounds": 32, 
+  "install_info": [
+   {"file": "apache_beam-2.49.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=5b971ba1dba6c97be6cb44b8b8054076c6c36a247f78c4bf8b418540ad7e8c1e"}, 
+   {"file": "certifi-2024.2.2-py3-none-any.whl", "hash": "sha256=dc383c07b76109f368f6106eee2b593b04a011ea4d55f652c6ca24a754d1cdd1"}, 
+   {"file": "charset_normalizer-3.3.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=753f10e867343b4511128c6ed8c82f7bec3bd026875576dfd88483c5c73b2fd8"}, 
+   {"file": "cloudpickle-2.2.1-py3-none-any.whl", "hash": "sha256=61f594d1f4c295fa5cd9014ceb3a1fc4a70b0de1164b94fbc2d854ccba056f9f"}, 
+   {"file": "crcmod-1.7.tar.gz", "hash": "sha256=dc7051a0db5f2bd48665a990d3ec1cc305a466a77358ca4492826f41f283601e"}, 
+   {"file": "dill-0.3.1.1.tar.gz", "hash": "sha256=42d8ef819367516592a825746a18073ced42ca169ab1f5f4044134703e7a049c"}, 
+   {"file": "dnspython-2.6.1-py3-none-any.whl", "hash": "sha256=5ef3b9680161f6fa89daf8ad451b5f1a33b18ae8a1c6778cdf4b43f08c0a6e50"}, 
+   {"file": "docopt-0.6.2.tar.gz", "hash": "sha256=49b3a825280bd66b3aa83585ef59c4a8c82f2c8a522dbe754a8bc8d08c85c491"}, 
+   {"file": "fastavro-1.9.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=903d97418120ca6b6a7f38a731166c1ccc2c4344ee5e0470d09eb1dc3687540a"}, 
+   {"file": "fasteners-0.19-py3-none-any.whl", "hash": "sha256=758819cb5d94cdedf4e836988b74de396ceacb8e2794d21f82d131fd9ee77237"}, 
+   {"file": "grpcio-1.62.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=71f11fd63365ade276c9d4a7b7df5c136f9030e3457107e1791b3737a9b9ed6a"}, 
+   {"file": "hdfs-2.7.3.tar.gz", "hash": "sha256=752a21e43f82197dce43697c73f454ba490838108c73a57a9247efb66d1c0479"}, 
+   {"file": "httplib2-0.22.0-py3-none-any.whl", "hash": "sha256=14ae0a53c1ba8f3d37e9e27cf37eabb0fb9980f435ba405d546948b009dd64dc"}, 
+   {"file": "idna-3.7-py3-none-any.whl", "hash": "sha256=82fee1fc78add43492d3a1898bfa6d8a904cc97d8427f683ed8e798d07761aa0"}, 
+   {"file": "numpy-1.24.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=7215847ce88a85ce39baf9e89070cb860c98fdddacbaa6c0da3ffb31b3350bd5"}, 
+   {"file": "objsize-0.6.1-py3-none-any.whl", "hash": "sha256=807dde91898f93b2308be4cfca3e863f689f578a81a4d75da6bb184e6c5f105d"}, 
+   {"file": "orjson-3.10.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=e852a83d7803d3406135fb7a57cf0c1e4a3e73bac80ec621bd32f01c653849c5"}, 
+   {"file": "proto_plus-1.23.0-py3-none-any.whl", "hash": "sha256=a829c79e619e1cf632de091013a4173deed13a55f326ef84f05af6f50ff4c82c"}, 
+   {"file": "protobuf-4.23.4-cp37-abi3-manylinux2014_x86_64.whl", "hash": "sha256=effeac51ab79332d44fba74660d40ae79985901ac21bca408f8dc335a81aa597"}, 
+   {"file": "pyarrow-11.0.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=f010ce497ca1b0f17a8243df3048055c0d18dcadbcc70895d5baf8921f753de5"}, 
+   {"file": "pydot-1.4.2-py2.py3-none-any.whl", "hash": "sha256=66c98190c65b8d2e2382a441b4c0edfdb4f4c025ef9cb9874de478fb0793a451"}, 
+   {"file": "pymongo-4.6.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=c2ad3e5bfcd345c0bfe9af69a82d720860b5b043c1657ffb513c18a0dee19c19"}, 
+   {"file": "pyparsing-3.1.2-py3-none-any.whl", "hash": "sha256=f9db75911801ed778fe61bb643079ff86601aca99fcae6345aa67292038fb742"}, 
+   {"file": "python_dateutil-2.9.0.post0-py2.py3-none-any.whl", "hash": "sha256=a8b2bc7bffae282281c8140a97d3aa9c14da0b136dfe83f850eea9a5f7470427"}, 
+   {"file": "pytz-2024.1-py2.py3-none-any.whl", "hash": "sha256=328171f4e3623139da4983451950b28e95ac706e13f3f2630a879749e7a8b319"}, 
+   {"file": "regex-2024.4.16-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=0c8290b44d8b0af4e77048646c10c6e3aa583c1ca67f3b5ffb6e06cf0c6f0f89"}, 
+   {"file": "requests-2.31.0-py3-none-any.whl", "hash": "sha256=58cd2187c01e70e6e26505bca751777aa9f2ee0b7f4300988b709f44e013003f"}, 
+   {"file": "six-1.16.0-py2.py3-none-any.whl", "hash": "sha256=8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"}, 
+   {"file": "typing_extensions-4.11.0-py3-none-any.whl", "hash": "sha256=c1f94d72897edaf4ce775bb7558d5b79d8126906a14ea5ed1635921406c0387a"}, 
+   {"file": "urllib3-2.2.1-py3-none-any.whl", "hash": "sha256=450b20ec296a467077128bff42b73080516e71b56ff59a60a02bef2232c4fa9d"}, 
+   {"file": "zstandard-0.22.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=33591d59f4956c9812f8063eff2e2c0065bc02050837f152574069f5f9f17775"}
+  ]
+ }
+}

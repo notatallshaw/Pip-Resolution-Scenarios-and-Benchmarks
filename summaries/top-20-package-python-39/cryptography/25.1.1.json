@@ -1,0 +1,24 @@
+{
+ "input": {
+  "pip_version": "25.1.1", 
+  "python_version": "3.9", 
+  "datetime": "2024-10-07 14:00:00", 
+  "platform_system": "Linux", 
+  "requirements": ["cryptography"]
+ }, 
+ "result": {"success": true, "failure_reason": null}, 
+ "summary": {
+  "distinct_wheels_visited": 3, 
+  "distinct_sdists_visited": 0, 
+  "total_visited_packages": 3, 
+  "total_visited_requirements": 5, 
+  "total_rejected_requirements": 0, 
+  "total_pinned_packages": 4, 
+  "total_rounds": 4, 
+  "install_info": [
+   {"file": "cffi-1.17.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=cdf5ce3acdfd1661132f2a9c19cac174758dc2352bfe37d98aa7512c6b7178b3"}, 
+   {"file": "cryptography-43.0.1-cp39-abi3-manylinux_2_28_x86_64.whl", "hash": "sha256=511f4273808ab590912a93ddb4e3914dfd8a388fed883361b02dea3791f292e1"}, 
+   {"file": "pycparser-2.22-py3-none-any.whl", "hash": "sha256=c3702b6d3dd8c7abc1afa565d7e63d53a1d0bd86cdc24edd75470f4de499cfcc"}
+  ]
+ }
+}

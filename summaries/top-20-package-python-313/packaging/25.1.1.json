@@ -1,0 +1,22 @@
+{
+ "input": {
+  "pip_version": "25.1.1", 
+  "python_version": "3.13", 
+  "datetime": "2024-10-07 14:00:00", 
+  "platform_system": "Linux", 
+  "requirements": ["packaging"]
+ }, 
+ "result": {"success": true, "failure_reason": null}, 
+ "summary": {
+  "distinct_wheels_visited": 1, 
+  "distinct_sdists_visited": 0, 
+  "total_visited_packages": 1, 
+  "total_visited_requirements": 1, 
+  "total_rejected_requirements": 0, 
+  "total_pinned_packages": 2, 
+  "total_rounds": 2, 
+  "install_info": [
+   {"file": "packaging-24.1-py3-none-any.whl", "hash": "sha256=5b8f2217dbdbd2f7f384c41c628544e6d52f2d0f53c6d0c3ea61aa5d1d7ff124"}
+  ]
+ }
+}

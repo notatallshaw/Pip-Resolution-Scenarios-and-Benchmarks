@@ -36,13 +36,13 @@ def process_toml_file(toml_file: Path, pip_name_1: str, pip_name_2: str) -> None
         requirements: list[str] = scenario["requirements"]
 
         json_path_1 = (
-            Path("output")
+            Path("summaries")
             / os.path.splitext(toml_file.name)[0]
             / scenario_name
             / f"{pip_name_1}.json"
         )
         json_path_2 = (
-            Path("output")
+            Path("summaries")
             / os.path.splitext(toml_file.name)[0]
             / scenario_name
             / f"{pip_name_2}.json"
@@ -86,58 +86,32 @@ def process_toml_file(toml_file: Path, pip_name_1: str, pip_name_2: str) -> None
         failure_reason_2 = json_2["result"]["failure_reason"]
         install_info_1 = {
             install["file"]: install["hash"]
-            for install in json_1["result"]["install_info"]
+            for install in json_1["summary"]["install_info"]
         }
         install_info_2 = {
             install["file"]: install["hash"]
-            for install in json_2["result"]["install_info"]
+            for install in json_2["summary"]["install_info"]
         }
 
-        wheels_1: set[str] = set()
-        sdists_1: set[str] = set()
-        visited_packages_1 = 0
-        visited_requirements_1 = 0
-        rejected_rquirements_1 = 0
-        number_pinned_1 = 0
-        number_rounds_1 = len(json_1["resolution_rounds"])
-        for resolution_round_1 in json_1["resolution_rounds"]:
-            if "pinned" in resolution_round_1:
-                number_pinned_1 += 1
-            if "added" in resolution_round_1:
-                visited_packages_1 += len(resolution_round_1["added"])
-                wheels_1.update(
-                    w for w in resolution_round_1["added"] if w.endswith(".whl")
-                )
-                sdists_1.update(
-                    s for s in resolution_round_1["added"] if not s.endswith(".whl")
-                )
-                for added_requirements_1 in resolution_round_1["added"].values():
-                    visited_requirements_1 += len(added_requirements_1)
-            if "rejected" in resolution_round_1:
-                rejected_rquirements_1 += len(resolution_round_1["rejected"])
+        # Use pre-calculated summary metrics
+        summary_1 = json_1["summary"]
+        summary_2 = json_2["summary"]
+        
+        wheels_1 = summary_1["distinct_wheels_visited"]
+        sdists_1 = summary_1["distinct_sdists_visited"]
+        visited_packages_1 = summary_1["total_visited_packages"]
+        visited_requirements_1 = summary_1["total_visited_requirements"]
+        rejected_rquirements_1 = summary_1["total_rejected_requirements"]
+        number_pinned_1 = summary_1["total_pinned_packages"]
+        number_rounds_1 = summary_1["total_rounds"]
 
-        wheels_2: set[str] = set()
-        sdists_2: set[str] = set()
-        visited_packages_2 = 0
-        visited_requirements_2 = 0
-        rejected_rquirements_2 = 0
-        number_pinned_2 = 0
-        number_rounds_2 = len(json_2["resolution_rounds"])
-        for resolution_round_2 in json_2["resolution_rounds"]:
-            if "pinned" in resolution_round_2:
-                number_pinned_2 += 1
-            if "added" in resolution_round_2:
-                visited_packages_2 += len(resolution_round_2["added"])
-                wheels_2.update(
-                    w for w in resolution_round_2["added"] if w.endswith(".whl")
-                )
-                sdists_2.update(
-                    s for s in resolution_round_2["added"] if not s.endswith(".whl")
-                )
-                for added_requirements_2 in resolution_round_2["added"].values():
-                    visited_requirements_2 += len(added_requirements_2)
-            if "rejected" in resolution_round_2:
-                rejected_rquirements_2 += len(resolution_round_2["rejected"])
+        wheels_2 = summary_2["distinct_wheels_visited"]
+        sdists_2 = summary_2["distinct_sdists_visited"]
+        visited_packages_2 = summary_2["total_visited_packages"]
+        visited_requirements_2 = summary_2["total_visited_requirements"]
+        rejected_rquirements_2 = summary_2["total_rejected_requirements"]
+        number_pinned_2 = summary_2["total_pinned_packages"]
+        number_rounds_2 = summary_2["total_rounds"]
 
         difference_messages = []
         one_failed = success_1 != success_2
@@ -154,20 +128,20 @@ def process_toml_file(toml_file: Path, pip_name_1: str, pip_name_2: str) -> None
         if not one_failed and install_info_1 != install_info_2:
             difference_messages.append("Not the same install files")
 
-        if json_1["resolution_rounds"] != json_2["resolution_rounds"]:
-            if len(sdists_1) != len(sdists_2):
+        if (wheels_1 != wheels_2 or sdists_1 != sdists_2 or 
+            visited_packages_1 != visited_packages_2 or visited_requirements_1 != visited_requirements_2 or
+            rejected_rquirements_1 != rejected_rquirements_2 or number_pinned_1 != number_pinned_2 or
+            number_rounds_1 != number_rounds_2):
+            
+            if sdists_1 != sdists_2:
                 difference_messages.append(
-                    f"Distinct Sdists visisted: {len(sdists_1)} -> {len(sdists_2)} ({percent_change(len(sdists_1), len(sdists_2))})"
+                    f"Distinct Sdists visisted: {sdists_1} -> {sdists_2} ({percent_change(sdists_1, sdists_2)})"
                 )
-            elif len(sdists_1) != len(sdists_2):
-                difference_messages.append("Different distinct sdists visisted")
 
-            if len(wheels_1) != len(wheels_2):
+            if wheels_1 != wheels_2:
                 difference_messages.append(
-                    f"Distinct Wheels visisted: {len(wheels_1)} -> {len(wheels_2)} ({percent_change(len(wheels_1), len(wheels_2))})"
+                    f"Distinct Wheels visisted: {wheels_1} -> {wheels_2} ({percent_change(wheels_1, wheels_2)})"
                 )
-            elif len(wheels_1) != len(wheels_2):
-                difference_messages.append("Different distinct wheels visisted")
 
             if visited_packages_1 != visited_packages_2:
                 difference_messages.append(

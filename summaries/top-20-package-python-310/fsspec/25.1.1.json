@@ -1,0 +1,22 @@
+{
+ "input": {
+  "pip_version": "25.1.1", 
+  "python_version": "3.10", 
+  "datetime": "2024-10-07 14:00:00", 
+  "platform_system": "Linux", 
+  "requirements": ["fsspec"]
+ }, 
+ "result": {"success": true, "failure_reason": null}, 
+ "summary": {
+  "distinct_wheels_visited": 1, 
+  "distinct_sdists_visited": 0, 
+  "total_visited_packages": 1, 
+  "total_visited_requirements": 1, 
+  "total_rejected_requirements": 0, 
+  "total_pinned_packages": 2, 
+  "total_rounds": 2, 
+  "install_info": [
+   {"file": "fsspec-2024.9.0-py3-none-any.whl", "hash": "sha256=a0947d552d8a6efa72cc2c730b12c41d043509156966cca4fb157b0f2a0c574b"}
+  ]
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "input": {
+  "pip_version": "25.1.1", 
+  "python_version": "3.9", 
+  "datetime": "2023-10-01 14:00:00", 
+  "platform_system": "Linux", 
+  "requirements": ["click >= 7.0", "click-loglevel ~= 0.2", "dandi >= 0.24.0", "psutil ~= 5.9", "pyyaml", "selenium"]
+ }, 
+ "result": {"success": false, "failure_reason": "Resolution Too Deep"}, 
+ "summary": {"distinct_wheels_visited": 2609, "distinct_sdists_visited": 28, "total_visited_packages": 419764, "total_visited_requirements": 1637296, "total_rejected_requirements": 32327, "total_pinned_packages": 7587, "total_rounds": 15002, "install_info": []}
+}

@@ -1,0 +1,11 @@
+{
+ "input": {
+  "pip_version": "25.1.1", 
+  "python_version": "3.12", 
+  "datetime": "2024-11-26 14:00:00", 
+  "platform_system": "Linux", 
+  "requirements": ["kauldron[docs]"]
+ }, 
+ "result": {"success": false, "failure_reason": "Resolution Too Deep"}, 
+ "summary": {"distinct_wheels_visited": 329, "distinct_sdists_visited": 17, "total_visited_packages": 132979, "total_visited_requirements": 536870, "total_rejected_requirements": 53342, "total_pinned_packages": 7627, "total_rounds": 15008, "install_info": []}
+}

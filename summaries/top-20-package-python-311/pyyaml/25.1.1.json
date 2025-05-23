@@ -1,0 +1,22 @@
+{
+ "input": {
+  "pip_version": "25.1.1", 
+  "python_version": "3.11", 
+  "datetime": "2024-10-07 14:00:00", 
+  "platform_system": "Linux", 
+  "requirements": ["pyyaml"]
+ }, 
+ "result": {"success": true, "failure_reason": null}, 
+ "summary": {
+  "distinct_wheels_visited": 1, 
+  "distinct_sdists_visited": 0, 
+  "total_visited_packages": 1, 
+  "total_visited_requirements": 1, 
+  "total_rejected_requirements": 0, 
+  "total_pinned_packages": 2, 
+  "total_rounds": 2, 
+  "install_info": [
+   {"file": "PyYAML-6.0.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=3ad2a3decf9aaba3d29c8f537ac4b243e36bef957511b4766cb0057d32b0be85"}
+  ]
+ }
+}

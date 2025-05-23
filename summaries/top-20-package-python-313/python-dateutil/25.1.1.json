@@ -1,0 +1,23 @@
+{
+ "input": {
+  "pip_version": "25.1.1", 
+  "python_version": "3.13", 
+  "datetime": "2024-10-07 14:00:00", 
+  "platform_system": "Linux", 
+  "requirements": ["python-dateutil"]
+ }, 
+ "result": {"success": true, "failure_reason": null}, 
+ "summary": {
+  "distinct_wheels_visited": 2, 
+  "distinct_sdists_visited": 0, 
+  "total_visited_packages": 2, 
+  "total_visited_requirements": 3, 
+  "total_rejected_requirements": 0, 
+  "total_pinned_packages": 3, 
+  "total_rounds": 3, 
+  "install_info": [
+   {"file": "python_dateutil-2.9.0.post0-py2.py3-none-any.whl", "hash": "sha256=a8b2bc7bffae282281c8140a97d3aa9c14da0b136dfe83f850eea9a5f7470427"}, 
+   {"file": "six-1.16.0-py2.py3-none-any.whl", "hash": "sha256=8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"}
+  ]
+ }
+}

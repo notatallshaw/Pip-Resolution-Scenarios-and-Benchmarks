@@ -438,6 +438,46 @@ def install_requirements(venv_python: Path, port: str, requirements: list[str], 
     return report_lines, resolution_lines, "\n".join(stderr_clean), resolution_too_deep
 
 
+def calculate_summary_metrics(resolution_rounds: list[dict[str, Any]], install_info: list[dict[str, str]]) -> dict[str, Any]:
+    """
+    Calculate summary metrics from resolution rounds and install info.
+    """
+    wheels: set[str] = set()
+    sdists: set[str] = set()
+    visited_packages = 0
+    visited_requirements = 0
+    rejected_requirements = 0
+    number_pinned = 0
+    number_rounds = len(resolution_rounds)
+    
+    for resolution_round in resolution_rounds:
+        if "pinned" in resolution_round:
+            number_pinned += 1
+        if "added" in resolution_round:
+            visited_packages += len(resolution_round["added"])
+            wheels.update(
+                w for w in resolution_round["added"] if w.endswith(".whl")
+            )
+            sdists.update(
+                s for s in resolution_round["added"] if not s.endswith(".whl")
+            )
+            for added_requirements in resolution_round["added"].values():
+                visited_requirements += len(added_requirements)
+        if "rejected" in resolution_round:
+            rejected_requirements += len(resolution_round["rejected"])
+    
+    return {
+        "distinct_wheels_visited": len(wheels),
+        "distinct_sdists_visited": len(sdists),
+        "total_visited_packages": visited_packages,
+        "total_visited_requirements": visited_requirements,
+        "total_rejected_requirements": rejected_requirements,
+        "total_pinned_packages": number_pinned,
+        "total_rounds": number_rounds,
+        "install_info": sorted(install_info, key=lambda x: (x["file"], x["hash"])),
+    }
+
+
 def process_scenario(
     pip_name: str,
     pip_requirement: str,
@@ -445,7 +485,8 @@ def process_scenario(
     platform_system: str,
     requirements: list[str],
     datetime: str,
-    json_path: Path,
+    summary_path: Path,
+    output_path: Path | None = None,
 ):
     port = str(get_open_port())
     with pip_timemachine(datetime, port), tempfile.TemporaryDirectory() as temp_dir:
@@ -499,8 +540,11 @@ def process_scenario(
                     "hash": extract_filename(download_info["archive_info"]["hash"]),
                 })
 
-        # Build and dump JSON output
-        output_json = {
+        # Calculate summary metrics
+        summary_metrics = calculate_summary_metrics(resolution_lines.resolution_rounds, install_info)
+
+        # Build summary JSON output
+        summary_json = {
             "input": {
                 "pip_version": pip_name,
                 "python_version": python_version,
@@ -511,10 +555,10 @@ def process_scenario(
             "result": {
                 "success": success,
                 "failure_reason": failure_reason,
-                "install_info": sorted(install_info, key=lambda x: (x["file"], x["hash"])),
             },
-            "resolution_rounds": resolution_lines.resolution_rounds,
+            "summary": summary_metrics,
         }
+        
         formatter = Formatter()
         formatter.indent_spaces = 1
         formatter.max_inline_complexity = 1
@@ -525,10 +569,19 @@ def process_scenario(
         formatter.table_list_minimum_similarity = 101
         formatter.json_eol_style = EolStyle.LF
 
-        formatter.dump(output_json, output_file=str(json_path), newline_at_eof=True)
+        # Always write summary file
+        formatter.dump(summary_json, output_file=str(summary_path), newline_at_eof=True)
+
+        # Optionally write detailed output file if requested
+        if output_path is not None:
+            output_json = {
+                **summary_json,
+                "resolution_rounds": resolution_lines.resolution_rounds,
+            }
+            formatter.dump(output_json, output_file=str(output_path), newline_at_eof=True)
 
 
-def process_toml_file(toml_file: Path, pip_name: str, pip_requirement: str) -> None:
+def process_toml_file(toml_file: Path, pip_name: str, pip_requirement: str, include_output: bool = False) -> None:
     local_platform_system = platform.system()
 
     print(f"Running scenarios for system platform: {local_platform_system}")
@@ -544,13 +597,17 @@ def process_toml_file(toml_file: Path, pip_name: str, pip_requirement: str) -> N
         if platform_system != local_platform_system:
             continue
 
-        json_path = Path("output") / Path(toml_file.name).stem / scenario_name / f"{pip_name}.json"
-        if json_path.exists():
+        summary_path = Path("summaries") / Path(toml_file.name).stem / scenario_name / f"{pip_name}.json"
+        output_path = None
+        if include_output:
+            output_path = Path("output") / Path(toml_file.name).stem / scenario_name / f"{pip_name}.json"
+
+        if summary_path.exists():
             try:
-                existing_json = json.load(json_path.open())
+                existing_json = json.load(summary_path.open())
             except json.JSONDecodeError:
-                os.remove(json_path)
-                json_path.touch()
+                os.remove(summary_path)
+                summary_path.touch()
             else:
                 existing_input = existing_json["input"]
                 if existing_input == (
@@ -564,8 +621,11 @@ def process_toml_file(toml_file: Path, pip_name: str, pip_requirement: str) -> N
                 ):
                     continue
         else:
-            json_path.parent.mkdir(exist_ok=True, parents=True)
-            json_path.touch()
+            summary_path.parent.mkdir(exist_ok=True, parents=True)
+            summary_path.touch()
+
+        if output_path is not None:
+            output_path.parent.mkdir(exist_ok=True, parents=True)
 
         print(
             f"Processing {scenario_name!r}: (Pip Version: {pip_name}, Python: {python_version}, Date: {datetime})"
@@ -577,7 +637,8 @@ def process_toml_file(toml_file: Path, pip_name: str, pip_requirement: str) -> N
             python_version=python_version,
             platform_system=platform_system,
             requirements=requirements,
-            json_path=json_path,
+            summary_path=summary_path,
+            output_path=output_path,
         )
 
 
@@ -585,6 +646,7 @@ def main(
     pip_version: str | None = None,
     github_repo: str | None = None,
     git_commit: str | None = None,
+    include_output: bool = False,
 ) -> None:
     """
     Pass in either a pip version or a github branch and git commit
@@ -610,7 +672,7 @@ def main(
     for toml_file in scenarios_path.glob("*.toml"):
         print(f"\n--- Processing file: {toml_file.name[:-5]} ---")
         process_toml_file(
-            toml_file=toml_file, pip_name=pip_name, pip_requirement=pip_requirement
+            toml_file=toml_file, pip_name=pip_name, pip_requirement=pip_requirement, include_output=include_output
         )
 
 
