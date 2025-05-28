@@ -1,0 +1,12 @@
+{
+ "input": {
+  "pip_version": "25.1.1", 
+  "python_version": "3.11", 
+  "datetime": "2025-05-06 14:00:00", 
+  "platform_system": "Linux", 
+  "requirements": ["google-cloud-bigquery>=3", "soda-core"], 
+  "max_resolution_rounds": null, "constraints": null
+ }, 
+ "result": {"success": false, "failure_reason": "Resolution Too Deep"}, 
+ "summary": {"distinct_wheels_visited": 126, "distinct_sdists_visited": 0, "total_visited_packages": 199998, "total_visited_requirements": 999520, "total_rejected_requirements": 487765, "total_pinned_packages": 102447, "total_rounds": 200000, "install_info": []}
+}

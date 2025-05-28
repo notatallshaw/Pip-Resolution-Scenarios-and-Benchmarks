@@ -4,7 +4,8 @@
   "python_version": "3.13", 
   "datetime": "2024-10-07 14:00:00", 
   "platform_system": "Linux", 
-  "requirements": ["boto3"]
+  "requirements": ["boto3"], 
+  "max_resolution_rounds": null, "constraints": null
  }, 
  "result": {"success": true, "failure_reason": null}, 
  "summary": {

@@ -4,7 +4,8 @@
   "python_version": "3.11", 
   "datetime": "2024-10-07 14:00:00", 
   "platform_system": "Linux", 
-  "requirements": ["idna"]
+  "requirements": ["idna"], 
+  "max_resolution_rounds": null, "constraints": null
  }, 
  "result": {"success": true, "failure_reason": null}, 
  "summary": {

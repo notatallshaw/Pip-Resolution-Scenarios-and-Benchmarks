@@ -4,7 +4,8 @@
   "python_version": "3.10", 
   "datetime": "2024-10-22 14:00:00", 
   "platform_system": "Linux", 
-  "requirements": ["numpy==1.21.5", "spacy<4.0.0,>=3.0.0", "mlflow<3.0.0,>=2.13.0"]
+  "requirements": ["numpy==1.21.5", "spacy<4.0.0,>=3.0.0", "mlflow<3.0.0,>=2.13.0"], 
+  "max_resolution_rounds": null, "constraints": null
  }, 
  "result": {"success": false, "failure_reason": "Build Failure"}, 
  "summary": {"distinct_wheels_visited": 82, "distinct_sdists_visited": 0, "total_visited_packages": 208, "total_visited_requirements": 1019, "total_rejected_requirements": 264, "total_pinned_packages": 60, "total_rounds": 76, "install_info": []}

@@ -4,7 +4,8 @@
   "python_version": "3.11", 
   "datetime": "2024-11-09 14:00:00", 
   "platform_system": "Linux", 
-  "requirements": ["apache-airflow==2.7.3", "google-cloud-logging==3.10.0"]
+  "requirements": ["apache-airflow==2.7.3", "google-cloud-logging==3.10.0"], 
+  "max_resolution_rounds": null, "constraints": null
  }, 
  "result": {"success": true, "failure_reason": null}, 
  "summary": {

@@ -4,7 +4,8 @@
   "python_version": "3.12", 
   "datetime": "2024-11-04 14:00:00", 
   "platform_system": "Linux", 
-  "requirements": ["django-stubs[compatible-mypy]", "djangorestframework-stubs[compatible-mypy]>=3"]
+  "requirements": ["django-stubs[compatible-mypy]", "djangorestframework-stubs[compatible-mypy]>=3"], 
+  "max_resolution_rounds": null, "constraints": null
  }, 
  "result": {"success": true, "failure_reason": null}, 
  "summary": {

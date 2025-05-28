@@ -34,6 +34,8 @@ def process_toml_file(toml_file: Path, pip_name_1: str, pip_name_2: str) -> None
         platform_system: str = scenario["platform_system"]
         datetime: str = scenario["datetime"]
         requirements: list[str] = scenario["requirements"]
+        max_resolution_rounds: int | None = scenario.get("max_resolution_rounds")
+        constraints: list[str] | None = scenario.get("constraints")
 
         json_path_1 = (
             Path("summaries")
@@ -61,6 +63,8 @@ def process_toml_file(toml_file: Path, pip_name_1: str, pip_name_2: str) -> None
                 "datetime": datetime,
                 "platform_system": platform_system,
                 "requirements": requirements,
+                "max_resolution_rounds": max_resolution_rounds,
+                "constraints": constraints,
             }
         ):
             print(f"Warning: JSON 1 not in sync with TOML scenario: {str(json_path_1)}")
@@ -75,6 +79,8 @@ def process_toml_file(toml_file: Path, pip_name_1: str, pip_name_2: str) -> None
                 "datetime": datetime,
                 "platform_system": platform_system,
                 "requirements": requirements,
+                "max_resolution_rounds": max_resolution_rounds,
+                "constraints": constraints,
             }
         ):
             print(f"Warning: JSON 2 not in sync with TOML scenario: {str(json_path_1)}")
@@ -85,11 +91,11 @@ def process_toml_file(toml_file: Path, pip_name_1: str, pip_name_2: str) -> None
         failure_reason_1 = json_1["result"]["failure_reason"]
         failure_reason_2 = json_2["result"]["failure_reason"]
         install_info_1 = {
-            install["file"]: install["hash"]
+            install.get("file", install.get("url")): install.get("hash", install.get("commit"))
             for install in json_1["summary"]["install_info"]
         }
         install_info_2 = {
-            install["file"]: install["hash"]
+            install.get("file", install.get("url")): install.get("hash", install.get("commit"))
             for install in json_2["summary"]["install_info"]
         }
 

@@ -4,7 +4,8 @@
   "python_version": "3.11", 
   "datetime": "2024-10-10 14:00:00", 
   "platform_system": "Linux", 
-  "requirements": ["python-rapidjson<=1.20,>=1.4", "sentry-kafka-schemas<=0.1.113,>=0.1.50"]
+  "requirements": ["python-rapidjson<=1.20,>=1.4", "sentry-kafka-schemas<=0.1.113,>=0.1.50"], 
+  "max_resolution_rounds": null, "constraints": null
  }, 
  "result": {"success": true, "failure_reason": null}, 
  "summary": {

@@ -4,7 +4,8 @@
   "python_version": "3.10", 
   "datetime": "2025-03-12 14:00:00", 
   "platform_system": "Linux", 
-  "requirements": ["numpy", "umap-learn"]
+  "requirements": ["numpy", "umap-learn"], 
+  "max_resolution_rounds": null, "constraints": null
  }, 
  "result": {"success": true, "failure_reason": null}, 
  "summary": {
