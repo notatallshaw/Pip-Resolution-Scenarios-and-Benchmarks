@@ -1,0 +1,13 @@
+{
+ "input": {
+  "pip_version": "25.1.1", 
+  "python_version": "3.11", 
+  "datetime": "2025-06-02 14:00:00", 
+  "platform_system": "Linux", 
+  "requirements": ["datacontract-cli==0.10.10"], 
+  "max_resolution_rounds": null, 
+  "constraints": null
+ }, 
+ "result": {"success": false, "failure_reason": "Resolution Too Deep"}, 
+ "summary": {"distinct_wheels_visited": 107, "distinct_sdists_visited": 0, "total_visited_packages": 199991, "total_visited_requirements": 982028, "total_rejected_requirements": 291441, "total_pinned_packages": 102853, "total_rounds": 200000, "install_info": []}
+}

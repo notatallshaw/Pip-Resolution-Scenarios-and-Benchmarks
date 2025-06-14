@@ -1,0 +1,13 @@
+{
+ "input": {
+  "pip_version": "25.1.1", 
+  "python_version": "3.11", 
+  "datetime": "2025-06-02 14:00:00", 
+  "platform_system": "Linux", 
+  "requirements": ["alembic~=1.15", "fastapi[standard]<1.0", "httpx", "numpy~=2.0", "onnxruntime~=1.22", "opencv-python~=4.11", "opencv-python-headless~=4.11", "paddleocr>=3.0.0", "paddlepaddle", "Pillow~=11.0", "pycryptodomex~=3.23", "pydantic~=2.0", "scikit-image<1.0", "scipy~=1.15", "sqlalchemy~=2.0", "tqdm"], 
+  "max_resolution_rounds": null, 
+  "constraints": null
+ }, 
+ "result": {"success": false, "failure_reason": "Resolution Too Deep"}, 
+ "summary": {"distinct_wheels_visited": 97, "distinct_sdists_visited": 0, "total_visited_packages": 193290, "total_visited_requirements": 684547, "total_rejected_requirements": 573712, "total_pinned_packages": 142303, "total_rounds": 200000, "install_info": []}
+}

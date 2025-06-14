@@ -708,3 +708,36 @@ requirements = [
     "git+https://github.com/apache/airflow.git@8642105ced79c887ffcddad0997f61323cb03b07#subdirectory=providers/standard",
     "git+https://github.com/apache/airflow.git@8642105ced79c887ffcddad0997f61323cb03b07#subdirectory=task-sdk"
 ]
+
+[resolution-too-deep-report-2933275750]
+# https://github.com/pypa/pip/issues/13281#issuecomment-2933275750
+python_version = "3.11"
+platform_system = "Linux"
+datetime = "2025-06-02 14:00:00"
+requirements = [
+   "alembic~=1.15",
+    "fastapi[standard]<1.0",
+    "httpx",
+    "numpy~=2.0",
+    "onnxruntime~=1.22",
+    "opencv-python~=4.11",
+    "opencv-python-headless~=4.11",
+    "paddleocr>=3.0.0",
+    "paddlepaddle",
+    "Pillow~=11.0",
+    "pycryptodomex~=3.23",
+    "pydantic~=2.0",
+    "scikit-image<1.0",
+    "scipy~=1.15",
+    "sqlalchemy~=2.0",
+    "tqdm",
+]
+
+[resolution-too-deep-report-2954206760]
+# https://github.com/pypa/pip/issues/13281#issuecomment-2954206760
+python_version = "3.11"
+platform_system = "Linux"
+datetime = "2025-06-02 14:00:00"
+requirements = [
+   "datacontract-cli==0.10.10"
+]
