@@ -1,0 +1,24 @@
+{
+ "input": {
+  "pip_version": "25.2", 
+  "python_version": "3.12", 
+  "datetime": "2024-11-26 14:00:00", 
+  "platform_system": "Linux", 
+  "requirements": ["kauldron[docs]"], 
+  "max_resolution_rounds": null, 
+  "constraints": null
+ }, 
+ "result": {"success": true, "failure_reason": null}, 
+ "summary": {
+  "distinct_wheels_visited": 300, 
+  "distinct_sdists_visited": 6, 
+  "total_visited_packages": 4444, 
+  "total_visited_requirements": 29407, 
+  "total_rejected_requirements": 1812, 
+  "total_pinned_packages": 2241, 
+  "total_rounds": 2709, 
+  "install_info": [
+   {"file": "kauldron-0.1.0-py3-none-any.whl", "hash": "sha256=4762fc66e9c9496785ca3dbdecac07e3507772fa67f90be51a4022e6fb5228b4"}
+  ]
+ }
+}
