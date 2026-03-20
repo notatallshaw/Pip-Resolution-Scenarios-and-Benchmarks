@@ -2,7 +2,7 @@
  "input": {
   "pip_version": "26.0", 
   "python_version": "3.11", 
-  "datetime": "2025-06-02 14:00:00", 
+  "datetime": "2025-06-08 17:23:33", 
   "platform_system": "Linux", 
   "requirements": ["datacontract-cli==0.10.10"], 
   "max_resolution_rounds": null, 
@@ -10,13 +10,13 @@
  }, 
  "result": {"success": true, "failure_reason": null}, 
  "summary": {
-  "distinct_wheels_visited": 246, 
+  "distinct_wheels_visited": 254, 
   "distinct_sdists_visited": 0, 
-  "total_visited_packages": 2003, 
-  "total_visited_requirements": 8650, 
-  "total_rejected_requirements": 1922, 
-  "total_pinned_packages": 1080, 
-  "total_rounds": 1558, 
+  "total_visited_packages": 2136, 
+  "total_visited_requirements": 9200, 
+  "total_rejected_requirements": 2044, 
+  "total_pinned_packages": 1137, 
+  "total_rounds": 1637, 
   "install_info": [
    {"file": "Deprecated-1.2.18-py2.py3-none-any.whl", "hash": "sha256=bd5011788200372a32418f888e326a09ff80d0214bd961147cfed01b5c018eec"}, 
    {"file": "MarkupSafe-2.1.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=f2bfb563d0211ce16b63c7cb9395d2c682a23187f54c3d79bfec33e6705473c6"}, 
@@ -56,7 +56,7 @@
    {"file": "markdown_it_py-3.0.0-py3-none-any.whl", "hash": "sha256=355216845c60bd96232cd8d8c40e8f9765cc86f46880e43a8fd22dc1a1a8cab1"}, 
    {"file": "mdurl-0.1.2-py3-none-any.whl", "hash": "sha256=84008a41e51615a49fc9966191ff91509e3c40b939176e643fd50a5c2196b8f8"}, 
    {"file": "more_itertools-10.7.0-py3-none-any.whl", "hash": "sha256=d43980384673cb07d2f7d2d918c616b30c659c089ee23953f601d6609c67510e"}, 
-   {"file": "numpy-2.2.6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=ba10f8411898fc418a521833e014a77d3ca01c15b0c6cdcce6a0d2897e6dbbdf"}, 
+   {"file": "numpy-2.3.0-cp311-cp311-manylinux_2_28_x86_64.whl", "hash": "sha256=7729c8008d55e80784bd113787ce876ca117185c579c0d626f59b87d433ea779"}, 
    {"file": "opentelemetry_api-1.22.0-py3-none-any.whl", "hash": "sha256=43621514301a7e9f5d06dd8013a1b450f30c2e9372b8e30aaeb4562abf2ce034"}, 
    {"file": "opentelemetry_exporter_otlp_proto_common-1.22.0-py3-none-any.whl", "hash": "sha256=3f2538bec5312587f8676c332b3747f54c89fe6364803a807e217af4603201fa"}, 
    {"file": "opentelemetry_exporter_otlp_proto_grpc-1.22.0-py3-none-any.whl", "hash": "sha256=b5bcadc129272004316a455e9081216d3380c1fc2231a928ea6a70aa90e173fb"}, 
@@ -65,7 +65,7 @@
    {"file": "opentelemetry_sdk-1.22.0-py3-none-any.whl", "hash": "sha256=a730555713d7c8931657612a88a141e3a4fe6eb5523d9e2d5a8b1e673d76efa6"}, 
    {"file": "opentelemetry_semantic_conventions-0.43b0-py3-none-any.whl", "hash": "sha256=291284d7c1bf15fdaddf309b3bd6d3b7ce12a253cec6d27144439819a15d8445"}, 
    {"file": "packaging-25.0-py3-none-any.whl", "hash": "sha256=29572ef2b1f17581046b3a2227d5c611fb25ec70ca1ba8554b24b0e69331a484"}, 
-   {"file": "pandas-2.2.3-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=c124333816c3a9b03fbeef3a9f230ba9a737e9e5bb4060aa2107a86cc0a497fc"}, 
+   {"file": "pandas-2.3.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=14a0cc77b0f089d2d2ffe3007db58f170dae9b9f54e569b299db871a3ab5bf46"}, 
    {"file": "ply-3.11-py2.py3-none-any.whl", "hash": "sha256=096f9b8350b65ebd2fd1346b12452efe5b9607f7482813ffca50c22722a807ce"}, 
    {"file": "protobuf-4.25.8-cp37-abi3-manylinux2014_x86_64.whl", "hash": "sha256=83e6e54e93d2b696a92cad6e6efc924f3850f82b52e1563778dfab8b355101b0"}, 
    {"file": "pydantic-2.8.2-py3-none-any.whl", "hash": "sha256=73ee9fddd406dc318b885c7a2eab8a6472b68b8fb5ba8150949fc3db939f23c8"}, 
@@ -92,7 +92,7 @@
    {"file": "soda_core_duckdb-3.3.22-py3-none-any.whl", "hash": "sha256=36f3b8d7949f01fae1ea3165b2c03321abdb8f51c8f7ca3d4883a0f9618b4fe2"}, 
    {"file": "sqlparse-0.5.3-py3-none-any.whl", "hash": "sha256=cf2196ed3418f3ba5de6af7e82c694a9fbdbfecccdfc72e281548517081f16ca"}, 
    {"file": "starlette-0.37.2-py3-none-any.whl", "hash": "sha256=6fe59f29268538e5d0d182f2791a479a0c64638e6935d1c6989e63fb2699c6ee"}, 
-   {"file": "typeguard-4.4.2-py3-none-any.whl", "hash": "sha256=77a78f11f09777aeae7fa08585f33b5f4ef0e7335af40005b0c422ed398ff48c"}, 
+   {"file": "typeguard-4.4.3-py3-none-any.whl", "hash": "sha256=7d8b4a3d280257fd1aa29023f22de64e29334bda0b172ff1040f05682223795e"}, 
    {"file": "typer-0.12.5-py3-none-any.whl", "hash": "sha256=62fe4e471711b147e3365034133904df3e235698399bc4de2b36c8579298d52b"}, 
    {"file": "typing_extensions-4.14.0-py3-none-any.whl", "hash": "sha256=a1514509136dd0b477638fc68d6a91497af5076466ad0fa6c338e44e359944af"}, 
    {"file": "tzdata-2025.2-py2.py3-none-any.whl", "hash": "sha256=1a403fada01ff9221ca8044d701868fa132215d84beb92242d9acd2147f667a8"}, 
@@ -102,7 +102,7 @@
    {"file": "watchfiles-1.0.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=d5730f3aa35e646103b53389d5bc77edfbf578ab6dab2e005142b5b80a35ef25"}, 
    {"file": "websockets-15.0.1-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=8dd8327c795b3e3f219760fa603dcae1dcc148172290a8ab15158cf85a953413"}, 
    {"file": "wrapt-1.17.2-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=1a7ed2d9d039bd41e889f6fb9364554052ca21ce823580f6a07c4ec245c1f5d6"}, 
-   {"file": "zipp-3.22.0-py3-none-any.whl", "hash": "sha256=fe208f65f2aca48b81f9e6fd8cf7b8b32c26375266b009b413d45306b6148343"}
+   {"file": "zipp-3.23.0-py3-none-any.whl", "hash": "sha256=071652d6115ed432f5ce1d34c336c0adfd6a884660d1e9712a256d3d3bd4b14e"}
   ]
  }
 }

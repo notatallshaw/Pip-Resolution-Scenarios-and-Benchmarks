@@ -269,7 +269,7 @@ requirements = [
 # https://github.com/pypa/pip/issues/13281#issuecomment-2862562444
 python_version = "3.11"
 platform_system = "Linux"
-datetime = "2025-05-08 14:00:00"
+datetime = "2025-05-08 10:32:05"
 requirements = [
    "google-cloud-bigquery>=3.27",
    "weaviate-client>=4.9.3",
@@ -280,7 +280,7 @@ requirements = [
 # https://github.com/pypa/pip/issues/13281#issuecomment-2855868098
 python_version = "3.11"
 platform_system = "Linux"
-datetime = "2025-05-06 14:00:00"
+datetime = "2025-05-06 20:19:31"
 requirements = [
    "google-cloud-bigquery>=3",
    "soda-core",
@@ -293,7 +293,7 @@ requirements = [
 # still reproduces the issue.
 python_version = "3.11"
 platform_system = "Linux"
-datetime = "2025-05-06 14:00:00"
+datetime = "2025-04-29 01:34:23"
 requirements = [
     "acryl-datahub[datahub-rest]==0.14.1.2",
     "aiobotocore[boto3]",
@@ -647,7 +647,7 @@ constraints = [
 #       track the issue.
 python_version = "3.11"
 platform_system = "Linux"
-datetime = "2025-05-01 14:00:00"
+datetime = "2025-04-27 16:40:41"
 requirements = [
     "apache-airflow[aiobotocore,amazon,async,celery,cncf-kubernetes,common-io,common-messaging,docker,elasticsearch,fab,ftp,git,google,google-auth,graphviz,grpc,hashicorp,http,ldap,microsoft-azure,mysql,odbc,openlineage,pandas,postgres,redis,sendgrid,sftp,slack,snowflake,ssh,statsd,uv] @ git+https://github.com/apache/airflow.git@8642105ced79c887ffcddad0997f61323cb03b07",
     "git+https://github.com/apache/airflow.git@8642105ced79c887ffcddad0997f61323cb03b07#subdirectory=airflow-core",
@@ -713,7 +713,7 @@ requirements = [
 # https://github.com/pypa/pip/issues/13281#issuecomment-2933275750
 python_version = "3.11"
 platform_system = "Linux"
-datetime = "2025-06-02 14:00:00"
+datetime = "2025-06-03 03:35:14"
 requirements = [
    "alembic~=1.15",
     "fastapi[standard]<1.0",
@@ -737,7 +737,41 @@ requirements = [
 # https://github.com/pypa/pip/issues/13281#issuecomment-2954206760
 python_version = "3.11"
 platform_system = "Linux"
-datetime = "2025-06-02 14:00:00"
+datetime = "2025-06-08 17:23:33"
 requirements = [
    "datacontract-cli==0.10.10"
+]
+
+[resolution-too-deep-report-2979547359]
+# https://github.com/pypa/pip/issues/13281#issuecomment-2979547359
+python_version = "3.11"
+platform_system = "Linux"
+datetime = "2025-06-17 09:04:05"
+max_resolution_rounds = 200
+requirements = ["rasa-pro"]
+
+[resolution-too-deep-report-2993134249]
+# https://github.com/pypa/pip/issues/13281#issuecomment-2993134249
+# copick package with many scientific deps
+python_version = "3.12"
+platform_system = "Linux"
+datetime = "2025-06-20 23:38:03"
+max_resolution_rounds = 200
+requirements = ["copick==1.2.0"]
+
+[resolution-too-deep-report-3004854118]
+# https://github.com/pypa/pip/issues/13281#issuecomment-3004854118
+# pyiceberg + pyspark combo
+python_version = "3.11"
+platform_system = "Linux"
+datetime = "2025-06-25 13:49:07"
+max_resolution_rounds = 200
+requirements = [
+    "boto3",
+    "pydantic",
+    "pyiceberg[s3fs,sql-sqlite]",
+    "pypika",
+    "pyspark[pandas_on_spark]==3.5.0",
+    "pyarrow",
+    "pandas",
 ]

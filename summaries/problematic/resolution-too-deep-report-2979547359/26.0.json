@@ -1,0 +1,13 @@
+{
+ "input": {
+  "pip_version": "26.0", 
+  "python_version": "3.11", 
+  "datetime": "2025-06-17 09:04:05", 
+  "platform_system": "Linux", 
+  "requirements": ["rasa-pro"], 
+  "max_resolution_rounds": 200, 
+  "constraints": null
+ }, 
+ "result": {"success": false, "failure_reason": "Resolution Too Deep"}, 
+ "summary": {"distinct_wheels_visited": 84, "distinct_sdists_visited": 1, "total_visited_packages": 218, "total_visited_requirements": 919, "total_rejected_requirements": 28, "total_pinned_packages": 215, "total_rounds": 219, "install_info": []}
+}

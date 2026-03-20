@@ -1,0 +1,13 @@
+{
+ "input": {
+  "pip_version": "26.0", 
+  "python_version": "3.11", 
+  "datetime": "2025-06-25 13:49:07", 
+  "platform_system": "Linux", 
+  "requirements": ["boto3", "pydantic", "pyiceberg[s3fs,sql-sqlite]", "pypika", "pyspark[pandas_on_spark]==3.5.0", "pyarrow", "pandas"], 
+  "max_resolution_rounds": 200, 
+  "constraints": null
+ }, 
+ "result": {"success": false, "failure_reason": "Resolution Too Deep"}, 
+ "summary": {"distinct_wheels_visited": 96, "distinct_sdists_visited": 1, "total_visited_packages": 1377, "total_visited_requirements": 3522, "total_rejected_requirements": 1105, "total_pinned_packages": 146, "total_rounds": 201, "install_info": []}
+}

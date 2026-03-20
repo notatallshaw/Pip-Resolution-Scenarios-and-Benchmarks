@@ -2,7 +2,7 @@
  "input": {
   "pip_version": "26.0", 
   "python_version": "3.11", 
-  "datetime": "2025-05-06 14:00:00", 
+  "datetime": "2025-05-06 20:19:31", 
   "platform_system": "Linux", 
   "requirements": ["google-cloud-bigquery>=3", "soda-core"], 
   "max_resolution_rounds": null, 
