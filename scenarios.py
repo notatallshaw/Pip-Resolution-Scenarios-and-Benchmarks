@@ -5,7 +5,6 @@
 #   "inflection",
 #   "typer",
 #   "uv",
-#   "niquests",
 # ]
 # ///
 
@@ -14,7 +13,6 @@ import json
 import os
 import platform
 import re
-import socket
 import subprocess
 import sys
 import tempfile
@@ -22,14 +20,12 @@ import time
 import tomllib
 from collections import defaultdict
 from collections.abc import Generator
-from contextlib import contextmanager
 from io import TextIOWrapper
 from pathlib import Path
 from typing import Any
 from urllib.parse import urlparse
 
 import inflection
-import niquests
 import typer
 from compact_json import EolStyle, Formatter
 
@@ -49,13 +45,13 @@ def extract_filename(url: str) -> str:
 def snakecase_and_strip_suffix(input_str: str, suffix: str = "_requirement") -> str:
     """
     Converts a string to snake_case and removes a specified suffix if it exists.
-    
+
     This function is kept for potential future use in processing requirement names.
-    
+
     Args:
         input_str: The string to convert to snake_case
         suffix: The suffix to remove if present at the end of the string
-        
+
     Returns:
         The converted snake_case string with suffix removed if present
     """
@@ -139,7 +135,9 @@ class RejectedAddedVisitor(ast.NodeVisitor):
         via_filename = None
 
         # Check if requirement_node is a SpecifierRequirement with a string argument
-        if isinstance(requirement_node, ast.Call) and requirement_node.func.id.endswith("Requirement"):
+        if isinstance(requirement_node, ast.Call) and requirement_node.func.id.endswith(
+            "Requirement"
+        ):
             if requirement_node.args:
                 if isinstance(requirement_node.args[0], ast.Constant):
                     requirement_text = requirement_node.args[0].value
@@ -163,7 +161,9 @@ class RejectedAddedVisitor(ast.NodeVisitor):
                             and keyword.value.args
                             and isinstance(keyword.value.args[0], ast.Constant)
                         ):
-                            requirement_text = extract_filename(keyword.value.args[0].value)
+                            requirement_text = extract_filename(
+                                keyword.value.args[0].value
+                            )
                             break
 
         # Check if ExtrasCandidate and extract LinkCandidate from it
@@ -187,55 +187,6 @@ class RejectedAddedVisitor(ast.NodeVisitor):
             self.candidates.append(
                 {"requirement": requirement_text, "from": via_filename}
             )
-
-
-def get_open_port() -> int:
-    _socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    _socket.bind(("", 0))
-    address = _socket.getsockname()
-    port = address[1]
-    _socket.close()
-    return port
-
-
-@contextmanager
-def pip_timemachine(date: str, port: str) -> Generator[subprocess.Popen, None, None]:
-    cmd = [
-        sys.executable,
-        "-m",
-        "uv",
-        "tool",
-        "run",
-        "-p",
-        "3.12",
-        "pip-timemachine@0.2.2",
-        date,
-        "--port",
-        port,
-    ]
-    process = subprocess.Popen(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-    try:
-        # Wait for server to come up before yielding process
-        for _ in range(100):
-            try:
-                niquests.get(
-                    f"http://127.0.0.1:{port}/simple/pip",
-                    headers={"Accept": "application/vnd.pypi.simple.v1+json"},
-                )
-            except niquests.exceptions.ConnectionError:
-                time.sleep(0.1)
-            else:
-                break
-        else:
-            raise RuntimeError("Failed to start pip-timemachine")
-
-        yield process
-    finally:
-        # Request shutdown but don't wait on process
-        try:
-            niquests.get(f"http://127.0.0.1:{port}/shutdown-pip-timemachine-server")
-        except niquests.exceptions.ReadTimeout:
-            pass
 
 
 class ReporterLines:
@@ -302,17 +253,18 @@ class ResolutionLines:
             return
 
         if line.startswith("Reporter.pinning("):
+            if "pinned" not in self._resolution_step:
+                self._resolution_step["pinned"] = []
+
             if "RequiresPythonCandidate" in line:
-                self._resolution_step["pinned"] = "PythonCandidate"
+                self._resolution_step["pinned"].append("PythonCandidate")
                 return
 
             tree = ast.parse(line, mode="eval")
             pinning_visitor = PinningVisitor()
             pinning_visitor.visit(tree)
             if pinning_visitor.pinned_file:
-                if "pinned" in self._resolution_step:
-                    raise ValueError(f"Unexpected second pinning: {line}")
-                self._resolution_step["pinned"] = pinning_visitor.pinned_file
+                self._resolution_step["pinned"].append(pinning_visitor.pinned_file)
             else:
                 raise ValueError(f"Unknown pinning {line}")
             return
@@ -367,40 +319,40 @@ def create_virtualenv(venv_dir: Path, python_version: str) -> Path:
         return venv_dir / "Scripts" / "python.exe"
 
 
-def install_requirements(venv_python: Path, port: str, requirements: list[str], temp_dir: str, max_resolution_rounds: int | None = None, constraints: list[str] | None = None) -> tuple[ReporterLines, ResolutionLines, str, bool]:
-    """
-    Install requirements in the virtual environment and capture the output.
-    Returns a tuple: (report_lines, resolution_lines, stderr_clean, resolution_too_deep).
-    
-    Args:
-        venv_python: Path to the Python executable in the virtual environment
-        port: The port for the pip-timemachine server
-        requirements: List of requirements to install
-        temp_dir: Temporary directory for output files
-        max_resolution_rounds: Maximum number of resolution rounds before terminating (None means no limit)
-        constraints: List of constraints to apply during installation
-    """
+def install_requirements(
+    venv_python: Path,
+    uploaded_prior_to: str,
+    requirements: list[str],
+    temp_dir: str,
+    max_resolution_rounds: int | None = None,
+    constraints: list[str] | None = None,
+) -> tuple[ReporterLines, ResolutionLines, str, bool]:
     # Build the base command
     command_install = [
         str(venv_python),
-        "-W", "ignore",
-        "-m", "pip",
+        "-W",
+        "ignore",
+        "-m",
+        "pip",
         "install",
         "--dry-run",
         "--ignore-installed",
-        "--progress-bar", "off",
+        "--progress-bar",
+        "off",
         "--disable-pip-version-check",
-        "--index-url", f"http://127.0.0.1:{port}/simple",
-        "--report", "-",
+        "--uploaded-prior-to",
+        uploaded_prior_to,
+        "--report",
+        "-",
     ]
-    
+
     # Add constraints file if provided
     if constraints and len(constraints) > 0:
         constraints_file = os.path.join(temp_dir, "constraints.txt")
         with open(constraints_file, "w") as f:
             f.write("\n".join(constraints))
         command_install.extend(["--constraint", constraints_file])
-    
+
     # Add requirements at the end
     command_install.extend(requirements)
     stdout_path = os.path.join(temp_dir, "stdout.txt")
@@ -426,7 +378,11 @@ def install_requirements(venv_python: Path, port: str, requirements: list[str], 
                 if stdout_line:
                     resolution_lines.process_line(stdout_line)
                     report_lines.process_line(stdout_line)
-                    if max_resolution_rounds is not None and len(resolution_lines.resolution_rounds) >= max_resolution_rounds:
+                    if (
+                        max_resolution_rounds is not None
+                        and len(resolution_lines.resolution_rounds)
+                        >= max_resolution_rounds
+                    ):
                         resolution_too_deep = True
                         try:
                             process.terminate()
@@ -445,7 +401,12 @@ def install_requirements(venv_python: Path, port: str, requirements: list[str], 
                     resolution_lines.process_line(stdout_line)
                     report_lines.process_line(stdout_line)
                     # Check again for max resolution rounds in case we're processing remaining lines
-                    if max_resolution_rounds is not None and len(resolution_lines.resolution_rounds) >= max_resolution_rounds and not resolution_too_deep:
+                    if (
+                        max_resolution_rounds is not None
+                        and len(resolution_lines.resolution_rounds)
+                        >= max_resolution_rounds
+                        and not resolution_too_deep
+                    ):
                         resolution_too_deep = True
                         break
                 else:
@@ -473,7 +434,9 @@ def install_requirements(venv_python: Path, port: str, requirements: list[str], 
     return report_lines, resolution_lines, "\n".join(stderr_clean), resolution_too_deep
 
 
-def calculate_summary_metrics(resolution_rounds: list[dict[str, Any]], install_info: list[dict[str, str]]) -> dict[str, Any]:
+def calculate_summary_metrics(
+    resolution_rounds: list[dict[str, Any]], install_info: list[dict[str, str]]
+) -> dict[str, Any]:
     """
     Calculate summary metrics from resolution rounds and install info.
     """
@@ -484,23 +447,19 @@ def calculate_summary_metrics(resolution_rounds: list[dict[str, Any]], install_i
     rejected_requirements = 0
     number_pinned = 0
     number_rounds = len(resolution_rounds)
-    
+
     for resolution_round in resolution_rounds:
         if "pinned" in resolution_round:
-            number_pinned += 1
+            number_pinned += len(resolution_round["pinned"])
         if "added" in resolution_round:
             visited_packages += len(resolution_round["added"])
-            wheels.update(
-                w for w in resolution_round["added"] if w.endswith(".whl")
-            )
-            sdists.update(
-                s for s in resolution_round["added"] if not s.endswith(".whl")
-            )
+            wheels.update(w for w in resolution_round["added"] if w.endswith(".whl"))
+            sdists.update(s for s in resolution_round["added"] if not s.endswith(".whl"))
             for added_requirements in resolution_round["added"].values():
                 visited_requirements += len(added_requirements)
         if "rejected" in resolution_round:
             rejected_requirements += len(resolution_round["rejected"])
-    
+
     return {
         "distinct_wheels_visited": len(wheels),
         "distinct_sdists_visited": len(sdists),
@@ -509,7 +468,15 @@ def calculate_summary_metrics(resolution_rounds: list[dict[str, Any]], install_i
         "total_rejected_requirements": rejected_requirements,
         "total_pinned_packages": number_pinned,
         "total_rounds": number_rounds,
-        "install_info": sorted(install_info, key=lambda x: (x.get("file", ""), x.get("url", ""), x.get("hash", ""), x.get("commit", ""))),
+        "install_info": sorted(
+            install_info,
+            key=lambda x: (
+                x.get("file", ""),
+                x.get("url", ""),
+                x.get("hash", ""),
+                x.get("commit", ""),
+            ),
+        ),
     }
 
 
@@ -525,8 +492,7 @@ def process_scenario(
     max_resolution_rounds: int | None = None,
     constraints: list[str] | None = None,
 ):
-    port = str(get_open_port())
-    with pip_timemachine(datetime, port), tempfile.TemporaryDirectory() as temp_dir:
+    with tempfile.TemporaryDirectory() as temp_dir:
         # Create virtual environment using the helper
         venv_dir = Path(temp_dir) / ".venv"
         venv_python = create_virtualenv(venv_dir, python_version)
@@ -538,17 +504,27 @@ def process_scenario(
             "uv",
             "pip",
             "install",
-            "--python", str(venv_python),
+            "--python",
+            str(venv_python),
             pip_requirement,
         ]
-        result_install_pip = subprocess.run(install_pip_cmd, capture_output=True, text=True)
+        result_install_pip = subprocess.run(
+            install_pip_cmd, capture_output=True, text=True
+        )
         if result_install_pip.returncode != 0:
             print(f"Error installing pip: {result_install_pip.stderr}")
             return
 
         # Install requirements using the helper
-        report_lines, resolution_lines, stderr, resolution_too_deep = install_requirements(
-            venv_python, port, requirements, temp_dir, max_resolution_rounds, constraints
+        report_lines, resolution_lines, stderr, resolution_too_deep = (
+            install_requirements(
+                venv_python,
+                datetime,
+                requirements,
+                temp_dir,
+                max_resolution_rounds,
+                constraints,
+            )
         )
 
         # Handle success/failure status based on stderr and resolution flag
@@ -575,22 +551,28 @@ def process_scenario(
             for report_install in report_json["install"]:
                 download_info = report_install["download_info"]
                 if "archive_info" in download_info:
-                    install_info.append({
-                        "file": extract_filename(download_info["url"]),
-                        "hash": extract_filename(download_info["archive_info"]["hash"]),
-                    })
-                elif "vcs_info" in download_info:
-                    install_info.append({
-                        "url": download_info["url"],
-                        "commit": download_info["vcs_info"]["commit_id"],
-                    })
-                else:
-                    raise ValueError(
-                        f"Unknown download info format: {download_info}"
+                    install_info.append(
+                        {
+                            "file": extract_filename(download_info["url"]),
+                            "hash": extract_filename(
+                                download_info["archive_info"]["hash"]
+                            ),
+                        }
                     )
+                elif "vcs_info" in download_info:
+                    install_info.append(
+                        {
+                            "url": download_info["url"],
+                            "commit": download_info["vcs_info"]["commit_id"],
+                        }
+                    )
+                else:
+                    raise ValueError(f"Unknown download info format: {download_info}")
 
         # Calculate summary metrics
-        summary_metrics = calculate_summary_metrics(resolution_lines.resolution_rounds, install_info)
+        summary_metrics = calculate_summary_metrics(
+            resolution_lines.resolution_rounds, install_info
+        )
 
         # Build summary JSON output
         summary_json = {
@@ -609,7 +591,7 @@ def process_scenario(
             },
             "summary": summary_metrics,
         }
-        
+
         formatter = Formatter()
         formatter.indent_spaces = 1
         formatter.max_inline_complexity = 1
@@ -632,7 +614,9 @@ def process_scenario(
             formatter.dump(output_json, output_file=str(output_path), newline_at_eof=True)
 
 
-def process_toml_file(toml_file: Path, pip_name: str, pip_requirement: str, include_output: bool = False) -> None:
+def process_toml_file(
+    toml_file: Path, pip_name: str, pip_requirement: str, include_output: bool = False
+) -> None:
     local_platform_system = platform.system()
 
     print(f"Running scenarios for system platform: {local_platform_system}")
@@ -650,10 +634,20 @@ def process_toml_file(toml_file: Path, pip_name: str, pip_requirement: str, incl
         if platform_system != local_platform_system:
             continue
 
-        summary_path = Path("summaries") / Path(toml_file.name).stem / scenario_name / f"{pip_name}.json"
+        summary_path = (
+            Path("summaries")
+            / Path(toml_file.name).stem
+            / scenario_name
+            / f"{pip_name}.json"
+        )
         output_path = None
         if include_output:
-            output_path = Path("output") / Path(toml_file.name).stem / scenario_name / f"{pip_name}.json"
+            output_path = (
+                Path("output")
+                / Path(toml_file.name).stem
+                / scenario_name
+                / f"{pip_name}.json"
+            )
 
         if summary_path.exists():
             try:
@@ -729,10 +723,10 @@ def main(
     for toml_file in scenarios_path.glob("*.toml"):
         print(f"\n--- Processing file: {toml_file.name[:-5]} ---")
         process_toml_file(
-            toml_file=toml_file, 
-            pip_name=pip_name, 
-            pip_requirement=pip_requirement, 
-            include_output=include_output
+            toml_file=toml_file,
+            pip_name=pip_name,
+            pip_requirement=pip_requirement,
+            include_output=include_output,
         )
 
 

@@ -22,7 +22,7 @@ def percent_change(value_1: int, value_2: int) -> str:
         else:
             return "inf%"
 
-    return f"{(value_2 * 100)/value_1:.2f}%"
+    return f"{(value_2 * 100) / value_1:.2f}%"
 
 
 def process_toml_file(toml_file: Path, pip_name_1: str, pip_name_2: str) -> None:
@@ -91,18 +91,22 @@ def process_toml_file(toml_file: Path, pip_name_1: str, pip_name_2: str) -> None
         failure_reason_1 = json_1["result"]["failure_reason"]
         failure_reason_2 = json_2["result"]["failure_reason"]
         install_info_1 = {
-            install.get("file", install.get("url")): install.get("hash", install.get("commit"))
+            install.get("file", install.get("url")): install.get(
+                "hash", install.get("commit")
+            )
             for install in json_1["summary"]["install_info"]
         }
         install_info_2 = {
-            install.get("file", install.get("url")): install.get("hash", install.get("commit"))
+            install.get("file", install.get("url")): install.get(
+                "hash", install.get("commit")
+            )
             for install in json_2["summary"]["install_info"]
         }
 
         # Use pre-calculated summary metrics
         summary_1 = json_1["summary"]
         summary_2 = json_2["summary"]
-        
+
         wheels_1 = summary_1["distinct_wheels_visited"]
         sdists_1 = summary_1["distinct_sdists_visited"]
         visited_packages_1 = summary_1["total_visited_packages"]
@@ -134,11 +138,15 @@ def process_toml_file(toml_file: Path, pip_name_1: str, pip_name_2: str) -> None
         if not one_failed and install_info_1 != install_info_2:
             difference_messages.append("Not the same install files")
 
-        if (wheels_1 != wheels_2 or sdists_1 != sdists_2 or 
-            visited_packages_1 != visited_packages_2 or visited_requirements_1 != visited_requirements_2 or
-            rejected_rquirements_1 != rejected_rquirements_2 or number_pinned_1 != number_pinned_2 or
-            number_rounds_1 != number_rounds_2):
-            
+        if (
+            wheels_1 != wheels_2
+            or sdists_1 != sdists_2
+            or visited_packages_1 != visited_packages_2
+            or visited_requirements_1 != visited_requirements_2
+            or rejected_rquirements_1 != rejected_rquirements_2
+            or number_pinned_1 != number_pinned_2
+            or number_rounds_1 != number_rounds_2
+        ):
             if sdists_1 != sdists_2:
                 difference_messages.append(
                     f"Distinct Sdists visisted: {sdists_1} -> {sdists_2} ({percent_change(sdists_1, sdists_2)})"
