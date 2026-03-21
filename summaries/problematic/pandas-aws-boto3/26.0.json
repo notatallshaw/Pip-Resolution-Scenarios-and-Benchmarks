@@ -1,0 +1,48 @@
+{
+ "input": {
+  "pip_version": "26.0", 
+  "python_version": "3.11", 
+  "datetime": "2023-10-10 23:21:00", 
+  "platform_system": "Linux", 
+  "requirements": ["pandas[aws]", "boto3>=1"], 
+  "max_resolution_rounds": null, 
+  "constraints": null
+ }, 
+ "result": {"success": true, "failure_reason": null}, 
+ "summary": {
+  "distinct_wheels_visited": 97, 
+  "distinct_sdists_visited": 4, 
+  "total_visited_packages": 7615, 
+  "total_visited_requirements": 18870, 
+  "total_rejected_requirements": 6426, 
+  "total_pinned_packages": 2738, 
+  "total_rounds": 4642, 
+  "install_info": [
+   {"file": "aiobotocore-2.5.4-py3-none-any.whl", "hash": "sha256=4b32218728ca3d0be83835b604603a0cd6c329066e884bb78149334267f92440"}, 
+   {"file": "aiohttp-3.8.6-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=96603a562b546632441926cd1293cfcb5b69f0b4159e6077f7c7dbdfb686af4d"}, 
+   {"file": "aioitertools-0.11.0-py3-none-any.whl", "hash": "sha256=04b95e3dab25b449def24d7df809411c10e62aab0cbe31a50ca4e68748c43394"}, 
+   {"file": "aiosignal-1.3.1-py3-none-any.whl", "hash": "sha256=f8376fb07dd1e86a584e4fcdec80b36b7f81aac666ebc724e2c090300dd83b17"}, 
+   {"file": "async_timeout-4.0.3-py3-none-any.whl", "hash": "sha256=7405140ff1230c310e51dc27b3145b9092d659ce68ff733fb0cefe3ee42be028"}, 
+   {"file": "attrs-23.1.0-py3-none-any.whl", "hash": "sha256=1f28b4522cdc2fb4256ac1a020c78acf9cba2c6b461ccd2c126f3aa8e8335d04"}, 
+   {"file": "boto3-1.28.17-py3-none-any.whl", "hash": "sha256=bca0526f819e0f19c0f1e6eba3e2d1d6b6a92a45129f98c0d716e5aab6d9444b"}, 
+   {"file": "botocore-1.31.17-py3-none-any.whl", "hash": "sha256=6ac34a1d34aa3750e78b77b8596617e2bab938964694d651939dba2cbde2c12b"}, 
+   {"file": "charset_normalizer-3.3.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=f0d1e3732768fecb052d90d62b220af62ead5748ac51ef61e7b32c266cac9293"}, 
+   {"file": "frozenlist-1.4.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=261b9f5d17cac914531331ff1b1d452125bf5daa05faf73b71d935485b0c510b"}, 
+   {"file": "fsspec-2023.9.2-py3-none-any.whl", "hash": "sha256=603dbc52c75b84da501b9b2ec8c11e1f61c25984c4a0dda1f129ef391fbfc9b4"}, 
+   {"file": "idna-3.4-py3-none-any.whl", "hash": "sha256=90b77e79eaa3eba6de819a0c442c0b4ceefc341a7a2ab77d7562bf49f425c5c2"}, 
+   {"file": "jmespath-1.0.1-py3-none-any.whl", "hash": "sha256=02e2e4cc71b5bcab88332eebf907519190dd9e6e82107fa7f83b1003a6252980"}, 
+   {"file": "multidict-6.0.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=11bdf3f5e1518b24530b8241529d2050014c884cf18b6fc69c0c2b30ca248710"}, 
+   {"file": "numpy-1.26.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=e062aa24638bb5018b7841977c360d2f5917268d125c833a686b7cbabbec496c"}, 
+   {"file": "pandas-2.1.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=dc3657869c7902810f32bd072f0740487f9e030c1a3ab03e0af093db35a9d14e"}, 
+   {"file": "python_dateutil-2.8.2-py2.py3-none-any.whl", "hash": "sha256=961d03dc3453ebbc59dbdea9e4e11c5651520a876d0f4db161e8674aae935da9"}, 
+   {"file": "pytz-2023.3.post1-py2.py3-none-any.whl", "hash": "sha256=ce42d816b81b68506614c11e8937d3aa9e41007ceb50bfdcb0749b921bf646c7"}, 
+   {"file": "s3fs-2023.9.2-py3-none-any.whl", "hash": "sha256=d0e0ad0267820f4e9ff16556e004e6759010e92378aebe2ac5d71419a6ff5387"}, 
+   {"file": "s3transfer-0.6.2-py3-none-any.whl", "hash": "sha256=b014be3a8a2aab98cfe1abc7229cc5a9a0cf05eb9c1f2b86b230fd8df3f78084"}, 
+   {"file": "six-1.16.0-py2.py3-none-any.whl", "hash": "sha256=8abb2f1d86890a2dfb989f9a77cfcfd3e47c2a354b01111771326f8aa26e0254"}, 
+   {"file": "tzdata-2023.3-py2.py3-none-any.whl", "hash": "sha256=7e65763eef3120314099b6939b5546db7adce1e7d6f2e179e3df563c70511eda"}, 
+   {"file": "urllib3-1.26.17-py2.py3-none-any.whl", "hash": "sha256=94a757d178c9be92ef5539b8840d48dc9cf1b2709c9d6b588232a055c524458b"}, 
+   {"file": "wrapt-1.15.0-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=3abbe948c3cbde2689370a262a8d04e32ec2dd4f27103669a45c6929bcdbfe7c"}, 
+   {"file": "yarl-1.9.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", "hash": "sha256=159d81f22d7a43e6eabc36d7194cb53f2f15f498dbbfa8edc8a3239350f59fe7"}
+  ]
+ }
+}
