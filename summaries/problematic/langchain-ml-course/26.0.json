@@ -1,0 +1,13 @@
+{
+ "input": {
+  "pip_version": "26.0", 
+  "python_version": "3.14", 
+  "datetime": "2026-01-28 19:21:17", 
+  "platform_system": "Linux", 
+  "requirements": ["openai", "anthropic", "transformers", "diffusers", "accelerate", "bitsandbytes", "evaluate", "langchain", "langchain-core", "langchain-text-splitters", "langchain-openai", "langchain-chroma", "langchain-community", "scikit-learn", "torch", "torchvision", "torchaudio", "tf-keras", "datasets", "streamlit", "gradio", "flask", "python-dotenv", "ipykernel", "ipywidgets", "tavily-python", "requests", "plotly", "nbformat"], 
+  "max_resolution_rounds": null, 
+  "constraints": null
+ }, 
+ "result": {"success": false, "failure_reason": "Resolution Too Deep"}, 
+ "summary": {"distinct_wheels_visited": 339, "distinct_sdists_visited": 5, "total_visited_packages": 2226669, "total_visited_requirements": 21155177, "total_rejected_requirements": 165914, "total_pinned_packages": 106494, "total_rounds": 199999, "install_info": []}
+}

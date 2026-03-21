@@ -775,3 +775,77 @@ requirements = [
     "pyarrow",
     "pandas",
 ]
+
+[trustllm]
+# https://github.com/pypa/pip/issues/13281#issuecomment-3539489771
+# fschat dependency pulls in heavy ML stack
+python_version = "3.12"
+platform_system = "Linux"
+datetime = "2025-11-16 23:48:07"
+requirements = ["trustllm"]
+
+[metagpt]
+# https://github.com/FoundationAgents/MetaGPT/issues/1825
+# Resolution Impossible, not ResolutionTooDeep
+python_version = "3.12"
+platform_system = "Linux"
+datetime = "2025-05-11 06:38:41"
+requirements = ["metagpt"]
+
+[mem0ai-graph-extras]
+# https://github.com/mem0ai/mem0/issues/3655
+# Loose langchain-community>=0.0.0 causes massive search space
+python_version = "3.12"
+platform_system = "Linux"
+datetime = "2025-10-23 18:32:54"
+requirements = ["mem0ai[graph,extras]"]
+
+[langchain-ml-course]
+# https://github.com/pypa/pip/issues/13281#issuecomment-3813389543
+# Typical ML course requirements.txt with langchain stack
+python_version = "3.14"
+platform_system = "Linux"
+datetime = "2026-01-28 19:21:17"
+requirements = [
+    "openai",
+    "anthropic",
+    "transformers",
+    "diffusers",
+    "accelerate",
+    "bitsandbytes",
+    "evaluate",
+    "langchain",
+    "langchain-core",
+    "langchain-text-splitters",
+    "langchain-openai",
+    "langchain-chroma",
+    "langchain-community",
+    "scikit-learn",
+    "torch",
+    "torchvision",
+    "torchaudio",
+    "tf-keras",
+    "datasets",
+    "streamlit",
+    "gradio",
+    "flask",
+    "python-dotenv",
+    "ipykernel",
+    "ipywidgets",
+    "tavily-python",
+    "requests",
+    "plotly",
+    "nbformat",
+]
+
+[apache-airflow-311-full]
+# https://github.com/pypa/pip/issues/13281#issuecomment-3476741666
+# Airflow 3.1.1 with many provider extras, cffi conflict between
+# cryptography and snowflake-connector-python
+python_version = "3.11"
+platform_system = "Linux"
+datetime = "2025-11-01 19:46:40"
+max_resolution_rounds = 200
+requirements = [
+    "apache-airflow[aiobotocore,amazon,async,celery,cncf-kubernetes,common-io,common-messaging,docker,elasticsearch,fab,ftp,git,google,google-auth,graphviz,grpc,hashicorp,http,microsoft-azure,mysql,odbc,openlineage,pandas,postgres,redis,sendgrid,sftp,slack,snowflake,ssh,statsd,uv]==3.1.1",
+]

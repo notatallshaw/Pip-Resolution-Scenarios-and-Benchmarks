@@ -1,0 +1,13 @@
+{
+ "input": {
+  "pip_version": "26.0", 
+  "python_version": "3.12", 
+  "datetime": "2025-11-16 23:48:07", 
+  "platform_system": "Linux", 
+  "requirements": ["trustllm"], 
+  "max_resolution_rounds": null, 
+  "constraints": null
+ }, 
+ "result": {"success": false, "failure_reason": "Resolution Too Deep"}, 
+ "summary": {"distinct_wheels_visited": 389, "distinct_sdists_visited": 0, "total_visited_packages": 200129, "total_visited_requirements": 1307619, "total_rejected_requirements": 668754, "total_pinned_packages": 103316, "total_rounds": 199999, "install_info": []}
+}
