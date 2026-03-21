@@ -319,6 +319,54 @@ def create_virtualenv(venv_dir: Path, python_version: str) -> Path:
         return venv_dir / "Scripts" / "python.exe"
 
 
+def create_project_dir(
+    temp_dir: str,
+    project_name: str,
+    requirements: list[str],
+    optional_dependencies: dict[str, list[str]] | None = None,
+) -> Path:
+    """
+    Create a minimal pyproject.toml in a subdirectory for project-style
+    installs (pip install . or pip install .[extras]).
+    """
+    project_dir = Path(temp_dir) / "project"
+    project_dir.mkdir()
+
+    lines = [
+        "[build-system]",
+        'requires = ["flit_core>=3.2,<4"]',
+        'build-backend = "flit_core.buildapi"',
+        "",
+        "[project]",
+        f'name = "{project_name}"',
+        'version = "0.0.0"',
+        'description = "benchmark scenario"',
+        'requires-python = ">=3.8"',
+        "dependencies = [",
+    ]
+    for req in requirements:
+        lines.append(f'    "{req}",')
+    lines.append("]")
+
+    if optional_dependencies:
+        lines.append("")
+        lines.append("[project.optional-dependencies]")
+        for group, deps in optional_dependencies.items():
+            dep_strs = ", ".join(f'"{d}"' for d in deps)
+            lines.append(f"{group} = [{dep_strs}]")
+
+    pyproject_path = project_dir / "pyproject.toml"
+    pyproject_path.write_text("\n".join(lines) + "\n")
+
+    # flit_core needs a module matching the project name
+    module_name = project_name.replace("-", "_")
+    module_dir = project_dir / module_name
+    module_dir.mkdir()
+    (module_dir / "__init__.py").write_text("")
+
+    return project_dir
+
+
 def install_requirements(
     venv_python: Path,
     uploaded_prior_to: str,
@@ -326,6 +374,9 @@ def install_requirements(
     temp_dir: str,
     max_resolution_rounds: int | None = None,
     constraints: list[str] | None = None,
+    project_name: str | None = None,
+    project_extras: list[str] | None = None,
+    optional_dependencies: dict[str, list[str]] | None = None,
 ) -> tuple[ReporterLines, ResolutionLines, str, bool]:
     # Build the base command
     command_install = [
@@ -353,8 +404,20 @@ def install_requirements(
             f.write("\n".join(constraints))
         command_install.extend(["--constraint", constraints_file])
 
-    # Add requirements at the end
-    command_install.extend(requirements)
+    # Project-style install: create pyproject.toml and install "." or ".[extras]"
+    if project_name is not None:
+        project_dir = create_project_dir(
+            temp_dir, project_name, requirements, optional_dependencies
+        )
+        if project_extras:
+            extras_str = ",".join(project_extras)
+            command_install.append(f".[{extras_str}]")
+        else:
+            command_install.append(".")
+    else:
+        # Standard requirements install
+        project_dir = None
+        command_install.extend(requirements)
     stdout_path = os.path.join(temp_dir, "stdout.txt")
     stderr_path = os.path.join(temp_dir, "stderr.txt")
     stderr_lines: list[str] = []
@@ -368,6 +431,7 @@ def install_requirements(
             stdout=out,
             stderr=err,
             text=True,
+            cwd=str(project_dir) if project_dir else None,
             env={"PIP_RESOLVER_DEBUG": "1", **os.environ},
         )
         with open(stdout_path, "r") as stdout_tail, open(stderr_path, "r") as stderr_tail:
@@ -424,7 +488,11 @@ def install_requirements(
         if "has invalid metadata" in line:
             metadata_warning = True
             continue
-        if "does not provide the extra" in line or "Running command" in line:
+        if (
+            "does not provide the extra" in line
+            or "Running command" in line
+            or "Ignored the following yanked versions" in line
+        ):
             continue
         if not metadata_warning:
             stderr_clean.append(line)
@@ -491,6 +559,9 @@ def process_scenario(
     output_path: Path | None = None,
     max_resolution_rounds: int | None = None,
     constraints: list[str] | None = None,
+    project_name: str | None = None,
+    project_extras: list[str] | None = None,
+    optional_dependencies: dict[str, list[str]] | None = None,
 ):
     with tempfile.TemporaryDirectory() as temp_dir:
         # Create virtual environment using the helper
@@ -524,6 +595,9 @@ def process_scenario(
                 temp_dir,
                 max_resolution_rounds,
                 constraints,
+                project_name,
+                project_extras,
+                optional_dependencies,
             )
         )
 
@@ -584,6 +658,9 @@ def process_scenario(
                 "requirements": requirements,
                 "max_resolution_rounds": max_resolution_rounds,
                 "constraints": constraints,
+                "project_name": project_name,
+                "project_extras": project_extras,
+                "optional_dependencies": optional_dependencies,
             },
             "result": {
                 "success": success,
@@ -630,6 +707,11 @@ def process_toml_file(
         requirements: list[str] = scenario["requirements"]
         max_resolution_rounds: int | None = scenario.get("max_resolution_rounds")
         constraints: list[str] | None = scenario.get("constraints")
+        project_name: str | None = scenario.get("project_name")
+        project_extras: list[str] | None = scenario.get("project_extras")
+        optional_dependencies: dict[str, list[str]] | None = scenario.get(
+            "optional_dependencies"
+        )
 
         if platform_system != local_platform_system:
             continue
@@ -649,6 +731,19 @@ def process_toml_file(
                 / f"{pip_name}.json"
             )
 
+        expected_input = {
+            "pip_version": pip_name,
+            "python_version": python_version,
+            "datetime": datetime,
+            "platform_system": platform_system,
+            "requirements": requirements,
+            "max_resolution_rounds": max_resolution_rounds,
+            "constraints": constraints,
+            "project_name": project_name,
+            "project_extras": project_extras,
+            "optional_dependencies": optional_dependencies,
+        }
+
         if summary_path.exists():
             try:
                 existing_json = json.load(summary_path.open())
@@ -657,17 +752,10 @@ def process_toml_file(
                 summary_path.touch()
             else:
                 existing_input = existing_json["input"]
-                if existing_input == (
-                    {
-                        "pip_version": pip_name,
-                        "python_version": python_version,
-                        "datetime": datetime,
-                        "platform_system": platform_system,
-                        "requirements": requirements,
-                        "max_resolution_rounds": max_resolution_rounds,
-                        "constraints": constraints,
-                    }
-                ):
+                # Treat missing keys in existing input as None
+                # so old summaries without new fields still match
+                normalized = {k: existing_input.get(k) for k in expected_input}
+                if normalized == expected_input:
                     continue
         else:
             summary_path.parent.mkdir(exist_ok=True, parents=True)
@@ -690,6 +778,9 @@ def process_toml_file(
             output_path=output_path,
             max_resolution_rounds=max_resolution_rounds,
             constraints=constraints,
+            project_name=project_name,
+            project_extras=project_extras,
+            optional_dependencies=optional_dependencies,
         )
 
 

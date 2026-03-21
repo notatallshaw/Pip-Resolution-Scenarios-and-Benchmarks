@@ -1,0 +1,27 @@
+{
+ "input": {
+  "pip_version": "26.0", 
+  "python_version": "3.12", 
+  "datetime": "2025-10-29 09:17:56", 
+  "platform_system": "Linux", 
+  "requirements": ["pyyaml>=6.0.1,<7", "xmltodict>=0.13.0,<0.16", "pydantic>=2.7,<3", "datasets>=2.19.1,<4", "sacrebleu>=2.4.3,<3", "colorama>=0.4.4,<1", "pycountry>=24.6.1,<25", "nltk>=3.9.1,<4", "python-dotenv>=1.0.1,<2", "lingua-language-detector>=2.0.2,<3", "google-crc32c>=1.5.0,<2", "kubernetes>=31.0.0,<32", "langdetect>=1.0.9,<2", "spacy>=3.8.3,<4", "jsonschema>=4.23.0,<5", "mysql-connector-python>=9.0.0,<10", "psycopg2-binary>=2.9.9,<3", "sympy>=1.13.1,<2", "llm-sandbox[docker]>=0.1.8,<0.2", "jsonlines>=4,<5", "lxml>=6,<7", "python-iso639>=2025.2.18", "wandb>=0.21.1,<1", "boto3>=1.40.54,<2"], 
+  "max_resolution_rounds": null, 
+  "constraints": null, 
+  "project_name": "eval-framework", 
+  "project_extras": ["all"], 
+  "optional_dependencies": {
+   "determined": ["determined>=0.38,<0.39", "tensorboard==2.19.0"], 
+   "api": ["aleph-alpha-client>=10,<11"], 
+   "openai": ["openai>=1.62,<2", "tiktoken>=0.9,<0.10"], 
+   "transformers": ["transformers>=4.45.2,<5", "torch>=2.5,<3", "accelerate>=0.30.0,<1"], 
+   "accelerate": ["accelerate"], 
+   "vllm": ["vllm>=0.8.5,<0.9", "torch>=2.5,<3"], 
+   "mistral": ["mistral-common>=1.7,<2", "huggingface-hub>=0.33.2,<0.34", "eval_framework[vllm]"], 
+   "comet": ["unbabel-comet>=2.2.6,<3"], 
+   "optional": ["transformers>=4.45.2,<5", "jinja2>=3.1.6,<4"], 
+   "all": ["eval_framework[determined,api,openai,transformers,accelerate,vllm,comet,optional,mistral]"]
+  }
+ }, 
+ "result": {"success": false, "failure_reason": "Resolution Too Deep"}, 
+ "summary": {"distinct_wheels_visited": 203, "distinct_sdists_visited": 2, "total_visited_packages": 280048, "total_visited_requirements": 2912496, "total_rejected_requirements": 594061, "total_pinned_packages": 115124, "total_rounds": 199999, "install_info": []}
+}
