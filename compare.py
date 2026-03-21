@@ -83,7 +83,7 @@ def process_toml_file(toml_file: Path, pip_name_1: str, pip_name_2: str) -> None
                 "constraints": constraints,
             }
         ):
-            print(f"Warning: JSON 2 not in sync with TOML scenario: {str(json_path_1)}")
+            print(f"Warning: JSON 2 not in sync with TOML scenario: {str(json_path_2)}")
             continue
 
         success_1 = json_1["result"]["success"]

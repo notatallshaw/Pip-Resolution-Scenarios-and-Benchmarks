@@ -294,8 +294,8 @@ def tail_file(file: TextIOWrapper) -> Generator[str | None, None, None]:
         line = file.readline()
         if line:
             if line.endswith("\n"):
-                partial_line = ""
                 yield partial_line + line.rstrip("\n")
+                partial_line = ""
             else:
                 partial_line += line
                 yield None
