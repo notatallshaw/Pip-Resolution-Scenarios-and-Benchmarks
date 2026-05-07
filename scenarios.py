@@ -492,6 +492,8 @@ def install_requirements(
             "does not provide the extra" in line
             or "Running command" in line
             or "Ignored the following yanked versions" in line
+            or "has an invalid Requires-Python" in line
+            or "has an invalid Requires-Dist" in line
         ):
             continue
         if not metadata_warning:
@@ -638,6 +640,15 @@ def process_scenario(
                         {
                             "url": download_info["url"],
                             "commit": download_info["vcs_info"]["commit_id"],
+                        }
+                    )
+                elif "dir_info" in download_info:
+                    install_info.append(
+                        {
+                            "url": download_info["url"],
+                            "editable": str(
+                                download_info["dir_info"].get("editable", False)
+                            ),
                         }
                     )
                 else:

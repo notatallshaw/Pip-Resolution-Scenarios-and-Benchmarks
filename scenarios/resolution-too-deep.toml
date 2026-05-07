@@ -736,6 +736,9 @@ requirements = [
 # Reported via pip-tools but cross-posted to #13281#issuecomment-2840620754.
 # pip-compile chokes on the localstack [runtime] extra mix; reproduces as a
 # project install with the runtime extra. Pip 25.0 was fine, 25.1 regressed.
+# libvirt-python is removed because its sdist needs the libvirt system
+# library; the harness builds sdists during --dry-run resolution while
+# pip-compile (the original reporter's tool) does not.
 python_version = "3.11"
 platform_system = "Linux"
 datetime = "2025-05-05 09:50:30"
@@ -772,7 +775,6 @@ runtime = [
     "kafka-python",
     "confluent-kafka",
     "kubernetes>=21.7.0",
-    "libvirt-python",
     "localstack-core[runtime]>=4.3.1.dev,<4.4",
     "paho-mqtt>=1.5",
     "parquet[snappy]>=1.3.1",
@@ -810,13 +812,15 @@ runtime = [
 [apache-airflow-3-providers-april2025]
 # https://github.com/pypa/pip/issues/13281#issuecomment-2833540863
 # Reconstruction of Jarek's April 2025 Airflow build, using the released
-# PyPI versions of every provider he had pinned via local wheels. This
-# is not byte-identical to Jarek's setup (his airflow wheel was built
-# from main between releases) but it tests the same shape of resolution
-# (airflow 3.0 plus 30+ provider versions plus extras).
+# PyPI versions of every provider he had pinned via local wheels. The
+# datetime is set to 2025-05-01 14:00:00 so all the PyPI versions Jarek
+# pinned are actually available; some providers (e.g. common-compat
+# 1.6.1) were released the day after his comment. This is not
+# byte-identical to Jarek's setup (his airflow wheel was built from
+# main between releases) but it tests the same shape of resolution.
 python_version = "3.12"
 platform_system = "Linux"
-datetime = "2025-04-27 16:40:41"
+datetime = "2025-05-01 14:00:00"
 max_resolution_rounds = 200
 requirements = [
     "apache-airflow[aiobotocore,amazon,async,celery,cncf-kubernetes,common-io,common-messaging,docker,elasticsearch,fab,ftp,git,google,google-auth,graphviz,grpc,hashicorp,http,ldap,microsoft-azure,mysql,odbc,openlineage,pandas,postgres,redis,sendgrid,sftp,slack,snowflake,ssh,statsd,uv]==3.0.0",
@@ -849,7 +853,7 @@ requirements = [
     "apache-airflow-providers-snowflake==6.2.2",
     "apache-airflow-providers-ssh==4.0.1",
     "apache-airflow-providers-standard==1.1.0",
-    "apache-airflow-task-sdk==1.1.0",
+    "apache-airflow-task-sdk==1.0.0",
 ]
 
 [eval-framework-all]
