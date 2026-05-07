@@ -1,18 +1,10 @@
-# These are requirements that have been known to be problamatic, this
-# could be for a number of reasons:
-# * Excessive backtracking causing slow resolution
-# * Excessive backtracking causing build failure
-# * Excessive backtracking causing ResolutionTooDeep
+# Scenarios reported as ResolutionTooDeep. Most come from
+# https://github.com/pypa/pip/issues/13281 (Examples of ResolutionTooDeep
+# in Pip), but a few are from older pip issues, pip-tools, mem0ai, and
+# microsoft/promptflow.
 #
-# Scenarios may be taken from other installers as even if pip doesn't
-# currently file the resolution problematic it might one day regress
-
-[autogluon]
-# https://github.com/pypa/pip/issues/12990
-python_version = "3.11"
-platform_system = "Linux"
-datetime = "2024-10-07 14:00:00"
-requirements = ["autogluon==1.1.1"]
+# A scenario stays here even if a current pip release no longer hits
+# the limit, because the original report was for ResolutionTooDeep.
 
 [pip-issue-12754]
 # https://github.com/pypa/pip/issues/12754
@@ -55,78 +47,6 @@ platform_system = "Linux"
 datetime = "2023-10-01 14:00:00"
 requirements = ["TTS"]
 
-[boto3-urllib3-transient]
-# https://github.com/astral-sh/uv/issues/1398
-python_version = "3.9"
-platform_system = "Linux"
-datetime = "2023-10-01 14:00:00"
-requirements = [
-    "click >= 7.0",
-    "click-loglevel ~= 0.2",
-    "dandi >= 0.24.0",
-    "psutil ~= 5.9",
-    "pyyaml",
-    "selenium",
-]
-
-[numpy-numba]
-# https://github.com/astral-sh/uv/issues/6281#issuecomment-2316240724
-python_version = "3.10"
-platform_system = "Linux"
-datetime = "2024-08-28 14:00:00"
-requirements = [
-    "numpy>=2.1,<2.2",
-    "numba<=0.60,>0.1"
-]
-
-[starlette-fastapi]
-# https://github.com/astral-sh/uv/issues/1575
-python_version = "3.11"
-platform_system = "Linux"
-datetime = "2024-02-17 14:00:00"
-requirements = [
-    "starlette<=0.36.0",
-    "fastapi<=0.115.2",
-]
-
-[sentry-rapid-json]
-# https://github.com/astral-sh/uv/issues/8157
-python_version = "3.11"
-platform_system = "Linux"
-datetime = "2024-10-10 14:00:00"
-requirements = [
-    "python-rapidjson<=1.20,>=1.4",
-    "sentry-kafka-schemas<=0.1.113,>=0.1.50",
-]
-
-[apache-airflow-beam]
-# https://github.com/astral-sh/uv/issues/3078#issuecomment-2062907457
-python_version = "3.11"
-platform_system = "Linux"
-datetime = "2024-04-17 14:00:00"
-requirements = [
-    "apache-airflow[apache-beam]==2.8.4",
-]
-
-[airflow-beam-dill]
-# https://github.com/astral-sh/uv/issues/3078#issuecomment-2062907457
-python_version = "3.11"
-platform_system = "Linux"
-datetime = "2024-04-17 14:00:00"
-requirements = [
-    "dill>=0.2.2",
-    "apache-beam<=2.49.0",
-]
-
-[kedro-test]
-# https://github.com/pradyunsg/pip-resolver-benchmarks/discussions/8#discussioncomment-7807758
-python_version = "3.10"
-platform_system = "Linux"
-datetime = "2023-12-09 14:00:00"
-requirements = [
-    "kedro[test]==0.18.13",
-]
-
 [sphinx]
 # https://github.com/pypa/pip/issues/12430
 python_version = "3.11"
@@ -141,83 +61,6 @@ requirements = [
     "nbsphinx",
 ]
 
-[backtracks-to-old-scipy]
-# https://github.com/pypa/pip/issues/13037
-python_version = "3.10"
-platform_system = "Linux"
-datetime = "2024-10-22 14:00:00"
-requirements = [
-    "numpy==1.21.5",
-    "spacy<4.0.0,>=3.0.0",
-    "mlflow<3.0.0,>=2.13.0",
-]
-
-[zamba]
-# https://github.com/astral-sh/uv/issues/3143
-python_version = "3.9"
-platform_system = "Linux"
-datetime = "2024-04-20 14:00:00"
-requirements = [
-  "appdirs",
-  "av",
-  "cloudpathlib[s3]",
-  "botocore>=1.34.0",
-  "ffmpeg-python",
-  "future",
-  "fvcore",
-  "gitpython",
-  "loguru",
-  "numpy",
-  "opencv-python-headless",
-  "openpyxl",
-  "pandas>=2.0.0",
-  "pandas_path",
-  "pqdm",
-  "pydantic<2.0.0",
-  "python-dotenv",
-  "pytorch-lightning>=2.0.0",
-  "pytorchvideo",
-  "scikit-learn",
-  "tensorboard",
-  "thop==0.0.31.post2005241907",
-  "timm",
-  "torch",
-  "torchinfo",
-  "torchvision>=0.10.0",
-  "tqdm",
-  "typer[all]",
-  "coverage",
-  "Pillow>=9.0.0",
-  "pytest",
-  "pytest-coverage",
-  "pytest-mock",
-  "wheel",
-]
-
-[old-web3]
-# https://github.com/astral-sh/uv/issues/4372
-python_version = "3.10"
-platform_system = "Linux"
-datetime = "2024-06-17 14:00:00"
-requirements = [
-    "eth-typing",
-    "numpy",
-    "streamlit",
-    "web3"
-]
-
-[svcs]
-# https://github.com/astral-sh/uv/issues/1575
-python_version = "3.10"
-platform_system = "Linux"
-datetime = "2024-02-17 14:00:00"
-requirements = [
-    "attrs>=21.3.0",
-    "svcs[tests,typing]",
-    "tox>4",
-    "httpx",
-]
-
 [apache-airflow-google-cloud]
 # https://github.com/pypa/pip/issues/12754#issuecomment-2458484064
 python_version = "3.11"
@@ -228,42 +71,21 @@ requirements = [
     "google-cloud-logging==3.10.0",
 ]
 
-[django-stubs]
+[mem0ai-graph-extras]
+# https://github.com/mem0ai/mem0/issues/3655
+# Loose langchain-community>=0.0.0 causes massive search space
 python_version = "3.12"
 platform_system = "Linux"
-datetime = "2024-11-04 14:00:00"
-requirements = [
-   "django-stubs[compatible-mypy]",
-   "djangorestframework-stubs[compatible-mypy]>=3",
-]
+datetime = "2025-10-23 18:32:54"
+requirements = ["mem0ai[graph,extras]"]
 
-[kauldron-docs]
+[promptflow-vectordb]
+# https://github.com/microsoft/promptflow/issues/4018
+# promptflow + vectordb combo, reported ~30min then resolution-too-deep
 python_version = "3.12"
 platform_system = "Linux"
-datetime = "2024-11-26 14:00:00"
-requirements = [
-   "kauldron[docs]"
-]
-
-
-[numpy-umap-learn]
-# https://github.com/astral-sh/uv/issues/12060
-python_version = "3.10"
-platform_system = "Linux"
-datetime = "2025-03-12 14:00:00"
-requirements = [
-   "numpy",
-   "umap-learn"
-]
-
-[ipykernel]
-# https://github.com/pypa/pip/issues/13267
-python_version = "3.14"
-platform_system = "Windows"
-datetime = "2025-03-06 14:00:00"
-requirements = [
-   "ipykernel"
-]
+datetime = "2025-06-06 12:35:16"
+requirements = ["promptflow", "promptflow-vectordb"]
 
 [resolution-too-deep-report-2862562444]
 # https://github.com/pypa/pip/issues/13281#issuecomment-2862562444
@@ -275,7 +97,6 @@ requirements = [
    "weaviate-client>=4.9.3",
 ]
 
-
 [resolution-too-deep-report-2855868098]
 # https://github.com/pypa/pip/issues/13281#issuecomment-2855868098
 python_version = "3.11"
@@ -285,7 +106,6 @@ requirements = [
    "google-cloud-bigquery>=3",
    "soda-core",
 ]
-
 
 [resolution-too-deep-report-2837189308]
 # https://github.com/pypa/pip/issues/13281#issuecomment-2837189308
@@ -640,14 +460,25 @@ constraints = [
     "XlsxWriter >= 3.2.0",
 ]
 
-
 [resolution-too-deep-report-2833540863]
 # https://github.com/pypa/pip/issues/13281#issuecomment-2833540863
-# TODO: This isn't reproducing the issue as reported yet, but leaving here to
-#       track the issue.
-python_version = "3.11"
+# Jarek's original repro built local wheels from airflow main and used
+# file:// URLs. The closest substitute we have is git+ URLs at the same
+# commit, but pip has to clone airflow and build each subdirectory,
+# which is slow and pulls trove-classifiers==2025.4.28.22 as a build
+# dep (released 2025-04-28). The commit hash is from 2025-05-01, so
+# the datetime is set to 2025-05-01 14:00:00. The git+ URL approach
+# does not appear to reproduce ResolutionTooDeep on current pip
+# because each git+ URL is a single pinned candidate that doesn't
+# backtrack the way Jarek's locally built wheels did. To truly match
+# Jarek's setup we would need to build all 30+ provider wheels first
+# and install them via file:// URLs; see apache-airflow-3-providers-april2025
+# for a PyPI-version-pinned approximation. Each git clone is ~1 minute
+# so a full run with all subdirectories takes 30+ minutes.
+python_version = "3.12"
 platform_system = "Linux"
-datetime = "2025-04-27 16:40:41"
+datetime = "2025-05-01 14:00:00"
+max_resolution_rounds = 200
 requirements = [
     "apache-airflow[aiobotocore,amazon,async,celery,cncf-kubernetes,common-io,common-messaging,docker,elasticsearch,fab,ftp,git,google,google-auth,graphviz,grpc,hashicorp,http,ldap,microsoft-azure,mysql,odbc,openlineage,pandas,postgres,redis,sendgrid,sftp,slack,snowflake,ssh,statsd,uv] @ git+https://github.com/apache/airflow.git@8642105ced79c887ffcddad0997f61323cb03b07",
     "git+https://github.com/apache/airflow.git@8642105ced79c887ffcddad0997f61323cb03b07#subdirectory=airflow-core",
@@ -784,21 +615,71 @@ platform_system = "Linux"
 datetime = "2025-11-16 23:48:07"
 requirements = ["trustllm"]
 
-[metagpt]
-# https://github.com/FoundationAgents/MetaGPT/issues/1825
-# Resolution Impossible, not ResolutionTooDeep
-python_version = "3.12"
+[purldb-dev-editable]
+# https://github.com/pypa/pip/issues/13281#issuecomment-2902614340
+# Hritik14 reported on pip 25.1.1 / Python 3.13. Original install was
+# `pip install --upgrade --editable '.[dev]'` against purldb's setup.cfg.
+# Modeled here as a project-style install with the dev extra.
+python_version = "3.13"
 platform_system = "Linux"
-datetime = "2025-05-11 06:38:41"
-requirements = ["metagpt"]
-
-[mem0ai-graph-extras]
-# https://github.com/mem0ai/mem0/issues/3655
-# Loose langchain-community>=0.0.0 causes massive search space
-python_version = "3.12"
-platform_system = "Linux"
-datetime = "2025-10-23 18:32:54"
-requirements = ["mem0ai[graph,extras]"]
+datetime = "2026-05-07 08:42:53"
+project_name = "purldb"
+project_extras = ["dev"]
+requirements = [
+    "aboutcode.pipeline >= 0.2.1",
+    "arrow >= 1.3.0",
+    "debian-inspector >= 31.1.1",
+    "commoncode >= 32.3.0",
+    "Django >= 5.1.11",
+    "django-environ >= 0.12.0",
+    "django-rq >= 3.0.1",
+    "djangorestframework >= 3.16.0",
+    "django-filter >= 25.1",
+    "drf-spectacular >= 0.28.0",
+    "fetchcode >= 0.6.0",
+    "gunicorn >= 23.0.0",
+    "ftputil >= 5.1.0",
+    "jawa >= 2.2.0",
+    "markdown >= 3.8.2",
+    "natsort >= 8.4.0",
+    "packageurl-python >= 0.17.3",
+    "psycopg[binary] >= 3.2.9",
+    "PyGithub >= 2.6.1",
+    "reppy2 >= 0.3.6",
+    "rq-scheduler >= 0.14.0",
+    "rubymarshal == 1.0.3",
+    "scancode-toolkit[packages] >= 32.4.0",
+    "urlpy >= 0.5",
+    "matchcode-toolkit >= 7.2.2",
+    "purl2vcs >= 2.0.0",
+    "univers >= 31.0.0",
+    "scancodeio >= 35.5.0",
+    "GitPython >= 3.1.44",
+    "samecode >= 0.5.1",
+    "aboutcode.federatedcode >= 0.1.0",
+    "aboutcode.federated >= 0.1.0",
+    "minecode-pipelines",
+]
+[purldb-dev-editable.optional_dependencies]
+dev = [
+    "pytest >= 7.0.1",
+    "pytest-xdist >= 2",
+    "pytest-django",
+    "aboutcode-toolkit >= 11.1.1",
+    "mock",
+    "flot",
+    "ruff",
+    "django-debug-toolbar",
+    "twine",
+    "Sphinx>=5.0.2",
+    "sphinx-rtd-theme>=1.0.0",
+    "sphinx-reredirects >= 0.1.2",
+    "doc8>=0.11.2",
+    "sphinx-autobuild",
+    "sphinx-rtd-dark-mode>=1.3.0",
+    "sphinx-copybutton",
+    "sphinx_rtd_dark_mode",
+]
 
 [langchain-ml-course]
 # https://github.com/pypa/pip/issues/13281#issuecomment-3813389543
@@ -850,81 +731,125 @@ requirements = [
     "apache-airflow[aiobotocore,amazon,async,celery,cncf-kubernetes,common-io,common-messaging,docker,elasticsearch,fab,ftp,git,google,google-auth,graphviz,grpc,hashicorp,http,microsoft-azure,mysql,odbc,openlineage,pandas,postgres,redis,sendgrid,sftp,slack,snowflake,ssh,statsd,uv]==3.1.1",
 ]
 
-[promptflow-vectordb]
-# https://github.com/microsoft/promptflow/issues/4018
-# promptflow + vectordb combo, reported ~30min then resolution-too-deep
+[localstack-runtime]
+# https://github.com/jazzband/pip-tools/issues/2177
+# Reported via pip-tools but cross-posted to #13281#issuecomment-2840620754.
+# pip-compile chokes on the localstack [runtime] extra mix; reproduces as a
+# project install with the runtime extra. Pip 25.0 was fine, 25.1 regressed.
+python_version = "3.11"
+platform_system = "Linux"
+datetime = "2025-05-05 09:50:30"
+project_name = "localstack-runtime-repro"
+project_extras = ["runtime"]
+requirements = [
+    "dill>=0.3.2",
+    "dnslib>=0.9.10",
+    "dnspython>=1.16.0",
+    "packaging",
+    "build",
+    "plux>=1.10.0",
+    "localstack-core>=4.3.1.dev,<4.4",
+    "pyotp>=2.9.0",
+    "python-jose[cryptography]>=3.1.0",
+    "requests>=2.20.0",
+    "python-dateutil>=2.8",
+    "tabulate",
+]
+[localstack-runtime.optional_dependencies]
+runtime = [
+    "amazon.ion>=0.9.3",
+    "avro>=1.11.0",
+    "aws-encryption-sdk>=3.1.0",
+    "aws-json-term-matcher>=0.1.5",
+    "cedarpy>=4.1.0",
+    "dirtyjson>=1.0.7",
+    "distro",
+    "docker-registry-client>=0.5.2",
+    "dulwich>=0.19.16",
+    "graphql-core>=3.0.3",
+    "janus>=0.5.0",
+    "jsonpatch>=1.32",
+    "kafka-python",
+    "confluent-kafka",
+    "kubernetes>=21.7.0",
+    "libvirt-python",
+    "localstack-core[runtime]>=4.3.1.dev,<4.4",
+    "paho-mqtt>=1.5",
+    "parquet[snappy]>=1.3.1",
+    "parse>=1.19.0",
+    "pg8000>=1.10",
+    "postgres>=2.2.2",
+    "postgresql-proxy>=0.2.0",
+    "presto-python-client>=0.7.0",
+    "pycdlib>=1.14.0",
+    "pyftpdlib>=1.5.6",
+    "pyhive[hive_pure_sasl]>=0.7.0",
+    "pure-sasl>=0.6.2",
+    "thrift>=0.10.0",
+    "thrift_sasl>=0.1.0",
+    "pyion2json>=0.0.2",
+    "PyJWT>=1.7.0",
+    "pymysql",
+    "mysql-replication",
+    "pproxy-ext>=2.7.9",
+    "pyqldb~=3.2",
+    "python-snappy>=0.6",
+    "readerwriterlock>=1.0.7",
+    "redis>=5.0",
+    "rsa>=4.0",
+    "sql-metadata>=2.6.0",
+    "sqlglot[rs]",
+    "srp-ext>=1.0.7.1",
+    "testing.common.database>=1.1.0",
+    "tornado>=6.0",
+    "warrant-ext>=0.6.2",
+    "websockets>=8.1,<14",
+    "Whoosh>=2.7.4",
+]
+
+[apache-airflow-3-providers-april2025]
+# https://github.com/pypa/pip/issues/13281#issuecomment-2833540863
+# Reconstruction of Jarek's April 2025 Airflow build, using the released
+# PyPI versions of every provider he had pinned via local wheels. This
+# is not byte-identical to Jarek's setup (his airflow wheel was built
+# from main between releases) but it tests the same shape of resolution
+# (airflow 3.0 plus 30+ provider versions plus extras).
 python_version = "3.12"
 platform_system = "Linux"
-datetime = "2025-06-06 12:35:16"
-requirements = ["promptflow", "promptflow-vectordb"]
-
-[pandas-aws-boto3]
-# https://github.com/pandas-dev/pandas/issues/55480
-# Classic backtracking case: boto3/botocore upper bound on urllib3
-# causes backtracking over 40+ minor versions
-python_version = "3.11"
-platform_system = "Linux"
-datetime = "2023-10-10 23:21:00"
-requirements = ["pandas[aws]", "boto3>=1"]
-
-[aicsimageio-napari]
-# https://github.com/pypa/pip/issues/12210
-# Diamond dependency pattern causes extremely slow resolution
-python_version = "3.9"
-platform_system = "Linux"
-datetime = "2023-08-07 07:19:54"
+datetime = "2025-04-27 16:40:41"
+max_resolution_rounds = 200
 requirements = [
-    "aicsimageio==4.9.1",
-    "napari-aicsimageio==0.7.2",
-    "napari==0.4.18",
-]
-
-[open-r1]
-# https://github.com/huggingface/open-r1/issues/668
-# HuggingFace open-r1 core deps (without git deps)
-python_version = "3.11"
-platform_system = "Linux"
-datetime = "2025-05-29 08:33:51"
-requirements = [
-    "accelerate==1.4.0",
-    "bitsandbytes>=0.43.0",
-    "datasets>=3.2.0",
-    "deepspeed==0.16.8",
-    "einops>=0.8.0",
-    "hf_transfer>=0.1.4",
-    "huggingface-hub[cli]>=0.30.2,<1.0",
-    "liger-kernel>=0.5.10",
-    "math-verify==0.5.2",
-    "torch>=2.5.0",
-    "transformers>=4.51.0",
-    "trl>=0.16.0",
-    "vllm>=0.7.3",
-    "wandb>=0.19.1",
-]
-
-[ultralytics-export]
-# https://github.com/ultralytics/ultralytics/issues/22758
-# ResolutionTooDeep on Jetson (arm64), resolves fine on x86 Linux.
-# Kept as baseline to ensure no regression.
-python_version = "3.10"
-platform_system = "Linux"
-datetime = "2025-11-22 15:47:49"
-requirements = ["ultralytics[export]"]
-
-[stackstac]
-# https://github.com/pdm-project/pdm/issues/2193
-# Slow in PDM (40+ minutes), resolves quickly in pip.
-# Kept as baseline to ensure no regression.
-python_version = "3.10"
-platform_system = "Linux"
-datetime = "2023-08-19 15:50:41"
-requirements = [
-    "dask[array]>=2022.1.1",
-    "pyproj>=3.0.0,<4.0.0",
-    "rasterio>=1.3.0,<2.0.0",
-    "xarray>=0.18",
-    "numpy>1.23,<3",
-    "pandas>=2,<3",
+    "apache-airflow[aiobotocore,amazon,async,celery,cncf-kubernetes,common-io,common-messaging,docker,elasticsearch,fab,ftp,git,google,google-auth,graphviz,grpc,hashicorp,http,ldap,microsoft-azure,mysql,odbc,openlineage,pandas,postgres,redis,sendgrid,sftp,slack,snowflake,ssh,statsd,uv]==3.0.0",
+    "apache-airflow-providers-amazon==9.6.1",
+    "apache-airflow-providers-celery==3.10.6",
+    "apache-airflow-providers-cncf-kubernetes==10.4.3",
+    "apache-airflow-providers-common-compat==1.6.1",
+    "apache-airflow-providers-common-io==1.5.4",
+    "apache-airflow-providers-common-messaging==1.0.0",
+    "apache-airflow-providers-common-sql==1.26.0",
+    "apache-airflow-providers-docker==4.3.1",
+    "apache-airflow-providers-elasticsearch==6.2.2",
+    "apache-airflow-providers-fab==2.0.2",
+    "apache-airflow-providers-ftp==3.12.3",
+    "apache-airflow-providers-git==0.0.2",
+    "apache-airflow-providers-google==15.1.0",
+    "apache-airflow-providers-grpc==3.7.3",
+    "apache-airflow-providers-hashicorp==4.1.1",
+    "apache-airflow-providers-http==5.2.2",
+    "apache-airflow-providers-microsoft-azure==12.3.1",
+    "apache-airflow-providers-mysql==6.2.2",
+    "apache-airflow-providers-odbc==4.9.2",
+    "apache-airflow-providers-openlineage==2.2.0",
+    "apache-airflow-providers-postgres==6.1.3",
+    "apache-airflow-providers-redis==4.0.2",
+    "apache-airflow-providers-sendgrid==4.0.1",
+    "apache-airflow-providers-sftp==5.2.1",
+    "apache-airflow-providers-slack==9.0.5",
+    "apache-airflow-providers-smtp==2.0.3",
+    "apache-airflow-providers-snowflake==6.2.2",
+    "apache-airflow-providers-ssh==4.0.1",
+    "apache-airflow-providers-standard==1.1.0",
+    "apache-airflow-task-sdk==1.1.0",
 ]
 
 [eval-framework-all]

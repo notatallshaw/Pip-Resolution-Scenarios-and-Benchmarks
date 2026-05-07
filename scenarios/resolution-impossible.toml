@@ -1,0 +1,21 @@
+# Scenarios reported as ResolutionImpossible. The resolver finds the
+# graph genuinely unsatisfiable rather than running out of rounds, so
+# these test the error path and any speed of detection.
+
+[ipykernel]
+# https://github.com/pypa/pip/issues/13267
+# Reported on Python 3.14a05 / Windows; behaviour matches on Linux too
+# once a recent enough python toolchain is in play.
+python_version = "3.14"
+platform_system = "Windows"
+datetime = "2025-03-06 14:00:00"
+requirements = [
+   "ipykernel"
+]
+
+[metagpt]
+# https://github.com/FoundationAgents/MetaGPT/issues/1825
+python_version = "3.12"
+platform_system = "Linux"
+datetime = "2025-05-11 06:38:41"
+requirements = ["metagpt"]

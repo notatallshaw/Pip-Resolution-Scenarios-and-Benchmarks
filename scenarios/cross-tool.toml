@@ -1,0 +1,175 @@
+# Scenarios reported on other resolvers (uv, pdm, ultralytics, kedro,
+# etc.). Pip currently handles most of these without trouble, so they
+# act as regression baselines: a future pip change should not turn any
+# of these into ResolutionTooDeep or excessive backtracking.
+
+[boto3-urllib3-transient]
+# https://github.com/astral-sh/uv/issues/1398
+python_version = "3.9"
+platform_system = "Linux"
+datetime = "2023-10-01 14:00:00"
+requirements = [
+    "click >= 7.0",
+    "click-loglevel ~= 0.2",
+    "dandi >= 0.24.0",
+    "psutil ~= 5.9",
+    "pyyaml",
+    "selenium",
+]
+
+[numpy-numba]
+# https://github.com/astral-sh/uv/issues/6281#issuecomment-2316240724
+python_version = "3.10"
+platform_system = "Linux"
+datetime = "2024-08-28 14:00:00"
+requirements = [
+    "numpy>=2.1,<2.2",
+    "numba<=0.60,>0.1"
+]
+
+[starlette-fastapi]
+# https://github.com/astral-sh/uv/issues/1575
+python_version = "3.11"
+platform_system = "Linux"
+datetime = "2024-02-17 14:00:00"
+requirements = [
+    "starlette<=0.36.0",
+    "fastapi<=0.115.2",
+]
+
+[sentry-rapid-json]
+# https://github.com/astral-sh/uv/issues/8157
+python_version = "3.11"
+platform_system = "Linux"
+datetime = "2024-10-10 14:00:00"
+requirements = [
+    "python-rapidjson<=1.20,>=1.4",
+    "sentry-kafka-schemas<=0.1.113,>=0.1.50",
+]
+
+[apache-airflow-beam]
+# https://github.com/astral-sh/uv/issues/3078#issuecomment-2062907457
+python_version = "3.11"
+platform_system = "Linux"
+datetime = "2024-04-17 14:00:00"
+requirements = [
+    "apache-airflow[apache-beam]==2.8.4",
+]
+
+[airflow-beam-dill]
+# https://github.com/astral-sh/uv/issues/3078#issuecomment-2062907457
+python_version = "3.11"
+platform_system = "Linux"
+datetime = "2024-04-17 14:00:00"
+requirements = [
+    "dill>=0.2.2",
+    "apache-beam<=2.49.0",
+]
+
+[zamba]
+# https://github.com/astral-sh/uv/issues/3143
+python_version = "3.9"
+platform_system = "Linux"
+datetime = "2024-04-20 14:00:00"
+requirements = [
+  "appdirs",
+  "av",
+  "cloudpathlib[s3]",
+  "botocore>=1.34.0",
+  "ffmpeg-python",
+  "future",
+  "fvcore",
+  "gitpython",
+  "loguru",
+  "numpy",
+  "opencv-python-headless",
+  "openpyxl",
+  "pandas>=2.0.0",
+  "pandas_path",
+  "pqdm",
+  "pydantic<2.0.0",
+  "python-dotenv",
+  "pytorch-lightning>=2.0.0",
+  "pytorchvideo",
+  "scikit-learn",
+  "tensorboard",
+  "thop==0.0.31.post2005241907",
+  "timm",
+  "torch",
+  "torchinfo",
+  "torchvision>=0.10.0",
+  "tqdm",
+  "typer[all]",
+  "coverage",
+  "Pillow>=9.0.0",
+  "pytest",
+  "pytest-coverage",
+  "pytest-mock",
+  "wheel",
+]
+
+[old-web3]
+# https://github.com/astral-sh/uv/issues/4372
+python_version = "3.10"
+platform_system = "Linux"
+datetime = "2024-06-17 14:00:00"
+requirements = [
+    "eth-typing",
+    "numpy",
+    "streamlit",
+    "web3"
+]
+
+[svcs]
+# https://github.com/astral-sh/uv/issues/1575
+python_version = "3.10"
+platform_system = "Linux"
+datetime = "2024-02-17 14:00:00"
+requirements = [
+    "attrs>=21.3.0",
+    "svcs[tests,typing]",
+    "tox>4",
+    "httpx",
+]
+
+[numpy-umap-learn]
+# https://github.com/astral-sh/uv/issues/12060
+python_version = "3.10"
+platform_system = "Linux"
+datetime = "2025-03-12 14:00:00"
+requirements = [
+   "numpy",
+   "umap-learn"
+]
+
+[stackstac]
+# https://github.com/pdm-project/pdm/issues/2193
+# Slow in PDM (40+ minutes), resolves quickly in pip.
+python_version = "3.10"
+platform_system = "Linux"
+datetime = "2023-08-19 15:50:41"
+requirements = [
+    "dask[array]>=2022.1.1",
+    "pyproj>=3.0.0,<4.0.0",
+    "rasterio>=1.3.0,<2.0.0",
+    "xarray>=0.18",
+    "numpy>1.23,<3",
+    "pandas>=2,<3",
+]
+
+[kedro-test]
+# https://github.com/pradyunsg/pip-resolver-benchmarks/discussions/8#discussioncomment-7807758
+python_version = "3.10"
+platform_system = "Linux"
+datetime = "2023-12-09 14:00:00"
+requirements = [
+    "kedro[test]==0.18.13",
+]
+
+[ultralytics-export]
+# https://github.com/ultralytics/ultralytics/issues/22758
+# ResolutionTooDeep on Jetson (arm64), resolves fine on x86 Linux.
+python_version = "3.10"
+platform_system = "Linux"
+datetime = "2025-11-22 15:47:49"
+requirements = ["ultralytics[export]"]

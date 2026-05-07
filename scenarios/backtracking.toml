@@ -1,0 +1,85 @@
+# Scenarios reported as excessive backtracking, slow resolution, or
+# build failures caused by selecting an old version after backtracking.
+# Pip currently completes most of these but performance is the focus.
+
+[autogluon]
+# https://github.com/pypa/pip/issues/12990
+# Resolver picks an old onnx that fails to build; symptom of bad
+# backtracking heuristics rather than ResolutionTooDeep.
+python_version = "3.11"
+platform_system = "Linux"
+datetime = "2024-10-07 14:00:00"
+requirements = ["autogluon==1.1.1"]
+
+[backtracks-to-old-scipy]
+# https://github.com/pypa/pip/issues/13037
+# pip prefers old sdists that "obviously" can't work over recent wheels.
+python_version = "3.10"
+platform_system = "Linux"
+datetime = "2024-10-22 14:00:00"
+requirements = [
+    "numpy==1.21.5",
+    "spacy<4.0.0,>=3.0.0",
+    "mlflow<3.0.0,>=2.13.0",
+]
+
+[pandas-aws-boto3]
+# https://github.com/pandas-dev/pandas/issues/55480
+# Classic backtracking case: boto3/botocore upper bound on urllib3
+# causes backtracking over 40+ minor versions.
+python_version = "3.11"
+platform_system = "Linux"
+datetime = "2023-10-10 23:21:00"
+requirements = ["pandas[aws]", "boto3>=1"]
+
+[aicsimageio-napari]
+# https://github.com/pypa/pip/issues/12210
+# Diamond dependency pattern causes extremely slow resolution.
+python_version = "3.9"
+platform_system = "Linux"
+datetime = "2023-08-07 07:19:54"
+requirements = [
+    "aicsimageio==4.9.1",
+    "napari-aicsimageio==0.7.2",
+    "napari==0.4.18",
+]
+
+[open-r1]
+# https://github.com/huggingface/open-r1/issues/668
+# HuggingFace open-r1 core deps (without git deps).
+python_version = "3.11"
+platform_system = "Linux"
+datetime = "2025-05-29 08:33:51"
+requirements = [
+    "accelerate==1.4.0",
+    "bitsandbytes>=0.43.0",
+    "datasets>=3.2.0",
+    "deepspeed==0.16.8",
+    "einops>=0.8.0",
+    "hf_transfer>=0.1.4",
+    "huggingface-hub[cli]>=0.30.2,<1.0",
+    "liger-kernel>=0.5.10",
+    "math-verify==0.5.2",
+    "torch>=2.5.0",
+    "transformers>=4.51.0",
+    "trl>=0.16.0",
+    "vllm>=0.7.3",
+    "wandb>=0.19.1",
+]
+
+[django-stubs]
+python_version = "3.12"
+platform_system = "Linux"
+datetime = "2024-11-04 14:00:00"
+requirements = [
+   "django-stubs[compatible-mypy]",
+   "djangorestframework-stubs[compatible-mypy]>=3",
+]
+
+[kauldron-docs]
+python_version = "3.12"
+platform_system = "Linux"
+datetime = "2024-11-26 14:00:00"
+requirements = [
+   "kauldron[docs]"
+]
