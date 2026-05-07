@@ -463,18 +463,18 @@ constraints = [
 [resolution-too-deep-report-2833540863]
 # https://github.com/pypa/pip/issues/13281#issuecomment-2833540863
 # Jarek's original repro built local wheels from airflow main and used
-# file:// URLs. The closest substitute we have is git+ URLs at the same
-# commit, but pip has to clone airflow and build each subdirectory,
-# which is slow and pulls trove-classifiers==2025.4.28.22 as a build
-# dep (released 2025-04-28). The commit hash is from 2025-05-01, so
-# the datetime is set to 2025-05-01 14:00:00. The git+ URL approach
-# does not appear to reproduce ResolutionTooDeep on current pip
-# because each git+ URL is a single pinned candidate that doesn't
-# backtrack the way Jarek's locally built wheels did. To truly match
-# Jarek's setup we would need to build all 30+ provider wheels first
-# and install them via file:// URLs; see apache-airflow-3-providers-april2025
-# for a PyPI-version-pinned approximation. Each git clone is ~1 minute
-# so a full run with all subdirectories takes 30+ minutes.
+# file:// URLs. The git+ URL substitute below clones each subdirectory
+# at the same commit. The commit hash 8642105... is from 2025-05-01
+# (per github API), not Jarek's posting date 2025-04-27, and its
+# pyproject.toml requires trove-classifiers==2025.4.28.22 as a build
+# dep, so the datetime must be at least 2025-04-28 to find that
+# build dep on PyPI. With datetime 2025-05-01 14:00:00 and python
+# 3.12, this scenario reproduces ResolutionTooDeep on pip 26.0 in
+# ~205 rounds. Each pip-side git clone takes ~1 minute so a full
+# run is in the 30 to 60 minute range. apache-airflow-3-providers-april2025
+# is a much faster PyPI-pinned substitute that hits the same RTD
+# without needing 30+ clones; build_airflow_wheels.py would let a
+# future harness change skip the per-clone overhead entirely.
 python_version = "3.12"
 platform_system = "Linux"
 datetime = "2025-05-01 14:00:00"
